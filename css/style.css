@@ -1,0 +1,297 @@
+:root {
+    --gold: #ffaa00;
+    --dark: #111;
+    --text-glow: 0 0 10px rgba(255, 170, 0, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* MEDIA CANVAS (Bottom Layer) */
+#media-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.media-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    filter: brightness(0.35);
+}
+
+.media-layer.active {
+    opacity: 1;
+}
+
+/* Allows videos in future */
+.media-layer video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* UI OVERLAY */
+#ui-container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 4px;
+    text-shadow: var(--text-glow);
+}
+
+header p {
+    opacity: 0.7;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.sm-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.sm-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--gold);
+}
+
+/* VIEWS */
+.view {
+    flex-grow: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-active {
+    display: flex !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* PLAYER VIEW */
+#lyrics-display {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    max-height: 50vh;      /* prevent giant lines from pushing controls off-screen */
+    overflow-y: auto;     /* scroll long lyric blocks instead of growing forever */
+    overflow-x: hidden;
+    word-wrap: break-word;
+    min-height: 0;        /* allow flex child to shrink */
+}
+
+.lyric-line {
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+
+#lyric-prev,
+#lyric-next {
+    font-size: 1.2rem;
+    opacity: 0.3;
+}
+
+#lyric-curr {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--gold);
+    text-shadow: 0 0 15px rgba(255, 170, 0, 0.4);
+    transition: font-size 0.3s ease, transform 0.15s ease;
+}
+
+/* Responsive lyric sizing based on length */
+#lyric-curr.lyric-short {
+    font-size: 3.2rem;
+}
+#lyric-curr.lyric-medium {
+    font-size: 2.4rem;
+}
+#lyric-curr.lyric-long {
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+/* Word-level highlight classes */
+.word-active {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+.word-inactive {
+    opacity: 0.7;
+}
+
+/* Clean meaning subtitle */
+.lyric-meaning {
+    display: block;
+    font-size: 0.85rem;
+    font-style: italic;
+    opacity: 0.75;
+    color: #ccc;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+#player-controls {
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 170, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.track-info {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 4px;
+    background: #333;
+    cursor: pointer;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background: var(--gold);
+    transition: width 0.1s linear;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.buttons button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: var(--gold);
+}
+
+/* EDITOR VIEW */
+#editor-layout {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    gap: 20px;
+}
+
+.editor-panel {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-panel h3 {
+    margin-bottom: 15px;
+    color: var(--gold);
+}
+
+textarea {
+    flex-grow: 1;
+    background: #222;
+    color: #0f0;
+    border: 1px solid #555;
+    padding: 10px;
+    font-family: monospace;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.action-btn {
+    background: var(--gold);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.action-btn:hover {
+    background: #ffcc55;
+}
+
+.instruction {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+#sync-status {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f00;
+}

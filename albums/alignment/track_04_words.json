@@ -1,0 +1,751 @@
+{
+    "id": "track_04",
+    "segments": [
+        {
+            "start": 32.18,
+            "end": 32.22,
+            "text": "all night.",
+            "words": [
+                {
+                    "start": 32.18,
+                    "end": 32.2,
+                    "text": "all"
+                },
+                {
+                    "start": 32.2,
+                    "end": 32.22,
+                    "text": "night."
+                }
+            ]
+        },
+        {
+            "start": 32.72,
+            "end": 34.24,
+            "text": "Rules and rituals,",
+            "words": [
+                {
+                    "start": 32.72,
+                    "end": 33.26,
+                    "text": "Rules"
+                },
+                {
+                    "start": 33.26,
+                    "end": 33.72,
+                    "text": "and"
+                },
+                {
+                    "start": 33.72,
+                    "end": 34.24,
+                    "text": "rituals,"
+                }
+            ]
+        },
+        {
+            "start": 34.7,
+            "end": 36.22,
+            "text": "rules and rituals,",
+            "words": [
+                {
+                    "start": 34.7,
+                    "end": 35.06,
+                    "text": "rules"
+                },
+                {
+                    "start": 35.06,
+                    "end": 35.72,
+                    "text": "and"
+                },
+                {
+                    "start": 35.72,
+                    "end": 36.22,
+                    "text": "rituals,"
+                }
+            ]
+        },
+        {
+            "start": 36.6,
+            "end": 38.7,
+            "text": "everybody's got the truth.",
+            "words": [
+                {
+                    "start": 36.6,
+                    "end": 37.74,
+                    "text": "everybody's"
+                },
+                {
+                    "start": 37.74,
+                    "end": 37.94,
+                    "text": "got"
+                },
+                {
+                    "start": 37.94,
+                    "end": 38.16,
+                    "text": "the"
+                },
+                {
+                    "start": 38.16,
+                    "end": 38.7,
+                    "text": "truth."
+                }
+            ]
+        },
+        {
+            "start": 40.62,
+            "end": 42.24,
+            "text": "Rules and rituals,",
+            "words": [
+                {
+                    "start": 40.62,
+                    "end": 41.26,
+                    "text": "Rules"
+                },
+                {
+                    "start": 41.26,
+                    "end": 41.72,
+                    "text": "and"
+                },
+                {
+                    "start": 41.72,
+                    "end": 42.24,
+                    "text": "rituals,"
+                }
+            ]
+        },
+        {
+            "start": 42.66,
+            "end": 44.22,
+            "text": "rules and rituals,",
+            "words": [
+                {
+                    "start": 42.66,
+                    "end": 43.26,
+                    "text": "rules"
+                },
+                {
+                    "start": 43.26,
+                    "end": 43.76,
+                    "text": "and"
+                },
+                {
+                    "start": 43.76,
+                    "end": 44.22,
+                    "text": "rituals,"
+                }
+            ]
+        },
+        {
+            "start": 44.72,
+            "end": 46.76,
+            "text": "everyone except the youth.",
+            "words": [
+                {
+                    "start": 44.72,
+                    "end": 45.24,
+                    "text": "everyone"
+                },
+                {
+                    "start": 45.24,
+                    "end": 45.94,
+                    "text": "except"
+                },
+                {
+                    "start": 45.94,
+                    "end": 46.22,
+                    "text": "the"
+                },
+                {
+                    "start": 46.22,
+                    "end": 46.76,
+                    "text": "youth."
+                }
+            ]
+        },
+        {
+            "start": 48.68,
+            "end": 49.52,
+            "text": "Tronco preach to the truth,",
+            "words": [
+                {
+                    "start": 48.68,
+                    "end": 49.18,
+                    "text": "Tronco"
+                },
+                {
+                    "start": 49.18,
+                    "end": 49.42,
+                    "text": "preach"
+                },
+                {
+                    "start": 49.42,
+                    "end": 49.48,
+                    "text": "to"
+                },
+                {
+                    "start": 49.48,
+                    "end": 49.5,
+                    "text": "the"
+                },
+                {
+                    "start": 49.5,
+                    "end": 49.52,
+                    "text": "truth,"
+                }
+            ]
+        },
+        {
+            "start": 49.94,
+            "end": 50.62,
+            "text": "the real.",
+            "words": [
+                {
+                    "start": 49.94,
+                    "end": 50.2,
+                    "text": "the"
+                },
+                {
+                    "start": 50.2,
+                    "end": 50.62,
+                    "text": "real."
+                }
+            ]
+        },
+        {
+            "start": 51.98,
+            "end": 54.82,
+            "text": "Said the magic I can feel.",
+            "words": [
+                {
+                    "start": 51.98,
+                    "end": 52.42,
+                    "text": "Said"
+                },
+                {
+                    "start": 52.42,
+                    "end": 52.6,
+                    "text": "the"
+                },
+                {
+                    "start": 52.6,
+                    "end": 53.22,
+                    "text": "magic"
+                },
+                {
+                    "start": 53.22,
+                    "end": 53.9,
+                    "text": "I"
+                },
+                {
+                    "start": 53.9,
+                    "end": 54.16,
+                    "text": "can"
+                },
+                {
+                    "start": 54.16,
+                    "end": 54.82,
+                    "text": "feel."
+                }
+            ]
+        },
+        {
+            "start": 56.18,
+            "end": 58.3,
+            "text": "I just sat upon my throne.",
+            "words": [
+                {
+                    "start": 56.18,
+                    "end": 56.36,
+                    "text": "I"
+                },
+                {
+                    "start": 56.36,
+                    "end": 56.66,
+                    "text": "just"
+                },
+                {
+                    "start": 56.66,
+                    "end": 57.0,
+                    "text": "sat"
+                },
+                {
+                    "start": 57.0,
+                    "end": 57.38,
+                    "text": "upon"
+                },
+                {
+                    "start": 57.38,
+                    "end": 57.68,
+                    "text": "my"
+                },
+                {
+                    "start": 57.68,
+                    "end": 58.3,
+                    "text": "throne."
+                }
+            ]
+        },
+        {
+            "start": 59.0,
+            "end": 62.86,
+            "text": "Eating berries all alone",
+            "words": [
+                {
+                    "start": 59.0,
+                    "end": 60.58,
+                    "text": "Eating"
+                },
+                {
+                    "start": 60.58,
+                    "end": 61.3,
+                    "text": "berries"
+                },
+                {
+                    "start": 61.3,
+                    "end": 62.28,
+                    "text": "all"
+                },
+                {
+                    "start": 62.28,
+                    "end": 62.86,
+                    "text": "alone"
+                }
+            ]
+        },
+        {
+            "start": 64.58,
+            "end": 66.48,
+            "text": "The box became a sacred thing",
+            "words": [
+                {
+                    "start": 64.58,
+                    "end": 64.74,
+                    "text": "The"
+                },
+                {
+                    "start": 64.74,
+                    "end": 65.0,
+                    "text": "box"
+                },
+                {
+                    "start": 65.0,
+                    "end": 65.48,
+                    "text": "became"
+                },
+                {
+                    "start": 65.48,
+                    "end": 65.72,
+                    "text": "a"
+                },
+                {
+                    "start": 65.72,
+                    "end": 66.12,
+                    "text": "sacred"
+                },
+                {
+                    "start": 66.12,
+                    "end": 66.48,
+                    "text": "thing"
+                }
+            ]
+        },
+        {
+            "start": 66.6,
+            "end": 68.4,
+            "text": "A totem, a god, a queen, a king",
+            "words": [
+                {
+                    "start": 66.6,
+                    "end": 66.76,
+                    "text": "A"
+                },
+                {
+                    "start": 66.76,
+                    "end": 67.14,
+                    "text": "totem,"
+                },
+                {
+                    "start": 67.2,
+                    "end": 67.3,
+                    "text": "a"
+                },
+                {
+                    "start": 67.3,
+                    "end": 67.58,
+                    "text": "god,"
+                },
+                {
+                    "start": 67.66,
+                    "end": 67.78,
+                    "text": "a"
+                },
+                {
+                    "start": 67.78,
+                    "end": 67.98,
+                    "text": "queen,"
+                },
+                {
+                    "start": 68.06,
+                    "end": 68.2,
+                    "text": "a"
+                },
+                {
+                    "start": 68.2,
+                    "end": 68.4,
+                    "text": "king"
+                }
+            ]
+        },
+        {
+            "start": 68.6,
+            "end": 70.36,
+            "text": "I tried to say it's just a tool",
+            "words": [
+                {
+                    "start": 68.6,
+                    "end": 68.74,
+                    "text": "I"
+                },
+                {
+                    "start": 68.74,
+                    "end": 69.0,
+                    "text": "tried"
+                },
+                {
+                    "start": 69.0,
+                    "end": 69.2,
+                    "text": "to"
+                },
+                {
+                    "start": 69.2,
+                    "end": 69.5,
+                    "text": "say"
+                },
+                {
+                    "start": 69.5,
+                    "end": 69.74,
+                    "text": "it's"
+                },
+                {
+                    "start": 69.74,
+                    "end": 70.0,
+                    "text": "just"
+                },
+                {
+                    "start": 70.0,
+                    "end": 70.16,
+                    "text": "a"
+                },
+                {
+                    "start": 70.16,
+                    "end": 70.36,
+                    "text": "tool"
+                }
+            ]
+        },
+        {
+            "start": 70.4,
+            "end": 72.76,
+            "text": "But they wanted magic, they wanted fuel",
+            "words": [
+                {
+                    "start": 70.4,
+                    "end": 70.62,
+                    "text": "But"
+                },
+                {
+                    "start": 70.62,
+                    "end": 70.76,
+                    "text": "they"
+                },
+                {
+                    "start": 70.76,
+                    "end": 71.12,
+                    "text": "wanted"
+                },
+                {
+                    "start": 71.12,
+                    "end": 71.58,
+                    "text": "magic,"
+                },
+                {
+                    "start": 71.7,
+                    "end": 71.78,
+                    "text": "they"
+                },
+                {
+                    "start": 71.78,
+                    "end": 72.14,
+                    "text": "wanted"
+                },
+                {
+                    "start": 72.14,
+                    "end": 72.76,
+                    "text": "fuel"
+                }
+            ]
+        },
+        {
+            "start": 76.62,
+            "end": 78.28,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 76.62,
+                    "end": 77.3,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 77.3,
+                    "end": 77.72,
+                    "text": "and"
+                },
+                {
+                    "start": 77.72,
+                    "end": 78.28,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 78.7,
+            "end": 80.3,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 78.7,
+                    "end": 79.34,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 79.34,
+                    "end": 79.78,
+                    "text": "and"
+                },
+                {
+                    "start": 79.78,
+                    "end": 80.3,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 80.68,
+            "end": 82.3,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 80.68,
+                    "end": 81.34,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 81.34,
+                    "end": 81.74,
+                    "text": "and"
+                },
+                {
+                    "start": 81.74,
+                    "end": 82.3,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 82.66,
+            "end": 84.22,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 82.66,
+                    "end": 83.28,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 83.28,
+                    "end": 83.72,
+                    "text": "and"
+                },
+                {
+                    "start": 83.72,
+                    "end": 84.22,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 84.68,
+            "end": 86.28,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 84.68,
+                    "end": 85.34,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 85.34,
+                    "end": 85.76,
+                    "text": "and"
+                },
+                {
+                    "start": 85.76,
+                    "end": 86.28,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 86.72,
+            "end": 88.27,
+            "text": "Bruise and litule",
+            "words": [
+                {
+                    "start": 86.72,
+                    "end": 87.26,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 87.26,
+                    "end": 87.7,
+                    "text": "and"
+                },
+                {
+                    "start": 87.7,
+                    "end": 88.27,
+                    "text": "litule"
+                }
+            ]
+        },
+        {
+            "start": 88.27,
+            "end": 90.48,
+            "text": "Rules and lit you up",
+            "words": [
+                {
+                    "start": 88.27,
+                    "end": 89.28,
+                    "text": "Rules"
+                },
+                {
+                    "start": 89.28,
+                    "end": 89.7,
+                    "text": "and"
+                },
+                {
+                    "start": 89.7,
+                    "end": 89.98,
+                    "text": "lit"
+                },
+                {
+                    "start": 89.98,
+                    "end": 90.26,
+                    "text": "you"
+                },
+                {
+                    "start": 90.26,
+                    "end": 90.48,
+                    "text": "up"
+                }
+            ]
+        },
+        {
+            "start": 90.64,
+            "end": 92.46,
+            "text": "Rules and lit you up",
+            "words": [
+                {
+                    "start": 90.64,
+                    "end": 91.2,
+                    "text": "Rules"
+                },
+                {
+                    "start": 91.2,
+                    "end": 91.6,
+                    "text": "and"
+                },
+                {
+                    "start": 91.6,
+                    "end": 91.94,
+                    "text": "lit"
+                },
+                {
+                    "start": 91.94,
+                    "end": 92.18,
+                    "text": "you"
+                },
+                {
+                    "start": 92.18,
+                    "end": 92.46,
+                    "text": "up"
+                }
+            ]
+        },
+        {
+            "start": 93.18,
+            "end": 94.1,
+            "text": "Should be noon",
+            "words": [
+                {
+                    "start": 93.18,
+                    "end": 93.42,
+                    "text": "Should"
+                },
+                {
+                    "start": 93.42,
+                    "end": 93.66,
+                    "text": "be"
+                },
+                {
+                    "start": 93.66,
+                    "end": 94.1,
+                    "text": "noon"
+                }
+            ]
+        },
+        {
+            "start": 95.46,
+            "end": 96.24,
+            "text": "Night time",
+            "words": [
+                {
+                    "start": 95.46,
+                    "end": 95.84,
+                    "text": "Night"
+                },
+                {
+                    "start": 95.84,
+                    "end": 96.24,
+                    "text": "time"
+                }
+            ]
+        },
+        {
+            "start": 97.52,
+            "end": 98.05,
+            "text": "The wheel",
+            "words": [
+                {
+                    "start": 97.52,
+                    "end": 97.72,
+                    "text": "The"
+                },
+                {
+                    "start": 97.72,
+                    "end": 98.05,
+                    "text": "wheel"
+                }
+            ]
+        },
+        {
+            "start": 98.05,
+            "end": 98.38,
+            "text": "Oh",
+            "words": [
+                {
+                    "start": 98.05,
+                    "end": 98.38,
+                    "text": "Oh"
+                }
+            ]
+        }
+    ]
+}

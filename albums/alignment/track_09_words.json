@@ -1,0 +1,583 @@
+{
+    "id": "track_09",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 7.67,
+            "text": "When I got home, I sat on the couch and stared at the ceiling, the hedgehog chewing on my shoes, and I thought,",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.48,
+                    "text": "When"
+                },
+                {
+                    "start": 0.48,
+                    "end": 0.62,
+                    "text": "I"
+                },
+                {
+                    "start": 0.62,
+                    "end": 0.82,
+                    "text": "got"
+                },
+                {
+                    "start": 0.82,
+                    "end": 1.16,
+                    "text": "home,"
+                },
+                {
+                    "start": 1.34,
+                    "end": 1.88,
+                    "text": "I"
+                },
+                {
+                    "start": 1.88,
+                    "end": 2.16,
+                    "text": "sat"
+                },
+                {
+                    "start": 2.16,
+                    "end": 2.3,
+                    "text": "on"
+                },
+                {
+                    "start": 2.3,
+                    "end": 2.42,
+                    "text": "the"
+                },
+                {
+                    "start": 2.42,
+                    "end": 2.76,
+                    "text": "couch"
+                },
+                {
+                    "start": 2.76,
+                    "end": 3.04,
+                    "text": "and"
+                },
+                {
+                    "start": 3.04,
+                    "end": 3.44,
+                    "text": "stared"
+                },
+                {
+                    "start": 3.44,
+                    "end": 3.6,
+                    "text": "at"
+                },
+                {
+                    "start": 3.6,
+                    "end": 3.74,
+                    "text": "the"
+                },
+                {
+                    "start": 3.74,
+                    "end": 4.12,
+                    "text": "ceiling,"
+                },
+                {
+                    "start": 4.64,
+                    "end": 4.78,
+                    "text": "the"
+                },
+                {
+                    "start": 4.78,
+                    "end": 5.3,
+                    "text": "hedgehog"
+                },
+                {
+                    "start": 5.3,
+                    "end": 5.66,
+                    "text": "chewing"
+                },
+                {
+                    "start": 5.66,
+                    "end": 5.9,
+                    "text": "on"
+                },
+                {
+                    "start": 5.9,
+                    "end": 6.08,
+                    "text": "my"
+                },
+                {
+                    "start": 6.08,
+                    "end": 6.56,
+                    "text": "shoes,"
+                },
+                {
+                    "start": 6.7,
+                    "end": 7.32,
+                    "text": "and"
+                },
+                {
+                    "start": 7.32,
+                    "end": 7.48,
+                    "text": "I"
+                },
+                {
+                    "start": 7.48,
+                    "end": 7.67,
+                    "text": "thought,"
+                }
+            ]
+        },
+        {
+            "start": 7.67,
+            "end": 18.84,
+            "text": "fuck, it's always the same shit. The lighter was just a lighter, but they made it a totem, a symbol of power, a reason for war.",
+            "words": [
+                {
+                    "start": 7.67,
+                    "end": 8.7,
+                    "text": "fuck,"
+                },
+                {
+                    "start": 9.0,
+                    "end": 9.48,
+                    "text": "it's"
+                },
+                {
+                    "start": 9.48,
+                    "end": 9.92,
+                    "text": "always"
+                },
+                {
+                    "start": 9.92,
+                    "end": 10.22,
+                    "text": "the"
+                },
+                {
+                    "start": 10.22,
+                    "end": 10.66,
+                    "text": "same"
+                },
+                {
+                    "start": 10.66,
+                    "end": 11.2,
+                    "text": "shit."
+                },
+                {
+                    "start": 11.48,
+                    "end": 11.86,
+                    "text": "The"
+                },
+                {
+                    "start": 11.86,
+                    "end": 12.18,
+                    "text": "lighter"
+                },
+                {
+                    "start": 12.18,
+                    "end": 12.44,
+                    "text": "was"
+                },
+                {
+                    "start": 12.44,
+                    "end": 12.68,
+                    "text": "just"
+                },
+                {
+                    "start": 12.68,
+                    "end": 12.86,
+                    "text": "a"
+                },
+                {
+                    "start": 12.86,
+                    "end": 13.18,
+                    "text": "lighter,"
+                },
+                {
+                    "start": 13.62,
+                    "end": 13.96,
+                    "text": "but"
+                },
+                {
+                    "start": 13.96,
+                    "end": 14.14,
+                    "text": "they"
+                },
+                {
+                    "start": 14.14,
+                    "end": 14.4,
+                    "text": "made"
+                },
+                {
+                    "start": 14.4,
+                    "end": 14.54,
+                    "text": "it"
+                },
+                {
+                    "start": 14.54,
+                    "end": 14.76,
+                    "text": "a"
+                },
+                {
+                    "start": 14.76,
+                    "end": 15.24,
+                    "text": "totem,"
+                },
+                {
+                    "start": 15.68,
+                    "end": 15.94,
+                    "text": "a"
+                },
+                {
+                    "start": 15.94,
+                    "end": 16.38,
+                    "text": "symbol"
+                },
+                {
+                    "start": 16.38,
+                    "end": 16.58,
+                    "text": "of"
+                },
+                {
+                    "start": 16.58,
+                    "end": 17.02,
+                    "text": "power,"
+                },
+                {
+                    "start": 17.5,
+                    "end": 17.76,
+                    "text": "a"
+                },
+                {
+                    "start": 17.76,
+                    "end": 18.16,
+                    "text": "reason"
+                },
+                {
+                    "start": 18.16,
+                    "end": 18.42,
+                    "text": "for"
+                },
+                {
+                    "start": 18.42,
+                    "end": 18.84,
+                    "text": "war."
+                }
+            ]
+        },
+        {
+            "start": 19.36,
+            "end": 24.44,
+            "text": "And today, thousands of years later, what's changed? Nothing.",
+            "words": [
+                {
+                    "start": 19.36,
+                    "end": 19.58,
+                    "text": "And"
+                },
+                {
+                    "start": 19.58,
+                    "end": 20.08,
+                    "text": "today,"
+                },
+                {
+                    "start": 20.58,
+                    "end": 21.08,
+                    "text": "thousands"
+                },
+                {
+                    "start": 21.08,
+                    "end": 21.36,
+                    "text": "of"
+                },
+                {
+                    "start": 21.36,
+                    "end": 21.6,
+                    "text": "years"
+                },
+                {
+                    "start": 21.6,
+                    "end": 22.02,
+                    "text": "later,"
+                },
+                {
+                    "start": 22.64,
+                    "end": 23.0,
+                    "text": "what's"
+                },
+                {
+                    "start": 23.0,
+                    "end": 23.5,
+                    "text": "changed?"
+                },
+                {
+                    "start": 23.92,
+                    "end": 24.44,
+                    "text": "Nothing."
+                }
+            ]
+        },
+        {
+            "start": 25.0,
+            "end": 26.94,
+            "text": "The modern Grella still shouts,",
+            "words": [
+                {
+                    "start": 25.0,
+                    "end": 25.26,
+                    "text": "The"
+                },
+                {
+                    "start": 25.26,
+                    "end": 25.66,
+                    "text": "modern"
+                },
+                {
+                    "start": 25.66,
+                    "end": 26.1,
+                    "text": "Grella"
+                },
+                {
+                    "start": 26.1,
+                    "end": 26.44,
+                    "text": "still"
+                },
+                {
+                    "start": 26.44,
+                    "end": 26.94,
+                    "text": "shouts,"
+                }
+            ]
+        },
+        {
+            "start": 27.44,
+            "end": 29.24,
+            "text": "but the mage said it was transport.",
+            "words": [
+                {
+                    "start": 27.44,
+                    "end": 27.66,
+                    "text": "but"
+                },
+                {
+                    "start": 27.66,
+                    "end": 27.82,
+                    "text": "the"
+                },
+                {
+                    "start": 27.82,
+                    "end": 28.14,
+                    "text": "mage"
+                },
+                {
+                    "start": 28.14,
+                    "end": 28.34,
+                    "text": "said"
+                },
+                {
+                    "start": 28.34,
+                    "end": 28.46,
+                    "text": "it"
+                },
+                {
+                    "start": 28.46,
+                    "end": 28.6,
+                    "text": "was"
+                },
+                {
+                    "start": 28.6,
+                    "end": 29.24,
+                    "text": "transport."
+                }
+            ]
+        },
+        {
+            "start": 29.8,
+            "end": 31.44,
+            "text": "And the modern Tronco replies,",
+            "words": [
+                {
+                    "start": 29.8,
+                    "end": 29.96,
+                    "text": "And"
+                },
+                {
+                    "start": 29.96,
+                    "end": 30.12,
+                    "text": "the"
+                },
+                {
+                    "start": 30.12,
+                    "end": 30.46,
+                    "text": "modern"
+                },
+                {
+                    "start": 30.46,
+                    "end": 30.94,
+                    "text": "Tronco"
+                },
+                {
+                    "start": 30.94,
+                    "end": 31.44,
+                    "text": "replies,"
+                }
+            ]
+        },
+        {
+            "start": 32.08,
+            "end": 36.44,
+            "text": "yeah, but the mage's lighter was orange and I want a blue one.",
+            "words": [
+                {
+                    "start": 32.08,
+                    "end": 32.48,
+                    "text": "yeah,"
+                },
+                {
+                    "start": 32.72,
+                    "end": 33.22,
+                    "text": "but"
+                },
+                {
+                    "start": 33.22,
+                    "end": 33.4,
+                    "text": "the"
+                },
+                {
+                    "start": 33.4,
+                    "end": 33.78,
+                    "text": "mage's"
+                },
+                {
+                    "start": 33.78,
+                    "end": 34.1,
+                    "text": "lighter"
+                },
+                {
+                    "start": 34.1,
+                    "end": 34.36,
+                    "text": "was"
+                },
+                {
+                    "start": 34.36,
+                    "end": 34.92,
+                    "text": "orange"
+                },
+                {
+                    "start": 34.92,
+                    "end": 35.36,
+                    "text": "and"
+                },
+                {
+                    "start": 35.36,
+                    "end": 35.58,
+                    "text": "I"
+                },
+                {
+                    "start": 35.58,
+                    "end": 35.76,
+                    "text": "want"
+                },
+                {
+                    "start": 35.76,
+                    "end": 35.9,
+                    "text": "a"
+                },
+                {
+                    "start": 35.9,
+                    "end": 36.12,
+                    "text": "blue"
+                },
+                {
+                    "start": 36.12,
+                    "end": 36.44,
+                    "text": "one."
+                }
+            ]
+        },
+        {
+            "start": 36.82,
+            "end": 39.12,
+            "text": "The fire is still there, waiting,",
+            "words": [
+                {
+                    "start": 36.82,
+                    "end": 37.04,
+                    "text": "The"
+                },
+                {
+                    "start": 37.04,
+                    "end": 37.42,
+                    "text": "fire"
+                },
+                {
+                    "start": 37.42,
+                    "end": 37.62,
+                    "text": "is"
+                },
+                {
+                    "start": 37.62,
+                    "end": 37.86,
+                    "text": "still"
+                },
+                {
+                    "start": 37.86,
+                    "end": 38.22,
+                    "text": "there,"
+                },
+                {
+                    "start": 38.5,
+                    "end": 39.12,
+                    "text": "waiting,"
+                }
+            ]
+        },
+        {
+            "start": 39.88,
+            "end": 42.32,
+            "text": "waiting for someone to remember to strike the stone.",
+            "words": [
+                {
+                    "start": 39.88,
+                    "end": 40.22,
+                    "text": "waiting"
+                },
+                {
+                    "start": 40.22,
+                    "end": 40.42,
+                    "text": "for"
+                },
+                {
+                    "start": 40.42,
+                    "end": 40.68,
+                    "text": "someone"
+                },
+                {
+                    "start": 40.68,
+                    "end": 40.88,
+                    "text": "to"
+                },
+                {
+                    "start": 40.88,
+                    "end": 41.2,
+                    "text": "remember"
+                },
+                {
+                    "start": 41.2,
+                    "end": 41.44,
+                    "text": "to"
+                },
+                {
+                    "start": 41.44,
+                    "end": 41.72,
+                    "text": "strike"
+                },
+                {
+                    "start": 41.72,
+                    "end": 41.92,
+                    "text": "the"
+                },
+                {
+                    "start": 41.92,
+                    "end": 42.32,
+                    "text": "stone."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,918 @@
+{
+    "id": "track_06",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 3.04,
+            "text": "The mock said, box, the box is law",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.2,
+                    "text": "The"
+                },
+                {
+                    "start": 0.2,
+                    "end": 0.48,
+                    "text": "mock"
+                },
+                {
+                    "start": 0.48,
+                    "end": 0.72,
+                    "text": "said,"
+                },
+                {
+                    "start": 0.76,
+                    "end": 1.2,
+                    "text": "box,"
+                },
+                {
+                    "start": 1.7,
+                    "end": 2.1,
+                    "text": "the"
+                },
+                {
+                    "start": 2.1,
+                    "end": 2.44,
+                    "text": "box"
+                },
+                {
+                    "start": 2.44,
+                    "end": 2.64,
+                    "text": "is"
+                },
+                {
+                    "start": 2.64,
+                    "end": 3.04,
+                    "text": "law"
+                }
+            ]
+        },
+        {
+            "start": 3.8,
+            "end": 6.9,
+            "text": "The box is everything we saw",
+            "words": [
+                {
+                    "start": 3.8,
+                    "end": 4.04,
+                    "text": "The"
+                },
+                {
+                    "start": 4.04,
+                    "end": 4.36,
+                    "text": "box"
+                },
+                {
+                    "start": 4.36,
+                    "end": 4.6,
+                    "text": "is"
+                },
+                {
+                    "start": 4.6,
+                    "end": 5.64,
+                    "text": "everything"
+                },
+                {
+                    "start": 5.64,
+                    "end": 6.26,
+                    "text": "we"
+                },
+                {
+                    "start": 6.26,
+                    "end": 6.9,
+                    "text": "saw"
+                }
+            ]
+        },
+        {
+            "start": 7.82,
+            "end": 10.74,
+            "text": "Mota's wrong, she breaks the rules",
+            "words": [
+                {
+                    "start": 7.82,
+                    "end": 8.36,
+                    "text": "Mota's"
+                },
+                {
+                    "start": 8.36,
+                    "end": 8.84,
+                    "text": "wrong,"
+                },
+                {
+                    "start": 9.1,
+                    "end": 9.26,
+                    "text": "she"
+                },
+                {
+                    "start": 9.26,
+                    "end": 9.76,
+                    "text": "breaks"
+                },
+                {
+                    "start": 9.76,
+                    "end": 10.14,
+                    "text": "the"
+                },
+                {
+                    "start": 10.14,
+                    "end": 10.74,
+                    "text": "rules"
+                }
+            ]
+        },
+        {
+            "start": 11.2,
+            "end": 14.36,
+            "text": "We are the faithful, we are the tools",
+            "words": [
+                {
+                    "start": 11.2,
+                    "end": 11.48,
+                    "text": "We"
+                },
+                {
+                    "start": 11.48,
+                    "end": 11.72,
+                    "text": "are"
+                },
+                {
+                    "start": 11.72,
+                    "end": 11.94,
+                    "text": "the"
+                },
+                {
+                    "start": 11.94,
+                    "end": 12.6,
+                    "text": "faithful,"
+                },
+                {
+                    "start": 13.16,
+                    "end": 13.36,
+                    "text": "we"
+                },
+                {
+                    "start": 13.36,
+                    "end": 13.62,
+                    "text": "are"
+                },
+                {
+                    "start": 13.62,
+                    "end": 13.84,
+                    "text": "the"
+                },
+                {
+                    "start": 13.84,
+                    "end": 14.36,
+                    "text": "tools"
+                }
+            ]
+        },
+        {
+            "start": 15.08,
+            "end": 18.38,
+            "text": "Look at the stone, look at your hand",
+            "words": [
+                {
+                    "start": 15.08,
+                    "end": 15.58,
+                    "text": "Look"
+                },
+                {
+                    "start": 15.58,
+                    "end": 15.78,
+                    "text": "at"
+                },
+                {
+                    "start": 15.78,
+                    "end": 15.96,
+                    "text": "the"
+                },
+                {
+                    "start": 15.96,
+                    "end": 16.48,
+                    "text": "stone,"
+                },
+                {
+                    "start": 17.08,
+                    "end": 17.46,
+                    "text": "look"
+                },
+                {
+                    "start": 17.46,
+                    "end": 17.68,
+                    "text": "at"
+                },
+                {
+                    "start": 17.68,
+                    "end": 17.92,
+                    "text": "your"
+                },
+                {
+                    "start": 17.92,
+                    "end": 18.38,
+                    "text": "hand"
+                }
+            ]
+        },
+        {
+            "start": 18.84,
+            "end": 22.02,
+            "text": "The fire rises when you understand",
+            "words": [
+                {
+                    "start": 18.84,
+                    "end": 19.26,
+                    "text": "The"
+                },
+                {
+                    "start": 19.26,
+                    "end": 19.68,
+                    "text": "fire"
+                },
+                {
+                    "start": 19.68,
+                    "end": 20.4,
+                    "text": "rises"
+                },
+                {
+                    "start": 20.4,
+                    "end": 20.98,
+                    "text": "when"
+                },
+                {
+                    "start": 20.98,
+                    "end": 21.2,
+                    "text": "you"
+                },
+                {
+                    "start": 21.2,
+                    "end": 22.02,
+                    "text": "understand"
+                }
+            ]
+        },
+        {
+            "start": 22.86,
+            "end": 26.08,
+            "text": "The marge is just a guy with tricks",
+            "words": [
+                {
+                    "start": 22.86,
+                    "end": 23.08,
+                    "text": "The"
+                },
+                {
+                    "start": 23.08,
+                    "end": 23.46,
+                    "text": "marge"
+                },
+                {
+                    "start": 23.46,
+                    "end": 23.62,
+                    "text": "is"
+                },
+                {
+                    "start": 23.62,
+                    "end": 24.08,
+                    "text": "just"
+                },
+                {
+                    "start": 24.08,
+                    "end": 24.52,
+                    "text": "a"
+                },
+                {
+                    "start": 24.52,
+                    "end": 25.0,
+                    "text": "guy"
+                },
+                {
+                    "start": 25.0,
+                    "end": 25.42,
+                    "text": "with"
+                },
+                {
+                    "start": 25.42,
+                    "end": 26.08,
+                    "text": "tricks"
+                }
+            ]
+        },
+        {
+            "start": 26.68,
+            "end": 29.96,
+            "text": "The spark is yours, it's in the sticks",
+            "words": [
+                {
+                    "start": 26.68,
+                    "end": 26.8,
+                    "text": "The"
+                },
+                {
+                    "start": 26.8,
+                    "end": 27.18,
+                    "text": "spark"
+                },
+                {
+                    "start": 27.18,
+                    "end": 27.42,
+                    "text": "is"
+                },
+                {
+                    "start": 27.42,
+                    "end": 27.9,
+                    "text": "yours,"
+                },
+                {
+                    "start": 28.06,
+                    "end": 28.46,
+                    "text": "it's"
+                },
+                {
+                    "start": 28.46,
+                    "end": 28.84,
+                    "text": "in"
+                },
+                {
+                    "start": 28.84,
+                    "end": 29.06,
+                    "text": "the"
+                },
+                {
+                    "start": 29.06,
+                    "end": 29.96,
+                    "text": "sticks"
+                }
+            ]
+        },
+        {
+            "start": 30.72,
+            "end": 33.86,
+            "text": "Two fires, two fires",
+            "words": [
+                {
+                    "start": 30.72,
+                    "end": 31.08,
+                    "text": "Two"
+                },
+                {
+                    "start": 31.08,
+                    "end": 31.86,
+                    "text": "fires,"
+                },
+                {
+                    "start": 32.4,
+                    "end": 32.96,
+                    "text": "two"
+                },
+                {
+                    "start": 32.96,
+                    "end": 33.86,
+                    "text": "fires"
+                }
+            ]
+        },
+        {
+            "start": 34.56,
+            "end": 36.98,
+            "text": "Burning in the same night",
+            "words": [
+                {
+                    "start": 34.56,
+                    "end": 35.38,
+                    "text": "Burning"
+                },
+                {
+                    "start": 35.38,
+                    "end": 35.78,
+                    "text": "in"
+                },
+                {
+                    "start": 35.78,
+                    "end": 35.96,
+                    "text": "the"
+                },
+                {
+                    "start": 35.96,
+                    "end": 36.4,
+                    "text": "same"
+                },
+                {
+                    "start": 36.4,
+                    "end": 36.98,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "start": 38.16,
+            "end": 41.54,
+            "text": "Two fires, two fires",
+            "words": [
+                {
+                    "start": 38.16,
+                    "end": 38.66,
+                    "text": "Two"
+                },
+                {
+                    "start": 38.66,
+                    "end": 39.74,
+                    "text": "fires,"
+                },
+                {
+                    "start": 40.12,
+                    "end": 40.58,
+                    "text": "two"
+                },
+                {
+                    "start": 40.58,
+                    "end": 41.54,
+                    "text": "fires"
+                }
+            ]
+        },
+        {
+            "start": 42.56,
+            "end": 44.8,
+            "text": "Which one is right?",
+            "words": [
+                {
+                    "start": 42.56,
+                    "end": 43.56,
+                    "text": "Which"
+                },
+                {
+                    "start": 43.56,
+                    "end": 43.88,
+                    "text": "one"
+                },
+                {
+                    "start": 43.88,
+                    "end": 44.3,
+                    "text": "is"
+                },
+                {
+                    "start": 44.3,
+                    "end": 44.8,
+                    "text": "right?"
+                }
+            ]
+        },
+        {
+            "start": 46.7,
+            "end": 48.14,
+            "text": "Reh, reh, reh-reh",
+            "words": [
+                {
+                    "start": 46.7,
+                    "end": 47.2,
+                    "text": "Reh,"
+                },
+                {
+                    "start": 47.24,
+                    "end": 47.48,
+                    "text": "reh,"
+                },
+                {
+                    "start": 47.66,
+                    "end": 48.14,
+                    "text": "reh-reh"
+                }
+            ]
+        },
+        {
+            "start": 48.6,
+            "end": 50.08,
+            "text": "Mudah, mudah",
+            "words": [
+                {
+                    "start": 48.6,
+                    "end": 49.1,
+                    "text": "Mudah,"
+                },
+                {
+                    "start": 49.52,
+                    "end": 50.08,
+                    "text": "mudah"
+                }
+            ]
+        },
+        {
+            "start": 50.48,
+            "end": 52.16,
+            "text": "Reh, reh, reh-reh",
+            "words": [
+                {
+                    "start": 50.48,
+                    "end": 50.94,
+                    "text": "Reh,"
+                },
+                {
+                    "start": 51.06,
+                    "end": 51.3,
+                    "text": "reh,"
+                },
+                {
+                    "start": 51.54,
+                    "end": 52.16,
+                    "text": "reh-reh"
+                }
+            ]
+        },
+        {
+            "start": 52.38,
+            "end": 53.84,
+            "text": "Mudah, mudah",
+            "words": [
+                {
+                    "start": 52.38,
+                    "end": 52.92,
+                    "text": "Mudah,"
+                },
+                {
+                    "start": 53.36,
+                    "end": 53.84,
+                    "text": "mudah"
+                }
+            ]
+        },
+        {
+            "start": 54.68,
+            "end": 57.4,
+            "text": "No step between the two",
+            "words": [
+                {
+                    "start": 54.68,
+                    "end": 54.88,
+                    "text": "No"
+                },
+                {
+                    "start": 54.88,
+                    "end": 55.5,
+                    "text": "step"
+                },
+                {
+                    "start": 55.5,
+                    "end": 56.34,
+                    "text": "between"
+                },
+                {
+                    "start": 56.34,
+                    "end": 56.84,
+                    "text": "the"
+                },
+                {
+                    "start": 56.84,
+                    "end": 57.4,
+                    "text": "two"
+                }
+            ]
+        },
+        {
+            "start": 57.86,
+            "end": 60.94,
+            "text": "Wait, he said, what should I do?",
+            "words": [
+                {
+                    "start": 57.86,
+                    "end": 58.38,
+                    "text": "Wait,"
+                },
+                {
+                    "start": 58.44,
+                    "end": 58.6,
+                    "text": "he"
+                },
+                {
+                    "start": 58.6,
+                    "end": 59.1,
+                    "text": "said,"
+                },
+                {
+                    "start": 59.34,
+                    "end": 59.66,
+                    "text": "what"
+                },
+                {
+                    "start": 59.66,
+                    "end": 60.08,
+                    "text": "should"
+                },
+                {
+                    "start": 60.08,
+                    "end": 60.44,
+                    "text": "I"
+                },
+                {
+                    "start": 60.44,
+                    "end": 60.94,
+                    "text": "do?"
+                }
+            ]
+        },
+        {
+            "start": 61.46,
+            "end": 65.06,
+            "text": "He's got the bark, she's got the spark",
+            "words": [
+                {
+                    "start": 61.46,
+                    "end": 61.76,
+                    "text": "He's"
+                },
+                {
+                    "start": 61.76,
+                    "end": 62.18,
+                    "text": "got"
+                },
+                {
+                    "start": 62.18,
+                    "end": 62.56,
+                    "text": "the"
+                },
+                {
+                    "start": 62.56,
+                    "end": 63.08,
+                    "text": "bark,"
+                },
+                {
+                    "start": 63.18,
+                    "end": 63.64,
+                    "text": "she's"
+                },
+                {
+                    "start": 63.64,
+                    "end": 64.04,
+                    "text": "got"
+                },
+                {
+                    "start": 64.04,
+                    "end": 64.4,
+                    "text": "the"
+                },
+                {
+                    "start": 64.4,
+                    "end": 65.06,
+                    "text": "spark"
+                }
+            ]
+        },
+        {
+            "start": 65.4,
+            "end": 68.04,
+            "text": "I'm just scared of the dark",
+            "words": [
+                {
+                    "start": 65.4,
+                    "end": 66.02,
+                    "text": "I'm"
+                },
+                {
+                    "start": 66.02,
+                    "end": 66.34,
+                    "text": "just"
+                },
+                {
+                    "start": 66.34,
+                    "end": 66.96,
+                    "text": "scared"
+                },
+                {
+                    "start": 66.96,
+                    "end": 67.22,
+                    "text": "of"
+                },
+                {
+                    "start": 67.22,
+                    "end": 67.42,
+                    "text": "the"
+                },
+                {
+                    "start": 67.42,
+                    "end": 68.04,
+                    "text": "dark"
+                }
+            ]
+        },
+        {
+            "start": 68.78,
+            "end": 71.9,
+            "text": "Two fires, two fires",
+            "words": [
+                {
+                    "start": 68.78,
+                    "end": 69.18,
+                    "text": "Two"
+                },
+                {
+                    "start": 69.18,
+                    "end": 69.92,
+                    "text": "fires,"
+                },
+                {
+                    "start": 70.5,
+                    "end": 71.06,
+                    "text": "two"
+                },
+                {
+                    "start": 71.06,
+                    "end": 71.9,
+                    "text": "fires"
+                }
+            ]
+        },
+        {
+            "start": 72.72,
+            "end": 75.12,
+            "text": "Burning in the same night",
+            "words": [
+                {
+                    "start": 72.72,
+                    "end": 73.46,
+                    "text": "Burning"
+                },
+                {
+                    "start": 73.46,
+                    "end": 73.86,
+                    "text": "in"
+                },
+                {
+                    "start": 73.86,
+                    "end": 74.06,
+                    "text": "the"
+                },
+                {
+                    "start": 74.06,
+                    "end": 74.48,
+                    "text": "same"
+                },
+                {
+                    "start": 74.48,
+                    "end": 75.12,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "start": 76.22,
+            "end": 79.62,
+            "text": "Two fires, two fires",
+            "words": [
+                {
+                    "start": 76.22,
+                    "end": 76.78,
+                    "text": "Two"
+                },
+                {
+                    "start": 76.78,
+                    "end": 77.84,
+                    "text": "fires,"
+                },
+                {
+                    "start": 78.16,
+                    "end": 78.66,
+                    "text": "two"
+                },
+                {
+                    "start": 78.66,
+                    "end": 79.62,
+                    "text": "fires"
+                }
+            ]
+        },
+        {
+            "start": 80.68,
+            "end": 82.9,
+            "text": "Which one is right?",
+            "words": [
+                {
+                    "start": 80.68,
+                    "end": 81.62,
+                    "text": "Which"
+                },
+                {
+                    "start": 81.62,
+                    "end": 82.0,
+                    "text": "one"
+                },
+                {
+                    "start": 82.0,
+                    "end": 82.38,
+                    "text": "is"
+                },
+                {
+                    "start": 82.38,
+                    "end": 82.9,
+                    "text": "right?"
+                }
+            ]
+        },
+        {
+            "start": 83.02,
+            "end": 83.86,
+            "text": "Oh!",
+            "words": [
+                {
+                    "start": 83.02,
+                    "end": 83.86,
+                    "text": "Oh!"
+                }
+            ]
+        },
+        {
+            "start": 99.76,
+            "end": 101.62,
+            "text": "Where's the mudge gone?",
+            "words": [
+                {
+                    "start": 99.76,
+                    "end": 100.54,
+                    "text": "Where's"
+                },
+                {
+                    "start": 100.54,
+                    "end": 100.76,
+                    "text": "the"
+                },
+                {
+                    "start": 100.76,
+                    "end": 101.22,
+                    "text": "mudge"
+                },
+                {
+                    "start": 101.22,
+                    "end": 101.62,
+                    "text": "gone?"
+                }
+            ]
+        },
+        {
+            "start": 103.56,
+            "end": 105.44,
+            "text": "Where's the mudge gone?",
+            "words": [
+                {
+                    "start": 103.56,
+                    "end": 104.34,
+                    "text": "Where's"
+                },
+                {
+                    "start": 104.34,
+                    "end": 104.56,
+                    "text": "the"
+                },
+                {
+                    "start": 104.56,
+                    "end": 105.02,
+                    "text": "mudge"
+                },
+                {
+                    "start": 105.02,
+                    "end": 105.44,
+                    "text": "gone?"
+                }
+            ]
+        },
+        {
+            "start": 107.28,
+            "end": 109.34,
+            "text": "Where's the mudge gone?",
+            "words": [
+                {
+                    "start": 107.28,
+                    "end": 108.12,
+                    "text": "Where's"
+                },
+                {
+                    "start": 108.12,
+                    "end": 108.34,
+                    "text": "the"
+                },
+                {
+                    "start": 108.34,
+                    "end": 108.8,
+                    "text": "mudge"
+                },
+                {
+                    "start": 108.8,
+                    "end": 109.34,
+                    "text": "gone?"
+                }
+            ]
+        },
+        {
+            "start": 110.68,
+            "end": 110.7,
+            "text": "you",
+            "words": [
+                {
+                    "start": 110.68,
+                    "end": 110.7,
+                    "text": "you"
+                }
+            ]
+        }
+    ]
+}

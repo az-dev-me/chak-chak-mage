@@ -1,0 +1,1138 @@
+{
+    "id": "track_07",
+    "album_id": "MY_ALBUM_001",
+    "timeline": [
+        {
+            "id": "line_0_interp",
+            "start": 0.0,
+            "end": 7.63,
+            "lyric": "They were fighting when I slipped away",
+            "real_meaning": "The elite exiting the mess they created — the billionaire building a bunker, the politician retiring to a villa.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0096.jpg",
+                    "query": "figure quietly slipping away from a chaotic battle scene, escape from responsibility, cinematic"
+                },
+                {
+                    "offset": 1.04,
+                    "url": "media/c0289.jpg",
+                    "query": "A lone figure strides away from smoldering ruins, backlit by fiery warmth, cloak billowing in the breeze."
+                },
+                {
+                    "offset": 1.72,
+                    "url": "media/c0290.jpg",
+                    "query": "A dimly lit opulent chamber, golden light streams through stained glass windows on to an empty throne; a sense of relief and regret."
+                }
+            ],
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 1.09,
+                    "text": "They"
+                },
+                {
+                    "start": 1.09,
+                    "end": 2.18,
+                    "text": "were"
+                },
+                {
+                    "start": 2.18,
+                    "end": 3.27,
+                    "text": "fighting"
+                },
+                {
+                    "start": 3.27,
+                    "end": 4.36,
+                    "text": "when"
+                },
+                {
+                    "start": 4.36,
+                    "end": 5.45,
+                    "text": "I"
+                },
+                {
+                    "start": 5.45,
+                    "end": 6.54,
+                    "text": "slipped"
+                },
+                {
+                    "start": 6.54,
+                    "end": 7.63,
+                    "text": "away"
+                }
+            ]
+        },
+        {
+            "id": "line_1_interp",
+            "start": 7.63,
+            "end": 15.27,
+            "lyric": "Grabbed my hedgehog, didn't stay",
+            "real_meaning": "Taking only what's real — the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0097.jpg",
+                    "query": "person gently picking up a small hedgehog while chaos rages behind, tender amid turmoil, cinematic"
+                },
+                {
+                    "offset": 0.68,
+                    "url": "media/c0292.jpg",
+                    "query": "close-up detail of Grabbed my hedgehog, didn't stay, cinematic macro, warm lighting, painterly"
+                },
+                {
+                    "offset": 1.33,
+                    "url": "media/c0293.jpg",
+                    "query": "abstract emotional Taking only what's real — the, ethereal atmosphere, golden hour, dreamlike"
+                }
+            ],
+            "words": [
+                {
+                    "start": 7.63,
+                    "end": 9.158,
+                    "text": "Grabbed"
+                },
+                {
+                    "start": 9.158,
+                    "end": 10.686,
+                    "text": "my"
+                },
+                {
+                    "start": 10.686,
+                    "end": 12.214,
+                    "text": "hedgehog,"
+                },
+                {
+                    "start": 12.214,
+                    "end": 13.742,
+                    "text": "didn't"
+                },
+                {
+                    "start": 13.742,
+                    "end": 15.27,
+                    "text": "stay"
+                }
+            ]
+        },
+        {
+            "id": "line_2_interp",
+            "start": 15.27,
+            "end": 22.91,
+            "lyric": "Just one look back to see the scene",
+            "real_meaning": "The backward glance — Lot's wife, the rearview mirror, the moment of regret before you drive away.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0098.jpg",
+                    "query": "figure looking back over shoulder at a burning camp, regret and relief, dramatic cinematic silhouette"
+                },
+                {
+                    "offset": 0.96,
+                    "url": "media/c0295.jpg",
+                    "query": "A single tear rolls down the cheek of the figure,"
+                },
+                {
+                    "offset": 1.61,
+                    "url": "media/c0296.jpg",
+                    "query": "Golden rays burst through dark clouds as the sun sets in the distance."
+                }
+            ],
+            "words": [
+                {
+                    "start": 15.27,
+                    "end": 16.225,
+                    "text": "Just"
+                },
+                {
+                    "start": 16.225,
+                    "end": 17.18,
+                    "text": "one"
+                },
+                {
+                    "start": 17.18,
+                    "end": 18.135,
+                    "text": "look"
+                },
+                {
+                    "start": 18.135,
+                    "end": 19.09,
+                    "text": "back"
+                },
+                {
+                    "start": 19.09,
+                    "end": 20.045,
+                    "text": "to"
+                },
+                {
+                    "start": 20.045,
+                    "end": 21.0,
+                    "text": "see"
+                },
+                {
+                    "start": 21.0,
+                    "end": 21.955,
+                    "text": "the"
+                },
+                {
+                    "start": 21.955,
+                    "end": 22.91,
+                    "text": "scene"
+                }
+            ]
+        },
+        {
+            "id": "line_3_interp",
+            "start": 22.91,
+            "end": 30.55,
+            "lyric": "The tribe all fighting, mean and keen",
+            "real_meaning": "Social media in 2024 — everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0099.jpg",
+                    "query": "chaotic battle scene of primitive people fighting over scattered objects, senseless conflict, wide cinematic"
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0298.jpg",
+                    "query": "A warrior's face contorted with rage as they hold an ancient trinket."
+                },
+                {
+                    "offset": 1.24,
+                    "url": "media/c0299.jpg",
+                    "query": "A swirling vortex of debris and discarded treasures engulfing a lone figure."
+                }
+            ],
+            "words": [
+                {
+                    "start": 22.91,
+                    "end": 24.001,
+                    "text": "The"
+                },
+                {
+                    "start": 24.001,
+                    "end": 25.093,
+                    "text": "tribe"
+                },
+                {
+                    "start": 25.093,
+                    "end": 26.184,
+                    "text": "all"
+                },
+                {
+                    "start": 26.184,
+                    "end": 27.276,
+                    "text": "fighting,"
+                },
+                {
+                    "start": 27.276,
+                    "end": 28.367,
+                    "text": "mean"
+                },
+                {
+                    "start": 28.367,
+                    "end": 29.459,
+                    "text": "and"
+                },
+                {
+                    "start": 29.459,
+                    "end": 30.55,
+                    "text": "keen"
+                }
+            ]
+        },
+        {
+            "id": "line_4_occ_0",
+            "start": 30.54,
+            "end": 35.24,
+            "lyric": "I threw the lighter in the air",
+            "real_meaning": "Releasing the product into the wild — the IPO, the open-source release, letting go of what you created.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0100.jpg",
+                    "query": "hand releasing an orange lighter spinning upward into the air, slow motion release, dramatic cinematic"
+                },
+                {
+                    "offset": 0.83,
+                    "url": "media/c0301.jpg",
+                    "query": "A close-up of the lighter's flame flickering gently as it ascends against a fiery backdrop."
+                },
+                {
+                    "offset": 1.53,
+                    "url": "media/c0302.jpg",
+                    "query": "The lighter drifting into an endless starry night, with golden sparks dancing around it and being absorbed by cosmic fog."
+                }
+            ],
+            "words": [
+                {
+                    "start": 30.54,
+                    "end": 31.48,
+                    "text": "I"
+                },
+                {
+                    "start": 31.48,
+                    "end": 31.9,
+                    "text": "threw"
+                },
+                {
+                    "start": 31.9,
+                    "end": 32.22,
+                    "text": "the"
+                },
+                {
+                    "start": 32.22,
+                    "end": 33.26,
+                    "text": "lighter"
+                },
+                {
+                    "start": 33.26,
+                    "end": 34.08,
+                    "text": "in"
+                },
+                {
+                    "start": 34.08,
+                    "end": 34.58,
+                    "text": "the"
+                },
+                {
+                    "start": 34.58,
+                    "end": 35.24,
+                    "text": "air"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0",
+            "start": 36.58,
+            "end": 40.22,
+            "lyric": "Gralha jumped to grab it there",
+            "real_meaning": "The consumer leaping for the product — launch day queues, Black Friday stampedes, desperate acquisition.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0101.jpg",
+                    "query": "figure leaping desperately to catch a falling object, devotion and desperation, dramatic action cinematic"
+                },
+                {
+                    "offset": 0.78,
+                    "url": "media/c0304.jpg",
+                    "query": "A hand reaches out, fingers splayed wide, grasping for the prize, sunlight glints off the gleaming object."
+                },
+                {
+                    "offset": 1.43,
+                    "url": "media/c0305.jpg",
+                    "query": "A chaotic blur of bodies, arms flailing, silhouettes against a harsh sunset, all converging on a single point."
+                }
+            ],
+            "words": [
+                {
+                    "start": 36.58,
+                    "end": 37.24,
+                    "text": "Grab"
+                },
+                {
+                    "start": 37.24,
+                    "end": 37.54,
+                    "text": "a"
+                },
+                {
+                    "start": 37.54,
+                    "end": 38.06,
+                    "text": "jump"
+                },
+                {
+                    "start": 38.06,
+                    "end": 38.54,
+                    "text": "to"
+                },
+                {
+                    "start": 38.54,
+                    "end": 39.46,
+                    "text": "grab"
+                },
+                {
+                    "start": 39.46,
+                    "end": 39.76,
+                    "text": "it"
+                },
+                {
+                    "start": 39.76,
+                    "end": 40.22,
+                    "text": "there"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0",
+            "start": 41.72,
+            "end": 45.42,
+            "lyric": "The tribe all followed, wild and thick",
+            "real_meaning": "The herd following — viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0102.jpg",
+                    "query": "stampeding crowd all reaching for the same object, herd mentality, chaotic wide angle cinematic"
+                },
+                {
+                    "offset": 0.91,
+                    "url": "media/c0307.jpg",
+                    "query": "A frenzied hand grasping for an object just out of reach."
+                },
+                {
+                    "offset": 1.56,
+                    "url": "media/c0308.jpg",
+                    "query": "A whirlpool of faces and arms, devouring their own in pursuit."
+                }
+            ],
+            "words": [
+                {
+                    "start": 41.72,
+                    "end": 41.98,
+                    "text": "The"
+                },
+                {
+                    "start": 41.98,
+                    "end": 42.5,
+                    "text": "tribal"
+                },
+                {
+                    "start": 42.5,
+                    "end": 43.58,
+                    "text": "follow"
+                },
+                {
+                    "start": 43.58,
+                    "end": 44.6,
+                    "text": "wild"
+                },
+                {
+                    "start": 44.6,
+                    "end": 44.98,
+                    "text": "and"
+                },
+                {
+                    "start": 44.98,
+                    "end": 45.42,
+                    "text": "thick"
+                }
+            ]
+        },
+        {
+            "id": "line_7_occ_0",
+            "start": 47.26,
+            "end": 51.06,
+            "lyric": "For an object that wouldn't click",
+            "real_meaning": "The empty product — the lighter without gas, the app without value, the status symbol without substance.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0103.jpg",
+                    "query": "close-up of a hand clicking an empty lighter repeatedly, no flame, futile clicks, intimate cinematic"
+                },
+                {
+                    "offset": 0.64,
+                    "url": "media/c0310.jpg",
+                    "query": "A close-up of cracked and empty lighter fluid bottle, golden residue glistening in warm light."
+                },
+                {
+                    "offset": 1.27,
+                    "url": "media/c0311.jpg",
+                    "query": "The figure's face turned away from a dark alley into blinding sunshine."
+                }
+            ],
+            "words": [
+                {
+                    "start": 47.26,
+                    "end": 47.78,
+                    "text": "For"
+                },
+                {
+                    "start": 47.78,
+                    "end": 48.04,
+                    "text": "an"
+                },
+                {
+                    "start": 48.04,
+                    "end": 48.82,
+                    "text": "object"
+                },
+                {
+                    "start": 48.82,
+                    "end": 50.02,
+                    "text": "that"
+                },
+                {
+                    "start": 50.02,
+                    "end": 50.68,
+                    "text": "wouldn't"
+                },
+                {
+                    "start": 50.68,
+                    "end": 51.06,
+                    "text": "click"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0",
+            "start": 60.0,
+            "end": 72.18,
+            "lyric": "The gas was gone, they didn't know",
+            "real_meaning": "The bubble has burst but nobody realizes — the company is bankrupt but the stock price hasn't caught up.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0104.jpg",
+                    "query": "crowd worshipping an empty shell without realizing it's hollow, blind devotion, dramatic irony cinematic"
+                },
+                {
+                    "offset": 1.09,
+                    "url": "media/c0313.jpg",
+                    "query": "A lone executive, face hidden in shadow, frantically shuffling papers under harsh light."
+                },
+                {
+                    "offset": 1.74,
+                    "url": "media/c0314.jpg",
+                    "query": "A shattered bubble floating in a sea of golden stocks, warm light reflecting off crumbling remnants."
+                }
+            ],
+            "words": [
+                {
+                    "start": 60.0,
+                    "end": 63.02,
+                    "text": "The"
+                },
+                {
+                    "start": 63.02,
+                    "end": 63.46,
+                    "text": "gas"
+                },
+                {
+                    "start": 63.46,
+                    "end": 63.72,
+                    "text": "was"
+                },
+                {
+                    "start": 63.72,
+                    "end": 64.36,
+                    "text": "gone,"
+                },
+                {
+                    "start": 65.52,
+                    "end": 65.84,
+                    "text": "they"
+                },
+                {
+                    "start": 65.84,
+                    "end": 66.28,
+                    "text": "didn't"
+                },
+                {
+                    "start": 66.28,
+                    "end": 66.64,
+                    "text": "know"
+                },
+                {
+                    "start": 66.64,
+                    "end": 68.34,
+                    "text": "The"
+                },
+                {
+                    "start": 68.34,
+                    "end": 68.94,
+                    "text": "sacred"
+                },
+                {
+                    "start": 68.94,
+                    "end": 69.84,
+                    "text": "thing"
+                },
+                {
+                    "start": 69.84,
+                    "end": 70.92,
+                    "text": "had"
+                },
+                {
+                    "start": 70.92,
+                    "end": 71.44,
+                    "text": "nothing"
+                },
+                {
+                    "start": 71.44,
+                    "end": 71.76,
+                    "text": "to"
+                },
+                {
+                    "start": 71.76,
+                    "end": 72.18,
+                    "text": "show"
+                }
+            ]
+        },
+        {
+            "id": "line_9_interp",
+            "start": 72.18,
+            "end": 73.5,
+            "lyric": "The sacred thing had nothing to show",
+            "real_meaning": "The emperor's new clothes — the product is empty, the promise is void, the magic was always fake.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0105.jpg",
+                    "query": "ornate pedestal displaying an empty transparent container, nothing inside, grand emptiness, cinematic"
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0316.jpg",
+                    "query": "Close-up of ornate pedestal, hands gently brushing dust from top surface, soft lighting."
+                }
+            ],
+            "words": [
+                {
+                    "start": 72.18,
+                    "end": 72.369,
+                    "text": "The"
+                },
+                {
+                    "start": 72.369,
+                    "end": 72.557,
+                    "text": "sacred"
+                },
+                {
+                    "start": 72.557,
+                    "end": 72.746,
+                    "text": "thing"
+                },
+                {
+                    "start": 72.746,
+                    "end": 72.934,
+                    "text": "had"
+                },
+                {
+                    "start": 72.934,
+                    "end": 73.123,
+                    "text": "nothing"
+                },
+                {
+                    "start": 73.123,
+                    "end": 73.311,
+                    "text": "to"
+                },
+                {
+                    "start": 73.311,
+                    "end": 73.5,
+                    "text": "show"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0",
+            "start": 73.5,
+            "end": 82.72,
+            "lyric": "Empty plastic, hollow shell",
+            "real_meaning": "Consumer waste — landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0106.jpg",
+                    "query": "pile of discarded plastic objects in harsh light, consumer waste monument, stark cinematic"
+                },
+                {
+                    "offset": 0.78,
+                    "url": "media/c0319.jpg",
+                    "query": "A tattered shirt in warm sunlight hangs on barbed wire fence"
+                },
+                {
+                    "offset": 1.41,
+                    "url": "media/c0320.jpg",
+                    "query": "Wistful wind swirls plastic bags like ghosts over a barren landscape"
+                }
+            ],
+            "words": [
+                {
+                    "start": 73.5,
+                    "end": 74.16,
+                    "text": "Empty"
+                },
+                {
+                    "start": 74.16,
+                    "end": 75.06,
+                    "text": "plastic,"
+                },
+                {
+                    "start": 76.24,
+                    "end": 76.78,
+                    "text": "hollow"
+                },
+                {
+                    "start": 76.78,
+                    "end": 77.52,
+                    "text": "shell"
+                },
+                {
+                    "start": 77.52,
+                    "end": 78.92,
+                    "text": "I"
+                },
+                {
+                    "start": 78.92,
+                    "end": 79.22,
+                    "text": "ran"
+                },
+                {
+                    "start": 79.22,
+                    "end": 79.42,
+                    "text": "to"
+                },
+                {
+                    "start": 79.42,
+                    "end": 79.7,
+                    "text": "my"
+                },
+                {
+                    "start": 79.7,
+                    "end": 80.26,
+                    "text": "green"
+                },
+                {
+                    "start": 80.26,
+                    "end": 81.46,
+                    "text": "time"
+                },
+                {
+                    "start": 81.46,
+                    "end": 82.12,
+                    "text": "travel"
+                },
+                {
+                    "start": 82.12,
+                    "end": 82.72,
+                    "text": "cell"
+                }
+            ]
+        },
+        {
+            "id": "line_11_interp",
+            "start": 82.72,
+            "end": 84.28,
+            "lyric": "I ran to my green time-travel cell",
+            "real_meaning": "Retreating to safety — logging off, going offline, escaping to nature, finding the exit before the building collapses.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0107.jpg",
+                    "query": "figure running toward a glowing green doorway at the end of a dark corridor, escape to reality, cinematic"
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0322.jpg",
+                    "query": "The glowing doorway shimmers and ripples as if it were water."
+                }
+            ],
+            "words": [
+                {
+                    "start": 82.72,
+                    "end": 82.943,
+                    "text": "I"
+                },
+                {
+                    "start": 82.943,
+                    "end": 83.166,
+                    "text": "ran"
+                },
+                {
+                    "start": 83.166,
+                    "end": 83.389,
+                    "text": "to"
+                },
+                {
+                    "start": 83.389,
+                    "end": 83.611,
+                    "text": "my"
+                },
+                {
+                    "start": 83.611,
+                    "end": 83.834,
+                    "text": "green"
+                },
+                {
+                    "start": 83.834,
+                    "end": 84.057,
+                    "text": "time-travel"
+                },
+                {
+                    "start": 84.057,
+                    "end": 84.28,
+                    "text": "cell"
+                }
+            ]
+        },
+        {
+            "id": "line_12_occ_0",
+            "start": 84.28,
+            "end": 88.18,
+            "lyric": "Grabbed the hedgehog (just in case)",
+            "real_meaning": "Keeping the one real thing — the pet, the garden, the handwritten letter, the analog truth in a digital world.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0108.jpg",
+                    "query": "hands cradling a small hedgehog protectively, the one real thing, tender cinematic close-up"
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0325.jpg",
+                    "query": "Hands gently caressing the hedgehog's spine. Spines soften and shift with touch"
+                },
+                {
+                    "offset": 1.19,
+                    "url": "media/c0326.jpg",
+                    "query": "Sunlight filtering through leaves, a petal falling to the ground in stillness"
+                }
+            ],
+            "words": [
+                {
+                    "start": 84.28,
+                    "end": 84.86,
+                    "text": "Grabbed"
+                },
+                {
+                    "start": 84.86,
+                    "end": 85.04,
+                    "text": "a"
+                },
+                {
+                    "start": 85.04,
+                    "end": 86.28,
+                    "text": "hedgehog"
+                },
+                {
+                    "start": 86.28,
+                    "end": 86.82,
+                    "text": "just"
+                },
+                {
+                    "start": 86.82,
+                    "end": 87.24,
+                    "text": "in"
+                },
+                {
+                    "start": 87.24,
+                    "end": 88.18,
+                    "text": "case"
+                }
+            ]
+        },
+        {
+            "id": "line_13_occ_0",
+            "start": 89.18,
+            "end": 93.32,
+            "lyric": "Saw the confusion on each face",
+            "real_meaning": "The moment the magic dies — the look in people's eyes when the influencer is exposed, the leader falls.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0109.jpg",
+                    "query": "multiple confused faces looking around in bewilderment, collective disillusionment, portrait cinematic"
+                },
+                {
+                    "offset": 0.91,
+                    "url": "media/c0328.jpg",
+                    "query": "A tattered idol worshipped by shadowy figures."
+                },
+                {
+                    "offset": 1.56,
+                    "url": "media/c0329.jpg",
+                    "query": "A shattered mirror reflecting faded dreams."
+                }
+            ],
+            "words": [
+                {
+                    "start": 89.18,
+                    "end": 89.6,
+                    "text": "Saw"
+                },
+                {
+                    "start": 89.6,
+                    "end": 89.84,
+                    "text": "the"
+                },
+                {
+                    "start": 89.84,
+                    "end": 91.06,
+                    "text": "confusion"
+                },
+                {
+                    "start": 91.06,
+                    "end": 92.1,
+                    "text": "on"
+                },
+                {
+                    "start": 92.1,
+                    "end": 92.52,
+                    "text": "each"
+                },
+                {
+                    "start": 92.52,
+                    "end": 93.32,
+                    "text": "face"
+                }
+            ]
+        },
+        {
+            "id": "line_14_occ_0",
+            "start": 94.66,
+            "end": 98.18,
+            "lyric": "Closed the door and pressed return",
+            "real_meaning": "Pressing Ctrl+Z on civilization — the desire to undo, to go back, to start over knowing what we know.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0110.jpg",
+                    "query": "hand pressing a glowing button on a vintage machine, the reset moment, dramatic close-up cinematic"
+                },
+                {
+                    "offset": 0.7,
+                    "url": "media/c0331.jpg",
+                    "query": "Gears and cogs whirl in slow motion, smoke billowing from the machine."
+                },
+                {
+                    "offset": 1.36,
+                    "url": "media/c0332.jpg",
+                    "query": "A vast cityscape crumbles into dust with the press of a button."
+                }
+            ],
+            "words": [
+                {
+                    "start": 94.66,
+                    "end": 95.26,
+                    "text": "Closed"
+                },
+                {
+                    "start": 95.26,
+                    "end": 95.52,
+                    "text": "the"
+                },
+                {
+                    "start": 95.52,
+                    "end": 96.18,
+                    "text": "door"
+                },
+                {
+                    "start": 96.18,
+                    "end": 96.76,
+                    "text": "and"
+                },
+                {
+                    "start": 96.76,
+                    "end": 97.36,
+                    "text": "pressed"
+                },
+                {
+                    "start": 97.36,
+                    "end": 98.18,
+                    "text": "return"
+                }
+            ]
+        },
+        {
+            "id": "line_15_occ_0",
+            "start": 99.74,
+            "end": 103.64,
+            "lyric": "Leaving them to crash and burn",
+            "real_meaning": "The guilt of the escapist — knowing you're leaving others in the system while you find peace. Survivor's guilt.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0111.jpg",
+                    "query": "green door closing on a scene of distant fires and chaos, leaving behind, bittersweet cinematic"
+                },
+                {
+                    "offset": 0.9,
+                    "url": "media/c0334.jpg",
+                    "query": "A single tear rolling down a cheek, warmly lit by flickering firelight, capturing the pain and resignation of loss."
+                },
+                {
+                    "offset": 1.55,
+                    "url": "media/c0335.jpg",
+                    "query": "Fingertips gently brushing against the cool metal of a rusty doorknob in the fading light, a sense of closure and finality looms as the door remains closed."
+                }
+            ],
+            "words": [
+                {
+                    "start": 99.74,
+                    "end": 100.7,
+                    "text": "Leaving"
+                },
+                {
+                    "start": 100.7,
+                    "end": 101.38,
+                    "text": "them"
+                },
+                {
+                    "start": 101.38,
+                    "end": 101.92,
+                    "text": "to"
+                },
+                {
+                    "start": 101.92,
+                    "end": 102.68,
+                    "text": "crash"
+                },
+                {
+                    "start": 102.68,
+                    "end": 103.06,
+                    "text": "and"
+                },
+                {
+                    "start": 103.06,
+                    "end": 103.64,
+                    "text": "burn"
+                }
+            ]
+        },
+        {
+            "id": "line_16_interp",
+            "start": 104.14,
+            "end": 106.14,
+            "lyric": "\"Revolution... I'll call you Revolution.\"",
+            "real_meaning": "Naming the hedgehog Revolution — real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0112.jpg",
+                    "query": "person holding a hedgehog close to their face, whispering its name, intimate warmth, emotional cinematic"
+                },
+                {
+                    "offset": 1.09,
+                    "url": "media/c0337.jpg",
+                    "query": "Close-up of the hedgehog's eyes reflecting warm candlelight, a soft glow on its quills."
+                }
+            ],
+            "words": [
+                {
+                    "start": 104.14,
+                    "end": 104.54,
+                    "text": "\"Revolution..."
+                },
+                {
+                    "start": 104.54,
+                    "end": 104.94,
+                    "text": "I'll"
+                },
+                {
+                    "start": 104.94,
+                    "end": 105.34,
+                    "text": "call"
+                },
+                {
+                    "start": 105.34,
+                    "end": 105.74,
+                    "text": "you"
+                },
+                {
+                    "start": 105.74,
+                    "end": 106.14,
+                    "text": "Revolution.\""
+                }
+            ]
+        },
+        {
+            "id": "instrumental_1",
+            "start": 107.64,
+            "end": 108.5,
+            "lyric": "Who is?",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 107.64,
+                    "end": 107.66,
+                    "text": "Who"
+                },
+                {
+                    "start": 107.66,
+                    "end": 108.5,
+                    "text": "is?"
+                }
+            ]
+        },
+        {
+            "id": "instrumental_2",
+            "start": 111.34,
+            "end": 113.62,
+            "lyric": "Who is?",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 111.34,
+                    "end": 112.12,
+                    "text": "Who"
+                },
+                {
+                    "start": 112.12,
+                    "end": 113.62,
+                    "text": "is?"
+                }
+            ]
+        },
+        {
+            "id": "instrumental_3",
+            "start": 116.62,
+            "end": 119.38,
+            "lyric": "Who is?",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 116.62,
+                    "end": 117.38,
+                    "text": "Who"
+                },
+                {
+                    "start": 117.38,
+                    "end": 119.38,
+                    "text": "is?"
+                }
+            ]
+        },
+        {
+            "id": "instrumental_4",
+            "start": 121.88,
+            "end": 123.98,
+            "lyric": "Who is?",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 121.88,
+                    "end": 122.32,
+                    "text": "Who"
+                },
+                {
+                    "start": 122.32,
+                    "end": 123.98,
+                    "text": "is?"
+                }
+            ]
+        },
+        {
+            "id": "instrumental_5",
+            "start": 138.82,
+            "end": 138.84,
+            "lyric": "you",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 138.82,
+                    "end": 138.84,
+                    "text": "you"
+                }
+            ]
+        }
+    ]
+}

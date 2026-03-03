@@ -1,0 +1,455 @@
+{
+    "id": "track_01",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 5.2,
+            "text": "When I pressed play on the time machine, which was actually a British phone booth painted green,",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.28,
+                    "text": "When"
+                },
+                {
+                    "start": 0.28,
+                    "end": 0.44,
+                    "text": "I"
+                },
+                {
+                    "start": 0.44,
+                    "end": 0.74,
+                    "text": "pressed"
+                },
+                {
+                    "start": 0.74,
+                    "end": 1.06,
+                    "text": "play"
+                },
+                {
+                    "start": 1.06,
+                    "end": 1.24,
+                    "text": "on"
+                },
+                {
+                    "start": 1.24,
+                    "end": 1.36,
+                    "text": "the"
+                },
+                {
+                    "start": 1.36,
+                    "end": 1.6,
+                    "text": "time"
+                },
+                {
+                    "start": 1.6,
+                    "end": 1.98,
+                    "text": "machine,"
+                },
+                {
+                    "start": 2.42,
+                    "end": 2.72,
+                    "text": "which"
+                },
+                {
+                    "start": 2.72,
+                    "end": 2.98,
+                    "text": "was"
+                },
+                {
+                    "start": 2.98,
+                    "end": 3.42,
+                    "text": "actually"
+                },
+                {
+                    "start": 3.42,
+                    "end": 3.62,
+                    "text": "a"
+                },
+                {
+                    "start": 3.62,
+                    "end": 3.88,
+                    "text": "British"
+                },
+                {
+                    "start": 3.88,
+                    "end": 4.2,
+                    "text": "phone"
+                },
+                {
+                    "start": 4.2,
+                    "end": 4.48,
+                    "text": "booth"
+                },
+                {
+                    "start": 4.48,
+                    "end": 4.78,
+                    "text": "painted"
+                },
+                {
+                    "start": 4.78,
+                    "end": 5.2,
+                    "text": "green,"
+                }
+            ]
+        },
+        {
+            "start": 5.76,
+            "end": 11.6,
+            "text": "don't ask, my only intention was to grab some cool rocks and see a dinosaur before dinner.",
+            "words": [
+                {
+                    "start": 5.76,
+                    "end": 6.1,
+                    "text": "don't"
+                },
+                {
+                    "start": 6.1,
+                    "end": 6.42,
+                    "text": "ask,"
+                },
+                {
+                    "start": 6.72,
+                    "end": 7.08,
+                    "text": "my"
+                },
+                {
+                    "start": 7.08,
+                    "end": 7.32,
+                    "text": "only"
+                },
+                {
+                    "start": 7.32,
+                    "end": 7.78,
+                    "text": "intention"
+                },
+                {
+                    "start": 7.78,
+                    "end": 8.08,
+                    "text": "was"
+                },
+                {
+                    "start": 8.08,
+                    "end": 8.24,
+                    "text": "to"
+                },
+                {
+                    "start": 8.24,
+                    "end": 8.5,
+                    "text": "grab"
+                },
+                {
+                    "start": 8.5,
+                    "end": 8.74,
+                    "text": "some"
+                },
+                {
+                    "start": 8.74,
+                    "end": 9.08,
+                    "text": "cool"
+                },
+                {
+                    "start": 9.08,
+                    "end": 9.52,
+                    "text": "rocks"
+                },
+                {
+                    "start": 9.52,
+                    "end": 10.04,
+                    "text": "and"
+                },
+                {
+                    "start": 10.04,
+                    "end": 10.22,
+                    "text": "see"
+                },
+                {
+                    "start": 10.22,
+                    "end": 10.36,
+                    "text": "a"
+                },
+                {
+                    "start": 10.36,
+                    "end": 10.82,
+                    "text": "dinosaur"
+                },
+                {
+                    "start": 10.82,
+                    "end": 11.24,
+                    "text": "before"
+                },
+                {
+                    "start": 11.24,
+                    "end": 11.6,
+                    "text": "dinner."
+                }
+            ]
+        },
+        {
+            "start": 11.92,
+            "end": 19.12,
+            "text": "I landed in a valley of moss and smoke, smell of rain, fire in the air. And there he was,",
+            "words": [
+                {
+                    "start": 11.92,
+                    "end": 12.14,
+                    "text": "I"
+                },
+                {
+                    "start": 12.14,
+                    "end": 12.52,
+                    "text": "landed"
+                },
+                {
+                    "start": 12.52,
+                    "end": 12.72,
+                    "text": "in"
+                },
+                {
+                    "start": 12.72,
+                    "end": 12.84,
+                    "text": "a"
+                },
+                {
+                    "start": 12.84,
+                    "end": 13.1,
+                    "text": "valley"
+                },
+                {
+                    "start": 13.1,
+                    "end": 13.3,
+                    "text": "of"
+                },
+                {
+                    "start": 13.3,
+                    "end": 13.7,
+                    "text": "moss"
+                },
+                {
+                    "start": 13.7,
+                    "end": 14.02,
+                    "text": "and"
+                },
+                {
+                    "start": 14.02,
+                    "end": 14.54,
+                    "text": "smoke,"
+                },
+                {
+                    "start": 15.06,
+                    "end": 15.28,
+                    "text": "smell"
+                },
+                {
+                    "start": 15.28,
+                    "end": 15.48,
+                    "text": "of"
+                },
+                {
+                    "start": 15.48,
+                    "end": 15.82,
+                    "text": "rain,"
+                },
+                {
+                    "start": 16.36,
+                    "end": 16.76,
+                    "text": "fire"
+                },
+                {
+                    "start": 16.76,
+                    "end": 16.98,
+                    "text": "in"
+                },
+                {
+                    "start": 16.98,
+                    "end": 17.12,
+                    "text": "the"
+                },
+                {
+                    "start": 17.12,
+                    "end": 17.4,
+                    "text": "air."
+                },
+                {
+                    "start": 18.08,
+                    "end": 18.46,
+                    "text": "And"
+                },
+                {
+                    "start": 18.46,
+                    "end": 18.66,
+                    "text": "there"
+                },
+                {
+                    "start": 18.66,
+                    "end": 18.82,
+                    "text": "he"
+                },
+                {
+                    "start": 18.82,
+                    "end": 19.12,
+                    "text": "was,"
+                }
+            ]
+        },
+        {
+            "start": 19.68,
+            "end": 23.6,
+            "text": "the first human I'd ever seen, crouched by a pile of stones,",
+            "words": [
+                {
+                    "start": 19.68,
+                    "end": 19.88,
+                    "text": "the"
+                },
+                {
+                    "start": 19.88,
+                    "end": 20.16,
+                    "text": "first"
+                },
+                {
+                    "start": 20.16,
+                    "end": 20.5,
+                    "text": "human"
+                },
+                {
+                    "start": 20.5,
+                    "end": 20.76,
+                    "text": "I'd"
+                },
+                {
+                    "start": 20.76,
+                    "end": 21.0,
+                    "text": "ever"
+                },
+                {
+                    "start": 21.0,
+                    "end": 21.44,
+                    "text": "seen,"
+                },
+                {
+                    "start": 22.08,
+                    "end": 22.4,
+                    "text": "crouched"
+                },
+                {
+                    "start": 22.4,
+                    "end": 22.6,
+                    "text": "by"
+                },
+                {
+                    "start": 22.6,
+                    "end": 22.76,
+                    "text": "a"
+                },
+                {
+                    "start": 22.76,
+                    "end": 23.0,
+                    "text": "pile"
+                },
+                {
+                    "start": 23.0,
+                    "end": 23.2,
+                    "text": "of"
+                },
+                {
+                    "start": 23.2,
+                    "end": 23.6,
+                    "text": "stones,"
+                }
+            ]
+        },
+        {
+            "start": 23.9,
+            "end": 29.2,
+            "text": "blowing on a twig like his life depended on it. And it did. Let's call him Gralia.",
+            "words": [
+                {
+                    "start": 23.9,
+                    "end": 24.22,
+                    "text": "blowing"
+                },
+                {
+                    "start": 24.22,
+                    "end": 24.42,
+                    "text": "on"
+                },
+                {
+                    "start": 24.42,
+                    "end": 24.56,
+                    "text": "a"
+                },
+                {
+                    "start": 24.56,
+                    "end": 24.86,
+                    "text": "twig"
+                },
+                {
+                    "start": 24.86,
+                    "end": 25.06,
+                    "text": "like"
+                },
+                {
+                    "start": 25.06,
+                    "end": 25.22,
+                    "text": "his"
+                },
+                {
+                    "start": 25.22,
+                    "end": 25.5,
+                    "text": "life"
+                },
+                {
+                    "start": 25.5,
+                    "end": 25.96,
+                    "text": "depended"
+                },
+                {
+                    "start": 25.96,
+                    "end": 26.14,
+                    "text": "on"
+                },
+                {
+                    "start": 26.14,
+                    "end": 26.36,
+                    "text": "it."
+                },
+                {
+                    "start": 26.64,
+                    "end": 26.88,
+                    "text": "And"
+                },
+                {
+                    "start": 26.88,
+                    "end": 27.04,
+                    "text": "it"
+                },
+                {
+                    "start": 27.04,
+                    "end": 27.3,
+                    "text": "did."
+                },
+                {
+                    "start": 27.48,
+                    "end": 28.08,
+                    "text": "Let's"
+                },
+                {
+                    "start": 28.08,
+                    "end": 28.34,
+                    "text": "call"
+                },
+                {
+                    "start": 28.34,
+                    "end": 28.62,
+                    "text": "him"
+                },
+                {
+                    "start": 28.62,
+                    "end": 29.2,
+                    "text": "Gralia."
+                }
+            ]
+        }
+    ]
+}

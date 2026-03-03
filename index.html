@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chak Chak Mage - Interactive Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Canvas for Media Events -->
+    <div id="media-canvas">
+        <div id="media-layer-a" class="media-layer active"></div>
+        <div id="media-layer-b" class="media-layer"></div>
+    </div>
+
+    <!-- UI Overlay container -->
+    <div id="ui-container">
+
+        <!-- Header -->
+        <header>
+            <h1 id="album-title">THE CHAK CHAK MAGE</h1>
+            <p id="album-subtitle">Loading Album...</p>
+            <div>
+                <select id="album-selector" class="sm-btn"></select>
+            </div>
+        </header>
+
+        <!-- Player View -->
+        <div id="player-view" class="view section-active">
+            <div id="lyrics-display">
+                <div id="lyric-prev" class="lyric-line fade-out"></div>
+                <div id="lyric-curr" class="lyric-line highlight"></div>
+                <div id="lyric-next" class="lyric-line fade-in"></div>
+            </div>
+
+            <div id="player-controls">
+                <div class="track-info" id="current-track-name">Track Loading...</div>
+                <div class="progress-bar-container" id="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <div class="buttons">
+                    <button id="btn-prev">⏮</button>
+                    <button id="btn-play">▶</button>
+                    <button id="btn-next">⏭</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="core-audio"></audio>
+
+    <!-- Data Payloads: shared semantics + album registry (track data loaded dynamically per album) -->
+    <script src="shared/semantics/master_matrix.js"></script>
+    <script src="js/albums_index.js" onerror="document.getElementById('album-subtitle').textContent='Warning: album index not found. Run: chak index'"></script>
+
+    <!-- Modular JS Engine -->
+    <script src="js/data_schema.js"></script>
+    <script src="js/player.js"></script>
+</body>
+
+</html>

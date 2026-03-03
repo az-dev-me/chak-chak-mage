@@ -1,0 +1,165 @@
+{
+    "id": "track_02",
+    "timeline": [
+        {
+            "id": "instrumental_0",
+            "line_index": null,
+            "occurrence_index": 0,
+            "start": 10.84,
+            "end": 10.86,
+            "lyric": "♪"
+        },
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 11.08,
+            "end": 14.54,
+            "lyric": "Gralha held the orange box, turned it in his hand"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 15.28,
+            "end": 18.52,
+            "lyric": "\"Mage,\" he said, \"explain to me, help me understand"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 19.46,
+            "end": 23.08,
+            "lyric": "Where does fire sleep at night? Where does it go to rest?"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 23.58,
+            "end": 27.22,
+            "lyric": "Show me its cradle, show me its nest.\""
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 28.0,
+            "end": 35.56,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 36.52,
+            "end": 44.2,
+            "lyric": "We'll run with it, we'll run with pride!"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 45.56,
+            "end": 49.34,
+            "lyric": "I said \"The fire lives in here, curled up small and tight"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 49.48,
+            "end": 53.34,
+            "lyric": "When you go chak-chak, it wakes up, burning bright"
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 54.0,
+            "end": 57.68,
+            "lyric": "You have to run, you have to race, carry it with care"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 58.0,
+            "end": 63.5,
+            "lyric": "To the new pile, to the new place, before it disappears in air\""
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 66.1,
+            "end": 77.98,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 79.26,
+            "end": 82.12,
+            "lyric": "Run, run, don't let it die!"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 83.52,
+            "end": 115.84,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_16_occ_1",
+            "line_index": 16,
+            "occurrence_index": 1,
+            "start": 117.14,
+            "end": 119.92,
+            "lyric": "Run, run, don't let it die!"
+        },
+        {
+            "id": "instrumental_12",
+            "line_index": null,
+            "occurrence_index": 12,
+            "start": 121.66,
+            "end": 124.88,
+            "lyric": "Run, run, run"
+        },
+        {
+            "id": "line_16_occ_2",
+            "line_index": 16,
+            "occurrence_index": 2,
+            "start": 126.5,
+            "end": 127.88,
+            "lyric": "Run, run, don't let it die!"
+        },
+        {
+            "id": "instrumental_13",
+            "line_index": null,
+            "occurrence_index": 13,
+            "start": 130.02,
+            "end": 133.18,
+            "lyric": "Run, run, run"
+        },
+        {
+            "id": "line_16_occ_3",
+            "line_index": 16,
+            "occurrence_index": 3,
+            "start": 134.96,
+            "end": 136.24,
+            "lyric": "Run, run, don't let it die!"
+        },
+        {
+            "id": "instrumental_14",
+            "line_index": null,
+            "occurrence_index": 14,
+            "start": 136.4,
+            "end": 143.74,
+            "lyric": "Sounds of running laughter and excitement."
+        }
+    ]
+}

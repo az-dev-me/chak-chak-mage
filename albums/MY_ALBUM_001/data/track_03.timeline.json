@@ -1,0 +1,101 @@
+{
+    "id": "track_03",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 0.0,
+            "end": 2.06,
+            "lyric": "Next morning, Gralha lit the flame"
+        },
+        {
+            "id": "instrumental_0",
+            "line_index": null,
+            "occurrence_index": 0,
+            "start": 2.82,
+            "end": 3.26,
+            "lyric": "Hey!"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 3.7,
+            "end": 5.76,
+            "lyric": "Chak-chak, a tiny light"
+        },
+        {
+            "id": "instrumental_1",
+            "line_index": null,
+            "occurrence_index": 1,
+            "start": 6.56,
+            "end": 6.94,
+            "lyric": "Hey!"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 7.4,
+            "end": 9.42,
+            "lyric": "\"Now I run!\" he said, and came"
+        },
+        {
+            "id": "instrumental_2",
+            "line_index": null,
+            "occurrence_index": 2,
+            "start": 10.34,
+            "end": 10.66,
+            "lyric": "Hey!"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 11.1,
+            "end": 13.1,
+            "lyric": "Running with all his might"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 14.54,
+            "end": 17.82,
+            "lyric": "The baby fire mustn't die!"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 18.24,
+            "end": 21.44,
+            "lyric": "Reach the new pile, touch the sky!"
+        },
+        {
+            "id": "instrumental_3",
+            "line_index": null,
+            "occurrence_index": 3,
+            "start": 21.52,
+            "end": 21.78,
+            "lyric": "Hey!"
+        },
+        {
+            "id": "instrumental_4",
+            "line_index": null,
+            "occurrence_index": 4,
+            "start": 54.22,
+            "end": 54.26,
+            "lyric": "Heavy breathing."
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 54.26,
+            "end": 55.62,
+            "lyric": "\"...again.\""
+        }
+    ]
+}

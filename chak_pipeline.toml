@@ -1,0 +1,90 @@
+# ──────────────────────────────────────────────────────────
+# Chak Chak Mage – Pipeline Configuration
+# All tunable thresholds, model params, and provider settings
+# live here instead of being hardcoded across scripts.
+# ──────────────────────────────────────────────────────────
+
+[alignment]
+whisper_model = "large-v2"
+whisper_device = "cuda"
+language = "en"
+compression_ratio_threshold = 2.0
+condition_on_previous_text = false
+
+[alignment.hallucination]
+filler_tokens = [
+    "oh", "ooh", "oooh", "oh,", "ooh,",
+    "ah", "aah", "ah,",
+    "uh", "huh",
+    "the", "la", "na",
+    "yeah", "yea", "yo", "hey",
+    "mm", "mmm",
+    "music",
+]
+# Single filler token repeated this many times → hallucination
+min_filler_repeat = 2
+# Any token (filler or not) repeated this many times → suspicious
+min_any_repeat = 8
+# Two-or-fewer unique filler tokens, total count ≥ this → hallucination
+min_total_for_all_filler = 3
+# A specific filler token appears ≥ this many times → hallucination
+min_filler_count = 5
+# A single non-filler token repeated ≥ this many times → hallucination
+max_single_token_repeat = 25
+
+[timeline]
+# Minimum token-overlap similarity to consider a match
+min_similarity = 0.45
+# Lower threshold for music tracks where Whisper transcription is unreliable
+music_track_similarity = 0.25
+# All tracks use lower threshold (TTS tracks have SSML artifacts, music tracks have unreliable Whisper)
+music_tracks = [
+    "track_01", "track_02", "track_03", "track_04",
+    "track_05", "track_06", "track_07", "track_08", "track_09",
+]
+
+[media]
+# Provider: "local_gpu", "stable_horde", "pollinations", "placeholder", "local", "auto"
+provider = "local_gpu"
+fallback_provider = "placeholder"
+max_prompt_length = 180
+request_delay = 0.5
+timeout = 90
+max_retries = 2
+image_width = 640
+image_height = 448
+# Optional: Pollinations API key (only if using pollinations provider)
+api_key = ""
+# Local GPU generation settings (provider = "local_gpu")
+gpu_device = "cuda:1"
+model_id = "stabilityai/sdxl-turbo"
+num_inference_steps = 4
+guidance_scale = 0.0
+
+[frontend]
+display_max_words = 60
+display_max_chars = 400
+word_epsilon = 0.05
+
+[tracks]
+[tracks.names]
+track_01 = "Prologue_The_Green_Booth"
+track_02 = "The_Orange_Box"
+track_03 = "The_Fire_Run"
+track_04 = "The_Rules"
+track_05 = "Mudas_Spark"
+track_06 = "Two_Fires"
+track_07 = "The_Empty_Lighter"
+track_08 = "The_Fire_Was_Always_There"
+track_09 = "Epilogue_The_Lesson"
+
+[tracks.titles]
+track_01 = "Prologue - The Green Booth"
+track_02 = "The Orange Box"
+track_03 = "The Fire Run"
+track_04 = "The Rules"
+track_05 = "Muda's Spark"
+track_06 = "Two Fires"
+track_07 = "The Empty Lighter"
+track_08 = "The Fire Was Always There"
+track_09 = "Epilogue - The Lesson"

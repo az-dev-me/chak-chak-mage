@@ -1,0 +1,1063 @@
+{
+    "id": "track_08",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 4.78,
+            "text": "I sat on the couch, stared at the ceiling",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.28,
+                    "text": "I"
+                },
+                {
+                    "start": 0.28,
+                    "end": 0.76,
+                    "text": "sat"
+                },
+                {
+                    "start": 0.76,
+                    "end": 1.1,
+                    "text": "on"
+                },
+                {
+                    "start": 1.1,
+                    "end": 1.32,
+                    "text": "the"
+                },
+                {
+                    "start": 1.32,
+                    "end": 2.12,
+                    "text": "couch,"
+                },
+                {
+                    "start": 2.98,
+                    "end": 3.5,
+                    "text": "stared"
+                },
+                {
+                    "start": 3.5,
+                    "end": 3.74,
+                    "text": "at"
+                },
+                {
+                    "start": 3.74,
+                    "end": 3.98,
+                    "text": "the"
+                },
+                {
+                    "start": 3.98,
+                    "end": 4.78,
+                    "text": "ceiling"
+                }
+            ]
+        },
+        {
+            "start": 7.12,
+            "end": 10.68,
+            "text": "The hedgehog chewing on my shoe",
+            "words": [
+                {
+                    "start": 7.12,
+                    "end": 7.3,
+                    "text": "The"
+                },
+                {
+                    "start": 7.3,
+                    "end": 8.1,
+                    "text": "hedgehog"
+                },
+                {
+                    "start": 8.1,
+                    "end": 8.6,
+                    "text": "chewing"
+                },
+                {
+                    "start": 8.6,
+                    "end": 9.34,
+                    "text": "on"
+                },
+                {
+                    "start": 9.34,
+                    "end": 10.08,
+                    "text": "my"
+                },
+                {
+                    "start": 10.08,
+                    "end": 10.68,
+                    "text": "shoe"
+                }
+            ]
+        },
+        {
+            "start": 13.12,
+            "end": 18.64,
+            "text": "And I thought, man, it's always the same feeling",
+            "words": [
+                {
+                    "start": 13.12,
+                    "end": 13.34,
+                    "text": "And"
+                },
+                {
+                    "start": 13.34,
+                    "end": 13.54,
+                    "text": "I"
+                },
+                {
+                    "start": 13.54,
+                    "end": 14.08,
+                    "text": "thought,"
+                },
+                {
+                    "start": 14.24,
+                    "end": 14.72,
+                    "text": "man,"
+                },
+                {
+                    "start": 15.54,
+                    "end": 15.96,
+                    "text": "it's"
+                },
+                {
+                    "start": 15.96,
+                    "end": 16.44,
+                    "text": "always"
+                },
+                {
+                    "start": 16.44,
+                    "end": 16.84,
+                    "text": "the"
+                },
+                {
+                    "start": 16.84,
+                    "end": 17.44,
+                    "text": "same"
+                },
+                {
+                    "start": 17.44,
+                    "end": 18.64,
+                    "text": "feeling"
+                }
+            ]
+        },
+        {
+            "start": 20.78,
+            "end": 24.46,
+            "text": "The latter was just a lighter truth",
+            "words": [
+                {
+                    "start": 20.78,
+                    "end": 21.0,
+                    "text": "The"
+                },
+                {
+                    "start": 21.0,
+                    "end": 21.4,
+                    "text": "latter"
+                },
+                {
+                    "start": 21.4,
+                    "end": 21.84,
+                    "text": "was"
+                },
+                {
+                    "start": 21.84,
+                    "end": 22.56,
+                    "text": "just"
+                },
+                {
+                    "start": 22.56,
+                    "end": 22.8,
+                    "text": "a"
+                },
+                {
+                    "start": 22.8,
+                    "end": 23.38,
+                    "text": "lighter"
+                },
+                {
+                    "start": 23.38,
+                    "end": 24.46,
+                    "text": "truth"
+                }
+            ]
+        },
+        {
+            "start": 26.38,
+            "end": 28.68,
+            "text": "But they made it a totem",
+            "words": [
+                {
+                    "start": 26.38,
+                    "end": 26.58,
+                    "text": "But"
+                },
+                {
+                    "start": 26.58,
+                    "end": 26.88,
+                    "text": "they"
+                },
+                {
+                    "start": 26.88,
+                    "end": 27.36,
+                    "text": "made"
+                },
+                {
+                    "start": 27.36,
+                    "end": 27.56,
+                    "text": "it"
+                },
+                {
+                    "start": 27.56,
+                    "end": 27.76,
+                    "text": "a"
+                },
+                {
+                    "start": 27.76,
+                    "end": 28.68,
+                    "text": "totem"
+                }
+            ]
+        },
+        {
+            "start": 30.16,
+            "end": 31.6,
+            "text": "A thing to pursue",
+            "words": [
+                {
+                    "start": 30.16,
+                    "end": 30.42,
+                    "text": "A"
+                },
+                {
+                    "start": 30.42,
+                    "end": 30.74,
+                    "text": "thing"
+                },
+                {
+                    "start": 30.74,
+                    "end": 31.0,
+                    "text": "to"
+                },
+                {
+                    "start": 31.0,
+                    "end": 31.6,
+                    "text": "pursue"
+                }
+            ]
+        },
+        {
+            "start": 34.14,
+            "end": 38.0,
+            "text": "And today thousands of years ahead",
+            "words": [
+                {
+                    "start": 34.14,
+                    "end": 34.34,
+                    "text": "And"
+                },
+                {
+                    "start": 34.34,
+                    "end": 34.9,
+                    "text": "today"
+                },
+                {
+                    "start": 34.9,
+                    "end": 35.74,
+                    "text": "thousands"
+                },
+                {
+                    "start": 35.74,
+                    "end": 36.28,
+                    "text": "of"
+                },
+                {
+                    "start": 36.28,
+                    "end": 37.36,
+                    "text": "years"
+                },
+                {
+                    "start": 37.36,
+                    "end": 38.0,
+                    "text": "ahead"
+                }
+            ]
+        },
+        {
+            "start": 41.0,
+            "end": 42.42,
+            "text": "What's changed?",
+            "words": [
+                {
+                    "start": 41.0,
+                    "end": 41.4,
+                    "text": "What's"
+                },
+                {
+                    "start": 41.4,
+                    "end": 42.42,
+                    "text": "changed?"
+                }
+            ]
+        },
+        {
+            "start": 43.2,
+            "end": 45.8,
+            "text": "Nothing, it's all been said",
+            "words": [
+                {
+                    "start": 43.2,
+                    "end": 43.7,
+                    "text": "Nothing,"
+                },
+                {
+                    "start": 43.9,
+                    "end": 44.1,
+                    "text": "it's"
+                },
+                {
+                    "start": 44.1,
+                    "end": 44.48,
+                    "text": "all"
+                },
+                {
+                    "start": 44.48,
+                    "end": 45.04,
+                    "text": "been"
+                },
+                {
+                    "start": 45.04,
+                    "end": 45.8,
+                    "text": "said"
+                }
+            ]
+        },
+        {
+            "start": 48.28,
+            "end": 51.54,
+            "text": "We're all running with a dire flame",
+            "words": [
+                {
+                    "start": 48.28,
+                    "end": 48.8,
+                    "text": "We're"
+                },
+                {
+                    "start": 48.8,
+                    "end": 49.2,
+                    "text": "all"
+                },
+                {
+                    "start": 49.2,
+                    "end": 49.7,
+                    "text": "running"
+                },
+                {
+                    "start": 49.7,
+                    "end": 50.0,
+                    "text": "with"
+                },
+                {
+                    "start": 50.0,
+                    "end": 50.18,
+                    "text": "a"
+                },
+                {
+                    "start": 50.18,
+                    "end": 50.68,
+                    "text": "dire"
+                },
+                {
+                    "start": 50.68,
+                    "end": 51.54,
+                    "text": "flame"
+                }
+            ]
+        },
+        {
+            "start": 53.1,
+            "end": 55.76,
+            "text": "Convinced we're carrying fire",
+            "words": [
+                {
+                    "start": 53.1,
+                    "end": 54.04,
+                    "text": "Convinced"
+                },
+                {
+                    "start": 54.04,
+                    "end": 54.44,
+                    "text": "we're"
+                },
+                {
+                    "start": 54.44,
+                    "end": 55.02,
+                    "text": "carrying"
+                },
+                {
+                    "start": 55.02,
+                    "end": 55.76,
+                    "text": "fire"
+                }
+            ]
+        },
+        {
+            "start": 55.92,
+            "end": 57.58,
+            "text": "What a shame",
+            "words": [
+                {
+                    "start": 55.92,
+                    "end": 56.5,
+                    "text": "What"
+                },
+                {
+                    "start": 56.5,
+                    "end": 56.84,
+                    "text": "a"
+                },
+                {
+                    "start": 56.84,
+                    "end": 57.58,
+                    "text": "shame"
+                }
+            ]
+        },
+        {
+            "start": 58.72,
+            "end": 63.46,
+            "text": "The stone is there upon the ground",
+            "words": [
+                {
+                    "start": 58.72,
+                    "end": 59.54,
+                    "text": "The"
+                },
+                {
+                    "start": 59.54,
+                    "end": 59.88,
+                    "text": "stone"
+                },
+                {
+                    "start": 59.88,
+                    "end": 60.44,
+                    "text": "is"
+                },
+                {
+                    "start": 60.44,
+                    "end": 61.76,
+                    "text": "there"
+                },
+                {
+                    "start": 61.76,
+                    "end": 62.14,
+                    "text": "upon"
+                },
+                {
+                    "start": 62.14,
+                    "end": 62.78,
+                    "text": "the"
+                },
+                {
+                    "start": 62.78,
+                    "end": 63.46,
+                    "text": "ground"
+                }
+            ]
+        },
+        {
+            "start": 65.4,
+            "end": 70.44,
+            "text": "Waiting for a strike, for a sound",
+            "words": [
+                {
+                    "start": 65.4,
+                    "end": 65.92,
+                    "text": "Waiting"
+                },
+                {
+                    "start": 65.92,
+                    "end": 66.26,
+                    "text": "for"
+                },
+                {
+                    "start": 66.26,
+                    "end": 66.46,
+                    "text": "a"
+                },
+                {
+                    "start": 66.46,
+                    "end": 67.0,
+                    "text": "strike,"
+                },
+                {
+                    "start": 68.9,
+                    "end": 69.32,
+                    "text": "for"
+                },
+                {
+                    "start": 69.32,
+                    "end": 69.88,
+                    "text": "a"
+                },
+                {
+                    "start": 69.88,
+                    "end": 70.44,
+                    "text": "sound"
+                }
+            ]
+        },
+        {
+            "start": 73.0,
+            "end": 76.32,
+            "text": "The modern growler still shouts today",
+            "words": [
+                {
+                    "start": 73.0,
+                    "end": 73.28,
+                    "text": "The"
+                },
+                {
+                    "start": 73.28,
+                    "end": 73.86,
+                    "text": "modern"
+                },
+                {
+                    "start": 73.86,
+                    "end": 74.52,
+                    "text": "growler"
+                },
+                {
+                    "start": 74.52,
+                    "end": 74.86,
+                    "text": "still"
+                },
+                {
+                    "start": 74.86,
+                    "end": 75.62,
+                    "text": "shouts"
+                },
+                {
+                    "start": 75.62,
+                    "end": 76.32,
+                    "text": "today"
+                }
+            ]
+        },
+        {
+            "start": 78.9,
+            "end": 82.4,
+            "text": "But the major said it was transport",
+            "words": [
+                {
+                    "start": 78.9,
+                    "end": 79.14,
+                    "text": "But"
+                },
+                {
+                    "start": 79.14,
+                    "end": 79.34,
+                    "text": "the"
+                },
+                {
+                    "start": 79.34,
+                    "end": 79.84,
+                    "text": "major"
+                },
+                {
+                    "start": 79.84,
+                    "end": 80.42,
+                    "text": "said"
+                },
+                {
+                    "start": 80.42,
+                    "end": 80.64,
+                    "text": "it"
+                },
+                {
+                    "start": 80.64,
+                    "end": 81.02,
+                    "text": "was"
+                },
+                {
+                    "start": 81.02,
+                    "end": 82.4,
+                    "text": "transport"
+                }
+            ]
+        },
+        {
+            "start": 83.0,
+            "end": 85.03,
+            "text": "But the mage's lips dressed up",
+            "words": [
+                {
+                    "start": 83.0,
+                    "end": 83.38,
+                    "text": "But"
+                },
+                {
+                    "start": 83.38,
+                    "end": 83.58,
+                    "text": "the"
+                },
+                {
+                    "start": 83.58,
+                    "end": 84.1,
+                    "text": "mage's"
+                },
+                {
+                    "start": 84.1,
+                    "end": 84.34,
+                    "text": "lips"
+                },
+                {
+                    "start": 84.34,
+                    "end": 84.94,
+                    "text": "dressed"
+                },
+                {
+                    "start": 84.94,
+                    "end": 85.03,
+                    "text": "up"
+                }
+            ]
+        },
+        {
+            "start": 85.03,
+            "end": 88.38,
+            "text": "And the modern tronco has his say",
+            "words": [
+                {
+                    "start": 85.03,
+                    "end": 85.18,
+                    "text": "And"
+                },
+                {
+                    "start": 85.18,
+                    "end": 85.32,
+                    "text": "the"
+                },
+                {
+                    "start": 85.32,
+                    "end": 85.86,
+                    "text": "modern"
+                },
+                {
+                    "start": 85.86,
+                    "end": 86.82,
+                    "text": "tronco"
+                },
+                {
+                    "start": 86.82,
+                    "end": 87.52,
+                    "text": "has"
+                },
+                {
+                    "start": 87.52,
+                    "end": 87.8,
+                    "text": "his"
+                },
+                {
+                    "start": 87.8,
+                    "end": 88.38,
+                    "text": "say"
+                }
+            ]
+        },
+        {
+            "start": 89.16,
+            "end": 94.98,
+            "text": "Yeah, but the mage's lighter was orange, of course",
+            "words": [
+                {
+                    "start": 89.16,
+                    "end": 89.54,
+                    "text": "Yeah,"
+                },
+                {
+                    "start": 90.0,
+                    "end": 90.24,
+                    "text": "but"
+                },
+                {
+                    "start": 90.24,
+                    "end": 90.48,
+                    "text": "the"
+                },
+                {
+                    "start": 90.48,
+                    "end": 91.26,
+                    "text": "mage's"
+                },
+                {
+                    "start": 91.26,
+                    "end": 92.0,
+                    "text": "lighter"
+                },
+                {
+                    "start": 92.0,
+                    "end": 92.92,
+                    "text": "was"
+                },
+                {
+                    "start": 92.92,
+                    "end": 93.82,
+                    "text": "orange,"
+                },
+                {
+                    "start": 94.04,
+                    "end": 94.4,
+                    "text": "of"
+                },
+                {
+                    "start": 94.4,
+                    "end": 94.98,
+                    "text": "course"
+                }
+            ]
+        },
+        {
+            "start": 96.68,
+            "end": 98.32,
+            "text": "I want a blue one",
+            "words": [
+                {
+                    "start": 96.68,
+                    "end": 96.9,
+                    "text": "I"
+                },
+                {
+                    "start": 96.9,
+                    "end": 97.18,
+                    "text": "want"
+                },
+                {
+                    "start": 97.18,
+                    "end": 97.34,
+                    "text": "a"
+                },
+                {
+                    "start": 97.34,
+                    "end": 97.66,
+                    "text": "blue"
+                },
+                {
+                    "start": 97.66,
+                    "end": 98.32,
+                    "text": "one"
+                }
+            ]
+        },
+        {
+            "start": 98.8,
+            "end": 101.58,
+            "text": "A blue one, a blue one",
+            "words": [
+                {
+                    "start": 98.8,
+                    "end": 99.02,
+                    "text": "A"
+                },
+                {
+                    "start": 99.02,
+                    "end": 99.42,
+                    "text": "blue"
+                },
+                {
+                    "start": 99.42,
+                    "end": 99.82,
+                    "text": "one,"
+                },
+                {
+                    "start": 100.34,
+                    "end": 100.68,
+                    "text": "a"
+                },
+                {
+                    "start": 100.68,
+                    "end": 101.04,
+                    "text": "blue"
+                },
+                {
+                    "start": 101.04,
+                    "end": 101.58,
+                    "text": "one"
+                }
+            ]
+        },
+        {
+            "start": 102.22,
+            "end": 103.92,
+            "text": "A blue one",
+            "words": [
+                {
+                    "start": 102.22,
+                    "end": 102.42,
+                    "text": "A"
+                },
+                {
+                    "start": 102.42,
+                    "end": 102.96,
+                    "text": "blue"
+                },
+                {
+                    "start": 102.96,
+                    "end": 103.92,
+                    "text": "one"
+                }
+            ]
+        },
+        {
+            "start": 105.58,
+            "end": 107.52,
+            "text": "The fire is still there",
+            "words": [
+                {
+                    "start": 105.58,
+                    "end": 105.86,
+                    "text": "The"
+                },
+                {
+                    "start": 105.86,
+                    "end": 106.32,
+                    "text": "fire"
+                },
+                {
+                    "start": 106.32,
+                    "end": 106.54,
+                    "text": "is"
+                },
+                {
+                    "start": 106.54,
+                    "end": 106.88,
+                    "text": "still"
+                },
+                {
+                    "start": 106.88,
+                    "end": 107.52,
+                    "text": "there"
+                }
+            ]
+        },
+        {
+            "start": 108.0,
+            "end": 114.16,
+            "text": "Waiting, waiting for someone to remember",
+            "words": [
+                {
+                    "start": 108.0,
+                    "end": 109.48,
+                    "text": "Waiting,"
+                },
+                {
+                    "start": 110.5,
+                    "end": 111.38,
+                    "text": "waiting"
+                },
+                {
+                    "start": 111.38,
+                    "end": 111.74,
+                    "text": "for"
+                },
+                {
+                    "start": 111.74,
+                    "end": 112.34,
+                    "text": "someone"
+                },
+                {
+                    "start": 112.34,
+                    "end": 112.84,
+                    "text": "to"
+                },
+                {
+                    "start": 112.84,
+                    "end": 114.16,
+                    "text": "remember"
+                }
+            ]
+        },
+        {
+            "start": 117.0,
+            "end": 120.12,
+            "text": "We're all running with a dying flame",
+            "words": [
+                {
+                    "start": 117.0,
+                    "end": 117.4,
+                    "text": "We're"
+                },
+                {
+                    "start": 117.4,
+                    "end": 117.78,
+                    "text": "all"
+                },
+                {
+                    "start": 117.78,
+                    "end": 118.22,
+                    "text": "running"
+                },
+                {
+                    "start": 118.22,
+                    "end": 118.54,
+                    "text": "with"
+                },
+                {
+                    "start": 118.54,
+                    "end": 118.72,
+                    "text": "a"
+                },
+                {
+                    "start": 118.72,
+                    "end": 119.36,
+                    "text": "dying"
+                },
+                {
+                    "start": 119.36,
+                    "end": 120.12,
+                    "text": "flame"
+                }
+            ]
+        },
+        {
+            "start": 121.7,
+            "end": 126.08,
+            "text": "Convinced we're a carrying fire, what a shame",
+            "words": [
+                {
+                    "start": 121.7,
+                    "end": 122.62,
+                    "text": "Convinced"
+                },
+                {
+                    "start": 122.62,
+                    "end": 122.92,
+                    "text": "we're"
+                },
+                {
+                    "start": 122.92,
+                    "end": 123.06,
+                    "text": "a"
+                },
+                {
+                    "start": 123.06,
+                    "end": 123.58,
+                    "text": "carrying"
+                },
+                {
+                    "start": 123.58,
+                    "end": 124.3,
+                    "text": "fire,"
+                },
+                {
+                    "start": 124.78,
+                    "end": 125.04,
+                    "text": "what"
+                },
+                {
+                    "start": 125.04,
+                    "end": 125.4,
+                    "text": "a"
+                },
+                {
+                    "start": 125.4,
+                    "end": 126.08,
+                    "text": "shame"
+                }
+            ]
+        },
+        {
+            "start": 127.94,
+            "end": 131.9,
+            "text": "The stone is there upon the ground",
+            "words": [
+                {
+                    "start": 127.94,
+                    "end": 128.14,
+                    "text": "The"
+                },
+                {
+                    "start": 128.14,
+                    "end": 128.46,
+                    "text": "stone"
+                },
+                {
+                    "start": 128.46,
+                    "end": 129.0,
+                    "text": "is"
+                },
+                {
+                    "start": 129.0,
+                    "end": 130.34,
+                    "text": "there"
+                },
+                {
+                    "start": 130.34,
+                    "end": 131.02,
+                    "text": "upon"
+                },
+                {
+                    "start": 131.02,
+                    "end": 131.34,
+                    "text": "the"
+                },
+                {
+                    "start": 131.34,
+                    "end": 131.9,
+                    "text": "ground"
+                }
+            ]
+        },
+        {
+            "start": 133.12,
+            "end": 135.48,
+            "text": "Waiting for a strike",
+            "words": [
+                {
+                    "start": 133.12,
+                    "end": 134.46,
+                    "text": "Waiting"
+                },
+                {
+                    "start": 134.46,
+                    "end": 134.82,
+                    "text": "for"
+                },
+                {
+                    "start": 134.82,
+                    "end": 135.02,
+                    "text": "a"
+                },
+                {
+                    "start": 135.02,
+                    "end": 135.48,
+                    "text": "strike"
+                }
+            ]
+        },
+        {
+            "start": 137.42,
+            "end": 139.2,
+            "text": "Before we sound",
+            "words": [
+                {
+                    "start": 137.42,
+                    "end": 138.08,
+                    "text": "Before"
+                },
+                {
+                    "start": 138.08,
+                    "end": 138.46,
+                    "text": "we"
+                },
+                {
+                    "start": 138.46,
+                    "end": 139.2,
+                    "text": "sound"
+                }
+            ]
+        }
+    ]
+}
