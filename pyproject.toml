@@ -14,8 +14,8 @@ dependencies = [
 
 [project.optional-dependencies]
 whisper = [
-    "openai-whisper",
-    "whisper-timestamped",
+    "stable-ts>=2.16",
+    "demucs>=4.0",
 ]
 beats = [
     "librosa>=0.10",

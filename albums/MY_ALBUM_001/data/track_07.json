@@ -3,1136 +3,2439 @@
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "line_0_interp",
-            "start": 0.0,
-            "end": 7.63,
+            "id": "line_0_occ_0",
+            "start": 10.672,
+            "end": 14.012,
             "lyric": "They were fighting when I slipped away",
-            "real_meaning": "The elite exiting the mess they created — the billionaire building a bunker, the politician retiring to a villa.",
+            "real_meaning": "The elite exiting the mess they created â€” the billionaire building a bunker, the politician retiring to a villa.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0096.jpg",
+                    "url": "media/c0288.jpg",
                     "query": "figure quietly slipping away from a chaotic battle scene, escape from responsibility, cinematic"
-                },
-                {
-                    "offset": 1.04,
-                    "url": "media/c0289.jpg",
-                    "query": "A lone figure strides away from smoldering ruins, backlit by fiery warmth, cloak billowing in the breeze."
-                },
-                {
-                    "offset": 1.72,
-                    "url": "media/c0290.jpg",
-                    "query": "A dimly lit opulent chamber, golden light streams through stained glass windows on to an empty throne; a sense of relief and regret."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 1.09,
+                    "start": 10.672,
+                    "end": 10.737,
                     "text": "They"
                 },
                 {
-                    "start": 1.09,
-                    "end": 2.18,
+                    "start": 10.737,
+                    "end": 10.932,
                     "text": "were"
                 },
                 {
-                    "start": 2.18,
-                    "end": 3.27,
+                    "start": 11.18,
+                    "end": 11.592,
                     "text": "fighting"
                 },
                 {
-                    "start": 3.27,
-                    "end": 4.36,
+                    "start": 11.592,
+                    "end": 13.012,
                     "text": "when"
                 },
                 {
-                    "start": 4.36,
-                    "end": 5.45,
+                    "start": 13.012,
+                    "end": 13.192,
                     "text": "I"
                 },
                 {
-                    "start": 5.45,
-                    "end": 6.54,
+                    "start": 13.192,
+                    "end": 13.492,
                     "text": "slipped"
                 },
                 {
-                    "start": 6.54,
-                    "end": 7.63,
+                    "start": 13.687,
+                    "end": 14.012,
                     "text": "away"
                 }
             ]
         },
         {
-            "id": "line_1_interp",
-            "start": 7.63,
-            "end": 15.27,
+            "id": "line_1_occ_0",
+            "start": 15.582,
+            "end": 19.352,
             "lyric": "Grabbed my hedgehog, didn't stay",
-            "real_meaning": "Taking only what's real — the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
+            "real_meaning": "Taking only what's real â€” the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0097.jpg",
+                    "url": "media/c0291.jpg",
                     "query": "person gently picking up a small hedgehog while chaos rages behind, tender amid turmoil, cinematic"
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0292.jpg",
-                    "query": "close-up detail of Grabbed my hedgehog, didn't stay, cinematic macro, warm lighting, painterly"
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0293.jpg",
-                    "query": "abstract emotional Taking only what's real — the, ethereal atmosphere, golden hour, dreamlike"
                 }
             ],
             "words": [
                 {
-                    "start": 7.63,
-                    "end": 9.158,
+                    "start": 15.582,
+                    "end": 15.992,
                     "text": "Grabbed"
                 },
                 {
-                    "start": 9.158,
-                    "end": 10.686,
+                    "start": 16.057,
+                    "end": 16.252,
                     "text": "my"
                 },
                 {
-                    "start": 10.686,
-                    "end": 12.214,
+                    "start": 16.252,
+                    "end": 17.032,
                     "text": "hedgehog,"
                 },
                 {
-                    "start": 12.214,
-                    "end": 13.742,
+                    "start": 18.632,
+                    "end": 18.812,
                     "text": "didn't"
                 },
                 {
-                    "start": 13.742,
-                    "end": 15.27,
+                    "start": 18.88,
+                    "end": 19.352,
                     "text": "stay"
                 }
             ]
         },
         {
-            "id": "line_2_interp",
-            "start": 15.27,
-            "end": 22.91,
+            "id": "line_2_occ_0",
+            "start": 20.833,
+            "end": 24.792,
             "lyric": "Just one look back to see the scene",
-            "real_meaning": "The backward glance — Lot's wife, the rearview mirror, the moment of regret before you drive away.",
+            "real_meaning": "The backward glance â€” Lot's wife, the rearview mirror, the moment of regret before you drive away.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0098.jpg",
+                    "url": "media/c0294.jpg",
                     "query": "figure looking back over shoulder at a burning camp, regret and relief, dramatic cinematic silhouette"
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0295.jpg",
-                    "query": "A single tear rolls down the cheek of the figure,"
-                },
-                {
-                    "offset": 1.61,
-                    "url": "media/c0296.jpg",
-                    "query": "Golden rays burst through dark clouds as the sun sets in the distance."
                 }
             ],
             "words": [
                 {
-                    "start": 15.27,
-                    "end": 16.225,
+                    "start": 20.833,
+                    "end": 20.932,
                     "text": "Just"
                 },
                 {
-                    "start": 16.225,
-                    "end": 17.18,
+                    "start": 20.932,
+                    "end": 21.212,
                     "text": "one"
                 },
                 {
-                    "start": 17.18,
-                    "end": 18.135,
+                    "start": 21.287,
+                    "end": 21.512,
                     "text": "look"
                 },
                 {
-                    "start": 18.135,
-                    "end": 19.09,
+                    "start": 21.512,
+                    "end": 22.152,
                     "text": "back"
                 },
                 {
-                    "start": 19.09,
-                    "end": 20.045,
+                    "start": 23.412,
+                    "end": 23.512,
                     "text": "to"
                 },
                 {
-                    "start": 20.045,
-                    "end": 21.0,
+                    "start": 23.597,
+                    "end": 23.852,
                     "text": "see"
                 },
                 {
-                    "start": 21.0,
-                    "end": 21.955,
+                    "start": 23.932,
+                    "end": 24.172,
                     "text": "the"
                 },
                 {
-                    "start": 21.955,
-                    "end": 22.91,
+                    "start": 24.404,
+                    "end": 24.792,
                     "text": "scene"
                 }
             ]
         },
         {
-            "id": "line_3_interp",
-            "start": 22.91,
-            "end": 30.55,
+            "id": "line_3_occ_0",
+            "start": 25.413,
+            "end": 29.932,
             "lyric": "The tribe all fighting, mean and keen",
-            "real_meaning": "Social media in 2024 — everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
+            "real_meaning": "Social media in 2024 â€” everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0099.jpg",
+                    "url": "media/c0297.jpg",
                     "query": "chaotic battle scene of primitive people fighting over scattered objects, senseless conflict, wide cinematic"
-                },
-                {
-                    "offset": 0.54,
-                    "url": "media/c0298.jpg",
-                    "query": "A warrior's face contorted with rage as they hold an ancient trinket."
-                },
-                {
-                    "offset": 1.24,
-                    "url": "media/c0299.jpg",
-                    "query": "A swirling vortex of debris and discarded treasures engulfing a lone figure."
                 }
             ],
             "words": [
                 {
-                    "start": 22.91,
-                    "end": 24.001,
+                    "start": 25.413,
+                    "end": 26.212,
                     "text": "The"
                 },
                 {
-                    "start": 24.001,
-                    "end": 25.093,
+                    "start": 26.212,
+                    "end": 26.552,
                     "text": "tribe"
                 },
                 {
-                    "start": 25.093,
-                    "end": 26.184,
+                    "start": 26.552,
+                    "end": 26.812,
                     "text": "all"
                 },
                 {
-                    "start": 26.184,
-                    "end": 27.276,
+                    "start": 26.971,
+                    "end": 27.662,
                     "text": "fighting,"
                 },
                 {
-                    "start": 27.276,
-                    "end": 28.367,
+                    "start": 28.804,
+                    "end": 29.192,
                     "text": "mean"
                 },
                 {
-                    "start": 28.367,
-                    "end": 29.459,
+                    "start": 29.272,
+                    "end": 29.512,
                     "text": "and"
                 },
                 {
-                    "start": 29.459,
-                    "end": 30.55,
+                    "start": 29.512,
+                    "end": 29.932,
                     "text": "keen"
                 }
             ]
         },
         {
             "id": "line_4_occ_0",
-            "start": 30.54,
-            "end": 35.24,
+            "start": 31.468,
+            "end": 35.272,
             "lyric": "I threw the lighter in the air",
-            "real_meaning": "Releasing the product into the wild — the IPO, the open-source release, letting go of what you created.",
+            "real_meaning": "Releasing the product into the wild â€” the IPO, the open-source release, letting go of what you created.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0100.jpg",
+                    "url": "media/c0300.jpg",
                     "query": "hand releasing an orange lighter spinning upward into the air, slow motion release, dramatic cinematic"
                 },
                 {
-                    "offset": 0.83,
+                    "offset": 0.6,
                     "url": "media/c0301.jpg",
                     "query": "A close-up of the lighter's flame flickering gently as it ascends against a fiery backdrop."
-                },
-                {
-                    "offset": 1.53,
-                    "url": "media/c0302.jpg",
-                    "query": "The lighter drifting into an endless starry night, with golden sparks dancing around it and being absorbed by cosmic fog."
                 }
             ],
             "words": [
                 {
-                    "start": 30.54,
-                    "end": 31.48,
+                    "start": 31.468,
+                    "end": 31.552,
                     "text": "I"
                 },
                 {
-                    "start": 31.48,
-                    "end": 31.9,
+                    "start": 31.552,
+                    "end": 31.912,
                     "text": "threw"
                 },
                 {
-                    "start": 31.9,
-                    "end": 32.22,
+                    "start": 31.912,
+                    "end": 32.312,
                     "text": "the"
                 },
                 {
-                    "start": 32.22,
-                    "end": 33.26,
+                    "start": 32.312,
+                    "end": 33.232,
                     "text": "lighter"
                 },
                 {
-                    "start": 33.26,
-                    "end": 34.08,
+                    "start": 33.6,
+                    "end": 34.072,
                     "text": "in"
                 },
                 {
-                    "start": 34.08,
-                    "end": 34.58,
+                    "start": 34.597,
+                    "end": 34.672,
                     "text": "the"
                 },
                 {
-                    "start": 34.58,
-                    "end": 35.24,
+                    "start": 34.897,
+                    "end": 35.272,
                     "text": "air"
                 }
             ]
         },
         {
             "id": "line_5_occ_0",
-            "start": 36.58,
-            "end": 40.22,
+            "start": 36.8,
+            "end": 40.272,
             "lyric": "Gralha jumped to grab it there",
-            "real_meaning": "The consumer leaping for the product — launch day queues, Black Friday stampedes, desperate acquisition.",
+            "real_meaning": "The consumer leaping for the product â€” launch day queues, Black Friday stampedes, desperate acquisition.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0101.jpg",
+                    "url": "media/c0303.jpg",
                     "query": "figure leaping desperately to catch a falling object, devotion and desperation, dramatic action cinematic"
                 },
                 {
-                    "offset": 0.78,
+                    "offset": 0.56,
                     "url": "media/c0304.jpg",
                     "query": "A hand reaches out, fingers splayed wide, grasping for the prize, sunlight glints off the gleaming object."
-                },
-                {
-                    "offset": 1.43,
-                    "url": "media/c0305.jpg",
-                    "query": "A chaotic blur of bodies, arms flailing, silhouettes against a harsh sunset, all converging on a single point."
                 }
             ],
             "words": [
                 {
-                    "start": 36.58,
-                    "end": 37.24,
-                    "text": "Grab"
+                    "start": 36.8,
+                    "end": 37.452,
+                    "text": "Gralha"
                 },
                 {
-                    "start": 37.24,
-                    "end": 37.54,
-                    "text": "a"
+                    "start": 37.452,
+                    "end": 38.072,
+                    "text": "jumped"
                 },
                 {
-                    "start": 37.54,
-                    "end": 38.06,
-                    "text": "jump"
-                },
-                {
-                    "start": 38.06,
-                    "end": 38.54,
+                    "start": 38.305,
+                    "end": 38.692,
                     "text": "to"
                 },
                 {
-                    "start": 38.54,
-                    "end": 39.46,
+                    "start": 38.977,
+                    "end": 39.452,
                     "text": "grab"
                 },
                 {
-                    "start": 39.46,
-                    "end": 39.76,
+                    "start": 39.522,
+                    "end": 39.732,
                     "text": "it"
                 },
                 {
-                    "start": 39.76,
-                    "end": 40.22,
+                    "start": 39.934,
+                    "end": 40.272,
                     "text": "there"
                 }
             ]
         },
         {
             "id": "line_6_occ_0",
-            "start": 41.72,
-            "end": 45.42,
+            "start": 41.832,
+            "end": 45.492,
             "lyric": "The tribe all followed, wild and thick",
-            "real_meaning": "The herd following — viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "real_meaning": "The herd following â€” viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0102.jpg",
+                    "url": "media/c0306.jpg",
                     "query": "stampeding crowd all reaching for the same object, herd mentality, chaotic wide angle cinematic"
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 0.8,
                     "url": "media/c0307.jpg",
                     "query": "A frenzied hand grasping for an object just out of reach."
-                },
-                {
-                    "offset": 1.56,
-                    "url": "media/c0308.jpg",
-                    "query": "A whirlpool of faces and arms, devouring their own in pursuit."
                 }
             ],
             "words": [
                 {
-                    "start": 41.72,
-                    "end": 41.98,
+                    "start": 41.832,
+                    "end": 41.932,
                     "text": "The"
                 },
                 {
-                    "start": 41.98,
-                    "end": 42.5,
-                    "text": "tribal"
+                    "start": 41.932,
+                    "end": 42.412,
+                    "text": "tribe"
                 },
                 {
-                    "start": 42.5,
-                    "end": 43.58,
-                    "text": "follow"
+                    "start": 42.412,
+                    "end": 42.812,
+                    "text": "all"
                 },
                 {
-                    "start": 43.58,
-                    "end": 44.6,
+                    "start": 42.812,
+                    "end": 44.252,
+                    "text": "followed,"
+                },
+                {
+                    "start": 44.252,
+                    "end": 44.572,
                     "text": "wild"
                 },
                 {
-                    "start": 44.6,
-                    "end": 44.98,
+                    "start": 44.922,
+                    "end": 44.972,
                     "text": "and"
                 },
                 {
-                    "start": 44.98,
-                    "end": 45.42,
+                    "start": 44.972,
+                    "end": 45.492,
                     "text": "thick"
                 }
             ]
         },
         {
             "id": "line_7_occ_0",
-            "start": 47.26,
-            "end": 51.06,
+            "start": 47.456,
+            "end": 50.992,
             "lyric": "For an object that wouldn't click",
-            "real_meaning": "The empty product — the lighter without gas, the app without value, the status symbol without substance.",
+            "real_meaning": "The empty product â€” the lighter without gas, the app without value, the status symbol without substance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0103.jpg",
+                    "url": "media/c0309.jpg",
                     "query": "close-up of a hand clicking an empty lighter repeatedly, no flame, futile clicks, intimate cinematic"
                 },
                 {
-                    "offset": 0.64,
+                    "offset": 1.07,
                     "url": "media/c0310.jpg",
                     "query": "A close-up of cracked and empty lighter fluid bottle, golden residue glistening in warm light."
-                },
-                {
-                    "offset": 1.27,
-                    "url": "media/c0311.jpg",
-                    "query": "The figure's face turned away from a dark alley into blinding sunshine."
                 }
             ],
             "words": [
                 {
-                    "start": 47.26,
-                    "end": 47.78,
+                    "start": 47.456,
+                    "end": 47.792,
                     "text": "For"
                 },
                 {
-                    "start": 47.78,
-                    "end": 48.04,
+                    "start": 47.857,
+                    "end": 48.052,
                     "text": "an"
                 },
                 {
-                    "start": 48.04,
-                    "end": 48.82,
+                    "start": 48.665,
+                    "end": 48.752,
                     "text": "object"
                 },
                 {
-                    "start": 48.82,
-                    "end": 50.02,
+                    "start": 49.312,
+                    "end": 50.032,
                     "text": "that"
                 },
                 {
-                    "start": 50.02,
-                    "end": 50.68,
+                    "start": 50.032,
+                    "end": 50.692,
                     "text": "wouldn't"
                 },
                 {
-                    "start": 50.68,
-                    "end": 51.06,
+                    "start": 50.692,
+                    "end": 50.992,
                     "text": "click"
                 }
             ]
         },
         {
             "id": "line_8_occ_0",
-            "start": 60.0,
-            "end": 72.18,
+            "start": 62.14,
+            "end": 66.612,
             "lyric": "The gas was gone, they didn't know",
-            "real_meaning": "The bubble has burst but nobody realizes — the company is bankrupt but the stock price hasn't caught up.",
+            "real_meaning": "The bubble has burst but nobody realizes â€” the company is bankrupt but the stock price hasn't caught up.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0104.jpg",
+                    "url": "media/c0312.jpg",
                     "query": "crowd worshipping an empty shell without realizing it's hollow, blind devotion, dramatic irony cinematic"
                 },
                 {
-                    "offset": 1.09,
+                    "offset": 0.92,
                     "url": "media/c0313.jpg",
                     "query": "A lone executive, face hidden in shadow, frantically shuffling papers under harsh light."
-                },
-                {
-                    "offset": 1.74,
-                    "url": "media/c0314.jpg",
-                    "query": "A shattered bubble floating in a sea of golden stocks, warm light reflecting off crumbling remnants."
                 }
             ],
             "words": [
                 {
-                    "start": 60.0,
-                    "end": 63.02,
+                    "start": 62.34,
+                    "end": 62.993,
                     "text": "The"
                 },
                 {
-                    "start": 63.02,
-                    "end": 63.46,
+                    "start": 62.993,
+                    "end": 63.647,
                     "text": "gas"
                 },
                 {
-                    "start": 63.46,
-                    "end": 63.72,
+                    "start": 63.647,
+                    "end": 63.712,
                     "text": "was"
                 },
                 {
-                    "start": 63.72,
-                    "end": 64.36,
+                    "start": 63.918,
+                    "end": 64.262,
                     "text": "gone,"
                 },
                 {
-                    "start": 65.52,
-                    "end": 65.84,
+                    "start": 65.696,
+                    "end": 65.812,
                     "text": "they"
                 },
                 {
-                    "start": 65.84,
-                    "end": 66.28,
+                    "start": 65.984,
+                    "end": 66.272,
                     "text": "didn't"
                 },
                 {
-                    "start": 66.28,
-                    "end": 66.64,
+                    "start": 66.357,
+                    "end": 66.612,
                     "text": "know"
-                },
-                {
-                    "start": 66.64,
-                    "end": 68.34,
-                    "text": "The"
-                },
-                {
-                    "start": 68.34,
-                    "end": 68.94,
-                    "text": "sacred"
-                },
-                {
-                    "start": 68.94,
-                    "end": 69.84,
-                    "text": "thing"
-                },
-                {
-                    "start": 69.84,
-                    "end": 70.92,
-                    "text": "had"
-                },
-                {
-                    "start": 70.92,
-                    "end": 71.44,
-                    "text": "nothing"
-                },
-                {
-                    "start": 71.44,
-                    "end": 71.76,
-                    "text": "to"
-                },
-                {
-                    "start": 71.76,
-                    "end": 72.18,
-                    "text": "show"
                 }
             ]
         },
         {
-            "id": "line_9_interp",
-            "start": 72.18,
-            "end": 73.5,
+            "id": "line_9_occ_0",
+            "start": 68.252,
+            "end": 72.232,
             "lyric": "The sacred thing had nothing to show",
-            "real_meaning": "The emperor's new clothes — the product is empty, the promise is void, the magic was always fake.",
+            "real_meaning": "The emperor's new clothes â€” the product is empty, the promise is void, the magic was always fake.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0105.jpg",
+                    "url": "media/c0315.jpg",
                     "query": "ornate pedestal displaying an empty transparent container, nothing inside, grand emptiness, cinematic"
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0316.jpg",
-                    "query": "Close-up of ornate pedestal, hands gently brushing dust from top surface, soft lighting."
                 }
             ],
             "words": [
                 {
-                    "start": 72.18,
-                    "end": 72.369,
+                    "start": 68.252,
+                    "end": 68.352,
                     "text": "The"
                 },
                 {
-                    "start": 72.369,
-                    "end": 72.557,
+                    "start": 68.562,
+                    "end": 68.912,
                     "text": "sacred"
                 },
                 {
-                    "start": 72.557,
-                    "end": 72.746,
+                    "start": 69.197,
+                    "end": 69.672,
                     "text": "thing"
                 },
                 {
-                    "start": 72.746,
-                    "end": 72.934,
+                    "start": 69.672,
+                    "end": 70.952,
                     "text": "had"
                 },
                 {
-                    "start": 72.934,
-                    "end": 73.123,
+                    "start": 71.154,
+                    "end": 71.492,
                     "text": "nothing"
                 },
                 {
-                    "start": 73.123,
-                    "end": 73.311,
+                    "start": 71.492,
+                    "end": 71.792,
                     "text": "to"
                 },
                 {
-                    "start": 73.311,
-                    "end": 73.5,
+                    "start": 71.792,
+                    "end": 72.232,
                     "text": "show"
                 }
             ]
         },
         {
             "id": "line_10_occ_0",
-            "start": 73.5,
-            "end": 82.72,
+            "start": 72.232,
+            "end": 77.512,
             "lyric": "Empty plastic, hollow shell",
-            "real_meaning": "Consumer waste — landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
+            "real_meaning": "Consumer waste â€” landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0106.jpg",
+                    "url": "media/c0318.jpg",
                     "query": "pile of discarded plastic objects in harsh light, consumer waste monument, stark cinematic"
                 },
                 {
-                    "offset": 0.78,
+                    "offset": 0.7,
                     "url": "media/c0319.jpg",
                     "query": "A tattered shirt in warm sunlight hangs on barbed wire fence"
-                },
-                {
-                    "offset": 1.41,
-                    "url": "media/c0320.jpg",
-                    "query": "Wistful wind swirls plastic bags like ghosts over a barren landscape"
                 }
             ],
             "words": [
                 {
-                    "start": 73.5,
-                    "end": 74.16,
+                    "start": 72.232,
+                    "end": 74.172,
                     "text": "Empty"
                 },
                 {
-                    "start": 74.16,
-                    "end": 75.06,
+                    "start": 74.172,
+                    "end": 75.172,
                     "text": "plastic,"
                 },
                 {
-                    "start": 76.24,
-                    "end": 76.78,
+                    "start": 76.689,
+                    "end": 76.752,
                     "text": "hollow"
                 },
                 {
-                    "start": 76.78,
-                    "end": 77.52,
+                    "start": 77.037,
+                    "end": 77.512,
                     "text": "shell"
-                },
-                {
-                    "start": 77.52,
-                    "end": 78.92,
-                    "text": "I"
-                },
-                {
-                    "start": 78.92,
-                    "end": 79.22,
-                    "text": "ran"
-                },
-                {
-                    "start": 79.22,
-                    "end": 79.42,
-                    "text": "to"
-                },
-                {
-                    "start": 79.42,
-                    "end": 79.7,
-                    "text": "my"
-                },
-                {
-                    "start": 79.7,
-                    "end": 80.26,
-                    "text": "green"
-                },
-                {
-                    "start": 80.26,
-                    "end": 81.46,
-                    "text": "time"
-                },
-                {
-                    "start": 81.46,
-                    "end": 82.12,
-                    "text": "travel"
-                },
-                {
-                    "start": 82.12,
-                    "end": 82.72,
-                    "text": "cell"
                 }
             ]
         },
         {
-            "id": "line_11_interp",
-            "start": 82.72,
-            "end": 84.28,
+            "id": "line_11_occ_0",
+            "start": 78.832,
+            "end": 82.772,
             "lyric": "I ran to my green time-travel cell",
-            "real_meaning": "Retreating to safety — logging off, going offline, escaping to nature, finding the exit before the building collapses.",
+            "real_meaning": "Retreating to safety â€” logging off, going offline, escaping to nature, finding the exit before the building collapses.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0107.jpg",
+                    "url": "media/c0321.jpg",
                     "query": "figure running toward a glowing green doorway at the end of a dark corridor, escape to reality, cinematic"
                 },
                 {
-                    "offset": 0.76,
+                    "offset": 0.7,
                     "url": "media/c0322.jpg",
                     "query": "The glowing doorway shimmers and ripples as if it were water."
                 }
             ],
             "words": [
                 {
-                    "start": 82.72,
-                    "end": 82.943,
+                    "start": 78.832,
+                    "end": 78.932,
                     "text": "I"
                 },
                 {
-                    "start": 82.943,
-                    "end": 83.166,
+                    "start": 78.932,
+                    "end": 79.232,
                     "text": "ran"
                 },
                 {
-                    "start": 83.166,
-                    "end": 83.389,
+                    "start": 79.282,
+                    "end": 79.432,
                     "text": "to"
                 },
                 {
-                    "start": 83.389,
-                    "end": 83.611,
+                    "start": 79.507,
+                    "end": 79.732,
                     "text": "my"
                 },
                 {
-                    "start": 83.611,
-                    "end": 83.834,
+                    "start": 79.8,
+                    "end": 80.272,
                     "text": "green"
                 },
                 {
-                    "start": 83.834,
-                    "end": 84.057,
+                    "start": 80.448,
+                    "end": 82.152,
                     "text": "time-travel"
                 },
                 {
-                    "start": 84.057,
-                    "end": 84.28,
+                    "start": 82.23,
+                    "end": 82.772,
                     "text": "cell"
                 }
             ]
         },
         {
             "id": "line_12_occ_0",
-            "start": 84.28,
-            "end": 88.18,
+            "start": 83.738,
+            "end": 88.16,
             "lyric": "Grabbed the hedgehog (just in case)",
-            "real_meaning": "Keeping the one real thing — the pet, the garden, the handwritten letter, the analog truth in a digital world.",
+            "real_meaning": "Keeping the one real thing â€” the pet, the garden, the handwritten letter, the analog truth in a digital world.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0108.jpg",
+                    "url": "media/c0324.jpg",
                     "query": "hands cradling a small hedgehog protectively, the one real thing, tender cinematic close-up"
                 },
                 {
-                    "offset": 0.54,
+                    "offset": 1.08,
                     "url": "media/c0325.jpg",
                     "query": "Hands gently caressing the hedgehog's spine. Spines soften and shift with touch"
-                },
-                {
-                    "offset": 1.19,
-                    "url": "media/c0326.jpg",
-                    "query": "Sunlight filtering through leaves, a petal falling to the ground in stillness"
                 }
             ],
             "words": [
                 {
-                    "start": 84.28,
-                    "end": 84.86,
+                    "start": 83.738,
+                    "end": 84.832,
                     "text": "Grabbed"
                 },
                 {
-                    "start": 84.86,
-                    "end": 85.04,
-                    "text": "a"
+                    "start": 84.832,
+                    "end": 85.072,
+                    "text": "the"
                 },
                 {
-                    "start": 85.04,
-                    "end": 86.28,
+                    "start": 85.072,
+                    "end": 86.272,
                     "text": "hedgehog"
                 },
                 {
-                    "start": 86.28,
-                    "end": 86.82,
-                    "text": "just"
+                    "start": 86.272,
+                    "end": 86.812,
+                    "text": "(just"
                 },
                 {
-                    "start": 86.82,
-                    "end": 87.24,
+                    "start": 87.18,
+                    "end": 87.232,
                     "text": "in"
                 },
                 {
-                    "start": 87.24,
-                    "end": 88.18,
-                    "text": "case"
+                    "start": 88.102,
+                    "end": 88.16,
+                    "text": "case)"
                 }
             ]
         },
         {
             "id": "line_13_occ_0",
-            "start": 89.18,
-            "end": 93.32,
+            "start": 89.344,
+            "end": 93.352,
             "lyric": "Saw the confusion on each face",
-            "real_meaning": "The moment the magic dies — the look in people's eyes when the influencer is exposed, the leader falls.",
+            "real_meaning": "The moment the magic dies â€” the look in people's eyes when the influencer is exposed, the leader falls.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0109.jpg",
+                    "url": "media/c0327.jpg",
                     "query": "multiple confused faces looking around in bewilderment, collective disillusionment, portrait cinematic"
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 0.75,
                     "url": "media/c0328.jpg",
                     "query": "A tattered idol worshipped by shadowy figures."
-                },
-                {
-                    "offset": 1.56,
-                    "url": "media/c0329.jpg",
-                    "query": "A shattered mirror reflecting faded dreams."
                 }
             ],
             "words": [
                 {
-                    "start": 89.18,
-                    "end": 89.6,
+                    "start": 89.344,
+                    "end": 89.592,
                     "text": "Saw"
                 },
                 {
-                    "start": 89.6,
-                    "end": 89.84,
+                    "start": 89.657,
+                    "end": 89.852,
                     "text": "the"
                 },
                 {
-                    "start": 89.84,
-                    "end": 91.06,
+                    "start": 89.852,
+                    "end": 91.012,
                     "text": "confusion"
                 },
                 {
-                    "start": 91.06,
-                    "end": 92.1,
+                    "start": 91.502,
+                    "end": 92.132,
                     "text": "on"
                 },
                 {
-                    "start": 92.1,
-                    "end": 92.52,
+                    "start": 92.232,
+                    "end": 92.532,
                     "text": "each"
                 },
                 {
-                    "start": 92.52,
-                    "end": 93.32,
+                    "start": 92.788,
+                    "end": 93.352,
                     "text": "face"
                 }
             ]
         },
         {
             "id": "line_14_occ_0",
-            "start": 94.66,
-            "end": 98.18,
+            "start": 94.912,
+            "end": 98.272,
             "lyric": "Closed the door and pressed return",
-            "real_meaning": "Pressing Ctrl+Z on civilization — the desire to undo, to go back, to start over knowing what we know.",
+            "real_meaning": "Pressing Ctrl+Z on civilization â€” the desire to undo, to go back, to start over knowing what we know.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0110.jpg",
+                    "url": "media/c0330.jpg",
                     "query": "hand pressing a glowing button on a vintage machine, the reset moment, dramatic close-up cinematic"
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 1.1,
                     "url": "media/c0331.jpg",
                     "query": "Gears and cogs whirl in slow motion, smoke billowing from the machine."
-                },
-                {
-                    "offset": 1.36,
-                    "url": "media/c0332.jpg",
-                    "query": "A vast cityscape crumbles into dust with the press of a button."
                 }
             ],
             "words": [
                 {
-                    "start": 94.66,
-                    "end": 95.26,
+                    "start": 94.912,
+                    "end": 95.252,
                     "text": "Closed"
                 },
                 {
-                    "start": 95.26,
-                    "end": 95.52,
+                    "start": 95.507,
+                    "end": 95.592,
                     "text": "the"
                 },
                 {
-                    "start": 95.52,
-                    "end": 96.18,
+                    "start": 95.824,
+                    "end": 96.212,
                     "text": "door"
                 },
                 {
-                    "start": 96.18,
-                    "end": 96.76,
+                    "start": 96.422,
+                    "end": 96.772,
                     "text": "and"
                 },
                 {
-                    "start": 96.76,
-                    "end": 97.36,
+                    "start": 96.772,
+                    "end": 97.352,
                     "text": "pressed"
                 },
                 {
-                    "start": 97.36,
-                    "end": 98.18,
+                    "start": 97.352,
+                    "end": 98.272,
                     "text": "return"
                 }
             ]
         },
         {
             "id": "line_15_occ_0",
-            "start": 99.74,
-            "end": 103.64,
+            "start": 100.52,
+            "end": 103.81,
             "lyric": "Leaving them to crash and burn",
-            "real_meaning": "The guilt of the escapist — knowing you're leaving others in the system while you find peace. Survivor's guilt.",
+            "real_meaning": "The guilt of the escapist â€” knowing you're leaving others in the system while you find peace. Survivor's guilt.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0111.jpg",
+                    "url": "media/c0333.jpg",
                     "query": "green door closing on a scene of distant fires and chaos, leaving behind, bittersweet cinematic"
                 },
                 {
-                    "offset": 0.9,
+                    "offset": 0.77,
                     "url": "media/c0334.jpg",
                     "query": "A single tear rolling down a cheek, warmly lit by flickering firelight, capturing the pain and resignation of loss."
-                },
-                {
-                    "offset": 1.55,
-                    "url": "media/c0335.jpg",
-                    "query": "Fingertips gently brushing against the cool metal of a rusty doorknob in the fading light, a sense of closure and finality looms as the door remains closed."
                 }
             ],
             "words": [
                 {
-                    "start": 99.74,
-                    "end": 100.7,
+                    "start": 100.52,
+                    "end": 101.068,
                     "text": "Leaving"
                 },
                 {
-                    "start": 100.7,
-                    "end": 101.38,
+                    "start": 101.068,
+                    "end": 101.617,
                     "text": "them"
                 },
                 {
-                    "start": 101.38,
-                    "end": 101.92,
+                    "start": 101.617,
+                    "end": 102.165,
                     "text": "to"
                 },
                 {
-                    "start": 101.92,
-                    "end": 102.68,
+                    "start": 102.165,
+                    "end": 102.713,
                     "text": "crash"
                 },
                 {
-                    "start": 102.68,
-                    "end": 103.06,
+                    "start": 102.713,
+                    "end": 103.262,
                     "text": "and"
                 },
                 {
-                    "start": 103.06,
-                    "end": 103.64,
+                    "start": 103.262,
+                    "end": 103.81,
                     "text": "burn"
                 }
             ]
         },
         {
             "id": "line_16_interp",
-            "start": 104.14,
-            "end": 106.14,
-            "lyric": "\"Revolution... I'll call you Revolution.\"",
-            "real_meaning": "Naming the hedgehog Revolution — real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
+            "start": 103.81,
+            "end": 106.49,
+            "lyric": "I threw the lighter in the air",
+            "real_meaning": "Releasing the product into the wild â€” the IPO, the open-source release, letting go of what you created.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0112.jpg",
-                    "query": "person holding a hedgehog close to their face, whispering its name, intimate warmth, emotional cinematic"
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0337.jpg",
-                    "query": "Close-up of the hedgehog's eyes reflecting warm candlelight, a soft glow on its quills."
+                    "url": "media/c0300.jpg",
+                    "query": "hand releasing an orange lighter spinning upward into the air, slow motion release, dramatic cinematic"
                 }
             ],
             "words": [
                 {
-                    "start": 104.14,
-                    "end": 104.54,
+                    "start": 103.81,
+                    "end": 104.193,
+                    "text": "I"
+                },
+                {
+                    "start": 104.193,
+                    "end": 104.576,
+                    "text": "threw"
+                },
+                {
+                    "start": 104.576,
+                    "end": 104.959,
+                    "text": "the"
+                },
+                {
+                    "start": 104.959,
+                    "end": 105.341,
+                    "text": "lighter"
+                },
+                {
+                    "start": 105.341,
+                    "end": 105.724,
+                    "text": "in"
+                },
+                {
+                    "start": 105.724,
+                    "end": 106.107,
+                    "text": "the"
+                },
+                {
+                    "start": 106.107,
+                    "end": 106.49,
+                    "text": "air"
+                }
+            ]
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 106.492,
+            "end": 114.859,
+            "lyric": "Gralha jumped to grab it there",
+            "real_meaning": "The consumer leaping for the product â€” launch day queues, Black Friday stampedes, desperate acquisition.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0303.jpg",
+                    "query": "figure leaping desperately to catch a falling object, devotion and desperation, dramatic action cinematic"
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0304.jpg",
+                    "query": "A hand reaches out, fingers splayed wide, grasping for the prize, sunlight glints off the gleaming object."
+                },
+                {
+                    "offset": 3.99,
+                    "url": "media/c0305.jpg",
+                    "query": "A chaotic blur of bodies, arms flailing, silhouettes against a harsh sunset, all converging on a single point."
+                }
+            ],
+            "words": [
+                {
+                    "start": 106.492,
+                    "end": 107.886,
+                    "text": "air"
+                },
+                {
+                    "start": 107.886,
+                    "end": 109.281,
+                    "text": "Gralha"
+                },
+                {
+                    "start": 109.281,
+                    "end": 110.675,
+                    "text": "jumped"
+                },
+                {
+                    "start": 110.675,
+                    "end": 112.07,
+                    "text": "to"
+                },
+                {
+                    "start": 112.07,
+                    "end": 113.465,
+                    "text": "grab"
+                },
+                {
+                    "start": 113.465,
+                    "end": 114.859,
+                    "text": "it"
+                }
+            ]
+        },
+        {
+            "id": "line_18_occ_0",
+            "start": 114.859,
+            "end": 123.226,
+            "lyric": "The tribe all followed, wild and thick",
+            "real_meaning": "The herd following â€” viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0306.jpg",
+                    "query": "stampeding crowd all reaching for the same object, herd mentality, chaotic wide angle cinematic"
+                },
+                {
+                    "offset": 0.89,
+                    "url": "media/c0307.jpg",
+                    "query": "A frenzied hand grasping for an object just out of reach."
+                },
+                {
+                    "offset": 4.19,
+                    "url": "media/c0308.jpg",
+                    "query": "A whirlpool of faces and arms, devouring their own in pursuit."
+                }
+            ],
+            "words": [
+                {
+                    "start": 114.859,
+                    "end": 116.054,
+                    "text": "there"
+                },
+                {
+                    "start": 116.054,
+                    "end": 117.25,
+                    "text": "The"
+                },
+                {
+                    "start": 117.25,
+                    "end": 118.445,
+                    "text": "tribe"
+                },
+                {
+                    "start": 118.445,
+                    "end": 119.64,
+                    "text": "all"
+                },
+                {
+                    "start": 119.64,
+                    "end": 120.835,
+                    "text": "followed,"
+                },
+                {
+                    "start": 120.835,
+                    "end": 122.031,
+                    "text": "wild"
+                },
+                {
+                    "start": 122.031,
+                    "end": 123.226,
+                    "text": "and"
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 123.226,
+            "end": 131.593,
+            "lyric": "For an object that wouldn't click",
+            "real_meaning": "The empty product â€” the lighter without gas, the app without value, the status symbol without substance.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0309.jpg",
+                    "query": "close-up of a hand clicking an empty lighter repeatedly, no flame, futile clicks, intimate cinematic"
+                },
+                {
+                    "offset": 1.07,
+                    "url": "media/c0310.jpg",
+                    "query": "A close-up of cracked and empty lighter fluid bottle, golden residue glistening in warm light."
+                }
+            ],
+            "words": [
+                {
+                    "start": 123.226,
+                    "end": 124.62,
+                    "text": "thick"
+                },
+                {
+                    "start": 124.62,
+                    "end": 126.015,
+                    "text": "For"
+                },
+                {
+                    "start": 126.015,
+                    "end": 127.409,
+                    "text": "an"
+                },
+                {
+                    "start": 127.409,
+                    "end": 128.804,
+                    "text": "object"
+                },
+                {
+                    "start": 128.804,
+                    "end": 130.198,
+                    "text": "that"
+                },
+                {
+                    "start": 130.198,
+                    "end": 131.593,
+                    "text": "wouldn't"
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 131.593,
+            "end": 139.96,
+            "lyric": "\"Revolution... I'll call you Revolution.\"",
+            "real_meaning": "Naming the hedgehog Revolution â€” real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0336.jpg",
+                    "query": "person holding a hedgehog close to their face, whispering its name, intimate warmth, emotional cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 131.593,
+                    "end": 133.266,
+                    "text": "click"
+                },
+                {
+                    "start": 133.266,
+                    "end": 134.94,
                     "text": "\"Revolution..."
                 },
                 {
-                    "start": 104.54,
-                    "end": 104.94,
+                    "start": 134.94,
+                    "end": 136.613,
                     "text": "I'll"
                 },
                 {
-                    "start": 104.94,
-                    "end": 105.34,
+                    "start": 136.613,
+                    "end": 138.287,
                     "text": "call"
                 },
                 {
-                    "start": 105.34,
-                    "end": 105.74,
-                    "text": "you"
-                },
-                {
-                    "start": 105.74,
-                    "end": 106.14,
-                    "text": "Revolution.\""
-                }
-            ]
-        },
-        {
-            "id": "instrumental_1",
-            "start": 107.64,
-            "end": 108.5,
-            "lyric": "Who is?",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 107.64,
-                    "end": 107.66,
-                    "text": "Who"
-                },
-                {
-                    "start": 107.66,
-                    "end": 108.5,
-                    "text": "is?"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_2",
-            "start": 111.34,
-            "end": 113.62,
-            "lyric": "Who is?",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 111.34,
-                    "end": 112.12,
-                    "text": "Who"
-                },
-                {
-                    "start": 112.12,
-                    "end": 113.62,
-                    "text": "is?"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_3",
-            "start": 116.62,
-            "end": 119.38,
-            "lyric": "Who is?",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 116.62,
-                    "end": 117.38,
-                    "text": "Who"
-                },
-                {
-                    "start": 117.38,
-                    "end": 119.38,
-                    "text": "is?"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_4",
-            "start": 121.88,
-            "end": 123.98,
-            "lyric": "Who is?",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 121.88,
-                    "end": 122.32,
-                    "text": "Who"
-                },
-                {
-                    "start": 122.32,
-                    "end": 123.98,
-                    "text": "is?"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_5",
-            "start": 138.82,
-            "end": 138.84,
-            "lyric": "you",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 138.82,
-                    "end": 138.84,
+                    "start": 138.287,
+                    "end": 139.96,
                     "text": "you"
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        1.045,
+        1.718,
+        2.368,
+        3.042,
+        3.692,
+        4.365,
+        5.016,
+        5.689,
+        6.339,
+        6.989,
+        7.663,
+        8.313,
+        8.963,
+        9.613,
+        10.286,
+        10.983,
+        11.633,
+        12.283,
+        12.934,
+        13.607,
+        14.257,
+        14.907,
+        15.557,
+        16.231,
+        16.881,
+        17.531,
+        18.181,
+        18.831,
+        19.505,
+        20.155,
+        20.805,
+        21.478,
+        22.152,
+        22.825,
+        23.452,
+        24.149,
+        24.822,
+        25.472,
+        26.122,
+        26.796,
+        27.446,
+        28.096,
+        28.746,
+        29.42,
+        30.07,
+        30.743,
+        31.37,
+        32.067,
+        32.74,
+        33.39,
+        34.04,
+        34.714,
+        35.364,
+        36.014,
+        36.688,
+        37.361,
+        38.011,
+        38.661,
+        39.335,
+        39.962,
+        40.635,
+        41.308,
+        41.958,
+        42.632,
+        43.282,
+        43.932,
+        44.606,
+        45.256,
+        45.906,
+        46.579,
+        47.229,
+        47.903,
+        48.53,
+        49.203,
+        49.853,
+        50.527,
+        51.2,
+        51.85,
+        52.5,
+        53.174,
+        53.824,
+        54.497,
+        55.147,
+        55.821,
+        56.471,
+        57.121,
+        57.771,
+        58.445,
+        59.095,
+        59.768,
+        60.418,
+        61.092,
+        61.742,
+        62.392,
+        63.065,
+        63.716,
+        64.389,
+        65.039,
+        65.689,
+        66.363,
+        67.013,
+        67.663,
+        68.313,
+        69.01,
+        69.637,
+        70.31,
+        70.96,
+        71.61,
+        72.284,
+        72.934,
+        73.607,
+        74.281,
+        74.908,
+        75.581,
+        76.254,
+        76.904,
+        77.555,
+        78.205,
+        78.855,
+        79.528,
+        80.202,
+        80.852,
+        81.525,
+        82.175,
+        82.826,
+        83.476,
+        84.149,
+        84.822,
+        85.473,
+        86.146,
+        86.796,
+        87.446,
+        88.097,
+        88.77,
+        89.42,
+        90.093,
+        90.744,
+        91.417,
+        92.067,
+        92.717,
+        93.367,
+        94.041,
+        94.691,
+        95.364,
+        96.015,
+        96.665,
+        97.315,
+        97.988,
+        98.638,
+        99.312,
+        99.962,
+        100.635,
+        101.285,
+        101.936,
+        102.609,
+        103.259,
+        103.909,
+        104.559,
+        105.233,
+        105.883,
+        106.556,
+        107.207,
+        107.857,
+        108.53,
+        109.18,
+        109.83,
+        110.481,
+        111.154,
+        111.804,
+        112.477,
+        113.128,
+        113.801,
+        114.451,
+        115.101,
+        115.751,
+        116.402,
+        117.075,
+        117.725,
+        118.375,
+        119.049,
+        119.699,
+        120.349,
+        120.999,
+        121.649,
+        122.323,
+        122.973,
+        123.623,
+        124.296,
+        124.947,
+        125.597,
+        126.247,
+        126.897,
+        127.547,
+        128.221,
+        128.871,
+        129.521,
+        130.171
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.32
+        ],
+        [
+            0.49,
+            0.414
+        ],
+        [
+            0.98,
+            0.585
+        ],
+        [
+            1.46,
+            0.67
+        ],
+        [
+            1.95,
+            0.684
+        ],
+        [
+            2.44,
+            0.72
+        ],
+        [
+            2.93,
+            0.722
+        ],
+        [
+            3.41,
+            0.7
+        ],
+        [
+            3.9,
+            0.707
+        ],
+        [
+            4.39,
+            0.698
+        ],
+        [
+            4.88,
+            0.731
+        ],
+        [
+            5.36,
+            0.746
+        ],
+        [
+            5.85,
+            0.72
+        ],
+        [
+            6.34,
+            0.712
+        ],
+        [
+            6.83,
+            0.722
+        ],
+        [
+            7.31,
+            0.722
+        ],
+        [
+            7.8,
+            0.736
+        ],
+        [
+            8.29,
+            0.729
+        ],
+        [
+            8.78,
+            0.715
+        ],
+        [
+            9.26,
+            0.721
+        ],
+        [
+            9.75,
+            0.689
+        ],
+        [
+            10.24,
+            0.746
+        ],
+        [
+            10.73,
+            0.854
+        ],
+        [
+            11.22,
+            0.857
+        ],
+        [
+            11.7,
+            0.752
+        ],
+        [
+            12.19,
+            0.687
+        ],
+        [
+            12.68,
+            0.76
+        ],
+        [
+            13.17,
+            0.799
+        ],
+        [
+            13.65,
+            0.772
+        ],
+        [
+            14.14,
+            0.743
+        ],
+        [
+            14.63,
+            0.711
+        ],
+        [
+            15.12,
+            0.702
+        ],
+        [
+            15.6,
+            0.803
+        ],
+        [
+            16.09,
+            0.883
+        ],
+        [
+            16.58,
+            0.829
+        ],
+        [
+            17.07,
+            0.734
+        ],
+        [
+            17.55,
+            0.679
+        ],
+        [
+            18.04,
+            0.707
+        ],
+        [
+            18.53,
+            0.766
+        ],
+        [
+            19.02,
+            0.779
+        ],
+        [
+            19.5,
+            0.714
+        ],
+        [
+            19.99,
+            0.684
+        ],
+        [
+            20.48,
+            0.679
+        ],
+        [
+            20.97,
+            0.79
+        ],
+        [
+            21.46,
+            0.894
+        ],
+        [
+            21.94,
+            0.797
+        ],
+        [
+            22.43,
+            0.694
+        ],
+        [
+            22.92,
+            0.658
+        ],
+        [
+            23.41,
+            0.741
+        ],
+        [
+            23.89,
+            0.796
+        ],
+        [
+            24.38,
+            0.774
+        ],
+        [
+            24.87,
+            0.723
+        ],
+        [
+            25.36,
+            0.665
+        ],
+        [
+            25.84,
+            0.709
+        ],
+        [
+            26.33,
+            0.799
+        ],
+        [
+            26.82,
+            0.835
+        ],
+        [
+            27.31,
+            0.766
+        ],
+        [
+            27.79,
+            0.721
+        ],
+        [
+            28.28,
+            0.731
+        ],
+        [
+            28.77,
+            0.802
+        ],
+        [
+            29.26,
+            0.827
+        ],
+        [
+            29.74,
+            0.776
+        ],
+        [
+            30.23,
+            0.713
+        ],
+        [
+            30.72,
+            0.687
+        ],
+        [
+            31.21,
+            0.76
+        ],
+        [
+            31.7,
+            0.821
+        ],
+        [
+            32.18,
+            0.89
+        ],
+        [
+            32.67,
+            0.944
+        ],
+        [
+            33.16,
+            0.893
+        ],
+        [
+            33.65,
+            0.859
+        ],
+        [
+            34.13,
+            0.895
+        ],
+        [
+            34.62,
+            0.922
+        ],
+        [
+            35.11,
+            0.855
+        ],
+        [
+            35.6,
+            0.808
+        ],
+        [
+            36.08,
+            0.822
+        ],
+        [
+            36.57,
+            0.864
+        ],
+        [
+            37.06,
+            0.872
+        ],
+        [
+            37.55,
+            0.871
+        ],
+        [
+            38.03,
+            0.887
+        ],
+        [
+            38.52,
+            0.875
+        ],
+        [
+            39.01,
+            0.857
+        ],
+        [
+            39.5,
+            0.864
+        ],
+        [
+            39.98,
+            0.895
+        ],
+        [
+            40.47,
+            0.85
+        ],
+        [
+            40.96,
+            0.783
+        ],
+        [
+            41.45,
+            0.814
+        ],
+        [
+            41.94,
+            0.873
+        ],
+        [
+            42.42,
+            0.869
+        ],
+        [
+            42.91,
+            0.867
+        ],
+        [
+            43.4,
+            0.929
+        ],
+        [
+            43.89,
+            0.879
+        ],
+        [
+            44.37,
+            0.816
+        ],
+        [
+            44.86,
+            0.827
+        ],
+        [
+            45.35,
+            0.82
+        ],
+        [
+            45.84,
+            0.809
+        ],
+        [
+            46.32,
+            0.783
+        ],
+        [
+            46.81,
+            0.784
+        ],
+        [
+            47.3,
+            0.875
+        ],
+        [
+            47.79,
+            0.928
+        ],
+        [
+            48.27,
+            0.882
+        ],
+        [
+            48.76,
+            0.827
+        ],
+        [
+            49.25,
+            0.811
+        ],
+        [
+            49.74,
+            0.838
+        ],
+        [
+            50.22,
+            0.849
+        ],
+        [
+            50.71,
+            0.83
+        ],
+        [
+            51.2,
+            0.822
+        ],
+        [
+            51.69,
+            0.799
+        ],
+        [
+            52.18,
+            0.786
+        ],
+        [
+            52.66,
+            0.838
+        ],
+        [
+            53.15,
+            0.833
+        ],
+        [
+            53.64,
+            0.806
+        ],
+        [
+            54.13,
+            0.81
+        ],
+        [
+            54.61,
+            0.843
+        ],
+        [
+            55.1,
+            0.859
+        ],
+        [
+            55.59,
+            0.825
+        ],
+        [
+            56.08,
+            0.807
+        ],
+        [
+            56.56,
+            0.851
+        ],
+        [
+            57.05,
+            0.845
+        ],
+        [
+            57.54,
+            0.798
+        ],
+        [
+            58.03,
+            0.805
+        ],
+        [
+            58.51,
+            0.821
+        ],
+        [
+            59.0,
+            0.828
+        ],
+        [
+            59.49,
+            0.811
+        ],
+        [
+            59.98,
+            0.825
+        ],
+        [
+            60.46,
+            0.884
+        ],
+        [
+            60.95,
+            0.885
+        ],
+        [
+            61.44,
+            0.841
+        ],
+        [
+            61.93,
+            0.827
+        ],
+        [
+            62.42,
+            0.828
+        ],
+        [
+            62.9,
+            0.845
+        ],
+        [
+            63.39,
+            0.858
+        ],
+        [
+            63.88,
+            0.873
+        ],
+        [
+            64.37,
+            0.83
+        ],
+        [
+            64.85,
+            0.762
+        ],
+        [
+            65.34,
+            0.788
+        ],
+        [
+            65.83,
+            0.821
+        ],
+        [
+            66.32,
+            0.801
+        ],
+        [
+            66.8,
+            0.741
+        ],
+        [
+            67.29,
+            0.695
+        ],
+        [
+            67.78,
+            0.686
+        ],
+        [
+            68.27,
+            0.744
+        ],
+        [
+            68.75,
+            0.813
+        ],
+        [
+            69.24,
+            0.832
+        ],
+        [
+            69.73,
+            0.826
+        ],
+        [
+            70.22,
+            0.796
+        ],
+        [
+            70.7,
+            0.826
+        ],
+        [
+            71.19,
+            0.814
+        ],
+        [
+            71.68,
+            0.756
+        ],
+        [
+            72.17,
+            0.751
+        ],
+        [
+            72.66,
+            0.759
+        ],
+        [
+            73.14,
+            0.749
+        ],
+        [
+            73.63,
+            0.795
+        ],
+        [
+            74.12,
+            0.863
+        ],
+        [
+            74.61,
+            0.839
+        ],
+        [
+            75.09,
+            0.775
+        ],
+        [
+            75.58,
+            0.738
+        ],
+        [
+            76.07,
+            0.773
+        ],
+        [
+            76.56,
+            0.807
+        ],
+        [
+            77.04,
+            0.798
+        ],
+        [
+            77.53,
+            0.743
+        ],
+        [
+            78.02,
+            0.693
+        ],
+        [
+            78.51,
+            0.735
+        ],
+        [
+            78.99,
+            0.821
+        ],
+        [
+            79.48,
+            0.882
+        ],
+        [
+            79.97,
+            0.894
+        ],
+        [
+            80.46,
+            0.872
+        ],
+        [
+            80.94,
+            0.837
+        ],
+        [
+            81.43,
+            0.82
+        ],
+        [
+            81.92,
+            0.782
+        ],
+        [
+            82.41,
+            0.77
+        ],
+        [
+            82.9,
+            0.757
+        ],
+        [
+            83.38,
+            0.711
+        ],
+        [
+            83.87,
+            0.74
+        ],
+        [
+            84.36,
+            0.817
+        ],
+        [
+            84.85,
+            0.888
+        ],
+        [
+            85.33,
+            0.901
+        ],
+        [
+            85.82,
+            0.891
+        ],
+        [
+            86.31,
+            0.896
+        ],
+        [
+            86.8,
+            0.901
+        ],
+        [
+            87.28,
+            0.892
+        ],
+        [
+            87.77,
+            0.849
+        ],
+        [
+            88.26,
+            0.821
+        ],
+        [
+            88.75,
+            0.82
+        ],
+        [
+            89.23,
+            0.876
+        ],
+        [
+            89.72,
+            0.905
+        ],
+        [
+            90.21,
+            0.903
+        ],
+        [
+            90.7,
+            0.922
+        ],
+        [
+            91.18,
+            0.889
+        ],
+        [
+            91.67,
+            0.879
+        ],
+        [
+            92.16,
+            0.932
+        ],
+        [
+            92.65,
+            0.923
+        ],
+        [
+            93.14,
+            0.873
+        ],
+        [
+            93.62,
+            0.874
+        ],
+        [
+            94.11,
+            0.88
+        ],
+        [
+            94.6,
+            0.896
+        ],
+        [
+            95.09,
+            0.891
+        ],
+        [
+            95.57,
+            0.906
+        ],
+        [
+            96.06,
+            0.968
+        ],
+        [
+            96.55,
+            0.936
+        ],
+        [
+            97.04,
+            0.875
+        ],
+        [
+            97.52,
+            0.906
+        ],
+        [
+            98.01,
+            0.934
+        ],
+        [
+            98.5,
+            0.905
+        ],
+        [
+            98.99,
+            0.87
+        ],
+        [
+            99.47,
+            0.886
+        ],
+        [
+            99.96,
+            0.931
+        ],
+        [
+            100.45,
+            0.931
+        ],
+        [
+            100.94,
+            0.935
+        ],
+        [
+            101.42,
+            0.993
+        ],
+        [
+            101.91,
+            0.939
+        ],
+        [
+            102.4,
+            0.883
+        ],
+        [
+            102.89,
+            0.928
+        ],
+        [
+            103.38,
+            0.902
+        ],
+        [
+            103.86,
+            0.846
+        ],
+        [
+            104.35,
+            0.799
+        ],
+        [
+            104.84,
+            0.796
+        ],
+        [
+            105.33,
+            0.857
+        ],
+        [
+            105.81,
+            0.848
+        ],
+        [
+            106.3,
+            0.868
+        ],
+        [
+            106.79,
+            0.918
+        ],
+        [
+            107.28,
+            0.914
+        ],
+        [
+            107.76,
+            0.906
+        ],
+        [
+            108.25,
+            0.921
+        ],
+        [
+            108.74,
+            0.91
+        ],
+        [
+            109.23,
+            0.898
+        ],
+        [
+            109.71,
+            0.857
+        ],
+        [
+            110.2,
+            0.823
+        ],
+        [
+            110.69,
+            0.882
+        ],
+        [
+            111.18,
+            0.888
+        ],
+        [
+            111.66,
+            0.884
+        ],
+        [
+            112.15,
+            0.906
+        ],
+        [
+            112.64,
+            0.917
+        ],
+        [
+            113.13,
+            0.935
+        ],
+        [
+            113.62,
+            0.939
+        ],
+        [
+            114.1,
+            0.89
+        ],
+        [
+            114.59,
+            0.901
+        ],
+        [
+            115.08,
+            0.892
+        ],
+        [
+            115.57,
+            0.856
+        ],
+        [
+            116.05,
+            0.897
+        ],
+        [
+            116.54,
+            0.9
+        ],
+        [
+            117.03,
+            0.842
+        ],
+        [
+            117.52,
+            0.825
+        ],
+        [
+            118.0,
+            0.835
+        ],
+        [
+            118.49,
+            0.872
+        ],
+        [
+            118.98,
+            0.906
+        ],
+        [
+            119.47,
+            0.822
+        ],
+        [
+            119.95,
+            0.728
+        ],
+        [
+            120.44,
+            0.718
+        ],
+        [
+            120.93,
+            0.739
+        ],
+        [
+            121.42,
+            0.752
+        ],
+        [
+            121.9,
+            0.772
+        ],
+        [
+            122.39,
+            0.81
+        ],
+        [
+            122.88,
+            0.827
+        ],
+        [
+            123.37,
+            0.867
+        ],
+        [
+            123.86,
+            0.935
+        ],
+        [
+            124.34,
+            0.92
+        ],
+        [
+            124.83,
+            0.822
+        ],
+        [
+            125.32,
+            0.759
+        ],
+        [
+            125.81,
+            0.744
+        ],
+        [
+            126.29,
+            0.722
+        ],
+        [
+            126.78,
+            0.724
+        ],
+        [
+            127.27,
+            0.74
+        ],
+        [
+            127.76,
+            0.736
+        ],
+        [
+            128.24,
+            0.714
+        ],
+        [
+            128.73,
+            0.717
+        ],
+        [
+            129.22,
+            0.708
+        ],
+        [
+            129.71,
+            0.644
+        ],
+        [
+            130.19,
+            0.605
+        ],
+        [
+            130.68,
+            0.573
+        ],
+        [
+            131.17,
+            0.508
+        ],
+        [
+            131.66,
+            0.468
+        ],
+        [
+            132.14,
+            0.459
+        ],
+        [
+            132.63,
+            0.461
+        ],
+        [
+            133.12,
+            0.455
+        ],
+        [
+            133.61,
+            0.427
+        ],
+        [
+            134.1,
+            0.429
+        ],
+        [
+            134.58,
+            0.453
+        ],
+        [
+            135.07,
+            0.434
+        ],
+        [
+            135.56,
+            0.444
+        ],
+        [
+            136.05,
+            0.454
+        ],
+        [
+            136.53,
+            0.451
+        ],
+        [
+            137.02,
+            0.455
+        ],
+        [
+            137.51,
+            0.439
+        ],
+        [
+            138.0,
+            0.408
+        ],
+        [
+            138.48,
+            0.374
+        ],
+        [
+            138.97,
+            0.351
+        ],
+        [
+            139.46,
+            0.325
+        ],
+        [
+            139.95,
+            0.312
+        ]
+    ],
+    "bpm": 92.3
 }

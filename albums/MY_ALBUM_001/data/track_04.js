@@ -4,1544 +4,2219 @@ var track_04_data = {
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "line_0_interp",
-            "start": 0.0,
-            "end": 8.18,
+            "id": "line_0_occ_0",
+            "start": 17.526,
+            "end": 22.128,
             "lyric": "Soon the tribe began to split",
-            "real_meaning": "Political polarization — left vs right, iOS vs Android, vaxxers vs anti-vaxxers. Division as identity.",
+            "real_meaning": "Political polarization â€” left vs right, iOS vs Android, vaxxers vs anti-vaxxers. Division as identity.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0037.jpg",
+                    "url": "media/c0111.jpg",
                     "query": "group of people splitting into two opposing sides, crack forming between them, dramatic cinematic"
                 },
                 {
-                    "offset": 0.81,
+                    "offset": 0.8,
                     "url": "media/c0112.jpg",
                     "query": "A lone figure stands at the crack's edge, silhouette framed by warm sunlight, hands clenched."
-                },
-                {
-                    "offset": 1.32,
-                    "url": "media/c0113.jpg",
-                    "query": "Fractured earth, jagged lines reaching towards a stormy sky, warmth in the hues of the setting sun."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 1.363,
-                    "text": "Soon"
-                },
-                {
-                    "start": 1.363,
-                    "end": 2.727,
-                    "text": "the"
-                },
-                {
-                    "start": 2.727,
-                    "end": 4.09,
-                    "text": "tribe"
-                },
-                {
-                    "start": 4.09,
-                    "end": 5.453,
+                    "start": 17.526,
+                    "end": 17.818,
                     "text": "began"
                 },
                 {
-                    "start": 5.453,
-                    "end": 6.817,
+                    "start": 17.993,
+                    "end": 18.066,
                     "text": "to"
                 },
                 {
-                    "start": 6.817,
-                    "end": 8.18,
+                    "start": 18.368,
+                    "end": 18.443,
                     "text": "split"
-                }
-            ]
-        },
-        {
-            "id": "line_1_interp",
-            "start": 8.18,
-            "end": 16.36,
-            "lyric": "Arguments and holy writ",
-            "real_meaning": "Twitter threads, Reddit wars, cable news debates — arguing scripture nobody wrote but everyone quotes.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0038.jpg",
-                    "query": "two groups shouting at each other over ancient scrolls, passionate futile debate, dramatic lighting"
                 },
                 {
-                    "offset": 0.64,
-                    "url": "media/c0115.jpg",
-                    "query": "A scroll unfurled by the wind, ancient ink bleeding into modern chaos."
-                },
-                {
-                    "offset": 1.15,
-                    "url": "media/c0116.jpg",
-                    "query": "Two figures clutching parchment, faces contorted in a clash of ideals."
-                }
-            ],
-            "words": [
-                {
-                    "start": 8.18,
-                    "end": 10.225,
+                    "start": 18.668,
+                    "end": 19.915,
                     "text": "Arguments"
                 },
                 {
-                    "start": 10.225,
-                    "end": 12.27,
+                    "start": 21.288,
+                    "end": 21.708,
                     "text": "and"
                 },
                 {
-                    "start": 12.27,
-                    "end": 14.315,
+                    "start": 21.708,
+                    "end": 22.128,
                     "text": "holy"
-                },
-                {
-                    "start": 14.315,
-                    "end": 16.36,
-                    "text": "writ"
                 }
             ]
         },
         {
-            "id": "line_2_interp",
-            "start": 16.36,
-            "end": 24.54,
-            "lyric": "Some said \"Run at noon, that's right!\"",
-            "real_meaning": "One faction's absolute certainty — 'trust the science', 'follow the market', 'this is the way'.",
+            "id": "line_1_occ_0",
+            "start": 22.128,
+            "end": 25.388,
+            "lyric": "Arguments and holy writ",
+            "real_meaning": "Twitter threads, Reddit wars, cable news debates â€” arguing scripture nobody wrote but everyone quotes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0039.jpg",
-                    "query": "confident leader pointing at the sun declaring truth, followers nodding, authoritative cinematic"
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0118.jpg",
-                    "query": "A golden ray illuminates a follower's determined face."
-                },
-                {
-                    "offset": 1.45,
-                    "url": "media/c0119.jpg",
-                    "query": "The leader casts a towering shadow over the crowd and the sun blazes in the background."
+                    "url": "media/c0114.jpg",
+                    "query": "two groups shouting at each other over ancient scrolls, passionate futile debate, dramatic lighting"
                 }
             ],
             "words": [
                 {
-                    "start": 16.36,
-                    "end": 17.529,
+                    "start": 22.128,
+                    "end": 22.708,
+                    "text": "writ"
+                },
+                {
+                    "start": 23.749,
+                    "end": 24.928,
                     "text": "Some"
                 },
                 {
-                    "start": 17.529,
-                    "end": 18.697,
+                    "start": 24.928,
+                    "end": 25.208,
                     "text": "said"
                 },
                 {
-                    "start": 18.697,
-                    "end": 19.866,
+                    "start": 25.208,
+                    "end": 25.388,
                     "text": "\"Run"
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0",
+            "start": 25.388,
+            "end": 29.638,
+            "lyric": "Some said \"Run at noon, that's right!\"",
+            "real_meaning": "One faction's absolute certainty â€” 'trust the science', 'follow the market', 'this is the way'.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0117.jpg",
+                    "query": "confident leader pointing at the sun declaring truth, followers nodding, authoritative cinematic"
                 },
                 {
-                    "start": 19.866,
-                    "end": 21.034,
+                    "offset": 0.94,
+                    "url": "media/c0118.jpg",
+                    "query": "A golden ray illuminates a follower's determined face."
+                }
+            ],
+            "words": [
+                {
+                    "start": 25.388,
+                    "end": 25.59,
                     "text": "at"
                 },
                 {
-                    "start": 21.034,
-                    "end": 22.203,
+                    "start": 25.726,
+                    "end": 26.021,
                     "text": "noon,"
                 },
                 {
-                    "start": 22.203,
-                    "end": 23.371,
+                    "start": 26.168,
+                    "end": 26.268,
                     "text": "that's"
                 },
                 {
-                    "start": 23.371,
-                    "end": 24.54,
+                    "start": 26.531,
+                    "end": 28.136,
                     "text": "right!\""
-                }
-            ]
-        },
-        {
-            "id": "line_3_interp",
-            "start": 24.54,
-            "end": 32.72,
-            "lyric": "Others \"Warm the box all night!\"",
-            "real_meaning": "The opposing faction, equally certain, equally wrong — echo chambers reinforcing baseless conviction.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0040.jpg",
-                    "query": "rival group huddled around a box in moonlight, whispering their own truth, conspiratorial cinematic"
                 },
                 {
-                    "offset": 0.77,
-                    "url": "media/c0121.jpg",
-                    "query": "A single hand reaches out to touch the box, fingers tracing its edges with intensity and uncertainty."
-                },
-                {
-                    "offset": 1.28,
-                    "url": "media/c0122.jpg",
-                    "query": "The moon's glow casts a warm halo around the huddled figures in the night, as if the whispers are visible, like clouds of smoke."
-                }
-            ],
-            "words": [
-                {
-                    "start": 24.54,
-                    "end": 25.903,
+                    "start": 28.188,
+                    "end": 28.438,
                     "text": "Others"
                 },
                 {
-                    "start": 25.903,
-                    "end": 27.267,
+                    "start": 28.588,
+                    "end": 29.428,
                     "text": "\"Warm"
                 },
                 {
-                    "start": 27.267,
-                    "end": 28.63,
+                    "start": 29.428,
+                    "end": 29.638,
                     "text": "the"
+                }
+            ]
+        },
+        {
+            "id": "line_3_occ_0",
+            "start": 29.708,
+            "end": 34.728,
+            "lyric": "Others \"Warm the box all night!\"",
+            "real_meaning": "The opposing faction, equally certain, equally wrong â€” echo chambers reinforcing baseless conviction.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0120.jpg",
+                    "query": "rival group huddled around a box in moonlight, whispering their own truth, conspiratorial cinematic"
                 },
                 {
-                    "start": 28.63,
-                    "end": 29.993,
+                    "offset": 0.62,
+                    "url": "media/c0121.jpg",
+                    "query": "A single hand reaches out to touch the box, fingers tracing its edges with intensity and uncertainty."
+                }
+            ],
+            "words": [
+                {
+                    "start": 29.708,
+                    "end": 30.133,
                     "text": "box"
                 },
                 {
-                    "start": 29.993,
-                    "end": 31.357,
+                    "start": 30.388,
+                    "end": 30.688,
                     "text": "all"
                 },
                 {
-                    "start": 31.357,
-                    "end": 32.72,
+                    "start": 30.688,
+                    "end": 32.839,
                     "text": "night!\""
-                }
-            ]
-        },
-        {
-            "id": "line_17_occ_0",
-            "start": 32.18,
-            "end": 32.22,
-            "lyric": "\"...night time...\"",
-            "real_meaning": "The counter-whisper — equally persistent, equally baseless. The argument never ends, it just gets quieter.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0054.jpg",
-                    "query": "another shadowy figure whispering from the opposite direction, dueling whispers, dark cinematic"
                 },
                 {
-                    "offset": 0.01,
-                    "url": "media/c0163.jpg",
-                    "query": "A flickering candle flame dances wildly in the shadows."
+                    "start": 32.908,
+                    "end": 33.308,
+                    "text": "RULES"
                 },
                 {
-                    "offset": 0.03,
-                    "url": "media/c0164.jpg",
-                    "query": "Two whispers materialise as tendrils of smoke dancing together and swirling apart."
-                }
-            ],
-            "words": [
-                {
-                    "start": 32.18,
-                    "end": 32.2,
-                    "text": "all"
+                    "start": 33.308,
+                    "end": 33.886,
+                    "text": "AND"
                 },
                 {
-                    "start": 32.2,
-                    "end": 32.22,
-                    "text": "night."
+                    "start": 34.177,
+                    "end": 34.728,
+                    "text": "RITUALS,"
                 }
             ]
         },
         {
             "id": "line_4_occ_0",
-            "start": 32.72,
-            "end": 36.22,
+            "start": 34.952,
+            "end": 38.113,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The bureaucracy of belief — compliance culture, corporate policies, religious rituals repeated without understanding.",
+            "real_meaning": "The bureaucracy of belief â€” compliance culture, corporate policies, religious rituals repeated without understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0041.jpg",
+                    "url": "media/c0123.jpg",
                     "query": "endless rows of identical figures performing synchronized rituals, dystopian conformity, wide cinematic"
-                },
-                {
-                    "offset": 0.58,
-                    "url": "media/c0124.jpg",
-                    "query": "A lone figure breaks rank, turning to face the others. They are lit with warm light as the sun sets and casts their shadow in a silhouette."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0125.jpg",
-                    "query": "Warm golden light floods an empty corporate office room while figures of conformity drift away like dust."
                 }
             ],
             "words": [
                 {
-                    "start": 32.72,
-                    "end": 33.26,
-                    "text": "Rules"
+                    "start": 34.952,
+                    "end": 35.018,
+                    "text": "RULES"
                 },
                 {
-                    "start": 33.26,
-                    "end": 33.72,
-                    "text": "and"
+                    "start": 35.48,
+                    "end": 35.534,
+                    "text": "AND"
                 },
                 {
-                    "start": 33.72,
-                    "end": 34.24,
-                    "text": "rituals,"
+                    "start": 36.206,
+                    "end": 36.276,
+                    "text": "RITUALS"
                 },
                 {
-                    "start": 34.7,
-                    "end": 35.06,
-                    "text": "rules"
-                },
-                {
-                    "start": 35.06,
-                    "end": 35.72,
-                    "text": "and"
-                },
-                {
-                    "start": 35.72,
-                    "end": 36.22,
-                    "text": "rituals,"
-                }
-            ]
-        },
-        {
-            "id": "line_5_interp",
-            "start": 36.22,
-            "end": 40.21,
-            "lyric": "Everybody's got the truth!",
-            "real_meaning": "Post-truth era — everyone has their 'facts', their 'research', their unshakable opinion.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0042.jpg",
-                    "query": "multiple people each holding a different glowing truth above their head, conflicting certainties, dramatic"
-                },
-                {
-                    "offset": 0.58,
-                    "url": "media/c0127.jpg",
-                    "query": "A lone figure stands defiantly, light radiating from their palms."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0128.jpg",
-                    "query": "Fragments of shattered glass swirl through an empty room, casting a prismatic glow."
-                }
-            ],
-            "words": [
-                {
-                    "start": 36.22,
-                    "end": 37.218,
+                    "start": 36.768,
+                    "end": 37.728,
                     "text": "Everybody's"
                 },
                 {
-                    "start": 37.218,
-                    "end": 38.215,
+                    "start": 37.783,
+                    "end": 37.948,
                     "text": "got"
                 },
                 {
-                    "start": 38.215,
-                    "end": 39.212,
+                    "start": 37.948,
+                    "end": 38.113,
                     "text": "the"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0",
+            "start": 38.168,
+            "end": 42.748,
+            "lyric": "Everybody's got the truth!",
+            "real_meaning": "Post-truth era â€” everyone has their 'facts', their 'research', their unshakable opinion.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0126.jpg",
+                    "query": "multiple people each holding a different glowing truth above their head, conflicting certainties, dramatic"
                 },
                 {
-                    "start": 39.212,
-                    "end": 40.21,
+                    "offset": 0.66,
+                    "url": "media/c0127.jpg",
+                    "query": "A lone figure stands defiantly, light radiating from their palms."
+                }
+            ],
+            "words": [
+                {
+                    "start": 38.168,
+                    "end": 40.528,
                     "text": "truth!"
-                }
-            ]
-        },
-        {
-            "id": "line_18_occ_0",
-            "start": 36.6,
-            "end": 38.7,
-            "lyric": "\"...the wheel...\"",
-            "real_meaning": "And behind it all, the blind worship of the machine continues — the system keeps turning regardless of belief.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0055.jpg",
-                    "query": "massive wheel turning slowly in darkness, indifferent mechanism, industrial cinematic"
                 },
                 {
-                    "offset": 0.71,
-                    "url": "media/c0166.jpg",
-                    "query": "Sparks fly from rusted gears grinding in dim light."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0167.jpg",
-                    "query": "A lone figure stands before the colossal wheel, dwarfed and gazing upwards with resignation."
-                }
-            ],
-            "words": [
-                {
-                    "start": 36.6,
-                    "end": 37.74,
-                    "text": "everybody's"
-                },
-                {
-                    "start": 37.74,
-                    "end": 37.94,
-                    "text": "got"
-                },
-                {
-                    "start": 37.94,
-                    "end": 38.16,
-                    "text": "the"
-                },
-                {
-                    "start": 38.16,
-                    "end": 38.7,
-                    "text": "truth."
-                }
-            ]
-        },
-        {
-            "id": "line_6_interp",
-            "start": 40.21,
-            "end": 44.2,
-            "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The mantra of civilization — repeat the rules until they feel sacred, until questioning them feels like heresy.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0043.jpg",
-                    "query": "stone tablets with arbitrary rules carved in glowing text, monumental and absurd, cinematic"
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0130.jpg",
-                    "query": "A weathered hand tracing ancient carvings, fingers glowing with the same eerie light."
-                },
-                {
-                    "offset": 1.1,
-                    "url": "media/c0131.jpg",
-                    "query": "A vast desert landscape, stone tablets scattered and crumbling under a setting sun."
-                }
-            ],
-            "words": [
-                {
-                    "start": 40.21,
-                    "end": 40.875,
+                    "start": 41.226,
+                    "end": 41.308,
                     "text": "RULES"
                 },
                 {
-                    "start": 40.875,
-                    "end": 41.54,
+                    "start": 41.583,
+                    "end": 41.769,
                     "text": "AND"
                 },
                 {
-                    "start": 41.54,
-                    "end": 42.205,
+                    "start": 42.686,
+                    "end": 42.748,
                     "text": "RITUALS,"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0",
+            "start": 43.22,
+            "end": 46.163,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS",
+            "real_meaning": "The mantra of civilization â€” repeat the rules until they feel sacred, until questioning them feels like heresy.",
+            "media": [
                 {
-                    "start": 42.205,
-                    "end": 42.87,
+                    "offset": 0.0,
+                    "url": "media/c0129.jpg",
+                    "query": "stone tablets with arbitrary rules carved in glowing text, monumental and absurd, cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 43.22,
+                    "end": 43.288,
                     "text": "RULES"
                 },
                 {
-                    "start": 42.87,
-                    "end": 43.535,
+                    "start": 43.708,
+                    "end": 43.768,
                     "text": "AND"
                 },
                 {
-                    "start": 43.535,
-                    "end": 44.2,
+                    "start": 44.668,
+                    "end": 44.748,
                     "text": "RITUALS"
-                }
-            ]
-        },
-        {
-            "id": "line_4_occ_0",
-            "start": 40.62,
-            "end": 44.22,
-            "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The bureaucracy of belief — compliance culture, corporate policies, religious rituals repeated without understanding.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0041.jpg",
-                    "query": "endless rows of identical figures performing synchronized rituals, dystopian conformity, wide cinematic"
                 },
                 {
-                    "offset": 0.69,
-                    "url": "media/c0124.jpg",
-                    "query": "A lone figure breaks rank, turning to face the others. They are lit with warm light as the sun sets and casts their shadow in a silhouette."
-                },
-                {
-                    "offset": 1.2,
-                    "url": "media/c0125.jpg",
-                    "query": "Warm golden light floods an empty corporate office room while figures of conformity drift away like dust."
-                }
-            ],
-            "words": [
-                {
-                    "start": 40.62,
-                    "end": 41.26,
-                    "text": "Rules"
-                },
-                {
-                    "start": 41.26,
-                    "end": 41.72,
-                    "text": "and"
-                },
-                {
-                    "start": 41.72,
-                    "end": 42.24,
-                    "text": "rituals,"
-                },
-                {
-                    "start": 42.66,
-                    "end": 43.26,
-                    "text": "rules"
-                },
-                {
-                    "start": 43.26,
-                    "end": 43.76,
-                    "text": "and"
-                },
-                {
-                    "start": 43.76,
-                    "end": 44.22,
-                    "text": "rituals,"
-                }
-            ]
-        },
-        {
-            "id": "line_7_interp",
-            "start": 44.2,
-            "end": 48.19,
-            "lyric": "Everyone except the youth!",
-            "real_meaning": "The young see through it first — 'OK Boomer' energy, each generation briefly clear-eyed before being absorbed.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0044.jpg",
-                    "query": "young person looking skeptically at adults performing meaningless rituals, outsider perspective, cinematic"
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0133.jpg",
-                    "query": "A close-up of a young hand pushing aside an adult’s reaching arm."
-                },
-                {
-                    "offset": 1.12,
-                    "url": "media/c0134.jpg",
-                    "query": "The swirling colors of rituals fade into a clear sky as adults turn towards a youthful figure"
-                }
-            ],
-            "words": [
-                {
-                    "start": 44.2,
-                    "end": 45.198,
+                    "start": 44.968,
+                    "end": 45.188,
                     "text": "Everyone"
                 },
                 {
-                    "start": 45.198,
-                    "end": 46.195,
+                    "start": 45.188,
+                    "end": 45.908,
                     "text": "except"
                 },
                 {
-                    "start": 46.195,
-                    "end": 47.192,
+                    "start": 45.908,
+                    "end": 46.163,
                     "text": "the"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_7_occ_0",
+            "start": 46.248,
+            "end": 49.628,
+            "lyric": "Everyone except the youth!",
+            "real_meaning": "The young see through it first â€” 'OK Boomer' energy, each generation briefly clear-eyed before being absorbed.",
+            "media": [
                 {
-                    "start": 47.192,
-                    "end": 48.19,
+                    "offset": 0.0,
+                    "url": "media/c0132.jpg",
+                    "query": "young person looking skeptically at adults performing meaningless rituals, outsider perspective, cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 46.248,
+                    "end": 47.401,
                     "text": "youth!"
-                }
-            ]
-        },
-        {
-            "id": "line_18_occ_1",
-            "start": 44.72,
-            "end": 54.82,
-            "lyric": "\"...the wheel...\"",
-            "real_meaning": "And behind it all, the blind worship of the machine continues — the system keeps turning regardless of belief.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0055.jpg",
-                    "query": "massive wheel turning slowly in darkness, indifferent mechanism, industrial cinematic"
                 },
                 {
-                    "offset": 0.61,
-                    "url": "media/c0166.jpg",
-                    "query": "Sparks fly from rusted gears grinding in dim light."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0167.jpg",
-                    "query": "A lone figure stands before the colossal wheel, dwarfed and gazing upwards with resignation."
-                }
-            ],
-            "words": [
-                {
-                    "start": 44.72,
-                    "end": 45.24,
-                    "text": "everyone"
-                },
-                {
-                    "start": 45.24,
-                    "end": 45.94,
-                    "text": "except"
-                },
-                {
-                    "start": 45.94,
-                    "end": 46.22,
-                    "text": "the"
-                },
-                {
-                    "start": 46.22,
-                    "end": 46.76,
-                    "text": "youth."
-                },
-                {
-                    "start": 48.68,
-                    "end": 49.18,
+                    "start": 48.848,
+                    "end": 49.168,
                     "text": "Tronco"
                 },
                 {
-                    "start": 49.18,
-                    "end": 49.42,
-                    "text": "preach"
-                },
-                {
-                    "start": 49.42,
-                    "end": 49.48,
-                    "text": "to"
-                },
-                {
-                    "start": 49.48,
-                    "end": 49.5,
-                    "text": "the"
-                },
-                {
-                    "start": 49.5,
-                    "end": 49.52,
-                    "text": "truth,"
-                },
-                {
-                    "start": 49.94,
-                    "end": 50.2,
-                    "text": "the"
-                },
-                {
-                    "start": 50.2,
-                    "end": 50.62,
-                    "text": "real."
-                },
-                {
-                    "start": 51.98,
-                    "end": 52.42,
-                    "text": "Said"
-                },
-                {
-                    "start": 52.42,
-                    "end": 52.6,
-                    "text": "the"
-                },
-                {
-                    "start": 52.6,
-                    "end": 53.22,
-                    "text": "magic"
-                },
-                {
-                    "start": 53.22,
-                    "end": 53.9,
-                    "text": "I"
-                },
-                {
-                    "start": 53.9,
-                    "end": 54.16,
-                    "text": "can"
-                },
-                {
-                    "start": 54.16,
-                    "end": 54.82,
-                    "text": "feel."
-                }
-            ]
-        },
-        {
-            "id": "line_8_interp",
-            "start": 48.2,
-            "end": 52.19,
-            "lyric": "Tronco prayed to the toothed wheel",
-            "real_meaning": "Worshipping the mechanism — the stock market ticker, the social media algorithm, the system nobody built but everyone serves.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0045.jpg",
-                    "query": "man prostrating before a massive turning gear mechanism, industrial cathedral, dramatic cinematic"
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0136.jpg",
-                    "query": "Golden gear teeth grind in close-up, sparks fly from friction."
-                },
-                {
-                    "offset": 1.12,
-                    "url": "media/c0137.jpg",
-                    "query": "A lone figure kneels in shadow, a vast caged mechanism looms over them, a cathedral of warm steel and industrial light"
-                }
-            ],
-            "words": [
-                {
-                    "start": 48.2,
-                    "end": 48.865,
-                    "text": "Tronco"
-                },
-                {
-                    "start": 48.865,
-                    "end": 49.53,
+                    "start": 49.168,
+                    "end": 49.448,
                     "text": "prayed"
                 },
                 {
-                    "start": 49.53,
-                    "end": 50.195,
+                    "start": 49.448,
+                    "end": 49.628,
                     "text": "to"
-                },
-                {
-                    "start": 50.195,
-                    "end": 50.86,
-                    "text": "the"
-                },
-                {
-                    "start": 50.86,
-                    "end": 51.525,
-                    "text": "toothed"
-                },
-                {
-                    "start": 51.525,
-                    "end": 52.19,
-                    "text": "wheel"
                 }
             ]
         },
         {
-            "id": "line_9_interp",
-            "start": 52.19,
-            "end": 56.18,
-            "lyric": "Said \"The magic, I can feel!\"",
-            "real_meaning": "Confirmation bias — 'I can feel the market turning', 'my horoscope was right', the desperate need to believe.",
+            "id": "line_8_occ_0",
+            "start": 49.628,
+            "end": 53.651,
+            "lyric": "Tronco prayed to the toothed wheel",
+            "real_meaning": "Worshipping the mechanism â€” the stock market ticker, the social media algorithm, the system nobody built but everyone serves.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0046.jpg",
-                    "query": "person with closed eyes and outstretched hands feeling invisible energy, false epiphany, dramatic lighting"
+                    "url": "media/c0135.jpg",
+                    "query": "man prostrating before a massive turning gear mechanism, industrial cathedral, dramatic cinematic"
                 },
                 {
-                    "offset": 0.64,
-                    "url": "media/c0139.jpg",
-                    "query": "Golden sunlight cascades over a hand reaching out to grasp ethereal dust motes dancing in its wake. The subject is silhouetted against a backdrop of an orange sunset."
-                },
-                {
-                    "offset": 1.12,
-                    "url": "media/c0140.jpg",
-                    "query": "A swirling vortex of warm hues envelops a figure, tendrils of light and color intertwining with the person's form."
+                    "offset": 0.69,
+                    "url": "media/c0136.jpg",
+                    "query": "Golden gear teeth grind in close-up, sparks fly from friction."
                 }
             ],
             "words": [
                 {
-                    "start": 52.19,
-                    "end": 52.855,
+                    "start": 49.628,
+                    "end": 49.748,
+                    "text": "the"
+                },
+                {
+                    "start": 49.748,
+                    "end": 50.148,
+                    "text": "toothed"
+                },
+                {
+                    "start": 50.148,
+                    "end": 50.628,
+                    "text": "wheel"
+                },
+                {
+                    "start": 50.628,
+                    "end": 52.388,
                     "text": "Said"
                 },
                 {
-                    "start": 52.855,
-                    "end": 53.52,
+                    "start": 52.416,
+                    "end": 52.628,
                     "text": "\"The"
                 },
                 {
-                    "start": 53.52,
-                    "end": 54.185,
+                    "start": 52.878,
+                    "end": 53.651,
                     "text": "magic,"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0",
+            "start": 53.908,
+            "end": 57.103,
+            "lyric": "Said \"The magic, I can feel!\"",
+            "real_meaning": "Confirmation bias â€” 'I can feel the market turning', 'my horoscope was right', the desperate need to believe.",
+            "media": [
                 {
-                    "start": 54.185,
-                    "end": 54.85,
+                    "offset": 0.0,
+                    "url": "media/c0138.jpg",
+                    "query": "person with closed eyes and outstretched hands feeling invisible energy, false epiphany, dramatic lighting"
+                }
+            ],
+            "words": [
+                {
+                    "start": 53.908,
+                    "end": 54.088,
                     "text": "I"
                 },
                 {
-                    "start": 54.85,
-                    "end": 55.515,
+                    "start": 54.088,
+                    "end": 54.188,
                     "text": "can"
                 },
                 {
-                    "start": 55.515,
-                    "end": 56.18,
+                    "start": 54.375,
+                    "end": 54.438,
                     "text": "feel!\""
+                },
+                {
+                    "start": 55.993,
+                    "end": 56.368,
+                    "text": "I"
+                },
+                {
+                    "start": 56.368,
+                    "end": 56.596,
+                    "text": "just"
+                },
+                {
+                    "start": 56.672,
+                    "end": 57.103,
+                    "text": "sat"
                 }
             ]
         },
         {
             "id": "line_10_occ_0",
-            "start": 56.18,
-            "end": 62.86,
+            "start": 57.165,
+            "end": 62.288,
             "lyric": "I just sat upon my throne",
-            "real_meaning": "The creator disconnected from his creation — the CEO in the ivory tower, the politician in the mansion.",
+            "real_meaning": "The creator disconnected from his creation â€” the CEO in the ivory tower, the politician in the mansion.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0047.jpg",
+                    "url": "media/c0141.jpg",
                     "query": "lone figure on an elevated throne above the chaos, isolated power, moody cinematic wide shot"
                 },
                 {
-                    "offset": 0.64,
+                    "offset": 0.65,
                     "url": "media/c0142.jpg",
                     "query": "A tattered, faded crown lies at the foot of the throne."
-                },
-                {
-                    "offset": 1.15,
-                    "url": "media/c0143.jpg",
-                    "query": "The figure stands, gazing down upon swirling, misty clouds, arms outstretched."
                 }
             ],
             "words": [
                 {
-                    "start": 56.18,
-                    "end": 56.36,
-                    "text": "I"
-                },
-                {
-                    "start": 56.36,
-                    "end": 56.66,
-                    "text": "just"
-                },
-                {
-                    "start": 56.66,
-                    "end": 57.0,
-                    "text": "sat"
-                },
-                {
-                    "start": 57.0,
-                    "end": 57.38,
+                    "start": 57.165,
+                    "end": 57.231,
                     "text": "upon"
                 },
                 {
-                    "start": 57.38,
-                    "end": 57.68,
+                    "start": 57.428,
+                    "end": 57.608,
                     "text": "my"
                 },
                 {
-                    "start": 57.68,
-                    "end": 58.3,
-                    "text": "throne."
+                    "start": 57.913,
+                    "end": 57.98,
+                    "text": "throne"
                 },
                 {
-                    "start": 59.0,
-                    "end": 60.58,
+                    "start": 59.556,
+                    "end": 60.608,
                     "text": "Eating"
                 },
                 {
-                    "start": 60.58,
-                    "end": 61.3,
-                    "text": "berries"
-                },
-                {
-                    "start": 61.3,
-                    "end": 62.28,
-                    "text": "all"
-                },
-                {
-                    "start": 62.28,
-                    "end": 62.86,
-                    "text": "alone"
-                }
-            ]
-        },
-        {
-            "id": "line_11_interp",
-            "start": 62.86,
-            "end": 64.11,
-            "lyric": "Eating berries, all alone",
-            "real_meaning": "Enjoying the fruits of the lie in solitude — the loneliness of privilege, the emptiness of winning the wrong game.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0048.jpg",
-                    "query": "figure eating alone in luxury while crowds argue below, contrast of comfort and chaos, cinematic"
-                },
-                {
-                    "offset": 0.42,
-                    "url": "media/c0145.jpg",
-                    "query": "Golden berries, ripe and glistening, spill across an ornate tablecloth in a golden pool as a hand reaches for them."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0146.jpg",
-                    "query": "A gilded chandelier casts flickering shadows over an empty grand staircase while thunder roars outside."
-                }
-            ],
-            "words": [
-                {
-                    "start": 62.86,
-                    "end": 63.172,
-                    "text": "Eating"
-                },
-                {
-                    "start": 63.172,
-                    "end": 63.485,
+                    "start": 60.608,
+                    "end": 61.608,
                     "text": "berries,"
                 },
                 {
-                    "start": 63.485,
-                    "end": 63.797,
+                    "start": 62.22,
+                    "end": 62.288,
                     "text": "all"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0",
+            "start": 62.445,
+            "end": 64.74,
+            "lyric": "Eating berries, all alone",
+            "real_meaning": "Enjoying the fruits of the lie in solitude â€” the loneliness of privilege, the emptiness of winning the wrong game.",
+            "media": [
                 {
-                    "start": 63.797,
-                    "end": 64.11,
+                    "offset": 0.0,
+                    "url": "media/c0144.jpg",
+                    "query": "figure eating alone in luxury while crowds argue below, contrast of comfort and chaos, cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 62.445,
+                    "end": 62.53,
                     "text": "alone"
+                },
+                {
+                    "start": 63.128,
+                    "end": 64.768,
+                    "text": "The"
+                },
+                {
+                    "start": 63.44,
+                    "end": 64.44,
+                    "text": "Soon"
+                },
+                {
+                    "start": 64.44,
+                    "end": 64.76,
+                    "text": "the"
                 }
             ]
         },
         {
-            "id": "line_12_interp",
-            "start": 64.11,
-            "end": 65.36,
+            "id": "line_12_occ_0",
+            "start": 64.74,
+            "end": 66.354,
             "lyric": "The box became a sacred thing",
-            "real_meaning": "The product became religion — Apple keynotes as worship services, brand loyalty as tribal identity.",
+            "real_meaning": "The product became religion â€” Apple keynotes as worship services, brand loyalty as tribal identity.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0049.jpg",
+                    "url": "media/c0147.jpg",
                     "query": "ordinary object elevated on an altar surrounded by candles and offerings, sacred mundanity, cinematic"
-                },
-                {
-                    "offset": 0.72,
-                    "url": "media/c0148.jpg",
-                    "query": "A gleaming, reflective surface of the ordinary object being polished by a devotee in the candlelight."
                 }
             ],
             "words": [
                 {
-                    "start": 64.11,
-                    "end": 64.318,
-                    "text": "The"
+                    "start": 64.76,
+                    "end": 65.76,
+                    "text": "tribe"
                 },
                 {
-                    "start": 64.318,
-                    "end": 64.527,
+                    "start": 64.896,
+                    "end": 65.008,
                     "text": "box"
                 },
                 {
-                    "start": 64.527,
-                    "end": 64.735,
+                    "start": 65.195,
+                    "end": 65.29,
                     "text": "became"
                 },
                 {
-                    "start": 64.735,
-                    "end": 64.943,
+                    "start": 65.573,
+                    "end": 65.768,
                     "text": "a"
                 },
                 {
-                    "start": 64.943,
-                    "end": 65.152,
+                    "start": 65.768,
+                    "end": 66.188,
                     "text": "sacred"
                 },
                 {
-                    "start": 65.152,
-                    "end": 65.36,
+                    "start": 66.276,
+                    "end": 66.354,
                     "text": "thing"
                 }
             ]
         },
         {
-            "id": "line_18_occ_5",
-            "start": 64.58,
-            "end": 66.48,
-            "lyric": "\"...the wheel...\"",
-            "real_meaning": "And behind it all, the blind worship of the machine continues — the system keeps turning regardless of belief.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0055.jpg",
-                    "query": "massive wheel turning slowly in darkness, indifferent mechanism, industrial cinematic"
-                },
-                {
-                    "offset": 0.74,
-                    "url": "media/c0166.jpg",
-                    "query": "Sparks fly from rusted gears grinding in dim light."
-                },
-                {
-                    "offset": 1.25,
-                    "url": "media/c0167.jpg",
-                    "query": "A lone figure stands before the colossal wheel, dwarfed and gazing upwards with resignation."
-                }
-            ],
-            "words": [
-                {
-                    "start": 64.58,
-                    "end": 64.74,
-                    "text": "The"
-                },
-                {
-                    "start": 64.74,
-                    "end": 65.0,
-                    "text": "box"
-                },
-                {
-                    "start": 65.0,
-                    "end": 65.48,
-                    "text": "became"
-                },
-                {
-                    "start": 65.48,
-                    "end": 65.72,
-                    "text": "a"
-                },
-                {
-                    "start": 65.72,
-                    "end": 66.12,
-                    "text": "sacred"
-                },
-                {
-                    "start": 66.12,
-                    "end": 66.48,
-                    "text": "thing"
-                }
-            ]
-        },
-        {
-            "id": "line_13_interp",
-            "start": 65.35,
-            "end": 66.6,
+            "id": "line_13_occ_0",
+            "start": 66.588,
+            "end": 68.568,
             "lyric": "A totem, a god, a queen, a king",
-            "real_meaning": "The hierarchy of worship — the object at the top, then its priests, then the faithful. Power from plastic.",
+            "real_meaning": "The hierarchy of worship â€” the object at the top, then its priests, then the faithful. Power from plastic.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0050.jpg",
+                    "url": "media/c0150.jpg",
                     "query": "totem pole made of consumer products stretching into clouds, monument to materialism, epic cinematic"
-                },
-                {
-                    "offset": 0.42,
-                    "url": "media/c0151.jpg",
-                    "query": "A close-up of hands, reverent and dusty, worshipping plastic."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0152.jpg",
-                    "query": "Warm golden sunlight illuminating a sea of discarded products, a bleak wasteland"
                 }
             ],
             "words": [
                 {
-                    "start": 65.35,
-                    "end": 65.506,
+                    "start": 66.588,
+                    "end": 66.768,
                     "text": "A"
                 },
                 {
-                    "start": 65.506,
-                    "end": 65.662,
+                    "start": 66.768,
+                    "end": 67.148,
                     "text": "totem,"
                 },
                 {
-                    "start": 65.662,
-                    "end": 65.819,
+                    "start": 67.168,
+                    "end": 67.308,
                     "text": "a"
                 },
                 {
-                    "start": 65.819,
-                    "end": 65.975,
+                    "start": 67.308,
+                    "end": 67.593,
                     "text": "god,"
                 },
                 {
-                    "start": 65.975,
-                    "end": 66.131,
+                    "start": 67.688,
+                    "end": 67.788,
                     "text": "a"
                 },
                 {
-                    "start": 66.131,
-                    "end": 66.287,
+                    "start": 67.858,
+                    "end": 68.03,
                     "text": "queen,"
                 },
                 {
-                    "start": 66.287,
-                    "end": 66.444,
+                    "start": 68.088,
+                    "end": 68.148,
                     "text": "a"
                 },
                 {
-                    "start": 66.444,
-                    "end": 66.6,
+                    "start": 68.488,
+                    "end": 68.568,
                     "text": "king"
                 }
             ]
         },
         {
             "id": "line_14_occ_0",
-            "start": 66.6,
-            "end": 96.24,
+            "start": 68.568,
+            "end": 70.453,
             "lyric": "I tried to say \"It's just a tool\"",
-            "real_meaning": "The creator's futile attempt at honesty — 'it's just a platform, just an app' — but the myth is already bigger than truth.",
+            "real_meaning": "The creator's futile attempt at honesty â€” 'it's just a platform, just an app' â€” but the myth is already bigger than truth.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0051.jpg",
+                    "url": "media/c0153.jpg",
                     "query": "person trying to speak truth but being drowned out by a roaring crowd, futile honesty, dramatic"
-                },
-                {
-                    "offset": 0.72,
-                    "url": "media/c0154.jpg",
-                    "query": "A lone voice straining to push through an impenetrable wave of noise. The microphone slips from their grasp."
-                },
-                {
-                    "offset": 1.2,
-                    "url": "media/c0155.jpg",
-                    "query": "The speaker's face illuminated by a warm spotlight against the cold blue of the audience."
                 }
             ],
             "words": [
                 {
-                    "start": 66.6,
-                    "end": 66.76,
-                    "text": "A"
-                },
-                {
-                    "start": 66.76,
-                    "end": 67.14,
-                    "text": "totem,"
-                },
-                {
-                    "start": 67.2,
-                    "end": 67.3,
-                    "text": "a"
-                },
-                {
-                    "start": 67.3,
-                    "end": 67.58,
-                    "text": "god,"
-                },
-                {
-                    "start": 67.66,
-                    "end": 67.78,
-                    "text": "a"
-                },
-                {
-                    "start": 67.78,
-                    "end": 67.98,
-                    "text": "queen,"
-                },
-                {
-                    "start": 68.06,
-                    "end": 68.2,
-                    "text": "a"
-                },
-                {
-                    "start": 68.2,
-                    "end": 68.4,
-                    "text": "king"
-                },
-                {
-                    "start": 68.6,
-                    "end": 68.74,
+                    "start": 68.568,
+                    "end": 68.748,
                     "text": "I"
                 },
                 {
-                    "start": 68.74,
-                    "end": 69.0,
+                    "start": 68.748,
+                    "end": 68.846,
                     "text": "tried"
                 },
                 {
-                    "start": 69.0,
-                    "end": 69.2,
+                    "start": 69.158,
+                    "end": 69.208,
                     "text": "to"
                 },
                 {
-                    "start": 69.2,
-                    "end": 69.5,
+                    "start": 69.208,
+                    "end": 69.528,
                     "text": "say"
                 },
                 {
-                    "start": 69.5,
-                    "end": 69.74,
-                    "text": "it's"
+                    "start": 69.528,
+                    "end": 69.719,
+                    "text": "\"It's"
                 },
                 {
-                    "start": 69.74,
-                    "end": 70.0,
+                    "start": 69.783,
+                    "end": 69.839,
                     "text": "just"
                 },
                 {
-                    "start": 70.0,
-                    "end": 70.16,
+                    "start": 70.008,
+                    "end": 70.168,
                     "text": "a"
                 },
                 {
-                    "start": 70.16,
-                    "end": 70.36,
-                    "text": "tool"
-                },
-                {
-                    "start": 70.4,
-                    "end": 70.62,
-                    "text": "But"
-                },
-                {
-                    "start": 70.62,
-                    "end": 70.76,
-                    "text": "they"
-                },
-                {
-                    "start": 70.76,
-                    "end": 71.12,
-                    "text": "wanted"
-                },
-                {
-                    "start": 71.12,
-                    "end": 71.58,
-                    "text": "magic,"
-                },
-                {
-                    "start": 71.7,
-                    "end": 71.78,
-                    "text": "they"
-                },
-                {
-                    "start": 71.78,
-                    "end": 72.14,
-                    "text": "wanted"
-                },
-                {
-                    "start": 72.14,
-                    "end": 72.76,
-                    "text": "fuel"
-                },
-                {
-                    "start": 76.62,
-                    "end": 77.3,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 77.3,
-                    "end": 77.72,
-                    "text": "and"
-                },
-                {
-                    "start": 77.72,
-                    "end": 78.28,
-                    "text": "litule"
-                },
-                {
-                    "start": 78.7,
-                    "end": 79.34,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 79.34,
-                    "end": 79.78,
-                    "text": "and"
-                },
-                {
-                    "start": 79.78,
-                    "end": 80.3,
-                    "text": "litule"
-                },
-                {
-                    "start": 80.68,
-                    "end": 81.34,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 81.34,
-                    "end": 81.74,
-                    "text": "and"
-                },
-                {
-                    "start": 81.74,
-                    "end": 82.3,
-                    "text": "litule"
-                },
-                {
-                    "start": 82.66,
-                    "end": 83.28,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 83.28,
-                    "end": 83.72,
-                    "text": "and"
-                },
-                {
-                    "start": 83.72,
-                    "end": 84.22,
-                    "text": "litule"
-                },
-                {
-                    "start": 84.68,
-                    "end": 85.34,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 85.34,
-                    "end": 85.76,
-                    "text": "and"
-                },
-                {
-                    "start": 85.76,
-                    "end": 86.28,
-                    "text": "litule"
-                },
-                {
-                    "start": 86.72,
-                    "end": 87.26,
-                    "text": "Bruise"
-                },
-                {
-                    "start": 87.26,
-                    "end": 87.7,
-                    "text": "and"
-                },
-                {
-                    "start": 87.7,
-                    "end": 88.27,
-                    "text": "litule"
-                },
-                {
-                    "start": 88.27,
-                    "end": 89.28,
-                    "text": "Rules"
-                },
-                {
-                    "start": 89.28,
-                    "end": 89.7,
-                    "text": "and"
-                },
-                {
-                    "start": 89.7,
-                    "end": 89.98,
-                    "text": "lit"
-                },
-                {
-                    "start": 89.98,
-                    "end": 90.26,
-                    "text": "you"
-                },
-                {
-                    "start": 90.26,
-                    "end": 90.48,
-                    "text": "up"
-                },
-                {
-                    "start": 90.64,
-                    "end": 91.2,
-                    "text": "Rules"
-                },
-                {
-                    "start": 91.2,
-                    "end": 91.6,
-                    "text": "and"
-                },
-                {
-                    "start": 91.6,
-                    "end": 91.94,
-                    "text": "lit"
-                },
-                {
-                    "start": 91.94,
-                    "end": 92.18,
-                    "text": "you"
-                },
-                {
-                    "start": 92.18,
-                    "end": 92.46,
-                    "text": "up"
-                },
-                {
-                    "start": 93.18,
-                    "end": 93.42,
-                    "text": "Should"
-                },
-                {
-                    "start": 93.42,
-                    "end": 93.66,
-                    "text": "be"
-                },
-                {
-                    "start": 93.66,
-                    "end": 94.1,
-                    "text": "noon"
-                },
-                {
-                    "start": 95.46,
-                    "end": 95.84,
-                    "text": "Night"
-                },
-                {
-                    "start": 95.84,
-                    "end": 96.24,
-                    "text": "time"
+                    "start": 70.168,
+                    "end": 70.453,
+                    "text": "tool\""
                 }
             ]
         },
         {
-            "id": "line_15_interp",
-            "start": 96.34,
-            "end": 97.34,
+            "id": "line_15_occ_0",
+            "start": 70.548,
+            "end": 77.248,
             "lyric": "But they wanted magic, they wanted fuel",
-            "real_meaning": "Humans prefer beautiful lies to ugly truths — we want the miracle, not the mechanism.",
+            "real_meaning": "Humans prefer beautiful lies to ugly truths â€” we want the miracle, not the mechanism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0052.jpg",
+                    "url": "media/c0156.jpg",
                     "query": "crowd reaching for a glowing illusion while ignoring a simple stone on the ground, dramatic irony, cinematic"
                 },
                 {
-                    "offset": 0.33,
+                    "offset": 0.76,
                     "url": "media/c0157.jpg",
                     "query": "A lone hand touches the stone in the grass as it is ignored."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0158.jpg",
-                    "query": "Crowd's shadows cast by a warm sun, reaching and grasping for nothing"
                 }
             ],
             "words": [
                 {
-                    "start": 96.34,
-                    "end": 96.483,
+                    "start": 70.548,
+                    "end": 70.628,
                     "text": "But"
                 },
                 {
-                    "start": 96.483,
-                    "end": 96.626,
+                    "start": 70.628,
+                    "end": 70.68,
                     "text": "they"
                 },
                 {
-                    "start": 96.626,
-                    "end": 96.769,
+                    "start": 71.023,
+                    "end": 71.108,
                     "text": "wanted"
                 },
                 {
-                    "start": 96.769,
-                    "end": 96.911,
+                    "start": 71.303,
+                    "end": 71.577,
                     "text": "magic,"
                 },
                 {
-                    "start": 96.911,
-                    "end": 97.054,
+                    "start": 71.668,
+                    "end": 71.768,
                     "text": "they"
                 },
                 {
-                    "start": 97.054,
-                    "end": 97.197,
+                    "start": 72.038,
+                    "end": 72.128,
                     "text": "wanted"
                 },
                 {
-                    "start": 97.197,
-                    "end": 97.34,
+                    "start": 75.688,
+                    "end": 77.248,
                     "text": "fuel"
                 }
             ]
         },
         {
-            "id": "line_16_interp",
-            "start": 96.34,
-            "end": 97.34,
-            "lyric": "\"...should be noon...\"",
-            "real_meaning": "The whispered dogma that never dies — stubborn beliefs that persist in the shadows even after being disproven.",
+            "id": "line_16_occ_0",
+            "start": 77.248,
+            "end": 82.448,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS",
+            "real_meaning": "The bureaucracy of belief â€” compliance culture, corporate policies, religious rituals repeated without understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0053.jpg",
-                    "query": "shadowy figure whispering in darkness, conspiracy and stubbornness, noir cinematic close-up"
+                    "url": "media/c0123.jpg",
+                    "query": "endless rows of identical figures performing synchronized rituals, dystopian conformity, wide cinematic"
                 },
                 {
-                    "offset": 0.33,
-                    "url": "media/c0160.jpg",
-                    "query": "A weathered, glowing locket being clasped by a trembling hand, revealing a faded photograph inside."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0161.jpg",
-                    "query": "A vast, stormy sea at dusk, waves crashing against an unyielding cliff face, defiant against the relentless tide"
+                    "offset": 0.58,
+                    "url": "media/c0124.jpg",
+                    "query": "A lone figure breaks rank, turning to face the others. They are lit with warm light as the sun sets and casts their shadow in a silhouette."
                 }
             ],
             "words": [
                 {
-                    "start": 96.34,
-                    "end": 96.673,
+                    "start": 77.248,
+                    "end": 78.115,
+                    "text": "RULES"
+                },
+                {
+                    "start": 78.115,
+                    "end": 78.981,
+                    "text": "AND"
+                },
+                {
+                    "start": 78.981,
+                    "end": 79.848,
+                    "text": "RITUALS,"
+                },
+                {
+                    "start": 79.848,
+                    "end": 80.715,
+                    "text": "RULES"
+                },
+                {
+                    "start": 80.715,
+                    "end": 81.581,
+                    "text": "AND"
+                },
+                {
+                    "start": 81.581,
+                    "end": 82.448,
+                    "text": "RITUALS"
+                }
+            ]
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 82.448,
+            "end": 84.688,
+            "lyric": "Everybody's got the truth!",
+            "real_meaning": "Post-truth era â€” everyone has their 'facts', their 'research', their unshakable opinion.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0126.jpg",
+                    "query": "multiple people each holding a different glowing truth above their head, conflicting certainties, dramatic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 82.648,
+                    "end": 83.308,
+                    "text": "Everybody's"
+                },
+                {
+                    "start": 83.308,
+                    "end": 83.908,
+                    "text": "got"
+                },
+                {
+                    "start": 83.908,
+                    "end": 83.948,
+                    "text": "the"
+                },
+                {
+                    "start": 83.908,
+                    "end": 84.688,
+                    "text": "truth!"
+                }
+            ]
+        },
+        {
+            "id": "line_18_occ_0",
+            "start": 84.763,
+            "end": 88.408,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS",
+            "real_meaning": "The mantra of civilization â€” repeat the rules until they feel sacred, until questioning them feels like heresy.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0129.jpg",
+                    "query": "stone tablets with arbitrary rules carved in glowing text, monumental and absurd, cinematic"
+                },
+                {
+                    "offset": 0.55,
+                    "url": "media/c0130.jpg",
+                    "query": "A weathered hand tracing ancient carvings, fingers glowing with the same eerie light."
+                }
+            ],
+            "words": [
+                {
+                    "start": 84.763,
+                    "end": 85.371,
+                    "text": "RULES"
+                },
+                {
+                    "start": 85.371,
+                    "end": 85.978,
+                    "text": "AND"
+                },
+                {
+                    "start": 85.978,
+                    "end": 86.585,
+                    "text": "RITUALS,"
+                },
+                {
+                    "start": 86.585,
+                    "end": 87.193,
+                    "text": "RULES"
+                },
+                {
+                    "start": 87.193,
+                    "end": 87.8,
+                    "text": "AND"
+                },
+                {
+                    "start": 87.8,
+                    "end": 88.408,
+                    "text": "RITUALS"
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 88.408,
+            "end": 92.068,
+            "lyric": "Everyone except the youth!",
+            "real_meaning": "The young see through it first â€” 'OK Boomer' energy, each generation briefly clear-eyed before being absorbed.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0132.jpg",
+                    "query": "young person looking skeptically at adults performing meaningless rituals, outsider perspective, cinematic"
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0133.jpg",
+                    "query": "A close-up of a young hand pushing aside an adultâ€™s reaching arm."
+                }
+            ],
+            "words": [
+                {
+                    "start": 88.608,
+                    "end": 88.668,
+                    "text": "Everyone"
+                },
+                {
+                    "start": 88.668,
+                    "end": 89.204,
+                    "text": "except"
+                },
+                {
+                    "start": 89.204,
+                    "end": 89.74,
+                    "text": "the"
+                },
+                {
+                    "start": 89.74,
+                    "end": 92.068,
+                    "text": "youth!"
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 92.068,
+            "end": 94.464,
+            "lyric": "\"...should be noon...\"",
+            "real_meaning": "The whispered dogma that never dies â€” stubborn beliefs that persist in the shadows even after being disproven.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0159.jpg",
+                    "query": "shadowy figure whispering in darkness, conspiracy and stubbornness, noir cinematic close-up"
+                }
+            ],
+            "words": [
+                {
+                    "start": 92.068,
+                    "end": 93.448,
                     "text": "\"...should"
                 },
                 {
-                    "start": 96.673,
-                    "end": 97.007,
+                    "start": 93.448,
+                    "end": 93.503,
                     "text": "be"
                 },
                 {
-                    "start": 97.007,
-                    "end": 97.34,
+                    "start": 93.668,
+                    "end": 94.464,
                     "text": "noon...\""
                 }
             ]
         },
         {
-            "id": "line_18_occ_6",
-            "start": 97.52,
-            "end": 98.05,
-            "lyric": "\"...the wheel...\"",
-            "real_meaning": "And behind it all, the blind worship of the machine continues — the system keeps turning regardless of belief.",
+            "id": "line_21_occ_0",
+            "start": 95.712,
+            "end": 96.448,
+            "lyric": "\"...night time...\"",
+            "real_meaning": "The counter-whisper â€” equally persistent, equally baseless. The argument never ends, it just gets quieter.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0055.jpg",
-                    "query": "massive wheel turning slowly in darkness, indifferent mechanism, industrial cinematic"
-                },
-                {
-                    "offset": 0.18,
-                    "url": "media/c0166.jpg",
-                    "query": "Sparks fly from rusted gears grinding in dim light."
-                },
-                {
-                    "offset": 0.35,
-                    "url": "media/c0167.jpg",
-                    "query": "A lone figure stands before the colossal wheel, dwarfed and gazing upwards with resignation."
+                    "url": "media/c0162.jpg",
+                    "query": "another shadowy figure whispering from the opposite direction, dueling whispers, dark cinematic"
                 }
             ],
             "words": [
                 {
-                    "start": 97.52,
-                    "end": 97.72,
-                    "text": "The"
+                    "start": 95.712,
+                    "end": 95.828,
+                    "text": "\"...night"
                 },
                 {
-                    "start": 97.72,
-                    "end": 98.05,
-                    "text": "wheel"
+                    "start": 95.828,
+                    "end": 96.448,
+                    "text": "time...\""
                 }
             ]
         },
         {
-            "id": "instrumental_19",
-            "start": 98.05,
-            "end": 98.38,
-            "lyric": "Oh",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
+            "id": "line_22_occ_0",
+            "start": 97.628,
+            "end": 100.32,
+            "lyric": "\"...the wheel...\"",
+            "real_meaning": "And behind it all, the blind worship of the machine continues â€” the system keeps turning regardless of belief.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0165.jpg",
+                    "query": "massive wheel turning slowly in darkness, indifferent mechanism, industrial cinematic"
+                }
+            ],
             "words": [
                 {
-                    "start": 98.05,
-                    "end": 98.38,
-                    "text": "Oh"
+                    "start": 97.628,
+                    "end": 97.728,
+                    "text": "\"...the"
+                },
+                {
+                    "start": 97.728,
+                    "end": 98.547,
+                    "text": "wheel...\""
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        0.813,
+        1.324,
+        1.811,
+        2.322,
+        2.81,
+        3.32,
+        3.808,
+        4.319,
+        4.83,
+        5.317,
+        5.828,
+        6.316,
+        6.827,
+        7.314,
+        7.825,
+        8.313,
+        8.824,
+        9.334,
+        9.822,
+        10.333,
+        10.82,
+        11.331,
+        11.819,
+        12.33,
+        12.817,
+        13.328,
+        13.816,
+        14.327,
+        14.814,
+        15.325,
+        15.813,
+        16.3,
+        16.811,
+        17.322,
+        17.81,
+        18.321,
+        18.808,
+        19.319,
+        19.83,
+        20.317,
+        20.759,
+        21.316,
+        21.827,
+        22.314,
+        22.802,
+        23.313,
+        23.824,
+        24.311,
+        24.799,
+        25.31,
+        25.821,
+        26.331,
+        26.819,
+        27.33,
+        27.818,
+        28.305,
+        28.816,
+        29.327,
+        29.814,
+        30.325,
+        30.813,
+        31.324,
+        31.811,
+        32.322,
+        32.81,
+        33.297,
+        33.808,
+        34.319,
+        34.807,
+        35.318,
+        35.828,
+        36.316,
+        36.804,
+        37.314,
+        37.825,
+        38.313,
+        38.824,
+        39.311,
+        39.822,
+        40.31,
+        40.821,
+        41.308,
+        41.819,
+        42.307,
+        42.818,
+        43.328,
+        43.816,
+        44.327,
+        44.815,
+        45.325,
+        45.813,
+        46.324,
+        46.811,
+        47.322,
+        47.833,
+        48.321,
+        48.808,
+        49.319,
+        49.807,
+        50.318,
+        50.828,
+        51.316,
+        51.827,
+        52.315,
+        52.825,
+        53.313,
+        53.777,
+        54.311,
+        54.822,
+        55.31,
+        55.821,
+        56.308,
+        56.819,
+        57.33,
+        57.818,
+        58.305,
+        58.816,
+        59.327,
+        59.815,
+        60.302,
+        60.813,
+        61.324,
+        61.835,
+        62.346,
+        62.833,
+        63.321,
+        63.832,
+        64.319,
+        64.83,
+        65.318,
+        65.829,
+        66.316,
+        66.804,
+        67.315,
+        67.802,
+        68.29,
+        68.801,
+        69.312,
+        69.822,
+        70.31,
+        70.821,
+        71.308,
+        71.819,
+        72.307,
+        72.818,
+        73.305,
+        73.816,
+        74.327,
+        74.815,
+        75.326,
+        75.836,
+        76.347,
+        76.858,
+        77.346,
+        77.833,
+        78.344,
+        78.809,
+        79.319,
+        79.83,
+        80.318,
+        80.805,
+        81.316,
+        81.827,
+        82.315,
+        82.802,
+        83.313,
+        83.824,
+        84.312,
+        84.799,
+        85.31,
+        85.821,
+        86.309,
+        86.819,
+        87.33,
+        87.818,
+        88.329,
+        88.816,
+        89.327,
+        89.838,
+        90.326,
+        90.813,
+        91.324,
+        91.835,
+        92.323,
+        92.81,
+        93.251,
+        93.809,
+        94.319,
+        94.807,
+        95.318,
+        95.829,
+        96.316,
+        96.804,
+        97.315,
+        97.802,
+        98.313,
+        98.801,
+        99.312,
+        99.823,
+        100.31,
+        100.821,
+        101.309,
+        101.82,
+        102.307,
+        102.818,
+        103.329,
+        103.816,
+        104.327,
+        104.815,
+        105.326,
+        105.813,
+        106.324,
+        106.812,
+        107.323,
+        107.81,
+        108.321,
+        108.832,
+        109.32,
+        109.83,
+        110.318,
+        110.829,
+        111.316,
+        111.827,
+        112.315,
+        112.826,
+        113.313,
+        113.824,
+        114.335,
+        114.823
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.538
+        ],
+        [
+            0.49,
+            0.57
+        ],
+        [
+            0.98,
+            0.597
+        ],
+        [
+            1.46,
+            0.597
+        ],
+        [
+            1.95,
+            0.654
+        ],
+        [
+            2.44,
+            0.736
+        ],
+        [
+            2.93,
+            0.736
+        ],
+        [
+            3.41,
+            0.672
+        ],
+        [
+            3.9,
+            0.667
+        ],
+        [
+            4.39,
+            0.722
+        ],
+        [
+            4.88,
+            0.775
+        ],
+        [
+            5.36,
+            0.786
+        ],
+        [
+            5.85,
+            0.762
+        ],
+        [
+            6.34,
+            0.763
+        ],
+        [
+            6.83,
+            0.729
+        ],
+        [
+            7.31,
+            0.66
+        ],
+        [
+            7.8,
+            0.67
+        ],
+        [
+            8.29,
+            0.74
+        ],
+        [
+            8.78,
+            0.797
+        ],
+        [
+            9.26,
+            0.815
+        ],
+        [
+            9.75,
+            0.798
+        ],
+        [
+            10.24,
+            0.823
+        ],
+        [
+            10.73,
+            0.855
+        ],
+        [
+            11.22,
+            0.822
+        ],
+        [
+            11.7,
+            0.784
+        ],
+        [
+            12.19,
+            0.816
+        ],
+        [
+            12.68,
+            0.869
+        ],
+        [
+            13.17,
+            0.863
+        ],
+        [
+            13.65,
+            0.844
+        ],
+        [
+            14.14,
+            0.837
+        ],
+        [
+            14.63,
+            0.828
+        ],
+        [
+            15.12,
+            0.801
+        ],
+        [
+            15.6,
+            0.771
+        ],
+        [
+            16.09,
+            0.782
+        ],
+        [
+            16.58,
+            0.821
+        ],
+        [
+            17.07,
+            0.83
+        ],
+        [
+            17.55,
+            0.8
+        ],
+        [
+            18.04,
+            0.786
+        ],
+        [
+            18.53,
+            0.808
+        ],
+        [
+            19.02,
+            0.845
+        ],
+        [
+            19.5,
+            0.818
+        ],
+        [
+            19.99,
+            0.749
+        ],
+        [
+            20.48,
+            0.741
+        ],
+        [
+            20.97,
+            0.795
+        ],
+        [
+            21.46,
+            0.845
+        ],
+        [
+            21.94,
+            0.849
+        ],
+        [
+            22.43,
+            0.819
+        ],
+        [
+            22.92,
+            0.826
+        ],
+        [
+            23.41,
+            0.841
+        ],
+        [
+            23.89,
+            0.771
+        ],
+        [
+            24.38,
+            0.709
+        ],
+        [
+            24.87,
+            0.778
+        ],
+        [
+            25.36,
+            0.85
+        ],
+        [
+            25.84,
+            0.818
+        ],
+        [
+            26.33,
+            0.808
+        ],
+        [
+            26.82,
+            0.839
+        ],
+        [
+            27.31,
+            0.853
+        ],
+        [
+            27.79,
+            0.78
+        ],
+        [
+            28.28,
+            0.744
+        ],
+        [
+            28.77,
+            0.839
+        ],
+        [
+            29.26,
+            0.864
+        ],
+        [
+            29.74,
+            0.814
+        ],
+        [
+            30.23,
+            0.832
+        ],
+        [
+            30.72,
+            0.848
+        ],
+        [
+            31.21,
+            0.765
+        ],
+        [
+            31.7,
+            0.708
+        ],
+        [
+            32.18,
+            0.731
+        ],
+        [
+            32.67,
+            0.78
+        ],
+        [
+            33.16,
+            0.806
+        ],
+        [
+            33.65,
+            0.765
+        ],
+        [
+            34.13,
+            0.765
+        ],
+        [
+            34.62,
+            0.789
+        ],
+        [
+            35.11,
+            0.788
+        ],
+        [
+            35.6,
+            0.762
+        ],
+        [
+            36.08,
+            0.758
+        ],
+        [
+            36.57,
+            0.767
+        ],
+        [
+            37.06,
+            0.757
+        ],
+        [
+            37.55,
+            0.745
+        ],
+        [
+            38.03,
+            0.725
+        ],
+        [
+            38.52,
+            0.805
+        ],
+        [
+            39.01,
+            0.89
+        ],
+        [
+            39.5,
+            0.92
+        ],
+        [
+            39.98,
+            0.93
+        ],
+        [
+            40.47,
+            0.887
+        ],
+        [
+            40.96,
+            0.838
+        ],
+        [
+            41.45,
+            0.817
+        ],
+        [
+            41.94,
+            0.805
+        ],
+        [
+            42.42,
+            0.801
+        ],
+        [
+            42.91,
+            0.813
+        ],
+        [
+            43.4,
+            0.822
+        ],
+        [
+            43.89,
+            0.809
+        ],
+        [
+            44.37,
+            0.818
+        ],
+        [
+            44.86,
+            0.87
+        ],
+        [
+            45.35,
+            0.877
+        ],
+        [
+            45.84,
+            0.83
+        ],
+        [
+            46.32,
+            0.8
+        ],
+        [
+            46.81,
+            0.795
+        ],
+        [
+            47.3,
+            0.813
+        ],
+        [
+            47.79,
+            0.814
+        ],
+        [
+            48.27,
+            0.793
+        ],
+        [
+            48.76,
+            0.843
+        ],
+        [
+            49.25,
+            0.89
+        ],
+        [
+            49.74,
+            0.877
+        ],
+        [
+            50.22,
+            0.886
+        ],
+        [
+            50.71,
+            0.896
+        ],
+        [
+            51.2,
+            0.891
+        ],
+        [
+            51.69,
+            0.859
+        ],
+        [
+            52.18,
+            0.86
+        ],
+        [
+            52.66,
+            0.892
+        ],
+        [
+            53.15,
+            0.862
+        ],
+        [
+            53.64,
+            0.844
+        ],
+        [
+            54.13,
+            0.864
+        ],
+        [
+            54.61,
+            0.888
+        ],
+        [
+            55.1,
+            0.893
+        ],
+        [
+            55.59,
+            0.85
+        ],
+        [
+            56.08,
+            0.844
+        ],
+        [
+            56.56,
+            0.883
+        ],
+        [
+            57.05,
+            0.871
+        ],
+        [
+            57.54,
+            0.878
+        ],
+        [
+            58.03,
+            0.913
+        ],
+        [
+            58.51,
+            0.896
+        ],
+        [
+            59.0,
+            0.876
+        ],
+        [
+            59.49,
+            0.873
+        ],
+        [
+            59.98,
+            0.868
+        ],
+        [
+            60.46,
+            0.893
+        ],
+        [
+            60.95,
+            0.842
+        ],
+        [
+            61.44,
+            0.717
+        ],
+        [
+            61.93,
+            0.719
+        ],
+        [
+            62.42,
+            0.813
+        ],
+        [
+            62.9,
+            0.847
+        ],
+        [
+            63.39,
+            0.857
+        ],
+        [
+            63.88,
+            0.856
+        ],
+        [
+            64.37,
+            0.857
+        ],
+        [
+            64.85,
+            0.793
+        ],
+        [
+            65.34,
+            0.74
+        ],
+        [
+            65.83,
+            0.757
+        ],
+        [
+            66.32,
+            0.77
+        ],
+        [
+            66.8,
+            0.798
+        ],
+        [
+            67.29,
+            0.803
+        ],
+        [
+            67.78,
+            0.788
+        ],
+        [
+            68.27,
+            0.783
+        ],
+        [
+            68.75,
+            0.794
+        ],
+        [
+            69.24,
+            0.807
+        ],
+        [
+            69.73,
+            0.799
+        ],
+        [
+            70.22,
+            0.806
+        ],
+        [
+            70.7,
+            0.819
+        ],
+        [
+            71.19,
+            0.794
+        ],
+        [
+            71.68,
+            0.795
+        ],
+        [
+            72.17,
+            0.814
+        ],
+        [
+            72.66,
+            0.81
+        ],
+        [
+            73.14,
+            0.83
+        ],
+        [
+            73.63,
+            0.842
+        ],
+        [
+            74.12,
+            0.841
+        ],
+        [
+            74.61,
+            0.841
+        ],
+        [
+            75.09,
+            0.81
+        ],
+        [
+            75.58,
+            0.807
+        ],
+        [
+            76.07,
+            0.846
+        ],
+        [
+            76.56,
+            0.851
+        ],
+        [
+            77.04,
+            0.843
+        ],
+        [
+            77.53,
+            0.814
+        ],
+        [
+            78.02,
+            0.794
+        ],
+        [
+            78.51,
+            0.834
+        ],
+        [
+            78.99,
+            0.901
+        ],
+        [
+            79.48,
+            0.915
+        ],
+        [
+            79.97,
+            0.909
+        ],
+        [
+            80.46,
+            0.916
+        ],
+        [
+            80.94,
+            0.93
+        ],
+        [
+            81.43,
+            0.94
+        ],
+        [
+            81.92,
+            0.922
+        ],
+        [
+            82.41,
+            0.92
+        ],
+        [
+            82.9,
+            0.929
+        ],
+        [
+            83.38,
+            0.918
+        ],
+        [
+            83.87,
+            0.885
+        ],
+        [
+            84.36,
+            0.885
+        ],
+        [
+            84.85,
+            0.931
+        ],
+        [
+            85.33,
+            0.959
+        ],
+        [
+            85.82,
+            0.939
+        ],
+        [
+            86.31,
+            0.932
+        ],
+        [
+            86.8,
+            0.952
+        ],
+        [
+            87.28,
+            0.946
+        ],
+        [
+            87.77,
+            0.921
+        ],
+        [
+            88.26,
+            0.905
+        ],
+        [
+            88.75,
+            0.939
+        ],
+        [
+            89.23,
+            0.952
+        ],
+        [
+            89.72,
+            0.915
+        ],
+        [
+            90.21,
+            0.921
+        ],
+        [
+            90.7,
+            0.951
+        ],
+        [
+            91.18,
+            0.936
+        ],
+        [
+            91.67,
+            0.896
+        ],
+        [
+            92.16,
+            0.89
+        ],
+        [
+            92.65,
+            0.869
+        ],
+        [
+            93.14,
+            0.752
+        ],
+        [
+            93.62,
+            0.694
+        ],
+        [
+            94.11,
+            0.627
+        ],
+        [
+            94.6,
+            0.613
+        ],
+        [
+            95.09,
+            0.694
+        ],
+        [
+            95.57,
+            0.736
+        ],
+        [
+            96.06,
+            0.753
+        ],
+        [
+            96.55,
+            0.711
+        ],
+        [
+            97.04,
+            0.592
+        ],
+        [
+            97.52,
+            0.588
+        ],
+        [
+            98.01,
+            0.608
+        ],
+        [
+            98.5,
+            0.636
+        ],
+        [
+            98.99,
+            0.838
+        ],
+        [
+            99.47,
+            0.94
+        ],
+        [
+            99.96,
+            0.941
+        ],
+        [
+            100.45,
+            0.968
+        ],
+        [
+            100.94,
+            0.977
+        ],
+        [
+            101.42,
+            0.945
+        ],
+        [
+            101.91,
+            0.927
+        ],
+        [
+            102.4,
+            0.962
+        ],
+        [
+            102.89,
+            0.996
+        ],
+        [
+            103.38,
+            0.984
+        ],
+        [
+            103.86,
+            0.976
+        ],
+        [
+            104.35,
+            0.966
+        ],
+        [
+            104.84,
+            0.951
+        ],
+        [
+            105.33,
+            0.936
+        ],
+        [
+            105.81,
+            0.924
+        ],
+        [
+            106.3,
+            0.946
+        ],
+        [
+            106.79,
+            0.96
+        ],
+        [
+            107.28,
+            0.938
+        ],
+        [
+            107.76,
+            0.923
+        ],
+        [
+            108.25,
+            0.958
+        ],
+        [
+            108.74,
+            0.991
+        ],
+        [
+            109.23,
+            0.956
+        ],
+        [
+            109.71,
+            0.925
+        ],
+        [
+            110.2,
+            0.962
+        ],
+        [
+            110.69,
+            0.996
+        ],
+        [
+            111.18,
+            0.984
+        ],
+        [
+            111.66,
+            0.98
+        ],
+        [
+            112.15,
+            0.972
+        ],
+        [
+            112.64,
+            0.966
+        ],
+        [
+            113.13,
+            0.942
+        ],
+        [
+            113.62,
+            0.881
+        ],
+        [
+            114.1,
+            0.764
+        ],
+        [
+            114.59,
+            0.653
+        ],
+        [
+            115.08,
+            0.494
+        ],
+        [
+            115.57,
+            0.304
+        ],
+        [
+            116.05,
+            0.245
+        ]
+    ],
+    "bpm": 123.0
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

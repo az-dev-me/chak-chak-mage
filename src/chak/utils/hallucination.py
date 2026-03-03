@@ -93,13 +93,76 @@ def filter_segments(
     """
     if not segments:
         return segments
-    return [
-        {
+    kept = []
+    for seg in segments:
+        if is_hallucinated(seg, **kwargs):
+            continue
+        # Preserve all fields (including 'source' on words if present)
+        out = {
             "start": seg["start"],
             "end": seg["end"],
             "text": seg["text"],
-            "words": seg["words"],
+            "words": seg.get("words", []),
         }
-        for seg in segments
-        if not is_hallucinated(seg, **kwargs)
-    ]
+        kept.append(out)
+    return kept
+
+
+def filter_word_hallucinations(
+    words: list[dict[str, Any]],
+    canonical_words_set: frozenset[str] | None = None,
+    *,
+    min_consecutive_repeat: int = 3,
+) -> list[dict[str, Any]]:
+    """Smart word-level hallucination filter.
+
+    Only removes words that:
+    1. Don't fuzzy-match ANY canonical word, AND
+    2. Appear consecutively repeated min_consecutive_repeat+ times
+
+    Single occurrences of non-canonical words are kept (ad-libs).
+    Canonical-matching words are always kept.
+
+    Parameters
+    ----------
+    words:
+        List of word dicts with at least 'text' key.
+    canonical_words_set:
+        Normalized canonical words for comparison. If None, no
+        canonical filtering is applied (only consecutive repeats).
+    min_consecutive_repeat:
+        Minimum consecutive repetitions of the same non-canonical
+        word to consider it hallucination.
+    """
+    if not words:
+        return words
+
+    canon = canonical_words_set or frozenset()
+
+    # Detect consecutive repetitions
+    # Group words into runs of identical normalized text
+    runs: list[list[int]] = []
+    current_run: list[int] = [0]
+    for i in range(1, len(words)):
+        prev_norm = words[i - 1].get("text", "").strip().lower().rstrip(".,!?")
+        curr_norm = words[i].get("text", "").strip().lower().rstrip(".,!?")
+        if curr_norm == prev_norm:
+            current_run.append(i)
+        else:
+            runs.append(current_run)
+            current_run = [i]
+    runs.append(current_run)
+
+    # Identify indices to remove
+    remove_indices: set[int] = set()
+    for run in runs:
+        if len(run) < min_consecutive_repeat:
+            continue
+        # Check if this repeated word matches any canonical word
+        word_text = words[run[0]].get("text", "").strip().lower().rstrip(".,!?")
+        if word_text in canon:
+            continue  # Canonical word repeated — could be intentional (chorus)
+        # Non-canonical word repeated consecutively → hallucination
+        remove_indices.update(run)
+
+    return [w for i, w in enumerate(words) if i not in remove_indices]

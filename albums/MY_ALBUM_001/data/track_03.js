@@ -5,355 +5,235 @@ var track_03_data = {
     "timeline": [
         {
             "id": "line_0_occ_0",
-            "start": 0.0,
-            "end": 2.06,
+            "start": 0.24,
+            "end": 2.08,
             "lyric": "Next morning, Gralha lit the flame",
-            "real_meaning": "Monday morning, alarm rings — the daily ritual begins. Another day in the rat race.",
+            "real_meaning": "Monday morning, alarm rings â€” the daily ritual begins. Another day in the rat race.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0020.jpg",
+                    "url": "media/c0060.jpg",
                     "query": "primitive man lighting a flame at dawn, ritual determination, golden morning light cinematic"
-                },
-                {
-                    "offset": 0.69,
-                    "url": "media/c0061.jpg",
-                    "query": "A crackling ember ignites a dry twig, sparks flying in slow motion."
-                },
-                {
-                    "offset": 1.37,
-                    "url": "media/c0062.jpg",
-                    "query": "Golden light cascades through an ancient forest canopy, a sense of inevitable time passing."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 0.24,
+                    "start": 0.24,
+                    "end": 0.28,
                     "text": "Next"
                 },
                 {
                     "start": 0.24,
-                    "end": 0.6,
+                    "end": 0.78,
                     "text": "morning,"
                 },
                 {
-                    "start": 0.76,
+                    "start": 0.96,
                     "end": 1.1,
-                    "text": "Growler"
+                    "text": "Gralha"
                 },
                 {
-                    "start": 1.1,
-                    "end": 1.4,
+                    "start": 1.17,
+                    "end": 1.38,
                     "text": "lit"
                 },
                 {
-                    "start": 1.4,
+                    "start": 1.43,
                     "end": 1.58,
                     "text": "the"
                 },
                 {
                     "start": 1.58,
-                    "end": 2.06,
+                    "end": 2.08,
                     "text": "flame"
                 }
             ]
         },
         {
-            "id": "instrumental_0",
-            "start": 2.82,
-            "end": 3.26,
-            "lyric": "Hey!",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 2.82,
-                    "end": 3.26,
-                    "text": "Hey!"
-                }
-            ]
-        },
-        {
             "id": "line_1_occ_0",
-            "start": 3.7,
-            "end": 5.76,
+            "start": 2.08,
+            "end": 3.98,
             "lyric": "Chak-chak, a tiny light",
-            "real_meaning": "The notification ping, the login screen — the small spark that starts the daily grind.",
+            "real_meaning": "The notification ping, the login screen â€” the small spark that starts the daily grind.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
+                    "url": "media/c0063.jpg",
                     "query": "extreme close-up of a spark igniting in darkness, single point of light, dramatic macro"
-                },
-                {
-                    "offset": 0.78,
-                    "url": "media/c0064.jpg",
-                    "query": "A flickering match strikes against a rough surface."
-                },
-                {
-                    "offset": 1.25,
-                    "url": "media/c0065.jpg",
-                    "query": "Warm glow spreading through a dark, cavernous room."
                 }
             ],
             "words": [
                 {
-                    "start": 3.7,
-                    "end": 3.96,
-                    "text": "Shock,"
+                    "start": 2.08,
+                    "end": 2.78,
+                    "text": "Chak-chak,"
                 },
                 {
-                    "start": 4.02,
-                    "end": 4.24,
-                    "text": "shock,"
-                },
-                {
-                    "start": 4.3,
-                    "end": 4.44,
+                    "start": 2.78,
+                    "end": 3.18,
                     "text": "a"
                 },
                 {
-                    "start": 4.44,
-                    "end": 5.06,
+                    "start": 3.18,
+                    "end": 3.58,
                     "text": "tiny"
                 },
                 {
-                    "start": 5.06,
-                    "end": 5.76,
+                    "start": 3.58,
+                    "end": 3.98,
                     "text": "light"
                 }
             ]
         },
         {
-            "id": "instrumental_1",
-            "start": 6.56,
-            "end": 6.94,
-            "lyric": "Hey!",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 6.56,
-                    "end": 6.94,
-                    "text": "Hey!"
-                }
-            ]
-        },
-        {
             "id": "line_2_occ_0",
-            "start": 7.4,
-            "end": 9.42,
+            "start": 5.62,
+            "end": 9.48,
             "lyric": "\"Now I run!\" he said, and came",
-            "real_meaning": "The commuter sprinting for the train, the entrepreneur chasing the deadline — voluntary slavery disguised as ambition.",
+            "real_meaning": "The commuter sprinting for the train, the entrepreneur chasing the deadline â€” voluntary slavery disguised as ambition.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0022.jpg",
+                    "url": "media/c0066.jpg",
                     "query": "determined figure bursting into a sprint, dust clouds, dramatic action shot, cinematic"
-                },
-                {
-                    "offset": 0.82,
-                    "url": "media/c0067.jpg",
-                    "query": "A determined arm pumping in rhythm with powerful steps."
-                },
-                {
-                    "offset": 1.28,
-                    "url": "media/c0068.jpg",
-                    "query": "Silhouetted figure running through a sunburst."
                 }
             ],
             "words": [
                 {
-                    "start": 7.4,
-                    "end": 7.86,
-                    "text": "Now"
+                    "start": 5.82,
+                    "end": 7.78,
+                    "text": "\"Now"
                 },
                 {
-                    "start": 7.86,
-                    "end": 8.08,
+                    "start": 8.035,
+                    "end": 8.12,
                     "text": "I"
                 },
                 {
-                    "start": 8.08,
-                    "end": 8.4,
-                    "text": "run,"
+                    "start": 8.12,
+                    "end": 8.44,
+                    "text": "run!\""
                 },
                 {
-                    "start": 8.42,
-                    "end": 8.58,
+                    "start": 8.48,
+                    "end": 8.54,
                     "text": "he"
                 },
                 {
-                    "start": 8.58,
-                    "end": 8.86,
+                    "start": 8.69,
+                    "end": 8.94,
                     "text": "said,"
                 },
                 {
-                    "start": 8.92,
-                    "end": 9.04,
+                    "start": 8.94,
+                    "end": 9.06,
                     "text": "and"
                 },
                 {
-                    "start": 9.04,
-                    "end": 9.42,
+                    "start": 9.112,
+                    "end": 9.48,
                     "text": "came"
                 }
             ]
         },
         {
-            "id": "instrumental_2",
-            "start": 10.34,
-            "end": 10.66,
-            "lyric": "Hey!",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 10.34,
-                    "end": 10.66,
-                    "text": "Hey!"
-                }
-            ]
-        },
-        {
             "id": "line_3_occ_0",
-            "start": 11.1,
-            "end": 13.1,
+            "start": 9.48,
+            "end": 13.22,
             "lyric": "Running with all his might",
-            "real_meaning": "Giving 110% to a meaningless task — the cult of productivity, the worship of busy.",
+            "real_meaning": "Giving 110% to a meaningless task â€” the cult of productivity, the worship of busy.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0023.jpg",
+                    "url": "media/c0069.jpg",
                     "query": "person running at full speed through a blurred landscape, exhaustion and determination, cinematic motion"
-                },
-                {
-                    "offset": 0.81,
-                    "url": "media/c0070.jpg",
-                    "query": "A close-up of a hand, clenched with determination, veins protruding as they tense to their limit."
-                },
-                {
-                    "offset": 1.28,
-                    "url": "media/c0071.jpg",
-                    "query": "A desolate cityscape at twilight. The sun dips below the horizon as smokestacks billow endlessly into a polluted sky"
                 }
             ],
             "words": [
                 {
-                    "start": 11.1,
-                    "end": 11.48,
+                    "start": 9.48,
+                    "end": 11.46,
                     "text": "Running"
                 },
                 {
-                    "start": 11.48,
+                    "start": 11.61,
                     "end": 11.86,
                     "text": "with"
                 },
                 {
-                    "start": 11.86,
-                    "end": 12.22,
+                    "start": 11.955,
+                    "end": 12.24,
                     "text": "all"
                 },
                 {
-                    "start": 12.22,
+                    "start": 12.39,
                     "end": 12.64,
                     "text": "his"
                 },
                 {
-                    "start": 12.64,
-                    "end": 13.1,
+                    "start": 13.148,
+                    "end": 13.22,
                     "text": "might"
                 }
             ]
         },
         {
-            "id": "line_4_interp",
-            "start": 13.1,
-            "end": 14.54,
+            "id": "line_4_occ_0",
+            "start": 13.22,
+            "end": 15.92,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "The crowd cheering the hustler — LinkedIn motivational posts, 'rise and grind', the cheerleaders of the rat race.",
+            "real_meaning": "The crowd cheering the hustler â€” LinkedIn motivational posts, 'rise and grind', the cheerleaders of the rat race.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
+                    "url": "media/c0072.jpg",
                     "query": "frantic crowd cheering and pointing forward, tribal energy, dramatic wide angle cinematic"
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c0073.jpg",
-                    "query": "A lone figure darting through a maze of towering skyscrapers."
                 }
             ],
             "words": [
                 {
-                    "start": 13.1,
-                    "end": 13.58,
+                    "start": 13.22,
+                    "end": 13.344,
                     "text": "RUN,"
                 },
                 {
-                    "start": 13.58,
-                    "end": 14.06,
+                    "start": 14.902,
+                    "end": 15.48,
                     "text": "GRALHA,"
                 },
                 {
-                    "start": 14.06,
-                    "end": 14.54,
+                    "start": 15.48,
+                    "end": 15.92,
                     "text": "RUN!"
                 }
             ]
         },
         {
             "id": "line_5_occ_0",
-            "start": 14.54,
-            "end": 17.82,
+            "start": 15.94,
+            "end": 18.32,
             "lyric": "The baby fire mustn't die!",
-            "real_meaning": "Protect the quarterly earnings, save the engagement metrics — the flame that must never go out is profit.",
+            "real_meaning": "Protect the quarterly earnings, save the engagement metrics â€” the flame that must never go out is profit.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0025.jpg",
+                    "url": "media/c0075.jpg",
                     "query": "hands desperately shielding a tiny flame from the wind, fragile hope, intimate cinematic close-up"
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0076.jpg",
-                    "query": "Flickering flame reflected in desperate eyes."
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0077.jpg",
-                    "query": "Shattered glass and broken embers, scattered across a barren floor."
                 }
             ],
             "words": [
                 {
-                    "start": 14.54,
-                    "end": 14.8,
-                    "text": "Run,"
-                },
-                {
-                    "start": 15.02,
-                    "end": 15.44,
-                    "text": "Growler,"
-                },
-                {
-                    "start": 15.6,
-                    "end": 15.78,
-                    "text": "run,"
-                },
-                {
-                    "start": 15.92,
+                    "start": 15.94,
                     "end": 16.0,
-                    "text": "the"
+                    "text": "The"
                 },
                 {
-                    "start": 16.0,
-                    "end": 16.32,
+                    "start": 16.225,
+                    "end": 16.3,
                     "text": "baby"
                 },
                 {
-                    "start": 16.32,
+                    "start": 16.3,
                     "end": 16.8,
                     "text": "fire"
                 },
@@ -364,95 +244,60 @@ var track_03_data = {
                 },
                 {
                     "start": 17.4,
-                    "end": 17.82,
-                    "text": "die"
+                    "end": 18.32,
+                    "text": "die!"
                 }
             ]
         },
         {
-            "id": "line_6_interp",
-            "start": 17.82,
-            "end": 18.24,
+            "id": "line_6_occ_0",
+            "start": 18.34,
+            "end": 19.58,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "Keep going, don't stop, you'll miss the boat — the perpetual urgency of modern capitalism.",
+            "real_meaning": "Keep going, don't stop, you'll miss the boat â€” the perpetual urgency of modern capitalism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0026.jpg",
+                    "url": "media/c0078.jpg",
                     "query": "silhouette running against a massive sunset, epic scale, lone figure in vast landscape, cinematic"
-                },
-                {
-                    "offset": 0.14,
-                    "url": "media/c0079.jpg",
-                    "query": "A lone figure's foot kicking up dust and debris on a dry dirt road."
-                },
-                {
-                    "offset": 0.28,
-                    "url": "media/c0080.jpg",
-                    "query": "The vast sun setting behind the silhouette, casting warm rays of light in every direction across an empty sky."
                 }
             ],
             "words": [
                 {
-                    "start": 17.82,
-                    "end": 17.96,
+                    "start": 18.34,
+                    "end": 18.76,
                     "text": "RUN,"
                 },
                 {
-                    "start": 17.96,
-                    "end": 18.1,
+                    "start": 19.072,
+                    "end": 19.26,
                     "text": "GRALHA,"
                 },
                 {
-                    "start": 18.1,
-                    "end": 18.24,
+                    "start": 19.5,
+                    "end": 19.58,
                     "text": "RUN!"
                 }
             ]
         },
         {
             "id": "line_7_occ_0",
-            "start": 18.24,
-            "end": 21.44,
+            "start": 19.58,
+            "end": 23.16,
             "lyric": "Reach the new pile, touch the sky!",
-            "real_meaning": "Reach the next milestone, the next promotion, the next level — always another pile, never the sky.",
+            "real_meaning": "Reach the next milestone, the next promotion, the next level â€” always another pile, never the sky.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
+                    "url": "media/c0081.jpg",
                     "query": "figure reaching upward toward a glowing goal floating just out of reach, aspirational cinematic"
-                },
-                {
-                    "offset": 0.59,
-                    "url": "media/c0082.jpg",
-                    "query": "The outstretched hand trembling with effort, fingers straining toward an ethereal goal. A radiant glow illuminates the face of the climber as they scale a towering mountain under a"
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0083.jpg",
-                    "query": "A figure stands atop a summit, arms raised in triumph, while a vast expanse of swirling clouds and sunlight unfurls below."
                 }
             ],
             "words": [
                 {
-                    "start": 18.24,
-                    "end": 18.6,
-                    "text": "Run,"
-                },
-                {
-                    "start": 18.74,
-                    "end": 19.18,
-                    "text": "Growler,"
-                },
-                {
-                    "start": 19.4,
-                    "end": 19.54,
-                    "text": "run,"
-                },
-                {
-                    "start": 19.66,
+                    "start": 19.58,
                     "end": 19.9,
-                    "text": "reach"
+                    "text": "Reach"
                 },
                 {
                     "start": 19.9,
@@ -461,551 +306,1325 @@ var track_03_data = {
                 },
                 {
                     "start": 20.08,
-                    "end": 20.32,
+                    "end": 20.34,
                     "text": "new"
                 },
                 {
-                    "start": 20.32,
-                    "end": 20.56,
+                    "start": 20.34,
+                    "end": 20.64,
                     "text": "pile,"
                 },
                 {
-                    "start": 20.68,
-                    "end": 20.84,
+                    "start": 20.64,
+                    "end": 20.8,
                     "text": "touch"
                 },
                 {
-                    "start": 20.84,
+                    "start": 20.965,
                     "end": 21.02,
                     "text": "the"
                 },
                 {
-                    "start": 21.02,
-                    "end": 21.44,
-                    "text": "sky"
+                    "start": 21.226,
+                    "end": 21.57,
+                    "text": "sky!"
                 }
             ]
         },
         {
-            "id": "line_8_interp",
-            "start": 21.44,
-            "end": 25.54,
+            "id": "line_8_occ_0",
+            "start": 25.08,
+            "end": 28.75,
             "lyric": "Two hundred meters, wind in face",
             "real_meaning": "The daily commute, the morning rush, the headwind of reality against blind faith.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0028.jpg",
+                    "url": "media/c0084.jpg",
                     "query": "person running against strong wind, hair and clothes blown back, determination against resistance, cinematic"
                 },
                 {
-                    "offset": 0.6,
+                    "offset": 0.65,
                     "url": "media/c0085.jpg",
                     "query": "Rays of sunlight fight through dense fog, breaking against a defiant silhouette."
-                },
-                {
-                    "offset": 1.08,
-                    "url": "media/c0086.jpg",
-                    "query": "A weathered hand gripping a rusted bike handlebar amidst a storm."
                 }
             ],
             "words": [
                 {
-                    "start": 21.44,
-                    "end": 22.123,
+                    "start": 25.28,
+                    "end": 26.04,
                     "text": "Two"
                 },
                 {
-                    "start": 22.123,
-                    "end": 22.807,
+                    "start": 26.04,
+                    "end": 26.582,
                     "text": "hundred"
                 },
                 {
-                    "start": 22.807,
-                    "end": 23.49,
+                    "start": 26.582,
+                    "end": 27.124,
                     "text": "meters,"
                 },
                 {
-                    "start": 23.49,
-                    "end": 24.173,
+                    "start": 27.124,
+                    "end": 27.666,
                     "text": "wind"
                 },
                 {
-                    "start": 24.173,
-                    "end": 24.857,
+                    "start": 27.666,
+                    "end": 28.208,
                     "text": "in"
                 },
                 {
-                    "start": 24.857,
-                    "end": 25.54,
+                    "start": 28.208,
+                    "end": 28.75,
                     "text": "face"
                 }
             ]
         },
         {
-            "id": "line_9_interp",
-            "start": 25.54,
-            "end": 29.64,
+            "id": "line_9_occ_0",
+            "start": 30.86,
+            "end": 32.96,
             "lyric": "The tribe behind, screaming \"Pace!\"",
-            "real_meaning": "Social pressure to keep up — 'you're falling behind', 'everyone else is doing it', peer pressure as fuel.",
+            "real_meaning": "Social pressure to keep up â€” 'you're falling behind', 'everyone else is doing it', peer pressure as fuel.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0029.jpg",
+                    "url": "media/c0087.jpg",
                     "query": "crowd of faces screaming encouragement and pressure from behind, overwhelming social force, dramatic"
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0088.jpg",
-                    "query": "A close-up of a clenched fist pounding against the chest in rhythm with the heartbeat; cinematic lighting casts shadows and highlights on sweat-dripped skin"
-                },
-                {
-                    "offset": 1.14,
-                    "url": "media/c0089.jpg",
-                    "query": "A swirling vortex of faces morphing into each other in rapid succession — warm tones of reds, oranges, and yellows to create a sense of overwhelming chaos"
                 }
             ],
             "words": [
                 {
-                    "start": 25.54,
-                    "end": 26.36,
+                    "start": 31.06,
+                    "end": 31.22,
                     "text": "The"
                 },
                 {
-                    "start": 26.36,
-                    "end": 27.18,
+                    "start": 31.22,
+                    "end": 31.46,
                     "text": "tribe"
                 },
                 {
-                    "start": 27.18,
-                    "end": 28.0,
+                    "start": 31.46,
+                    "end": 32.06,
                     "text": "behind,"
                 },
                 {
-                    "start": 28.0,
-                    "end": 28.82,
+                    "start": 32.1,
+                    "end": 32.42,
                     "text": "screaming"
                 },
                 {
-                    "start": 28.82,
-                    "end": 29.64,
+                    "start": 32.42,
+                    "end": 32.96,
                     "text": "\"Pace!\""
                 }
             ]
         },
         {
-            "id": "line_10_interp",
-            "start": 29.64,
-            "end": 33.74,
+            "id": "line_10_occ_0",
+            "start": 33.0,
+            "end": 34.6,
             "lyric": "He reached the end, he blew, he blew",
-            "real_meaning": "Burnout — reaching the goal only to find the flame already dead. The promotion that feels empty.",
+            "real_meaning": "Burnout â€” reaching the goal only to find the flame already dead. The promotion that feels empty.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
+                    "url": "media/c0090.jpg",
                     "query": "exhausted figure collapsed at a finish line, blowing on dead ashes, despair and exhaustion, cinematic"
-                },
-                {
-                    "offset": 0.73,
-                    "url": "media/c0091.jpg",
-                    "query": "A pair of empty hands rising from the ashes."
-                },
-                {
-                    "offset": 1.2,
-                    "url": "media/c0092.jpg",
-                    "query": "A flickering flame of hope burning against a cold wind."
                 }
             ],
             "words": [
                 {
-                    "start": 29.64,
-                    "end": 30.152,
+                    "start": 33.0,
+                    "end": 33.08,
                     "text": "He"
                 },
                 {
-                    "start": 30.152,
-                    "end": 30.665,
+                    "start": 33.08,
+                    "end": 33.28,
                     "text": "reached"
                 },
                 {
-                    "start": 30.665,
-                    "end": 31.178,
+                    "start": 33.34,
+                    "end": 33.52,
                     "text": "the"
                 },
                 {
-                    "start": 31.178,
-                    "end": 31.69,
+                    "start": 33.595,
+                    "end": 33.82,
                     "text": "end,"
                 },
                 {
-                    "start": 31.69,
-                    "end": 32.203,
+                    "start": 33.82,
+                    "end": 33.92,
                     "text": "he"
                 },
                 {
-                    "start": 32.203,
-                    "end": 32.715,
+                    "start": 33.92,
+                    "end": 34.26,
                     "text": "blew,"
                 },
                 {
-                    "start": 32.715,
-                    "end": 33.227,
+                    "start": 34.26,
+                    "end": 34.36,
                     "text": "he"
                 },
                 {
-                    "start": 33.227,
-                    "end": 33.74,
+                    "start": 34.42,
+                    "end": 34.6,
                     "text": "blew"
                 }
             ]
         },
         {
-            "id": "line_11_interp",
-            "start": 33.75,
-            "end": 37.85,
+            "id": "line_11_occ_0",
+            "start": 34.6,
+            "end": 37.04,
             "lyric": "The flame was gone... what could he do?",
-            "real_meaning": "The crash — when the metrics drop, when the startup fails, when the hustle produces nothing.",
+            "real_meaning": "The crash â€” when the metrics drop, when the startup fails, when the hustle produces nothing.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0031.jpg",
+                    "url": "media/c0093.jpg",
                     "query": "person staring at empty hands where a flame used to be, loss and confusion, moody cinematic lighting"
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0094.jpg",
-                    "query": "A hand reaches out to grasp smoke fading into darkness as warm tones of sunset give way to night's chill."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0095.jpg",
-                    "query": "Cold rain pours over a crumbled business card, dissolving words and dreams in a puddle of defeat."
                 }
             ],
             "words": [
                 {
-                    "start": 33.75,
-                    "end": 34.263,
+                    "start": 34.6,
+                    "end": 34.84,
                     "text": "The"
                 },
                 {
-                    "start": 34.263,
-                    "end": 34.775,
+                    "start": 34.915,
+                    "end": 35.14,
                     "text": "flame"
                 },
                 {
-                    "start": 34.775,
-                    "end": 35.288,
+                    "start": 35.14,
+                    "end": 35.32,
                     "text": "was"
                 },
                 {
-                    "start": 35.288,
-                    "end": 35.8,
+                    "start": 35.32,
+                    "end": 35.66,
                     "text": "gone..."
                 },
                 {
-                    "start": 35.8,
-                    "end": 36.312,
+                    "start": 35.66,
+                    "end": 35.78,
                     "text": "what"
                 },
                 {
-                    "start": 36.312,
-                    "end": 36.825,
+                    "start": 35.78,
+                    "end": 36.1,
                     "text": "could"
                 },
                 {
-                    "start": 36.825,
-                    "end": 37.337,
+                    "start": 36.1,
+                    "end": 36.24,
                     "text": "he"
                 },
                 {
-                    "start": 37.337,
-                    "end": 37.85,
+                    "start": 36.59,
+                    "end": 37.04,
                     "text": "do?"
                 }
             ]
         },
         {
-            "id": "line_12_interp",
-            "start": 37.85,
-            "end": 41.95,
+            "id": "line_12_occ_0",
+            "start": 37.54,
+            "end": 40.0,
             "lyric": "Some said: \"Only run at noon!\"",
-            "real_meaning": "The first dogma — arbitrary rules invented to explain failure. 'You just need the right strategy.'",
+            "real_meaning": "The first dogma â€” arbitrary rules invented to explain failure. 'You just need the right strategy.'",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0032.jpg",
+                    "url": "media/c0096.jpg",
                     "query": "group of people arguing and pointing at the sun, inventing rules, tribal council, dramatic"
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0097.jpg",
-                    "query": "A lone figure breaks from the group, sprinting desperately towards a golden horizon."
-                },
-                {
-                    "offset": 1.3,
-                    "url": "media/c0098.jpg",
-                    "query": "A crumbling scroll unfurls in the wind."
                 }
             ],
             "words": [
                 {
-                    "start": 37.85,
-                    "end": 38.533,
+                    "start": 37.54,
+                    "end": 37.58,
                     "text": "Some"
                 },
                 {
-                    "start": 38.533,
-                    "end": 39.217,
+                    "start": 37.54,
+                    "end": 38.3,
                     "text": "said:"
                 },
                 {
-                    "start": 39.217,
-                    "end": 39.9,
+                    "start": 38.382,
+                    "end": 38.96,
                     "text": "\"Only"
                 },
                 {
-                    "start": 39.9,
-                    "end": 40.583,
+                    "start": 39.055,
+                    "end": 39.34,
                     "text": "run"
                 },
                 {
-                    "start": 40.583,
-                    "end": 41.267,
+                    "start": 39.34,
+                    "end": 39.52,
                     "text": "at"
                 },
                 {
-                    "start": 41.267,
-                    "end": 41.95,
+                    "start": 39.52,
+                    "end": 40.0,
                     "text": "noon!\""
                 }
             ]
         },
         {
-            "id": "line_13_interp",
-            "start": 41.95,
-            "end": 46.05,
+            "id": "line_13_occ_0",
+            "start": 40.84,
+            "end": 44.1,
             "lyric": "Others: \"Warm the box beneath the moon!\"",
-            "real_meaning": "Counter-dogma — equally baseless, equally confident. Self-help gurus vs. hustle culture vs. wellness industry.",
+            "real_meaning": "Counter-dogma â€” equally baseless, equally confident. Self-help gurus vs. hustle culture vs. wellness industry.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0033.jpg",
+                    "url": "media/c0099.jpg",
                     "query": "figure holding a box up to moonlight in ritualistic pose, mystical nonsense, eerie cinematic"
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0100.jpg",
-                    "query": "Figure gently lifts lid, reveals glimmering sand, spilling under lunar rays."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0101.jpg",
-                    "query": "Silhouette of a figure with box, backlit by radiant moonlight, casting long shadows over a landscape of desert rocks and scrub brush."
                 }
             ],
             "words": [
                 {
-                    "start": 41.95,
-                    "end": 42.536,
+                    "start": 40.84,
+                    "end": 41.44,
                     "text": "Others:"
                 },
                 {
-                    "start": 42.536,
-                    "end": 43.121,
+                    "start": 41.76,
+                    "end": 41.82,
                     "text": "\"Warm"
                 },
                 {
-                    "start": 43.121,
-                    "end": 43.707,
+                    "start": 41.82,
+                    "end": 42.08,
                     "text": "the"
                 },
                 {
-                    "start": 43.707,
-                    "end": 44.293,
+                    "start": 42.08,
+                    "end": 42.44,
                     "text": "box"
                 },
                 {
-                    "start": 44.293,
-                    "end": 44.879,
+                    "start": 42.642,
+                    "end": 42.98,
                     "text": "beneath"
                 },
                 {
-                    "start": 44.879,
-                    "end": 45.464,
+                    "start": 43.16,
+                    "end": 43.22,
                     "text": "the"
                 },
                 {
-                    "start": 45.464,
-                    "end": 46.05,
+                    "start": 43.495,
+                    "end": 44.1,
                     "text": "moon!\""
                 }
             ]
         },
         {
-            "id": "line_14_interp",
-            "start": 46.05,
-            "end": 50.15,
+            "id": "line_14_occ_0",
+            "start": 44.1,
+            "end": 47.1,
             "lyric": "Tronco prayed to the toothed wheel",
-            "real_meaning": "Worshipping the mechanism without understanding it — praying to the algorithm, trusting the process blindly.",
+            "real_meaning": "Worshipping the mechanism without understanding it â€” praying to the algorithm, trusting the process blindly.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0034.jpg",
+                    "url": "media/c0102.jpg",
                     "query": "figure kneeling before a massive mechanical gear wheel, industrial worship, dramatic scale cinematic"
                 },
                 {
-                    "offset": 0.95,
+                    "offset": 0.57,
                     "url": "media/c0103.jpg",
                     "query": "Glowing sparks flying from the mechanical gear wheel with intense heat and smoke."
-                },
-                {
-                    "offset": 1.41,
-                    "url": "media/c0104.jpg",
-                    "query": "A desolate industrial landscape with a lone mechanical hand reaching for the sky."
                 }
             ],
             "words": [
                 {
-                    "start": 46.05,
-                    "end": 46.733,
+                    "start": 44.1,
+                    "end": 44.88,
                     "text": "Tronco"
                 },
                 {
-                    "start": 46.733,
-                    "end": 47.417,
+                    "start": 44.88,
+                    "end": 45.42,
                     "text": "prayed"
                 },
                 {
-                    "start": 47.417,
-                    "end": 48.1,
+                    "start": 45.49,
+                    "end": 45.7,
                     "text": "to"
                 },
                 {
-                    "start": 48.1,
-                    "end": 48.783,
+                    "start": 45.76,
+                    "end": 45.94,
                     "text": "the"
                 },
                 {
-                    "start": 48.783,
-                    "end": 49.467,
+                    "start": 46.02,
+                    "end": 46.58,
                     "text": "toothed"
                 },
                 {
-                    "start": 49.467,
-                    "end": 50.15,
+                    "start": 46.58,
+                    "end": 47.1,
                     "text": "wheel"
                 }
             ]
         },
         {
-            "id": "line_15_interp",
-            "start": 50.16,
-            "end": 54.26,
-            "lyric": "And I just sat there, thinking \"this is surreal\"",
-            "real_meaning": "The creator watching his creation spiral — the tech founder seeing the monster he built but no longer controls.",
+            "id": "line_15_occ_0_s0",
+            "start": 47.1,
+            "end": 48.82,
+            "lyric": "And I just sat there",
+            "real_meaning": "The creator watching his creation spiral â€” the tech founder seeing the monster he built but no longer controls.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0035.jpg",
+                    "url": "media/c0105.jpg",
                     "query": "person sitting calmly on a throne watching chaos unfold around them, detached observer, wide cinematic"
                 },
                 {
-                    "offset": 0.53,
+                    "offset": 0.83,
                     "url": "media/c0106.jpg",
                     "query": "A close-up of fingers tapping nervously on an armrest, golden rings glinting in the warm light."
-                },
-                {
-                    "offset": 0.99,
-                    "url": "media/c0107.jpg",
-                    "query": "Silhouettes of chaotic shapes forming a tornado around a still central shadow"
                 }
             ],
             "words": [
                 {
-                    "start": 50.16,
-                    "end": 50.616,
+                    "start": 47.1,
+                    "end": 47.42,
                     "text": "And"
                 },
                 {
-                    "start": 50.616,
-                    "end": 51.071,
+                    "start": 47.42,
+                    "end": 47.6,
                     "text": "I"
                 },
                 {
-                    "start": 51.071,
-                    "end": 51.527,
+                    "start": 47.6,
+                    "end": 47.8,
                     "text": "just"
                 },
                 {
-                    "start": 51.527,
-                    "end": 51.982,
+                    "start": 47.8,
+                    "end": 48.22,
                     "text": "sat"
                 },
                 {
-                    "start": 51.982,
-                    "end": 52.438,
-                    "text": "there,"
-                },
+                    "start": 48.445,
+                    "end": 48.82,
+                    "text": "there"
+                }
+            ]
+        },
+        {
+            "id": "line_15_occ_0_s1",
+            "start": 49.105,
+            "end": 51.62,
+            "lyric": "thinking \"this is surreal\"",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 52.438,
-                    "end": 52.893,
+                    "start": 49.105,
+                    "end": 49.2,
                     "text": "thinking"
                 },
                 {
-                    "start": 52.893,
-                    "end": 53.349,
+                    "start": 49.2,
+                    "end": 49.98,
                     "text": "\"this"
                 },
                 {
-                    "start": 53.349,
-                    "end": 53.804,
+                    "start": 49.98,
+                    "end": 50.32,
                     "text": "is"
                 },
                 {
-                    "start": 53.804,
-                    "end": 54.26,
+                    "start": 50.32,
+                    "end": 51.62,
                     "text": "surreal\""
                 }
             ]
         },
         {
             "id": "line_16_occ_0",
-            "start": 54.26,
-            "end": 55.62,
-            "lyric": "\"...again.\"",
-            "real_meaning": "The cycle repeats — tomorrow, same run, same failure, same denial. Sisyphus with a BIC lighter.",
+            "start": 51.62,
+            "end": 65.4,
+            "lyric": "RUN, GRALHA, RUN!",
+            "real_meaning": "The crowd cheering the hustler â€” LinkedIn motivational posts, 'rise and grind', the cheerleaders of the rat race.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0036.jpg",
-                    "query": "lone figure standing at the starting line again at dawn, endless cycle, melancholic cinematic"
+                    "url": "media/c0072.jpg",
+                    "query": "frantic crowd cheering and pointing forward, tribal energy, dramatic wide angle cinematic"
                 },
                 {
-                    "offset": 0.52,
-                    "url": "media/c0109.jpg",
-                    "query": "Lighter ignites in trembling hands, flickering flame against cold dawn"
+                    "offset": 0.93,
+                    "url": "media/c0073.jpg",
+                    "query": "A lone figure darting through a maze of towering skyscrapers."
+                },
+                {
+                    "offset": 6.43,
+                    "url": "media/c0074.jpg",
+                    "query": "Vast landscape at dawn, a single trail of dust stretching to the horizon."
                 }
             ],
             "words": [
                 {
-                    "start": 54.22,
-                    "end": 54.24,
-                    "text": "Heavy"
+                    "start": 51.62,
+                    "end": 51.744,
+                    "text": "RUN,"
                 },
                 {
-                    "start": 54.24,
-                    "end": 54.26,
-                    "text": "breathing."
+                    "start": 52.42,
+                    "end": 52.76,
+                    "text": "GRALHA,"
                 },
                 {
-                    "start": 54.26,
-                    "end": 55.62,
-                    "text": "Again."
+                    "start": 54.304,
+                    "end": 65.4,
+                    "text": "RUN!"
+                }
+            ]
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 65.4,
+            "end": 67.4,
+            "lyric": "The baby fire mustn't die!",
+            "real_meaning": "Protect the quarterly earnings, save the engagement metrics â€” the flame that must never go out is profit.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0075.jpg",
+                    "query": "hands desperately shielding a tiny flame from the wind, fragile hope, intimate cinematic close-up"
+                }
+            ],
+            "words": [
+                {
+                    "start": 65.4,
+                    "end": 65.8,
+                    "text": "The"
+                },
+                {
+                    "start": 65.8,
+                    "end": 66.2,
+                    "text": "baby"
+                },
+                {
+                    "start": 66.2,
+                    "end": 66.6,
+                    "text": "fire"
+                },
+                {
+                    "start": 66.6,
+                    "end": 67.0,
+                    "text": "mustn't"
+                },
+                {
+                    "start": 67.0,
+                    "end": 67.4,
+                    "text": "die!"
+                }
+            ]
+        },
+        {
+            "id": "line_18_occ_0",
+            "start": 67.4,
+            "end": 69.4,
+            "lyric": "RUN, GRALHA, RUN!",
+            "real_meaning": "Keep going, don't stop, you'll miss the boat â€” the perpetual urgency of modern capitalism.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0078.jpg",
+                    "query": "silhouette running against a massive sunset, epic scale, lone figure in vast landscape, cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 67.4,
+                    "end": 68.067,
+                    "text": "RUN,"
+                },
+                {
+                    "start": 68.067,
+                    "end": 68.733,
+                    "text": "GRALHA,"
+                },
+                {
+                    "start": 68.733,
+                    "end": 69.4,
+                    "text": "RUN!"
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 69.4,
+            "end": 71.4,
+            "lyric": "Reach the new pile, touch the sky!",
+            "real_meaning": "Reach the next milestone, the next promotion, the next level â€” always another pile, never the sky.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0081.jpg",
+                    "query": "figure reaching upward toward a glowing goal floating just out of reach, aspirational cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 69.4,
+                    "end": 69.686,
+                    "text": "Reach"
+                },
+                {
+                    "start": 69.686,
+                    "end": 69.971,
+                    "text": "the"
+                },
+                {
+                    "start": 69.971,
+                    "end": 70.257,
+                    "text": "new"
+                },
+                {
+                    "start": 70.257,
+                    "end": 70.543,
+                    "text": "pile,"
+                },
+                {
+                    "start": 70.543,
+                    "end": 70.829,
+                    "text": "touch"
+                },
+                {
+                    "start": 70.829,
+                    "end": 71.114,
+                    "text": "the"
+                },
+                {
+                    "start": 71.114,
+                    "end": 71.4,
+                    "text": "sky!"
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 71.4,
+            "end": 73.4,
+            "lyric": "\"...again.\"",
+            "real_meaning": "The cycle repeats â€” tomorrow, same run, same failure, same denial. Sisyphus with a BIC lighter.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0108.jpg",
+                    "query": "lone figure standing at the starting line again at dawn, endless cycle, melancholic cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 71.4,
+                    "end": 73.4,
+                    "text": "\"...again.\""
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        1.741,
+        2.206,
+        2.647,
+        3.088,
+        3.553,
+        4.017,
+        4.481,
+        4.946,
+        5.433,
+        5.898,
+        6.362,
+        6.78,
+        7.268,
+        7.732,
+        8.22,
+        8.684,
+        9.125,
+        9.59,
+        10.031,
+        10.472,
+        10.96,
+        11.447,
+        11.912,
+        12.376,
+        12.817,
+        13.282,
+        13.723,
+        14.164,
+        14.652,
+        15.139,
+        15.604,
+        16.068,
+        16.533,
+        16.997,
+        17.438,
+        17.903,
+        18.367,
+        18.831,
+        19.296,
+        19.76,
+        20.225,
+        20.689,
+        21.177,
+        21.595,
+        22.036,
+        22.523,
+        22.988,
+        23.452,
+        23.893,
+        24.381,
+        24.822,
+        25.287,
+        25.728,
+        26.215,
+        26.68,
+        27.144,
+        27.585,
+        28.026,
+        28.491,
+        28.979,
+        29.443,
+        29.907,
+        30.372,
+        30.836,
+        31.277,
+        31.765,
+        32.206,
+        32.67,
+        33.135,
+        33.599,
+        34.064,
+        34.505,
+        34.969,
+        35.434,
+        35.898,
+        36.362,
+        36.804,
+        37.268,
+        37.756,
+        38.22,
+        38.684,
+        39.149,
+        39.59,
+        40.054,
+        40.519,
+        40.983,
+        41.448,
+        41.912,
+        42.376,
+        42.864,
+        43.282,
+        43.723,
+        44.164,
+        44.675,
+        45.14,
+        45.604,
+        46.068,
+        46.533,
+        46.997,
+        47.462,
+        47.926,
+        48.367,
+        48.832,
+        49.296,
+        49.76,
+        50.225,
+        50.689,
+        51.154,
+        51.618,
+        52.082,
+        52.547,
+        53.011,
+        53.452,
+        53.894,
+        54.335,
+        54.776,
+        55.194,
+        55.612,
+        56.123,
+        56.61,
+        57.098,
+        57.609,
+        58.05,
+        58.514,
+        58.955,
+        59.443,
+        59.907,
+        60.372,
+        60.813,
+        61.301,
+        61.765,
+        62.206,
+        62.647,
+        63.135,
+        63.599
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.574
+        ],
+        [
+            0.49,
+            0.617
+        ],
+        [
+            0.98,
+            0.663
+        ],
+        [
+            1.46,
+            0.703
+        ],
+        [
+            1.95,
+            0.741
+        ],
+        [
+            2.44,
+            0.744
+        ],
+        [
+            2.93,
+            0.751
+        ],
+        [
+            3.41,
+            0.714
+        ],
+        [
+            3.9,
+            0.703
+        ],
+        [
+            4.39,
+            0.792
+        ],
+        [
+            4.88,
+            0.855
+        ],
+        [
+            5.36,
+            0.878
+        ],
+        [
+            5.85,
+            0.827
+        ],
+        [
+            6.34,
+            0.784
+        ],
+        [
+            6.83,
+            0.729
+        ],
+        [
+            7.31,
+            0.733
+        ],
+        [
+            7.8,
+            0.844
+        ],
+        [
+            8.29,
+            0.856
+        ],
+        [
+            8.78,
+            0.844
+        ],
+        [
+            9.26,
+            0.831
+        ],
+        [
+            9.75,
+            0.788
+        ],
+        [
+            10.24,
+            0.798
+        ],
+        [
+            10.73,
+            0.752
+        ],
+        [
+            11.22,
+            0.78
+        ],
+        [
+            11.7,
+            0.901
+        ],
+        [
+            12.19,
+            0.868
+        ],
+        [
+            12.68,
+            0.849
+        ],
+        [
+            13.17,
+            0.811
+        ],
+        [
+            13.65,
+            0.764
+        ],
+        [
+            14.14,
+            0.738
+        ],
+        [
+            14.63,
+            0.81
+        ],
+        [
+            15.12,
+            0.917
+        ],
+        [
+            15.6,
+            0.887
+        ],
+        [
+            16.09,
+            0.847
+        ],
+        [
+            16.58,
+            0.865
+        ],
+        [
+            17.07,
+            0.871
+        ],
+        [
+            17.55,
+            0.839
+        ],
+        [
+            18.04,
+            0.807
+        ],
+        [
+            18.53,
+            0.823
+        ],
+        [
+            19.02,
+            0.874
+        ],
+        [
+            19.5,
+            0.857
+        ],
+        [
+            19.99,
+            0.852
+        ],
+        [
+            20.48,
+            0.839
+        ],
+        [
+            20.97,
+            0.798
+        ],
+        [
+            21.46,
+            0.783
+        ],
+        [
+            21.94,
+            0.831
+        ],
+        [
+            22.43,
+            0.874
+        ],
+        [
+            22.92,
+            0.875
+        ],
+        [
+            23.41,
+            0.845
+        ],
+        [
+            23.89,
+            0.851
+        ],
+        [
+            24.38,
+            0.891
+        ],
+        [
+            24.87,
+            0.875
+        ],
+        [
+            25.36,
+            0.841
+        ],
+        [
+            25.84,
+            0.83
+        ],
+        [
+            26.33,
+            0.856
+        ],
+        [
+            26.82,
+            0.874
+        ],
+        [
+            27.31,
+            0.874
+        ],
+        [
+            27.79,
+            0.852
+        ],
+        [
+            28.28,
+            0.822
+        ],
+        [
+            28.77,
+            0.822
+        ],
+        [
+            29.26,
+            0.858
+        ],
+        [
+            29.74,
+            0.892
+        ],
+        [
+            30.23,
+            0.894
+        ],
+        [
+            30.72,
+            0.868
+        ],
+        [
+            31.21,
+            0.873
+        ],
+        [
+            31.7,
+            0.874
+        ],
+        [
+            32.18,
+            0.884
+        ],
+        [
+            32.67,
+            0.907
+        ],
+        [
+            33.16,
+            0.887
+        ],
+        [
+            33.65,
+            0.874
+        ],
+        [
+            34.13,
+            0.9
+        ],
+        [
+            34.62,
+            0.905
+        ],
+        [
+            35.11,
+            0.882
+        ],
+        [
+            35.6,
+            0.868
+        ],
+        [
+            36.08,
+            0.852
+        ],
+        [
+            36.57,
+            0.827
+        ],
+        [
+            37.06,
+            0.826
+        ],
+        [
+            37.55,
+            0.834
+        ],
+        [
+            38.03,
+            0.78
+        ],
+        [
+            38.52,
+            0.812
+        ],
+        [
+            39.01,
+            0.862
+        ],
+        [
+            39.5,
+            0.807
+        ],
+        [
+            39.98,
+            0.74
+        ],
+        [
+            40.47,
+            0.784
+        ],
+        [
+            40.96,
+            0.872
+        ],
+        [
+            41.45,
+            0.881
+        ],
+        [
+            41.94,
+            0.863
+        ],
+        [
+            42.42,
+            0.842
+        ],
+        [
+            42.91,
+            0.83
+        ],
+        [
+            43.4,
+            0.792
+        ],
+        [
+            43.89,
+            0.791
+        ],
+        [
+            44.37,
+            0.868
+        ],
+        [
+            44.86,
+            0.921
+        ],
+        [
+            45.35,
+            0.912
+        ],
+        [
+            45.84,
+            0.907
+        ],
+        [
+            46.32,
+            0.915
+        ],
+        [
+            46.81,
+            0.92
+        ],
+        [
+            47.3,
+            0.914
+        ],
+        [
+            47.79,
+            0.904
+        ],
+        [
+            48.27,
+            0.931
+        ],
+        [
+            48.76,
+            0.947
+        ],
+        [
+            49.25,
+            0.928
+        ],
+        [
+            49.74,
+            0.945
+        ],
+        [
+            50.22,
+            0.98
+        ],
+        [
+            50.71,
+            0.972
+        ],
+        [
+            51.2,
+            0.962
+        ],
+        [
+            51.69,
+            0.792
+        ],
+        [
+            52.18,
+            0.637
+        ],
+        [
+            52.66,
+            0.733
+        ],
+        [
+            53.15,
+            0.786
+        ],
+        [
+            53.64,
+            0.763
+        ],
+        [
+            54.13,
+            0.775
+        ],
+        [
+            54.61,
+            0.77
+        ],
+        [
+            55.1,
+            0.782
+        ],
+        [
+            55.59,
+            0.771
+        ],
+        [
+            56.08,
+            0.751
+        ],
+        [
+            56.56,
+            0.748
+        ],
+        [
+            57.05,
+            0.857
+        ],
+        [
+            57.54,
+            0.933
+        ],
+        [
+            58.03,
+            0.896
+        ],
+        [
+            58.51,
+            0.888
+        ],
+        [
+            59.0,
+            0.906
+        ],
+        [
+            59.49,
+            0.941
+        ],
+        [
+            59.98,
+            0.937
+        ],
+        [
+            60.46,
+            0.913
+        ],
+        [
+            60.95,
+            0.941
+        ],
+        [
+            61.44,
+            0.971
+        ],
+        [
+            61.93,
+            0.958
+        ],
+        [
+            62.42,
+            0.936
+        ],
+        [
+            62.9,
+            0.904
+        ],
+        [
+            63.39,
+            0.859
+        ],
+        [
+            63.88,
+            0.806
+        ],
+        [
+            64.37,
+            0.711
+        ],
+        [
+            64.85,
+            0.472
+        ],
+        [
+            65.34,
+            0.276
+        ]
+    ],
+    "bpm": 129.2
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

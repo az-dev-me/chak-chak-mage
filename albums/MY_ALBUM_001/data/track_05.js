@@ -4,1336 +4,1317 @@ var track_05_data = {
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "instrumental_0",
-            "start": 29.48,
-            "end": 29.5,
-            "lyric": "♪",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 29.48,
-                    "end": 29.5,
-                    "text": "♪"
-                },
-                {
-                    "start": 29.5,
-                    "end": 29.52,
-                    "text": "Muda"
-                }
-            ]
-        },
-        {
             "id": "line_0_occ_0",
-            "start": 29.5,
-            "end": 31.34,
+            "start": 20.18,
+            "end": 22.54,
             "lyric": "Muda never said a word",
-            "real_meaning": "The quiet observer — the scientist, the philosopher, the one who watches instead of shouting.",
+            "real_meaning": "The quiet observer â€” the scientist, the philosopher, the one who watches instead of shouting.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0056.jpg",
+                    "url": "media/c0168.jpg",
                     "query": "silent woman observing from the edge of a firelit group, thoughtful outsider, warm cinematic"
-                },
-                {
-                    "offset": 0.64,
-                    "url": "media/c0169.jpg",
-                    "query": "A flickering flame dances in her reflective gaze."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0170.jpg",
-                    "query": "Sunset hues on a vast, empty beach with a lone footprint"
                 }
             ],
             "words": [
                 {
-                    "start": 29.48,
-                    "end": 29.5,
-                    "text": "♪"
-                },
-                {
-                    "start": 29.5,
-                    "end": 29.52,
+                    "start": 20.18,
+                    "end": 20.3,
                     "text": "Muda"
                 },
                 {
-                    "start": 29.52,
-                    "end": 29.74,
+                    "start": 20.512,
+                    "end": 21.0,
                     "text": "never"
                 },
                 {
-                    "start": 29.74,
-                    "end": 30.66,
+                    "start": 21.0,
+                    "end": 21.654,
                     "text": "said"
                 },
                 {
-                    "start": 30.66,
-                    "end": 30.92,
+                    "start": 21.805,
+                    "end": 21.88,
                     "text": "a"
                 },
                 {
-                    "start": 30.92,
-                    "end": 31.34,
+                    "start": 22.458,
+                    "end": 22.54,
                     "text": "word"
                 }
             ]
         },
         {
             "id": "line_1_occ_0",
-            "start": 33.5,
-            "end": 36.12,
+            "start": 24.736,
+            "end": 27.148,
             "lyric": "Sat and watched, and saw, and heard",
-            "real_meaning": "First-principles thinking — actually looking at reality instead of repeating what others say.",
+            "real_meaning": "First-principles thinking â€” actually looking at reality instead of repeating what others say.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0057.jpg",
+                    "url": "media/c0171.jpg",
                     "query": "woman sitting still while chaos moves around her in blur, calm center of the storm, cinematic"
-                },
-                {
-                    "offset": 0.84,
-                    "url": "media/c0172.jpg",
-                    "query": "A close-up of her eyes reflecting the swirling chaos around her as she remains unmoving."
-                },
-                {
-                    "offset": 1.45,
-                    "url": "media/c0173.jpg",
-                    "query": "A serene landscape with a single tree standing strong amidst raging winds, its leaves unwavering and rooted to the ground."
                 }
             ],
             "words": [
                 {
-                    "start": 33.5,
-                    "end": 33.88,
+                    "start": 24.736,
+                    "end": 25.08,
                     "text": "Sat"
                 },
                 {
-                    "start": 33.88,
-                    "end": 34.08,
+                    "start": 25.135,
+                    "end": 25.3,
                     "text": "and"
                 },
                 {
-                    "start": 34.08,
-                    "end": 34.56,
-                    "text": "watched"
+                    "start": 25.3,
+                    "end": 25.82,
+                    "text": "watched,"
                 },
                 {
-                    "start": 34.56,
-                    "end": 34.82,
+                    "start": 25.82,
+                    "end": 26.465,
                     "text": "and"
                 },
                 {
-                    "start": 34.82,
-                    "end": 35.28,
-                    "text": "saw"
+                    "start": 26.465,
+                    "end": 26.72,
+                    "text": "saw,"
                 },
                 {
-                    "start": 35.28,
-                    "end": 35.74,
+                    "start": 26.72,
+                    "end": 27.08,
                     "text": "and"
                 },
                 {
-                    "start": 35.74,
-                    "end": 36.12,
+                    "start": 27.08,
+                    "end": 27.148,
                     "text": "heard"
                 }
             ]
         },
         {
             "id": "line_2_occ_0",
-            "start": 38.5,
-            "end": 40.9,
+            "start": 29.542,
+            "end": 31.666,
             "lyric": "While they ran with flame and fear",
-            "real_meaning": "While everyone else panicked, hustled, and performed — she simply observed the mechanism.",
+            "real_meaning": "While everyone else panicked, hustled, and performed â€” she simply observed the mechanism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0058.jpg",
+                    "url": "media/c0174.jpg",
                     "query": "blurred figures running frantically in background while one figure sits still in focus, contrast, cinematic"
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0175.jpg",
-                    "query": "A lone figure's hands clasp a worn pendant in warm sunlight and cool shadows."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0176.jpg",
-                    "query": "Crimson tendrils swirl through a serene face."
                 }
             ],
             "words": [
                 {
-                    "start": 38.5,
-                    "end": 38.72,
+                    "start": 29.542,
+                    "end": 29.78,
                     "text": "While"
                 },
                 {
-                    "start": 38.72,
-                    "end": 38.96,
+                    "start": 29.855,
+                    "end": 30.08,
                     "text": "they"
                 },
                 {
-                    "start": 38.96,
-                    "end": 39.32,
+                    "start": 30.08,
+                    "end": 30.365,
                     "text": "ran"
                 },
                 {
-                    "start": 39.32,
-                    "end": 39.56,
+                    "start": 30.46,
+                    "end": 30.74,
                     "text": "with"
                 },
                 {
-                    "start": 39.56,
-                    "end": 40.16,
+                    "start": 30.74,
+                    "end": 31.16,
                     "text": "flame"
                 },
                 {
-                    "start": 40.16,
-                    "end": 40.38,
+                    "start": 31.215,
+                    "end": 31.401,
                     "text": "and"
                 },
                 {
-                    "start": 40.38,
-                    "end": 40.9,
+                    "start": 31.598,
+                    "end": 31.666,
                     "text": "fear"
                 }
             ]
         },
         {
             "id": "line_3_occ_0",
-            "start": 43.08,
-            "end": 45.74,
+            "start": 34.449,
+            "end": 36.666,
             "lyric": "Muda sat and observed from here",
-            "real_meaning": "Choosing stillness over action — meditation over medication, understanding over reaction.",
+            "real_meaning": "Choosing stillness over action â€” meditation over medication, understanding over reaction.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0059.jpg",
+                    "url": "media/c0177.jpg",
                     "query": "woman sitting cross-legged on a rock overlooking a valley of running people, elevated perspective, cinematic"
-                },
-                {
-                    "offset": 0.85,
-                    "url": "media/c0178.jpg",
-                    "query": "The woman's eyes reflect the valley as she remains in quiet reflection, warm sunlight illuminating her face."
-                },
-                {
-                    "offset": 1.46,
-                    "url": "media/c0179.jpg",
-                    "query": "The running people below appear as a flowing river of silhouettes as the sun dips to their right."
                 }
             ],
             "words": [
                 {
-                    "start": 43.08,
-                    "end": 43.5,
+                    "start": 34.449,
+                    "end": 34.512,
                     "text": "Muda"
                 },
                 {
-                    "start": 43.5,
-                    "end": 44.02,
+                    "start": 34.7,
+                    "end": 35.025,
                     "text": "sat"
                 },
                 {
-                    "start": 44.02,
-                    "end": 44.22,
+                    "start": 35.22,
+                    "end": 35.4,
                     "text": "and"
                 },
                 {
-                    "start": 44.22,
-                    "end": 44.78,
+                    "start": 35.4,
+                    "end": 35.488,
                     "text": "observed"
                 },
                 {
-                    "start": 44.78,
-                    "end": 45.22,
+                    "start": 36.105,
+                    "end": 36.26,
                     "text": "from"
                 },
                 {
-                    "start": 45.22,
-                    "end": 45.74,
+                    "start": 36.598,
+                    "end": 36.666,
                     "text": "here"
                 }
             ]
         },
         {
             "id": "line_4_occ_0",
-            "start": 47.66,
-            "end": 50.7,
+            "start": 38.855,
+            "end": 41.238,
             "lyric": "She picked a stone up from the ground",
-            "real_meaning": "The first act of genuine science — picking up what's freely available instead of worshipping what's sold.",
+            "real_meaning": "The first act of genuine science â€” picking up what's freely available instead of worshipping what's sold.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0060.jpg",
+                    "url": "media/c0180.jpg",
                     "query": "hands carefully lifting a rough stone from the earth, reverent simplicity, warm macro cinematic"
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0181.jpg",
-                    "query": "Hands gently cradling the stone, light illuminating its rough contours."
-                },
-                {
-                    "offset": 1.66,
-                    "url": "media/c0182.jpg",
-                    "query": "A vast landscape stretching out from a single point."
                 }
             ],
             "words": [
                 {
-                    "start": 47.66,
-                    "end": 47.86,
+                    "start": 38.855,
+                    "end": 39.108,
                     "text": "She"
                 },
                 {
-                    "start": 47.86,
-                    "end": 48.34,
+                    "start": 39.252,
+                    "end": 39.324,
                     "text": "picked"
                 },
                 {
-                    "start": 48.34,
-                    "end": 48.56,
+                    "start": 39.54,
+                    "end": 39.698,
                     "text": "a"
                 },
                 {
-                    "start": 48.56,
-                    "end": 48.96,
+                    "start": 39.86,
+                    "end": 39.935,
                     "text": "stone"
                 },
                 {
-                    "start": 48.96,
-                    "end": 49.22,
+                    "start": 40.16,
+                    "end": 40.4,
                     "text": "up"
                 },
                 {
-                    "start": 49.22,
-                    "end": 49.66,
+                    "start": 40.475,
+                    "end": 40.728,
                     "text": "from"
                 },
                 {
-                    "start": 49.66,
-                    "end": 50.0,
+                    "start": 40.985,
+                    "end": 41.08,
                     "text": "the"
                 },
                 {
-                    "start": 50.0,
-                    "end": 50.7,
+                    "start": 41.17,
+                    "end": 41.238,
                     "text": "ground"
                 }
             ]
         },
         {
             "id": "line_5_occ_0",
-            "start": 52.76,
-            "end": 55.32,
+            "start": 41.44,
+            "end": 43.706,
             "lyric": "Made a different kind of sound",
-            "real_meaning": "Innovation from first principles — not a louder version of the old noise, but something fundamentally new.",
+            "real_meaning": "Innovation from first principles â€” not a louder version of the old noise, but something fundamentally new.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0061.jpg",
+                    "url": "media/c0183.jpg",
                     "query": "stone striking stone with sparks flying in a new pattern, breakthrough moment, dramatic close-up"
-                },
-                {
-                    "offset": 0.74,
-                    "url": "media/c0184.jpg",
-                    "query": "Sparks dance off stone, illuminating ancient hands, caressing raw material."
-                },
-                {
-                    "offset": 1.32,
-                    "url": "media/c0185.jpg",
-                    "query": "Fractured light on a stone surface reveals hidden patterns in darkness"
                 }
             ],
             "words": [
                 {
-                    "start": 52.76,
-                    "end": 53.18,
+                    "start": 41.44,
+                    "end": 42.0,
                     "text": "Made"
                 },
                 {
-                    "start": 53.18,
-                    "end": 53.42,
+                    "start": 42.0,
+                    "end": 42.202,
                     "text": "a"
                 },
                 {
-                    "start": 53.42,
-                    "end": 53.9,
+                    "start": 42.525,
+                    "end": 42.64,
                     "text": "different"
                 },
                 {
-                    "start": 53.9,
-                    "end": 54.52,
+                    "start": 43.09,
+                    "end": 43.146,
                     "text": "kind"
                 },
                 {
-                    "start": 54.52,
-                    "end": 54.82,
+                    "start": 43.39,
+                    "end": 43.44,
                     "text": "of"
                 },
                 {
-                    "start": 54.82,
-                    "end": 55.32,
+                    "start": 43.628,
+                    "end": 43.706,
                     "text": "sound"
                 }
             ]
         },
         {
-            "id": "line_6_interp",
-            "start": 55.32,
-            "end": 60.02,
+            "id": "line_6_occ_0",
+            "start": 43.94,
+            "end": 45.86,
             "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The real sound of discovery — unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
+            "real_meaning": "The real sound of discovery â€” unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0062.jpg",
+                    "url": "media/c0186.jpg",
                     "query": "extreme close-up of flint striking steel, sparks cascading in slow motion, beautiful and raw"
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0187.jpg",
-                    "query": "A hand calloused and weathered holds flint steady to steel, slow motion sparks glow."
-                },
-                {
-                    "offset": 1.15,
-                    "url": "media/c0188.jpg",
-                    "query": "Warm hues of sunset illuminate a rough stone against raw earthen tones; patient, gritty."
                 }
             ],
             "words": [
                 {
-                    "start": 55.32,
-                    "end": 56.887,
+                    "start": 43.94,
+                    "end": 44.64,
                     "text": "Tchak..."
                 },
                 {
-                    "start": 56.887,
-                    "end": 58.453,
+                    "start": 44.64,
+                    "end": 44.921,
                     "text": "tchak..."
                 },
                 {
-                    "start": 58.453,
-                    "end": 60.02,
+                    "start": 44.921,
+                    "end": 45.86,
                     "text": "tchak..."
                 }
             ]
         },
         {
             "id": "line_7_occ_0",
-            "start": 60.02,
-            "end": 64.52,
+            "start": 47.612,
+            "end": 51.92,
             "lyric": "MUDA! MUDA! The stone ignites!",
-            "real_meaning": "The Enlightenment arrives — Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
+            "real_meaning": "The Enlightenment arrives â€” Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0063.jpg",
+                    "url": "media/c0189.jpg",
                     "query": "woman holding fire she created herself, triumphant golden light illuminating her face, heroic cinematic"
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 0.71,
                     "url": "media/c0190.jpg",
                     "query": "Woman's fingers dancing around flame, embers trailing behind in the air."
-                },
-                {
-                    "offset": 1.3,
-                    "url": "media/c0191.jpg",
-                    "query": "Stone crumbling, revealing a golden light flowing outwards into a glowing landscape."
                 }
             ],
             "words": [
                 {
-                    "start": 60.02,
-                    "end": 60.66,
-                    "text": "Muda,"
+                    "start": 47.812,
+                    "end": 48.973,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 60.98,
-                    "end": 62.02,
-                    "text": "murada,"
+                    "start": 49.581,
+                    "end": 50.5,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 62.74,
-                    "end": 62.92,
-                    "text": "the"
+                    "start": 50.5,
+                    "end": 50.54,
+                    "text": "The"
                 },
                 {
-                    "start": 62.92,
-                    "end": 63.34,
+                    "start": 50.5,
+                    "end": 50.94,
                     "text": "stone"
                 },
                 {
-                    "start": 63.34,
-                    "end": 64.52,
-                    "text": "ignites"
+                    "start": 50.94,
+                    "end": 51.92,
+                    "text": "ignites!"
                 }
             ]
         },
         {
             "id": "line_8_occ_0",
-            "start": 64.74,
-            "end": 69.04,
+            "start": 51.995,
+            "end": 53.776,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0064.jpg",
+                    "url": "media/c0192.jpg",
                     "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0193.jpg",
-                    "query": "A radiant tear traces down her cheek, catching sunrays like liquid gold."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0194.jpg",
-                    "query": "Shadows recoil and dissipate, revealing a vast, barren landscape beneath a crimson sky."
                 }
             ],
             "words": [
                 {
-                    "start": 64.74,
-                    "end": 65.5,
-                    "text": "Muda,"
+                    "start": 51.995,
+                    "end": 52.056,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 65.78,
-                    "end": 66.92,
-                    "text": "murada,"
+                    "start": 52.24,
+                    "end": 52.335,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 67.42,
-                    "end": 67.66,
-                    "text": "she"
+                    "start": 52.62,
+                    "end": 52.89,
+                    "text": "She"
                 },
                 {
-                    "start": 67.66,
-                    "end": 68.1,
+                    "start": 53.025,
+                    "end": 53.3,
                     "text": "saw"
                 },
                 {
-                    "start": 68.1,
-                    "end": 68.38,
+                    "start": 53.3,
+                    "end": 53.548,
                     "text": "the"
                 },
                 {
-                    "start": 68.38,
-                    "end": 69.04,
-                    "text": "light"
+                    "start": 53.677,
+                    "end": 53.776,
+                    "text": "light!"
                 }
             ]
         },
         {
             "id": "line_9_occ_0",
-            "start": 69.52,
-            "end": 73.8,
+            "start": 54.04,
+            "end": 56.455,
             "lyric": "MUDA! MUDA! No need to run!",
-            "real_meaning": "You don't need the rat race — the fire was never in the running, it was in the understanding.",
+            "real_meaning": "You don't need the rat race â€” the fire was never in the running, it was in the understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0065.jpg",
+                    "url": "media/c0195.jpg",
                     "query": "people stopping mid-run and looking around in wonder, collective awakening, wide cinematic"
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0196.jpg",
-                    "query": "A lone runner pauses, face tilting up towards golden rays of sunlight."
-                },
-                {
-                    "offset": 1.42,
-                    "url": "media/c0197.jpg",
-                    "query": "Radiant light enveloping a single figure in serene moment."
                 }
             ],
             "words": [
                 {
-                    "start": 69.52,
-                    "end": 70.28,
-                    "text": "Muda,"
+                    "start": 54.518,
+                    "end": 54.6,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 70.58,
-                    "end": 71.66,
-                    "text": "murada,"
+                    "start": 54.765,
+                    "end": 54.817,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 72.3,
-                    "end": 72.54,
-                    "text": "no"
+                    "start": 55.2,
+                    "end": 55.38,
+                    "text": "No"
                 },
                 {
-                    "start": 72.54,
-                    "end": 72.88,
+                    "start": 55.63,
+                    "end": 55.72,
                     "text": "need"
                 },
                 {
-                    "start": 72.88,
-                    "end": 73.14,
+                    "start": 55.84,
+                    "end": 55.96,
                     "text": "to"
                 },
                 {
-                    "start": 73.14,
-                    "end": 73.8,
-                    "text": "run"
+                    "start": 56.405,
+                    "end": 56.455,
+                    "text": "run!"
                 }
             ]
         },
         {
             "id": "line_10_occ_0",
-            "start": 74.74,
-            "end": 78.52,
+            "start": 57.06,
+            "end": 63.32,
             "lyric": "The fire's here, the fire's won!",
-            "real_meaning": "The solution was always at your feet — open knowledge, simple living, human connection without intermediaries.",
+            "real_meaning": "The solution was always at your feet â€” open knowledge, simple living, human connection without intermediaries.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0066.jpg",
+                    "url": "media/c0198.jpg",
                     "query": "fire burning freely on the ground surrounded by simple stones, accessible truth, warm cinematic"
                 },
                 {
-                    "offset": 0.98,
+                    "offset": 0.57,
                     "url": "media/c0199.jpg",
                     "query": "close-up detail of The fire's here, the fire's won!, cinematic macro, warm lighting, painterly"
-                },
-                {
-                    "offset": 1.56,
-                    "url": "media/c0200.jpg",
-                    "query": "abstract emotional The solution was always at your, ethereal atmosphere, golden hour, dreamlike"
                 }
             ],
             "words": [
                 {
-                    "start": 74.74,
-                    "end": 74.92,
+                    "start": 57.06,
+                    "end": 57.63,
                     "text": "The"
                 },
                 {
-                    "start": 74.92,
-                    "end": 75.66,
+                    "start": 57.63,
+                    "end": 57.818,
                     "text": "fire's"
                 },
                 {
-                    "start": 75.66,
-                    "end": 76.06,
+                    "start": 57.88,
+                    "end": 58.18,
                     "text": "here,"
                 },
                 {
-                    "start": 76.86,
-                    "end": 77.28,
+                    "start": 58.18,
+                    "end": 58.59,
                     "text": "the"
                 },
                 {
-                    "start": 77.28,
-                    "end": 78.06,
+                    "start": 58.59,
+                    "end": 59.012,
                     "text": "fire's"
                 },
                 {
-                    "start": 78.06,
-                    "end": 78.52,
-                    "text": "won"
+                    "start": 62.54,
+                    "end": 63.32,
+                    "text": "won!"
                 }
             ]
         },
         {
             "id": "line_11_occ_0",
-            "start": 88.64,
-            "end": 91.3,
+            "start": 63.32,
+            "end": 64.835,
             "lyric": "She stood up, the moss aglow",
-            "real_meaning": "Rising with quiet power — not the loud disruptor, but the calm demonstrator. Show, don't tell.",
+            "real_meaning": "Rising with quiet power â€” not the loud disruptor, but the calm demonstrator. Show, don't tell.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0067.jpg",
+                    "url": "media/c0201.jpg",
                     "query": "woman standing tall with glowing moss at her feet, quiet power, dawn light cinematic"
-                },
-                {
-                    "offset": 0.9,
-                    "url": "media/c0202.jpg",
-                    "query": "The woman’s hand gently touching the glowing moss,"
-                },
-                {
-                    "offset": 1.48,
-                    "url": "media/c0203.jpg",
-                    "query": "A soft golden light enveloping her figure in a halo of quiet strength."
                 }
             ],
             "words": [
                 {
-                    "start": 88.64,
-                    "end": 88.94,
+                    "start": 63.32,
+                    "end": 63.515,
                     "text": "She"
                 },
                 {
-                    "start": 88.94,
-                    "end": 89.48,
+                    "start": 63.515,
+                    "end": 63.759,
                     "text": "stood"
                 },
                 {
-                    "start": 89.48,
-                    "end": 89.72,
-                    "text": "up"
+                    "start": 63.84,
+                    "end": 64.26,
+                    "text": "up,"
                 },
                 {
-                    "start": 89.72,
-                    "end": 89.96,
+                    "start": 64.26,
+                    "end": 64.32,
                     "text": "the"
                 },
                 {
-                    "start": 89.96,
-                    "end": 90.5,
+                    "start": 64.32,
+                    "end": 64.74,
                     "text": "moss"
                 },
                 {
-                    "start": 90.5,
-                    "end": 91.3,
+                    "start": 64.74,
+                    "end": 64.835,
                     "text": "aglow"
                 }
             ]
         },
         {
             "id": "line_12_occ_0",
-            "start": 93.54,
-            "end": 96.04,
+            "start": 65.5,
+            "end": 70.39,
             "lyric": "\"Look,\" she said, \"I'll show you slow",
-            "real_meaning": "Teaching patiently — the antithesis of viral content, the slow education that actually transforms.",
+            "real_meaning": "Teaching patiently â€” the antithesis of viral content, the slow education that actually transforms.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0068.jpg",
+                    "url": "media/c0204.jpg",
                     "query": "teacher demonstrating something simple to gathered listeners, patient wisdom, warm firelight cinematic"
                 },
                 {
-                    "offset": 0.78,
+                    "offset": 0.54,
                     "url": "media/c0205.jpg",
                     "query": "A close-up of the teacher's hands, gently molding clay by firelight."
-                },
-                {
-                    "offset": 1.38,
-                    "url": "media/c0206.jpg",
-                    "query": "Swirling embers dance in a hearth, capturing fleeting knowledge and patience."
                 }
             ],
             "words": [
                 {
-                    "start": 93.54,
-                    "end": 93.84,
-                    "text": "Look,"
+                    "start": 65.5,
+                    "end": 68.3,
+                    "text": "\"Look,\""
                 },
                 {
-                    "start": 93.92,
-                    "end": 94.08,
+                    "start": 68.32,
+                    "end": 68.372,
                     "text": "she"
                 },
                 {
-                    "start": 94.08,
-                    "end": 94.54,
+                    "start": 68.648,
+                    "end": 69.058,
                     "text": "said,"
                 },
                 {
-                    "start": 94.62,
-                    "end": 94.82,
-                    "text": "I'll"
+                    "start": 69.125,
+                    "end": 69.18,
+                    "text": "\"I'll"
                 },
                 {
-                    "start": 94.82,
-                    "end": 95.18,
+                    "start": 69.18,
+                    "end": 69.536,
                     "text": "show"
                 },
                 {
-                    "start": 95.18,
-                    "end": 95.48,
+                    "start": 69.815,
+                    "end": 69.9,
                     "text": "you"
                 },
                 {
-                    "start": 95.48,
-                    "end": 96.04,
+                    "start": 70.14,
+                    "end": 70.39,
                     "text": "slow"
                 }
             ]
         },
         {
             "id": "line_13_occ_0",
-            "start": 98.4,
-            "end": 100.96,
+            "start": 70.54,
+            "end": 76.139,
             "lyric": "Pots. Wheel. Stone. Fire.",
-            "real_meaning": "The building blocks were always free — pottery, engineering, tools, energy. No subscription required.",
+            "real_meaning": "The building blocks were always free â€” pottery, engineering, tools, energy. No subscription required.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0069.jpg",
-                    "query": "four simple objects arranged on the ground — pot wheel stone flame, fundamental tools of civilization, cinematic"
+                    "url": "media/c0207.jpg",
+                    "query": "four simple objects arranged on the ground â€” pot wheel stone flame, fundamental tools of civilization, cinematic"
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 0.88,
                     "url": "media/c0208.jpg",
                     "query": "Close-up of hands molding clay in soft sunlight."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0209.jpg",
-                    "query": "Warm glow of flames dancing around a rough stone tool"
                 }
             ],
             "words": [
                 {
-                    "start": 98.4,
-                    "end": 98.94,
-                    "text": "Pots,"
+                    "start": 70.54,
+                    "end": 71.49,
+                    "text": "Pots."
                 },
                 {
-                    "start": 99.06,
-                    "end": 99.4,
-                    "text": "wheels,"
+                    "start": 73.54,
+                    "end": 73.96,
+                    "text": "Wheel."
                 },
                 {
-                    "start": 99.62,
-                    "end": 100.18,
-                    "text": "stone,"
+                    "start": 73.96,
+                    "end": 74.64,
+                    "text": "Stone."
                 },
                 {
-                    "start": 100.34,
-                    "end": 100.96,
-                    "text": "fire"
+                    "start": 74.66,
+                    "end": 76.139,
+                    "text": "Fire."
                 }
             ]
         },
         {
-            "id": "line_14_occ_0",
-            "start": 102.28,
-            "end": 105.84,
+            "id": "line_14_interp",
+            "start": 76.14,
+            "end": 76.694,
             "lyric": "No need to run. No need to tire.\"",
-            "real_meaning": "The anti-hustle manifesto — sufficiency over excess, being over doing, presence over performance.",
+            "real_meaning": "The anti-hustle manifesto â€” sufficiency over excess, being over doing, presence over performance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0070.jpg",
+                    "url": "media/c0210.jpg",
                     "query": "person sitting peacefully by a self-sustaining fire, no urgency, serene twilight cinematic"
                 },
                 {
-                    "offset": 1.05,
+                    "offset": 0.69,
                     "url": "media/c0211.jpg",
                     "query": "A pair of worn-out boots placed near the fire, glowing embers reflecting off scuffed leather."
-                },
-                {
-                    "offset": 1.63,
-                    "url": "media/c0212.jpg",
-                    "query": "Golden light filters through a dense forest canopy, dappling a serene lake with warm hues."
                 }
             ],
             "words": [
                 {
-                    "start": 102.28,
-                    "end": 102.52,
+                    "start": 76.14,
+                    "end": 76.209,
                     "text": "No"
                 },
                 {
-                    "start": 102.52,
-                    "end": 102.86,
+                    "start": 76.209,
+                    "end": 76.279,
                     "text": "need"
                 },
                 {
-                    "start": 102.86,
-                    "end": 103.08,
+                    "start": 76.279,
+                    "end": 76.348,
                     "text": "to"
                 },
                 {
-                    "start": 103.08,
-                    "end": 103.52,
-                    "text": "run,"
+                    "start": 76.348,
+                    "end": 76.417,
+                    "text": "run."
                 },
                 {
-                    "start": 104.36,
-                    "end": 104.9,
-                    "text": "no"
+                    "start": 76.417,
+                    "end": 76.486,
+                    "text": "No"
                 },
                 {
-                    "start": 104.9,
-                    "end": 105.26,
+                    "start": 76.486,
+                    "end": 76.555,
                     "text": "need"
                 },
                 {
-                    "start": 105.26,
-                    "end": 105.44,
+                    "start": 76.555,
+                    "end": 76.625,
                     "text": "to"
                 },
                 {
-                    "start": 105.44,
-                    "end": 105.84,
-                    "text": "tire"
+                    "start": 76.625,
+                    "end": 76.694,
+                    "text": "tire.\""
                 }
             ]
         },
         {
-            "id": "line_15_occ_0",
-            "start": 107.96,
-            "end": 110.48,
-            "lyric": "Gralha's jaw fell to the floor",
-            "real_meaning": "The believer's world shattering — when the faithful see the truth, the grief is physical.",
+            "id": "line_21_occ_0",
+            "start": 76.694,
+            "end": 80.4,
+            "lyric": "MUDA! MUDA! No need to run!",
+            "real_meaning": "You don't need the rat race â€” the fire was never in the running, it was in the understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0071.jpg",
-                    "query": "man's face frozen in shock and disbelief, world crumbling around him, dramatic portrait cinematic"
+                    "url": "media/c0195.jpg",
+                    "query": "people stopping mid-run and looking around in wonder, collective awakening, wide cinematic"
                 },
                 {
-                    "offset": 0.76,
-                    "url": "media/c0214.jpg",
-                    "query": "Man's hands trembling, clutching crumbling debris, veins pulsating with desperation."
-                },
-                {
-                    "offset": 1.36,
-                    "url": "media/c0215.jpg",
-                    "query": "Broken statue of a saint lying in ruins, tears carving through its face."
+                    "offset": 0.72,
+                    "url": "media/c0196.jpg",
+                    "query": "A lone runner pauses, face tilting up towards golden rays of sunlight."
                 }
             ],
             "words": [
                 {
-                    "start": 107.96,
-                    "end": 108.42,
-                    "text": "Growl,"
+                    "start": 76.694,
+                    "end": 77.312,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 108.46,
-                    "end": 108.6,
-                    "text": "his"
+                    "start": 77.312,
+                    "end": 77.929,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 108.6,
-                    "end": 108.88,
-                    "text": "jaw"
+                    "start": 77.929,
+                    "end": 78.547,
+                    "text": "No"
                 },
                 {
-                    "start": 108.88,
-                    "end": 109.18,
-                    "text": "fell"
+                    "start": 78.547,
+                    "end": 79.165,
+                    "text": "need"
                 },
                 {
-                    "start": 109.18,
-                    "end": 109.56,
+                    "start": 79.165,
+                    "end": 79.782,
                     "text": "to"
                 },
                 {
-                    "start": 109.56,
-                    "end": 109.96,
+                    "start": 79.782,
+                    "end": 80.4,
+                    "text": "run!"
+                }
+            ]
+        },
+        {
+            "id": "line_15_interp",
+            "start": 80.4,
+            "end": 80.88,
+            "lyric": "Gralha's jaw fell to the floor",
+            "real_meaning": "The believer's world shattering â€” when the faithful see the truth, the grief is physical.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0213.jpg",
+                    "query": "man's face frozen in shock and disbelief, world crumbling around him, dramatic portrait cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 80.4,
+                    "end": 80.48,
+                    "text": "Gralha's"
+                },
+                {
+                    "start": 80.48,
+                    "end": 80.56,
+                    "text": "jaw"
+                },
+                {
+                    "start": 80.56,
+                    "end": 80.64,
+                    "text": "fell"
+                },
+                {
+                    "start": 80.64,
+                    "end": 80.72,
+                    "text": "to"
+                },
+                {
+                    "start": 80.72,
+                    "end": 80.8,
                     "text": "the"
                 },
                 {
-                    "start": 109.96,
-                    "end": 110.48,
+                    "start": 80.8,
+                    "end": 80.88,
                     "text": "floor"
                 }
             ]
         },
         {
-            "id": "line_16_occ_0",
-            "start": 112.74,
-            "end": 115.3,
-            "lyric": "Tronco whispered \"What's this for?\"",
-            "real_meaning": "The pragmatist who can't see value in what's free — 'if it's not monetizable, what's the point?'",
+            "id": "line_22_occ_0",
+            "start": 80.88,
+            "end": 84.44,
+            "lyric": "The fire's here, the fire's won!",
+            "real_meaning": "The solution was always at your feet â€” open knowledge, simple living, human connection without intermediaries.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0072.jpg",
-                    "query": "confused man whispering while looking at a simple stone, unable to see its value, intimate cinematic"
-                },
-                {
-                    "offset": 0.78,
-                    "url": "media/c0217.jpg",
-                    "query": "A close-up of his hands gently turning the stone, revealing its smooth surface under soft sunlight."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0218.jpg",
-                    "query": "A distant view of the man standing small beneath a vast, stormy sky."
+                    "url": "media/c0198.jpg",
+                    "query": "fire burning freely on the ground surrounded by simple stones, accessible truth, warm cinematic"
                 }
             ],
             "words": [
                 {
-                    "start": 112.74,
-                    "end": 113.32,
+                    "start": 80.88,
+                    "end": 81.473,
+                    "text": "The"
+                },
+                {
+                    "start": 81.473,
+                    "end": 82.067,
+                    "text": "fire's"
+                },
+                {
+                    "start": 82.067,
+                    "end": 82.66,
+                    "text": "here,"
+                },
+                {
+                    "start": 82.66,
+                    "end": 83.253,
+                    "text": "the"
+                },
+                {
+                    "start": 83.253,
+                    "end": 83.847,
+                    "text": "fire's"
+                },
+                {
+                    "start": 83.847,
+                    "end": 84.44,
+                    "text": "won!"
+                }
+            ]
+        },
+        {
+            "id": "line_23_interp",
+            "start": 84.44,
+            "end": 84.66,
+            "lyric": "Tchak... tchak... tchak...",
+            "real_meaning": "The sound persists â€” truth doesn't need followers, it just keeps working. Stone on stone, always available.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0225.jpg",
+                    "query": "stones striking in rhythm, sparks in darkness, persistent simple truth, meditative cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 84.44,
+                    "end": 84.513,
+                    "text": "Tchak..."
+                },
+                {
+                    "start": 84.513,
+                    "end": 84.587,
+                    "text": "tchak..."
+                },
+                {
+                    "start": 84.587,
+                    "end": 84.66,
+                    "text": "tchak..."
+                }
+            ]
+        },
+        {
+            "id": "line_16_occ_0",
+            "start": 84.66,
+            "end": 88.98,
+            "lyric": "Tronco whispered \"What's this for?\"",
+            "real_meaning": "The pragmatist who can't see value in what's free â€” 'if it's not monetizable, what's the point?'",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0216.jpg",
+                    "query": "confused man whispering while looking at a simple stone, unable to see its value, intimate cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 84.66,
+                    "end": 85.28,
                     "text": "Tronco"
                 },
                 {
-                    "start": 113.32,
-                    "end": 114.04,
-                    "text": "whispered,"
+                    "start": 85.565,
+                    "end": 85.981,
+                    "text": "whispered"
                 },
                 {
-                    "start": 114.14,
-                    "end": 114.52,
-                    "text": "what's"
+                    "start": 86.04,
+                    "end": 86.31,
+                    "text": "\"What's"
                 },
                 {
-                    "start": 114.52,
-                    "end": 114.82,
+                    "start": 86.4,
+                    "end": 86.606,
                     "text": "this"
                 },
                 {
-                    "start": 114.82,
-                    "end": 115.3,
-                    "text": "for?"
+                    "start": 86.675,
+                    "end": 86.738,
+                    "text": "for?\""
                 }
             ]
         },
         {
             "id": "line_17_interp",
-            "start": 115.3,
-            "end": 116.0,
+            "start": 88.98,
+            "end": 89.09,
             "lyric": "The women cheered, the men looked scared",
-            "real_meaning": "Liberation terrifies those who built their identity on the old system — freedom is threatening to the invested.",
+            "real_meaning": "Liberation terrifies those who built their identity on the old system â€” freedom is threatening to the invested.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0073.jpg",
+                    "url": "media/c0219.jpg",
                     "query": "split scene of joy and fear, some celebrating while others recoil, emotional contrast, cinematic"
-                },
-                {
-                    "offset": 0.23,
-                    "url": "media/c0220.jpg",
-                    "query": "A lone, crumpled, faded hat on the cobblestones, surrounded by cheering women's shadows."
-                },
-                {
-                    "offset": 0.47,
-                    "url": "media/c0221.jpg",
-                    "query": "Broken chains draped over a weathered stone wall, glistening in the warm sunlight."
                 }
             ],
             "words": [
                 {
-                    "start": 115.3,
-                    "end": 115.4,
+                    "start": 88.98,
+                    "end": 88.996,
                     "text": "The"
                 },
                 {
-                    "start": 115.4,
-                    "end": 115.5,
+                    "start": 88.996,
+                    "end": 89.011,
                     "text": "women"
                 },
                 {
-                    "start": 115.5,
-                    "end": 115.6,
+                    "start": 89.011,
+                    "end": 89.027,
                     "text": "cheered,"
                 },
                 {
-                    "start": 115.6,
-                    "end": 115.7,
+                    "start": 89.027,
+                    "end": 89.043,
                     "text": "the"
                 },
                 {
-                    "start": 115.7,
-                    "end": 115.8,
+                    "start": 89.043,
+                    "end": 89.059,
                     "text": "men"
                 },
                 {
-                    "start": 115.8,
-                    "end": 115.9,
+                    "start": 89.059,
+                    "end": 89.074,
                     "text": "looked"
                 },
                 {
-                    "start": 115.9,
-                    "end": 116.0,
+                    "start": 89.074,
+                    "end": 89.09,
                     "text": "scared"
                 }
             ]
         },
         {
-            "id": "line_18_occ_0",
-            "start": 116.0,
-            "end": 122.1,
+            "id": "line_18_interp",
+            "start": 89.09,
+            "end": 89.195,
             "lyric": "The first belief was declared",
-            "real_meaning": "But even liberation becomes dogma — Muda's truth is already being turned into the next ideology.",
+            "real_meaning": "But even liberation becomes dogma â€” Muda's truth is already being turned into the next ideology.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0074.jpg",
+                    "url": "media/c0222.jpg",
                     "query": "crowd beginning to form around a new symbol, the cycle starting again, bittersweet cinematic"
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c0223.jpg",
-                    "query": "A lone hand reaches out to touch the symbol, fingers tracing its edges in a golden sunset."
-                },
-                {
-                    "offset": 1.12,
-                    "url": "media/c0224.jpg",
-                    "query": "Warm hues swirling, a figure releases a dove from their hands into a misty sunset sky"
                 }
             ],
             "words": [
                 {
-                    "start": 116.0,
-                    "end": 117.58,
+                    "start": 89.09,
+                    "end": 89.111,
                     "text": "The"
                 },
                 {
-                    "start": 117.58,
-                    "end": 117.94,
-                    "text": "women"
-                },
-                {
-                    "start": 117.94,
-                    "end": 118.54,
-                    "text": "cheered,"
-                },
-                {
-                    "start": 118.72,
-                    "end": 118.84,
-                    "text": "the"
-                },
-                {
-                    "start": 118.84,
-                    "end": 119.1,
-                    "text": "men"
-                },
-                {
-                    "start": 119.1,
-                    "end": 119.34,
-                    "text": "looked"
-                },
-                {
-                    "start": 119.34,
-                    "end": 119.78,
-                    "text": "scared,"
-                },
-                {
-                    "start": 119.94,
-                    "end": 120.02,
-                    "text": "the"
-                },
-                {
-                    "start": 120.02,
-                    "end": 120.3,
+                    "start": 89.111,
+                    "end": 89.132,
                     "text": "first"
                 },
                 {
-                    "start": 120.3,
-                    "end": 120.88,
+                    "start": 89.132,
+                    "end": 89.153,
                     "text": "belief"
                 },
                 {
-                    "start": 120.88,
-                    "end": 121.48,
+                    "start": 89.153,
+                    "end": 89.174,
                     "text": "was"
                 },
                 {
-                    "start": 121.48,
-                    "end": 122.1,
+                    "start": 89.174,
+                    "end": 89.195,
                     "text": "declared"
                 }
             ]
         },
         {
             "id": "line_19_interp",
-            "start": 122.1,
-            "end": 141.15,
-            "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The sound persists — truth doesn't need followers, it just keeps working. Stone on stone, always available.",
+            "start": 89.195,
+            "end": 89.3,
+            "lyric": "MUDA! MUDA! The stone ignites!",
+            "real_meaning": "The Enlightenment arrives â€” Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0075.jpg",
-                    "query": "stones striking in rhythm, sparks in darkness, persistent simple truth, meditative cinematic"
-                },
-                {
-                    "offset": 0.97,
-                    "url": "media/c0226.jpg",
-                    "query": "A close-up of sparks glinting against rough stone surfaces, ignited by rhythmic strikes of a hammer."
-                },
-                {
-                    "offset": 1.59,
-                    "url": "media/c0227.jpg",
-                    "query": "Flickering embers descend through a dark and warm-toned space, representing truth's enduring nature."
+                    "url": "media/c0189.jpg",
+                    "query": "woman holding fire she created herself, triumphant golden light illuminating her face, heroic cinematic"
                 }
             ],
             "words": [
                 {
-                    "start": 122.1,
-                    "end": 128.45,
-                    "text": "Tchak..."
+                    "start": 89.195,
+                    "end": 89.216,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 128.45,
-                    "end": 134.8,
-                    "text": "tchak..."
+                    "start": 89.216,
+                    "end": 89.237,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 134.8,
-                    "end": 141.15,
-                    "text": "tchak..."
+                    "start": 89.237,
+                    "end": 89.258,
+                    "text": "The"
+                },
+                {
+                    "start": 89.258,
+                    "end": 89.279,
+                    "text": "stone"
+                },
+                {
+                    "start": 89.279,
+                    "end": 89.3,
+                    "text": "ignites!"
+                }
+            ]
+        },
+        {
+            "id": "line_20_interp",
+            "start": 89.3,
+            "end": 90.8,
+            "lyric": "MUDA! MUDA! She saw the light!",
+            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0192.jpg",
+                    "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 89.3,
+                    "end": 89.55,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 89.55,
+                    "end": 89.8,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 89.8,
+                    "end": 90.05,
+                    "text": "She"
+                },
+                {
+                    "start": 90.05,
+                    "end": 90.3,
+                    "text": "saw"
+                },
+                {
+                    "start": 90.3,
+                    "end": 90.55,
+                    "text": "the"
+                },
+                {
+                    "start": 90.55,
+                    "end": 90.8,
+                    "text": "light!"
                 }
             ]
         },
         {
             "id": "line_8_occ_0",
-            "start": 122.96,
-            "end": 141.15,
+            "start": 99.93,
+            "end": 104.924,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0064.jpg",
+                    "url": "media/c0192.jpg",
                     "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 0.98,
                     "url": "media/c0193.jpg",
                     "query": "A radiant tear traces down her cheek, catching sunrays like liquid gold."
                 },
                 {
-                    "offset": 1.34,
+                    "offset": 2.7,
                     "url": "media/c0194.jpg",
                     "query": "Shadows recoil and dissipate, revealing a vast, barren landscape beneath a crimson sky."
                 }
             ],
             "words": [
                 {
-                    "start": 122.96,
-                    "end": 123.32,
-                    "text": "Jack,"
+                    "start": 100.13,
+                    "end": 100.2,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 123.38,
-                    "end": 123.96,
-                    "text": "Jack,"
+                    "start": 100.638,
+                    "end": 100.7,
+                    "text": "MUDA!"
                 },
                 {
-                    "start": 124.2,
-                    "end": 124.56,
-                    "text": "Jack,"
+                    "start": 100.72,
+                    "end": 100.9,
+                    "text": "She"
                 },
                 {
-                    "start": 124.82,
-                    "end": 125.68,
-                    "text": "Jack,"
-                },
-                {
-                    "start": 125.98,
-                    "end": 126.32,
-                    "text": "Jack,"
-                },
-                {
-                    "start": 126.58,
-                    "end": 126.92,
-                    "text": "Jack"
-                },
-                {
-                    "start": 127.22,
-                    "end": 127.86,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 128.16,
-                    "end": 128.8,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 129.06,
-                    "end": 129.24,
-                    "text": "ah,"
-                },
-                {
-                    "start": 129.7,
-                    "end": 130.06,
-                    "text": "the"
-                },
-                {
-                    "start": 130.06,
-                    "end": 130.54,
-                    "text": "stone"
-                },
-                {
-                    "start": 130.54,
-                    "end": 131.7,
-                    "text": "ignites"
-                },
-                {
-                    "start": 131.96,
-                    "end": 132.66,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 132.98,
-                    "end": 133.52,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 133.94,
-                    "end": 134.28,
-                    "text": "ah,"
-                },
-                {
-                    "start": 134.56,
-                    "end": 134.88,
-                    "text": "she"
-                },
-                {
-                    "start": 134.88,
-                    "end": 135.28,
+                    "start": 101.05,
+                    "end": 101.279,
                     "text": "saw"
                 },
                 {
-                    "start": 135.28,
-                    "end": 135.56,
+                    "start": 101.355,
+                    "end": 101.409,
                     "text": "the"
                 },
                 {
-                    "start": 135.56,
-                    "end": 136.18,
-                    "text": "light"
-                },
-                {
-                    "start": 136.76,
-                    "end": 137.46,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 137.8,
-                    "end": 138.32,
-                    "text": "Muda,"
-                },
-                {
-                    "start": 138.68,
-                    "end": 139.0,
-                    "text": "ah,"
-                },
-                {
-                    "start": 139.34,
-                    "end": 139.72,
-                    "text": "no"
-                },
-                {
-                    "start": 139.72,
-                    "end": 140.06,
-                    "text": "need"
-                },
-                {
-                    "start": 140.06,
-                    "end": 140.32,
-                    "text": "to"
-                },
-                {
-                    "start": 140.32,
-                    "end": 141.15,
-                    "text": "run"
+                    "start": 101.572,
+                    "end": 101.742,
+                    "text": "light!"
                 }
             ]
         },
         {
-            "id": "line_20_occ_0",
-            "start": 141.15,
-            "end": 145.66,
+            "id": "instrumental_5",
+            "start": 111.14,
+            "end": 113.774,
+            "lyric": "Tchak... tchak... tchak...",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "words": [
+                {
+                    "start": 111.14,
+                    "end": 111.488,
+                    "text": "Tchak..."
+                },
+                {
+                    "start": 111.728,
+                    "end": 111.795,
+                    "text": "tchak..."
+                },
+                {
+                    "start": 112.192,
+                    "end": 112.7,
+                    "text": "-chik"
+                },
+                {
+                    "start": 112.8,
+                    "end": 112.96,
+                    "text": "-chik"
+                },
+                {
+                    "start": 112.96,
+                    "end": 113.4,
+                    "text": "-chik"
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_0",
+            "start": 114.46,
+            "end": 114.56,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0076.jpg",
+                    "url": "media/c0228.jpg",
+                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0229.jpg",
+                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
+                },
+                {
+                    "offset": 9.74,
+                    "url": "media/c0230.jpg",
+                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
+                }
+            ],
+            "words": [
+                {
+                    "start": 114.46,
+                    "end": 114.48,
+                    "text": "\"The"
+                },
+                {
+                    "start": 114.48,
+                    "end": 114.5,
+                    "text": "fire"
+                },
+                {
+                    "start": 114.5,
+                    "end": 114.52,
+                    "text": "was"
+                },
+                {
+                    "start": 114.52,
+                    "end": 114.54,
+                    "text": "always"
+                },
+                {
+                    "start": 114.54,
+                    "end": 114.56,
+                    "text": "ours.\""
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_1",
+            "start": 114.56,
+            "end": 114.66,
+            "lyric": "\"The fire was always ours.\"",
+            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0228.jpg",
+                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0229.jpg",
+                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
+                },
+                {
+                    "offset": 9.74,
+                    "url": "media/c0230.jpg",
+                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
+                }
+            ],
+            "words": [
+                {
+                    "start": 114.56,
+                    "end": 114.58,
+                    "text": "\"The"
+                },
+                {
+                    "start": 114.58,
+                    "end": 114.6,
+                    "text": "fire"
+                },
+                {
+                    "start": 114.6,
+                    "end": 114.62,
+                    "text": "was"
+                },
+                {
+                    "start": 114.62,
+                    "end": 114.64,
+                    "text": "always"
+                },
+                {
+                    "start": 114.64,
+                    "end": 114.66,
+                    "text": "ours.\""
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_2",
+            "start": 114.66,
+            "end": 135.76,
+            "lyric": "\"The fire was always ours.\"",
+            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0228.jpg",
                     "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
                 },
                 {
@@ -1342,156 +1323,1415 @@ var track_05_data = {
                     "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
                 },
                 {
-                    "offset": 1.16,
+                    "offset": 9.54,
                     "url": "media/c0230.jpg",
                     "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
                 }
             ],
             "words": [
                 {
-                    "start": 141.15,
-                    "end": 142.08,
-                    "text": "The"
+                    "start": 114.66,
+                    "end": 114.82,
+                    "text": "\"The"
                 },
                 {
-                    "start": 142.08,
-                    "end": 142.84,
-                    "text": "fire's"
-                },
-                {
-                    "start": 142.84,
-                    "end": 143.3,
-                    "text": "here,"
-                },
-                {
-                    "start": 144.06,
-                    "end": 144.5,
-                    "text": "the"
-                },
-                {
-                    "start": 144.5,
-                    "end": 145.22,
-                    "text": "fire's"
-                },
-                {
-                    "start": 145.22,
-                    "end": 145.66,
-                    "text": "won"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_6",
-            "start": 156.4,
-            "end": 158.14,
-            "lyric": "Check, check, check, check",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 156.4,
-                    "end": 156.56,
-                    "text": "Check,"
-                },
-                {
-                    "start": 156.76,
-                    "end": 157.04,
-                    "text": "check,"
-                },
-                {
-                    "start": 157.26,
-                    "end": 157.56,
-                    "text": "check,"
-                },
-                {
-                    "start": 157.76,
-                    "end": 158.14,
-                    "text": "check"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_7",
-            "start": 158.66,
-            "end": 160.4,
-            "lyric": "Check, check, check, check",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 158.66,
-                    "end": 158.98,
-                    "text": "Check,"
-                },
-                {
-                    "start": 159.24,
-                    "end": 159.46,
-                    "text": "check,"
-                },
-                {
-                    "start": 159.66,
-                    "end": 159.94,
-                    "text": "check,"
-                },
-                {
-                    "start": 160.2,
-                    "end": 160.4,
-                    "text": "check"
-                }
-            ]
-        },
-        {
-            "id": "line_20_occ_1",
-            "start": 160.5,
-            "end": 166.06,
-            "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0076.jpg",
-                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
-                },
-                {
-                    "offset": 1.02,
-                    "url": "media/c0229.jpg",
-                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
-                },
-                {
-                    "offset": 1.62,
-                    "url": "media/c0230.jpg",
-                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
-                }
-            ],
-            "words": [
-                {
-                    "start": 160.5,
-                    "end": 160.74,
-                    "text": "The"
-                },
-                {
-                    "start": 160.74,
-                    "end": 161.48,
+                    "start": 115.09,
+                    "end": 115.18,
                     "text": "fire"
                 },
                 {
-                    "start": 161.48,
-                    "end": 164.44,
+                    "start": 115.235,
+                    "end": 115.297,
                     "text": "was"
                 },
                 {
-                    "start": 164.44,
-                    "end": 165.28,
+                    "start": 131.18,
+                    "end": 134.18,
                     "text": "always"
                 },
                 {
-                    "start": 165.28,
-                    "end": 166.06,
-                    "text": "ours"
+                    "start": 134.18,
+                    "end": 135.13,
+                    "text": "ours.\""
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        0.58,
+        1.231,
+        1.834,
+        2.415,
+        3.019,
+        3.622,
+        4.226,
+        4.83,
+        5.41,
+        6.037,
+        6.618,
+        7.221,
+        7.825,
+        8.429,
+        9.033,
+        9.636,
+        10.217,
+        10.844,
+        11.424,
+        12.028,
+        12.632,
+        13.235,
+        13.816,
+        14.42,
+        15.023,
+        15.627,
+        16.231,
+        16.834,
+        17.438,
+        18.019,
+        18.622,
+        19.226,
+        19.83,
+        20.434,
+        21.037,
+        21.641,
+        22.245,
+        22.825,
+        23.429,
+        24.033,
+        24.636,
+        25.24,
+        25.844,
+        26.448,
+        27.028,
+        27.632,
+        28.235,
+        28.839,
+        29.42,
+        30.047,
+        30.627,
+        31.231,
+        31.835,
+        32.438,
+        33.019,
+        33.622,
+        34.226,
+        34.83,
+        35.434,
+        36.037,
+        36.641,
+        37.222,
+        37.825,
+        38.429,
+        39.033,
+        39.59,
+        40.263,
+        40.89,
+        41.564,
+        42.214,
+        42.887,
+        43.491,
+        44.095,
+        44.698,
+        45.279,
+        45.929,
+        46.51,
+        47.113,
+        47.694,
+        48.321,
+        48.924,
+        49.528,
+        50.132,
+        50.712,
+        51.316,
+        51.827,
+        52.384,
+        52.918,
+        53.452,
+        54.033,
+        54.637,
+        55.24,
+        55.821,
+        56.448,
+        57.028,
+        57.632,
+        58.236,
+        58.839,
+        59.443,
+        60.024,
+        60.627,
+        61.231,
+        61.835,
+        62.438,
+        63.042,
+        63.623,
+        64.226,
+        64.83,
+        65.434,
+        66.038,
+        66.641,
+        67.222,
+        67.825,
+        68.429,
+        69.033,
+        69.637,
+        70.24,
+        70.821,
+        71.425,
+        72.028,
+        72.632,
+        73.236,
+        73.839,
+        74.443,
+        75.047,
+        75.627,
+        76.231,
+        76.835,
+        77.415,
+        78.042,
+        78.623,
+        79.226,
+        79.807,
+        80.434,
+        81.038,
+        81.641,
+        82.222,
+        82.895,
+        83.545,
+        84.196,
+        84.869,
+        85.449,
+        86.03,
+        86.61,
+        87.191,
+        87.748,
+        88.352,
+        88.932,
+        89.583,
+        90.21,
+        90.836,
+        91.463,
+        92.09,
+        92.717,
+        93.321,
+        93.925,
+        94.505,
+        95.109,
+        95.713,
+        96.316,
+        96.92,
+        97.524,
+        98.128,
+        98.731,
+        99.312,
+        99.823,
+        100.38,
+        100.914,
+        101.448,
+        102.052,
+        102.632,
+        103.236,
+        103.84,
+        104.443,
+        105.024,
+        105.628,
+        106.231,
+        106.835,
+        107.439,
+        108.042,
+        108.623,
+        109.227,
+        109.83,
+        110.434,
+        111.038,
+        111.618,
+        112.176,
+        112.779,
+        113.429,
+        114.033,
+        114.59,
+        115.217,
+        115.821,
+        116.425,
+        117.029,
+        117.632,
+        118.236,
+        118.84,
+        119.42,
+        120.024,
+        120.628,
+        121.231,
+        121.835,
+        122.439,
+        123.043,
+        123.623,
+        124.204,
+        124.83,
+        125.434,
+        126.038,
+        126.642,
+        127.222,
+        127.826,
+        128.43,
+        129.033,
+        129.637,
+        130.241,
+        130.844,
+        131.425,
+        132.029,
+        132.632,
+        133.236
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.323
+        ],
+        [
+            0.49,
+            0.472
+        ],
+        [
+            0.98,
+            0.594
+        ],
+        [
+            1.46,
+            0.543
+        ],
+        [
+            1.95,
+            0.507
+        ],
+        [
+            2.44,
+            0.474
+        ],
+        [
+            2.93,
+            0.579
+        ],
+        [
+            3.41,
+            0.663
+        ],
+        [
+            3.9,
+            0.585
+        ],
+        [
+            4.39,
+            0.525
+        ],
+        [
+            4.88,
+            0.49
+        ],
+        [
+            5.36,
+            0.634
+        ],
+        [
+            5.85,
+            0.761
+        ],
+        [
+            6.34,
+            0.687
+        ],
+        [
+            6.83,
+            0.694
+        ],
+        [
+            7.31,
+            0.714
+        ],
+        [
+            7.8,
+            0.72
+        ],
+        [
+            8.29,
+            0.702
+        ],
+        [
+            8.78,
+            0.667
+        ],
+        [
+            9.26,
+            0.711
+        ],
+        [
+            9.75,
+            0.778
+        ],
+        [
+            10.24,
+            0.795
+        ],
+        [
+            10.73,
+            0.782
+        ],
+        [
+            11.22,
+            0.702
+        ],
+        [
+            11.7,
+            0.653
+        ],
+        [
+            12.19,
+            0.69
+        ],
+        [
+            12.68,
+            0.776
+        ],
+        [
+            13.17,
+            0.777
+        ],
+        [
+            13.65,
+            0.722
+        ],
+        [
+            14.14,
+            0.683
+        ],
+        [
+            14.63,
+            0.712
+        ],
+        [
+            15.12,
+            0.77
+        ],
+        [
+            15.6,
+            0.748
+        ],
+        [
+            16.09,
+            0.716
+        ],
+        [
+            16.58,
+            0.686
+        ],
+        [
+            17.07,
+            0.675
+        ],
+        [
+            17.55,
+            0.72
+        ],
+        [
+            18.04,
+            0.729
+        ],
+        [
+            18.53,
+            0.74
+        ],
+        [
+            19.02,
+            0.707
+        ],
+        [
+            19.5,
+            0.669
+        ],
+        [
+            19.99,
+            0.776
+        ],
+        [
+            20.48,
+            0.84
+        ],
+        [
+            20.97,
+            0.81
+        ],
+        [
+            21.46,
+            0.829
+        ],
+        [
+            21.94,
+            0.81
+        ],
+        [
+            22.43,
+            0.731
+        ],
+        [
+            22.92,
+            0.683
+        ],
+        [
+            23.41,
+            0.687
+        ],
+        [
+            23.89,
+            0.693
+        ],
+        [
+            24.38,
+            0.696
+        ],
+        [
+            24.87,
+            0.799
+        ],
+        [
+            25.36,
+            0.861
+        ],
+        [
+            25.84,
+            0.848
+        ],
+        [
+            26.33,
+            0.852
+        ],
+        [
+            26.82,
+            0.802
+        ],
+        [
+            27.31,
+            0.715
+        ],
+        [
+            27.79,
+            0.689
+        ],
+        [
+            28.28,
+            0.69
+        ],
+        [
+            28.77,
+            0.697
+        ],
+        [
+            29.26,
+            0.719
+        ],
+        [
+            29.74,
+            0.764
+        ],
+        [
+            30.23,
+            0.797
+        ],
+        [
+            30.72,
+            0.786
+        ],
+        [
+            31.21,
+            0.797
+        ],
+        [
+            31.7,
+            0.774
+        ],
+        [
+            32.18,
+            0.689
+        ],
+        [
+            32.67,
+            0.673
+        ],
+        [
+            33.16,
+            0.714
+        ],
+        [
+            33.65,
+            0.697
+        ],
+        [
+            34.13,
+            0.728
+        ],
+        [
+            34.62,
+            0.824
+        ],
+        [
+            35.11,
+            0.846
+        ],
+        [
+            35.6,
+            0.809
+        ],
+        [
+            36.08,
+            0.78
+        ],
+        [
+            36.57,
+            0.76
+        ],
+        [
+            37.06,
+            0.75
+        ],
+        [
+            37.55,
+            0.683
+        ],
+        [
+            38.03,
+            0.68
+        ],
+        [
+            38.52,
+            0.717
+        ],
+        [
+            39.01,
+            0.742
+        ],
+        [
+            39.5,
+            0.763
+        ],
+        [
+            39.98,
+            0.744
+        ],
+        [
+            40.47,
+            0.735
+        ],
+        [
+            40.96,
+            0.727
+        ],
+        [
+            41.45,
+            0.746
+        ],
+        [
+            41.94,
+            0.713
+        ],
+        [
+            42.42,
+            0.646
+        ],
+        [
+            42.91,
+            0.647
+        ],
+        [
+            43.4,
+            0.645
+        ],
+        [
+            43.89,
+            0.698
+        ],
+        [
+            44.37,
+            0.786
+        ],
+        [
+            44.86,
+            0.834
+        ],
+        [
+            45.35,
+            0.812
+        ],
+        [
+            45.84,
+            0.803
+        ],
+        [
+            46.32,
+            0.828
+        ],
+        [
+            46.81,
+            0.826
+        ],
+        [
+            47.3,
+            0.826
+        ],
+        [
+            47.79,
+            0.816
+        ],
+        [
+            48.27,
+            0.814
+        ],
+        [
+            48.76,
+            0.848
+        ],
+        [
+            49.25,
+            0.865
+        ],
+        [
+            49.74,
+            0.868
+        ],
+        [
+            50.22,
+            0.846
+        ],
+        [
+            50.71,
+            0.859
+        ],
+        [
+            51.2,
+            0.914
+        ],
+        [
+            51.69,
+            0.901
+        ],
+        [
+            52.18,
+            0.887
+        ],
+        [
+            52.66,
+            0.882
+        ],
+        [
+            53.15,
+            0.895
+        ],
+        [
+            53.64,
+            0.91
+        ],
+        [
+            54.13,
+            0.888
+        ],
+        [
+            54.61,
+            0.878
+        ],
+        [
+            55.1,
+            0.902
+        ],
+        [
+            55.59,
+            0.903
+        ],
+        [
+            56.08,
+            0.883
+        ],
+        [
+            56.56,
+            0.862
+        ],
+        [
+            57.05,
+            0.877
+        ],
+        [
+            57.54,
+            0.885
+        ],
+        [
+            58.03,
+            0.858
+        ],
+        [
+            58.51,
+            0.875
+        ],
+        [
+            59.0,
+            0.866
+        ],
+        [
+            59.49,
+            0.824
+        ],
+        [
+            59.98,
+            0.84
+        ],
+        [
+            60.46,
+            0.894
+        ],
+        [
+            60.95,
+            0.903
+        ],
+        [
+            61.44,
+            0.883
+        ],
+        [
+            61.93,
+            0.882
+        ],
+        [
+            62.42,
+            0.889
+        ],
+        [
+            62.9,
+            0.891
+        ],
+        [
+            63.39,
+            0.831
+        ],
+        [
+            63.88,
+            0.782
+        ],
+        [
+            64.37,
+            0.793
+        ],
+        [
+            64.85,
+            0.825
+        ],
+        [
+            65.34,
+            0.803
+        ],
+        [
+            65.83,
+            0.734
+        ],
+        [
+            66.32,
+            0.701
+        ],
+        [
+            66.8,
+            0.764
+        ],
+        [
+            67.29,
+            0.778
+        ],
+        [
+            67.78,
+            0.793
+        ],
+        [
+            68.27,
+            0.832
+        ],
+        [
+            68.75,
+            0.845
+        ],
+        [
+            69.24,
+            0.882
+        ],
+        [
+            69.73,
+            0.836
+        ],
+        [
+            70.22,
+            0.78
+        ],
+        [
+            70.7,
+            0.775
+        ],
+        [
+            71.19,
+            0.728
+        ],
+        [
+            71.68,
+            0.743
+        ],
+        [
+            72.17,
+            0.771
+        ],
+        [
+            72.66,
+            0.782
+        ],
+        [
+            73.14,
+            0.841
+        ],
+        [
+            73.63,
+            0.857
+        ],
+        [
+            74.12,
+            0.881
+        ],
+        [
+            74.61,
+            0.936
+        ],
+        [
+            75.09,
+            0.898
+        ],
+        [
+            75.58,
+            0.858
+        ],
+        [
+            76.07,
+            0.853
+        ],
+        [
+            76.56,
+            0.887
+        ],
+        [
+            77.04,
+            0.93
+        ],
+        [
+            77.53,
+            0.93
+        ],
+        [
+            78.02,
+            0.849
+        ],
+        [
+            78.51,
+            0.787
+        ],
+        [
+            78.99,
+            0.853
+        ],
+        [
+            79.48,
+            0.875
+        ],
+        [
+            79.97,
+            0.914
+        ],
+        [
+            80.46,
+            0.905
+        ],
+        [
+            80.94,
+            0.806
+        ],
+        [
+            81.43,
+            0.805
+        ],
+        [
+            81.92,
+            0.804
+        ],
+        [
+            82.41,
+            0.768
+        ],
+        [
+            82.9,
+            0.67
+        ],
+        [
+            83.38,
+            0.613
+        ],
+        [
+            83.87,
+            0.602
+        ],
+        [
+            84.36,
+            0.621
+        ],
+        [
+            84.85,
+            0.682
+        ],
+        [
+            85.33,
+            0.691
+        ],
+        [
+            85.82,
+            0.678
+        ],
+        [
+            86.31,
+            0.647
+        ],
+        [
+            86.8,
+            0.632
+        ],
+        [
+            87.28,
+            0.719
+        ],
+        [
+            87.77,
+            0.726
+        ],
+        [
+            88.26,
+            0.686
+        ],
+        [
+            88.75,
+            0.663
+        ],
+        [
+            89.23,
+            0.602
+        ],
+        [
+            89.72,
+            0.641
+        ],
+        [
+            90.21,
+            0.647
+        ],
+        [
+            90.7,
+            0.634
+        ],
+        [
+            91.18,
+            0.632
+        ],
+        [
+            91.67,
+            0.655
+        ],
+        [
+            92.16,
+            0.776
+        ],
+        [
+            92.65,
+            0.875
+        ],
+        [
+            93.14,
+            0.907
+        ],
+        [
+            93.62,
+            0.907
+        ],
+        [
+            94.11,
+            0.915
+        ],
+        [
+            94.6,
+            0.912
+        ],
+        [
+            95.09,
+            0.896
+        ],
+        [
+            95.57,
+            0.914
+        ],
+        [
+            96.06,
+            0.918
+        ],
+        [
+            96.55,
+            0.912
+        ],
+        [
+            97.04,
+            0.911
+        ],
+        [
+            97.52,
+            0.913
+        ],
+        [
+            98.01,
+            0.96
+        ],
+        [
+            98.5,
+            0.996
+        ],
+        [
+            98.99,
+            0.986
+        ],
+        [
+            99.47,
+            0.973
+        ],
+        [
+            99.96,
+            0.957
+        ],
+        [
+            100.45,
+            0.954
+        ],
+        [
+            100.94,
+            0.963
+        ],
+        [
+            101.42,
+            0.967
+        ],
+        [
+            101.91,
+            0.946
+        ],
+        [
+            102.4,
+            0.928
+        ],
+        [
+            102.89,
+            0.973
+        ],
+        [
+            103.38,
+            0.982
+        ],
+        [
+            103.86,
+            0.983
+        ],
+        [
+            104.35,
+            0.956
+        ],
+        [
+            104.84,
+            0.923
+        ],
+        [
+            105.33,
+            0.949
+        ],
+        [
+            105.81,
+            0.944
+        ],
+        [
+            106.3,
+            0.948
+        ],
+        [
+            106.79,
+            0.949
+        ],
+        [
+            107.28,
+            0.944
+        ],
+        [
+            107.76,
+            0.934
+        ],
+        [
+            108.25,
+            0.904
+        ],
+        [
+            108.74,
+            0.918
+        ],
+        [
+            109.23,
+            0.936
+        ],
+        [
+            109.71,
+            0.95
+        ],
+        [
+            110.2,
+            0.926
+        ],
+        [
+            110.69,
+            0.922
+        ],
+        [
+            111.18,
+            0.8
+        ],
+        [
+            111.66,
+            0.597
+        ],
+        [
+            112.15,
+            0.52
+        ],
+        [
+            112.64,
+            0.553
+        ],
+        [
+            113.13,
+            0.571
+        ],
+        [
+            113.62,
+            0.569
+        ],
+        [
+            114.1,
+            0.553
+        ],
+        [
+            114.59,
+            0.664
+        ],
+        [
+            115.08,
+            0.817
+        ],
+        [
+            115.57,
+            0.833
+        ],
+        [
+            116.05,
+            0.89
+        ],
+        [
+            116.54,
+            0.928
+        ],
+        [
+            117.03,
+            0.912
+        ],
+        [
+            117.52,
+            0.926
+        ],
+        [
+            118.0,
+            0.948
+        ],
+        [
+            118.49,
+            0.94
+        ],
+        [
+            118.98,
+            0.911
+        ],
+        [
+            119.47,
+            0.9
+        ],
+        [
+            119.95,
+            0.895
+        ],
+        [
+            120.44,
+            0.915
+        ],
+        [
+            120.93,
+            0.865
+        ],
+        [
+            121.42,
+            0.803
+        ],
+        [
+            121.9,
+            0.811
+        ],
+        [
+            122.39,
+            0.818
+        ],
+        [
+            122.88,
+            0.845
+        ],
+        [
+            123.37,
+            0.845
+        ],
+        [
+            123.86,
+            0.836
+        ],
+        [
+            124.34,
+            0.925
+        ],
+        [
+            124.83,
+            0.97
+        ],
+        [
+            125.32,
+            0.949
+        ],
+        [
+            125.81,
+            0.955
+        ],
+        [
+            126.29,
+            0.958
+        ],
+        [
+            126.78,
+            0.965
+        ],
+        [
+            127.27,
+            0.984
+        ],
+        [
+            127.76,
+            0.983
+        ],
+        [
+            128.24,
+            0.976
+        ],
+        [
+            128.73,
+            0.964
+        ],
+        [
+            129.22,
+            0.963
+        ],
+        [
+            129.71,
+            0.968
+        ],
+        [
+            130.19,
+            0.951
+        ],
+        [
+            130.68,
+            0.882
+        ],
+        [
+            131.17,
+            0.799
+        ],
+        [
+            131.66,
+            0.784
+        ],
+        [
+            132.14,
+            0.808
+        ],
+        [
+            132.63,
+            0.792
+        ],
+        [
+            133.12,
+            0.759
+        ],
+        [
+            133.61,
+            0.732
+        ],
+        [
+            134.1,
+            0.719
+        ],
+        [
+            134.58,
+            0.706
+        ],
+        [
+            135.07,
+            0.685
+        ],
+        [
+            135.56,
+            0.619
+        ],
+        [
+            136.05,
+            0.542
+        ],
+        [
+            136.53,
+            0.501
+        ],
+        [
+            137.02,
+            0.449
+        ],
+        [
+            137.51,
+            0.398
+        ],
+        [
+            138.0,
+            0.352
+        ],
+        [
+            138.48,
+            0.319
+        ],
+        [
+            138.97,
+            0.29
+        ],
+        [
+            139.46,
+            0.26
+        ]
+    ],
+    "bpm": 99.4
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

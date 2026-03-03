@@ -5,96 +5,168 @@
             "id": "line_0_occ_0",
             "line_index": 0,
             "occurrence_index": 0,
-            "start": 0.0,
-            "end": 2.06,
+            "start": 0.24,
+            "end": 2.08,
             "lyric": "Next morning, Gralha lit the flame"
-        },
-        {
-            "id": "instrumental_0",
-            "line_index": null,
-            "occurrence_index": 0,
-            "start": 2.82,
-            "end": 3.26,
-            "lyric": "Hey!"
         },
         {
             "id": "line_1_occ_0",
             "line_index": 1,
             "occurrence_index": 0,
-            "start": 3.7,
-            "end": 5.76,
+            "start": 2.08,
+            "end": 2.78,
             "lyric": "Chak-chak, a tiny light"
-        },
-        {
-            "id": "instrumental_1",
-            "line_index": null,
-            "occurrence_index": 1,
-            "start": 6.56,
-            "end": 6.94,
-            "lyric": "Hey!"
         },
         {
             "id": "line_2_occ_0",
             "line_index": 2,
             "occurrence_index": 0,
-            "start": 7.4,
-            "end": 9.42,
+            "start": 3.98,
+            "end": 9.48,
             "lyric": "\"Now I run!\" he said, and came"
-        },
-        {
-            "id": "instrumental_2",
-            "line_index": null,
-            "occurrence_index": 2,
-            "start": 10.34,
-            "end": 10.66,
-            "lyric": "Hey!"
         },
         {
             "id": "line_3_occ_0",
             "line_index": 3,
             "occurrence_index": 0,
-            "start": 11.1,
-            "end": 13.1,
+            "start": 9.48,
+            "end": 13.22,
             "lyric": "Running with all his might"
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 13.22,
+            "end": 15.92,
+            "lyric": "RUN, GRALHA, RUN!"
         },
         {
             "id": "line_5_occ_0",
             "line_index": 5,
             "occurrence_index": 0,
-            "start": 14.54,
-            "end": 17.82,
+            "start": 15.94,
+            "end": 18.32,
             "lyric": "The baby fire mustn't die!"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 18.34,
+            "end": 19.58,
+            "lyric": "RUN, GRALHA, RUN!"
         },
         {
             "id": "line_7_occ_0",
             "line_index": 7,
             "occurrence_index": 0,
-            "start": 18.24,
-            "end": 21.44,
+            "start": 19.58,
+            "end": 23.16,
             "lyric": "Reach the new pile, touch the sky!"
         },
         {
-            "id": "instrumental_3",
-            "line_index": null,
-            "occurrence_index": 3,
-            "start": 21.52,
-            "end": 21.78,
-            "lyric": "Hey!"
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 23.2,
+            "end": 26.04,
+            "lyric": "Two hundred meters, wind in face"
         },
         {
-            "id": "instrumental_4",
-            "line_index": null,
-            "occurrence_index": 4,
-            "start": 54.22,
-            "end": 54.26,
-            "lyric": "Heavy breathing."
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 28.75,
+            "end": 32.96,
+            "lyric": "The tribe behind, screaming \"Pace!\""
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 33.0,
+            "end": 34.6,
+            "lyric": "He reached the end, he blew, he blew"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 34.6,
+            "end": 37.04,
+            "lyric": "The flame was gone... what could he do?"
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 37.54,
+            "end": 40.0,
+            "lyric": "Some said: \"Only run at noon!\""
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 40.84,
+            "end": 44.1,
+            "lyric": "Others: \"Warm the box beneath the moon!\""
+        },
+        {
+            "id": "line_14_occ_0",
+            "line_index": 14,
+            "occurrence_index": 0,
+            "start": 44.1,
+            "end": 47.1,
+            "lyric": "Tronco prayed to the toothed wheel"
+        },
+        {
+            "id": "line_15_occ_0",
+            "line_index": 15,
+            "occurrence_index": 0,
+            "start": 47.1,
+            "end": 51.62,
+            "lyric": "And I just sat there, thinking \"this is surreal\""
         },
         {
             "id": "line_16_occ_0",
             "line_index": 16,
             "occurrence_index": 0,
-            "start": 54.26,
-            "end": 55.62,
+            "start": 51.62,
+            "end": 65.4,
+            "lyric": "RUN, GRALHA, RUN!"
+        },
+        {
+            "id": "line_17_occ_0",
+            "line_index": 17,
+            "occurrence_index": 0,
+            "start": 65.4,
+            "end": 67.4,
+            "lyric": "The baby fire mustn't die!"
+        },
+        {
+            "id": "line_18_occ_0",
+            "line_index": 18,
+            "occurrence_index": 0,
+            "start": 67.4,
+            "end": 69.4,
+            "lyric": "RUN, GRALHA, RUN!"
+        },
+        {
+            "id": "line_19_occ_0",
+            "line_index": 19,
+            "occurrence_index": 0,
+            "start": 69.4,
+            "end": 71.4,
+            "lyric": "Reach the new pile, touch the sky!"
+        },
+        {
+            "id": "line_20_occ_0",
+            "line_index": 20,
+            "occurrence_index": 0,
+            "start": 71.4,
+            "end": 73.4,
             "lyric": "\"...again.\""
         }
     ]

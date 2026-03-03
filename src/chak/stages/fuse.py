@@ -150,6 +150,211 @@ def flatten_words(alignment: dict[str, Any]) -> list[dict[str, Any]]:
     return words
 
 
+def build_segment_word_index(
+    alignment: dict[str, Any],
+) -> dict[str, list[dict[str, Any]]]:
+    """Build a mapping from canonical lyric text → list of segment occurrences.
+
+    Each alignment segment has a `text` field (the canonical line) and a
+    `words` list. This builds a lookup so the fuse stage can grab the
+    exact words for a canonical line without time-range slicing.
+
+    Returns {text: [{"words": [...], "start": float, "end": float}, ...]}.
+    Multiple occurrences (chorus repeats) are stored as separate entries.
+
+    Only canonical-source words are included (ad-libs are filtered out
+    to prevent chorus repeats / stray words from corrupting the display).
+    """
+    index: dict[str, list[dict[str, Any]]] = {}
+    for seg in alignment.get("segments", []):
+        text = seg.get("text", "").strip()
+        if not text:
+            continue
+        words = []
+        for w in seg.get("words", []):
+            # Only include canonical words — ad-libs are unreliable
+            # (often chorus repeats or stray detections)
+            if w.get("source") == "ad-lib":
+                continue
+            words.append({
+                "start": w["start"],
+                "end": w["end"],
+                "text": w.get("text", w.get("word", "")),
+            })
+        if words:
+            index.setdefault(text, []).append({
+                "words": words,
+                "start": seg["start"],
+                "end": seg["end"],
+            })
+    return index
+
+
+def build_segment_all_words_index(
+    alignment: dict[str, Any],
+) -> dict[str, list[dict[str, Any]]]:
+    """Build a mapping from canonical lyric text → list of ALL-word occurrences.
+
+    Unlike build_segment_word_index (canonical-only), this includes ad-libs
+    so they can serve as timing anchors for hybrid word timing.
+    Returns {text: [{"words": [...], "start": float, "end": float}, ...]}.
+    Multiple occurrences (chorus repeats) are stored as separate entries.
+    """
+    index: dict[str, list[dict[str, Any]]] = {}
+    for seg in alignment.get("segments", []):
+        text = seg.get("text", "").strip()
+        if not text:
+            continue
+        words = []
+        for w in seg.get("words", []):
+            words.append({
+                "start": w["start"],
+                "end": w["end"],
+                "text": w.get("text", w.get("word", "")),
+                "source": w.get("source", ""),
+            })
+        if words:
+            index.setdefault(text, []).append({
+                "words": words,
+                "start": seg["start"],
+                "end": seg["end"],
+            })
+    return index
+
+
+def _pick_best_occurrence(
+    occurrences: list[dict[str, Any]],
+    target_start: float,
+    target_end: float,
+) -> dict[str, Any] | None:
+    """Pick the occurrence whose time range best overlaps the target range.
+
+    When the same lyric appears multiple times (chorus repeats), each
+    occurrence has different alignment timestamps. We pick the one whose
+    segment range is closest to the fused entry's matched timing.
+    """
+    if not occurrences:
+        return None
+    if len(occurrences) == 1:
+        return occurrences[0]
+
+    best = None
+    best_score = -1.0
+    for occ in occurrences:
+        occ_start = occ["start"]
+        occ_end = occ["end"]
+        # Score by overlap with target range
+        overlap_start = max(occ_start, target_start)
+        overlap_end = min(occ_end, target_end)
+        overlap = max(0.0, overlap_end - overlap_start)
+        # Also consider proximity (distance between midpoints)
+        occ_mid = (occ_start + occ_end) / 2
+        target_mid = (target_start + target_end) / 2
+        proximity = 1.0 / (1.0 + abs(occ_mid - target_mid))
+        score = overlap + proximity
+        if score > best_score:
+            best_score = score
+            best = occ
+    return best
+
+
+def _clean_word(text: str) -> str:
+    """Normalize a word for comparison: lowercase, strip punctuation."""
+    return text.strip().lower().rstrip(".,!?;:'\"()-").lstrip("'\"(")
+
+
+def hybrid_words_from_partial(
+    lyric: str,
+    seg_info: dict[str, Any],
+) -> list[WordTiming]:
+    """Build word timings using available words as anchors, interpolating gaps.
+
+    Maps segment words (canonical + ad-lib) to positions in the canonical
+    text by text matching. Uses matched words as timing anchors, interpolates
+    unmatched positions proportionally between surrounding anchors.
+
+    This preserves the natural singing rhythm for words we DO have timestamps
+    for, while distributing the rest naturally in between.
+    """
+    canonical_texts = lyric.split()
+    n = len(canonical_texts)
+    if not canonical_texts:
+        return []
+
+    seg_words = seg_info["words"]
+    seg_start = seg_info["start"]
+    seg_end = seg_info["end"]
+
+    if not seg_words:
+        return synthesize_words_from_lyric(lyric, seg_start, seg_end)
+
+    # Map each segment word to its best position in canonical text
+    anchors: dict[int, dict[str, float]] = {}  # position → {start, end}
+    used_positions: set[int] = set()
+
+    for sw in seg_words:
+        sw_clean = _clean_word(sw["text"])
+        if not sw_clean:
+            continue
+        # Find first unmatched position whose text matches
+        for pos in range(n):
+            if pos in used_positions:
+                continue
+            if _clean_word(canonical_texts[pos]) == sw_clean:
+                anchors[pos] = {"start": sw["start"], "end": sw["end"]}
+                used_positions.add(pos)
+                break
+
+    if not anchors:
+        return synthesize_words_from_lyric(lyric, seg_start, seg_end)
+
+    sorted_anchor_positions = sorted(anchors.keys())
+
+    result: list[WordTiming] = []
+    for i in range(n):
+        if i in anchors:
+            result.append(WordTiming(
+                start=round(anchors[i]["start"], 3),
+                end=round(anchors[i]["end"], 3),
+                text=canonical_texts[i],
+            ))
+        else:
+            # Interpolate between surrounding anchors (or segment boundaries)
+            prev_pos = None
+            next_pos = None
+            for ap in sorted_anchor_positions:
+                if ap < i:
+                    prev_pos = ap
+                elif ap > i:
+                    next_pos = ap
+                    break
+
+            # Determine interpolation range
+            if prev_pos is not None:
+                range_start = anchors[prev_pos]["end"]
+                gap_start_idx = prev_pos + 1
+            else:
+                range_start = seg_start
+                gap_start_idx = 0
+
+            if next_pos is not None:
+                range_end = anchors[next_pos]["start"]
+                gap_end_idx = next_pos
+            else:
+                range_end = seg_end
+                gap_end_idx = n
+
+            gap_count = max(1, gap_end_idx - gap_start_idx)
+            position_in_gap = i - gap_start_idx
+            per_word = (range_end - range_start) / gap_count
+
+            ws = round(range_start + per_word * position_in_gap, 3)
+            we = round(range_start + per_word * (position_in_gap + 1), 3)
+            result.append(WordTiming(start=ws, end=we, text=canonical_texts[i]))
+
+    return result
+
+
 def words_for_range(
     all_words: list[dict[str, Any]],
     start: float,
@@ -256,30 +461,64 @@ def build_media_array(
     end: float,
     manifest: dict[str, Any] | None,
     beats: list[float] | None = None,
+    structure: dict[str, Any] | None = None,
 ) -> list[MediaEntry]:
     """Build media entries for a timeline segment.
 
-    When beat timestamps are provided, image transitions are synced
-    to musical beats. Otherwise, distributes evenly across duration.
-    The number of images used is min(available prompts, beats + 1).
+    Uses musical structure analysis for emotionally intelligent pacing:
+    - High energy: rapid image cycling (1-4s hold)
+    - Low energy: images breathe (8-15s hold)
+    - Section boundaries: new establishing shots
+    Falls back to beat-based or even distribution when no structure data.
     """
     if not media_queries:
         return []
 
-    # Beat-aware: determine how many images and their offsets
     from chak.utils.beats import beats_in_range
+
+    duration = max(0.0, end - start)
     line_beats = beats_in_range(beats, start, end) if beats else []
 
-    if line_beats:
-        # Use beats to determine image count and offsets
+    if structure:
+        # Structure-aware pacing
+        from chak.utils.structure import get_avg_intensity
+        avg_intensity = get_avg_intensity(structure, start, end)
+
+        # Map intensity to hold duration:
+        # intensity 0.0 → 15s, intensity 1.0 → 1.5s
+        min_hold = 1.5
+        max_hold = 15.0
+        hold_duration = max_hold - avg_intensity * (max_hold - min_hold)
+
+        # How many images fit in this line?
+        n_images = max(1, min(len(media_queries), int(duration / hold_duration) + 1))
+
+        # Check if this line contains a section boundary (transition point)
+        is_transition = any(
+            start <= tp <= end
+            for tp in structure.get("transition_points", [])
+        )
+
+        # Place image changes at nearest beats
+        if line_beats and n_images > 1:
+            # Pick beats that best distribute n_images-1 transitions
+            selected_beats = _pick_distributed_beats(line_beats, n_images - 1)
+            offsets = [0.0] + [round(b - start, 2) for b in selected_beats]
+        else:
+            # Even distribution within the line
+            step = duration / n_images if n_images > 1 else 0.0
+            offsets = [round(step * i, 2) for i in range(n_images)]
+
+        selected_queries = media_queries[:n_images]
+    elif line_beats:
+        # Beat-aware fallback (no structure data)
         n_images = min(len(media_queries), len(line_beats) + 1)
         selected_queries = media_queries[:n_images]
         offsets = [0.0] + [round(b - start, 2) for b in line_beats[:n_images - 1]]
     else:
-        # Fallback: even distribution
+        # Even distribution fallback
         selected_queries = media_queries
         n_images = len(selected_queries)
-        duration = max(0.0, end - start)
         step = duration / n_images if n_images > 1 else 0.0
         offsets = [round(step * i, 2) for i in range(n_images)]
 
@@ -317,6 +556,20 @@ def build_media_array(
             ))
 
     return entries
+
+
+def _pick_distributed_beats(
+    beats: list[float],
+    n: int,
+) -> list[float]:
+    """Pick n beats that are as evenly distributed as possible."""
+    if n <= 0 or not beats:
+        return []
+    if n >= len(beats):
+        return beats[:n]
+    # Pick evenly spaced indices
+    step = len(beats) / n
+    return [beats[int(i * step)] for i in range(n)]
 
 
 def _find_closest_concept(
@@ -360,15 +613,23 @@ def _interpolate_timing(
     prev_end = 0.0
     for j in range(line_index - 1, -1, -1):
         if j in matched_timing:
-            prev_end = matched_timing[j][0]["end"]
+            # Use the latest occurrence that ends before or near this position
+            best = max(occ["end"] for occ in matched_timing[j])
+            prev_end = best
             break
 
-    # Find nearest matched line AFTER this one
+    # Find nearest matched line AFTER this one — pick the occurrence
+    # that starts AFTER prev_end (not the earliest overall, which may
+    # be from an earlier repeat/chorus).
     next_start = None
     for j in range(line_index + 1, num_lines):
         if j in matched_timing:
-            next_start = matched_timing[j][0]["start"]
-            break
+            for occ in sorted(matched_timing[j], key=lambda o: o["start"]):
+                if occ["start"] >= prev_end:
+                    next_start = occ["start"]
+                    break
+            if next_start is not None:
+                break
 
     if next_start is not None and next_start > prev_end:
         # Find the contiguous gap of unmatched lines containing this one
@@ -385,16 +646,272 @@ def _interpolate_timing(
         start = round(prev_end + per_line * position, 2)
         end = round(start + per_line, 2)
     elif next_start is None:
-        # No matched line after — estimate 2s per line
-        start = round(prev_end + 0.5, 2)
-        end = round(start + 2.0, 2)
-        prev_end = end  # chain subsequent missing lines
+        # No matched line after — space trailing unmatched lines evenly.
+        # Find the contiguous trailing gap to assign each line a position.
+        gap_first = line_index
+        while gap_first > 0 and (gap_first - 1) not in matched_timing:
+            gap_first -= 1
+        total_in_gap = num_lines - gap_first
+        position = line_index - gap_first
+        per_line = 3.5  # typical singing line duration
+        start = round(prev_end + per_line * position, 2)
+        end = round(start + per_line, 2)
     else:
         # next_start <= prev_end (shouldn't happen)
         start = round(prev_end + 0.1, 2)
         end = round(start + 1.0, 2)
 
     return start, end
+
+
+import re
+
+_SENTENCE_SPLIT_RE = re.compile(
+    r'(?<=[.!?;:])\s+'   # split after sentence-ending punctuation
+    r'|'
+    r'(?<=\)),\s+'        # split after closing paren + comma
+)
+
+MAX_DISPLAY_WORDS = 8
+
+
+def _split_long_entries(
+    timeline: list[FusedTimelineEntry],
+    max_words: int = MAX_DISPLAY_WORDS,
+) -> list[FusedTimelineEntry]:
+    """Split timeline entries with too many words into sentence-level chunks.
+
+    Long narration paragraphs are broken at sentence boundaries so the
+    player displays one sentence at a time instead of a text wall.
+    Loops until ALL entries are within max_words.
+    """
+    changed = True
+    while changed:
+        changed = False
+        result: list[FusedTimelineEntry] = []
+
+        for entry in timeline:
+            words = entry.words
+            if len(words) <= max_words:
+                result.append(entry)
+                continue
+
+            changed = True
+
+            # Split the lyric text into sentence-level chunks
+            chunks = _SENTENCE_SPLIT_RE.split(entry.lyric)
+            # If regex didn't split (no sentence boundaries), try comma
+            if len(chunks) <= 1:
+                chunks = [c.strip() for c in entry.lyric.split(', ') if c.strip()]
+            # If still just one chunk, split by word count
+            if len(chunks) <= 1:
+                chunks = _split_by_word_count(entry.lyric, max_words)
+
+            if len(chunks) <= 1:
+                result.append(entry)
+                changed = False  # Can't split further
+                continue
+
+            # Assign words to chunks by matching word texts
+            word_idx = 0
+            for ci, chunk in enumerate(chunks):
+                chunk_word_texts = chunk.split()
+                n = len(chunk_word_texts)
+
+                chunk_words = list(words[word_idx:word_idx + n])
+                word_idx += n
+
+                if not chunk_words:
+                    continue
+
+                # Realign word texts to match chunk text (splitting
+                # at commas strips trailing punctuation from lyric)
+                for wi, cwt in enumerate(chunk_word_texts):
+                    if wi < len(chunk_words) and chunk_words[wi].text != cwt:
+                        chunk_words[wi] = WordTiming(
+                            start=chunk_words[wi].start,
+                            end=chunk_words[wi].end,
+                            text=cwt,
+                        )
+
+                chunk_start = chunk_words[0].start
+                chunk_end = chunk_words[-1].end
+
+                # Only first chunk gets media and meaning
+                chunk_media = entry.media if ci == 0 else []
+                chunk_meaning = entry.real_meaning if ci == 0 else ""
+
+                result.append(FusedTimelineEntry(
+                    id=f"{entry.id}_s{ci}",
+                    start=chunk_start,
+                    end=chunk_end,
+                    lyric=chunk,
+                    real_meaning=chunk_meaning,
+                    media=chunk_media,
+                    words=chunk_words,
+                ))
+
+        timeline = result
+
+    return timeline
+
+
+def _split_by_word_count(text: str, max_words: int) -> list[str]:
+    """Split text into chunks of approximately *max_words* words."""
+    all_words = text.split()
+    chunks = []
+    for i in range(0, len(all_words), max_words):
+        chunk = " ".join(all_words[i:i + max_words])
+        chunks.append(chunk)
+    return chunks
+
+
+MIN_ENTRY_DURATION = 0.3  # Absolute minimum seconds per entry
+
+
+def _enforce_minimum_duration(
+    timeline: list[FusedTimelineEntry],
+) -> list[FusedTimelineEntry]:
+    """Spread out zero/tiny-duration entries that pile up at the same time.
+
+    When the timeline stage matches multiple lines to the same point (e.g.
+    all at 12.1s), the fused entries have zero duration and overlap. This
+    spreads them evenly across the gap to the next distinct entry.
+    """
+    if not timeline:
+        return timeline
+
+    # Sort by start time first
+    timeline.sort(key=lambda e: e.start)
+
+    # Find clusters of entries with identical or near-identical start times
+    i = 0
+    while i < len(timeline):
+        # Find consecutive entries that start within 0.1s — cluster even
+        # if some have non-zero duration (they need re-spacing too)
+        cluster_start = i
+        cluster_end = i + 1
+        needs_fix = timeline[i].end - timeline[i].start < MIN_ENTRY_DURATION
+        while (
+            cluster_end < len(timeline)
+            and timeline[cluster_end].start - timeline[cluster_start].start < 0.1
+        ):
+            dur = timeline[cluster_end].end - timeline[cluster_end].start
+            if dur < MIN_ENTRY_DURATION:
+                needs_fix = True
+            cluster_end += 1
+
+        # Also mark as needing fix if all entries share same start+end
+        # (stacked interpolated entries)
+        if cluster_end - cluster_start > 1 and not needs_fix:
+            starts = {round(timeline[j].start, 2) for j in range(cluster_start, cluster_end)}
+            ends = {round(timeline[j].end, 2) for j in range(cluster_start, cluster_end)}
+            if len(starts) == 1 and len(ends) == 1:
+                needs_fix = True
+
+        cluster_size = cluster_end - cluster_start
+        if cluster_size > 1 and needs_fix:
+            # Multiple entries piled up — spread them out
+            range_start = timeline[cluster_start].start
+            # Find the next entry after the cluster for the upper bound
+            if cluster_end < len(timeline):
+                range_end = timeline[cluster_end].start
+            else:
+                # Last cluster — estimate duration
+                range_end = range_start + cluster_size * 2.0
+
+            if range_end <= range_start:
+                range_end = range_start + cluster_size * 2.0
+
+            per_entry = (range_end - range_start) / cluster_size
+
+            for ci in range(cluster_size):
+                idx = cluster_start + ci
+                entry = timeline[idx]
+                new_start = round(range_start + per_entry * ci, 3)
+                new_end = round(range_start + per_entry * (ci + 1), 3)
+
+                # Rebuild word timings for the new range
+                new_words = synthesize_words_from_lyric(
+                    entry.lyric, new_start, new_end,
+                )
+
+                timeline[idx] = FusedTimelineEntry(
+                    id=entry.id,
+                    start=new_start,
+                    end=new_end,
+                    lyric=entry.lyric,
+                    real_meaning=entry.real_meaning,
+                    media=entry.media,
+                    words=new_words,
+                )
+
+            i = cluster_end
+        elif (
+            timeline[i].end - timeline[i].start < MIN_ENTRY_DURATION
+            and len(timeline[i].words) > 0
+        ):
+            # Single entry with too-short duration
+            entry = timeline[i]
+            n_words = len(entry.lyric.split()) if entry.lyric else 1
+            min_dur = max(MIN_ENTRY_DURATION, n_words * 0.25)
+            new_end = entry.start + min_dur
+
+            # Don't overlap with next entry
+            if i + 1 < len(timeline) and new_end > timeline[i + 1].start:
+                new_end = timeline[i + 1].start
+
+            if new_end > entry.start:
+                new_words = synthesize_words_from_lyric(
+                    entry.lyric, entry.start, new_end,
+                )
+                timeline[i] = FusedTimelineEntry(
+                    id=entry.id,
+                    start=entry.start,
+                    end=round(new_end, 3),
+                    lyric=entry.lyric,
+                    real_meaning=entry.real_meaning,
+                    media=entry.media,
+                    words=new_words,
+                )
+            i += 1
+        else:
+            i += 1
+
+    return timeline
+
+
+def _resolve_overlaps(
+    timeline: list[FusedTimelineEntry],
+) -> list[FusedTimelineEntry]:
+    """Resolve overlapping entries by clipping earlier entries.
+
+    When timeline matching produces overlapping entries (e.g., from loose
+    similarity thresholds), clip the earlier entry's end to the later
+    entry's start so no two entries overlap in the player.
+    """
+    if len(timeline) < 2:
+        return timeline
+
+    timeline.sort(key=lambda e: e.start)
+
+    for i in range(len(timeline) - 1):
+        if timeline[i].end > timeline[i + 1].start:
+            entry = timeline[i]
+            new_end = timeline[i + 1].start
+            if new_end <= entry.start:
+                new_end = entry.start + 0.1  # minimal duration
+            timeline[i] = FusedTimelineEntry(
+                id=entry.id,
+                start=entry.start,
+                end=round(new_end, 3),
+                lyric=entry.lyric,
+                real_meaning=entry.real_meaning,
+                media=entry.media,
+                words=synthesize_words_from_lyric(entry.lyric, entry.start, new_end),
+            )
+
+    return timeline
 
 
 # ── Track object assembly ───────────────────────────────
@@ -427,6 +944,8 @@ def build_track_object(
     # ── Step 0: Load Whisper word-level alignment (if available) ──
     alignment = load_alignment_for_track(album_dir, track_id)
     all_words = flatten_words(alignment) if alignment else []
+    seg_word_index = build_segment_word_index(alignment) if alignment else {}
+    seg_all_index = build_segment_all_words_index(alignment) if alignment else {}
     if all_words:
         logger.info(
             "%s: loaded %d Whisper words for karaoke timing",
@@ -440,6 +959,17 @@ def build_track_object(
         logger.info(
             "%s: loaded %d beat timestamps for media sync",
             track_id, len(track_beats),
+        )
+
+    # ── Step 0c: Load musical structure analysis (if available) ──
+    from chak.utils.structure import load_structure
+    track_structure = load_structure(track_id, album_dir)
+    if track_structure:
+        logger.info(
+            "%s: loaded structure data (%d sections, %d transitions)",
+            track_id,
+            len(track_structure.get("sections", [])),
+            len(track_structure.get("transition_points", [])),
         )
 
     # ── Step 1: Index timeline entries by canonical line_index ──
@@ -457,6 +987,21 @@ def build_track_object(
             })
         else:
             instrumental_entries.append(entry)
+
+    # Filter out failed alignment segments from matched_timing.
+    # Criteria: zero-duration OR too compressed for the line's word count.
+    # When stable-ts can't align a segment, it sets start ≈ end (usually
+    # at the audio end). These should fall through to interpolation.
+    for li in list(matched_timing.keys()):
+        lyric = lines[li].get("lyric", "") if li < len(lines) else ""
+        n_words = max(1, len(lyric.split()))
+        min_duration = max(0.05, n_words * 0.1)  # at least 0.1s/word
+        matched_timing[li] = [
+            occ for occ in matched_timing[li]
+            if abs(occ["end"] - occ["start"]) >= min_duration
+        ]
+        if not matched_timing[li]:
+            del matched_timing[li]
 
     # Merge consecutive segments that matched the same canonical line.
     # Whisper may split a long spoken sentence into multiple segments
@@ -503,17 +1048,60 @@ def build_track_object(
             # Line has Whisper match(es) — create entry for each occurrence
             for occ_data in matched_timing[li]:
                 start, end = occ_data["start"], occ_data["end"]
-                # Use real Whisper word timestamps (like old pipeline),
-                # fall back to synthesis only if no Whisper data available.
-                whisper_in_range = words_for_range(all_words, start, end)
-                if whisper_in_range:
+                # Prefer segment words (exact per-line alignment) over
+                # time-range slicing which can bleed across lines.
+                # Pick the occurrence whose time range matches this entry.
+                seg_occs = seg_word_index.get(lyric_text, [])
+                seg_best = _pick_best_occurrence(seg_occs, start, end)
+                seg_words = seg_best["words"] if seg_best else []
+                lyric_word_count = len(lyric_text.split()) if lyric_text else 0
+                if seg_words and len(seg_words) >= lyric_word_count * 0.7:
+                    # Good canonical coverage — use them directly
                     words = [
                         WordTiming(start=w["start"], end=w["end"], text=w["text"])
-                        for w in whisper_in_range
+                        for w in seg_words
                     ]
+                    # Pad missing tail words (when seg was clipped short)
+                    if len(words) < lyric_word_count and lyric_text:
+                        canon_texts = lyric_text.split()
+                        tail_start = words[-1].end
+                        tail_end = end
+                        tail_texts = canon_texts[len(words):]
+                        if tail_texts:
+                            # If no room, extend by 0.3s per missing word
+                            if tail_end <= tail_start:
+                                tail_end = tail_start + len(tail_texts) * 0.3
+                            per_w = (tail_end - tail_start) / len(tail_texts)
+                            for ti, tw in enumerate(tail_texts):
+                                words.append(WordTiming(
+                                    start=round(tail_start + per_w * ti, 3),
+                                    end=round(tail_start + per_w * (ti + 1), 3),
+                                    text=tw,
+                                ))
                 else:
-                    words = synthesize_words_from_lyric(lyric_text, start, end)
-                media = build_media_array(media_queries, start, end, manifest, beats=track_beats)
+                    # Try hybrid: use ALL words (canonical + ad-lib) as
+                    # timing anchors and interpolate the gaps naturally.
+                    all_occs = seg_all_index.get(lyric_text, [])
+                    seg_all = _pick_best_occurrence(all_occs, start, end)
+                    if seg_all and seg_all["words"]:
+                        words = hybrid_words_from_partial(lyric_text, seg_all)
+                    else:
+                        words = synthesize_words_from_lyric(lyric_text, start, end)
+                # Adjust entry timing to match actual word boundaries:
+                # - Tighten START: segments can start early due to ad-libs
+                #   (e.g. "dum dum" before the lyric), causing text to
+                #   appear too early.
+                # - Extend END: timeline may clip end to first canonical
+                #   word, but hybrid timing fills the full segment range.
+                if words:
+                    word_start = words[0].start
+                    word_end = words[-1].end
+                    if word_start > start + 0.5:
+                        start = round(word_start - 0.2, 3)  # small pre-roll
+                    if word_end > end + 0.1:
+                        end = round(word_end, 3)
+
+                media = build_media_array(media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
 
                 fused_timeline.append(FusedTimelineEntry(
                     id=occ_data["id"],
@@ -528,7 +1116,7 @@ def build_track_object(
             # Line has NO Whisper match — interpolate timing, synthetic words
             start, end = _interpolate_timing(li, len(lines), matched_timing)
             words = synthesize_words_from_lyric(lyric_text, start, end)
-            media = build_media_array(media_queries, start, end, manifest, beats=track_beats)
+            media = build_media_array(media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
 
             fused_timeline.append(FusedTimelineEntry(
                 id=f"line_{li}_interp",
@@ -557,7 +1145,7 @@ def build_track_object(
         meaning, mq = _resolve_instrumental_context(
             inst_entry, lines, semantic_index,
         )
-        media = build_media_array(mq, inst_start, inst_end, manifest, beats=track_beats)
+        media = build_media_array(mq, inst_start, inst_end, manifest, beats=track_beats, structure=track_structure)
         inst_lyric = inst_entry.get("lyric", "")
         whisper_in_range = words_for_range(all_words, inst_start, inst_end)
         words = [
@@ -575,13 +1163,36 @@ def build_track_object(
             words=words,
         ))
 
+    # ── Step 3b: Split long entries into sentence-level chunks ──
+    fused_timeline = _split_long_entries(fused_timeline)
+
+    # ── Step 3c: Enforce minimum duration for zero/tiny entries ──
+    fused_timeline = _enforce_minimum_duration(fused_timeline)
+
+    # ── Step 3d: Resolve overlapping entries ──
+    fused_timeline = _resolve_overlaps(fused_timeline)
+
     # ── Step 4: Sort everything by start time ──
     fused_timeline.sort(key=lambda e: e.start)
+
+    # ── Step 5: Include beat & energy data for frontend sync ──
+    beat_times_out: list[float] = []
+    energy_curve_out: list[list[float]] = []
+    bpm_out: float = 0.0
+
+    if track_beats:
+        beat_times_out = [round(b, 3) for b in track_beats]
+    if track_structure:
+        energy_curve_out = track_structure.get("energy_curve", [])
+        bpm_out = track_structure.get("bpm", 0.0)
 
     return FusedTrackData(
         id=track_id,
         album_id=album_id,
         timeline=fused_timeline,
+        beat_times=beat_times_out,
+        energy_curve=energy_curve_out,
+        bpm=bpm_out,
     )
 
 

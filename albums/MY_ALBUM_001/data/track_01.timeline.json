@@ -5,40 +5,24 @@
             "id": "line_0_occ_0",
             "line_index": 0,
             "occurrence_index": 0,
-            "start": 0.0,
-            "end": 5.2,
-            "lyric": "When I pressed play on the time machine (which was actually a British phone booth painted green, don't ask), my only intention was to grab some cool rocks and see a dinosaur before dinner."
-        },
-        {
-            "id": "line_0_occ_1",
-            "line_index": 0,
-            "occurrence_index": 1,
-            "start": 5.76,
-            "end": 11.6,
+            "start": 0.2,
+            "end": 11.663,
             "lyric": "When I pressed play on the time machine (which was actually a British phone booth painted green, don't ask), my only intention was to grab some cool rocks and see a dinosaur before dinner."
         },
         {
             "id": "line_1_occ_0",
             "line_index": 1,
             "occurrence_index": 0,
-            "start": 11.92,
-            "end": 19.12,
-            "lyric": "I landed in a valley of moss and smoke. Smell of rain, fire in the air. And there he was: the first human I'd ever seen. Crouched by a pile of stones, blowing on a twig like his life depended on it. And it did."
-        },
-        {
-            "id": "line_1_occ_1",
-            "line_index": 1,
-            "occurrence_index": 1,
-            "start": 19.68,
-            "end": 23.6,
+            "start": 12.032,
+            "end": 27.106,
             "lyric": "I landed in a valley of moss and smoke. Smell of rain, fire in the air. And there he was: the first human I'd ever seen. Crouched by a pile of stones, blowing on a twig like his life depended on it. And it did."
         },
         {
             "id": "line_2_occ_0",
             "line_index": 2,
             "occurrence_index": 0,
-            "start": 23.9,
-            "end": 29.2,
+            "start": 27.807,
+            "end": 29.168,
             "lyric": "Let's call him Gralha."
         }
     ]

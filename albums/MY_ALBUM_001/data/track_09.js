@@ -4,31 +4,26 @@ var track_09_data = {
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "line_0_occ_0",
-            "start": 0.0,
-            "end": 7.67,
-            "lyric": "When I got home, I sat on the couch and stared at the ceiling. The hedgehog chewing on my shoes.",
-            "real_meaning": "Full circle — back where we started, but now we understand the pattern. Revolution is still biting the shoes.",
+            "id": "line_0_occ_0_s0_s0",
+            "start": 0.4,
+            "end": 1.046,
+            "lyric": "When I got home",
+            "real_meaning": "Full circle â€” back where we started, but now we understand the pattern. Revolution is still biting the shoes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0132.jpg",
+                    "url": "media/c0396.jpg",
                     "query": "person on couch in warm lamplight with a hedgehog on the floor, peaceful return home, cinematic"
                 },
                 {
-                    "offset": 0.72,
+                    "offset": 0.85,
                     "url": "media/c0397.jpg",
                     "query": "A small paw gently grips a lace, tugging at the shoe, in the soft glow of a nearby lamp."
-                },
-                {
-                    "offset": 1.25,
-                    "url": "media/c0398.jpg",
-                    "query": "Warm hues swirl as the ceiling spins, evoking a sense of cycles and growth amidst shadows."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
+                    "start": 0.4,
                     "end": 0.48,
                     "text": "When"
                 },
@@ -39,26 +34,36 @@ var track_09_data = {
                 },
                 {
                     "start": 0.62,
-                    "end": 0.82,
+                    "end": 0.695,
                     "text": "got"
                 },
                 {
-                    "start": 0.82,
-                    "end": 1.16,
-                    "text": "home,"
-                },
+                    "start": 0.992,
+                    "end": 1.046,
+                    "text": "home"
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s0_s1_s0",
+            "start": 1.046,
+            "end": 3.6,
+            "lyric": "I sat on the couch and stared at",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 1.34,
-                    "end": 1.88,
+                    "start": 1.046,
+                    "end": 1.86,
                     "text": "I"
                 },
                 {
-                    "start": 1.88,
-                    "end": 2.16,
+                    "start": 1.86,
+                    "end": 2.18,
                     "text": "sat"
                 },
                 {
-                    "start": 2.16,
+                    "start": 2.18,
                     "end": 2.3,
                     "text": "on"
                 },
@@ -68,17 +73,17 @@ var track_09_data = {
                     "text": "the"
                 },
                 {
-                    "start": 2.42,
-                    "end": 2.76,
+                    "start": 2.505,
+                    "end": 2.588,
                     "text": "couch"
                 },
                 {
-                    "start": 2.76,
-                    "end": 3.04,
+                    "start": 2.835,
+                    "end": 3.004,
                     "text": "and"
                 },
                 {
-                    "start": 3.04,
+                    "start": 3.06,
                     "end": 3.44,
                     "text": "stared"
                 },
@@ -86,464 +91,449 @@ var track_09_data = {
                     "start": 3.44,
                     "end": 3.6,
                     "text": "at"
-                },
-                {
-                    "start": 3.6,
-                    "end": 3.74,
-                    "text": "the"
-                },
-                {
-                    "start": 3.74,
-                    "end": 4.12,
-                    "text": "ceiling,"
-                },
-                {
-                    "start": 4.64,
-                    "end": 4.78,
-                    "text": "the"
-                },
-                {
-                    "start": 4.78,
-                    "end": 5.3,
-                    "text": "hedgehog"
-                },
-                {
-                    "start": 5.3,
-                    "end": 5.66,
-                    "text": "chewing"
-                },
-                {
-                    "start": 5.66,
-                    "end": 5.9,
-                    "text": "on"
-                },
-                {
-                    "start": 5.9,
-                    "end": 6.08,
-                    "text": "my"
-                },
-                {
-                    "start": 6.08,
-                    "end": 6.56,
-                    "text": "shoes,"
-                },
-                {
-                    "start": 6.7,
-                    "end": 7.32,
-                    "text": "and"
-                },
-                {
-                    "start": 7.32,
-                    "end": 7.48,
-                    "text": "I"
-                },
-                {
-                    "start": 7.48,
-                    "end": 7.67,
-                    "text": "thought,"
                 }
             ]
         },
         {
-            "id": "line_2_occ_0",
-            "start": 7.67,
-            "end": 18.84,
-            "lyric": "The lighter was just a lighter. But they made it a totem. A symbol of power. A reason for war.",
-            "real_meaning": "The complete arc — tool becomes symbol becomes weapon. Money, religion, ideology: all lighters without gas.",
+            "id": "line_0_occ_0_s0_s1_s1",
+            "start": 3.6,
+            "end": 4.224,
+            "lyric": "the ceiling.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 3.6,
+                    "end": 3.78,
+                    "text": "the"
+                },
+                {
+                    "start": 3.78,
+                    "end": 4.224,
+                    "text": "ceiling."
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s1",
+            "start": 4.672,
+            "end": 6.4,
+            "lyric": "The hedgehog chewing on my shoes.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 4.672,
+                    "end": 4.78,
+                    "text": "The"
+                },
+                {
+                    "start": 4.975,
+                    "end": 5.056,
+                    "text": "hedgehog"
+                },
+                {
+                    "start": 5.3,
+                    "end": 5.619,
+                    "text": "chewing"
+                },
+                {
+                    "start": 5.835,
+                    "end": 5.9,
+                    "text": "on"
+                },
+                {
+                    "start": 6.065,
+                    "end": 6.12,
+                    "text": "my"
+                },
+                {
+                    "start": 6.333,
+                    "end": 6.4,
+                    "text": "shoes."
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s0",
+            "start": 7.2,
+            "end": 7.988,
+            "lyric": "And I thought...",
+            "real_meaning": "The blunt epiphany â€” stripped of poetry, the truth is simple and profane. We never learn.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0134.jpg",
-                    "query": "cheap plastic lighter displayed in a war museum next to weapons and flags, absurd elevation, cinematic"
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0403.jpg",
-                    "query": "A close-up of a soldier's grimy hands clenching the lighter, veins protruding, knuckles pale."
-                },
-                {
-                    "offset": 1.29,
-                    "url": "media/c0404.jpg",
-                    "query": "A grand, faded battle scene at sunset, a lone lighter ablaze in the foreground"
+                    "url": "media/c0399.jpg",
+                    "query": "person rubbing their face in exhausted realization, raw honest moment, intimate cinematic"
                 }
             ],
             "words": [
                 {
-                    "start": 7.67,
-                    "end": 8.7,
-                    "text": "fuck,"
+                    "start": 7.2,
+                    "end": 7.32,
+                    "text": "And"
                 },
                 {
-                    "start": 9.0,
-                    "end": 9.48,
-                    "text": "it's"
+                    "start": 7.32,
+                    "end": 7.5,
+                    "text": "I"
                 },
                 {
-                    "start": 9.48,
-                    "end": 9.92,
+                    "start": 7.5,
+                    "end": 7.988,
+                    "text": "thought..."
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s1",
+            "start": 8.3,
+            "end": 8.832,
+            "lyric": "fuck.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 8.3,
+                    "end": 8.832,
+                    "text": "fuck."
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s2",
+            "start": 9.219,
+            "end": 10.988,
+            "lyric": "It's always the same shit.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 9.219,
+                    "end": 9.454,
+                    "text": "It's"
+                },
+                {
+                    "start": 9.532,
+                    "end": 9.877,
                     "text": "always"
                 },
                 {
-                    "start": 9.92,
-                    "end": 10.22,
+                    "start": 10.155,
+                    "end": 10.24,
                     "text": "the"
                 },
                 {
-                    "start": 10.22,
+                    "start": 10.608,
                     "end": 10.66,
                     "text": "same"
                 },
                 {
-                    "start": 10.66,
-                    "end": 11.2,
+                    "start": 10.91,
+                    "end": 10.988,
                     "text": "shit."
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s0",
+            "start": 11.744,
+            "end": 13.344,
+            "lyric": "The lighter was just a lighter.",
+            "real_meaning": "The complete arc â€” tool becomes symbol becomes weapon. Money, religion, ideology: all lighters without gas.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0402.jpg",
+                    "query": "cheap plastic lighter displayed in a war museum next to weapons and flags, absurd elevation, cinematic"
                 },
                 {
-                    "start": 11.48,
-                    "end": 11.86,
+                    "offset": 0.63,
+                    "url": "media/c0403.jpg",
+                    "query": "A close-up of a soldier's grimy hands clenching the lighter, veins protruding, knuckles pale."
+                }
+            ],
+            "words": [
+                {
+                    "start": 11.744,
+                    "end": 11.795,
                     "text": "The"
                 },
                 {
-                    "start": 11.86,
+                    "start": 11.955,
                     "end": 12.18,
                     "text": "lighter"
                 },
                 {
-                    "start": 12.18,
+                    "start": 12.245,
                     "end": 12.44,
                     "text": "was"
                 },
                 {
                     "start": 12.44,
-                    "end": 12.68,
+                    "end": 12.505,
                     "text": "just"
                 },
                 {
-                    "start": 12.68,
-                    "end": 12.86,
+                    "start": 12.7,
+                    "end": 12.768,
                     "text": "a"
                 },
                 {
-                    "start": 12.86,
-                    "end": 13.18,
-                    "text": "lighter,"
-                },
+                    "start": 13.286,
+                    "end": 13.344,
+                    "text": "lighter."
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s1",
+            "start": 13.909,
+            "end": 15.308,
+            "lyric": "But they made it a totem.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 13.62,
+                    "start": 13.909,
                     "end": 13.96,
-                    "text": "but"
+                    "text": "But"
                 },
                 {
                     "start": 13.96,
-                    "end": 14.14,
+                    "end": 14.144,
                     "text": "they"
                 },
                 {
-                    "start": 14.14,
+                    "start": 14.205,
                     "end": 14.4,
                     "text": "made"
                 },
                 {
                     "start": 14.4,
-                    "end": 14.54,
+                    "end": 14.452,
                     "text": "it"
                 },
                 {
-                    "start": 14.54,
-                    "end": 14.76,
+                    "start": 14.61,
+                    "end": 14.846,
                     "text": "a"
                 },
                 {
-                    "start": 14.76,
-                    "end": 15.24,
-                    "text": "totem,"
+                    "start": 15.01,
+                    "end": 15.308,
+                    "text": "totem."
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s2",
+            "start": 15.916,
+            "end": 16.76,
+            "lyric": "A symbol of power.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 15.916,
+                    "end": 15.98,
+                    "text": "A"
                 },
                 {
-                    "start": 15.68,
-                    "end": 15.94,
-                    "text": "a"
-                },
-                {
-                    "start": 15.94,
-                    "end": 16.38,
+                    "start": 16.13,
+                    "end": 16.224,
                     "text": "symbol"
                 },
                 {
-                    "start": 16.38,
-                    "end": 16.58,
+                    "start": 16.545,
+                    "end": 16.6,
                     "text": "of"
                 },
                 {
-                    "start": 16.58,
-                    "end": 17.02,
-                    "text": "power,"
+                    "start": 16.669,
+                    "end": 16.76,
+                    "text": "power."
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s3",
+            "start": 17.737,
+            "end": 18.586,
+            "lyric": "A reason for war.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 17.737,
+                    "end": 17.8,
+                    "text": "A"
                 },
                 {
-                    "start": 17.5,
-                    "end": 17.76,
-                    "text": "a"
-                },
-                {
-                    "start": 17.76,
-                    "end": 18.16,
+                    "start": 17.8,
+                    "end": 18.138,
                     "text": "reason"
                 },
                 {
-                    "start": 18.16,
-                    "end": 18.42,
+                    "start": 18.37,
+                    "end": 18.44,
                     "text": "for"
                 },
                 {
-                    "start": 18.42,
-                    "end": 18.84,
+                    "start": 18.503,
+                    "end": 18.586,
                     "text": "war."
                 }
             ]
         },
         {
-            "id": "line_1_interp",
-            "start": 7.77,
-            "end": 8.77,
-            "lyric": "And I thought... fuck. It's always the same shit.",
-            "real_meaning": "The blunt epiphany — stripped of poetry, the truth is simple and profane. We never learn.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0133.jpg",
-                    "query": "person rubbing their face in exhausted realization, raw honest moment, intimate cinematic"
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0400.jpg",
-                    "query": "A close-up of hands trembling slightly as they fall from their face."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0401.jpg",
-                    "query": "Golden sunlight filtering through a dusty window onto an empty chair."
-                }
-            ],
-            "words": [
-                {
-                    "start": 7.77,
-                    "end": 7.881,
-                    "text": "And"
-                },
-                {
-                    "start": 7.881,
-                    "end": 7.992,
-                    "text": "I"
-                },
-                {
-                    "start": 7.992,
-                    "end": 8.103,
-                    "text": "thought..."
-                },
-                {
-                    "start": 8.103,
-                    "end": 8.214,
-                    "text": "fuck."
-                },
-                {
-                    "start": 8.214,
-                    "end": 8.326,
-                    "text": "It's"
-                },
-                {
-                    "start": 8.326,
-                    "end": 8.437,
-                    "text": "always"
-                },
-                {
-                    "start": 8.437,
-                    "end": 8.548,
-                    "text": "the"
-                },
-                {
-                    "start": 8.548,
-                    "end": 8.659,
-                    "text": "same"
-                },
-                {
-                    "start": 8.659,
-                    "end": 8.77,
-                    "text": "shit."
-                }
-            ]
-        },
-        {
             "id": "line_3_occ_0",
-            "start": 19.36,
-            "end": 24.44,
+            "start": 19.534,
+            "end": 23.31,
             "lyric": "And today, thousands of years later, what's changed?",
-            "real_meaning": "The question that echoes through time — what has actually changed about the human condition?",
+            "real_meaning": "The question that echoes through time â€” what has actually changed about the human condition?",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0135.jpg",
+                    "url": "media/c0405.jpg",
                     "query": "timeline montage from cave paintings to skyscrapers with identical human expressions, nothing changed, cinematic"
-                },
-                {
-                    "offset": 0.7,
-                    "url": "media/c0406.jpg",
-                    "query": "A close-up of a hand, both ancient and modern painting side by side. The hands are identical in form yet differ in their tools. Warm light illuminates from a source unseen."
-                },
-                {
-                    "offset": 1.31,
-                    "url": "media/c0407.jpg",
-                    "query": "A swirling vortex of faces, all with eyes closed, surrounded by a kaleidoscope of symbols representing the human condition through history."
                 }
             ],
             "words": [
                 {
-                    "start": 19.36,
-                    "end": 19.58,
+                    "start": 19.534,
+                    "end": 20.006,
                     "text": "And"
                 },
                 {
-                    "start": 19.58,
-                    "end": 20.08,
+                    "start": 20.006,
+                    "end": 20.478,
                     "text": "today,"
                 },
                 {
-                    "start": 20.58,
-                    "end": 21.08,
+                    "start": 20.478,
+                    "end": 20.95,
                     "text": "thousands"
                 },
                 {
-                    "start": 21.08,
-                    "end": 21.36,
+                    "start": 20.95,
+                    "end": 21.422,
                     "text": "of"
                 },
                 {
-                    "start": 21.36,
-                    "end": 21.6,
+                    "start": 21.422,
+                    "end": 21.894,
                     "text": "years"
                 },
                 {
-                    "start": 21.6,
-                    "end": 22.02,
+                    "start": 21.894,
+                    "end": 22.366,
                     "text": "later,"
                 },
                 {
-                    "start": 22.64,
-                    "end": 23.0,
+                    "start": 22.366,
+                    "end": 22.838,
                     "text": "what's"
                 },
                 {
-                    "start": 23.0,
-                    "end": 23.5,
+                    "start": 22.838,
+                    "end": 23.31,
                     "text": "changed?"
-                },
-                {
-                    "start": 23.92,
-                    "end": 24.44,
-                    "text": "Nothing."
                 }
             ]
         },
         {
             "id": "line_4_interp",
-            "start": 24.44,
-            "end": 25.0,
+            "start": 23.31,
+            "end": 25.18,
             "lyric": "Nothing.",
-            "real_meaning": "The single-word verdict on human progress — technological giants, psychological infants.",
+            "real_meaning": "The single-word verdict on human progress â€” technological giants, psychological infants.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0136.jpg",
+                    "url": "media/c0408.jpg",
                     "query": "single word NOTHING floating in empty black space, devastating simplicity, minimalist cinematic"
-                },
-                {
-                    "offset": 0.19,
-                    "url": "media/c0409.jpg",
-                    "query": "A desolate robot, crumbling in an endless, abandoned cityscape."
-                },
-                {
-                    "offset": 0.37,
-                    "url": "media/c0410.jpg",
-                    "query": "A swirling vortex of technology and machinery, slowly disintegrating into dust."
                 }
             ],
             "words": [
                 {
-                    "start": 24.44,
-                    "end": 25.0,
+                    "start": 23.31,
+                    "end": 25.18,
                     "text": "Nothing."
                 }
             ]
         },
         {
-            "id": "line_5_occ_0",
-            "start": 25.0,
-            "end": 29.24,
-            "lyric": "The modern Gralha still shouts: 'But the Mage said it was transport!'",
-            "real_meaning": "Still defending the lie — 'but the app said', 'but my guru said', 'but the market said'. Faith in authority persists.",
+            "id": "line_5_occ_0_s0",
+            "start": 25.184,
+            "end": 27.04,
+            "lyric": "The modern Gralha still shouts:",
+            "real_meaning": "Still defending the lie â€” 'but the app said', 'but my guru said', 'but the market said'. Faith in authority persists.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0137.jpg",
+                    "url": "media/c0411.jpg",
                     "query": "modern person shouting at the sky quoting ancient authority, past controlling present, dramatic cinematic"
-                },
-                {
-                    "offset": 0.8,
-                    "url": "media/c0412.jpg",
-                    "query": "A hand clenched around a glowing phone screen, tendons straining, vein bulging as it shakes with fury."
-                },
-                {
-                    "offset": 1.36,
-                    "url": "media/c0413.jpg",
-                    "query": "A swirling vortex of ancient scrolls and circuits spiraling into a black void."
                 }
             ],
             "words": [
                 {
-                    "start": 25.0,
-                    "end": 25.26,
+                    "start": 25.184,
+                    "end": 25.3,
                     "text": "The"
                 },
                 {
-                    "start": 25.26,
-                    "end": 25.66,
+                    "start": 25.395,
+                    "end": 25.609,
                     "text": "modern"
                 },
                 {
-                    "start": 25.66,
-                    "end": 26.1,
-                    "text": "Grella"
+                    "start": 25.68,
+                    "end": 26.12,
+                    "text": "Gralha"
                 },
                 {
-                    "start": 26.1,
-                    "end": 26.44,
+                    "start": 26.205,
+                    "end": 26.396,
                     "text": "still"
                 },
                 {
-                    "start": 26.44,
-                    "end": 26.94,
-                    "text": "shouts,"
+                    "start": 26.46,
+                    "end": 27.04,
+                    "text": "shouts:"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0_s1",
+            "start": 27.54,
+            "end": 29.408,
+            "lyric": "'But the Mage said it was transport!'",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 27.54,
+                    "end": 27.64,
+                    "text": "'But"
                 },
                 {
-                    "start": 27.44,
-                    "end": 27.66,
-                    "text": "but"
-                },
-                {
-                    "start": 27.66,
-                    "end": 27.82,
+                    "start": 27.69,
+                    "end": 27.84,
                     "text": "the"
                 },
                 {
-                    "start": 27.82,
-                    "end": 28.14,
-                    "text": "mage"
+                    "start": 27.84,
+                    "end": 28.12,
+                    "text": "Mage"
                 },
                 {
-                    "start": 28.14,
-                    "end": 28.34,
+                    "start": 28.18,
+                    "end": 28.36,
                     "text": "said"
                 },
                 {
-                    "start": 28.34,
+                    "start": 28.36,
                     "end": 28.46,
                     "text": "it"
                 },
@@ -554,37 +544,32 @@ var track_09_data = {
                 },
                 {
                     "start": 28.6,
-                    "end": 29.24,
-                    "text": "transport."
+                    "end": 29.408,
+                    "text": "transport!'"
                 }
             ]
         },
         {
-            "id": "line_6_occ_0",
-            "start": 29.8,
-            "end": 36.44,
-            "lyric": "And the modern Tronco replies: 'Yeah, but the Mage's lighter was orange and I want a blue one!'",
-            "real_meaning": "Peak futility — arguing about packaging while the product is empty. Color wars over substance.",
+            "id": "line_6_occ_0_s0",
+            "start": 29.88,
+            "end": 31.68,
+            "lyric": "And the modern Tronco replies:",
+            "real_meaning": "Peak futility â€” arguing about packaging while the product is empty. Color wars over substance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0138.jpg",
+                    "url": "media/c0414.jpg",
                     "query": "two people arguing over color swatches while their world crumbles, absurd priorities, satirical cinematic"
                 },
                 {
-                    "offset": 0.59,
+                    "offset": 0.52,
                     "url": "media/c0415.jpg",
                     "query": "close-up detail of And the modern Tronco replies: 'Yeah,, cinematic macro, warm lighting, painterly"
-                },
-                {
-                    "offset": 1.15,
-                    "url": "media/c0416.jpg",
-                    "query": "abstract emotional Peak futility — arguing about packaging, ethereal atmosphere, golden hour, dreamlike"
                 }
             ],
             "words": [
                 {
-                    "start": 29.8,
+                    "start": 29.88,
                     "end": 29.96,
                     "text": "And"
                 },
@@ -595,214 +580,665 @@ var track_09_data = {
                 },
                 {
                     "start": 30.12,
-                    "end": 30.46,
+                    "end": 30.44,
                     "text": "modern"
                 },
                 {
-                    "start": 30.46,
-                    "end": 30.94,
+                    "start": 30.44,
+                    "end": 30.92,
                     "text": "Tronco"
                 },
                 {
-                    "start": 30.94,
-                    "end": 31.44,
-                    "text": "replies,"
-                },
+                    "start": 30.92,
+                    "end": 31.68,
+                    "text": "replies:"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0_s1_s0",
+            "start": 31.911,
+            "end": 32.58,
+            "lyric": "'Yeah",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 32.08,
-                    "end": 32.48,
-                    "text": "yeah,"
-                },
+                    "start": 31.911,
+                    "end": 32.58,
+                    "text": "'Yeah"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0_s1_s1_s0",
+            "start": 33.14,
+            "end": 35.6,
+            "lyric": "but the Mage's lighter was orange and I",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 32.72,
-                    "end": 33.22,
+                    "start": 33.14,
+                    "end": 33.24,
                     "text": "but"
                 },
                 {
-                    "start": 33.22,
-                    "end": 33.4,
+                    "start": 33.24,
+                    "end": 33.38,
                     "text": "the"
                 },
                 {
-                    "start": 33.4,
-                    "end": 33.78,
-                    "text": "mage's"
+                    "start": 33.38,
+                    "end": 33.8,
+                    "text": "Mage's"
                 },
                 {
-                    "start": 33.78,
+                    "start": 33.86,
                     "end": 34.1,
                     "text": "lighter"
                 },
                 {
-                    "start": 34.1,
-                    "end": 34.36,
+                    "start": 34.165,
+                    "end": 34.238,
                     "text": "was"
                 },
                 {
-                    "start": 34.36,
-                    "end": 34.92,
+                    "start": 34.555,
+                    "end": 34.636,
                     "text": "orange"
                 },
                 {
-                    "start": 34.92,
+                    "start": 34.88,
                     "end": 35.36,
                     "text": "and"
                 },
                 {
-                    "start": 35.36,
-                    "end": 35.58,
+                    "start": 35.42,
+                    "end": 35.6,
                     "text": "I"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0_s1_s1_s1",
+            "start": 35.6,
+            "end": 36.577,
+            "lyric": "want a blue one!'",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 35.58,
+                    "start": 35.6,
                     "end": 35.76,
                     "text": "want"
                 },
                 {
                     "start": 35.76,
-                    "end": 35.9,
+                    "end": 35.82,
                     "text": "a"
                 },
                 {
-                    "start": 35.9,
+                    "start": 36.07,
                     "end": 36.12,
                     "text": "blue"
                 },
                 {
-                    "start": 36.12,
-                    "end": 36.44,
-                    "text": "one."
+                    "start": 36.279,
+                    "end": 36.577,
+                    "text": "one!'"
                 }
             ]
         },
         {
             "id": "line_7_occ_0",
-            "start": 36.82,
-            "end": 39.12,
+            "start": 36.96,
+            "end": 39.244,
             "lyric": "The fire is still there. Waiting.",
-            "real_meaning": "The final hope — the stone hasn't moved, the truth hasn't expired, the fire is still free for anyone who stops running.",
+            "real_meaning": "The final hope â€” the stone hasn't moved, the truth hasn't expired, the fire is still free for anyone who stops running.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0139.jpg",
+                    "url": "media/c0417.jpg",
                     "query": "warm fire burning beside a simple stone on the ground, waiting to be found, hopeful cinematic"
-                },
-                {
-                    "offset": 0.66,
-                    "url": "media/c0418.jpg",
-                    "query": "A close-up of the stone, glowing amber in the fire's radiance."
-                },
-                {
-                    "offset": 1.17,
-                    "url": "media/c0419.jpg",
-                    "query": "An aerial view of a solitary traveler approaching the fire through a golden meadow."
                 }
             ],
             "words": [
                 {
-                    "start": 36.82,
-                    "end": 37.04,
+                    "start": 36.96,
+                    "end": 37.06,
                     "text": "The"
                 },
                 {
-                    "start": 37.04,
-                    "end": 37.42,
+                    "start": 37.155,
+                    "end": 37.369,
                     "text": "fire"
                 },
                 {
-                    "start": 37.42,
-                    "end": 37.62,
+                    "start": 37.44,
+                    "end": 37.508,
                     "text": "is"
                 },
                 {
-                    "start": 37.62,
-                    "end": 37.86,
+                    "start": 37.785,
+                    "end": 37.84,
                     "text": "still"
                 },
                 {
-                    "start": 37.86,
-                    "end": 38.22,
-                    "text": "there,"
+                    "start": 37.84,
+                    "end": 38.336,
+                    "text": "there."
                 },
                 {
-                    "start": 38.5,
-                    "end": 39.12,
-                    "text": "waiting,"
+                    "start": 38.972,
+                    "end": 39.244,
+                    "text": "Waiting."
                 }
             ]
         },
         {
-            "id": "line_8_occ_0",
-            "start": 39.88,
-            "end": 42.32,
-            "lyric": "Waiting for someone to remember to strike the stone.",
-            "real_meaning": "The album's last word and its entire message — stop. Look down. The answer was always at your feet. Chak-chak.",
+            "id": "line_8_occ_0_s0",
+            "start": 39.972,
+            "end": 41.92,
+            "lyric": "Waiting for someone to remember to strike the",
+            "real_meaning": "The album's last word and its entire message â€” stop. Look down. The answer was always at your feet. Chak-chak.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0140.jpg",
+                    "url": "media/c0420.jpg",
                     "query": "hand striking stone against stone, sparks flying in the final light, the eternal truth, triumphant cinematic close-up"
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0421.jpg",
-                    "query": "A lone figure's hands glow in the fading light, cupping the ignited stone."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0422.jpg",
-                    "query": "The stone is placed gently on a soft bed of moss; steam rises as it meets dew."
                 }
             ],
             "words": [
                 {
-                    "start": 39.88,
-                    "end": 40.22,
-                    "text": "waiting"
+                    "start": 39.972,
+                    "end": 40.199,
+                    "text": "Waiting"
                 },
                 {
-                    "start": 40.22,
-                    "end": 40.42,
+                    "start": 40.275,
+                    "end": 40.337,
                     "text": "for"
                 },
                 {
-                    "start": 40.42,
-                    "end": 40.68,
+                    "start": 40.635,
+                    "end": 40.7,
                     "text": "someone"
                 },
                 {
-                    "start": 40.68,
-                    "end": 40.88,
+                    "start": 40.85,
+                    "end": 40.9,
                     "text": "to"
                 },
                 {
-                    "start": 40.88,
-                    "end": 41.2,
+                    "start": 41.14,
+                    "end": 41.22,
                     "text": "remember"
                 },
                 {
-                    "start": 41.2,
-                    "end": 41.44,
+                    "start": 41.285,
+                    "end": 41.358,
                     "text": "to"
                 },
                 {
-                    "start": 41.44,
+                    "start": 41.66,
                     "end": 41.72,
                     "text": "strike"
                 },
                 {
-                    "start": 41.72,
+                    "start": 41.77,
                     "end": 41.92,
                     "text": "the"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0_s1",
+            "start": 41.92,
+            "end": 42.37,
+            "lyric": "stone.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
                     "start": 41.92,
-                    "end": 42.32,
+                    "end": 42.37,
                     "text": "stone."
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        0.72,
+        1.254,
+        1.811,
+        2.345,
+        2.949,
+        3.529,
+        4.087,
+        4.714,
+        5.433,
+        6.014,
+        6.594,
+        7.245,
+        7.825,
+        8.336,
+        8.963,
+        9.59,
+        10.147,
+        10.728,
+        11.238,
+        11.773,
+        12.376,
+        12.934,
+        13.491,
+        14.048,
+        14.629,
+        15.232,
+        15.836,
+        16.486,
+        17.067,
+        17.67,
+        18.274,
+        18.855,
+        19.458,
+        20.062,
+        20.666,
+        21.246,
+        21.804,
+        22.361,
+        22.918,
+        23.452,
+        24.056,
+        24.636,
+        25.217,
+        25.797,
+        26.355,
+        26.935,
+        27.585,
+        28.143,
+        28.7,
+        29.28,
+        29.861,
+        30.395,
+        30.952,
+        31.533,
+        32.09,
+        32.624,
+        33.158,
+        33.669,
+        34.226,
+        34.76,
+        35.294,
+        35.944,
+        36.455,
+        36.966,
+        37.477,
+        37.988,
+        38.475,
+        38.963,
+        39.497,
+        40.054,
+        40.588,
+        41.099,
+        41.587,
+        42.075
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.505
+        ],
+        [
+            0.49,
+            0.641
+        ],
+        [
+            0.98,
+            0.687
+        ],
+        [
+            1.46,
+            0.663
+        ],
+        [
+            1.95,
+            0.767
+        ],
+        [
+            2.44,
+            0.748
+        ],
+        [
+            2.93,
+            0.734
+        ],
+        [
+            3.41,
+            0.76
+        ],
+        [
+            3.9,
+            0.629
+        ],
+        [
+            4.39,
+            0.629
+        ],
+        [
+            4.88,
+            0.708
+        ],
+        [
+            5.36,
+            0.826
+        ],
+        [
+            5.85,
+            0.823
+        ],
+        [
+            6.34,
+            0.657
+        ],
+        [
+            6.83,
+            0.581
+        ],
+        [
+            7.31,
+            0.636
+        ],
+        [
+            7.8,
+            0.61
+        ],
+        [
+            8.29,
+            0.572
+        ],
+        [
+            8.78,
+            0.576
+        ],
+        [
+            9.26,
+            0.679
+        ],
+        [
+            9.75,
+            0.781
+        ],
+        [
+            10.24,
+            0.781
+        ],
+        [
+            10.73,
+            0.788
+        ],
+        [
+            11.22,
+            0.627
+        ],
+        [
+            11.7,
+            0.807
+        ],
+        [
+            12.19,
+            0.928
+        ],
+        [
+            12.68,
+            0.728
+        ],
+        [
+            13.17,
+            0.608
+        ],
+        [
+            13.65,
+            0.656
+        ],
+        [
+            14.14,
+            0.738
+        ],
+        [
+            14.63,
+            0.712
+        ],
+        [
+            15.12,
+            0.63
+        ],
+        [
+            15.6,
+            0.664
+        ],
+        [
+            16.09,
+            0.839
+        ],
+        [
+            16.58,
+            0.79
+        ],
+        [
+            17.07,
+            0.596
+        ],
+        [
+            17.55,
+            0.734
+        ],
+        [
+            18.04,
+            0.85
+        ],
+        [
+            18.53,
+            0.73
+        ],
+        [
+            19.02,
+            0.657
+        ],
+        [
+            19.5,
+            0.724
+        ],
+        [
+            19.99,
+            0.746
+        ],
+        [
+            20.48,
+            0.739
+        ],
+        [
+            20.97,
+            0.832
+        ],
+        [
+            21.46,
+            0.821
+        ],
+        [
+            21.94,
+            0.687
+        ],
+        [
+            22.43,
+            0.619
+        ],
+        [
+            22.92,
+            0.698
+        ],
+        [
+            23.41,
+            0.64
+        ],
+        [
+            23.89,
+            0.636
+        ],
+        [
+            24.38,
+            0.644
+        ],
+        [
+            24.87,
+            0.604
+        ],
+        [
+            25.36,
+            0.781
+        ],
+        [
+            25.84,
+            0.861
+        ],
+        [
+            26.33,
+            0.812
+        ],
+        [
+            26.82,
+            0.695
+        ],
+        [
+            27.31,
+            0.658
+        ],
+        [
+            27.79,
+            0.845
+        ],
+        [
+            28.28,
+            0.874
+        ],
+        [
+            28.77,
+            0.769
+        ],
+        [
+            29.26,
+            0.632
+        ],
+        [
+            29.74,
+            0.798
+        ],
+        [
+            30.23,
+            0.984
+        ],
+        [
+            30.72,
+            0.805
+        ],
+        [
+            31.21,
+            0.674
+        ],
+        [
+            31.7,
+            0.595
+        ],
+        [
+            32.18,
+            0.593
+        ],
+        [
+            32.67,
+            0.627
+        ],
+        [
+            33.16,
+            0.768
+        ],
+        [
+            33.65,
+            0.903
+        ],
+        [
+            34.13,
+            0.809
+        ],
+        [
+            34.62,
+            0.726
+        ],
+        [
+            35.11,
+            0.735
+        ],
+        [
+            35.6,
+            0.804
+        ],
+        [
+            36.08,
+            0.775
+        ],
+        [
+            36.57,
+            0.679
+        ],
+        [
+            37.06,
+            0.729
+        ],
+        [
+            37.55,
+            0.847
+        ],
+        [
+            38.03,
+            0.747
+        ],
+        [
+            38.52,
+            0.669
+        ],
+        [
+            39.01,
+            0.665
+        ],
+        [
+            39.5,
+            0.597
+        ],
+        [
+            39.98,
+            0.747
+        ],
+        [
+            40.47,
+            0.88
+        ],
+        [
+            40.96,
+            0.783
+        ],
+        [
+            41.45,
+            0.721
+        ],
+        [
+            41.94,
+            0.651
+        ],
+        [
+            42.42,
+            0.519
+        ]
+    ],
+    "bpm": 107.7
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

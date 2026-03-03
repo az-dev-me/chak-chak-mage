@@ -100,6 +100,9 @@ class FusedTrackData(BaseModel):
     id: str
     album_id: str
     timeline: list[FusedTimelineEntry] = Field(default_factory=list)
+    beat_times: list[float] = Field(default_factory=list)
+    energy_curve: list[list[float]] = Field(default_factory=list)
+    bpm: float = 0.0
 
 
 # ── Album configuration ─────────────────────────────────

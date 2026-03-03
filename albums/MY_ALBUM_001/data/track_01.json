@@ -3,11 +3,11 @@
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "line_0_occ_0",
-            "start": 0.0,
-            "end": 11.6,
-            "lyric": "When I pressed play on the time machine (which was actually a British phone booth painted green, don't ask), my only intention was to grab some cool rocks and see a dinosaur before dinner.",
-            "real_meaning": "The naive, trivial expectations we had before technology changed everything — like buying the first smartphone 'just to make calls'.",
+            "id": "line_0_occ_0_s0_s0_s0",
+            "start": 0.2,
+            "end": 1.749,
+            "lyric": "When I pressed play on the time machine",
+            "real_meaning": "The naive, trivial expectations we had before technology changed everything â€” like buying the first smartphone 'just to make calls'.",
             "media": [
                 {
                     "offset": 0.0,
@@ -15,39 +15,39 @@
                     "query": "vintage green British phone booth glowing in fog, mysterious cinematic lighting, time travel portal"
                 },
                 {
-                    "offset": 0.88,
+                    "offset": 0.68,
                     "url": "media/c0001.jpg",
                     "query": "A steaming cup of tea sits on an old, wooden table in a green booth. The door is ajar and mist slowly rolls inside."
                 },
                 {
-                    "offset": 1.39,
+                    "offset": 6.25,
                     "url": "media/c0002.jpg",
                     "query": "Faded newspaper clippings swirl as they catch fire in the phonebooth, forming a vortex."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 0.28,
+                    "start": 0.2,
+                    "end": 0.3,
                     "text": "When"
                 },
                 {
-                    "start": 0.28,
-                    "end": 0.44,
+                    "start": 0.3,
+                    "end": 0.358,
                     "text": "I"
                 },
                 {
-                    "start": 0.44,
-                    "end": 0.74,
+                    "start": 0.53,
+                    "end": 0.751,
                     "text": "pressed"
                 },
                 {
-                    "start": 0.74,
-                    "end": 1.06,
+                    "start": 0.825,
+                    "end": 0.889,
                     "text": "play"
                 },
                 {
-                    "start": 1.06,
+                    "start": 1.08,
                     "end": 1.24,
                     "text": "on"
                 },
@@ -57,87 +57,127 @@
                     "text": "the"
                 },
                 {
-                    "start": 1.36,
+                    "start": 1.54,
                     "end": 1.6,
                     "text": "time"
                 },
                 {
-                    "start": 1.6,
-                    "end": 1.98,
-                    "text": "machine,"
+                    "start": 1.685,
+                    "end": 1.749,
+                    "text": "machine"
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s0_s0_s1",
+            "start": 1.94,
+            "end": 4.78,
+            "lyric": "(which was actually a British phone booth painted",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 1.94,
+                    "end": 2.54,
+                    "text": "(which"
                 },
                 {
-                    "start": 2.42,
-                    "end": 2.72,
-                    "text": "which"
-                },
-                {
-                    "start": 2.72,
+                    "start": 2.882,
                     "end": 2.98,
                     "text": "was"
                 },
                 {
-                    "start": 2.98,
-                    "end": 3.42,
+                    "start": 3.382,
+                    "end": 3.44,
                     "text": "actually"
                 },
                 {
-                    "start": 3.42,
-                    "end": 3.62,
+                    "start": 3.49,
+                    "end": 3.542,
                     "text": "a"
                 },
                 {
-                    "start": 3.62,
+                    "start": 3.7,
                     "end": 3.88,
                     "text": "British"
                 },
                 {
                     "start": 3.88,
-                    "end": 4.2,
+                    "end": 3.94,
                     "text": "phone"
                 },
                 {
-                    "start": 4.2,
-                    "end": 4.48,
+                    "start": 4.395,
+                    "end": 4.46,
                     "text": "booth"
                 },
                 {
-                    "start": 4.48,
+                    "start": 4.54,
                     "end": 4.78,
                     "text": "painted"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s0_s0_s2",
+            "start": 4.78,
+            "end": 5.283,
+            "lyric": "green",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
                     "start": 4.78,
-                    "end": 5.2,
-                    "text": "green,"
-                },
+                    "end": 5.283,
+                    "text": "green"
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s0_s1",
+            "start": 5.826,
+            "end": 6.612,
+            "lyric": "don't ask)",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 5.76,
-                    "end": 6.1,
+                    "start": 5.826,
+                    "end": 5.877,
                     "text": "don't"
                 },
                 {
-                    "start": 6.1,
-                    "end": 6.42,
-                    "text": "ask,"
-                },
+                    "start": 6.26,
+                    "end": 6.612,
+                    "text": "ask)"
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s1_s0",
+            "start": 6.944,
+            "end": 9.064,
+            "lyric": "my only intention was to grab some cool",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 6.72,
+                    "start": 6.944,
                     "end": 7.08,
                     "text": "my"
                 },
                 {
-                    "start": 7.08,
-                    "end": 7.32,
+                    "start": 7.275,
+                    "end": 7.34,
                     "text": "only"
                 },
                 {
-                    "start": 7.32,
-                    "end": 7.78,
+                    "start": 7.49,
+                    "end": 7.74,
                     "text": "intention"
                 },
                 {
-                    "start": 7.78,
+                    "start": 7.995,
                     "end": 8.08,
                     "text": "was"
                 },
@@ -148,26 +188,36 @@
                 },
                 {
                     "start": 8.24,
-                    "end": 8.5,
+                    "end": 8.48,
                     "text": "grab"
                 },
                 {
-                    "start": 8.5,
+                    "start": 8.56,
                     "end": 8.74,
                     "text": "some"
                 },
                 {
                     "start": 8.74,
-                    "end": 9.08,
+                    "end": 9.064,
                     "text": "cool"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s1_s1",
+            "start": 9.258,
+            "end": 11.663,
+            "lyric": "rocks and see a dinosaur before dinner.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 9.08,
+                    "start": 9.258,
                     "end": 9.52,
                     "text": "rocks"
                 },
                 {
-                    "start": 9.52,
+                    "start": 9.975,
                     "end": 10.04,
                     "text": "and"
                 },
@@ -178,62 +228,62 @@
                 },
                 {
                     "start": 10.22,
-                    "end": 10.36,
+                    "end": 10.4,
                     "text": "a"
                 },
                 {
-                    "start": 10.36,
-                    "end": 10.82,
+                    "start": 10.538,
+                    "end": 10.833,
                     "text": "dinosaur"
                 },
                 {
-                    "start": 10.82,
+                    "start": 11.13,
                     "end": 11.24,
                     "text": "before"
                 },
                 {
-                    "start": 11.24,
-                    "end": 11.6,
+                    "start": 11.405,
+                    "end": 11.663,
                     "text": "dinner."
                 }
             ]
         },
         {
-            "id": "line_1_occ_0",
-            "start": 11.92,
-            "end": 23.6,
-            "lyric": "I landed in a valley of moss and smoke. Smell of rain, fire in the air. And there he was: the first human I'd ever seen. Crouched by a pile of stones, blowing on a twig like his life depended on it. And it did.",
-            "real_meaning": "Humanity in its raw state — before technology, before dogma. Survival was simple, honest, and desperately hard.",
+            "id": "line_1_occ_0_s0_s0",
+            "start": 12.032,
+            "end": 14.04,
+            "lyric": "I landed in a valley of moss and",
+            "real_meaning": "Humanity in its raw state â€” before technology, before dogma. Survival was simple, honest, and desperately hard.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0001.jpg",
+                    "url": "media/c0003.jpg",
                     "query": "prehistoric misty valley with a lone figure crouched by dying embers, smoke rising, cinematic wide shot"
                 },
                 {
-                    "offset": 0.83,
+                    "offset": 0.72,
                     "url": "media/c0004.jpg",
                     "query": "A close-up of hands expertly crafting a stone tool against a backdrop of fiery embers."
                 },
                 {
-                    "offset": 1.43,
+                    "offset": 7.77,
                     "url": "media/c0005.jpg",
                     "query": "Ethereal rays of sunlight breaking through fog to illuminate the figure from above."
                 }
             ],
             "words": [
                 {
-                    "start": 11.92,
-                    "end": 12.14,
+                    "start": 12.032,
+                    "end": 12.16,
                     "text": "I"
                 },
                 {
-                    "start": 12.14,
-                    "end": 12.52,
+                    "start": 12.25,
+                    "end": 12.503,
                     "text": "landed"
                 },
                 {
-                    "start": 12.52,
+                    "start": 12.67,
                     "end": 12.72,
                     "text": "in"
                 },
@@ -243,72 +293,102 @@
                     "text": "a"
                 },
                 {
-                    "start": 12.84,
-                    "end": 13.1,
+                    "start": 12.9,
+                    "end": 12.968,
                     "text": "valley"
                 },
                 {
-                    "start": 13.1,
-                    "end": 13.3,
+                    "start": 13.26,
+                    "end": 13.32,
                     "text": "of"
                 },
                 {
-                    "start": 13.3,
-                    "end": 13.7,
+                    "start": 13.59,
+                    "end": 13.68,
                     "text": "moss"
                 },
                 {
-                    "start": 13.7,
-                    "end": 14.02,
+                    "start": 13.95,
+                    "end": 14.04,
                     "text": "and"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s0_s1",
+            "start": 14.04,
+            "end": 14.592,
+            "lyric": "smoke.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 14.04,
+                    "end": 14.592,
+                    "text": "smoke."
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s1",
+            "start": 15.04,
+            "end": 17.295,
+            "lyric": "Smell of rain, fire in the air.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 15.04,
+                    "end": 15.272,
+                    "text": "Smell"
                 },
                 {
-                    "start": 14.02,
-                    "end": 14.54,
-                    "text": "smoke,"
-                },
-                {
-                    "start": 15.06,
-                    "end": 15.28,
-                    "text": "smell"
-                },
-                {
-                    "start": 15.28,
-                    "end": 15.48,
+                    "start": 15.35,
+                    "end": 15.5,
                     "text": "of"
                 },
                 {
-                    "start": 15.48,
-                    "end": 15.82,
+                    "start": 15.5,
+                    "end": 15.763,
                     "text": "rain,"
                 },
                 {
-                    "start": 16.36,
-                    "end": 16.76,
+                    "start": 16.402,
+                    "end": 16.502,
                     "text": "fire"
                 },
                 {
-                    "start": 16.76,
+                    "start": 16.8,
                     "end": 16.98,
                     "text": "in"
                 },
                 {
                     "start": 16.98,
-                    "end": 17.12,
+                    "end": 17.04,
                     "text": "the"
                 },
                 {
-                    "start": 17.12,
-                    "end": 17.4,
+                    "start": 17.239,
+                    "end": 17.295,
                     "text": "air."
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s2",
+            "start": 18.368,
+            "end": 19.296,
+            "lyric": "And there he was:",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 18.08,
-                    "end": 18.46,
+                    "start": 18.368,
+                    "end": 18.48,
                     "text": "And"
                 },
                 {
-                    "start": 18.46,
+                    "start": 18.48,
                     "end": 18.66,
                     "text": "there"
                 },
@@ -319,117 +399,121 @@
                 },
                 {
                     "start": 18.82,
-                    "end": 19.12,
-                    "text": "was,"
-                },
-                {
-                    "start": 19.68,
-                    "end": 19.88,
-                    "text": "the"
-                },
-                {
-                    "start": 19.88,
-                    "end": 20.16,
-                    "text": "first"
-                },
-                {
-                    "start": 20.16,
-                    "end": 20.5,
-                    "text": "human"
-                },
-                {
-                    "start": 20.5,
-                    "end": 20.76,
-                    "text": "I'd"
-                },
-                {
-                    "start": 20.76,
-                    "end": 21.0,
-                    "text": "ever"
-                },
-                {
-                    "start": 21.0,
-                    "end": 21.44,
-                    "text": "seen,"
-                },
-                {
-                    "start": 22.08,
-                    "end": 22.4,
-                    "text": "crouched"
-                },
-                {
-                    "start": 22.4,
-                    "end": 22.6,
-                    "text": "by"
-                },
-                {
-                    "start": 22.6,
-                    "end": 22.76,
-                    "text": "a"
-                },
-                {
-                    "start": 22.76,
-                    "end": 23.0,
-                    "text": "pile"
-                },
-                {
-                    "start": 23.0,
-                    "end": 23.2,
-                    "text": "of"
-                },
-                {
-                    "start": 23.2,
-                    "end": 23.6,
-                    "text": "stones,"
+                    "end": 19.296,
+                    "text": "was:"
                 }
             ]
         },
         {
-            "id": "line_2_occ_0",
-            "start": 23.9,
-            "end": 29.2,
-            "lyric": "Let's call him Gralha.",
-            "real_meaning": "Naming the archetype: the first naive consumer, the first believer, the first follower.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0002.jpg",
-                    "query": "close-up of a primitive man's face lit by firelight, eyes wide with curiosity, dramatic portrait"
-                },
-                {
-                    "offset": 0.69,
-                    "url": "media/c0007.jpg",
-                    "query": "Primitive hands reach out to warm flames."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0008.jpg",
-                    "query": "Warm tones of firelight dance on rugged rockface."
-                }
-            ],
+            "id": "line_1_occ_0_s3",
+            "start": 19.744,
+            "end": 21.536,
+            "lyric": "the first human I'd ever seen.",
+            "real_meaning": "",
+            "media": [],
             "words": [
                 {
-                    "start": 23.9,
-                    "end": 24.22,
+                    "start": 19.744,
+                    "end": 19.86,
+                    "text": "the"
+                },
+                {
+                    "start": 19.945,
+                    "end": 20.026,
+                    "text": "first"
+                },
+                {
+                    "start": 20.27,
+                    "end": 20.339,
+                    "text": "human"
+                },
+                {
+                    "start": 20.545,
+                    "end": 20.618,
+                    "text": "I'd"
+                },
+                {
+                    "start": 20.95,
+                    "end": 21.02,
+                    "text": "ever"
+                },
+                {
+                    "start": 21.472,
+                    "end": 21.536,
+                    "text": "seen."
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s4_s0",
+            "start": 22.088,
+            "end": 23.754,
+            "lyric": "Crouched by a pile of stones",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 22.088,
+                    "end": 22.38,
+                    "text": "Crouched"
+                },
+                {
+                    "start": 22.38,
+                    "end": 22.56,
+                    "text": "by"
+                },
+                {
+                    "start": 22.62,
+                    "end": 22.68,
+                    "text": "a"
+                },
+                {
+                    "start": 22.96,
+                    "end": 23.02,
+                    "text": "pile"
+                },
+                {
+                    "start": 23.17,
+                    "end": 23.22,
+                    "text": "of"
+                },
+                {
+                    "start": 23.428,
+                    "end": 23.754,
+                    "text": "stones"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s4_s1_s0",
+            "start": 24.0,
+            "end": 25.94,
+            "lyric": "blowing on a twig like his life depended",
+            "real_meaning": "",
+            "media": [],
+            "words": [
+                {
+                    "start": 24.0,
+                    "end": 24.202,
                     "text": "blowing"
                 },
                 {
-                    "start": 24.22,
+                    "start": 24.27,
                     "end": 24.42,
                     "text": "on"
                 },
                 {
                     "start": 24.42,
-                    "end": 24.56,
+                    "end": 24.577,
                     "text": "a"
                 },
                 {
-                    "start": 24.56,
-                    "end": 24.86,
+                    "start": 24.635,
+                    "end": 24.704,
                     "text": "twig"
                 },
                 {
-                    "start": 24.86,
+                    "start": 24.91,
                     "end": 25.06,
                     "text": "like"
                 },
@@ -440,60 +524,398 @@
                 },
                 {
                     "start": 25.22,
-                    "end": 25.5,
+                    "end": 25.482,
                     "text": "life"
                 },
                 {
-                    "start": 25.5,
-                    "end": 25.96,
+                    "start": 25.885,
+                    "end": 25.94,
                     "text": "depended"
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s4_s1_s1",
+            "start": 26.09,
+            "end": 26.59,
+            "lyric": "on it.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 25.96,
-                    "end": 26.14,
+                    "start": 26.09,
+                    "end": 26.34,
                     "text": "on"
                 },
                 {
-                    "start": 26.14,
-                    "end": 26.36,
+                    "start": 26.34,
+                    "end": 26.59,
                     "text": "it."
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s5",
+            "start": 26.8,
+            "end": 27.106,
+            "lyric": "And it did.",
+            "real_meaning": "",
+            "media": [],
+            "words": [
                 {
-                    "start": 26.64,
-                    "end": 26.88,
+                    "start": 26.8,
+                    "end": 26.9,
                     "text": "And"
                 },
                 {
-                    "start": 26.88,
+                    "start": 26.9,
                     "end": 27.04,
                     "text": "it"
                 },
                 {
                     "start": 27.04,
-                    "end": 27.3,
+                    "end": 27.106,
                     "text": "did."
-                },
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0",
+            "start": 27.807,
+            "end": 29.168,
+            "lyric": "Let's call him Gralha.",
+            "real_meaning": "Naming the archetype: the first naive consumer, the first believer, the first follower.",
+            "media": [
                 {
-                    "start": 27.48,
-                    "end": 28.08,
+                    "offset": 0.0,
+                    "url": "media/c0006.jpg",
+                    "query": "close-up of a primitive man's face lit by firelight, eyes wide with curiosity, dramatic portrait"
+                }
+            ],
+            "words": [
+                {
+                    "start": 27.807,
+                    "end": 27.896,
                     "text": "Let's"
                 },
                 {
-                    "start": 28.08,
-                    "end": 28.34,
+                    "start": 28.165,
+                    "end": 28.23,
                     "text": "call"
                 },
                 {
-                    "start": 28.34,
+                    "start": 28.425,
                     "end": 28.62,
                     "text": "him"
                 },
                 {
                     "start": 28.62,
-                    "end": 29.2,
-                    "text": "Gralia."
+                    "end": 29.168,
+                    "text": "Gralha."
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        0.255,
+        0.882,
+        1.393,
+        1.997,
+        2.601,
+        3.135,
+        3.692,
+        4.226,
+        4.783,
+        5.364,
+        5.921,
+        6.455,
+        7.012,
+        7.523,
+        8.034,
+        8.522,
+        9.009,
+        9.497,
+        9.985,
+        10.449,
+        11.029,
+        11.564,
+        12.098,
+        12.748,
+        13.351,
+        13.932,
+        14.512,
+        15.047,
+        15.581,
+        16.115,
+        16.625,
+        17.183,
+        17.717,
+        18.251,
+        18.762,
+        19.273,
+        19.807,
+        20.341,
+        20.852,
+        21.409,
+        21.966,
+        22.523,
+        23.034,
+        23.522,
+        24.009,
+        24.59,
+        25.124,
+        25.635,
+        26.192,
+        26.796,
+        27.353,
+        27.887,
+        28.468
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.81
+        ],
+        [
+            0.49,
+            0.815
+        ],
+        [
+            0.98,
+            0.826
+        ],
+        [
+            1.46,
+            0.833
+        ],
+        [
+            1.95,
+            0.695
+        ],
+        [
+            2.44,
+            0.697
+        ],
+        [
+            2.93,
+            0.791
+        ],
+        [
+            3.41,
+            0.783
+        ],
+        [
+            3.9,
+            0.805
+        ],
+        [
+            4.39,
+            0.759
+        ],
+        [
+            4.88,
+            0.737
+        ],
+        [
+            5.36,
+            0.655
+        ],
+        [
+            5.85,
+            0.628
+        ],
+        [
+            6.34,
+            0.637
+        ],
+        [
+            6.83,
+            0.807
+        ],
+        [
+            7.31,
+            0.977
+        ],
+        [
+            7.8,
+            0.864
+        ],
+        [
+            8.29,
+            0.863
+        ],
+        [
+            8.78,
+            0.932
+        ],
+        [
+            9.26,
+            0.809
+        ],
+        [
+            9.75,
+            0.779
+        ],
+        [
+            10.24,
+            0.87
+        ],
+        [
+            10.73,
+            0.822
+        ],
+        [
+            11.22,
+            0.739
+        ],
+        [
+            11.7,
+            0.717
+        ],
+        [
+            12.19,
+            0.817
+        ],
+        [
+            12.68,
+            0.897
+        ],
+        [
+            13.17,
+            0.785
+        ],
+        [
+            13.65,
+            0.743
+        ],
+        [
+            14.14,
+            0.725
+        ],
+        [
+            14.63,
+            0.695
+        ],
+        [
+            15.12,
+            0.831
+        ],
+        [
+            15.6,
+            0.849
+        ],
+        [
+            16.09,
+            0.702
+        ],
+        [
+            16.58,
+            0.749
+        ],
+        [
+            17.07,
+            0.766
+        ],
+        [
+            17.55,
+            0.626
+        ],
+        [
+            18.04,
+            0.615
+        ],
+        [
+            18.53,
+            0.793
+        ],
+        [
+            19.02,
+            0.771
+        ],
+        [
+            19.5,
+            0.683
+        ],
+        [
+            19.99,
+            0.831
+        ],
+        [
+            20.48,
+            0.872
+        ],
+        [
+            20.97,
+            0.799
+        ],
+        [
+            21.46,
+            0.681
+        ],
+        [
+            21.94,
+            0.699
+        ],
+        [
+            22.43,
+            0.832
+        ],
+        [
+            22.92,
+            0.836
+        ],
+        [
+            23.41,
+            0.783
+        ],
+        [
+            23.89,
+            0.877
+        ],
+        [
+            24.38,
+            0.932
+        ],
+        [
+            24.87,
+            0.823
+        ],
+        [
+            25.36,
+            0.791
+        ],
+        [
+            25.84,
+            0.717
+        ],
+        [
+            26.33,
+            0.635
+        ],
+        [
+            26.82,
+            0.676
+        ],
+        [
+            27.31,
+            0.631
+        ],
+        [
+            27.79,
+            0.703
+        ],
+        [
+            28.28,
+            0.818
+        ],
+        [
+            28.77,
+            0.679
+        ],
+        [
+            29.26,
+            0.454
+        ]
+    ],
+    "bpm": 112.3
 }

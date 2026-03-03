@@ -2,574 +2,911 @@
     "id": "track_07",
     "segments": [
         {
-            "start": 10.44,
-            "end": 10.6,
-            "text": "We are now at Upper Session Road",
+            "start": 10.672,
+            "end": 14.012,
+            "text": "They were fighting when I slipped away",
             "words": [
                 {
-                    "start": 10.44,
-                    "end": 10.48,
-                    "text": "We"
+                    "start": 10.672,
+                    "end": 10.737,
+                    "text": "They",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.48,
-                    "end": 10.5,
-                    "text": "are"
+                    "start": 10.737,
+                    "end": 10.932,
+                    "text": "were",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.5,
-                    "end": 10.52,
-                    "text": "now"
+                    "start": 11.18,
+                    "end": 11.592,
+                    "text": "fighting",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.52,
-                    "end": 10.54,
-                    "text": "at"
+                    "start": 11.592,
+                    "end": 13.012,
+                    "text": "when",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.54,
-                    "end": 10.56,
-                    "text": "Upper"
+                    "start": 13.012,
+                    "end": 13.192,
+                    "text": "I",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.56,
-                    "end": 10.58,
-                    "text": "Session"
+                    "start": 13.192,
+                    "end": 13.492,
+                    "text": "slipped",
+                    "source": "canonical"
                 },
                 {
-                    "start": 10.58,
-                    "end": 10.6,
-                    "text": "Road"
+                    "start": 13.687,
+                    "end": 14.012,
+                    "text": "away",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 30.54,
-            "end": 35.24,
+            "start": 15.582,
+            "end": 19.352,
+            "text": "Grabbed my hedgehog, didn't stay",
+            "words": [
+                {
+                    "start": 15.582,
+                    "end": 15.992,
+                    "text": "Grabbed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 16.057,
+                    "end": 16.252,
+                    "text": "my",
+                    "source": "canonical"
+                },
+                {
+                    "start": 16.252,
+                    "end": 17.032,
+                    "text": "hedgehog,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 18.632,
+                    "end": 18.812,
+                    "text": "didn't",
+                    "source": "canonical"
+                },
+                {
+                    "start": 18.88,
+                    "end": 19.352,
+                    "text": "stay",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 20.833,
+            "end": 24.792,
+            "text": "Just one look back to see the scene",
+            "words": [
+                {
+                    "start": 20.833,
+                    "end": 20.932,
+                    "text": "Just",
+                    "source": "canonical"
+                },
+                {
+                    "start": 20.932,
+                    "end": 21.212,
+                    "text": "one",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.287,
+                    "end": 21.512,
+                    "text": "look",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.512,
+                    "end": 22.152,
+                    "text": "back",
+                    "source": "canonical"
+                },
+                {
+                    "start": 23.412,
+                    "end": 23.512,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 23.597,
+                    "end": 23.852,
+                    "text": "see",
+                    "source": "canonical"
+                },
+                {
+                    "start": 23.932,
+                    "end": 24.172,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 24.404,
+                    "end": 24.792,
+                    "text": "scene",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 25.413,
+            "end": 29.932,
+            "text": "The tribe all fighting, mean and keen",
+            "words": [
+                {
+                    "start": 25.413,
+                    "end": 26.212,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.212,
+                    "end": 26.552,
+                    "text": "tribe",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.552,
+                    "end": 26.812,
+                    "text": "all",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.971,
+                    "end": 27.662,
+                    "text": "fighting,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 28.804,
+                    "end": 29.192,
+                    "text": "mean",
+                    "source": "canonical"
+                },
+                {
+                    "start": 29.272,
+                    "end": 29.512,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 29.512,
+                    "end": 29.932,
+                    "text": "keen",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 31.468,
+            "end": 35.272,
             "text": "I threw the lighter in the air",
             "words": [
                 {
-                    "start": 30.54,
-                    "end": 31.48,
-                    "text": "I"
+                    "start": 31.468,
+                    "end": 31.552,
+                    "text": "I",
+                    "source": "canonical"
                 },
                 {
-                    "start": 31.48,
-                    "end": 31.9,
-                    "text": "threw"
+                    "start": 31.552,
+                    "end": 31.912,
+                    "text": "threw",
+                    "source": "canonical"
                 },
                 {
-                    "start": 31.9,
-                    "end": 32.22,
-                    "text": "the"
+                    "start": 31.912,
+                    "end": 32.312,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 32.22,
-                    "end": 33.26,
-                    "text": "lighter"
+                    "start": 32.312,
+                    "end": 33.232,
+                    "text": "lighter",
+                    "source": "canonical"
                 },
                 {
-                    "start": 33.26,
-                    "end": 34.08,
-                    "text": "in"
+                    "start": 33.6,
+                    "end": 34.072,
+                    "text": "in",
+                    "source": "canonical"
                 },
                 {
-                    "start": 34.08,
-                    "end": 34.58,
-                    "text": "the"
+                    "start": 34.597,
+                    "end": 34.672,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 34.58,
-                    "end": 35.24,
-                    "text": "air"
+                    "start": 34.897,
+                    "end": 35.272,
+                    "text": "air",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 36.58,
-            "end": 40.22,
-            "text": "Grab a jump to grab it there",
+            "start": 36.8,
+            "end": 40.272,
+            "text": "Gralha jumped to grab it there",
             "words": [
                 {
-                    "start": 36.58,
-                    "end": 37.24,
-                    "text": "Grab"
+                    "start": 36.8,
+                    "end": 37.452,
+                    "text": "Gralha",
+                    "source": "canonical"
                 },
                 {
-                    "start": 37.24,
-                    "end": 37.54,
-                    "text": "a"
+                    "start": 37.452,
+                    "end": 38.072,
+                    "text": "jumped",
+                    "source": "canonical"
                 },
                 {
-                    "start": 37.54,
-                    "end": 38.06,
-                    "text": "jump"
+                    "start": 38.305,
+                    "end": 38.692,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 38.06,
-                    "end": 38.54,
-                    "text": "to"
+                    "start": 38.977,
+                    "end": 39.452,
+                    "text": "grab",
+                    "source": "canonical"
                 },
                 {
-                    "start": 38.54,
-                    "end": 39.46,
-                    "text": "grab"
+                    "start": 39.522,
+                    "end": 39.732,
+                    "text": "it",
+                    "source": "canonical"
                 },
                 {
-                    "start": 39.46,
-                    "end": 39.76,
-                    "text": "it"
-                },
-                {
-                    "start": 39.76,
-                    "end": 40.22,
-                    "text": "there"
+                    "start": 39.934,
+                    "end": 40.272,
+                    "text": "there",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 41.72,
-            "end": 45.42,
-            "text": "The tribal follow wild and thick",
+            "start": 41.832,
+            "end": 45.492,
+            "text": "The tribe all followed, wild and thick",
             "words": [
                 {
-                    "start": 41.72,
-                    "end": 41.98,
-                    "text": "The"
+                    "start": 41.832,
+                    "end": 41.932,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 41.98,
-                    "end": 42.5,
-                    "text": "tribal"
+                    "start": 41.932,
+                    "end": 42.412,
+                    "text": "tribe",
+                    "source": "canonical"
                 },
                 {
-                    "start": 42.5,
-                    "end": 43.58,
-                    "text": "follow"
+                    "start": 42.412,
+                    "end": 42.812,
+                    "text": "all",
+                    "source": "canonical"
                 },
                 {
-                    "start": 43.58,
-                    "end": 44.6,
-                    "text": "wild"
+                    "start": 42.812,
+                    "end": 44.252,
+                    "text": "followed,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 44.6,
-                    "end": 44.98,
-                    "text": "and"
+                    "start": 44.252,
+                    "end": 44.572,
+                    "text": "wild",
+                    "source": "canonical"
                 },
                 {
-                    "start": 44.98,
-                    "end": 45.42,
-                    "text": "thick"
+                    "start": 44.922,
+                    "end": 44.972,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.972,
+                    "end": 45.492,
+                    "text": "thick",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 47.26,
-            "end": 51.06,
+            "start": 47.456,
+            "end": 61.14,
             "text": "For an object that wouldn't click",
             "words": [
                 {
-                    "start": 47.26,
-                    "end": 47.78,
-                    "text": "For"
+                    "start": 47.456,
+                    "end": 47.792,
+                    "text": "For",
+                    "source": "canonical"
                 },
                 {
-                    "start": 47.78,
-                    "end": 48.04,
-                    "text": "an"
+                    "start": 47.857,
+                    "end": 48.052,
+                    "text": "an",
+                    "source": "canonical"
                 },
                 {
-                    "start": 48.04,
-                    "end": 48.82,
-                    "text": "object"
+                    "start": 48.665,
+                    "end": 48.752,
+                    "text": "object",
+                    "source": "canonical"
                 },
                 {
-                    "start": 48.82,
-                    "end": 50.02,
-                    "text": "that"
+                    "start": 49.312,
+                    "end": 50.032,
+                    "text": "that",
+                    "source": "canonical"
                 },
                 {
-                    "start": 50.02,
-                    "end": 50.68,
-                    "text": "wouldn't"
-                },
-                {
-                    "start": 50.68,
-                    "end": 51.06,
-                    "text": "click"
+                    "start": 50.032,
+                    "end": 50.692,
+                    "text": "wouldn't",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 60.0,
-            "end": 72.18,
-            "text": "The gas was gone, they didn't know The sacred thing had nothing to show",
+            "start": 61.14,
+            "end": 66.612,
+            "text": "The gas was gone, they didn't know",
             "words": [
                 {
-                    "start": 60.0,
-                    "end": 63.02,
-                    "text": "The"
+                    "start": 61.14,
+                    "end": 62.34,
+                    "text": "The",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 63.02,
-                    "end": 63.46,
-                    "text": "gas"
+                    "start": 62.34,
+                    "end": 62.993,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 63.46,
-                    "end": 63.72,
-                    "text": "was"
+                    "start": 62.993,
+                    "end": 63.647,
+                    "text": "gas",
+                    "source": "canonical"
                 },
                 {
-                    "start": 63.72,
-                    "end": 64.36,
-                    "text": "gone,"
+                    "start": 63.647,
+                    "end": 63.712,
+                    "text": "was",
+                    "source": "canonical"
                 },
                 {
-                    "start": 65.52,
-                    "end": 65.84,
-                    "text": "they"
+                    "start": 63.918,
+                    "end": 64.262,
+                    "text": "gone,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 65.84,
-                    "end": 66.28,
-                    "text": "didn't"
+                    "start": 65.696,
+                    "end": 65.812,
+                    "text": "they",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.28,
-                    "end": 66.64,
-                    "text": "know"
+                    "start": 65.984,
+                    "end": 66.272,
+                    "text": "didn't",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.64,
-                    "end": 68.34,
-                    "text": "The"
-                },
-                {
-                    "start": 68.34,
-                    "end": 68.94,
-                    "text": "sacred"
-                },
-                {
-                    "start": 68.94,
-                    "end": 69.84,
-                    "text": "thing"
-                },
-                {
-                    "start": 69.84,
-                    "end": 70.92,
-                    "text": "had"
-                },
-                {
-                    "start": 70.92,
-                    "end": 71.44,
-                    "text": "nothing"
-                },
-                {
-                    "start": 71.44,
-                    "end": 71.76,
-                    "text": "to"
-                },
-                {
-                    "start": 71.76,
-                    "end": 72.18,
-                    "text": "show"
+                    "start": 66.357,
+                    "end": 66.612,
+                    "text": "know",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 73.5,
-            "end": 82.72,
-            "text": "Empty plastic, hollow shell I ran to my green time travel cell",
+            "start": 68.252,
+            "end": 72.232,
+            "text": "The sacred thing had nothing to show",
             "words": [
                 {
-                    "start": 73.5,
-                    "end": 74.16,
-                    "text": "Empty"
+                    "start": 68.252,
+                    "end": 68.352,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 74.16,
-                    "end": 75.06,
-                    "text": "plastic,"
+                    "start": 68.562,
+                    "end": 68.912,
+                    "text": "sacred",
+                    "source": "canonical"
                 },
                 {
-                    "start": 76.24,
-                    "end": 76.78,
-                    "text": "hollow"
+                    "start": 69.197,
+                    "end": 69.672,
+                    "text": "thing",
+                    "source": "canonical"
                 },
                 {
-                    "start": 76.78,
-                    "end": 77.52,
-                    "text": "shell"
+                    "start": 69.672,
+                    "end": 70.952,
+                    "text": "had",
+                    "source": "canonical"
                 },
                 {
-                    "start": 77.52,
-                    "end": 78.92,
-                    "text": "I"
+                    "start": 71.154,
+                    "end": 71.492,
+                    "text": "nothing",
+                    "source": "canonical"
                 },
                 {
-                    "start": 78.92,
-                    "end": 79.22,
-                    "text": "ran"
+                    "start": 71.492,
+                    "end": 71.792,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 79.22,
-                    "end": 79.42,
-                    "text": "to"
-                },
-                {
-                    "start": 79.42,
-                    "end": 79.7,
-                    "text": "my"
-                },
-                {
-                    "start": 79.7,
-                    "end": 80.26,
-                    "text": "green"
-                },
-                {
-                    "start": 80.26,
-                    "end": 81.46,
-                    "text": "time"
-                },
-                {
-                    "start": 81.46,
-                    "end": 82.12,
-                    "text": "travel"
-                },
-                {
-                    "start": 82.12,
-                    "end": 82.72,
-                    "text": "cell"
+                    "start": 71.792,
+                    "end": 72.232,
+                    "text": "show",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 84.28,
-            "end": 88.18,
-            "text": "Grabbed a hedgehog just in case",
+            "start": 72.232,
+            "end": 77.512,
+            "text": "Empty plastic, hollow shell",
             "words": [
                 {
-                    "start": 84.28,
-                    "end": 84.86,
-                    "text": "Grabbed"
+                    "start": 72.232,
+                    "end": 74.172,
+                    "text": "Empty",
+                    "source": "canonical"
                 },
                 {
-                    "start": 84.86,
-                    "end": 85.04,
-                    "text": "a"
+                    "start": 74.172,
+                    "end": 75.172,
+                    "text": "plastic,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 85.04,
-                    "end": 86.28,
-                    "text": "hedgehog"
+                    "start": 76.689,
+                    "end": 76.752,
+                    "text": "hollow",
+                    "source": "canonical"
                 },
                 {
-                    "start": 86.28,
-                    "end": 86.82,
-                    "text": "just"
-                },
-                {
-                    "start": 86.82,
-                    "end": 87.24,
-                    "text": "in"
-                },
-                {
-                    "start": 87.24,
-                    "end": 88.18,
-                    "text": "case"
+                    "start": 77.037,
+                    "end": 77.512,
+                    "text": "shell",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 89.18,
-            "end": 93.32,
+            "start": 78.832,
+            "end": 82.772,
+            "text": "I ran to my green time-travel cell",
+            "words": [
+                {
+                    "start": 78.832,
+                    "end": 78.932,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 78.932,
+                    "end": 79.232,
+                    "text": "ran",
+                    "source": "canonical"
+                },
+                {
+                    "start": 79.282,
+                    "end": 79.432,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 79.507,
+                    "end": 79.732,
+                    "text": "my",
+                    "source": "canonical"
+                },
+                {
+                    "start": 79.8,
+                    "end": 80.272,
+                    "text": "green",
+                    "source": "canonical"
+                },
+                {
+                    "start": 80.448,
+                    "end": 82.152,
+                    "text": "time-travel",
+                    "source": "canonical"
+                },
+                {
+                    "start": 82.23,
+                    "end": 82.772,
+                    "text": "cell",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 83.738,
+            "end": 88.16,
+            "text": "Grabbed the hedgehog (just in case)",
+            "words": [
+                {
+                    "start": 83.738,
+                    "end": 84.832,
+                    "text": "Grabbed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.832,
+                    "end": 85.072,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 85.072,
+                    "end": 86.272,
+                    "text": "hedgehog",
+                    "source": "canonical"
+                },
+                {
+                    "start": 86.272,
+                    "end": 86.812,
+                    "text": "(just",
+                    "source": "canonical"
+                },
+                {
+                    "start": 87.18,
+                    "end": 87.232,
+                    "text": "in",
+                    "source": "canonical"
+                },
+                {
+                    "start": 88.102,
+                    "end": 88.16,
+                    "text": "case)",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 89.344,
+            "end": 93.352,
             "text": "Saw the confusion on each face",
             "words": [
                 {
-                    "start": 89.18,
-                    "end": 89.6,
-                    "text": "Saw"
+                    "start": 89.344,
+                    "end": 89.592,
+                    "text": "Saw",
+                    "source": "canonical"
                 },
                 {
-                    "start": 89.6,
-                    "end": 89.84,
-                    "text": "the"
+                    "start": 89.657,
+                    "end": 89.852,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 89.84,
-                    "end": 91.06,
-                    "text": "confusion"
+                    "start": 89.852,
+                    "end": 91.012,
+                    "text": "confusion",
+                    "source": "canonical"
                 },
                 {
-                    "start": 91.06,
-                    "end": 92.1,
-                    "text": "on"
+                    "start": 91.502,
+                    "end": 92.132,
+                    "text": "on",
+                    "source": "canonical"
                 },
                 {
-                    "start": 92.1,
-                    "end": 92.52,
-                    "text": "each"
+                    "start": 92.232,
+                    "end": 92.532,
+                    "text": "each",
+                    "source": "canonical"
                 },
                 {
-                    "start": 92.52,
-                    "end": 93.32,
-                    "text": "face"
+                    "start": 92.788,
+                    "end": 93.352,
+                    "text": "face",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 94.66,
-            "end": 98.18,
+            "start": 94.912,
+            "end": 98.272,
             "text": "Closed the door and pressed return",
             "words": [
                 {
-                    "start": 94.66,
-                    "end": 95.26,
-                    "text": "Closed"
+                    "start": 94.912,
+                    "end": 95.252,
+                    "text": "Closed",
+                    "source": "canonical"
                 },
                 {
-                    "start": 95.26,
-                    "end": 95.52,
-                    "text": "the"
+                    "start": 95.507,
+                    "end": 95.592,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 95.52,
-                    "end": 96.18,
-                    "text": "door"
+                    "start": 95.824,
+                    "end": 96.212,
+                    "text": "door",
+                    "source": "canonical"
                 },
                 {
-                    "start": 96.18,
-                    "end": 96.76,
-                    "text": "and"
+                    "start": 96.422,
+                    "end": 96.772,
+                    "text": "and",
+                    "source": "canonical"
                 },
                 {
-                    "start": 96.76,
-                    "end": 97.36,
-                    "text": "pressed"
+                    "start": 96.772,
+                    "end": 97.352,
+                    "text": "pressed",
+                    "source": "canonical"
                 },
                 {
-                    "start": 97.36,
-                    "end": 98.18,
-                    "text": "return"
+                    "start": 97.352,
+                    "end": 98.272,
+                    "text": "return",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 99.74,
-            "end": 103.64,
+            "start": 100.52,
+            "end": 103.812,
             "text": "Leaving them to crash and burn",
             "words": [
                 {
-                    "start": 99.74,
-                    "end": 100.7,
-                    "text": "Leaving"
+                    "start": 100.52,
+                    "end": 100.592,
+                    "text": "Leaving",
+                    "source": "canonical"
                 },
                 {
-                    "start": 100.7,
-                    "end": 101.38,
-                    "text": "them"
+                    "start": 100.592,
+                    "end": 101.372,
+                    "text": "them",
+                    "source": "canonical"
                 },
                 {
-                    "start": 101.38,
-                    "end": 101.92,
-                    "text": "to"
+                    "start": 101.372,
+                    "end": 101.932,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 101.92,
-                    "end": 102.68,
-                    "text": "crash"
+                    "start": 101.932,
+                    "end": 102.672,
+                    "text": "crash",
+                    "source": "canonical"
                 },
                 {
-                    "start": 102.68,
-                    "end": 103.06,
-                    "text": "and"
+                    "start": 102.852,
+                    "end": 103.152,
+                    "text": "and",
+                    "source": "canonical"
                 },
                 {
-                    "start": 103.06,
-                    "end": 103.64,
-                    "text": "burn"
+                    "start": 103.4,
+                    "end": 103.812,
+                    "text": "burn",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 107.64,
-            "end": 108.5,
-            "text": "Who is?",
+            "start": 106.304,
+            "end": 106.492,
+            "text": "I threw the lighter in the air",
             "words": [
                 {
-                    "start": 107.64,
-                    "end": 107.66,
-                    "text": "Who"
-                },
-                {
-                    "start": 107.66,
-                    "end": 108.5,
-                    "text": "is?"
+                    "start": 106.304,
+                    "end": 106.492,
+                    "text": "I",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 111.34,
-            "end": 113.62,
-            "text": "Who is?",
+            "start": 106.492,
+            "end": 114.859,
+            "text": "Gralha jumped to grab it there",
             "words": [
                 {
-                    "start": 111.34,
-                    "end": 112.12,
-                    "text": "Who"
+                    "start": 106.492,
+                    "end": 107.886,
+                    "text": "air",
+                    "source": "canonical"
                 },
                 {
-                    "start": 112.12,
-                    "end": 113.62,
-                    "text": "is?"
+                    "start": 107.886,
+                    "end": 109.281,
+                    "text": "Gralha",
+                    "source": "canonical"
+                },
+                {
+                    "start": 109.281,
+                    "end": 110.675,
+                    "text": "jumped",
+                    "source": "canonical"
+                },
+                {
+                    "start": 110.675,
+                    "end": 112.07,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 112.07,
+                    "end": 113.465,
+                    "text": "grab",
+                    "source": "canonical"
+                },
+                {
+                    "start": 113.465,
+                    "end": 114.859,
+                    "text": "it",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 116.62,
-            "end": 119.38,
-            "text": "Who is?",
+            "start": 114.859,
+            "end": 123.226,
+            "text": "The tribe all followed, wild and thick",
             "words": [
                 {
-                    "start": 116.62,
-                    "end": 117.38,
-                    "text": "Who"
+                    "start": 114.859,
+                    "end": 116.054,
+                    "text": "there",
+                    "source": "canonical"
                 },
                 {
-                    "start": 117.38,
-                    "end": 119.38,
-                    "text": "is?"
+                    "start": 116.054,
+                    "end": 117.25,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 117.25,
+                    "end": 118.445,
+                    "text": "tribe",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.445,
+                    "end": 119.64,
+                    "text": "all",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.64,
+                    "end": 120.835,
+                    "text": "followed,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 120.835,
+                    "end": 122.031,
+                    "text": "wild",
+                    "source": "canonical"
+                },
+                {
+                    "start": 122.031,
+                    "end": 123.226,
+                    "text": "and",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 121.88,
-            "end": 123.98,
-            "text": "Who is?",
+            "start": 123.226,
+            "end": 131.593,
+            "text": "For an object that wouldn't click",
             "words": [
                 {
-                    "start": 121.88,
-                    "end": 122.32,
-                    "text": "Who"
+                    "start": 123.226,
+                    "end": 124.62,
+                    "text": "thick",
+                    "source": "canonical"
                 },
                 {
-                    "start": 122.32,
-                    "end": 123.98,
-                    "text": "is?"
+                    "start": 124.62,
+                    "end": 126.015,
+                    "text": "For",
+                    "source": "canonical"
+                },
+                {
+                    "start": 126.015,
+                    "end": 127.409,
+                    "text": "an",
+                    "source": "canonical"
+                },
+                {
+                    "start": 127.409,
+                    "end": 128.804,
+                    "text": "object",
+                    "source": "canonical"
+                },
+                {
+                    "start": 128.804,
+                    "end": 130.198,
+                    "text": "that",
+                    "source": "canonical"
+                },
+                {
+                    "start": 130.198,
+                    "end": 131.593,
+                    "text": "wouldn't",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 138.82,
-            "end": 138.84,
-            "text": "you",
+            "start": 131.593,
+            "end": 139.96,
+            "text": "\"Revolution... I'll call you Revolution.\"",
             "words": [
                 {
-                    "start": 138.82,
-                    "end": 138.84,
-                    "text": "you"
+                    "start": 131.593,
+                    "end": 133.266,
+                    "text": "click",
+                    "source": "canonical"
+                },
+                {
+                    "start": 133.266,
+                    "end": 134.94,
+                    "text": "\"Revolution...",
+                    "source": "canonical"
+                },
+                {
+                    "start": 134.94,
+                    "end": 136.613,
+                    "text": "I'll",
+                    "source": "canonical"
+                },
+                {
+                    "start": 136.613,
+                    "end": 138.287,
+                    "text": "call",
+                    "source": "canonical"
+                },
+                {
+                    "start": 138.287,
+                    "end": 139.96,
+                    "text": "you",
+                    "source": "canonical"
                 }
             ]
         }

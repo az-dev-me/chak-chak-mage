@@ -61,7 +61,7 @@ const masterMatrix = {
             "modern_analogy": "A pet chewing a designer shoe, grounding, the fire was always within reach.",
             "covers_tracks": ["track_09"],
             "media_pool": [
-                { "type": "image", "url": "bg_t7.png", "weight": 1.0 } // Reusing t7 for the missing bg_t9.png initially generated
+                { "type": "image", "url": "bg_t9.png", "weight": 1.0 }
             ]
         }
     ]

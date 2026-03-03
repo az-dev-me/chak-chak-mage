@@ -2,915 +2,943 @@
     "id": "track_06",
     "segments": [
         {
-            "start": 0.0,
-            "end": 3.04,
-            "text": "The mock said, box, the box is law",
+            "start": 0.22,
+            "end": 3.168,
+            "text": "The Mage said box! The box is law!",
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 0.2,
-                    "text": "The"
+                    "start": 0.22,
+                    "end": 0.26,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 0.2,
+                    "start": 0.22,
                     "end": 0.48,
-                    "text": "mock"
+                    "text": "Mage",
+                    "source": "canonical"
                 },
                 {
                     "start": 0.48,
                     "end": 0.72,
-                    "text": "said,"
+                    "text": "said",
+                    "source": "canonical"
                 },
                 {
-                    "start": 0.76,
-                    "end": 1.2,
-                    "text": "box,"
+                    "start": 0.72,
+                    "end": 1.37,
+                    "text": "box!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 1.7,
-                    "end": 2.1,
-                    "text": "the"
+                    "start": 2.02,
+                    "end": 2.06,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 2.1,
+                    "start": 2.155,
                     "end": 2.44,
-                    "text": "box"
+                    "text": "box",
+                    "source": "canonical"
                 },
                 {
-                    "start": 2.44,
+                    "start": 2.49,
                     "end": 2.64,
-                    "text": "is"
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
                     "start": 2.64,
-                    "end": 3.04,
-                    "text": "law"
+                    "end": 3.168,
+                    "text": "law!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 3.8,
-            "end": 6.9,
-            "text": "The box is everything we saw",
+            "start": 3.978,
+            "end": 7.31,
+            "text": "The box is everything we saw!",
             "words": [
                 {
-                    "start": 3.8,
-                    "end": 4.04,
-                    "text": "The"
+                    "start": 3.978,
+                    "end": 4.06,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 4.04,
-                    "end": 4.36,
-                    "text": "box"
+                    "start": 4.06,
+                    "end": 4.229,
+                    "text": "box",
+                    "source": "canonical"
                 },
                 {
-                    "start": 4.36,
-                    "end": 4.6,
-                    "text": "is"
+                    "start": 4.555,
+                    "end": 4.62,
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
-                    "start": 4.6,
-                    "end": 5.64,
-                    "text": "everything"
+                    "start": 4.939,
+                    "end": 5.527,
+                    "text": "everything",
+                    "source": "canonical"
                 },
                 {
-                    "start": 5.64,
-                    "end": 6.26,
-                    "text": "we"
+                    "start": 5.88,
+                    "end": 6.004,
+                    "text": "we",
+                    "source": "canonical"
                 },
                 {
-                    "start": 6.26,
-                    "end": 6.9,
-                    "text": "saw"
+                    "start": 6.375,
+                    "end": 7.31,
+                    "text": "saw!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 7.82,
-            "end": 10.74,
-            "text": "Mota's wrong, she breaks the rules",
+            "start": 7.621,
+            "end": 10.16,
+            "text": "Muda's wrong, she breaks the rules!",
             "words": [
                 {
-                    "start": 7.82,
-                    "end": 8.36,
-                    "text": "Mota's"
+                    "start": 7.621,
+                    "end": 8.38,
+                    "text": "Muda's",
+                    "source": "canonical"
                 },
                 {
-                    "start": 8.36,
-                    "end": 8.84,
-                    "text": "wrong,"
+                    "start": 8.38,
+                    "end": 9.095,
+                    "text": "wrong,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 9.1,
-                    "end": 9.26,
-                    "text": "she"
+                    "start": 9.095,
+                    "end": 9.448,
+                    "text": "she",
+                    "source": "canonical"
                 },
                 {
-                    "start": 9.26,
+                    "start": 9.448,
                     "end": 9.76,
-                    "text": "breaks"
+                    "text": "breaks",
+                    "source": "canonical"
                 },
                 {
-                    "start": 9.76,
-                    "end": 10.14,
-                    "text": "the"
-                },
-                {
-                    "start": 10.14,
-                    "end": 10.74,
-                    "text": "rules"
+                    "start": 9.91,
+                    "end": 10.004,
+                    "text": "the",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 11.2,
-            "end": 14.36,
-            "text": "We are the faithful, we are the tools",
+            "start": 10.16,
+            "end": 13.929,
+            "text": "We are the faithful, we are the tools!",
             "words": [
                 {
-                    "start": 11.2,
-                    "end": 11.48,
-                    "text": "We"
+                    "start": 10.16,
+                    "end": 10.9,
+                    "text": "rules!",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 11.48,
-                    "end": 11.72,
-                    "text": "are"
+                    "start": 11.375,
+                    "end": 11.46,
+                    "text": "We",
+                    "source": "canonical"
                 },
                 {
-                    "start": 11.72,
-                    "end": 11.94,
-                    "text": "the"
+                    "start": 11.535,
+                    "end": 11.591,
+                    "text": "are",
+                    "source": "canonical"
                 },
                 {
-                    "start": 11.94,
-                    "end": 12.6,
-                    "text": "faithful,"
+                    "start": 11.76,
+                    "end": 11.828,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.16,
+                    "start": 12.315,
+                    "end": 12.608,
+                    "text": "faithful,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.282,
                     "end": 13.36,
-                    "text": "we"
+                    "text": "we",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.36,
-                    "end": 13.62,
-                    "text": "are"
+                    "start": 13.585,
+                    "end": 13.66,
+                    "text": "are",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.62,
+                    "start": 13.66,
                     "end": 13.84,
-                    "text": "the"
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
                     "start": 13.84,
-                    "end": 14.36,
-                    "text": "tools"
+                    "end": 13.929,
+                    "text": "tools!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 15.08,
-            "end": 18.38,
-            "text": "Look at the stone, look at your hand",
+            "start": 15.263,
+            "end": 17.974,
+            "text": "Look at the stone! Look at your hand!",
             "words": [
                 {
-                    "start": 15.08,
-                    "end": 15.58,
-                    "text": "Look"
+                    "start": 15.263,
+                    "end": 15.337,
+                    "text": "Look",
+                    "source": "canonical"
                 },
                 {
-                    "start": 15.58,
-                    "end": 15.78,
-                    "text": "at"
+                    "start": 15.56,
+                    "end": 15.725,
+                    "text": "at",
+                    "source": "canonical"
                 },
                 {
                     "start": 15.78,
-                    "end": 15.96,
-                    "text": "the"
+                    "end": 15.976,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 15.96,
-                    "end": 16.48,
-                    "text": "stone,"
+                    "start": 16.041,
+                    "end": 16.519,
+                    "text": "stone!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.08,
+                    "start": 17.408,
                     "end": 17.46,
-                    "text": "look"
+                    "text": "Look",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.46,
-                    "end": 17.68,
-                    "text": "at"
+                    "start": 17.64,
+                    "end": 17.7,
+                    "text": "at",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.68,
+                    "start": 17.755,
                     "end": 17.92,
-                    "text": "your"
+                    "text": "your",
+                    "source": "canonical"
                 },
                 {
                     "start": 17.92,
-                    "end": 18.38,
-                    "text": "hand"
+                    "end": 17.974,
+                    "text": "hand!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 18.84,
-            "end": 22.02,
-            "text": "The fire rises when you understand",
+            "start": 19.084,
+            "end": 22.452,
+            "text": "The fire rises when you understand!",
             "words": [
                 {
-                    "start": 18.84,
-                    "end": 19.26,
-                    "text": "The"
+                    "start": 19.084,
+                    "end": 19.15,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 19.26,
-                    "end": 19.68,
-                    "text": "fire"
+                    "start": 19.41,
+                    "end": 19.504,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 19.68,
-                    "end": 20.4,
-                    "text": "rises"
+                    "start": 19.93,
+                    "end": 20.211,
+                    "text": "rises",
+                    "source": "canonical"
                 },
                 {
-                    "start": 20.4,
-                    "end": 20.98,
-                    "text": "when"
+                    "start": 20.38,
+                    "end": 21.0,
+                    "text": "when",
+                    "source": "canonical"
                 },
                 {
-                    "start": 20.98,
-                    "end": 21.2,
-                    "text": "you"
+                    "start": 21.065,
+                    "end": 21.138,
+                    "text": "you",
+                    "source": "canonical"
                 },
                 {
-                    "start": 21.2,
-                    "end": 22.02,
-                    "text": "understand"
+                    "start": 21.45,
+                    "end": 22.452,
+                    "text": "understand!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 22.86,
-            "end": 26.08,
-            "text": "The marge is just a guy with tricks",
+            "start": 22.886,
+            "end": 26.118,
+            "text": "The Mage is just a guy with tricks!",
             "words": [
                 {
-                    "start": 22.86,
-                    "end": 23.08,
-                    "text": "The"
+                    "start": 22.886,
+                    "end": 22.944,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 23.08,
-                    "end": 23.46,
-                    "text": "marge"
+                    "start": 23.12,
+                    "end": 23.195,
+                    "text": "Mage",
+                    "source": "canonical"
                 },
                 {
-                    "start": 23.46,
-                    "end": 23.62,
-                    "text": "is"
+                    "start": 23.42,
+                    "end": 23.48,
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
-                    "start": 23.62,
-                    "end": 24.08,
-                    "text": "just"
+                    "start": 23.66,
+                    "end": 23.882,
+                    "text": "just",
+                    "source": "canonical"
                 },
                 {
-                    "start": 24.08,
-                    "end": 24.52,
-                    "text": "a"
+                    "start": 24.252,
+                    "end": 24.324,
+                    "text": "a",
+                    "source": "canonical"
                 },
                 {
-                    "start": 24.52,
-                    "end": 25.0,
-                    "text": "guy"
+                    "start": 24.54,
+                    "end": 24.828,
+                    "text": "guy",
+                    "source": "canonical"
                 },
                 {
                     "start": 25.0,
-                    "end": 25.42,
-                    "text": "with"
+                    "end": 25.057,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 25.42,
-                    "end": 26.08,
-                    "text": "tricks"
+                    "start": 25.46,
+                    "end": 26.118,
+                    "text": "tricks!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 26.68,
-            "end": 29.96,
-            "text": "The spark is yours, it's in the sticks",
+            "start": 26.666,
+            "end": 29.98,
+            "text": "The spark is yours, it's in the sticks!",
             "words": [
                 {
-                    "start": 26.68,
-                    "end": 26.8,
-                    "text": "The"
+                    "start": 26.666,
+                    "end": 26.86,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 26.8,
-                    "end": 27.18,
-                    "text": "spark"
+                    "start": 26.86,
+                    "end": 27.2,
+                    "text": "spark",
+                    "source": "canonical"
                 },
                 {
-                    "start": 27.18,
+                    "start": 27.255,
                     "end": 27.42,
-                    "text": "is"
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
                     "start": 27.42,
-                    "end": 27.9,
-                    "text": "yours,"
+                    "end": 28.02,
+                    "text": "yours,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 28.06,
-                    "end": 28.46,
-                    "text": "it's"
+                    "start": 28.178,
+                    "end": 28.473,
+                    "text": "it's",
+                    "source": "canonical"
                 },
                 {
-                    "start": 28.46,
+                    "start": 28.59,
                     "end": 28.84,
-                    "text": "in"
+                    "text": "in",
+                    "source": "canonical"
                 },
                 {
-                    "start": 28.84,
-                    "end": 29.06,
-                    "text": "the"
+                    "start": 28.9,
+                    "end": 29.08,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 29.06,
-                    "end": 29.96,
-                    "text": "sticks"
+                    "start": 29.08,
+                    "end": 29.98,
+                    "text": "sticks!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 30.72,
-            "end": 33.86,
-            "text": "Two fires, two fires",
+            "start": 31.08,
+            "end": 33.394,
+            "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
-                    "start": 30.72,
-                    "end": 31.08,
-                    "text": "Two"
+                    "start": 31.08,
+                    "end": 31.12,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
                     "start": 31.08,
-                    "end": 31.86,
-                    "text": "fires,"
+                    "end": 32.329,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 32.4,
-                    "end": 32.96,
-                    "text": "two"
+                    "start": 32.9,
+                    "end": 32.94,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 32.96,
-                    "end": 33.86,
-                    "text": "fires"
+                    "start": 32.94,
+                    "end": 33.394,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 34.56,
-            "end": 36.98,
-            "text": "Burning in the same night",
+            "start": 35.32,
+            "end": 37.061,
+            "text": "Burning in the same night!",
             "words": [
                 {
-                    "start": 34.56,
-                    "end": 35.38,
-                    "text": "Burning"
+                    "start": 35.32,
+                    "end": 35.512,
+                    "text": "Burning",
+                    "source": "canonical"
                 },
                 {
-                    "start": 35.38,
-                    "end": 35.78,
-                    "text": "in"
+                    "start": 35.512,
+                    "end": 35.8,
+                    "text": "in",
+                    "source": "canonical"
                 },
                 {
-                    "start": 35.78,
-                    "end": 35.96,
-                    "text": "the"
+                    "start": 35.8,
+                    "end": 36.002,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 35.96,
+                    "start": 36.137,
                     "end": 36.4,
-                    "text": "same"
+                    "text": "same",
+                    "source": "canonical"
                 },
                 {
                     "start": 36.4,
-                    "end": 36.98,
-                    "text": "night"
+                    "end": 37.061,
+                    "text": "night!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 38.16,
-            "end": 41.54,
-            "text": "Two fires, two fires",
+            "start": 38.317,
+            "end": 40.697,
+            "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
-                    "start": 38.16,
-                    "end": 38.66,
-                    "text": "Two"
+                    "start": 38.317,
+                    "end": 38.8,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 38.66,
-                    "end": 39.74,
-                    "text": "fires,"
+                    "start": 38.8,
+                    "end": 38.87,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 40.12,
-                    "end": 40.58,
-                    "text": "two"
+                    "start": 40.548,
+                    "end": 40.6,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 40.58,
-                    "end": 41.54,
-                    "text": "fires"
+                    "start": 40.6,
+                    "end": 40.697,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 42.56,
-            "end": 44.8,
+            "start": 43.36,
+            "end": 44.486,
             "text": "Which one is right?",
             "words": [
                 {
-                    "start": 42.56,
-                    "end": 43.56,
-                    "text": "Which"
+                    "start": 43.36,
+                    "end": 43.54,
+                    "text": "Which",
+                    "source": "canonical"
                 },
                 {
-                    "start": 43.56,
-                    "end": 43.88,
-                    "text": "one"
+                    "start": 43.63,
+                    "end": 43.782,
+                    "text": "one",
+                    "source": "canonical"
                 },
                 {
-                    "start": 43.88,
-                    "end": 44.3,
-                    "text": "is"
+                    "start": 44.058,
+                    "end": 44.308,
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
-                    "start": 44.3,
-                    "end": 44.8,
-                    "text": "right?"
+                    "start": 44.392,
+                    "end": 44.486,
+                    "text": "right?",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 46.7,
-            "end": 48.14,
-            "text": "Reh, reh, reh-reh",
+            "start": 45.14,
+            "end": 47.82,
+            "text": "GRAL-HA! GRAL-HA!",
             "words": [
                 {
-                    "start": 46.7,
-                    "end": 47.2,
-                    "text": "Reh,"
+                    "start": 45.14,
+                    "end": 46.816,
+                    "text": "GRAL-HA!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 47.24,
-                    "end": 47.48,
-                    "text": "reh,"
-                },
-                {
-                    "start": 47.66,
-                    "end": 48.14,
-                    "text": "reh-reh"
+                    "start": 47.447,
+                    "end": 47.82,
+                    "text": "GRAL-HA!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 48.6,
-            "end": 50.08,
-            "text": "Mudah, mudah",
+            "start": 48.64,
+            "end": 49.66,
+            "text": "MU-DA! MU-DA!",
             "words": [
                 {
-                    "start": 48.6,
-                    "end": 49.1,
-                    "text": "Mudah,"
+                    "start": 48.64,
+                    "end": 48.74,
+                    "text": "MU-DA!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 49.52,
-                    "end": 50.08,
-                    "text": "mudah"
+                    "start": 49.56,
+                    "end": 49.66,
+                    "text": "MU-DA!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 50.48,
-            "end": 52.16,
-            "text": "Reh, reh, reh-reh",
+            "start": 52.58,
+            "end": 57.311,
+            "text": "Tronco stepped between the two",
             "words": [
                 {
-                    "start": 50.48,
-                    "end": 50.94,
-                    "text": "Reh,"
+                    "start": 52.58,
+                    "end": 52.7,
+                    "text": "Move",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 51.06,
-                    "end": 51.3,
-                    "text": "reh,"
+                    "start": 52.7,
+                    "end": 52.78,
+                    "text": "it,",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 51.54,
-                    "end": 52.16,
-                    "text": "reh-reh"
+                    "start": 53.44,
+                    "end": 53.62,
+                    "text": "move",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 53.62,
+                    "end": 53.88,
+                    "text": "it!",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 54.144,
+                    "end": 54.92,
+                    "text": "Tronco",
+                    "source": "canonical"
+                },
+                {
+                    "start": 54.92,
+                    "end": 55.26,
+                    "text": "stepped",
+                    "source": "canonical"
+                },
+                {
+                    "start": 55.598,
+                    "end": 56.142,
+                    "text": "between",
+                    "source": "canonical"
+                },
+                {
+                    "start": 56.565,
+                    "end": 57.037,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 57.105,
+                    "end": 57.311,
+                    "text": "two",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 52.38,
-            "end": 53.84,
-            "text": "Mudah, mudah",
+            "start": 57.38,
+            "end": 61.24,
+            "text": "\"Wait,\" he said, \"what should I do?",
             "words": [
                 {
-                    "start": 52.38,
-                    "end": 52.92,
-                    "text": "Mudah,"
-                },
-                {
-                    "start": 53.36,
-                    "end": 53.84,
-                    "text": "mudah"
-                }
-            ]
-        },
-        {
-            "start": 54.68,
-            "end": 57.4,
-            "text": "No step between the two",
-            "words": [
-                {
-                    "start": 54.68,
-                    "end": 54.88,
-                    "text": "No"
-                },
-                {
-                    "start": 54.88,
-                    "end": 55.5,
-                    "text": "step"
-                },
-                {
-                    "start": 55.5,
-                    "end": 56.34,
-                    "text": "between"
-                },
-                {
-                    "start": 56.34,
-                    "end": 56.84,
-                    "text": "the"
-                },
-                {
-                    "start": 56.84,
-                    "end": 57.4,
-                    "text": "two"
-                }
-            ]
-        },
-        {
-            "start": 57.86,
-            "end": 60.94,
-            "text": "Wait, he said, what should I do?",
-            "words": [
-                {
-                    "start": 57.86,
-                    "end": 58.38,
-                    "text": "Wait,"
+                    "start": 57.38,
+                    "end": 58.4,
+                    "text": "\"Wait,\"",
+                    "source": "canonical"
                 },
                 {
                     "start": 58.44,
-                    "end": 58.6,
-                    "text": "he"
+                    "end": 58.58,
+                    "text": "he",
+                    "source": "canonical"
                 },
                 {
-                    "start": 58.6,
-                    "end": 59.1,
-                    "text": "said,"
+                    "start": 58.58,
+                    "end": 59.2,
+                    "text": "said,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.34,
-                    "end": 59.66,
-                    "text": "what"
+                    "start": 59.255,
+                    "end": 59.736,
+                    "text": "\"what",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.66,
-                    "end": 60.08,
-                    "text": "should"
+                    "start": 59.805,
+                    "end": 59.857,
+                    "text": "should",
+                    "source": "canonical"
                 },
                 {
-                    "start": 60.08,
-                    "end": 60.44,
-                    "text": "I"
+                    "start": 60.365,
+                    "end": 60.46,
+                    "text": "I",
+                    "source": "canonical"
                 },
                 {
-                    "start": 60.44,
-                    "end": 60.94,
-                    "text": "do?"
+                    "start": 60.46,
+                    "end": 61.24,
+                    "text": "do?",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 61.46,
-            "end": 65.06,
-            "text": "He's got the bark, she's got the spark",
+            "start": 61.546,
+            "end": 64.892,
+            "text": "He's got the box, she's got the spark",
             "words": [
                 {
-                    "start": 61.46,
-                    "end": 61.76,
-                    "text": "He's"
+                    "start": 61.546,
+                    "end": 61.74,
+                    "text": "He's",
+                    "source": "canonical"
                 },
                 {
-                    "start": 61.76,
-                    "end": 62.18,
-                    "text": "got"
+                    "start": 61.74,
+                    "end": 61.795,
+                    "text": "got",
+                    "source": "canonical"
                 },
                 {
                     "start": 62.18,
-                    "end": 62.56,
-                    "text": "the"
+                    "end": 62.345,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 62.56,
-                    "end": 63.08,
-                    "text": "bark,"
+                    "start": 62.62,
+                    "end": 63.14,
+                    "text": "box,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 63.18,
-                    "end": 63.64,
-                    "text": "she's"
+                    "start": 63.32,
+                    "end": 63.5,
+                    "text": "she's",
+                    "source": "canonical"
                 },
                 {
-                    "start": 63.64,
-                    "end": 64.04,
-                    "text": "got"
+                    "start": 63.902,
+                    "end": 63.961,
+                    "text": "got",
+                    "source": "canonical"
                 },
                 {
-                    "start": 64.04,
-                    "end": 64.4,
-                    "text": "the"
+                    "start": 64.218,
+                    "end": 64.284,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 64.4,
-                    "end": 65.06,
-                    "text": "spark"
+                    "start": 64.48,
+                    "end": 64.892,
+                    "text": "spark",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 65.4,
-            "end": 68.04,
-            "text": "I'm just scared of the dark",
+            "start": 65.14,
+            "end": 68.16,
+            "text": "I'm just scared of the dark...\"",
             "words": [
                 {
-                    "start": 65.4,
-                    "end": 66.02,
-                    "text": "I'm"
+                    "start": 65.14,
+                    "end": 65.646,
+                    "text": "I'm",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.02,
-                    "end": 66.34,
-                    "text": "just"
+                    "start": 66.04,
+                    "end": 66.1,
+                    "text": "just",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.34,
-                    "end": 66.96,
-                    "text": "scared"
+                    "start": 66.735,
+                    "end": 66.988,
+                    "text": "scared",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.96,
-                    "end": 67.22,
-                    "text": "of"
+                    "start": 67.17,
+                    "end": 67.24,
+                    "text": "of",
+                    "source": "canonical"
                 },
                 {
-                    "start": 67.22,
-                    "end": 67.42,
-                    "text": "the"
+                    "start": 67.39,
+                    "end": 67.44,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 67.42,
-                    "end": 68.04,
-                    "text": "dark"
+                    "start": 67.44,
+                    "end": 68.16,
+                    "text": "dark...\"",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 68.78,
-            "end": 71.9,
-            "text": "Two fires, two fires",
+            "start": 69.16,
+            "end": 71.931,
+            "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
-                    "start": 68.78,
-                    "end": 69.18,
-                    "text": "Two"
+                    "start": 69.16,
+                    "end": 69.2,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 69.18,
-                    "end": 69.92,
-                    "text": "fires,"
+                    "start": 69.16,
+                    "end": 70.634,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 70.5,
-                    "end": 71.06,
-                    "text": "two"
+                    "start": 70.824,
+                    "end": 71.04,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 71.06,
-                    "end": 71.9,
-                    "text": "fires"
+                    "start": 71.04,
+                    "end": 71.931,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 72.72,
-            "end": 75.12,
-            "text": "Burning in the same night",
+            "start": 72.992,
+            "end": 75.264,
+            "text": "Burning in the same night!",
             "words": [
                 {
-                    "start": 72.72,
+                    "start": 72.992,
                     "end": 73.46,
-                    "text": "Burning"
+                    "text": "Burning",
+                    "source": "canonical"
                 },
                 {
-                    "start": 73.46,
-                    "end": 73.86,
-                    "text": "in"
+                    "start": 73.512,
+                    "end": 73.88,
+                    "text": "in",
+                    "source": "canonical"
                 },
                 {
-                    "start": 73.86,
-                    "end": 74.06,
-                    "text": "the"
+                    "start": 73.93,
+                    "end": 73.986,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 74.06,
-                    "end": 74.48,
-                    "text": "same"
+                    "start": 74.175,
+                    "end": 74.389,
+                    "text": "same",
+                    "source": "canonical"
                 },
                 {
-                    "start": 74.48,
-                    "end": 75.12,
-                    "text": "night"
+                    "start": 74.46,
+                    "end": 75.264,
+                    "text": "night!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 76.22,
-            "end": 79.62,
-            "text": "Two fires, two fires",
+            "start": 76.512,
+            "end": 78.69,
+            "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
-                    "start": 76.22,
-                    "end": 76.78,
-                    "text": "Two"
+                    "start": 76.512,
+                    "end": 76.8,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 76.78,
-                    "end": 77.84,
-                    "text": "fires,"
+                    "start": 76.8,
+                    "end": 76.887,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 78.16,
-                    "end": 78.66,
-                    "text": "two"
+                    "start": 78.574,
+                    "end": 78.64,
+                    "text": "TWO",
+                    "source": "canonical"
                 },
                 {
-                    "start": 78.66,
-                    "end": 79.62,
-                    "text": "fires"
+                    "start": 78.64,
+                    "end": 78.69,
+                    "text": "FIRES!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 80.68,
-            "end": 82.9,
+            "start": 80.768,
+            "end": 82.96,
             "text": "Which one is right?",
             "words": [
                 {
-                    "start": 80.68,
-                    "end": 81.62,
-                    "text": "Which"
+                    "start": 80.768,
+                    "end": 80.96,
+                    "text": "Which",
+                    "source": "canonical"
                 },
                 {
-                    "start": 81.62,
+                    "start": 80.96,
                     "end": 82.0,
-                    "text": "one"
+                    "text": "one",
+                    "source": "canonical"
                 },
                 {
                     "start": 82.0,
-                    "end": 82.38,
-                    "text": "is"
+                    "end": 82.36,
+                    "text": "is",
+                    "source": "canonical"
                 },
                 {
-                    "start": 82.38,
-                    "end": 82.9,
-                    "text": "right?"
+                    "start": 82.36,
+                    "end": 82.96,
+                    "text": "right?",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 83.02,
-            "end": 83.86,
-            "text": "Oh!",
+            "start": 82.96,
+            "end": 101.64,
+            "text": "\"Where's the Mage gone?\"",
             "words": [
                 {
-                    "start": 83.02,
-                    "end": 83.86,
-                    "text": "Oh!"
-                }
-            ]
-        },
-        {
-            "start": 99.76,
-            "end": 101.62,
-            "text": "Where's the mudge gone?",
-            "words": [
-                {
-                    "start": 99.76,
+                    "start": 82.96,
                     "end": 100.54,
-                    "text": "Where's"
+                    "text": "\"Where's",
+                    "source": "canonical"
                 },
                 {
                     "start": 100.54,
-                    "end": 100.76,
-                    "text": "the"
+                    "end": 100.78,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 100.76,
-                    "end": 101.22,
-                    "text": "mudge"
+                    "start": 100.78,
+                    "end": 101.2,
+                    "text": "Mage",
+                    "source": "canonical"
                 },
                 {
-                    "start": 101.22,
-                    "end": 101.62,
-                    "text": "gone?"
-                }
-            ]
-        },
-        {
-            "start": 103.56,
-            "end": 105.44,
-            "text": "Where's the mudge gone?",
-            "words": [
-                {
-                    "start": 103.56,
-                    "end": 104.34,
-                    "text": "Where's"
-                },
-                {
-                    "start": 104.34,
-                    "end": 104.56,
-                    "text": "the"
-                },
-                {
-                    "start": 104.56,
-                    "end": 105.02,
-                    "text": "mudge"
-                },
-                {
-                    "start": 105.02,
-                    "end": 105.44,
-                    "text": "gone?"
-                }
-            ]
-        },
-        {
-            "start": 107.28,
-            "end": 109.34,
-            "text": "Where's the mudge gone?",
-            "words": [
-                {
-                    "start": 107.28,
-                    "end": 108.12,
-                    "text": "Where's"
-                },
-                {
-                    "start": 108.12,
-                    "end": 108.34,
-                    "text": "the"
-                },
-                {
-                    "start": 108.34,
-                    "end": 108.8,
-                    "text": "mudge"
-                },
-                {
-                    "start": 108.8,
-                    "end": 109.34,
-                    "text": "gone?"
-                }
-            ]
-        },
-        {
-            "start": 110.68,
-            "end": 110.7,
-            "text": "you",
-            "words": [
-                {
-                    "start": 110.68,
-                    "end": 110.7,
-                    "text": "you"
+                    "start": 101.2,
+                    "end": 101.64,
+                    "text": "gone?\"",
+                    "source": "canonical"
                 }
             ]
         }

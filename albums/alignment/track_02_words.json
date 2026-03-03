@@ -2,1220 +2,1329 @@
     "id": "track_02",
     "segments": [
         {
-            "start": 10.84,
-            "end": 10.86,
-            "text": "\u266a",
+            "start": 11.392,
+            "end": 14.572,
+            "text": "Gralha held the orange box, turned it in his hand",
             "words": [
                 {
-                    "start": 10.84,
-                    "end": 10.86,
-                    "text": "\u266a"
+                    "start": 11.392,
+                    "end": 11.612,
+                    "text": "Gralha",
+                    "source": "canonical"
+                },
+                {
+                    "start": 11.68,
+                    "end": 11.972,
+                    "text": "held",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.042,
+                    "end": 12.121,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.424,
+                    "end": 12.694,
+                    "text": "orange",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.087,
+                    "end": 13.312,
+                    "text": "box,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.312,
+                    "end": 13.552,
+                    "text": "turned",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.552,
+                    "end": 13.732,
+                    "text": "it",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.732,
+                    "end": 13.892,
+                    "text": "in",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.892,
+                    "end": 13.96,
+                    "text": "his",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.51,
+                    "end": 14.572,
+                    "text": "hand",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 11.08,
-            "end": 14.54,
-            "text": "Brother held the orange box, turned it in his hand",
+            "start": 14.572,
+            "end": 18.232,
+            "text": "\"Mage,\" he said, \"explain to me, help me understand",
             "words": [
                 {
-                    "start": 11.08,
-                    "end": 11.58,
-                    "text": "Brother"
+                    "start": 14.572,
+                    "end": 15.832,
+                    "text": "\"Mage,\"",
+                    "source": "canonical"
                 },
                 {
-                    "start": 11.58,
-                    "end": 11.96,
-                    "text": "held"
+                    "start": 15.832,
+                    "end": 16.22,
+                    "text": "he",
+                    "source": "canonical"
                 },
                 {
-                    "start": 11.96,
-                    "end": 12.22,
-                    "text": "the"
+                    "start": 16.22,
+                    "end": 16.272,
+                    "text": "said,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 12.22,
-                    "end": 12.7,
-                    "text": "orange"
+                    "start": 16.71,
+                    "end": 16.772,
+                    "text": "\"explain",
+                    "source": "canonical"
                 },
                 {
-                    "start": 12.7,
-                    "end": 13.18,
-                    "text": "box,"
+                    "start": 16.772,
+                    "end": 16.952,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.38,
-                    "end": 13.56,
-                    "text": "turned"
+                    "start": 16.952,
+                    "end": 17.46,
+                    "text": "me,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.56,
-                    "end": 13.74,
-                    "text": "it"
+                    "start": 17.532,
+                    "end": 17.712,
+                    "text": "help",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.74,
-                    "end": 13.9,
-                    "text": "in"
+                    "start": 17.877,
+                    "end": 17.932,
+                    "text": "me",
+                    "source": "canonical"
                 },
                 {
-                    "start": 13.9,
-                    "end": 14.08,
-                    "text": "his"
-                },
-                {
-                    "start": 14.08,
-                    "end": 14.54,
-                    "text": "hand"
+                    "start": 18.18,
+                    "end": 18.232,
+                    "text": "understand",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 15.28,
-            "end": 18.52,
-            "text": "Magee said, explain to me, help me understand",
+            "start": 18.592,
+            "end": 23.152,
+            "text": "Where does fire sleep at night? Where does it go to rest?",
             "words": [
                 {
-                    "start": 15.28,
-                    "end": 15.84,
-                    "text": "Magee"
+                    "start": 18.592,
+                    "end": 19.732,
+                    "text": "Where",
+                    "source": "canonical"
                 },
                 {
-                    "start": 15.84,
-                    "end": 16.16,
-                    "text": "said,"
+                    "start": 19.732,
+                    "end": 20.072,
+                    "text": "does",
+                    "source": "canonical"
                 },
                 {
-                    "start": 16.28,
-                    "end": 16.7,
-                    "text": "explain"
+                    "start": 20.072,
+                    "end": 20.327,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 16.7,
-                    "end": 16.94,
-                    "text": "to"
+                    "start": 20.412,
+                    "end": 20.912,
+                    "text": "sleep",
+                    "source": "canonical"
                 },
                 {
-                    "start": 16.94,
-                    "end": 17.22,
-                    "text": "me,"
+                    "start": 20.912,
+                    "end": 21.092,
+                    "text": "at",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.5,
-                    "end": 17.72,
-                    "text": "help"
+                    "start": 21.177,
+                    "end": 21.432,
+                    "text": "night?",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.72,
-                    "end": 17.92,
-                    "text": "me"
+                    "start": 21.512,
+                    "end": 21.612,
+                    "text": "Where",
+                    "source": "canonical"
                 },
                 {
-                    "start": 17.92,
-                    "end": 18.52,
-                    "text": "understand"
+                    "start": 21.692,
+                    "end": 21.872,
+                    "text": "does",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.932,
+                    "end": 21.982,
+                    "text": "it",
+                    "source": "canonical"
+                },
+                {
+                    "start": 22.132,
+                    "end": 22.312,
+                    "text": "go",
+                    "source": "canonical"
+                },
+                {
+                    "start": 22.372,
+                    "end": 22.44,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 23.077,
+                    "end": 23.152,
+                    "text": "rest?",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 19.46,
-            "end": 23.08,
-            "text": "Where does fire sleep at night, where does it go to rest?",
+            "start": 23.972,
+            "end": 27.426,
+            "text": "Show me its cradle, show me its nest.\"",
             "words": [
                 {
-                    "start": 19.46,
-                    "end": 19.8,
-                    "text": "Where"
+                    "start": 23.972,
+                    "end": 24.032,
+                    "text": "Show",
+                    "source": "canonical"
                 },
                 {
-                    "start": 19.8,
-                    "end": 20.06,
-                    "text": "does"
+                    "start": 24.242,
+                    "end": 24.312,
+                    "text": "me",
+                    "source": "canonical"
                 },
                 {
-                    "start": 20.06,
-                    "end": 20.42,
-                    "text": "fire"
+                    "start": 24.477,
+                    "end": 24.532,
+                    "text": "its",
+                    "source": "canonical"
                 },
                 {
-                    "start": 20.42,
-                    "end": 20.9,
-                    "text": "sleep"
+                    "start": 24.794,
+                    "end": 25.04,
+                    "text": "cradle,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 20.9,
-                    "end": 21.1,
-                    "text": "at"
+                    "start": 26.034,
+                    "end": 26.132,
+                    "text": "show",
+                    "source": "canonical"
                 },
                 {
-                    "start": 21.1,
-                    "end": 21.34,
-                    "text": "night,"
+                    "start": 26.372,
+                    "end": 26.452,
+                    "text": "me",
+                    "source": "canonical"
                 },
                 {
-                    "start": 21.48,
-                    "end": 21.6,
-                    "text": "where"
+                    "start": 26.617,
+                    "end": 26.672,
+                    "text": "its",
+                    "source": "canonical"
                 },
                 {
-                    "start": 21.6,
-                    "end": 21.92,
-                    "text": "does"
-                },
-                {
-                    "start": 21.92,
-                    "end": 22.08,
-                    "text": "it"
-                },
-                {
-                    "start": 22.08,
-                    "end": 22.32,
-                    "text": "go"
-                },
-                {
-                    "start": 22.32,
-                    "end": 22.54,
-                    "text": "to"
-                },
-                {
-                    "start": 22.54,
-                    "end": 23.08,
-                    "text": "rest?"
+                    "start": 26.746,
+                    "end": 27.426,
+                    "text": "nest.\"",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 23.58,
-            "end": 27.22,
-            "text": "Show me its cradle, show me its nest",
+            "start": 28.256,
+            "end": 31.581,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 23.58,
-                    "end": 24.02,
-                    "text": "Show"
+                    "start": 28.256,
+                    "end": 28.432,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 24.02,
-                    "end": 24.32,
-                    "text": "me"
+                    "start": 28.504,
+                    "end": 28.599,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 24.32,
-                    "end": 24.52,
-                    "text": "its"
+                    "start": 29.442,
+                    "end": 29.504,
+                    "text": "BOX!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 24.52,
-                    "end": 25.2,
-                    "text": "cradle,"
+                    "start": 30.412,
+                    "end": 30.512,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 25.86,
-                    "end": 26.14,
-                    "text": "show"
+                    "start": 30.752,
+                    "end": 30.827,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 26.14,
-                    "end": 26.44,
-                    "text": "me"
-                },
-                {
-                    "start": 26.44,
-                    "end": 26.66,
-                    "text": "its"
-                },
-                {
-                    "start": 26.66,
-                    "end": 27.22,
-                    "text": "nest"
+                    "start": 31.502,
+                    "end": 31.581,
+                    "text": "BOX!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 28.0,
-            "end": 35.56,
-            "text": "The orange box, the orange box The baby fire sleeps inside",
+            "start": 33.032,
+            "end": 36.492,
+            "text": "The baby fire sleeps inside!",
             "words": [
                 {
-                    "start": 28.0,
-                    "end": 28.4,
-                    "text": "The"
+                    "start": 33.032,
+                    "end": 33.132,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 28.4,
-                    "end": 28.96,
-                    "text": "orange"
+                    "start": 33.305,
+                    "end": 33.592,
+                    "text": "baby",
+                    "source": "canonical"
                 },
                 {
-                    "start": 28.96,
-                    "end": 29.42,
-                    "text": "box,"
+                    "start": 33.592,
+                    "end": 34.112,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 30.0,
-                    "end": 30.52,
-                    "text": "the"
+                    "start": 34.112,
+                    "end": 34.549,
+                    "text": "sleeps",
+                    "source": "canonical"
                 },
                 {
-                    "start": 30.52,
-                    "end": 31.12,
-                    "text": "orange"
-                },
-                {
-                    "start": 31.12,
-                    "end": 31.62,
-                    "text": "box"
-                },
-                {
-                    "start": 31.62,
-                    "end": 33.1,
-                    "text": "The"
-                },
-                {
-                    "start": 33.1,
-                    "end": 33.62,
-                    "text": "baby"
-                },
-                {
-                    "start": 33.62,
-                    "end": 34.12,
-                    "text": "fire"
-                },
-                {
-                    "start": 34.12,
-                    "end": 34.8,
-                    "text": "sleeps"
-                },
-                {
-                    "start": 34.8,
-                    "end": 35.56,
-                    "text": "inside"
+                    "start": 34.812,
+                    "end": 36.492,
+                    "text": "inside!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 36.52,
-            "end": 44.2,
-            "text": "The orange box, the orange box We'll run with it, we'll run with pride",
+            "start": 36.809,
+            "end": 40.172,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 36.52,
-                    "end": 36.86,
-                    "text": "The"
+                    "start": 36.809,
+                    "end": 36.872,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 36.86,
-                    "end": 37.44,
-                    "text": "orange"
+                    "start": 37.247,
+                    "end": 37.331,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 37.44,
-                    "end": 37.92,
-                    "text": "box,"
+                    "start": 38.032,
+                    "end": 38.112,
+                    "text": "BOX!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 38.52,
-                    "end": 38.94,
-                    "text": "the"
+                    "start": 38.848,
+                    "end": 38.972,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 38.94,
-                    "end": 39.52,
-                    "text": "orange"
+                    "start": 39.197,
+                    "end": 39.267,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 39.52,
-                    "end": 40.1,
-                    "text": "box"
-                },
-                {
-                    "start": 40.1,
-                    "end": 41.66,
-                    "text": "We'll"
-                },
-                {
-                    "start": 41.66,
-                    "end": 42.02,
-                    "text": "run"
-                },
-                {
-                    "start": 42.02,
-                    "end": 42.3,
-                    "text": "with"
-                },
-                {
-                    "start": 42.3,
-                    "end": 42.56,
-                    "text": "it,"
-                },
-                {
-                    "start": 42.98,
-                    "end": 43.22,
-                    "text": "we'll"
-                },
-                {
-                    "start": 43.22,
-                    "end": 43.5,
-                    "text": "run"
-                },
-                {
-                    "start": 43.5,
-                    "end": 43.74,
-                    "text": "with"
-                },
-                {
-                    "start": 43.74,
-                    "end": 44.2,
-                    "text": "pride"
+                    "start": 40.097,
+                    "end": 40.172,
+                    "text": "BOX!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 45.56,
-            "end": 49.34,
-            "text": "I said the fire lives in here Curled up small and tight",
+            "start": 41.512,
+            "end": 44.649,
+            "text": "We'll run with it, we'll run with pride!",
             "words": [
                 {
-                    "start": 45.56,
-                    "end": 45.76,
-                    "text": "I"
+                    "start": 41.512,
+                    "end": 41.672,
+                    "text": "We'll",
+                    "source": "canonical"
                 },
                 {
-                    "start": 45.76,
-                    "end": 46.12,
-                    "text": "said"
+                    "start": 41.672,
+                    "end": 42.012,
+                    "text": "run",
+                    "source": "canonical"
                 },
                 {
-                    "start": 46.12,
-                    "end": 46.3,
-                    "text": "the"
+                    "start": 42.016,
+                    "end": 42.292,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 46.3,
-                    "end": 46.82,
-                    "text": "fire"
+                    "start": 42.292,
+                    "end": 42.366,
+                    "text": "it,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 46.82,
-                    "end": 47.24,
-                    "text": "lives"
+                    "start": 43.152,
+                    "end": 43.232,
+                    "text": "we'll",
+                    "source": "canonical"
                 },
                 {
-                    "start": 47.24,
-                    "end": 47.44,
-                    "text": "in"
+                    "start": 43.442,
+                    "end": 43.512,
+                    "text": "run",
+                    "source": "canonical"
                 },
                 {
-                    "start": 47.44,
-                    "end": 47.86,
-                    "text": "here"
+                    "start": 43.567,
+                    "end": 43.732,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 47.86,
-                    "end": 48.3,
-                    "text": "Curled"
-                },
-                {
-                    "start": 48.3,
-                    "end": 48.44,
-                    "text": "up"
-                },
-                {
-                    "start": 48.44,
-                    "end": 48.82,
-                    "text": "small"
-                },
-                {
-                    "start": 48.82,
-                    "end": 49.04,
-                    "text": "and"
-                },
-                {
-                    "start": 49.04,
-                    "end": 49.34,
-                    "text": "tight"
+                    "start": 43.732,
+                    "end": 44.649,
+                    "text": "pride!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 49.48,
-            "end": 53.34,
-            "text": "When you go chomp, chomp It wakes up burning bright",
+            "start": 45.712,
+            "end": 49.327,
+            "text": "I said \"The fire lives in here, curled up small and tight",
             "words": [
                 {
-                    "start": 49.48,
-                    "end": 49.74,
-                    "text": "When"
+                    "start": 45.712,
+                    "end": 45.752,
+                    "text": "I",
+                    "source": "canonical"
                 },
                 {
-                    "start": 49.74,
-                    "end": 49.88,
-                    "text": "you"
+                    "start": 45.752,
+                    "end": 46.112,
+                    "text": "said",
+                    "source": "canonical"
                 },
                 {
-                    "start": 49.88,
-                    "end": 50.04,
-                    "text": "go"
+                    "start": 46.112,
+                    "end": 46.312,
+                    "text": "\"The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 50.04,
-                    "end": 50.42,
-                    "text": "chomp,"
+                    "start": 46.37,
+                    "end": 46.734,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 50.52,
-                    "end": 50.78,
-                    "text": "chomp"
+                    "start": 46.952,
+                    "end": 47.177,
+                    "text": "lives",
+                    "source": "canonical"
                 },
                 {
-                    "start": 50.78,
-                    "end": 51.1,
-                    "text": "It"
+                    "start": 47.252,
+                    "end": 47.432,
+                    "text": "in",
+                    "source": "canonical"
                 },
                 {
-                    "start": 51.1,
-                    "end": 51.54,
-                    "text": "wakes"
+                    "start": 47.432,
+                    "end": 47.992,
+                    "text": "here,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 51.54,
-                    "end": 51.88,
-                    "text": "up"
+                    "start": 48.012,
+                    "end": 48.292,
+                    "text": "curled",
+                    "source": "canonical"
                 },
                 {
-                    "start": 51.88,
-                    "end": 52.84,
-                    "text": "burning"
+                    "start": 48.292,
+                    "end": 48.452,
+                    "text": "up",
+                    "source": "canonical"
                 },
                 {
-                    "start": 52.84,
-                    "end": 53.34,
-                    "text": "bright"
+                    "start": 48.452,
+                    "end": 48.837,
+                    "text": "small",
+                    "source": "canonical"
+                },
+                {
+                    "start": 48.892,
+                    "end": 49.072,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 49.072,
+                    "end": 49.327,
+                    "text": "tight",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 54.0,
-            "end": 57.68,
+            "start": 49.412,
+            "end": 53.106,
+            "text": "When you go chak-chak, it wakes up, burning bright",
+            "words": [
+                {
+                    "start": 49.412,
+                    "end": 49.732,
+                    "text": "When",
+                    "source": "canonical"
+                },
+                {
+                    "start": 49.732,
+                    "end": 49.872,
+                    "text": "you",
+                    "source": "canonical"
+                },
+                {
+                    "start": 49.872,
+                    "end": 49.922,
+                    "text": "go",
+                    "source": "canonical"
+                },
+                {
+                    "start": 50.072,
+                    "end": 50.772,
+                    "text": "chak-chak,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 51.032,
+                    "end": 51.092,
+                    "text": "it",
+                    "source": "canonical"
+                },
+                {
+                    "start": 51.257,
+                    "end": 51.532,
+                    "text": "wakes",
+                    "source": "canonical"
+                },
+                {
+                    "start": 51.532,
+                    "end": 52.13,
+                    "text": "up,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.216,
+                    "end": 52.872,
+                    "text": "burning",
+                    "source": "canonical"
+                },
+                {
+                    "start": 53.037,
+                    "end": 53.106,
+                    "text": "bright",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 53.312,
+            "end": 57.27,
             "text": "You have to run, you have to race, carry it with care",
             "words": [
                 {
-                    "start": 54.0,
-                    "end": 54.24,
-                    "text": "You"
+                    "start": 53.312,
+                    "end": 54.232,
+                    "text": "You",
+                    "source": "canonical"
                 },
                 {
-                    "start": 54.24,
-                    "end": 54.56,
-                    "text": "have"
+                    "start": 54.232,
+                    "end": 54.502,
+                    "text": "have",
+                    "source": "canonical"
                 },
                 {
-                    "start": 54.56,
-                    "end": 54.72,
-                    "text": "to"
+                    "start": 54.592,
+                    "end": 54.752,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 54.72,
-                    "end": 55.06,
-                    "text": "run,"
+                    "start": 54.752,
+                    "end": 55.014,
+                    "text": "run,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 55.18,
-                    "end": 55.3,
-                    "text": "you"
+                    "start": 55.172,
+                    "end": 55.33,
+                    "text": "you",
+                    "source": "canonical"
                 },
                 {
-                    "start": 55.3,
-                    "end": 55.64,
-                    "text": "have"
+                    "start": 55.567,
+                    "end": 55.652,
+                    "text": "have",
+                    "source": "canonical"
                 },
                 {
-                    "start": 55.64,
-                    "end": 55.8,
-                    "text": "to"
+                    "start": 55.652,
+                    "end": 55.812,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 55.8,
-                    "end": 56.32,
-                    "text": "race,"
+                    "start": 55.812,
+                    "end": 56.2,
+                    "text": "race,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 56.46,
-                    "end": 56.8,
-                    "text": "carry"
+                    "start": 56.432,
+                    "end": 56.691,
+                    "text": "carry",
+                    "source": "canonical"
                 },
                 {
-                    "start": 56.8,
-                    "end": 57.02,
-                    "text": "it"
+                    "start": 56.847,
+                    "end": 57.012,
+                    "text": "it",
+                    "source": "canonical"
                 },
                 {
-                    "start": 57.02,
-                    "end": 57.22,
-                    "text": "with"
+                    "start": 57.012,
+                    "end": 57.062,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 57.22,
-                    "end": 57.68,
-                    "text": "care"
+                    "start": 57.212,
+                    "end": 57.27,
+                    "text": "care",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 58.0,
-            "end": 63.5,
-            "text": "To the new pile, to the new place, before it disappears in air",
+            "start": 57.672,
+            "end": 65.152,
+            "text": "To the new pile, to the new place, before it disappears in air\"",
             "words": [
                 {
-                    "start": 58.0,
-                    "end": 58.14,
-                    "text": "To"
+                    "start": 57.672,
+                    "end": 58.132,
+                    "text": "To",
+                    "source": "canonical"
                 },
                 {
-                    "start": 58.14,
-                    "end": 58.28,
-                    "text": "the"
+                    "start": 58.132,
+                    "end": 58.292,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 58.28,
-                    "end": 58.48,
-                    "text": "new"
+                    "start": 58.292,
+                    "end": 58.352,
+                    "text": "new",
+                    "source": "canonical"
                 },
                 {
-                    "start": 58.48,
-                    "end": 58.94,
-                    "text": "pile,"
+                    "start": 58.532,
+                    "end": 58.882,
+                    "text": "pile,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.14,
-                    "end": 59.22,
-                    "text": "to"
+                    "start": 59.092,
+                    "end": 59.212,
+                    "text": "to",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.22,
-                    "end": 59.34,
-                    "text": "the"
+                    "start": 59.212,
+                    "end": 59.352,
+                    "text": "the",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.34,
-                    "end": 59.52,
-                    "text": "new"
+                    "start": 59.352,
+                    "end": 59.555,
+                    "text": "new",
+                    "source": "canonical"
                 },
                 {
-                    "start": 59.52,
-                    "end": 60.08,
-                    "text": "place,"
+                    "start": 59.701,
+                    "end": 59.964,
+                    "text": "place,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 60.4,
-                    "end": 60.84,
-                    "text": "before"
+                    "start": 60.44,
+                    "end": 60.751,
+                    "text": "before",
+                    "source": "canonical"
                 },
                 {
-                    "start": 60.84,
-                    "end": 61.14,
-                    "text": "it"
+                    "start": 60.937,
+                    "end": 61.001,
+                    "text": "it",
+                    "source": "canonical"
                 },
                 {
-                    "start": 61.14,
-                    "end": 62.18,
-                    "text": "disappears"
+                    "start": 61.192,
+                    "end": 62.203,
+                    "text": "disappears",
+                    "source": "canonical"
                 },
                 {
-                    "start": 62.18,
-                    "end": 62.52,
-                    "text": "in"
+                    "start": 62.54,
+                    "end": 63.32,
+                    "text": "air",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 62.52,
-                    "end": 63.5,
-                    "text": "air"
+                    "start": 63.32,
+                    "end": 64.782,
+                    "text": "in",
+                    "source": "canonical"
+                },
+                {
+                    "start": 64.782,
+                    "end": 65.152,
+                    "text": "air\"",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 66.1,
-            "end": 69.54,
-            "text": "The orange box, the orange box",
+            "start": 66.182,
+            "end": 69.562,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 66.1,
-                    "end": 66.34,
-                    "text": "The"
+                    "start": 66.182,
+                    "end": 66.342,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.34,
-                    "end": 66.92,
-                    "text": "orange"
+                    "start": 66.342,
+                    "end": 66.4,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 66.92,
-                    "end": 67.38,
-                    "text": "box,"
+                    "start": 67.345,
+                    "end": 68.241,
+                    "text": "BOX!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 68.06,
-                    "end": 68.4,
-                    "text": "the"
+                    "start": 68.322,
+                    "end": 68.422,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 68.4,
-                    "end": 68.98,
-                    "text": "orange"
+                    "start": 68.662,
+                    "end": 68.737,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 68.98,
-                    "end": 69.54,
-                    "text": "box"
+                    "start": 69.508,
+                    "end": 69.562,
+                    "text": "BOX!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 70.8,
-            "end": 73.5,
-            "text": "The baby fire sleeps inside",
+            "start": 70.922,
+            "end": 73.856,
+            "text": "The baby fire sleeps inside!",
             "words": [
                 {
-                    "start": 70.8,
-                    "end": 71.02,
-                    "text": "The"
+                    "start": 70.922,
+                    "end": 71.002,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 71.02,
-                    "end": 71.52,
-                    "text": "baby"
+                    "start": 71.008,
+                    "end": 71.482,
+                    "text": "baby",
+                    "source": "canonical"
                 },
                 {
-                    "start": 71.52,
-                    "end": 72.02,
-                    "text": "fire"
+                    "start": 71.482,
+                    "end": 72.178,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 72.02,
-                    "end": 72.7,
-                    "text": "sleeps"
+                    "start": 72.277,
+                    "end": 72.835,
+                    "text": "sleeps",
+                    "source": "canonical"
                 },
                 {
-                    "start": 72.7,
-                    "end": 73.5,
-                    "text": "inside"
+                    "start": 73.135,
+                    "end": 73.856,
+                    "text": "inside!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 74.52,
-            "end": 77.98,
-            "text": "The orange box, the orange box",
+            "start": 74.642,
+            "end": 78.124,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 74.52,
-                    "end": 74.74,
-                    "text": "The"
+                    "start": 74.642,
+                    "end": 74.742,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 74.74,
-                    "end": 75.32,
-                    "text": "orange"
+                    "start": 74.742,
+                    "end": 74.827,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 75.32,
-                    "end": 75.84,
-                    "text": "box,"
+                    "start": 75.42,
+                    "end": 76.191,
+                    "text": "BOX!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 76.46,
-                    "end": 76.84,
-                    "text": "the"
+                    "start": 76.762,
+                    "end": 76.862,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 76.84,
-                    "end": 77.44,
-                    "text": "orange"
+                    "start": 77.087,
+                    "end": 77.157,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 77.44,
-                    "end": 77.98,
-                    "text": "box"
+                    "start": 77.67,
+                    "end": 78.124,
+                    "text": "BOX!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 79.26,
-            "end": 82.12,
-            "text": "We'll run with it, we'll run with pride",
+            "start": 79.328,
+            "end": 82.233,
+            "text": "We'll run with it, we'll run with pride!",
             "words": [
                 {
-                    "start": 79.26,
-                    "end": 79.54,
-                    "text": "We'll"
+                    "start": 79.328,
+                    "end": 79.488,
+                    "text": "We'll",
+                    "source": "canonical"
                 },
                 {
-                    "start": 79.54,
-                    "end": 79.9,
-                    "text": "run"
+                    "start": 79.542,
+                    "end": 79.902,
+                    "text": "run",
+                    "source": "canonical"
                 },
                 {
-                    "start": 79.9,
-                    "end": 80.2,
-                    "text": "with"
+                    "start": 79.968,
+                    "end": 80.222,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 80.2,
-                    "end": 80.44,
-                    "text": "it,"
+                    "start": 80.222,
+                    "end": 80.687,
+                    "text": "it,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 80.86,
-                    "end": 81.14,
-                    "text": "we'll"
+                    "start": 81.042,
+                    "end": 81.122,
+                    "text": "we'll",
+                    "source": "canonical"
                 },
                 {
-                    "start": 81.14,
-                    "end": 81.4,
-                    "text": "run"
+                    "start": 81.332,
+                    "end": 81.402,
+                    "text": "run",
+                    "source": "canonical"
                 },
                 {
-                    "start": 81.4,
-                    "end": 81.64,
-                    "text": "with"
+                    "start": 81.402,
+                    "end": 81.462,
+                    "text": "with",
+                    "source": "canonical"
                 },
                 {
-                    "start": 81.64,
-                    "end": 82.12,
-                    "text": "pride"
+                    "start": 81.642,
+                    "end": 82.233,
+                    "text": "pride!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 83.52,
-            "end": 86.34,
-            "text": "And that's how I became a God",
+            "start": 83.648,
+            "end": 86.402,
+            "text": "And that's how I became a god",
             "words": [
                 {
-                    "start": 83.52,
-                    "end": 83.76,
-                    "text": "And"
+                    "start": 83.648,
+                    "end": 83.802,
+                    "text": "And",
+                    "source": "canonical"
                 },
                 {
-                    "start": 83.76,
-                    "end": 84.16,
-                    "text": "that's"
+                    "start": 83.802,
+                    "end": 83.865,
+                    "text": "that's",
+                    "source": "canonical"
                 },
                 {
-                    "start": 84.16,
-                    "end": 84.36,
-                    "text": "how"
+                    "start": 84.307,
+                    "end": 84.362,
+                    "text": "how",
+                    "source": "canonical"
                 },
                 {
-                    "start": 84.36,
-                    "end": 84.58,
-                    "text": "I"
+                    "start": 84.572,
+                    "end": 84.642,
+                    "text": "I",
+                    "source": "canonical"
                 },
                 {
-                    "start": 84.58,
-                    "end": 85.36,
-                    "text": "became"
+                    "start": 85.117,
+                    "end": 85.207,
+                    "text": "became",
+                    "source": "canonical"
                 },
                 {
-                    "start": 85.36,
-                    "end": 85.64,
-                    "text": "a"
+                    "start": 85.477,
+                    "end": 85.533,
+                    "text": "a",
+                    "source": "canonical"
                 },
                 {
-                    "start": 85.64,
-                    "end": 86.34,
-                    "text": "God"
+                    "start": 85.702,
+                    "end": 86.402,
+                    "text": "god",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 87.34,
-            "end": 90.02,
-            "text": "With a plastic big cannon",
+            "start": 86.402,
+            "end": 90.562,
+            "text": "With a plastic BIC and a nod",
             "words": [
                 {
-                    "start": 87.34,
-                    "end": 87.76,
-                    "text": "With"
+                    "start": 86.402,
+                    "end": 87.722,
+                    "text": "With",
+                    "source": "canonical"
                 },
                 {
-                    "start": 87.76,
-                    "end": 87.96,
-                    "text": "a"
+                    "start": 87.787,
+                    "end": 87.86,
+                    "text": "a",
+                    "source": "canonical"
                 },
                 {
-                    "start": 87.96,
-                    "end": 88.68,
-                    "text": "plastic"
+                    "start": 88.237,
+                    "end": 88.396,
+                    "text": "plastic",
+                    "source": "canonical"
                 },
                 {
-                    "start": 88.68,
-                    "end": 89.18,
-                    "text": "big"
+                    "start": 88.662,
+                    "end": 89.362,
+                    "text": "BIC",
+                    "source": "canonical"
                 },
                 {
-                    "start": 89.18,
-                    "end": 90.02,
-                    "text": "cannon"
+                    "start": 89.673,
+                    "end": 89.882,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 89.882,
+                    "end": 89.937,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 90.102,
+                    "end": 90.562,
+                    "text": "nod",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 92.08,
-            "end": 94.92,
-            "text": "Twelve believers faithful, true",
+            "start": 92.288,
+            "end": 94.363,
+            "text": "Twelve believers, faithful, true",
             "words": [
                 {
-                    "start": 92.08,
-                    "end": 92.5,
-                    "text": "Twelve"
+                    "start": 92.288,
+                    "end": 92.522,
+                    "text": "Twelve",
+                    "source": "canonical"
                 },
                 {
-                    "start": 92.5,
-                    "end": 93.14,
-                    "text": "believers"
+                    "start": 92.778,
+                    "end": 93.571,
+                    "text": "believers,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 93.14,
-                    "end": 93.78,
-                    "text": "faithful,"
+                    "start": 93.802,
+                    "end": 94.062,
+                    "text": "faithful,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 94.06,
-                    "end": 94.92,
-                    "text": "true"
+                    "start": 94.082,
+                    "end": 94.363,
+                    "text": "true",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 95.76,
-            "end": 96.9,
-            "text": "Grala said",
+            "start": 94.882,
+            "end": 102.762,
+            "text": "Gralha said \"I'll translate for you\"",
             "words": [
                 {
-                    "start": 95.76,
-                    "end": 96.26,
-                    "text": "Grala"
+                    "start": 94.882,
+                    "end": 96.262,
+                    "text": "Gralha",
+                    "source": "canonical"
                 },
                 {
-                    "start": 96.26,
-                    "end": 96.9,
-                    "text": "said"
+                    "start": 96.262,
+                    "end": 96.524,
+                    "text": "said",
+                    "source": "canonical"
+                },
+                {
+                    "start": 96.682,
+                    "end": 98.898,
+                    "text": "\"I'll",
+                    "source": "canonical"
+                },
+                {
+                    "start": 99.41,
+                    "end": 99.766,
+                    "text": "translate",
+                    "source": "canonical"
+                },
+                {
+                    "start": 99.98,
+                    "end": 100.275,
+                    "text": "for",
+                    "source": "canonical"
+                },
+                {
+                    "start": 100.382,
+                    "end": 102.762,
+                    "text": "you\"",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 98.74,
-            "end": 101.08,
-            "text": "I'll translate for you",
+            "start": 102.762,
+            "end": 107.356,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 98.74,
-                    "end": 99.14,
-                    "text": "I'll"
+                    "start": 102.762,
+                    "end": 104.222,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 99.14,
-                    "end": 99.84,
-                    "text": "translate"
+                    "start": 104.256,
+                    "end": 104.313,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 99.84,
-                    "end": 100.22,
-                    "text": "for"
+                    "start": 104.82,
+                    "end": 105.32,
+                    "text": "box",
+                    "source": "ad-lib"
                 },
                 {
-                    "start": 100.22,
-                    "end": 101.08,
-                    "text": "you"
+                    "start": 105.724,
+                    "end": 105.782,
+                    "text": "BOX!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 105.782,
+                    "end": 106.38,
+                    "text": "THE",
+                    "source": "canonical"
+                },
+                {
+                    "start": 106.38,
+                    "end": 106.431,
+                    "text": "ORANGE",
+                    "source": "canonical"
+                },
+                {
+                    "start": 107.272,
+                    "end": 107.356,
+                    "text": "BOX!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 104.08,
-            "end": 107.42,
-            "text": "The orange box, the orange box",
+            "start": 108.802,
+            "end": 111.863,
+            "text": "The baby fire sleeps inside!",
             "words": [
                 {
-                    "start": 104.08,
-                    "end": 104.24,
-                    "text": "The"
+                    "start": 108.802,
+                    "end": 108.902,
+                    "text": "The",
+                    "source": "canonical"
                 },
                 {
-                    "start": 104.24,
-                    "end": 104.74,
-                    "text": "orange"
+                    "start": 108.96,
+                    "end": 109.382,
+                    "text": "baby",
+                    "source": "canonical"
                 },
                 {
-                    "start": 104.74,
-                    "end": 105.22,
-                    "text": "box,"
+                    "start": 109.382,
+                    "end": 109.902,
+                    "text": "fire",
+                    "source": "canonical"
                 },
                 {
-                    "start": 106.04,
-                    "end": 106.3,
-                    "text": "the"
+                    "start": 110.048,
+                    "end": 110.883,
+                    "text": "sleeps",
+                    "source": "canonical"
                 },
                 {
-                    "start": 106.3,
-                    "end": 106.9,
-                    "text": "orange"
-                },
-                {
-                    "start": 106.9,
-                    "end": 107.42,
-                    "text": "box"
+                    "start": 111.007,
+                    "end": 111.863,
+                    "text": "inside!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 108.7,
-            "end": 111.32,
-            "text": "The baby fire sleeps inside",
+            "start": 112.542,
+            "end": 115.3,
+            "text": "THE ORANGE BOX! THE ORANGE BOX!",
             "words": [
                 {
-                    "start": 108.7,
-                    "end": 108.92,
-                    "text": "The"
+                    "start": 112.542,
+                    "end": 112.642,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 108.92,
-                    "end": 109.42,
-                    "text": "baby"
+                    "start": 113.167,
+                    "end": 113.242,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 109.42,
-                    "end": 109.92,
-                    "text": "fire"
+                    "start": 113.82,
+                    "end": 113.902,
+                    "text": "BOX!",
+                    "source": "canonical"
                 },
                 {
-                    "start": 109.92,
-                    "end": 110.62,
-                    "text": "sleeps"
+                    "start": 114.642,
+                    "end": 114.742,
+                    "text": "THE",
+                    "source": "canonical"
                 },
                 {
-                    "start": 110.62,
-                    "end": 111.32,
-                    "text": "inside"
+                    "start": 114.967,
+                    "end": 115.037,
+                    "text": "ORANGE",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 112.4,
-            "end": 115.84,
-            "text": "The orange box, the orange box",
+            "start": 115.3,
+            "end": 120.315,
+            "text": "We'll run with it, we'll run with pride!",
             "words": [
-                {
-                    "start": 112.4,
-                    "end": 112.62,
-                    "text": "The"
-                },
-                {
-                    "start": 112.62,
-                    "end": 113.22,
-                    "text": "orange"
-                },
-                {
-                    "start": 113.22,
-                    "end": 113.68,
-                    "text": "box,"
-                },
-                {
-                    "start": 114.32,
-                    "end": 114.72,
-                    "text": "the"
-                },
-                {
-                    "start": 114.72,
-                    "end": 115.3,
-                    "text": "orange"
-                },
                 {
                     "start": 115.3,
-                    "end": 115.84,
-                    "text": "box"
+                    "end": 115.9,
+                    "text": "box,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 117.248,
+                    "end": 117.402,
+                    "text": "We'll",
+                    "source": "canonical"
+                },
+                {
+                    "start": 117.452,
+                    "end": 117.824,
+                    "text": "run",
+                    "source": "canonical"
+                },
+                {
+                    "start": 117.877,
+                    "end": 118.046,
+                    "text": "with",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.102,
+                    "end": 118.661,
+                    "text": "it,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.942,
+                    "end": 119.022,
+                    "text": "we'll",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.217,
+                    "end": 119.282,
+                    "text": "run",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.282,
+                    "end": 119.347,
+                    "text": "with",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.542,
+                    "end": 120.315,
+                    "text": "pride!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 117.14,
-            "end": 119.92,
-            "text": "We'll run with it, we'll run with pride",
+            "start": 122.162,
+            "end": 127.546,
+            "text": "Run, run, don't let it die!",
             "words": [
                 {
-                    "start": 117.14,
-                    "end": 117.42,
-                    "text": "We'll"
+                    "start": 122.162,
+                    "end": 122.482,
+                    "text": "Run,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 117.42,
-                    "end": 117.8,
-                    "text": "run"
+                    "start": 123.282,
+                    "end": 125.12,
+                    "text": "run,",
+                    "source": "canonical"
                 },
                 {
-                    "start": 117.8,
-                    "end": 118.1,
-                    "text": "with"
+                    "start": 126.722,
+                    "end": 126.794,
+                    "text": "don't",
+                    "source": "canonical"
                 },
                 {
-                    "start": 118.1,
-                    "end": 118.32,
-                    "text": "it,"
+                    "start": 127.012,
+                    "end": 127.08,
+                    "text": "let",
+                    "source": "canonical"
                 },
                 {
-                    "start": 118.78,
-                    "end": 119.04,
-                    "text": "we'll"
+                    "start": 127.282,
+                    "end": 127.462,
+                    "text": "it",
+                    "source": "canonical"
                 },
                 {
-                    "start": 119.04,
-                    "end": 119.3,
-                    "text": "run"
-                },
-                {
-                    "start": 119.3,
-                    "end": 119.52,
-                    "text": "with"
-                },
-                {
-                    "start": 119.52,
-                    "end": 119.92,
-                    "text": "pride"
-                }
-            ]
-        },
-        {
-            "start": 121.66,
-            "end": 124.88,
-            "text": "Run, run, run",
-            "words": [
-                {
-                    "start": 121.66,
-                    "end": 122.44,
-                    "text": "Run,"
-                },
-                {
-                    "start": 122.56,
-                    "end": 123.84,
-                    "text": "run,"
-                },
-                {
-                    "start": 124.3,
-                    "end": 124.88,
-                    "text": "run"
-                }
-            ]
-        },
-        {
-            "start": 126.5,
-            "end": 127.88,
-            "text": "Don't let it die",
-            "words": [
-                {
-                    "start": 126.5,
-                    "end": 126.96,
-                    "text": "Don't"
-                },
-                {
-                    "start": 126.96,
-                    "end": 127.24,
-                    "text": "let"
-                },
-                {
-                    "start": 127.24,
-                    "end": 127.44,
-                    "text": "it"
-                },
-                {
-                    "start": 127.44,
-                    "end": 127.88,
-                    "text": "die"
-                }
-            ]
-        },
-        {
-            "start": 130.02,
-            "end": 133.18,
-            "text": "Run, run, run",
-            "words": [
-                {
-                    "start": 130.02,
-                    "end": 130.78,
-                    "text": "Run,"
-                },
-                {
-                    "start": 131.02,
-                    "end": 131.96,
-                    "text": "run,"
-                },
-                {
-                    "start": 132.94,
-                    "end": 133.18,
-                    "text": "run"
-                }
-            ]
-        },
-        {
-            "start": 134.96,
-            "end": 136.24,
-            "text": "Don't let it die",
-            "words": [
-                {
-                    "start": 134.96,
-                    "end": 135.38,
-                    "text": "Don't"
-                },
-                {
-                    "start": 135.38,
-                    "end": 135.68,
-                    "text": "let"
-                },
-                {
-                    "start": 135.68,
-                    "end": 135.88,
-                    "text": "it"
-                },
-                {
-                    "start": 135.88,
-                    "end": 136.24,
-                    "text": "die"
-                }
-            ]
-        },
-        {
-            "start": 136.4,
-            "end": 143.74,
-            "text": "Sounds of running laughter and excitement.",
-            "words": [
-                {
-                    "start": 136.4,
-                    "end": 142.38,
-                    "text": "Sounds"
-                },
-                {
-                    "start": 142.38,
-                    "end": 142.6,
-                    "text": "of"
-                },
-                {
-                    "start": 142.6,
-                    "end": 142.82,
-                    "text": "running"
-                },
-                {
-                    "start": 142.82,
-                    "end": 143.22,
-                    "text": "laughter"
-                },
-                {
-                    "start": 143.22,
-                    "end": 143.44,
-                    "text": "and"
-                },
-                {
-                    "start": 143.44,
-                    "end": 143.74,
-                    "text": "excitement."
+                    "start": 127.462,
+                    "end": 127.546,
+                    "text": "die!",
+                    "source": "canonical"
                 }
             ]
         }

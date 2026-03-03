@@ -4,1213 +4,2168 @@
     "timeline": [
         {
             "id": "line_0_occ_0",
-            "start": 0.0,
-            "end": 3.04,
+            "start": 0.22,
+            "end": 3.168,
             "lyric": "The Mage said box! The box is law!",
-            "real_meaning": "The traditionalist's cry — 'the founder said so', 'it's in the constitution', appeal to authority over evidence.",
+            "real_meaning": "The traditionalist's cry â€” 'the founder said so', 'it's in the constitution', appeal to authority over evidence.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0077.jpg",
+                    "url": "media/c0231.jpg",
                     "query": "angry figure pointing at an orange box and shouting to a crowd, dogmatic authority, dramatic cinematic"
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0232.jpg",
-                    "query": "A close-up of the orange box, its surface weathered, reflecting harsh sunlight, a single tear rolling down its side."
-                },
-                {
-                    "offset": 1.18,
-                    "url": "media/c0233.jpg",
-                    "query": "An aerial view of the crowd, their shadows stretching long and distorted, the stage empty amidst a sea of disarray."
                 }
             ],
             "words": [
                 {
-                    "start": 0.0,
-                    "end": 0.2,
+                    "start": 0.22,
+                    "end": 0.26,
                     "text": "The"
                 },
                 {
-                    "start": 0.2,
+                    "start": 0.22,
                     "end": 0.48,
-                    "text": "mock"
+                    "text": "Mage"
                 },
                 {
                     "start": 0.48,
                     "end": 0.72,
-                    "text": "said,"
+                    "text": "said"
                 },
                 {
-                    "start": 0.76,
-                    "end": 1.2,
-                    "text": "box,"
+                    "start": 0.72,
+                    "end": 1.37,
+                    "text": "box!"
                 },
                 {
-                    "start": 1.7,
-                    "end": 2.1,
-                    "text": "the"
+                    "start": 2.02,
+                    "end": 2.06,
+                    "text": "The"
                 },
                 {
-                    "start": 2.1,
+                    "start": 2.155,
                     "end": 2.44,
                     "text": "box"
                 },
                 {
-                    "start": 2.44,
+                    "start": 2.49,
                     "end": 2.64,
                     "text": "is"
                 },
                 {
                     "start": 2.64,
-                    "end": 3.04,
-                    "text": "law"
+                    "end": 3.168,
+                    "text": "law!"
                 }
             ]
         },
         {
             "id": "line_1_occ_0",
-            "start": 3.8,
-            "end": 6.9,
+            "start": 3.978,
+            "end": 7.31,
             "lyric": "The box is everything we saw!",
-            "real_meaning": "Confirmation bias as faith — 'I saw it work, therefore the whole system is true.'",
+            "real_meaning": "Confirmation bias as faith â€” 'I saw it work, therefore the whole system is true.'",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0078.jpg",
+                    "url": "media/c0234.jpg",
                     "query": "crowd pressing forward with fierce conviction, pointing at a glowing object, mob certainty, cinematic"
-                },
-                {
-                    "offset": 0.84,
-                    "url": "media/c0235.jpg",
-                    "query": "A gloved hand grasping a glowing object against a blur of eager faces."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0236.jpg",
-                    "query": "The gleam from the glowing box spreads across faces, casting a warm, unifying glow on a sea of hopeful eyes."
                 }
             ],
             "words": [
                 {
-                    "start": 3.8,
-                    "end": 4.04,
+                    "start": 3.978,
+                    "end": 4.06,
                     "text": "The"
                 },
                 {
-                    "start": 4.04,
-                    "end": 4.36,
+                    "start": 4.06,
+                    "end": 4.229,
                     "text": "box"
                 },
                 {
-                    "start": 4.36,
-                    "end": 4.6,
+                    "start": 4.555,
+                    "end": 4.62,
                     "text": "is"
                 },
                 {
-                    "start": 4.6,
-                    "end": 5.64,
+                    "start": 4.939,
+                    "end": 5.527,
                     "text": "everything"
                 },
                 {
-                    "start": 5.64,
-                    "end": 6.26,
+                    "start": 5.88,
+                    "end": 6.004,
                     "text": "we"
                 },
                 {
-                    "start": 6.26,
-                    "end": 6.9,
-                    "text": "saw"
+                    "start": 6.375,
+                    "end": 7.31,
+                    "text": "saw!"
                 }
             ]
         },
         {
             "id": "line_2_occ_0",
-            "start": 7.82,
-            "end": 10.74,
+            "start": 7.621,
+            "end": 11.06,
             "lyric": "Muda's wrong, she breaks the rules!",
-            "real_meaning": "The heretic label — anyone who questions the system is dangerous, must be cancelled, silenced, burned.",
+            "real_meaning": "The heretic label â€” anyone who questions the system is dangerous, must be cancelled, silenced, burned.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0079.jpg",
+                    "url": "media/c0237.jpg",
                     "query": "crowd pointing accusingly at a lone woman, witch trial energy, dramatic shadows cinematic"
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0238.jpg",
-                    "query": "Tattered rope binding her wrists, defiant eyes meet accusers."
-                },
-                {
-                    "offset": 1.12,
-                    "url": "media/c0239.jpg",
-                    "query": "Flickering candlelight dances on weathered faces, fear and anger intertwined."
                 }
             ],
             "words": [
                 {
-                    "start": 7.82,
-                    "end": 8.36,
-                    "text": "Mota's"
+                    "start": 7.621,
+                    "end": 8.38,
+                    "text": "Muda's"
                 },
                 {
-                    "start": 8.36,
-                    "end": 8.84,
+                    "start": 8.38,
+                    "end": 9.095,
                     "text": "wrong,"
                 },
                 {
-                    "start": 9.1,
-                    "end": 9.26,
+                    "start": 9.095,
+                    "end": 9.448,
                     "text": "she"
                 },
                 {
-                    "start": 9.26,
+                    "start": 9.448,
                     "end": 9.76,
                     "text": "breaks"
                 },
                 {
-                    "start": 9.76,
-                    "end": 10.14,
+                    "start": 9.91,
+                    "end": 10.004,
                     "text": "the"
                 },
                 {
-                    "start": 10.14,
-                    "end": 10.74,
-                    "text": "rules"
+                    "start": 10.004,
+                    "end": 11.06,
+                    "text": "rules!"
                 }
             ]
         },
         {
             "id": "line_3_occ_0",
-            "start": 11.2,
-            "end": 14.36,
+            "start": 11.375,
+            "end": 13.929,
             "lyric": "We are the faithful, we are the tools!",
-            "real_meaning": "Proud submission — wearing servitude as identity, 'I'm a company man', the tools calling themselves faithful.",
+            "real_meaning": "Proud submission â€” wearing servitude as identity, 'I'm a company man', the tools calling themselves faithful.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0080.jpg",
+                    "url": "media/c0240.jpg",
                     "query": "row of identical figures saluting with tools in hand, proud servitude, dystopian cinematic"
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0241.jpg",
-                    "query": "Glowing tool head glinting in harsh light, fingers wrapped around grip tightly"
-                },
-                {
-                    "offset": 1.08,
-                    "url": "media/c0242.jpg",
-                    "query": "Shattered reflection of a face, pride and pain intertwined"
                 }
             ],
             "words": [
                 {
-                    "start": 11.2,
-                    "end": 11.48,
+                    "start": 11.375,
+                    "end": 11.46,
                     "text": "We"
                 },
                 {
-                    "start": 11.48,
-                    "end": 11.72,
+                    "start": 11.535,
+                    "end": 11.591,
                     "text": "are"
                 },
                 {
-                    "start": 11.72,
-                    "end": 11.94,
+                    "start": 11.76,
+                    "end": 11.828,
                     "text": "the"
                 },
                 {
-                    "start": 11.94,
-                    "end": 12.6,
+                    "start": 12.315,
+                    "end": 12.608,
                     "text": "faithful,"
                 },
                 {
-                    "start": 13.16,
+                    "start": 13.282,
                     "end": 13.36,
                     "text": "we"
                 },
                 {
-                    "start": 13.36,
-                    "end": 13.62,
+                    "start": 13.585,
+                    "end": 13.66,
                     "text": "are"
                 },
                 {
-                    "start": 13.62,
+                    "start": 13.66,
                     "end": 13.84,
                     "text": "the"
                 },
                 {
                     "start": 13.84,
-                    "end": 14.36,
-                    "text": "tools"
+                    "end": 13.929,
+                    "text": "tools!"
                 }
             ]
         },
         {
             "id": "line_4_occ_0",
-            "start": 15.08,
-            "end": 18.38,
+            "start": 15.263,
+            "end": 17.974,
             "lyric": "Look at the stone! Look at your hand!",
-            "real_meaning": "Muda's counter — empirical evidence, your own experience, trust your senses over their narrative.",
+            "real_meaning": "Muda's counter â€” empirical evidence, your own experience, trust your senses over their narrative.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0081.jpg",
+                    "url": "media/c0243.jpg",
                     "query": "open hands holding a rough stone, sunlight revealing its potential, empowering close-up cinematic"
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c0244.jpg",
-                    "query": "A rough hand caresses the stone, dust and sunlight dancing"
-                },
-                {
-                    "offset": 0.99,
-                    "url": "media/c0245.jpg",
-                    "query": "Warm light shatters on the stone as it's gently turned to reveal its inner beauty"
                 }
             ],
             "words": [
                 {
-                    "start": 15.08,
-                    "end": 15.58,
+                    "start": 15.263,
+                    "end": 15.337,
                     "text": "Look"
                 },
                 {
-                    "start": 15.58,
-                    "end": 15.78,
+                    "start": 15.56,
+                    "end": 15.725,
                     "text": "at"
                 },
                 {
                     "start": 15.78,
-                    "end": 15.96,
+                    "end": 15.976,
                     "text": "the"
                 },
                 {
-                    "start": 15.96,
-                    "end": 16.48,
-                    "text": "stone,"
+                    "start": 16.041,
+                    "end": 16.519,
+                    "text": "stone!"
                 },
                 {
-                    "start": 17.08,
+                    "start": 17.408,
                     "end": 17.46,
-                    "text": "look"
+                    "text": "Look"
                 },
                 {
-                    "start": 17.46,
-                    "end": 17.68,
+                    "start": 17.64,
+                    "end": 17.7,
                     "text": "at"
                 },
                 {
-                    "start": 17.68,
+                    "start": 17.755,
                     "end": 17.92,
                     "text": "your"
                 },
                 {
                     "start": 17.92,
-                    "end": 18.38,
-                    "text": "hand"
+                    "end": 17.974,
+                    "text": "hand!"
                 }
             ]
         },
         {
             "id": "line_5_occ_0",
-            "start": 18.84,
-            "end": 22.02,
+            "start": 19.084,
+            "end": 22.452,
             "lyric": "The fire rises when you understand!",
-            "real_meaning": "Knowledge is the real power — not belief, not brand loyalty, not tribal membership. Understanding.",
+            "real_meaning": "Knowledge is the real power â€” not belief, not brand loyalty, not tribal membership. Understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0082.jpg",
+                    "url": "media/c0246.jpg",
                     "query": "fire rising from struck stones illuminating a face of understanding, eureka moment, warm cinematic"
-                },
-                {
-                    "offset": 0.57,
-                    "url": "media/c0247.jpg",
-                    "query": "Sparks dance, igniting wisps of parchment, knowledge unleashed in a blaze."
-                },
-                {
-                    "offset": 1.04,
-                    "url": "media/c0248.jpg",
-                    "query": "Warm hues of ember and flame blend into a face glowing with enlightenment"
                 }
             ],
             "words": [
                 {
-                    "start": 18.84,
-                    "end": 19.26,
+                    "start": 19.084,
+                    "end": 19.15,
                     "text": "The"
                 },
                 {
-                    "start": 19.26,
-                    "end": 19.68,
+                    "start": 19.41,
+                    "end": 19.504,
                     "text": "fire"
                 },
                 {
-                    "start": 19.68,
-                    "end": 20.4,
+                    "start": 19.93,
+                    "end": 20.211,
                     "text": "rises"
                 },
                 {
-                    "start": 20.4,
-                    "end": 20.98,
+                    "start": 20.38,
+                    "end": 21.0,
                     "text": "when"
                 },
                 {
-                    "start": 20.98,
-                    "end": 21.2,
+                    "start": 21.065,
+                    "end": 21.138,
                     "text": "you"
                 },
                 {
-                    "start": 21.2,
-                    "end": 22.02,
-                    "text": "understand"
+                    "start": 21.45,
+                    "end": 22.452,
+                    "text": "understand!"
                 }
             ]
         },
         {
             "id": "line_6_occ_0",
-            "start": 22.86,
-            "end": 26.08,
+            "start": 22.886,
+            "end": 26.118,
             "lyric": "The Mage is just a guy with tricks!",
-            "real_meaning": "Demystifying power — the CEO is just a person, the guru is just a salesman, the wizard is just a man behind a curtain.",
+            "real_meaning": "Demystifying power â€” the CEO is just a person, the guru is just a salesman, the wizard is just a man behind a curtain.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0083.jpg",
+                    "url": "media/c0249.jpg",
                     "query": "curtain being pulled back to reveal an ordinary person operating levers, unmasking power, dramatic cinematic"
-                },
-                {
-                    "offset": 0.82,
-                    "url": "media/c0250.jpg",
-                    "query": "A close-up of calloused hands gripping a lever, veins pulsating with effort."
-                },
-                {
-                    "offset": 1.31,
-                    "url": "media/c0251.jpg",
-                    "query": "The curtain floats, a wispy specter on a moonlit stage, concealing nothing but emptiness."
                 }
             ],
             "words": [
                 {
-                    "start": 22.86,
-                    "end": 23.08,
+                    "start": 22.886,
+                    "end": 22.944,
                     "text": "The"
                 },
                 {
-                    "start": 23.08,
-                    "end": 23.46,
-                    "text": "marge"
+                    "start": 23.12,
+                    "end": 23.195,
+                    "text": "Mage"
                 },
                 {
-                    "start": 23.46,
-                    "end": 23.62,
+                    "start": 23.42,
+                    "end": 23.48,
                     "text": "is"
                 },
                 {
-                    "start": 23.62,
-                    "end": 24.08,
+                    "start": 23.66,
+                    "end": 23.882,
                     "text": "just"
                 },
                 {
-                    "start": 24.08,
-                    "end": 24.52,
+                    "start": 24.252,
+                    "end": 24.324,
                     "text": "a"
                 },
                 {
-                    "start": 24.52,
-                    "end": 25.0,
+                    "start": 24.54,
+                    "end": 24.828,
                     "text": "guy"
                 },
                 {
                     "start": 25.0,
-                    "end": 25.42,
+                    "end": 25.057,
                     "text": "with"
                 },
                 {
-                    "start": 25.42,
-                    "end": 26.08,
-                    "text": "tricks"
+                    "start": 25.46,
+                    "end": 26.118,
+                    "text": "tricks!"
                 }
             ]
         },
         {
             "id": "line_7_occ_0",
-            "start": 26.68,
-            "end": 29.96,
+            "start": 26.666,
+            "end": 29.98,
             "lyric": "The spark is yours, it's in the sticks!",
-            "real_meaning": "Open-source everything — the power is in the commons, in the public domain, in nature itself.",
+            "real_meaning": "Open-source everything â€” the power is in the commons, in the public domain, in nature itself.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0084.jpg",
+                    "url": "media/c0252.jpg",
                     "query": "pile of simple sticks and stones with sparks flying, raw accessible power, warm earthy cinematic"
-                },
-                {
-                    "offset": 0.81,
-                    "url": "media/c0253.jpg",
-                    "query": "A single spark ignites a tiny flame on wood, glowing warmly against dark stone."
-                },
-                {
-                    "offset": 1.3,
-                    "url": "media/c0254.jpg",
-                    "query": "A golden field of wheat with grain swaying in wind, rippling like waves under sun."
                 }
             ],
             "words": [
                 {
-                    "start": 26.68,
-                    "end": 26.8,
+                    "start": 26.666,
+                    "end": 26.86,
                     "text": "The"
                 },
                 {
-                    "start": 26.8,
-                    "end": 27.18,
+                    "start": 26.86,
+                    "end": 27.2,
                     "text": "spark"
                 },
                 {
-                    "start": 27.18,
+                    "start": 27.255,
                     "end": 27.42,
                     "text": "is"
                 },
                 {
                     "start": 27.42,
-                    "end": 27.9,
+                    "end": 28.02,
                     "text": "yours,"
                 },
                 {
-                    "start": 28.06,
-                    "end": 28.46,
+                    "start": 28.178,
+                    "end": 28.473,
                     "text": "it's"
                 },
                 {
-                    "start": 28.46,
+                    "start": 28.59,
                     "end": 28.84,
                     "text": "in"
                 },
                 {
-                    "start": 28.84,
-                    "end": 29.06,
+                    "start": 28.9,
+                    "end": 29.08,
                     "text": "the"
                 },
                 {
-                    "start": 29.06,
-                    "end": 29.96,
-                    "text": "sticks"
+                    "start": 29.08,
+                    "end": 29.98,
+                    "text": "sticks!"
                 }
             ]
         },
         {
             "id": "line_8_occ_0",
-            "start": 30.72,
-            "end": 33.86,
+            "start": 31.08,
+            "end": 33.394,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "The great schism — Democrat vs Republican, science vs faith, progress vs tradition. Same fire, different names.",
+            "real_meaning": "The great schism â€” Democrat vs Republican, science vs faith, progress vs tradition. Same fire, different names.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0085.jpg",
+                    "url": "media/c0255.jpg",
                     "query": "two fires burning on opposite sides of a divide, mirroring each other, dramatic split-screen cinematic"
-                },
-                {
-                    "offset": 0.58,
-                    "url": "media/c0256.jpg",
-                    "query": "A crackling ember lifts from the left fire's ashes, floats, and gently lands in the right side of the divide."
-                },
-                {
-                    "offset": 1.07,
-                    "url": "media/c0257.jpg",
-                    "query": "The fire’s dance flickers into a stormy sea, waves of flame crashing upon each other."
                 }
             ],
             "words": [
                 {
-                    "start": 30.72,
-                    "end": 31.08,
-                    "text": "Two"
+                    "start": 31.08,
+                    "end": 31.12,
+                    "text": "TWO"
                 },
                 {
                     "start": 31.08,
-                    "end": 31.86,
-                    "text": "fires,"
+                    "end": 32.329,
+                    "text": "FIRES!"
                 },
                 {
-                    "start": 32.4,
-                    "end": 32.96,
-                    "text": "two"
+                    "start": 32.9,
+                    "end": 32.94,
+                    "text": "TWO"
                 },
                 {
-                    "start": 32.96,
-                    "end": 33.86,
-                    "text": "fires"
+                    "start": 32.94,
+                    "end": 33.394,
+                    "text": "FIRES!"
                 }
             ]
         },
         {
             "id": "line_9_occ_0",
-            "start": 34.56,
-            "end": 36.98,
+            "start": 35.32,
+            "end": 37.061,
             "lyric": "Burning in the same night!",
-            "real_meaning": "Both sides burning the same fuel of human insecurity — the division is the point, not the difference.",
+            "real_meaning": "Both sides burning the same fuel of human insecurity â€” the division is the point, not the difference.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0086.jpg",
+                    "url": "media/c0258.jpg",
                     "query": "two opposing campfires under the same starry sky, shared humanity ignored, wide cinematic"
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0259.jpg",
-                    "query": "A log crackles, sending sparks dancing into the night, against a backdrop of warm campfire glow."
-                },
-                {
-                    "offset": 1.04,
-                    "url": "media/c0260.jpg",
-                    "query": "Two hands reach across the void, fingers almost touching, as the flames flicker between them."
                 }
             ],
             "words": [
                 {
-                    "start": 34.56,
-                    "end": 35.38,
+                    "start": 35.32,
+                    "end": 35.512,
                     "text": "Burning"
                 },
                 {
-                    "start": 35.38,
-                    "end": 35.78,
+                    "start": 35.512,
+                    "end": 35.8,
                     "text": "in"
                 },
                 {
-                    "start": 35.78,
-                    "end": 35.96,
+                    "start": 35.8,
+                    "end": 36.002,
                     "text": "the"
                 },
                 {
-                    "start": 35.96,
+                    "start": 36.137,
                     "end": 36.4,
                     "text": "same"
                 },
                 {
                     "start": 36.4,
-                    "end": 36.98,
-                    "text": "night"
+                    "end": 37.061,
+                    "text": "night!"
                 }
             ]
         },
         {
             "id": "line_10_occ_0",
-            "start": 38.16,
-            "end": 41.54,
+            "start": 38.317,
+            "end": 40.697,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "The culture war anthem — endless debate that generates heat but no light, engagement over enlightenment.",
+            "real_meaning": "The culture war anthem â€” endless debate that generates heat but no light, engagement over enlightenment.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0087.jpg",
+                    "url": "media/c0261.jpg",
                     "query": "two massive bonfires with silhouettes shouting across the gap, dramatic confrontation, epic cinematic"
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0262.jpg",
-                    "query": "A lone figure stands between two fires, warm tones of orange and red. They gaze into flames, a look of confusion on their face."
-                },
-                {
-                    "offset": 1.24,
-                    "url": "media/c0263.jpg",
-                    "query": "The bonfires' flames clash in mid-air with sparks flying, contrasting hues of deep blue and vibrant orange."
                 }
             ],
             "words": [
                 {
-                    "start": 38.16,
-                    "end": 38.66,
-                    "text": "Two"
+                    "start": 38.317,
+                    "end": 38.8,
+                    "text": "TWO"
                 },
                 {
-                    "start": 38.66,
-                    "end": 39.74,
-                    "text": "fires,"
+                    "start": 38.8,
+                    "end": 38.87,
+                    "text": "FIRES!"
                 },
                 {
-                    "start": 40.12,
-                    "end": 40.58,
-                    "text": "two"
+                    "start": 40.548,
+                    "end": 40.6,
+                    "text": "TWO"
                 },
                 {
-                    "start": 40.58,
-                    "end": 41.54,
-                    "text": "fires"
+                    "start": 40.6,
+                    "end": 40.697,
+                    "text": "FIRES!"
                 }
             ]
         },
         {
             "id": "line_11_occ_0",
-            "start": 42.56,
-            "end": 44.8,
+            "start": 43.16,
+            "end": 44.486,
             "lyric": "Which one is right?",
-            "real_meaning": "The question that keeps the division alive — the answer doesn't matter, the arguing does.",
+            "real_meaning": "The question that keeps the division alive â€” the answer doesn't matter, the arguing does.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0088.jpg",
+                    "url": "media/c0264.jpg",
                     "query": "confused figure standing between two fires, unable to choose, existential dilemma, dramatic cinematic"
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0265.jpg",
-                    "query": "Close-up of a hand reaching towards both flames in conflict."
-                },
-                {
-                    "offset": 1.14,
-                    "url": "media/c0266.jpg",
-                    "query": "A stormy sea with waves crashing against a single rock and breaking apart."
                 }
             ],
             "words": [
                 {
-                    "start": 42.56,
-                    "end": 43.56,
+                    "start": 43.36,
+                    "end": 43.54,
                     "text": "Which"
                 },
                 {
-                    "start": 43.56,
-                    "end": 43.88,
+                    "start": 43.63,
+                    "end": 43.782,
                     "text": "one"
                 },
                 {
-                    "start": 43.88,
-                    "end": 44.3,
+                    "start": 44.058,
+                    "end": 44.308,
                     "text": "is"
                 },
                 {
-                    "start": 44.3,
-                    "end": 44.8,
+                    "start": 44.392,
+                    "end": 44.486,
                     "text": "right?"
                 }
             ]
         },
         {
-            "id": "line_12_interp",
-            "start": 44.8,
-            "end": 49.74,
+            "id": "line_12_occ_0",
+            "start": 45.14,
+            "end": 47.82,
             "lyric": "GRAL-HA! GRAL-HA!",
-            "real_meaning": "Tribal chanting — sports teams, political rallies, brand loyalty. Identity through opposition.",
+            "real_meaning": "Tribal chanting â€” sports teams, political rallies, brand loyalty. Identity through opposition.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0089.jpg",
+                    "url": "media/c0267.jpg",
                     "query": "crowd chanting with fists raised, tribal paint and fierce devotion, intense rally cinematic"
-                },
-                {
-                    "offset": 0.8,
-                    "url": "media/c0268.jpg",
-                    "query": "A close-up of a single fist, tribal paint smeared and glowing in dramatic lighting."
-                },
-                {
-                    "offset": 1.27,
-                    "url": "media/c0269.jpg",
-                    "query": "An abstract swirl of colors clashing and merging depicting the chaos and unity of their identity."
                 }
             ],
             "words": [
                 {
-                    "start": 44.8,
-                    "end": 47.27,
+                    "start": 45.14,
+                    "end": 46.816,
                     "text": "GRAL-HA!"
                 },
                 {
-                    "start": 47.27,
-                    "end": 49.74,
+                    "start": 47.447,
+                    "end": 47.82,
                     "text": "GRAL-HA!"
                 }
             ]
         },
         {
-            "id": "line_13_interp",
-            "start": 49.74,
-            "end": 54.68,
+            "id": "line_13_occ_0",
+            "start": 48.64,
+            "end": 51.32,
             "lyric": "MU-DA! MU-DA!",
-            "real_meaning": "The counter-chant — equally tribal, equally reductive. Both sides reduced to slogans.",
+            "real_meaning": "The counter-chant â€” equally tribal, equally reductive. Both sides reduced to slogans.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0090.jpg",
+                    "url": "media/c0270.jpg",
                     "query": "opposing crowd chanting back with equal fervor, mirror image of the other side, dramatic cinematic"
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c0271.jpg",
-                    "query": "A sea of faces distorted in fervent defiance and frustration, warm tones painting emotion and passion."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0272.jpg",
-                    "query": "The chanting crowd’s hands intertwining in unison, their bodies weaving in a living tapestry."
                 }
             ],
             "words": [
                 {
-                    "start": 49.74,
-                    "end": 52.21,
+                    "start": 48.64,
+                    "end": 48.74,
                     "text": "MU-DA!"
                 },
                 {
-                    "start": 52.21,
-                    "end": 54.68,
+                    "start": 49.56,
+                    "end": 49.66,
                     "text": "MU-DA!"
                 }
             ]
         },
         {
             "id": "line_14_occ_0",
-            "start": 54.68,
-            "end": 57.4,
+            "start": 53.944,
+            "end": 57.311,
             "lyric": "Tronco stepped between the two",
-            "real_meaning": "The centrist, the moderate, the fence-sitter — paralyzed by choices, defined by indecision.",
+            "real_meaning": "The centrist, the moderate, the fence-sitter â€” paralyzed by choices, defined by indecision.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0091.jpg",
+                    "url": "media/c0273.jpg",
                     "query": "small figure stepping nervously between two massive opposing crowds, caught in the middle, cinematic"
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 0.69,
                     "url": "media/c0274.jpg",
                     "query": "Figure trembling against backdrop of looming shadows."
-                },
-                {
-                    "offset": 1.4,
-                    "url": "media/c0275.jpg",
-                    "query": "Silhouette teetering on edge, torn by swirling tides below."
                 }
             ],
             "words": [
                 {
-                    "start": 54.68,
-                    "end": 54.88,
-                    "text": "No"
+                    "start": 54.144,
+                    "end": 54.92,
+                    "text": "Tronco"
                 },
                 {
-                    "start": 54.88,
-                    "end": 55.5,
-                    "text": "step"
+                    "start": 54.92,
+                    "end": 55.26,
+                    "text": "stepped"
                 },
                 {
-                    "start": 55.5,
-                    "end": 56.34,
+                    "start": 55.598,
+                    "end": 56.142,
                     "text": "between"
                 },
                 {
-                    "start": 56.34,
-                    "end": 56.84,
+                    "start": 56.565,
+                    "end": 57.037,
                     "text": "the"
                 },
                 {
-                    "start": 56.84,
-                    "end": 57.4,
+                    "start": 57.105,
+                    "end": 57.311,
                     "text": "two"
                 }
             ]
         },
         {
             "id": "line_15_occ_0",
-            "start": 57.86,
-            "end": 60.94,
+            "start": 57.38,
+            "end": 61.24,
             "lyric": "\"Wait,\" he said, \"what should I do?",
-            "real_meaning": "The paralysis of the reasonable person — when both sides are loud, the thoughtful person freezes.",
+            "real_meaning": "The paralysis of the reasonable person â€” when both sides are loud, the thoughtful person freezes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0092.jpg",
+                    "url": "media/c0276.jpg",
                     "query": "confused man with hands up trying to calm two angry groups, futile peacemaker, dramatic"
                 },
                 {
-                    "offset": 0.61,
+                    "offset": 0.6,
                     "url": "media/c0277.jpg",
                     "query": "A single tear rolls down the peacemaker's cheek as he gazes at the crowd of hostile faces."
-                },
-                {
-                    "offset": 1.07,
-                    "url": "media/c0278.jpg",
-                    "query": "The world explodes in a chaotic dance of colors and shapes, his frozen figure trapped within a vortex."
                 }
             ],
             "words": [
                 {
-                    "start": 57.86,
-                    "end": 58.38,
-                    "text": "Wait,"
+                    "start": 57.38,
+                    "end": 58.4,
+                    "text": "\"Wait,\""
                 },
                 {
                     "start": 58.44,
-                    "end": 58.6,
+                    "end": 58.58,
                     "text": "he"
                 },
                 {
-                    "start": 58.6,
-                    "end": 59.1,
+                    "start": 58.58,
+                    "end": 59.2,
                     "text": "said,"
                 },
                 {
-                    "start": 59.34,
-                    "end": 59.66,
-                    "text": "what"
+                    "start": 59.255,
+                    "end": 59.736,
+                    "text": "\"what"
                 },
                 {
-                    "start": 59.66,
-                    "end": 60.08,
+                    "start": 59.805,
+                    "end": 59.857,
                     "text": "should"
                 },
                 {
-                    "start": 60.08,
-                    "end": 60.44,
+                    "start": 60.365,
+                    "end": 60.46,
                     "text": "I"
                 },
                 {
-                    "start": 60.44,
-                    "end": 60.94,
+                    "start": 60.46,
+                    "end": 61.24,
                     "text": "do?"
                 }
             ]
         },
         {
             "id": "line_16_occ_0",
-            "start": 61.46,
-            "end": 65.06,
+            "start": 61.546,
+            "end": 64.892,
             "lyric": "He's got the box, she's got the spark",
-            "real_meaning": "Reducing a complex truth to a simple binary — team box vs team spark, left vs right, us vs them.",
+            "real_meaning": "Reducing a complex truth to a simple binary â€” team box vs team spark, left vs right, us vs them.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0093.jpg",
+                    "url": "media/c0279.jpg",
                     "query": "split image showing a box on one side and a spark on the other, false binary, artistic cinematic"
                 },
                 {
-                    "offset": 0.82,
+                    "offset": 0.73,
                     "url": "media/c0280.jpg",
                     "query": "Close-up of a hand igniting a matchstick, flame flickering against darkness."
-                },
-                {
-                    "offset": 1.28,
-                    "url": "media/c0281.jpg",
-                    "query": "Warm hues clash in a chaotic swirl, as the box is consumed by shadows."
                 }
             ],
             "words": [
                 {
-                    "start": 61.46,
-                    "end": 61.76,
+                    "start": 61.546,
+                    "end": 61.74,
                     "text": "He's"
                 },
                 {
-                    "start": 61.76,
-                    "end": 62.18,
+                    "start": 61.74,
+                    "end": 61.795,
                     "text": "got"
                 },
                 {
                     "start": 62.18,
-                    "end": 62.56,
+                    "end": 62.345,
                     "text": "the"
                 },
                 {
-                    "start": 62.56,
-                    "end": 63.08,
-                    "text": "bark,"
+                    "start": 62.62,
+                    "end": 63.14,
+                    "text": "box,"
                 },
                 {
-                    "start": 63.18,
-                    "end": 63.64,
+                    "start": 63.32,
+                    "end": 63.5,
                     "text": "she's"
                 },
                 {
-                    "start": 63.64,
-                    "end": 64.04,
+                    "start": 63.902,
+                    "end": 63.961,
                     "text": "got"
                 },
                 {
-                    "start": 64.04,
-                    "end": 64.4,
+                    "start": 64.218,
+                    "end": 64.284,
                     "text": "the"
                 },
                 {
-                    "start": 64.4,
-                    "end": 65.06,
+                    "start": 64.48,
+                    "end": 64.892,
                     "text": "spark"
                 }
             ]
         },
         {
             "id": "line_17_occ_0",
-            "start": 65.4,
-            "end": 68.04,
+            "start": 65.14,
+            "end": 68.16,
             "lyric": "I'm just scared of the dark...\"",
-            "real_meaning": "The real truth underneath all ideology — we're all just afraid. Fear is the engine of every -ism.",
+            "real_meaning": "The real truth underneath all ideology â€” we're all just afraid. Fear is the engine of every -ism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0094.jpg",
+                    "url": "media/c0282.jpg",
                     "query": "frightened figure hugging themselves in darkness, vulnerable honesty, intimate emotional cinematic"
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0283.jpg",
-                    "query": "Trembling hands clutching arms tightly, knuckles pale as moonlight."
-                },
-                {
-                    "offset": 1.15,
-                    "url": "media/c0284.jpg",
-                    "query": "A vast, empty desert at dusk, shadows stretching long and menacing."
                 }
             ],
             "words": [
                 {
-                    "start": 65.4,
-                    "end": 66.02,
+                    "start": 65.14,
+                    "end": 65.646,
                     "text": "I'm"
                 },
                 {
-                    "start": 66.02,
-                    "end": 66.34,
+                    "start": 66.04,
+                    "end": 66.1,
                     "text": "just"
                 },
                 {
-                    "start": 66.34,
-                    "end": 66.96,
+                    "start": 66.735,
+                    "end": 66.988,
                     "text": "scared"
                 },
                 {
-                    "start": 66.96,
-                    "end": 67.22,
+                    "start": 67.17,
+                    "end": 67.24,
                     "text": "of"
                 },
                 {
-                    "start": 67.22,
-                    "end": 67.42,
+                    "start": 67.39,
+                    "end": 67.44,
                     "text": "the"
                 },
                 {
-                    "start": 67.42,
-                    "end": 68.04,
-                    "text": "dark"
-                }
-            ]
-        },
-        {
-            "id": "line_9_occ_0",
-            "start": 68.78,
-            "end": 83.86,
-            "lyric": "Burning in the same night!",
-            "real_meaning": "Both sides burning the same fuel of human insecurity — the division is the point, not the difference.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0086.jpg",
-                    "query": "two opposing campfires under the same starry sky, shared humanity ignored, wide cinematic"
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c0259.jpg",
-                    "query": "A log crackles, sending sparks dancing into the night, against a backdrop of warm campfire glow."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0260.jpg",
-                    "query": "Two hands reach across the void, fingers almost touching, as the flames flicker between them."
-                }
-            ],
-            "words": [
-                {
-                    "start": 68.78,
-                    "end": 69.18,
-                    "text": "Two"
-                },
-                {
-                    "start": 69.18,
-                    "end": 69.92,
-                    "text": "fires,"
-                },
-                {
-                    "start": 70.5,
-                    "end": 71.06,
-                    "text": "two"
-                },
-                {
-                    "start": 71.06,
-                    "end": 71.9,
-                    "text": "fires"
-                },
-                {
-                    "start": 72.72,
-                    "end": 73.46,
-                    "text": "Burning"
-                },
-                {
-                    "start": 73.46,
-                    "end": 73.86,
-                    "text": "in"
-                },
-                {
-                    "start": 73.86,
-                    "end": 74.06,
-                    "text": "the"
-                },
-                {
-                    "start": 74.06,
-                    "end": 74.48,
-                    "text": "same"
-                },
-                {
-                    "start": 74.48,
-                    "end": 75.12,
-                    "text": "night"
-                },
-                {
-                    "start": 76.22,
-                    "end": 76.78,
-                    "text": "Two"
-                },
-                {
-                    "start": 76.78,
-                    "end": 77.84,
-                    "text": "fires,"
-                },
-                {
-                    "start": 78.16,
-                    "end": 78.66,
-                    "text": "two"
-                },
-                {
-                    "start": 78.66,
-                    "end": 79.62,
-                    "text": "fires"
-                },
-                {
-                    "start": 80.68,
-                    "end": 81.62,
-                    "text": "Which"
-                },
-                {
-                    "start": 81.62,
-                    "end": 82.0,
-                    "text": "one"
-                },
-                {
-                    "start": 82.0,
-                    "end": 82.38,
-                    "text": "is"
-                },
-                {
-                    "start": 82.38,
-                    "end": 82.9,
-                    "text": "right?"
-                },
-                {
-                    "start": 83.02,
-                    "end": 83.86,
-                    "text": "Oh!"
+                    "start": 67.44,
+                    "end": 68.16,
+                    "text": "dark...\""
                 }
             ]
         },
         {
             "id": "line_18_occ_0",
-            "start": 99.76,
-            "end": 109.34,
-            "lyric": "\"Where's the Mage gone?\"",
-            "real_meaning": "The creator has left the building — God is dead, the founder stepped down, the wizard fled. Now what?",
+            "start": 69.16,
+            "end": 71.931,
+            "lyric": "TWO FIRES! TWO FIRES!",
+            "real_meaning": "The great schism â€” Democrat vs Republican, science vs faith, progress vs tradition. Same fire, different names.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0095.jpg",
+                    "url": "media/c0255.jpg",
+                    "query": "two fires burning on opposite sides of a divide, mirroring each other, dramatic split-screen cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 69.16,
+                    "end": 69.2,
+                    "text": "TWO"
+                },
+                {
+                    "start": 69.16,
+                    "end": 70.634,
+                    "text": "FIRES!"
+                },
+                {
+                    "start": 70.824,
+                    "end": 71.04,
+                    "text": "TWO"
+                },
+                {
+                    "start": 71.04,
+                    "end": 71.931,
+                    "text": "FIRES!"
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 72.992,
+            "end": 75.264,
+            "lyric": "Burning in the same night!",
+            "real_meaning": "Both sides burning the same fuel of human insecurity â€” the division is the point, not the difference.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0258.jpg",
+                    "query": "two opposing campfires under the same starry sky, shared humanity ignored, wide cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 72.992,
+                    "end": 73.46,
+                    "text": "Burning"
+                },
+                {
+                    "start": 73.512,
+                    "end": 73.88,
+                    "text": "in"
+                },
+                {
+                    "start": 73.93,
+                    "end": 73.986,
+                    "text": "the"
+                },
+                {
+                    "start": 74.175,
+                    "end": 74.389,
+                    "text": "same"
+                },
+                {
+                    "start": 74.46,
+                    "end": 75.264,
+                    "text": "night!"
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 76.512,
+            "end": 78.69,
+            "lyric": "TWO FIRES! TWO FIRES!",
+            "real_meaning": "The culture war anthem â€” endless debate that generates heat but no light, engagement over enlightenment.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0261.jpg",
+                    "query": "two massive bonfires with silhouettes shouting across the gap, dramatic confrontation, epic cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 76.512,
+                    "end": 76.8,
+                    "text": "TWO"
+                },
+                {
+                    "start": 76.8,
+                    "end": 76.887,
+                    "text": "FIRES!"
+                },
+                {
+                    "start": 78.574,
+                    "end": 78.64,
+                    "text": "TWO"
+                },
+                {
+                    "start": 78.64,
+                    "end": 78.69,
+                    "text": "FIRES!"
+                }
+            ]
+        },
+        {
+            "id": "line_21_occ_0",
+            "start": 80.84,
+            "end": 82.94,
+            "lyric": "Which one is right?",
+            "real_meaning": "The question that keeps the division alive â€” the answer doesn't matter, the arguing does.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0264.jpg",
+                    "query": "confused figure standing between two fires, unable to choose, existential dilemma, dramatic cinematic"
+                }
+            ],
+            "words": [
+                {
+                    "start": 80.768,
+                    "end": 80.96,
+                    "text": "Which"
+                },
+                {
+                    "start": 80.96,
+                    "end": 82.0,
+                    "text": "one"
+                },
+                {
+                    "start": 82.0,
+                    "end": 82.36,
+                    "text": "is"
+                },
+                {
+                    "start": 82.36,
+                    "end": 82.96,
+                    "text": "right?"
+                }
+            ]
+        },
+        {
+            "id": "line_22_occ_0",
+            "start": 82.94,
+            "end": 101.6,
+            "lyric": "\"Where's the Mage gone?\"",
+            "real_meaning": "The creator has left the building â€” God is dead, the founder stepped down, the wizard fled. Now what?",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0285.jpg",
                     "query": "empty throne with scattered remains of an orange box, abandoned authority, desolate cinematic"
                 },
                 {
-                    "offset": 0.64,
+                    "offset": 0.75,
                     "url": "media/c0286.jpg",
                     "query": "A tattered crown lies amidst orange shards, abandoned by its royal owner, golden threads cast long shadows."
                 },
                 {
-                    "offset": 1.11,
+                    "offset": 9.34,
                     "url": "media/c0287.jpg",
                     "query": "Cold winds sweep through a grand hall, empty chairs and desolation in warm tones, the final echoes of authority fading away"
                 }
             ],
             "words": [
                 {
-                    "start": 99.76,
+                    "start": 82.96,
                     "end": 100.54,
-                    "text": "Where's"
+                    "text": "\"Where's"
                 },
                 {
                     "start": 100.54,
-                    "end": 100.76,
+                    "end": 100.78,
                     "text": "the"
                 },
                 {
-                    "start": 100.76,
-                    "end": 101.22,
-                    "text": "mudge"
+                    "start": 100.78,
+                    "end": 101.2,
+                    "text": "Mage"
                 },
                 {
-                    "start": 101.22,
-                    "end": 101.62,
-                    "text": "gone?"
-                },
-                {
-                    "start": 103.56,
-                    "end": 104.34,
-                    "text": "Where's"
-                },
-                {
-                    "start": 104.34,
-                    "end": 104.56,
-                    "text": "the"
-                },
-                {
-                    "start": 104.56,
-                    "end": 105.02,
-                    "text": "mudge"
-                },
-                {
-                    "start": 105.02,
-                    "end": 105.44,
-                    "text": "gone?"
-                },
-                {
-                    "start": 107.28,
-                    "end": 108.12,
-                    "text": "Where's"
-                },
-                {
-                    "start": 108.12,
-                    "end": 108.34,
-                    "text": "the"
-                },
-                {
-                    "start": 108.34,
-                    "end": 108.8,
-                    "text": "mudge"
-                },
-                {
-                    "start": 108.8,
-                    "end": 109.34,
-                    "text": "gone?"
-                }
-            ]
-        },
-        {
-            "id": "instrumental_9",
-            "start": 110.68,
-            "end": 110.7,
-            "lyric": "you",
-            "real_meaning": "Instrumental / ambience",
-            "media": [],
-            "words": [
-                {
-                    "start": 110.68,
-                    "end": 110.7,
-                    "text": "you"
+                    "start": 101.2,
+                    "end": 101.64,
+                    "text": "gone?\""
                 }
             ]
         }
-    ]
+    ],
+    "beat_times": [
+        0.093,
+        0.627,
+        1.184,
+        1.765,
+        2.252,
+        2.74,
+        3.204,
+        3.669,
+        4.156,
+        4.644,
+        5.132,
+        5.596,
+        6.084,
+        6.548,
+        7.036,
+        7.5,
+        7.988,
+        8.475,
+        8.94,
+        9.427,
+        9.892,
+        10.379,
+        10.867,
+        11.308,
+        11.796,
+        12.283,
+        12.748,
+        13.212,
+        13.7,
+        14.164,
+        14.652,
+        15.139,
+        15.604,
+        16.068,
+        16.556,
+        17.043,
+        17.485,
+        17.972,
+        18.46,
+        18.947,
+        19.412,
+        19.876,
+        20.364,
+        20.852,
+        21.316,
+        21.804,
+        22.268,
+        22.732,
+        23.197,
+        23.684,
+        24.172,
+        24.636,
+        25.101,
+        25.565,
+        26.053,
+        26.54,
+        27.005,
+        27.492,
+        27.98,
+        28.468,
+        28.955,
+        29.42,
+        29.884,
+        30.348,
+        30.813,
+        31.3,
+        31.788,
+        32.276,
+        32.74,
+        33.205,
+        33.692,
+        34.157,
+        34.621,
+        35.109,
+        35.596,
+        36.084,
+        36.548,
+        37.036,
+        37.5,
+        37.965,
+        38.429,
+        38.917,
+        39.404,
+        39.892,
+        40.356,
+        40.821,
+        41.308,
+        41.773,
+        42.237,
+        42.725,
+        43.212,
+        43.7,
+        44.164,
+        44.652,
+        45.116,
+        45.604,
+        46.068,
+        46.533,
+        47.02,
+        47.508,
+        47.972,
+        48.437,
+        48.924,
+        49.412,
+        49.876,
+        50.364,
+        50.828,
+        51.316,
+        51.78,
+        52.245,
+        52.733,
+        53.22,
+        53.685,
+        54.172,
+        54.637,
+        55.124,
+        55.589,
+        56.076,
+        56.541,
+        57.028,
+        57.493,
+        57.98,
+        58.468,
+        58.932,
+        59.397,
+        59.884,
+        60.372,
+        60.836,
+        61.301,
+        61.788,
+        62.276,
+        62.74,
+        63.228,
+        63.692,
+        64.18,
+        64.644,
+        65.132,
+        65.596,
+        66.084,
+        66.548,
+        67.036,
+        67.524,
+        67.965,
+        68.406,
+        68.87,
+        69.404,
+        69.869,
+        70.356,
+        70.821,
+        71.308,
+        71.796,
+        72.26,
+        72.725,
+        73.213,
+        73.7,
+        74.165,
+        74.629,
+        75.117,
+        75.604,
+        76.069,
+        76.533,
+        77.021,
+        77.508,
+        77.973,
+        78.437,
+        78.925,
+        79.412,
+        79.9,
+        80.364,
+        80.829,
+        81.316,
+        81.804,
+        82.268,
+        82.756,
+        83.22,
+        83.685,
+        84.149,
+        84.637,
+        85.124,
+        85.612,
+        86.076,
+        86.541,
+        87.028,
+        87.516,
+        87.98,
+        88.445,
+        88.932,
+        89.42,
+        89.884,
+        90.349,
+        90.836,
+        91.324,
+        91.788,
+        92.276,
+        92.74,
+        93.228,
+        93.693,
+        94.157,
+        94.645,
+        95.132,
+        95.597,
+        96.084,
+        96.549,
+        97.036,
+        97.501,
+        97.988,
+        98.476,
+        98.963,
+        99.428,
+        99.915,
+        100.403,
+        100.867,
+        101.332,
+        101.796,
+        102.284,
+        102.748,
+        103.213,
+        103.7,
+        104.188,
+        104.652,
+        105.14,
+        105.604,
+        106.092,
+        106.533,
+        107.021
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.741
+        ],
+        [
+            0.49,
+            0.746
+        ],
+        [
+            0.98,
+            0.678
+        ],
+        [
+            1.46,
+            0.622
+        ],
+        [
+            1.95,
+            0.713
+        ],
+        [
+            2.44,
+            0.813
+        ],
+        [
+            2.93,
+            0.734
+        ],
+        [
+            3.41,
+            0.651
+        ],
+        [
+            3.9,
+            0.725
+        ],
+        [
+            4.39,
+            0.814
+        ],
+        [
+            4.88,
+            0.821
+        ],
+        [
+            5.36,
+            0.777
+        ],
+        [
+            5.85,
+            0.762
+        ],
+        [
+            6.34,
+            0.778
+        ],
+        [
+            6.83,
+            0.707
+        ],
+        [
+            7.31,
+            0.642
+        ],
+        [
+            7.8,
+            0.724
+        ],
+        [
+            8.29,
+            0.816
+        ],
+        [
+            8.78,
+            0.769
+        ],
+        [
+            9.26,
+            0.738
+        ],
+        [
+            9.75,
+            0.801
+        ],
+        [
+            10.24,
+            0.816
+        ],
+        [
+            10.73,
+            0.74
+        ],
+        [
+            11.22,
+            0.775
+        ],
+        [
+            11.7,
+            0.842
+        ],
+        [
+            12.19,
+            0.792
+        ],
+        [
+            12.68,
+            0.733
+        ],
+        [
+            13.17,
+            0.801
+        ],
+        [
+            13.65,
+            0.854
+        ],
+        [
+            14.14,
+            0.772
+        ],
+        [
+            14.63,
+            0.694
+        ],
+        [
+            15.12,
+            0.728
+        ],
+        [
+            15.6,
+            0.813
+        ],
+        [
+            16.09,
+            0.826
+        ],
+        [
+            16.58,
+            0.694
+        ],
+        [
+            17.07,
+            0.674
+        ],
+        [
+            17.55,
+            0.854
+        ],
+        [
+            18.04,
+            0.814
+        ],
+        [
+            18.53,
+            0.627
+        ],
+        [
+            19.02,
+            0.66
+        ],
+        [
+            19.5,
+            0.851
+        ],
+        [
+            19.99,
+            0.916
+        ],
+        [
+            20.48,
+            0.906
+        ],
+        [
+            20.97,
+            0.909
+        ],
+        [
+            21.46,
+            0.916
+        ],
+        [
+            21.94,
+            0.782
+        ],
+        [
+            22.43,
+            0.609
+        ],
+        [
+            22.92,
+            0.716
+        ],
+        [
+            23.41,
+            0.88
+        ],
+        [
+            23.89,
+            0.837
+        ],
+        [
+            24.38,
+            0.8
+        ],
+        [
+            24.87,
+            0.833
+        ],
+        [
+            25.36,
+            0.866
+        ],
+        [
+            25.84,
+            0.742
+        ],
+        [
+            26.33,
+            0.619
+        ],
+        [
+            26.82,
+            0.707
+        ],
+        [
+            27.31,
+            0.817
+        ],
+        [
+            27.79,
+            0.81
+        ],
+        [
+            28.28,
+            0.766
+        ],
+        [
+            28.77,
+            0.757
+        ],
+        [
+            29.26,
+            0.736
+        ],
+        [
+            29.74,
+            0.645
+        ],
+        [
+            30.23,
+            0.538
+        ],
+        [
+            30.72,
+            0.64
+        ],
+        [
+            31.21,
+            0.849
+        ],
+        [
+            31.7,
+            0.913
+        ],
+        [
+            32.18,
+            0.883
+        ],
+        [
+            32.67,
+            0.883
+        ],
+        [
+            33.16,
+            0.914
+        ],
+        [
+            33.65,
+            0.886
+        ],
+        [
+            34.13,
+            0.852
+        ],
+        [
+            34.62,
+            0.886
+        ],
+        [
+            35.11,
+            0.94
+        ],
+        [
+            35.6,
+            0.925
+        ],
+        [
+            36.08,
+            0.912
+        ],
+        [
+            36.57,
+            0.925
+        ],
+        [
+            37.06,
+            0.904
+        ],
+        [
+            37.55,
+            0.864
+        ],
+        [
+            38.03,
+            0.857
+        ],
+        [
+            38.52,
+            0.884
+        ],
+        [
+            39.01,
+            0.912
+        ],
+        [
+            39.5,
+            0.892
+        ],
+        [
+            39.98,
+            0.88
+        ],
+        [
+            40.47,
+            0.891
+        ],
+        [
+            40.96,
+            0.889
+        ],
+        [
+            41.45,
+            0.853
+        ],
+        [
+            41.94,
+            0.844
+        ],
+        [
+            42.42,
+            0.875
+        ],
+        [
+            42.91,
+            0.904
+        ],
+        [
+            43.4,
+            0.91
+        ],
+        [
+            43.89,
+            0.914
+        ],
+        [
+            44.37,
+            0.92
+        ],
+        [
+            44.86,
+            0.891
+        ],
+        [
+            45.35,
+            0.872
+        ],
+        [
+            45.84,
+            0.898
+        ],
+        [
+            46.32,
+            0.913
+        ],
+        [
+            46.81,
+            0.879
+        ],
+        [
+            47.3,
+            0.851
+        ],
+        [
+            47.79,
+            0.868
+        ],
+        [
+            48.27,
+            0.897
+        ],
+        [
+            48.76,
+            0.877
+        ],
+        [
+            49.25,
+            0.85
+        ],
+        [
+            49.74,
+            0.858
+        ],
+        [
+            50.22,
+            0.891
+        ],
+        [
+            50.71,
+            0.894
+        ],
+        [
+            51.2,
+            0.871
+        ],
+        [
+            51.69,
+            0.878
+        ],
+        [
+            52.18,
+            0.901
+        ],
+        [
+            52.66,
+            0.882
+        ],
+        [
+            53.15,
+            0.867
+        ],
+        [
+            53.64,
+            0.896
+        ],
+        [
+            54.13,
+            0.937
+        ],
+        [
+            54.61,
+            0.965
+        ],
+        [
+            55.1,
+            0.965
+        ],
+        [
+            55.59,
+            0.943
+        ],
+        [
+            56.08,
+            0.961
+        ],
+        [
+            56.56,
+            0.96
+        ],
+        [
+            57.05,
+            0.936
+        ],
+        [
+            57.54,
+            0.875
+        ],
+        [
+            58.03,
+            0.873
+        ],
+        [
+            58.51,
+            0.937
+        ],
+        [
+            59.0,
+            0.896
+        ],
+        [
+            59.49,
+            0.881
+        ],
+        [
+            59.98,
+            0.93
+        ],
+        [
+            60.46,
+            0.942
+        ],
+        [
+            60.95,
+            0.892
+        ],
+        [
+            61.44,
+            0.902
+        ],
+        [
+            61.93,
+            0.962
+        ],
+        [
+            62.42,
+            0.98
+        ],
+        [
+            62.9,
+            0.96
+        ],
+        [
+            63.39,
+            0.943
+        ],
+        [
+            63.88,
+            0.935
+        ],
+        [
+            64.37,
+            0.94
+        ],
+        [
+            64.85,
+            0.902
+        ],
+        [
+            65.34,
+            0.873
+        ],
+        [
+            65.83,
+            0.815
+        ],
+        [
+            66.32,
+            0.77
+        ],
+        [
+            66.8,
+            0.753
+        ],
+        [
+            67.29,
+            0.727
+        ],
+        [
+            67.78,
+            0.638
+        ],
+        [
+            68.27,
+            0.518
+        ],
+        [
+            68.75,
+            0.657
+        ],
+        [
+            69.24,
+            0.875
+        ],
+        [
+            69.73,
+            0.923
+        ],
+        [
+            70.22,
+            0.894
+        ],
+        [
+            70.7,
+            0.885
+        ],
+        [
+            71.19,
+            0.925
+        ],
+        [
+            71.68,
+            0.902
+        ],
+        [
+            72.17,
+            0.858
+        ],
+        [
+            72.66,
+            0.879
+        ],
+        [
+            73.14,
+            0.938
+        ],
+        [
+            73.63,
+            0.934
+        ],
+        [
+            74.12,
+            0.911
+        ],
+        [
+            74.61,
+            0.926
+        ],
+        [
+            75.09,
+            0.927
+        ],
+        [
+            75.58,
+            0.88
+        ],
+        [
+            76.07,
+            0.869
+        ],
+        [
+            76.56,
+            0.904
+        ],
+        [
+            77.04,
+            0.944
+        ],
+        [
+            77.53,
+            0.947
+        ],
+        [
+            78.02,
+            0.896
+        ],
+        [
+            78.51,
+            0.882
+        ],
+        [
+            78.99,
+            0.907
+        ],
+        [
+            79.48,
+            0.879
+        ],
+        [
+            79.97,
+            0.851
+        ],
+        [
+            80.46,
+            0.866
+        ],
+        [
+            80.94,
+            0.93
+        ],
+        [
+            81.43,
+            0.947
+        ],
+        [
+            81.92,
+            0.909
+        ],
+        [
+            82.41,
+            0.925
+        ],
+        [
+            82.9,
+            0.926
+        ],
+        [
+            83.38,
+            0.94
+        ],
+        [
+            83.87,
+            0.978
+        ],
+        [
+            84.36,
+            0.964
+        ],
+        [
+            84.85,
+            0.91
+        ],
+        [
+            85.33,
+            0.883
+        ],
+        [
+            85.82,
+            0.91
+        ],
+        [
+            86.31,
+            0.924
+        ],
+        [
+            86.8,
+            0.898
+        ],
+        [
+            87.28,
+            0.892
+        ],
+        [
+            87.77,
+            0.909
+        ],
+        [
+            88.26,
+            0.908
+        ],
+        [
+            88.75,
+            0.894
+        ],
+        [
+            89.23,
+            0.876
+        ],
+        [
+            89.72,
+            0.878
+        ],
+        [
+            90.21,
+            0.919
+        ],
+        [
+            90.7,
+            0.957
+        ],
+        [
+            91.18,
+            0.95
+        ],
+        [
+            91.67,
+            0.942
+        ],
+        [
+            92.16,
+            0.941
+        ],
+        [
+            92.65,
+            0.926
+        ],
+        [
+            93.14,
+            0.911
+        ],
+        [
+            93.62,
+            0.917
+        ],
+        [
+            94.11,
+            0.918
+        ],
+        [
+            94.6,
+            0.896
+        ],
+        [
+            95.09,
+            0.903
+        ],
+        [
+            95.57,
+            0.923
+        ],
+        [
+            96.06,
+            0.927
+        ],
+        [
+            96.55,
+            0.927
+        ],
+        [
+            97.04,
+            0.909
+        ],
+        [
+            97.52,
+            0.864
+        ],
+        [
+            98.01,
+            0.882
+        ],
+        [
+            98.5,
+            0.9
+        ],
+        [
+            98.99,
+            0.867
+        ],
+        [
+            99.47,
+            0.839
+        ],
+        [
+            99.96,
+            0.759
+        ],
+        [
+            100.45,
+            0.741
+        ],
+        [
+            100.94,
+            0.763
+        ],
+        [
+            101.42,
+            0.742
+        ],
+        [
+            101.91,
+            0.687
+        ],
+        [
+            102.4,
+            0.641
+        ],
+        [
+            102.89,
+            0.676
+        ],
+        [
+            103.38,
+            0.715
+        ],
+        [
+            103.86,
+            0.702
+        ],
+        [
+            104.35,
+            0.727
+        ],
+        [
+            104.84,
+            0.72
+        ],
+        [
+            105.33,
+            0.683
+        ],
+        [
+            105.81,
+            0.643
+        ],
+        [
+            106.3,
+            0.603
+        ],
+        [
+            106.79,
+            0.593
+        ],
+        [
+            107.28,
+            0.59
+        ],
+        [
+            107.76,
+            0.514
+        ],
+        [
+            108.25,
+            0.469
+        ],
+        [
+            108.74,
+            0.46
+        ],
+        [
+            109.23,
+            0.37
+        ],
+        [
+            109.71,
+            0.276
+        ],
+        [
+            110.2,
+            0.223
+        ],
+        [
+            110.69,
+            0.206
+        ]
+    ],
+    "bpm": 123.0
 }

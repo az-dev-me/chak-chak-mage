@@ -330,6 +330,18 @@ def cmd_beats(args: argparse.Namespace) -> None:
     print(f"Beat detection complete: {len(results)} tracks")
 
 
+def cmd_structure(args: argparse.Namespace) -> None:
+    """Analyze musical structure for album tracks."""
+    from chak.utils.structure import analyze_album_tracks
+
+    config = load_config(args.config)
+    album_dir = config.project_root / "albums" / args.album_id
+    results = analyze_album_tracks(album_dir)
+    for tid, s in results.items():
+        print(f"  {tid}: {len(s['sections'])} sections, {s['bpm']:.0f} BPM, {len(s['transition_points'])} transitions")
+    print(f"Structure analysis complete: {len(results)} tracks")
+
+
 def cmd_expand_prompts(args: argparse.Namespace) -> None:
     """Expand media_queries to 3 per line using Ollama."""
     from chak.tools.expand_prompts import expand_semantic_prompts
@@ -483,6 +495,11 @@ def main() -> None:
     p_beats = subparsers.add_parser("beats", help="Detect musical beats for album tracks")
     p_beats.add_argument("album_id", help="Album ID")
     p_beats.set_defaults(func=cmd_beats)
+
+    # structure
+    p_struct = subparsers.add_parser("structure", help="Analyze musical structure for album tracks")
+    p_struct.add_argument("album_id", help="Album ID")
+    p_struct.set_defaults(func=cmd_structure)
 
     # expand-prompts
     p_expand = subparsers.add_parser("expand-prompts", help="Expand media prompts to 3 per line (Ollama)")

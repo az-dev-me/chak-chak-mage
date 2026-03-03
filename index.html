@@ -17,6 +17,9 @@
         <div id="media-layer-b" class="media-layer"></div>
     </div>
 
+    <!-- Energy-responsive vignette overlay -->
+    <div id="vignette-overlay"></div>
+
     <!-- UI Overlay container -->
     <div id="ui-container">
 
@@ -29,6 +32,11 @@
             </div>
         </header>
 
+        <!-- Track List Navigation -->
+        <nav id="track-list">
+            <!-- Track pills injected by JS -->
+        </nav>
+
         <!-- Player View -->
         <div id="player-view" class="view section-active">
             <div id="lyrics-display">
@@ -37,15 +45,25 @@
                 <div id="lyric-next" class="lyric-line fade-in"></div>
             </div>
 
+            <!-- Meaning Panel (slides up when a line has real_meaning) -->
+            <div id="meaning-panel" class="meaning-hidden">
+                <span class="meaning-label">MEANING</span>
+                <p id="meaning-text"></p>
+            </div>
+
             <div id="player-controls">
                 <div class="track-info" id="current-track-name">Track Loading...</div>
                 <div class="progress-bar-container" id="progress-container">
                     <div id="progress-bar"></div>
                 </div>
+                <div class="time-display">
+                    <span id="time-current">0:00</span>
+                    <span id="time-total">0:00</span>
+                </div>
                 <div class="buttons">
-                    <button id="btn-prev">⏮</button>
-                    <button id="btn-play">▶</button>
-                    <button id="btn-next">⏭</button>
+                    <button id="btn-prev">&#x23EE;</button>
+                    <button id="btn-play">&#x25B6;</button>
+                    <button id="btn-next">&#x23ED;</button>
                 </div>
             </div>
         </div>
