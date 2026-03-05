@@ -7,17 +7,19 @@
             "start": 0.4,
             "end": 1.046,
             "lyric": "When I got home",
-            "real_meaning": "Full circle â€” back where we started, but now we understand the pattern. Revolution is still biting the shoes.",
+            "real_meaning": "Full circle — back where we started, but now we understand the pattern. Revolution is still biting the shoes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0396.jpg",
-                    "query": "person on couch in warm lamplight with a hedgehog on the floor, peaceful return home, cinematic"
-                },
+                    "url": "media/c0960.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, with a single, firelit cave. The world is painted in warm hues, shadows dancing."
+                }
+            ],
+            "hidden_media": [
                 {
-                    "offset": 0.85,
-                    "url": "media/c0397.jpg",
-                    "query": "A small paw gently grips a lace, tugging at the shoe, in the soft glow of a nearby lamp."
+                    "offset": 0.0,
+                    "url": "media/c0963.jpg",
+                    "query": "A sprawling cityscape at dusk, a sleek smartphone lies untouched on a windowsill, reflection of the neon lights."
                 }
             ],
             "words": [
@@ -49,7 +51,20 @@
             "end": 3.6,
             "lyric": "I sat on the couch and stared at",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 0.85,
+                    "url": "media/c0961.jpg",
+                    "query": "A caveman sits on a fur-lined couch, staring at the ceiling. Warm light illuminates the scene, a fire in the background."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.85,
+                    "url": "media/c0964.jpg",
+                    "query": "A cluttered apartment, a child's drawing of a hedgehog on the wall, a phone charging, unnoticed."
+                }
+            ],
             "words": [
                 {
                     "start": 1.046,
@@ -99,7 +114,20 @@
             "end": 4.224,
             "lyric": "the ceiling.",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 3.13,
+                    "url": "media/c0962.jpg",
+                    "query": "up of a caveman's face, eyes gazing at the ceiling, as a hedgehog gnaws on his shoe."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.13,
+                    "url": "media/c0965.jpg",
+                    "query": "up of a hand, stone in palm, a slight smile, understanding in the eyes."
+                }
+            ],
             "words": [
                 {
                     "start": 3.6,
@@ -120,6 +148,7 @@
             "lyric": "The hedgehog chewing on my shoes.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 4.672,
@@ -158,12 +187,29 @@
             "start": 7.2,
             "end": 7.988,
             "lyric": "And I thought...",
-            "real_meaning": "The blunt epiphany â€” stripped of poetry, the truth is simple and profane. We never learn.",
+            "real_meaning": "The blunt epiphany — stripped of poetry, the truth is simple and profane. We never learn.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0399.jpg",
-                    "query": "person rubbing their face in exhausted realization, raw honest moment, intimate cinematic"
+                    "url": "media/c0966.jpg",
+                    "query": "A vast prehistoric landscape at sunset, a lone figure standing near a cave entrance, firelight flickering."
+                },
+                {
+                    "offset": 0.62,
+                    "url": "media/c0967.jpg",
+                    "query": "The figure sits alone, tool in hand, staring intently into the darkness, a fire burning nearby."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0969.jpg",
+                    "query": "A sprawling cityscape at dusk, a single smartphone lying untouched on a windowsill."
+                },
+                {
+                    "offset": 0.62,
+                    "url": "media/c0970.jpg",
+                    "query": "A cluttered apartment with a child playing with a stone, phone laying on the coffee table."
                 }
             ],
             "words": [
@@ -191,6 +237,7 @@
             "lyric": "fuck.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 8.3,
@@ -206,6 +253,7 @@
             "lyric": "It's always the same shit.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 9.219,
@@ -239,17 +287,29 @@
             "start": 11.744,
             "end": 13.344,
             "lyric": "The lighter was just a lighter.",
-            "real_meaning": "The complete arc â€” tool becomes symbol becomes weapon. Money, religion, ideology: all lighters without gas.",
+            "real_meaning": "The complete arc — tool becomes symbol becomes weapon. Money, religion, ideology: all lighters without gas.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0402.jpg",
-                    "query": "cheap plastic lighter displayed in a war museum next to weapons and flags, absurd elevation, cinematic"
+                    "url": "media/c0972.jpg",
+                    "query": "A vast prehistoric valley at sunset, volcanoes smolder in the distance. Warm hues paint the sky. Cinematic."
                 },
                 {
                     "offset": 0.63,
-                    "url": "media/c0403.jpg",
-                    "query": "A close-up of a soldier's grimy hands clenching the lighter, veins protruding, knuckles pale."
+                    "url": "media/c0973.jpg",
+                    "query": "Around a campfire, a group huddles, shadows dance on weathered faces. Tool in hand. Dramatic."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0975.jpg",
+                    "query": "A sprawling cityscape at dusk, a single smartphone lies untouched on a windowsill, cool blue light reflected on the glass."
+                },
+                {
+                    "offset": 0.63,
+                    "url": "media/c0976.jpg",
+                    "query": "A hand reaches for a pocket, but hesitates, fingers brushing against the cool metal of a pocket lighter."
                 }
             ],
             "words": [
@@ -291,7 +351,20 @@
             "end": 15.308,
             "lyric": "But they made it a totem.",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 3.49,
+                    "url": "media/c0974.jpg",
+                    "query": "A hand holds a stone tool, firelight reflects in the eyes. Intimate, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.49,
+                    "url": "media/c0977.jpg",
+                    "query": "Two hands clasped together, one holding a pocket lighter, the other a rock, cool tones, stark contrast, cinematic."
+                }
+            ],
             "words": [
                 {
                     "start": 13.909,
@@ -332,6 +405,7 @@
             "lyric": "A symbol of power.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 15.916,
@@ -362,6 +436,7 @@
             "lyric": "A reason for war.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 17.737,
@@ -390,12 +465,39 @@
             "start": 19.534,
             "end": 23.31,
             "lyric": "And today, thousands of years later, what's changed?",
-            "real_meaning": "The question that echoes through time â€” what has actually changed about the human condition?",
+            "real_meaning": "The question that echoes through time — what has actually changed about the human condition?",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0405.jpg",
-                    "query": "timeline montage from cave paintings to skyscrapers with identical human expressions, nothing changed, cinematic"
+                    "url": "media/c0978.jpg",
+                    "query": "A vast prehistoric landscape at dusk, with a distant fire glowing in the twilight."
+                },
+                {
+                    "offset": 0.53,
+                    "url": "media/c0979.jpg",
+                    "query": "A cave dweller strikes flint against stone, sparking flames."
+                },
+                {
+                    "offset": 1.71,
+                    "url": "media/c0980.jpg",
+                    "query": "The man's eyes reflect the firelight, questioning."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0981.jpg",
+                    "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a windowsill, cool blue light reflecting on the glass."
+                },
+                {
+                    "offset": 0.53,
+                    "url": "media/c0982.jpg",
+                    "query": "A cluttered apartment, a man sits on the couch, looking at his hands, with a stone on the table, a phone is on the coffee table."
+                },
+                {
+                    "offset": 1.71,
+                    "url": "media/c0983.jpg",
+                    "query": "Two hands meeting, fingers intertwining, a smooth stone rests on the ground, close up."
                 }
             ],
             "words": [
@@ -446,12 +548,39 @@
             "start": 23.31,
             "end": 25.18,
             "lyric": "Nothing.",
-            "real_meaning": "The single-word verdict on human progress â€” technological giants, psychological infants.",
+            "real_meaning": "The single-word verdict on human progress — technological giants, psychological infants.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0408.jpg",
-                    "query": "single word NOTHING floating in empty black space, devastating simplicity, minimalist cinematic"
+                    "url": "media/c0984.jpg",
+                    "query": "A vast prehistoric landscape at sunset. Volcanic peaks, a sprawling forest, and a herd of wild horses. A small cave at the edge of a cliff."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0985.jpg",
+                    "query": "A lone prehistoric man, his back to the viewer, stands with a lighter in his hand.  He looks at the cave's fire pit.  The shadows of the cave play on the walls."
+                },
+                {
+                    "offset": 1.33,
+                    "url": "media/c0986.jpg",
+                    "query": "A tight close-up of the man's hand, holding a lighter, but unable to light it."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0987.jpg",
+                    "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets. A phone sits untouched on a windowsill."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0988.jpg",
+                    "query": "A cluttered apartment with a sleek, black phone on a wooden table, next to a dusty museum exhibit."
+                },
+                {
+                    "offset": 1.33,
+                    "url": "media/c0989.jpg",
+                    "query": "A child's hands, smudged with dirt, clutching a smooth, gray stone from the beach."
                 }
             ],
             "words": [
@@ -467,12 +596,29 @@
             "start": 25.184,
             "end": 27.04,
             "lyric": "The modern Gralha still shouts:",
-            "real_meaning": "Still defending the lie â€” 'but the app said', 'but my guru said', 'but the market said'. Faith in authority persists.",
+            "real_meaning": "Still defending the lie — 'but the app said', 'but my guru said', 'but the market said'. Faith in authority persists.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0411.jpg",
-                    "query": "modern person shouting at the sky quoting ancient authority, past controlling present, dramatic cinematic"
+                    "url": "media/c0990.jpg",
+                    "query": "A vast, prehistoric valley at dusk, with a lone figure standing beside a cave entrance, firelight flickering in the distance."
+                },
+                {
+                    "offset": 0.61,
+                    "url": "media/c0991.jpg",
+                    "query": "The figure, hunched, holding a primitive stone tool, striking sparks into a pile of kindling, shadows dancing wildly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0993.jpg",
+                    "query": "Aerial view of a sprawling cityscape at dusk, a smartphone lies untouched on a balcony rail, cool blue hues reflecting off glass buildings."
+                },
+                {
+                    "offset": 0.61,
+                    "url": "media/c0994.jpg",
+                    "query": "A teenager sits on a couch, eyes glued to a blank screen, hands frozen in mid-air, as a museum of old phones flickers behind him."
                 }
             ],
             "words": [
@@ -509,7 +655,20 @@
             "end": 29.408,
             "lyric": "'But the Mage said it was transport!'",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 2.4,
+                    "url": "media/c0992.jpg",
+                    "query": "The figure's clenched jaw, eyes wide with frustration, a small cut on the index finger."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 2.4,
+                    "url": "media/c0995.jpg",
+                    "query": "A close-up of a person's face, tense and anxious,  eyes darting left to right, as they stare at a blank phone screen."
+                }
+            ],
             "words": [
                 {
                     "start": 27.54,
@@ -553,17 +712,29 @@
             "start": 29.88,
             "end": 31.68,
             "lyric": "And the modern Tronco replies:",
-            "real_meaning": "Peak futility â€” arguing about packaging while the product is empty. Color wars over substance.",
+            "real_meaning": "Peak futility — arguing about packaging while the product is empty. Color wars over substance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0414.jpg",
-                    "query": "two people arguing over color swatches while their world crumbles, absurd priorities, satirical cinematic"
+                    "url": "media/c0996.jpg",
+                    "query": "Widespread prehistoric valley at dusk, volcanic smoke, firepit glow, silhouette of a lone figure."
                 },
                 {
                     "offset": 0.52,
-                    "url": "media/c0415.jpg",
-                    "query": "close-up detail of And the modern Tronco replies: 'Yeah,, cinematic macro, warm lighting, painterly"
+                    "url": "media/c0997.jpg",
+                    "query": "Man holding a stone tool, looking at fire, modern lighter in the dirt, fire reflected in his eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0999.jpg",
+                    "query": "A sprawling cityscape at dusk, a sleek smartphone lies untouched on a modern balcony."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c1000.jpg",
+                    "query": "Two individuals in a minimalist apartment, arguing intensely, phones nowhere to be seen."
                 }
             ],
             "words": [
@@ -600,7 +771,20 @@
             "end": 32.58,
             "lyric": "'Yeah",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c0998.jpg",
+                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c1001.jpg",
+                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
+                }
+            ],
             "words": [
                 {
                     "start": 31.911,
@@ -615,7 +799,20 @@
             "end": 35.6,
             "lyric": "but the Mage's lighter was orange and I",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c0998.jpg",
+                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c1001.jpg",
+                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
+                }
+            ],
             "words": [
                 {
                     "start": 33.14,
@@ -665,7 +862,20 @@
             "end": 36.577,
             "lyric": "want a blue one!'",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c0998.jpg",
+                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.28,
+                    "url": "media/c1001.jpg",
+                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
+                }
+            ],
             "words": [
                 {
                     "start": 35.6,
@@ -694,12 +904,39 @@
             "start": 36.96,
             "end": 39.244,
             "lyric": "The fire is still there. Waiting.",
-            "real_meaning": "The final hope â€” the stone hasn't moved, the truth hasn't expired, the fire is still free for anyone who stops running.",
+            "real_meaning": "The final hope — the stone hasn't moved, the truth hasn't expired, the fire is still free for anyone who stops running.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0417.jpg",
-                    "query": "warm fire burning beside a simple stone on the ground, waiting to be found, hopeful cinematic"
+                    "url": "media/c1002.jpg",
+                    "query": "Vast prehistoric valley at dusk, fires burning, smoke rising."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c1003.jpg",
+                    "query": "A figure stands motionless near a fire, the lighter still in hand."
+                },
+                {
+                    "offset": 1.03,
+                    "url": "media/c1004.jpg",
+                    "query": "up of the figure's eyes, reflecting the embers, awaiting action."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c1005.jpg",
+                    "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a table in an apartment. Cool urban lights reflect off the screen."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c1006.jpg",
+                    "query": "A child on a beach, striking two stones together, sparks fly. The child is looking at the ocean."
+                },
+                {
+                    "offset": 1.03,
+                    "url": "media/c1007.jpg",
+                    "query": "Close up of a hand holding a stone, the stone has been used to strike another. The hand is at the beach."
                 }
             ],
             "words": [
@@ -740,12 +977,39 @@
             "start": 39.972,
             "end": 41.92,
             "lyric": "Waiting for someone to remember to strike the",
-            "real_meaning": "The album's last word and its entire message â€” stop. Look down. The answer was always at your feet. Chak-chak.",
+            "real_meaning": "The album's last word and its entire message — stop. Look down. The answer was always at your feet. Chak-chak.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0420.jpg",
-                    "query": "hand striking stone against stone, sparks flying in the final light, the eternal truth, triumphant cinematic close-up"
+                    "url": "media/c1008.jpg",
+                    "query": "A vast prehistoric landscape at dawn, smoke from fires rising into the sky."
+                },
+                {
+                    "offset": 0.62,
+                    "url": "media/c1009.jpg",
+                    "query": "A lone figure huddled by a dying fire, face illuminated by warm, flickering light."
+                },
+                {
+                    "offset": 1.13,
+                    "url": "media/c1010.jpg",
+                    "query": "A close-up of hands, calloused and worn, holding a stone ready to strike the stone to make fire."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c1011.jpg",
+                    "query": "A bustling cityscape at dusk, a sleek smartphone sits untouched on a windowsill, cool blues and purples dominate the scene."
+                },
+                {
+                    "offset": 0.62,
+                    "url": "media/c1012.jpg",
+                    "query": "A modern apartment interior, a young person sits on a couch, eyes glued to a blank wall, a phone lies untouched on the coffee table."
+                },
+                {
+                    "offset": 1.13,
+                    "url": "media/c1013.jpg",
+                    "query": "A close-up of a hand, slowly reaching for a phone, then hesitates and turns to the ground. A stone is at the feet."
                 }
             ],
             "words": [
@@ -798,6 +1062,7 @@
             "lyric": "stone.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 41.92,
@@ -1237,5 +1502,40 @@
             0.519
         ]
     ],
-    "bpm": 107.7
+    "bpm": 107.7,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 20.02,
+            "energy": "high",
+            "intensity": 0.705
+        },
+        {
+            "start": 20.02,
+            "end": 21.2,
+            "energy": "high",
+            "intensity": 0.769
+        },
+        {
+            "start": 21.2,
+            "end": 42.64,
+            "energy": "high",
+            "intensity": 0.729
+        }
+    ],
+    "transition_points": [
+        0.35,
+        3.41,
+        7.29,
+        10.54,
+        13.84,
+        17.44,
+        20.78,
+        24.36,
+        27.86,
+        31.16,
+        34.95,
+        38.06,
+        41.22
+    ]
 }

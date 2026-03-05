@@ -58,6 +58,7 @@ class SemanticLine(BaseModel):
     lyric: str
     real_meaning: str = ""
     media_queries: list[str] = Field(default_factory=list)
+    hidden_media_queries: list[str] = Field(default_factory=list)
 
 
 class SemanticTrack(BaseModel):
@@ -93,7 +94,15 @@ class FusedTimelineEntry(BaseModel):
     lyric: str
     real_meaning: str = ""
     media: list[MediaEntry] = Field(default_factory=list)
+    hidden_media: list[MediaEntry] = Field(default_factory=list)
     words: list[WordTiming] = Field(default_factory=list)
+
+
+class StructureSection(BaseModel):
+    start: float
+    end: float
+    energy: str = "medium"
+    intensity: float = 0.5
 
 
 class FusedTrackData(BaseModel):
@@ -103,6 +112,8 @@ class FusedTrackData(BaseModel):
     beat_times: list[float] = Field(default_factory=list)
     energy_curve: list[list[float]] = Field(default_factory=list)
     bpm: float = 0.0
+    sections: list[StructureSection] = Field(default_factory=list)
+    transition_points: list[float] = Field(default_factory=list)
 
 
 # ── Album configuration ─────────────────────────────────

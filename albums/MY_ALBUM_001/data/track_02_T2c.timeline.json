@@ -1,0 +1,205 @@
+{
+    "id": "track_02_T2c",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 30.24,
+            "end": 33.561,
+            "lyric": "Gralha held the orange box, turned it in his hand"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 33.712,
+            "end": 37.617,
+            "lyric": "\"Mage,\" he said, \"explain to me, help me understand"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 37.892,
+            "end": 42.56,
+            "lyric": "Where does fire sleep at night? Where does it go to rest?"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 42.785,
+            "end": 44.74,
+            "lyric": "Show me its cradle, show me its nest.\""
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 44.422,
+            "end": 46.12,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 46.26,
+            "end": 48.35,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 48.4,
+            "end": 50.24,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 50.36,
+            "end": 51.942,
+            "lyric": "We'll run with it, we'll run with pride!"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 52.14,
+            "end": 64.994,
+            "lyric": "I said \"The fire lives in here, curled up small and tight"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 65.084,
+            "end": 69.464,
+            "lyric": "When you go chak-chak, it wakes up, burning bright"
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 69.464,
+            "end": 73.298,
+            "lyric": "You have to run, you have to race, carry it with care"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 73.499,
+            "end": 78.569,
+            "lyric": "To the new pile, to the new place, before it disappears in air\""
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 79.964,
+            "end": 81.884,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 82.024,
+            "end": 83.904,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_14_occ_0",
+            "line_index": 14,
+            "occurrence_index": 0,
+            "start": 84.142,
+            "end": 86.044,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_15_occ_0",
+            "line_index": 15,
+            "occurrence_index": 0,
+            "start": 86.164,
+            "end": 95.004,
+            "lyric": "We'll run with it, we'll run with pride!"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 95.004,
+            "end": 99.664,
+            "lyric": "And that's how I became a god"
+        },
+        {
+            "id": "line_17_occ_0",
+            "line_index": 17,
+            "occurrence_index": 0,
+            "start": 99.664,
+            "end": 103.964,
+            "lyric": "With a plastic BIC and a nod"
+        },
+        {
+            "id": "line_18_occ_0",
+            "line_index": 18,
+            "occurrence_index": 0,
+            "start": 103.964,
+            "end": 107.532,
+            "lyric": "Twelve believers, faithful, true"
+        },
+        {
+            "id": "line_19_occ_0",
+            "line_index": 19,
+            "occurrence_index": 0,
+            "start": 107.604,
+            "end": 111.852,
+            "lyric": "Gralha said \"I'll translate for you\""
+        },
+        {
+            "id": "line_20_occ_0",
+            "line_index": 20,
+            "occurrence_index": 0,
+            "start": 113.564,
+            "end": 115.488,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_21_occ_0",
+            "line_index": 21,
+            "occurrence_index": 0,
+            "start": 115.704,
+            "end": 117.804,
+            "lyric": "The baby fire sleeps inside!"
+        },
+        {
+            "id": "line_22_occ_0",
+            "line_index": 22,
+            "occurrence_index": 0,
+            "start": 117.804,
+            "end": 119.684,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!"
+        },
+        {
+            "id": "line_23_occ_0",
+            "line_index": 23,
+            "occurrence_index": 0,
+            "start": 119.744,
+            "end": 122.376,
+            "lyric": "We'll run with it, we'll run with pride!"
+        },
+        {
+            "id": "line_24_occ_0",
+            "line_index": 24,
+            "occurrence_index": 0,
+            "start": 122.884,
+            "end": 156.576,
+            "lyric": "Run, run, don't let it die!"
+        }
+    ]
+}

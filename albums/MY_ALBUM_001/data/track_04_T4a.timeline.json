@@ -1,0 +1,189 @@
+{
+    "id": "track_04_T4a",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 6.848,
+            "end": 9.582,
+            "lyric": "Soon the tribe began to split"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 9.74,
+            "end": 11.8,
+            "lyric": "Arguments and holy writ"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 11.958,
+            "end": 14.06,
+            "lyric": "Some said \"Run at noon, that's right!\""
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 14.1,
+            "end": 16.14,
+            "lyric": "Others \"Warm the box all night!\""
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 16.2,
+            "end": 19.86,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 19.86,
+            "end": 23.648,
+            "lyric": "Everybody's got the truth!"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 24.49,
+            "end": 27.9,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 28.155,
+            "end": 31.0,
+            "lyric": "Everyone except the youth!"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 32.032,
+            "end": 33.615,
+            "lyric": "Tronco prayed to the toothed wheel"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 33.68,
+            "end": 35.72,
+            "lyric": "Said \"The magic, I can feel!\""
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 36.16,
+            "end": 37.766,
+            "lyric": "I just sat upon my throne"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 38.0,
+            "end": 39.575,
+            "lyric": "Eating berries, all alone"
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 39.8,
+            "end": 41.668,
+            "lyric": "The box became a sacred thing"
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 41.76,
+            "end": 43.76,
+            "lyric": "A totem, a god, a queen, a king"
+        },
+        {
+            "id": "line_14_occ_0",
+            "line_index": 14,
+            "occurrence_index": 0,
+            "start": 43.76,
+            "end": 45.751,
+            "lyric": "I tried to say \"It's just a tool\""
+        },
+        {
+            "id": "line_15_occ_0",
+            "line_index": 15,
+            "occurrence_index": 0,
+            "start": 45.82,
+            "end": 48.04,
+            "lyric": "But they wanted magic, they wanted fuel"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 48.04,
+            "end": 53.84,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS"
+        },
+        {
+            "id": "line_17_occ_0",
+            "line_index": 17,
+            "occurrence_index": 0,
+            "start": 54.065,
+            "end": 57.76,
+            "lyric": "Everybody's got the truth!"
+        },
+        {
+            "id": "line_18_occ_0",
+            "line_index": 18,
+            "occurrence_index": 0,
+            "start": 58.324,
+            "end": 61.84,
+            "lyric": "RULES AND RITUALS, RULES AND RITUALS"
+        },
+        {
+            "id": "line_19_occ_0",
+            "line_index": 19,
+            "occurrence_index": 0,
+            "start": 61.84,
+            "end": 65.55,
+            "lyric": "Everyone except the youth!"
+        },
+        {
+            "id": "line_20_occ_0",
+            "line_index": 20,
+            "occurrence_index": 0,
+            "start": 66.464,
+            "end": 67.14,
+            "lyric": "\"...should be noon...\""
+        },
+        {
+            "id": "line_21_occ_0",
+            "line_index": 21,
+            "occurrence_index": 0,
+            "start": 68.352,
+            "end": 69.088,
+            "lyric": "\"...night time...\""
+        },
+        {
+            "id": "line_22_occ_0",
+            "line_index": 22,
+            "occurrence_index": 0,
+            "start": 69.66,
+            "end": 70.08,
+            "lyric": "\"...the wheel...\""
+        }
+    ]
+}

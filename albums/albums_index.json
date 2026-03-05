@@ -14,55 +14,151 @@
                     "slot": 1,
                     "track_id": "track_01",
                     "variant_id": "TTS_Prologue",
-                    "audio_path": "01 - track_01.mp3"
+                    "audio_path": "01 - track_01.mp3",
+                    "variants": []
                 },
                 {
                     "slot": 2,
                     "track_id": "track_02",
                     "variant_id": "T2a",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_02_The_Orange_Box\\T2a.mp3"
+                    "audio_path": "02 - track_02.mp3",
+                    "variants": [
+                        {
+                            "id": "T2a",
+                            "label": "Version A",
+                            "audio": "T2a.mp3"
+                        },
+                        {
+                            "id": "T2b",
+                            "label": "Version B",
+                            "audio": "T2b.mp3"
+                        },
+                        {
+                            "id": "T2c",
+                            "label": "Version C",
+                            "audio": "T2c.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
                     "track_id": "track_03",
                     "variant_id": "T3a",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_03_The_Fire_Run\\T3a.mp3"
+                    "audio_path": "03 - track_03.mp3",
+                    "variants": [
+                        {
+                            "id": "T3a",
+                            "label": "Version A",
+                            "audio": "T3a.mp3"
+                        },
+                        {
+                            "id": "T3b",
+                            "label": "Version B",
+                            "audio": "T3b.mp3"
+                        },
+                        {
+                            "id": "T1-2-3a",
+                            "label": "Medley A",
+                            "audio": "T1-2-3a.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
                     "track_id": "track_04",
                     "variant_id": "T4b",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_04_The_Rules\\T4b.mp3"
+                    "audio_path": "04 - track_04.mp3",
+                    "variants": [
+                        {
+                            "id": "T4a",
+                            "label": "Version A",
+                            "audio": "T4a.mp3"
+                        },
+                        {
+                            "id": "T4b",
+                            "label": "Version B",
+                            "audio": "T4b.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 5,
                     "track_id": "track_05",
                     "variant_id": "T5b",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_05_Mudas_Spark\\T5b.mp3"
+                    "audio_path": "05 - track_05.mp3",
+                    "variants": [
+                        {
+                            "id": "T5a",
+                            "label": "Version A",
+                            "audio": "T5a.mp3"
+                        },
+                        {
+                            "id": "T5b",
+                            "label": "Version B",
+                            "audio": "T5b.mp3"
+                        },
+                        {
+                            "id": "T5c",
+                            "label": "Version C",
+                            "audio": "T5c.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 6,
                     "track_id": "track_06",
                     "variant_id": "T6b",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_06_Two_Fires\\T6b.mp3"
+                    "audio_path": "06 - track_06.mp3",
+                    "variants": [
+                        {
+                            "id": "T6a",
+                            "label": "Version A",
+                            "audio": "T6a.mp3"
+                        },
+                        {
+                            "id": "T6b",
+                            "label": "Version B",
+                            "audio": "T6b.mp3"
+                        },
+                        {
+                            "id": "T1-2-3b",
+                            "label": "Medley B",
+                            "audio": "T1-2-3b.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 7,
                     "track_id": "track_07",
                     "variant_id": "T7",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_07_The_Empty_Lighter\\T7.mp3"
+                    "audio_path": "07 - track_07.mp3",
+                    "variants": [
+                        {
+                            "id": "T7",
+                            "label": "Version A",
+                            "audio": "T7.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 8,
                     "track_id": "track_08",
                     "variant_id": "T8",
-                    "audio_path": "THE_CHAK_CHAK_MAGE_CHOICE_KIT\\TRACK_08_The_Fire_Was_Always_There\\T8.mp3"
+                    "audio_path": "08 - track_08.mp3",
+                    "variants": [
+                        {
+                            "id": "T8",
+                            "label": "Version A",
+                            "audio": "T8.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 9,
                     "track_id": "track_09",
                     "variant_id": "TTS_Epilogue",
-                    "audio_path": "09 - track_09.mp3"
+                    "audio_path": "09 - track_09.mp3",
+                    "variants": []
                 }
             ]
         }

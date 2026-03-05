@@ -1,0 +1,854 @@
+{
+    "id": "track_03",
+    "segments": [
+        {
+            "start": 0.12,
+            "end": 15.36,
+            "text": "Next morning, Gralha lit the flame",
+            "words": [
+                {
+                    "start": 0.12,
+                    "end": 2.34,
+                    "text": "Next",
+                    "source": "canonical"
+                },
+                {
+                    "start": 2.34,
+                    "end": 3.66,
+                    "text": "morning,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 3.66,
+                    "end": 5.06,
+                    "text": "Gralha",
+                    "source": "canonical"
+                },
+                {
+                    "start": 11.96,
+                    "end": 12.544,
+                    "text": "boot,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 14.16,
+                    "end": 14.3,
+                    "text": "lit",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.3,
+                    "end": 14.4,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.4,
+                    "end": 15.36,
+                    "text": "flame",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 15.36,
+            "end": 17.44,
+            "text": "Chak-chak, a tiny light",
+            "words": [
+                {
+                    "start": 15.36,
+                    "end": 15.4,
+                    "text": "Chak-chak,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 15.36,
+                    "end": 17.44,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 17.44,
+                    "end": 17.48,
+                    "text": "tiny",
+                    "source": "canonical"
+                },
+                {
+                    "start": 17.44,
+                    "end": 17.48,
+                    "text": "light",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 17.44,
+            "end": 25.72,
+            "text": "\"Now I run!\" he said, and came",
+            "words": [
+                {
+                    "start": 17.44,
+                    "end": 19.12,
+                    "text": "\"Now",
+                    "source": "canonical"
+                },
+                {
+                    "start": 19.12,
+                    "end": 20.34,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 20.34,
+                    "end": 22.46,
+                    "text": "run!\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 22.54,
+                    "end": 22.7,
+                    "text": "he",
+                    "source": "canonical"
+                },
+                {
+                    "start": 22.7,
+                    "end": 24.54,
+                    "text": "said,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 25.37,
+                    "end": 25.72,
+                    "text": "and",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 25.72,
+            "end": 28.46,
+            "text": "Running with all his might",
+            "words": [
+                {
+                    "start": 25.72,
+                    "end": 25.86,
+                    "text": "Running",
+                    "source": "canonical"
+                },
+                {
+                    "start": 25.86,
+                    "end": 25.9,
+                    "text": "with",
+                    "source": "canonical"
+                },
+                {
+                    "start": 25.86,
+                    "end": 25.9,
+                    "text": "all",
+                    "source": "canonical"
+                },
+                {
+                    "start": 25.86,
+                    "end": 26.18,
+                    "text": "his",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.18,
+                    "end": 26.53,
+                    "text": "might",
+                    "source": "canonical"
+                },
+                {
+                    "start": 27.02,
+                    "end": 28.04,
+                    "text": "triceratops",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 28.04,
+                    "end": 28.46,
+                    "text": "staring",
+                    "source": "ad-lib"
+                }
+            ]
+        },
+        {
+            "start": 45.74,
+            "end": 46.4,
+            "text": "RUN, GRALHA, RUN!",
+            "words": [
+                {
+                    "start": 45.74,
+                    "end": 46.4,
+                    "text": "came",
+                    "source": "ad-lib"
+                }
+            ]
+        },
+        {
+            "start": 46.4,
+            "end": 53.46,
+            "text": "The baby fire mustn't die!",
+            "words": [
+                {
+                    "start": 46.4,
+                    "end": 46.64,
+                    "text": "for",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 46.64,
+                    "end": 46.8,
+                    "text": "some",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 46.8,
+                    "end": 47.04,
+                    "text": "rocks",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 47.04,
+                    "end": 47.28,
+                    "text": "now",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 47.28,
+                    "end": 47.42,
+                    "text": "I",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 48.36,
+                    "end": 48.48,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 48.48,
+                    "end": 64.28,
+                    "text": "baby",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.16,
+                    "end": 52.46,
+                    "text": "flame",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.46,
+                    "end": 52.96,
+                    "text": "was",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.96,
+                    "end": 53.46,
+                    "text": "gone...",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 53.9,
+            "end": 55.08,
+            "text": "RUN, GRALHA, RUN!",
+            "words": [
+                {
+                    "start": 53.9,
+                    "end": 54.9,
+                    "text": "touch",
+                    "source": "canonical"
+                },
+                {
+                    "start": 54.9,
+                    "end": 55.08,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 54.9,
+                    "end": 55.08,
+                    "text": "the",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 55.08,
+            "end": 63.12,
+            "text": "Reach the new pile, touch the sky!",
+            "words": [
+                {
+                    "start": 55.08,
+                    "end": 56.08,
+                    "text": "sky!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 55.08,
+                    "end": 68.7,
+                    "text": "end,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 58.3,
+                    "end": 60.64,
+                    "text": "RUN,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 61.06,
+                    "end": 61.12,
+                    "text": "GRALHA,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 61.12,
+                    "end": 61.73,
+                    "text": "RUN!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 61.73,
+                    "end": 62.34,
+                    "text": "Reach",
+                    "source": "canonical"
+                },
+                {
+                    "start": 62.34,
+                    "end": 63.12,
+                    "text": "the",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 63.12,
+            "end": 66.06,
+            "text": "Two hundred meters, wind in face",
+            "words": [
+                {
+                    "start": 63.12,
+                    "end": 63.82,
+                    "text": "new",
+                    "source": "canonical"
+                },
+                {
+                    "start": 63.82,
+                    "end": 63.9,
+                    "text": "pile,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 64.28,
+                    "end": 80.08,
+                    "text": "fire",
+                    "source": "canonical"
+                },
+                {
+                    "start": 80.08,
+                    "end": 80.12,
+                    "text": "Two",
+                    "source": "canonical"
+                },
+                {
+                    "start": 65.5,
+                    "end": 65.66,
+                    "text": "hundred",
+                    "source": "canonical"
+                },
+                {
+                    "start": 65.66,
+                    "end": 66.06,
+                    "text": "meters,",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 66.26,
+            "end": 67.32,
+            "text": "The tribe behind, screaming \"Pace!\"",
+            "words": [
+                {
+                    "start": 66.26,
+                    "end": 66.3,
+                    "text": "wind",
+                    "source": "canonical"
+                },
+                {
+                    "start": 66.26,
+                    "end": 66.94,
+                    "text": "in",
+                    "source": "canonical"
+                },
+                {
+                    "start": 66.94,
+                    "end": 67.1,
+                    "text": "face",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.1,
+                    "end": 67.32,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.32,
+                    "end": 67.36,
+                    "text": "tribe",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 67.32,
+            "end": 71.2,
+            "text": "He reached the end, he blew, he blew",
+            "words": [
+                {
+                    "start": 67.32,
+                    "end": 67.36,
+                    "text": "behind,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.32,
+                    "end": 67.36,
+                    "text": "screaming",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.32,
+                    "end": 68.62,
+                    "text": "\"Pace!\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.62,
+                    "end": 68.66,
+                    "text": "He",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.62,
+                    "end": 69.24,
+                    "text": "reached",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.7,
+                    "end": 68.88,
+                    "text": "he",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.88,
+                    "end": 69.88,
+                    "text": "blew,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 70.7,
+                    "end": 71.2,
+                    "text": "he",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 71.2,
+            "end": 76.52,
+            "text": "The flame was gone... what could he do?",
+            "words": [
+                {
+                    "start": 71.2,
+                    "end": 71.24,
+                    "text": "blew",
+                    "source": "canonical"
+                },
+                {
+                    "start": 71.2,
+                    "end": 71.82,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 71.82,
+                    "end": 72.315,
+                    "text": "what",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.315,
+                    "end": 72.81,
+                    "text": "could",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.81,
+                    "end": 73.305,
+                    "text": "he",
+                    "source": "canonical"
+                },
+                {
+                    "start": 73.305,
+                    "end": 73.8,
+                    "text": "do?",
+                    "source": "canonical"
+                },
+                {
+                    "start": 73.8,
+                    "end": 73.92,
+                    "text": "Some",
+                    "source": "canonical"
+                },
+                {
+                    "start": 73.92,
+                    "end": 76.52,
+                    "text": "said:",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 76.52,
+            "end": 82.02,
+            "text": "Some said: \"Only run at noon!\"",
+            "words": [
+                {
+                    "start": 76.52,
+                    "end": 76.56,
+                    "text": "\"Only",
+                    "source": "canonical"
+                },
+                {
+                    "start": 76.56,
+                    "end": 76.68,
+                    "text": "run",
+                    "source": "canonical"
+                },
+                {
+                    "start": 77.46,
+                    "end": 77.98,
+                    "text": "at",
+                    "source": "canonical"
+                },
+                {
+                    "start": 77.98,
+                    "end": 80.12,
+                    "text": "noon!\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 80.08,
+                    "end": 95.88,
+                    "text": "mustn't",
+                    "source": "canonical"
+                },
+                {
+                    "start": 95.88,
+                    "end": 95.92,
+                    "text": "Others:",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 82.02,
+            "end": 84.28,
+            "text": "Others: \"Warm the box beneath the moon!\"",
+            "words": [
+                {
+                    "start": 82.02,
+                    "end": 82.06,
+                    "text": "\"Warm",
+                    "source": "canonical"
+                },
+                {
+                    "start": 82.02,
+                    "end": 82.06,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 82.02,
+                    "end": 84.02,
+                    "text": "box",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.02,
+                    "end": 84.085,
+                    "text": "Tronco",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.085,
+                    "end": 84.15,
+                    "text": "prayed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.15,
+                    "end": 84.215,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.215,
+                    "end": 84.28,
+                    "text": "the",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 84.28,
+            "end": 84.3,
+            "text": "Tronco prayed to the toothed wheel",
+            "words": [
+                {
+                    "start": 84.28,
+                    "end": 84.283,
+                    "text": "toothed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.283,
+                    "end": 84.287,
+                    "text": "wheel",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.287,
+                    "end": 84.29,
+                    "text": "And",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.29,
+                    "end": 84.293,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.293,
+                    "end": 84.297,
+                    "text": "just",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.297,
+                    "end": 84.3,
+                    "text": "sat",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 84.3,
+            "end": 84.58,
+            "text": "And I just sat there, thinking \"this is surreal\"",
+            "words": [
+                {
+                    "start": 84.3,
+                    "end": 84.34,
+                    "text": "there,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.3,
+                    "end": 84.34,
+                    "text": "thinking",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.3,
+                    "end": 84.34,
+                    "text": "\"this",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.3,
+                    "end": 84.34,
+                    "text": "is",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.3,
+                    "end": 84.34,
+                    "text": "surreal\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 84.3,
+                    "end": 84.58,
+                    "text": "RUN,",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 102.92,
+            "end": 131.88,
+            "text": "RUN, GRALHA, RUN!",
+            "words": [
+                {
+                    "start": 102.92,
+                    "end": 103.92,
+                    "text": "moon!\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 105.6,
+                    "end": 105.96,
+                    "text": "Sound",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 105.96,
+                    "end": 118.92,
+                    "text": "GRALHA,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.92,
+                    "end": 131.88,
+                    "text": "RUN!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 131.88,
+            "end": 133.88,
+            "text": "The baby fire mustn't die!",
+            "words": [
+                {
+                    "start": 131.88,
+                    "end": 132.28,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 132.28,
+                    "end": 132.68,
+                    "text": "baby",
+                    "source": "canonical"
+                },
+                {
+                    "start": 132.68,
+                    "end": 133.08,
+                    "text": "fire",
+                    "source": "canonical"
+                },
+                {
+                    "start": 133.08,
+                    "end": 133.48,
+                    "text": "mustn't",
+                    "source": "canonical"
+                },
+                {
+                    "start": 133.48,
+                    "end": 133.88,
+                    "text": "die!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 133.88,
+            "end": 135.88,
+            "text": "RUN, GRALHA, RUN!",
+            "words": [
+                {
+                    "start": 133.88,
+                    "end": 134.547,
+                    "text": "RUN,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 134.547,
+                    "end": 135.213,
+                    "text": "GRALHA,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 135.213,
+                    "end": 135.88,
+                    "text": "RUN!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 135.88,
+            "end": 137.88,
+            "text": "Reach the new pile, touch the sky!",
+            "words": [
+                {
+                    "start": 135.88,
+                    "end": 136.166,
+                    "text": "Reach",
+                    "source": "canonical"
+                },
+                {
+                    "start": 136.166,
+                    "end": 136.451,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 136.451,
+                    "end": 136.737,
+                    "text": "new",
+                    "source": "canonical"
+                },
+                {
+                    "start": 136.737,
+                    "end": 137.023,
+                    "text": "pile,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 137.023,
+                    "end": 137.309,
+                    "text": "touch",
+                    "source": "canonical"
+                },
+                {
+                    "start": 137.309,
+                    "end": 137.594,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 137.594,
+                    "end": 137.88,
+                    "text": "sky!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 137.88,
+            "end": 139.88,
+            "text": "\"...again.\"",
+            "words": [
+                {
+                    "start": 137.88,
+                    "end": 139.88,
+                    "text": "\"...again.\"",
+                    "source": "canonical"
+                }
+            ]
+        }
+    ]
+}

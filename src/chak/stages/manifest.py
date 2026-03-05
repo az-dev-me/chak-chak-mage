@@ -20,12 +20,15 @@ logger = logging.getLogger(__name__)
 
 
 def _gather_queries_from_semantic(semantic: dict[str, Any]) -> list[str]:
-    """Extract all media_queries from the semantic matrix."""
+    """Extract all media_queries and hidden_media_queries from the semantic matrix."""
     queries: list[str] = []
     for track_id in sorted(semantic.keys()):
         track = semantic[track_id]
         for line in track.get("lines", []):
             for q in line.get("media_queries", []):
+                if q and q.strip():
+                    queries.append(q.strip())
+            for q in line.get("hidden_media_queries", []):
                 if q and q.strip():
                     queries.append(q.strip())
     return queries

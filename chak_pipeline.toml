@@ -37,11 +37,9 @@ max_single_token_repeat = 25
 min_similarity = 0.45
 # Lower threshold for music tracks where Whisper transcription is unreliable
 music_track_similarity = 0.25
-# All tracks use lower threshold (TTS tracks have SSML artifacts, music tracks have unreliable Whisper)
-music_tracks = [
-    "track_01", "track_02", "track_03", "track_04",
-    "track_05", "track_06", "track_07", "track_08", "track_09",
-]
+# Auto-derived from album_config.json when empty (TTS_ prefix = spoken word).
+# Set explicitly only to override.
+music_tracks = []
 
 [media]
 # Provider: "local_gpu", "stable_horde", "pollinations", "placeholder", "local", "auto"
@@ -58,8 +56,8 @@ api_key = ""
 # Local GPU generation settings (provider = "local_gpu")
 gpu_device = "cuda:1"
 model_id = "stabilityai/sdxl-turbo"
-num_inference_steps = 4
-guidance_scale = 0.0
+num_inference_steps = 6
+guidance_scale = 2.0
 
 [frontend]
 display_max_words = 60

@@ -672,6 +672,245 @@ def _build_segments_from_merged(
     return segments
 
 
+def _get_audio_duration(audio_path: str | Path) -> float:
+    """Get audio duration in seconds (header-only, fast)."""
+    import librosa
+    return librosa.get_duration(path=str(audio_path))
+
+
+def _assess_alignment_quality(
+    segments: list[dict[str, Any]],
+    audio_duration: float,
+) -> dict[str, Any]:
+    """Assess quality of force-aligned segments.
+
+    Returns a dict with quality grade and metrics:
+    - quality: "good" or "poor"
+    - reason: explanation if poor
+    - stale_ratio: fraction of words in stale clusters (near-identical timestamps)
+    - coverage_ratio: fraction of audio duration covered by segments
+    - tail_stale_ratio: fraction of segments with ~0 duration at end
+    """
+    if not segments:
+        return {
+            "quality": "poor", "reason": "no_segments",
+            "stale_ratio": 1.0, "coverage_ratio": 0.0, "tail_stale_ratio": 1.0,
+        }
+
+    # Coverage: how much of the audio has lyrics
+    covered = sum(max(0, s["end"] - s["start"]) for s in segments)
+    coverage_ratio = covered / max(audio_duration, 1.0)
+
+    # Stale clusters: words with near-identical timestamps (within 0.15s)
+    all_words = [w for s in segments for w in s.get("words", [])]
+    stale_count = 0
+    if len(all_words) >= 3:
+        for i in range(len(all_words) - 2):
+            w0, w1, w2 = all_words[i], all_words[i + 1], all_words[i + 2]
+            if abs(w1["start"] - w0["start"]) <= 0.15 and abs(w2["start"] - w0["start"]) <= 0.15:
+                stale_count += 1
+    stale_ratio = stale_count / max(len(all_words), 1)
+
+    # Tail stale: segments at the end with ~0 duration
+    tail_stale = 0
+    for seg in reversed(segments):
+        if seg["end"] - seg["start"] < 0.05:
+            tail_stale += 1
+        else:
+            break
+    tail_stale_ratio = tail_stale / max(len(segments), 1)
+
+    quality = "good"
+    reason = ""
+    if stale_ratio > 0.30:
+        quality = "poor"
+        reason = f"stale_ratio={stale_ratio:.2f}"
+    elif coverage_ratio < 0.40:
+        quality = "poor"
+        reason = f"coverage_ratio={coverage_ratio:.2f}"
+    elif tail_stale_ratio > 0.25:
+        quality = "poor"
+        reason = f"tail_stale_ratio={tail_stale_ratio:.2f}"
+
+    return {
+        "quality": quality,
+        "reason": reason,
+        "stale_ratio": round(stale_ratio, 3),
+        "coverage_ratio": round(coverage_ratio, 3),
+        "tail_stale_ratio": round(tail_stale_ratio, 3),
+    }
+
+
+def _interpolate_unmatched_segments(
+    segments: list[dict[str, Any]],
+) -> None:
+    """Fill timing for segments marked with ``_needs_interpolation``.
+
+    Uses nearest matched neighbors as anchors and distributes unmatched
+    segments evenly in the gaps.  Modifies *segments* in-place.
+    """
+    matched_indices = [
+        i for i, s in enumerate(segments) if not s.get("_needs_interpolation")
+    ]
+    if not matched_indices:
+        return
+
+    # Process each unmatched segment
+    i = 0
+    while i < len(segments):
+        seg = segments[i]
+        if not seg.get("_needs_interpolation"):
+            i += 1
+            continue
+
+        # Find the gap boundaries: nearest matched before and after
+        prev_idx = None
+        next_idx = None
+        for mi in matched_indices:
+            if mi < i:
+                prev_idx = mi
+            elif mi > i:
+                next_idx = mi
+                break
+
+        # Count consecutive unmatched in this gap
+        gap_start_i = i
+        while i < len(segments) and segments[i].get("_needs_interpolation"):
+            i += 1
+        gap_end_i = i
+        gap_count = gap_end_i - gap_start_i
+
+        # Determine time boundaries
+        if prev_idx is not None and next_idx is not None:
+            t_start = segments[prev_idx]["end"]
+            t_end = segments[next_idx]["start"]
+        elif prev_idx is not None:
+            t_start = segments[prev_idx]["end"]
+            t_end = t_start + 3.0 * gap_count
+        elif next_idx is not None:
+            t_end = segments[next_idx]["start"]
+            t_start = max(0.0, t_end - 3.0 * gap_count)
+        else:
+            continue
+
+        per_seg = max((t_end - t_start) / gap_count, 0.1)
+
+        for j in range(gap_start_i, gap_end_i):
+            offset = j - gap_start_i
+            s_start = round(t_start + per_seg * offset, 3)
+            s_end = round(t_start + per_seg * (offset + 1), 3)
+            segments[j]["start"] = s_start
+            segments[j]["end"] = s_end
+
+            # Generate word timing
+            canonical_words = segments[j]["text"].split()
+            if canonical_words:
+                word_dur = (s_end - s_start) / len(canonical_words)
+                segments[j]["words"] = [
+                    {
+                        "start": round(s_start + word_dur * wi, 3),
+                        "end": round(s_start + word_dur * (wi + 1), 3),
+                        "text": cw,
+                        "source": "canonical",
+                    }
+                    for wi, cw in enumerate(canonical_words)
+                ]
+
+            segments[j].pop("_needs_interpolation", None)
+
+
+def _transcribe_first_fallback(
+    transcribed_segments: list[dict[str, Any]],
+    canonical_lines: list[str],
+    min_similarity: float = 0.25,
+) -> list[dict[str, Any]]:
+    """Fallback alignment: match free-transcription to canonical lines.
+
+    Strategy:
+    1. Fuzzy-match each transcribed segment to a canonical line (greedy forward)
+    2. Use transcription timing but canonical text for display
+    3. Interpolate timing for unmatched canonical lines
+
+    Returns segments in the same format as ``_build_segments_per_line()``.
+    """
+    if not transcribed_segments or not canonical_lines:
+        return []
+
+    line_tokens = [normalize(line) for line in canonical_lines]
+    line_matches: dict[int, dict[str, Any]] = {}
+    used_segs: set[int] = set()
+    current_min_seg = 0
+
+    # Greedy forward matching
+    for li in range(len(canonical_lines)):
+        best_si: int | None = None
+        best_score = 0.0
+
+        for si in range(current_min_seg, len(transcribed_segments)):
+            if si in used_segs:
+                continue
+            seg_tokens = normalize(transcribed_segments[si].get("text", ""))
+            score = token_overlap(seg_tokens, line_tokens[li])
+            if score > best_score:
+                best_score = score
+                best_si = si
+
+        if best_si is not None and best_score >= min_similarity:
+            line_matches[li] = transcribed_segments[best_si]
+            used_segs.add(best_si)
+            current_min_seg = max(current_min_seg, best_si)
+
+    # Build output segments
+    output: list[dict[str, Any]] = []
+    for li, line in enumerate(canonical_lines):
+        if li in line_matches:
+            match = line_matches[li]
+            words = match.get("words", [])
+            if words:
+                seg_start = words[0]["start"]
+                seg_end = words[-1]["end"]
+            else:
+                seg_start = match.get("start", 0.0)
+                seg_end = match.get("end", 0.0)
+
+            # Distribute canonical words over transcribed time range
+            canonical_words = line.split()
+            n = max(len(canonical_words), 1)
+            per_word = (seg_end - seg_start) / n
+            seg_words = [
+                {
+                    "start": round(seg_start + per_word * wi, 3),
+                    "end": round(seg_start + per_word * (wi + 1), 3),
+                    "text": cw,
+                    "source": "canonical",
+                }
+                for wi, cw in enumerate(canonical_words)
+            ]
+            output.append({
+                "start": seg_start,
+                "end": seg_end,
+                "text": line,
+                "words": seg_words,
+            })
+        else:
+            # Needs interpolation from neighbors
+            output.append({
+                "start": -1,
+                "end": -1,
+                "text": line,
+                "words": [],
+                "_needs_interpolation": True,
+            })
+
+    _interpolate_unmatched_segments(output)
+
+    logger.info(
+        "Transcribe-first fallback: %d/%d canonical lines matched",
+        len(line_matches), len(canonical_lines),
+    )
+    return output
+
+
 def align_track_two_pass(
     model: Any,
     audio_path: str | Path,
@@ -681,10 +920,15 @@ def align_track_two_pass(
 ) -> list[dict[str, Any]]:
     """Two-pass alignment: force-align canonical + transcribe for ad-libs.
 
+    Adaptive: if force-alignment produces poor quality, automatically
+    falls back to transcribe-first matching (free transcription timing
+    with canonical text).
+
     Returns list of segments with merged words (canonical + ad-libs).
     """
     audio_str = str(audio_path)
     use_demucs = True
+    transcribed = None  # Keep reference for potential fallback
 
     # ── Pass 1: Force-align canonical lyrics ──
     logger.info("%s: Pass 1 — Force-aligning canonical lyrics with Demucs...", track_id)
@@ -747,6 +991,49 @@ def align_track_two_pass(
     # Build one segment per canonical line (critical for timeline matching)
     canonical_lines = [l for l in canonical_lyrics.split("\n") if l.strip()]
     segments = _build_segments_per_line(merged_words, canonical_lines)
+
+    # ── Quality assessment + adaptive fallback ──
+    try:
+        audio_duration = _get_audio_duration(audio_path)
+        quality = _assess_alignment_quality(segments, audio_duration)
+        logger.info(
+            "%s: Alignment quality=%s (coverage=%.2f, stale=%.2f, tail_stale=%.2f)",
+            track_id, quality["quality"],
+            quality["coverage_ratio"], quality["stale_ratio"], quality["tail_stale_ratio"],
+        )
+
+        if quality["quality"] == "poor" and transcribed is not None:
+            logger.warning(
+                "%s: Force-alignment POOR (%s), trying transcribe-first fallback...",
+                track_id, quality["reason"],
+            )
+            transcribed_segments = _extract_segments_from_result(transcribed)
+            fallback = _transcribe_first_fallback(
+                transcribed_segments, canonical_lines,
+            )
+
+            if fallback:
+                fb_quality = _assess_alignment_quality(fallback, audio_duration)
+                logger.info(
+                    "%s: Fallback quality=%s (coverage=%.2f, stale=%.2f)",
+                    track_id, fb_quality["quality"],
+                    fb_quality["coverage_ratio"], fb_quality["stale_ratio"],
+                )
+                if fb_quality["coverage_ratio"] > quality["coverage_ratio"]:
+                    logger.info(
+                        "%s: Fallback SELECTED (coverage %.2f -> %.2f)",
+                        track_id, quality["coverage_ratio"], fb_quality["coverage_ratio"],
+                    )
+                    segments = fallback
+                else:
+                    logger.info(
+                        "%s: Force-aligned KEPT (fallback not better)", track_id,
+                    )
+    except Exception as qa_err:
+        logger.warning(
+            "%s: Quality assessment failed (non-critical): %s", track_id, qa_err,
+        )
+
     return segments
 
 
@@ -866,11 +1153,15 @@ def align_album_tracks(
     config: PipelineConfig,
     *,
     track_id: str | None = None,
+    variant_id: str | None = None,
 ) -> list[AlignmentResult]:
     """Align all (or one) MP3 tracks in an album directory.
 
     Uses two-pass strategy with canonical lyrics from the semantic matrix.
     Writes alignment JSON to ``albums/alignment/track_XX_words.json``.
+
+    When *variant_id* is given (requires *track_id*), aligns the variant's
+    audio file and writes to ``track_XX_{variant_id}_words.json``.
     """
     if not check_dependencies():
         raise RuntimeError("Missing alignment dependencies (ffmpeg, stable-ts)")
@@ -878,20 +1169,53 @@ def align_album_tracks(
     alignment_dir = album_dir.parent / "alignment"
     ensure_dir(alignment_dir)
 
-    mp3_files = sorted(
-        f for f in os.listdir(album_dir)
-        if f.lower().endswith(".mp3")
-    )
-    if not mp3_files:
-        raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
-
     # Load model ONCE for all tracks
     model = _load_model(config.alignment)
 
     results = []
 
-    if track_id:
-        # Align single track
+    if variant_id and track_id:
+        # ── Variant-specific alignment ──
+        album_config = load_json(album_dir / "album_config.json")
+        track_entry = next(
+            (t for t in album_config["tracks"]
+             if (t.get("track_id") or t.get("id")) == track_id),
+            None,
+        )
+        if not track_entry:
+            raise ValueError(f"Track {track_id} not found in album_config.json")
+        variant_entry = next(
+            (v for v in (track_entry.get("variants") or [])
+             if v["id"] == variant_id),
+            None,
+        )
+        if not variant_entry:
+            raise ValueError(f"Variant {variant_id} not found for {track_id}")
+
+        audio_path = album_dir / variant_entry["audio"]
+        if not audio_path.exists():
+            raise FileNotFoundError(f"Variant audio not found: {audio_path}")
+
+        out_path = alignment_dir / f"{track_id}_{variant_id}_words.json"
+        canonical = _get_canonical_lyrics(config.project_root, track_id)
+        if canonical:
+            logger.info("%s/%s: Using canonical lyrics for guided alignment", track_id, variant_id)
+
+        result = transcribe_and_align(
+            audio_path, out_path, track_id, config.alignment,
+            model=model, canonical_lyrics=canonical,
+        )
+        results.append(result)
+
+    elif track_id:
+        # Align single track (default variant)
+        mp3_files = sorted(
+            f for f in os.listdir(album_dir)
+            if f.lower().endswith(".mp3")
+        )
+        if not mp3_files:
+            raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+
         try:
             track_num = int(track_id.split("_")[1])
         except (IndexError, ValueError) as exc:
@@ -918,6 +1242,13 @@ def align_album_tracks(
         results.append(result)
     else:
         # Align all tracks
+        mp3_files = sorted(
+            f for f in os.listdir(album_dir)
+            if f.lower().endswith(".mp3")
+        )
+        if not mp3_files:
+            raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+
         for idx, mp3_file in enumerate(mp3_files):
             tid = f"track_{idx + 1:02d}"
             audio_path = album_dir / mp3_file
@@ -930,11 +1261,17 @@ def align_album_tracks(
             else:
                 logger.info("%s: No canonical lyrics — transcription only (%s)", tid, mp3_file)
 
-            result = transcribe_and_align(
-                audio_path, out_path, tid, config.alignment,
-                model=model, canonical_lyrics=canonical,
-            )
-            results.append(result)
+            try:
+                result = transcribe_and_align(
+                    audio_path, out_path, tid, config.alignment,
+                    model=model, canonical_lyrics=canonical,
+                )
+                results.append(result)
+            except Exception:
+                logger.exception(
+                    "Alignment FAILED for %s (%s) — continuing with remaining tracks",
+                    tid, mp3_file,
+                )
 
     logger.info("Alignment run complete: %d tracks aligned", len(results))
     return results

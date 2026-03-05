@@ -63,9 +63,10 @@ def load_manifest(album_dir: Path) -> dict[str, Any] | None:
         return None
 
 
-def load_timeline(album_dir: Path, track_id: str) -> dict[str, Any]:
-    """Load timeline JSON for a track."""
-    path = album_dir / "data" / f"{track_id}.timeline.json"
+def load_timeline(album_dir: Path, track_id: str, variant_id: str | None = None) -> dict[str, Any]:
+    """Load timeline JSON for a track (or variant)."""
+    stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    path = album_dir / "data" / f"{stem}.timeline.json"
     return load_json(path)
 
 
@@ -121,11 +122,21 @@ def best_semantic_for_lyric(
 def load_alignment_for_track(
     album_dir: Path,
     track_id: str,
+    variant_id: str | None = None,
 ) -> dict[str, Any] | None:
-    """Load word-level Whisper alignment for a track, if available."""
+    """Load word-level Whisper alignment for a track (or variant), if available."""
     alignment_dir = album_dir.parent / "alignment"
-    path = alignment_dir / f"{track_id}_words.json"
+    stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    path = alignment_dir / f"{stem}_words.json"
     if not path.exists():
+        if variant_id:
+            # Fall back to base track alignment
+            base_path = alignment_dir / f"{track_id}_words.json"
+            if base_path.exists():
+                try:
+                    return load_json(base_path)
+                except (ValueError, FileNotFoundError):
+                    return None
         return None
     try:
         return load_json(path)
@@ -490,8 +501,10 @@ def build_media_array(
         max_hold = 15.0
         hold_duration = max_hold - avg_intensity * (max_hold - min_hold)
 
-        # How many images fit in this line?
-        n_images = max(1, min(len(media_queries), int(duration / hold_duration) + 1))
+        # Always use ALL provided queries — intensity controls offset spacing,
+        # not image count. Each line's 3 queries are a Kuleshov sequence
+        # (establish → develop → resolve) and must all be present.
+        n_images = len(media_queries)
 
         # Check if this line contains a section boundary (transition point)
         is_transition = any(
@@ -511,10 +524,15 @@ def build_media_array(
 
         selected_queries = media_queries[:n_images]
     elif line_beats:
-        # Beat-aware fallback (no structure data)
-        n_images = min(len(media_queries), len(line_beats) + 1)
-        selected_queries = media_queries[:n_images]
-        offsets = [0.0] + [round(b - start, 2) for b in line_beats[:n_images - 1]]
+        # Beat-aware fallback (no structure data) — use all queries
+        n_images = len(media_queries)
+        selected_queries = media_queries
+        # Place transitions at beats, pad with even spacing if not enough beats
+        if len(line_beats) >= n_images - 1:
+            offsets = [0.0] + [round(b - start, 2) for b in line_beats[:n_images - 1]]
+        else:
+            step = duration / n_images if n_images > 1 else 0.0
+            offsets = [round(step * i, 2) for i in range(n_images)]
     else:
         # Even distribution fallback
         selected_queries = media_queries
@@ -737,8 +755,16 @@ def _split_long_entries(
                 chunk_start = chunk_words[0].start
                 chunk_end = chunk_words[-1].end
 
-                # Only first chunk gets media and meaning
-                chunk_media = entry.media if ci == 0 else []
+                # Distribute media to chunks by offset time range
+                chunk_media = [m for m in entry.media
+                               if chunk_start <= entry.start + m.offset < chunk_end] if entry.media else []
+                chunk_hidden = [m for m in entry.hidden_media
+                                if chunk_start <= entry.start + m.offset < chunk_end] if entry.hidden_media else []
+                # First chunk always gets at least the first image (fallback)
+                if ci == 0 and not chunk_media and entry.media:
+                    chunk_media = [entry.media[0]]
+                if ci == 0 and not chunk_hidden and entry.hidden_media:
+                    chunk_hidden = [entry.hidden_media[0]]
                 chunk_meaning = entry.real_meaning if ci == 0 else ""
 
                 result.append(FusedTimelineEntry(
@@ -748,6 +774,7 @@ def _split_long_entries(
                     lyric=chunk,
                     real_meaning=chunk_meaning,
                     media=chunk_media,
+                    hidden_media=chunk_hidden,
                     words=chunk_words,
                 ))
 
@@ -843,6 +870,7 @@ def _enforce_minimum_duration(
                     lyric=entry.lyric,
                     real_meaning=entry.real_meaning,
                     media=entry.media,
+                    hidden_media=entry.hidden_media,
                     words=new_words,
                 )
 
@@ -872,6 +900,7 @@ def _enforce_minimum_duration(
                     lyric=entry.lyric,
                     real_meaning=entry.real_meaning,
                     media=entry.media,
+                    hidden_media=entry.hidden_media,
                     words=new_words,
                 )
             i += 1
@@ -908,6 +937,7 @@ def _resolve_overlaps(
                 lyric=entry.lyric,
                 real_meaning=entry.real_meaning,
                 media=entry.media,
+                hidden_media=entry.hidden_media,
                 words=synthesize_words_from_lyric(entry.lyric, entry.start, new_end),
             )
 
@@ -926,30 +956,39 @@ def build_track_object(
     semantic_overrides: dict[str, Any],
     manifest: dict[str, Any] | None,
     config: PipelineConfig,
+    variant_id: str | None = None,
 ) -> FusedTrackData:
     """Build a complete fused track object for the player.
 
     LYRICS-DRIVEN: iterates over ALL canonical lines from the semantic
     matrix, guaranteeing every lyric appears in the player output.
     Lines without Whisper matches get interpolated timing.
+
+    When *variant_id* is given, reads variant-qualified timeline/alignment/
+    structure files but uses bare *track_id* for semantic matrix lookup.
     """
+    # Semantic lookup always uses bare track_id (same lyrics/images)
     sem_track = semantic_matrix.get(track_id)
     if not sem_track:
         raise ValueError(f"No semantic data found for {track_id}")
 
-    base_timeline_data = load_timeline(album_dir, track_id)
+    # File stem for variant-qualified data files
+    file_stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    label = f"{track_id}/{variant_id}" if variant_id else track_id
+
+    base_timeline_data = load_timeline(album_dir, track_id, variant_id)
     base_timeline = base_timeline_data.get("timeline", [])
     lines = sem_track.get("lines", [])
 
     # ── Step 0: Load Whisper word-level alignment (if available) ──
-    alignment = load_alignment_for_track(album_dir, track_id)
+    alignment = load_alignment_for_track(album_dir, track_id, variant_id)
     all_words = flatten_words(alignment) if alignment else []
     seg_word_index = build_segment_word_index(alignment) if alignment else {}
     seg_all_index = build_segment_all_words_index(alignment) if alignment else {}
     if all_words:
         logger.info(
             "%s: loaded %d Whisper words for karaoke timing",
-            track_id, len(all_words),
+            label, len(all_words),
         )
 
     # ── Step 0b: Load beat data (if available) ──
@@ -958,16 +997,16 @@ def build_track_object(
     if track_beats:
         logger.info(
             "%s: loaded %d beat timestamps for media sync",
-            track_id, len(track_beats),
+            label, len(track_beats),
         )
 
     # ── Step 0c: Load musical structure analysis (if available) ──
     from chak.utils.structure import load_structure
-    track_structure = load_structure(track_id, album_dir)
+    track_structure = load_structure(track_id, album_dir, variant_id)
     if track_structure:
         logger.info(
             "%s: loaded structure data (%d sections, %d transitions)",
-            track_id,
+            label,
             len(track_structure.get("sections", [])),
             len(track_structure.get("transition_points", [])),
         )
@@ -1041,6 +1080,7 @@ def build_track_object(
         )
         sem_line = {**base_sem_line, **(line_override or {})}
         media_queries = sem_line.get("media_queries", [])
+        hidden_media_queries = sem_line.get("hidden_media_queries", [])
 
         lyric_text = sem_line.get("lyric", "")
 
@@ -1102,6 +1142,7 @@ def build_track_object(
                         end = round(word_end, 3)
 
                 media = build_media_array(media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
+                hidden_media = build_media_array(hidden_media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
 
                 fused_timeline.append(FusedTimelineEntry(
                     id=occ_data["id"],
@@ -1110,6 +1151,7 @@ def build_track_object(
                     lyric=lyric_text,
                     real_meaning=sem_line.get("real_meaning", ""),
                     media=media,
+                    hidden_media=hidden_media,
                     words=words,
                 ))
         else:
@@ -1117,6 +1159,7 @@ def build_track_object(
             start, end = _interpolate_timing(li, len(lines), matched_timing)
             words = synthesize_words_from_lyric(lyric_text, start, end)
             media = build_media_array(media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
+            hidden_media = build_media_array(hidden_media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
 
             fused_timeline.append(FusedTimelineEntry(
                 id=f"line_{li}_interp",
@@ -1125,6 +1168,7 @@ def build_track_object(
                 lyric=lyric_text,
                 real_meaning=sem_line.get("real_meaning", ""),
                 media=media,
+                hidden_media=hidden_media,
                 words=words,
             ))
 
@@ -1160,6 +1204,7 @@ def build_track_object(
             lyric=inst_lyric,
             real_meaning=meaning,
             media=media,
+            hidden_media=[],
             words=words,
         ))
 
@@ -1180,19 +1225,28 @@ def build_track_object(
     energy_curve_out: list[list[float]] = []
     bpm_out: float = 0.0
 
+    sections_out: list[dict] = []
+    transition_points_out: list[float] = []
+
     if track_beats:
         beat_times_out = [round(b, 3) for b in track_beats]
     if track_structure:
         energy_curve_out = track_structure.get("energy_curve", [])
         bpm_out = track_structure.get("bpm", 0.0)
+        sections_out = track_structure.get("sections", [])
+        transition_points_out = [
+            round(t, 3) for t in track_structure.get("transition_points", [])
+        ]
 
     return FusedTrackData(
-        id=track_id,
+        id=file_stem,
         album_id=album_id,
         timeline=fused_timeline,
         beat_times=beat_times_out,
         energy_curve=energy_curve_out,
         bpm=bpm_out,
+        sections=sections_out,
+        transition_points=transition_points_out,
     )
 
 
@@ -1228,11 +1282,15 @@ def fuse_album_tracks(
     config: PipelineConfig,
     *,
     track_id: str | None = None,
+    variant_id: str | None = None,
 ) -> list[FusedTrackData]:
     """Fuse all (or one) tracks in an album.
 
     Combines timeline + semantics + alignment words + media manifest
     into player-ready track data objects.
+
+    When *variant_id* is given (requires *track_id*), fuses with
+    variant-qualified data files while using bare track_id for semantics.
     """
     project_root = config.project_root
     album_id = album_dir.name
@@ -1261,6 +1319,7 @@ def fuse_album_tracks(
         obj = build_track_object(
             album_dir, album_id, semantic_matrix, semantic_index,
             track_id, semantic_overrides, manifest, config,
+            variant_id=variant_id,
         )
         results.append(obj)
     else:
@@ -1275,6 +1334,11 @@ def fuse_album_tracks(
 
         for f in timeline_files:
             tid = f.stem.replace(".timeline", "")
+            # Skip variant-qualified timelines (e.g. track_02_T2b) —
+            # they are only fused via explicit --track/--variant flags.
+            if tid not in semantic_matrix:
+                logger.debug("Skipping variant timeline %s", f.name)
+                continue
             logger.info("Fusing %s...", tid)
             obj = build_track_object(
                 album_dir, album_id, semantic_matrix, semantic_index,

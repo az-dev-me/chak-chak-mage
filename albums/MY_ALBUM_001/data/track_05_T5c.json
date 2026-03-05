@@ -1,0 +1,3663 @@
+{
+    "id": "track_05_T5c",
+    "album_id": "MY_ALBUM_001",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "start": 30.0,
+            "end": 31.424,
+            "lyric": "Muda never said a word",
+            "real_meaning": "The quiet observer — the scientist, the philosopher, the one who watches instead of shouting.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0432.jpg",
+                    "query": "A vast, firelit prehistoric landscape at twilight. Muda, sits on a rocky outcrop, overlooking the world. Warm tones of sunset and fire."
+                },
+                {
+                    "offset": 0.63,
+                    "url": "media/c0433.jpg",
+                    "query": "Muda, crouched by a rock, strikes a stone. Sparks fly. Dramatic, warm tones, firelight illuminating Mudaâ€™s focused face."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0434.jpg",
+                    "query": "Close up of Mudaâ€™s determined eyes, reflecting the sparks. Silent, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0435.jpg",
+                    "query": "A vast cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop open, coding softly, the glowing screen reflects on the cityscape."
+                },
+                {
+                    "offset": 0.63,
+                    "url": "media/c0436.jpg",
+                    "query": "A close-up of a young person in a repair cafe, hands working meticulously on a circuit board. The table is covered with tools, and the person is surrounded by a computer."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0437.jpg",
+                    "query": "A quiet, focused face of a student, eyes studying code in the glow of a laptop screen. Soft, cool tones."
+                }
+            ],
+            "words": [
+                {
+                    "start": 30.0,
+                    "end": 30.34,
+                    "text": "Muda"
+                },
+                {
+                    "start": 30.34,
+                    "end": 30.38,
+                    "text": "never"
+                },
+                {
+                    "start": 30.34,
+                    "end": 30.56,
+                    "text": "said"
+                },
+                {
+                    "start": 30.56,
+                    "end": 31.0,
+                    "text": "a"
+                },
+                {
+                    "start": 31.0,
+                    "end": 31.424,
+                    "text": "word"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0",
+            "start": 36.556,
+            "end": 44.22,
+            "lyric": "Sat and watched, and saw, and heard",
+            "real_meaning": "First-principles thinking — actually looking at reality instead of repeating what others say.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0438.jpg",
+                    "query": "A vast, prehistoric valley at dusk, Muda sits on a hill, observing the world below, warm hues painting the sky."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0439.jpg",
+                    "query": "Muda, hands outstretched, holds a stone, eyes focused on the firelit ground, ready to strike.  Close-up, of the spark flying in slow motion, as the stone's edge meets the flint."
+                },
+                {
+                    "offset": 3.71,
+                    "url": "media/c0440.jpg",
+                    "query": "up, of Muda's face, eyes reflecting the fire, a mix of curiosity and determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0441.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, code glows on the screen under the urban skyline."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0442.jpg",
+                    "query": "A repair cafe's interior, with Linux laptops and open source posters on the walls. People collaborate on various tech projects."
+                },
+                {
+                    "offset": 3.71,
+                    "url": "media/c0443.jpg",
+                    "query": "up of a student's hands typing 'Hello World' on a laptop keyboard, fingers dancing on keys."
+                }
+            ],
+            "words": [
+                {
+                    "start": 36.756,
+                    "end": 38.036,
+                    "text": "light!"
+                },
+                {
+                    "start": 38.528,
+                    "end": 38.626,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 43.232,
+                    "end": 43.5,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 43.264,
+                    "end": 43.556,
+                    "text": "The"
+                },
+                {
+                    "start": 43.5,
+                    "end": 44.0,
+                    "text": "Sat"
+                },
+                {
+                    "start": 43.556,
+                    "end": 44.456,
+                    "text": "fire's"
+                },
+                {
+                    "start": 44.0,
+                    "end": 44.22,
+                    "text": "and"
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0",
+            "start": 44.22,
+            "end": 50.06,
+            "lyric": "While they ran with flame and fear",
+            "real_meaning": "While everyone else panicked, hustled, and performed — she simply observed the mechanism.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0444.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hillside, watching a distant encampment with a stone in hand,  a warm orange glow on the horizon."
+                },
+                {
+                    "offset": 1.06,
+                    "url": "media/c0445.jpg",
+                    "query": "A close up of Mudaâ€™s face in the dark, her eyes reflect the distant flickers of panic and fire. Her hand grips the stone tightly as she observes."
+                },
+                {
+                    "offset": 3.47,
+                    "url": "media/c0446.jpg",
+                    "query": "A tight shot of Muda's hand, stone held firmly, as sparks fly out, a moment of quiet triumph in the chaos."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0447.jpg",
+                    "query": "A wide, panoramic view of a bustling cityscape at night, with a quiet student seated in a dimly lit alley."
+                },
+                {
+                    "offset": 1.06,
+                    "url": "media/c0448.jpg",
+                    "query": "Student at a laptop in a modern library, cool blue screen reflects on her focused face."
+                },
+                {
+                    "offset": 3.47,
+                    "url": "media/c0449.jpg",
+                    "query": "Student's eyes locked on the code, calm, while chaos reflected in the window behind her."
+                }
+            ],
+            "words": [
+                {
+                    "start": 44.22,
+                    "end": 45.054,
+                    "text": "While"
+                },
+                {
+                    "start": 45.054,
+                    "end": 45.889,
+                    "text": "they"
+                },
+                {
+                    "start": 45.889,
+                    "end": 46.723,
+                    "text": "ran"
+                },
+                {
+                    "start": 46.723,
+                    "end": 47.557,
+                    "text": "with"
+                },
+                {
+                    "start": 47.557,
+                    "end": 48.391,
+                    "text": "flame"
+                },
+                {
+                    "start": 48.391,
+                    "end": 49.226,
+                    "text": "and"
+                },
+                {
+                    "start": 49.226,
+                    "end": 50.06,
+                    "text": "fear"
+                }
+            ]
+        },
+        {
+            "id": "line_3_occ_0",
+            "start": 63.36,
+            "end": 68.12,
+            "lyric": "Muda sat and observed from here",
+            "real_meaning": "Choosing stillness over action — meditation over medication, understanding over reaction.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0450.jpg",
+                    "query": "A vast prehistoric valley under a fiery sunset, a lone figure sits still, observing the world."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0451.jpg",
+                    "query": "Muda's hands cradle a stone, eyes focused, as he prepares to strike it."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0452.jpg",
+                    "query": "Muda's gaze, intense and calm, reflects the dance of distant flames."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0453.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling park, surrounded by towering skyscrapers and neon lights."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0454.jpg",
+                    "query": "A cluttered desk with dual monitors, one displaying lines of code, the other a Wikipedia edit page, surrounded by scattered papers and a laptop displaying GitHub."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0455.jpg",
+                    "query": "A close-up of a hand holding a small, worn paperback, resting on a knee.  The hand is still, meditative, but the environment behind it is busy and full of activity."
+                }
+            ],
+            "words": [
+                {
+                    "start": 63.36,
+                    "end": 64.48,
+                    "text": "ignites!"
+                },
+                {
+                    "start": 64.78,
+                    "end": 65.46,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 65.8,
+                    "end": 66.304,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 67.56,
+                    "end": 67.66,
+                    "text": "She"
+                },
+                {
+                    "start": 67.66,
+                    "end": 68.12,
+                    "text": "saw,"
+                },
+                {
+                    "start": 67.66,
+                    "end": 68.12,
+                    "text": "saw"
+                }
+            ]
+        },
+        {
+            "id": "line_4_occ_0",
+            "start": 68.12,
+            "end": 69.12,
+            "lyric": "She picked a stone up from the ground",
+            "real_meaning": "The first act of genuine science — picking up what's freely available instead of worshipping what's sold.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0456.jpg",
+                    "query": "A vast, prehistoric landscape at sunset. Muda stands alone, watching the world."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0457.jpg",
+                    "query": "Muda's hands reach out, picking up a stone. A close up of a hand holding the stone, a dramatic firelight casting shadows."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0458.jpg",
+                    "query": "Muda's hands, holding the stone, warm tones, the intimate moment of picking up a stone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0459.jpg",
+                    "query": "A quiet student sits alone in a bustling urban cafÃ©, laptop open, coding, surrounded by neon signs and rain-slicked streets."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0460.jpg",
+                    "query": "up of a screen with a GitHub repository, cursor blinking, hands typing, a repair cafe poster in the background."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0461.jpg",
+                    "query": "A close-up of a young personâ€™s hands reaching out to pick up a discarded circuit board from the ground."
+                }
+            ],
+            "words": [
+                {
+                    "start": 68.12,
+                    "end": 68.287,
+                    "text": "and"
+                },
+                {
+                    "start": 68.12,
+                    "end": 68.48,
+                    "text": "the"
+                },
+                {
+                    "start": 68.12,
+                    "end": 68.48,
+                    "text": "the"
+                },
+                {
+                    "start": 68.287,
+                    "end": 68.453,
+                    "text": "heard"
+                },
+                {
+                    "start": 68.453,
+                    "end": 68.62,
+                    "text": "While"
+                },
+                {
+                    "start": 68.62,
+                    "end": 68.787,
+                    "text": "they"
+                },
+                {
+                    "start": 68.787,
+                    "end": 68.953,
+                    "text": "ran"
+                },
+                {
+                    "start": 68.953,
+                    "end": 69.12,
+                    "text": "with"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0",
+            "start": 69.12,
+            "end": 72.28,
+            "lyric": "Made a different kind of sound",
+            "real_meaning": "Innovation from first principles — not a louder version of the old noise, but something fundamentally new.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0462.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone figure stands atop a hill, watching the herd of grazing animals, fire in the distance."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0463.jpg",
+                    "query": "Muda kneels before a pile of stones.  Hands hover, ready to strike, eyes intense.  Spark against the stone."
+                },
+                {
+                    "offset": 1.7,
+                    "url": "media/c0464.jpg",
+                    "query": "Muda's hands, rough and calloused, hold a flint, sparks fly with a satisfying snap, warm glow of a newly lit flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0465.jpg",
+                    "query": "A quiet student in a bustling modern city, surrounded by skyscrapers and technology, contemplating a laptop."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0466.jpg",
+                    "query": "A busy repair cafÃ©, filled with people collaborating on open-source projects, and repairing tech."
+                },
+                {
+                    "offset": 1.7,
+                    "url": "media/c0467.jpg",
+                    "query": "A close-up of the student's fingers on a keyboard, pressing a key to launch a new program."
+                }
+            ],
+            "words": [
+                {
+                    "start": 69.12,
+                    "end": 69.647,
+                    "text": "Made"
+                },
+                {
+                    "start": 69.647,
+                    "end": 70.173,
+                    "text": "a"
+                },
+                {
+                    "start": 70.173,
+                    "end": 70.7,
+                    "text": "different"
+                },
+                {
+                    "start": 70.7,
+                    "end": 71.227,
+                    "text": "kind"
+                },
+                {
+                    "start": 71.227,
+                    "end": 71.753,
+                    "text": "of"
+                },
+                {
+                    "start": 71.753,
+                    "end": 72.28,
+                    "text": "sound"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0",
+            "start": 72.28,
+            "end": 72.896,
+            "lyric": "Tchak... tchak... tchak...",
+            "real_meaning": "The real sound of discovery — unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0468.jpg",
+                    "query": "A vast, firelit prehistoric valley at sunset, a lone figure watches."
+                },
+                {
+                    "offset": 0.21,
+                    "url": "media/c0469.jpg",
+                    "query": "Muda kneels, stone in hand, striking it against another, sparks fly."
+                },
+                {
+                    "offset": 0.41,
+                    "url": "media/c0470.jpg",
+                    "query": "Muda's determined face, stone held tight, sparks flying in slow motion."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0471.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, coding in the dusk. Cool, modern tones."
+                },
+                {
+                    "offset": 0.21,
+                    "url": "media/c0472.jpg",
+                    "query": "A repair cafe filled with people working on gadgets. Cool tones."
+                },
+                {
+                    "offset": 0.41,
+                    "url": "media/c0473.jpg",
+                    "query": "A close-up of a student's hands typing on a keyboard, fingers dancing over the keys."
+                }
+            ],
+            "words": [
+                {
+                    "start": 72.28,
+                    "end": 72.56,
+                    "text": "No"
+                },
+                {
+                    "start": 72.56,
+                    "end": 72.88,
+                    "text": "need"
+                },
+                {
+                    "start": 72.812,
+                    "end": 72.896,
+                    "text": "need"
+                }
+            ]
+        },
+        {
+            "id": "line_7_occ_0",
+            "start": 72.93,
+            "end": 73.632,
+            "lyric": "MUDA! MUDA! The stone ignites!",
+            "real_meaning": "The Enlightenment arrives — Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0474.jpg",
+                    "query": "A vast prehistoric landscape at dusk. Muda sits on a hill, observing the world, a few small animals running around the bottom of the frame. Cinematic."
+                },
+                {
+                    "offset": 0.23,
+                    "url": "media/c0475.jpg",
+                    "query": "Muda, a pre-historic human, focuses intently on a stone, hands ready to strike a fire. Dramatic."
+                },
+                {
+                    "offset": 0.47,
+                    "url": "media/c0476.jpg",
+                    "query": "Muda's face, intense and concentrated, eyes fixed on the stone.  Sparks fly from the stone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0477.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop glowing in the cool tones of neon lights."
+                },
+                {
+                    "offset": 0.23,
+                    "url": "media/c0478.jpg",
+                    "query": "A close-up of a student in a repair cafe, hands working to fix a broken computer, surrounded by old and new electronics."
+                },
+                {
+                    "offset": 0.47,
+                    "url": "media/c0479.jpg",
+                    "query": "A close-up of the student's hands typing on a keyboard, the reflection of a screen on their glasses, showing the \"Hello, World!\" command."
+                }
+            ],
+            "words": [
+                {
+                    "start": 72.93,
+                    "end": 74.285,
+                    "text": "observed"
+                },
+                {
+                    "start": 72.96,
+                    "end": 73.26,
+                    "text": "to"
+                },
+                {
+                    "start": 72.96,
+                    "end": 73.196,
+                    "text": "to"
+                },
+                {
+                    "start": 73.196,
+                    "end": 73.728,
+                    "text": "run."
+                },
+                {
+                    "start": 73.26,
+                    "end": 73.632,
+                    "text": "run!"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0",
+            "start": 74.285,
+            "end": 78.04,
+            "lyric": "MUDA! MUDA! She saw the light!",
+            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0480.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0481.jpg",
+                    "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0482.jpg",
+                    "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0483.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0484.jpg",
+                    "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0485.jpg",
+                    "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
+                }
+            ],
+            "words": [
+                {
+                    "start": 74.285,
+                    "end": 74.911,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 74.911,
+                    "end": 75.537,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 75.537,
+                    "end": 76.162,
+                    "text": "She"
+                },
+                {
+                    "start": 76.162,
+                    "end": 76.788,
+                    "text": "saw"
+                },
+                {
+                    "start": 76.788,
+                    "end": 77.414,
+                    "text": "the"
+                },
+                {
+                    "start": 77.414,
+                    "end": 78.04,
+                    "text": "light!"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0",
+            "start": 78.04,
+            "end": 80.096,
+            "lyric": "MUDA! MUDA! No need to run!",
+            "real_meaning": "You don't need the rat race — the fire was never in the running, it was in the understanding.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0486.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, Muda sits silently on a hill, watching the world below. A cinematic wide shot."
+                },
+                {
+                    "offset": 0.58,
+                    "url": "media/c0487.jpg",
+                    "query": "Muda picks up a stone, firelight flickers in their eyes. Muda strikes the stone against a rock, sparks fly. A dramatic medium shot."
+                },
+                {
+                    "offset": 1.19,
+                    "url": "media/c0488.jpg",
+                    "query": "Muda's face glows with warmth and determination as they finally create fire. A close up of Muda's face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0489.jpg",
+                    "query": "A vast cityscape at dusk, a lone student in silhouette, a laptop aglow with code. Urban, cinematic."
+                },
+                {
+                    "offset": 0.58,
+                    "url": "media/c0490.jpg",
+                    "query": "A bustling repair cafe, tools and screens, a community around a computer. Contemporary, cool tones."
+                },
+                {
+                    "offset": 1.19,
+                    "url": "media/c0491.jpg",
+                    "query": "A close-up of eyes, reflecting a screen with endless lines of code, determination. Intimate, photographic."
+                }
+            ],
+            "words": [
+                {
+                    "start": 78.04,
+                    "end": 78.383,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 78.383,
+                    "end": 78.725,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 78.725,
+                    "end": 79.068,
+                    "text": "No"
+                },
+                {
+                    "start": 79.068,
+                    "end": 79.411,
+                    "text": "need"
+                },
+                {
+                    "start": 79.411,
+                    "end": 79.753,
+                    "text": "to"
+                },
+                {
+                    "start": 79.753,
+                    "end": 80.096,
+                    "text": "run!"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0",
+            "start": 89.024,
+            "end": 94.06,
+            "lyric": "The fire's here, the fire's won!",
+            "real_meaning": "The solution was always at your feet — open knowledge, simple living, human connection without intermediaries.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0492.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk. Muda stands, observing."
+                },
+                {
+                    "offset": 0.56,
+                    "url": "media/c0493.jpg",
+                    "query": "Muda crouches, striking a stone against another, sparks fly."
+                },
+                {
+                    "offset": 2.44,
+                    "url": "media/c0494.jpg",
+                    "query": "Muda's face, eyes wide with triumph. Warm, flickering light on skin."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0495.jpg",
+                    "query": "A quiet student sits alone in a bustling urban cafe, laptop open, neon signs reflecting on the glass window."
+                },
+                {
+                    "offset": 0.56,
+                    "url": "media/c0496.jpg",
+                    "query": "A repair cafe in a modern warehouse, people tinkering with tech, a Linux sticker on a laptop visible."
+                },
+                {
+                    "offset": 2.44,
+                    "url": "media/c0497.jpg",
+                    "query": "A close-up of a hand typing \"Hello World\" on a keyboard, a warm smile on the student's face."
+                }
+            ],
+            "words": [
+                {
+                    "start": 89.024,
+                    "end": 89.48,
+                    "text": "stood"
+                },
+                {
+                    "start": 90.04,
+                    "end": 90.52,
+                    "text": "moss"
+                },
+                {
+                    "start": 90.52,
+                    "end": 92.22,
+                    "text": "aglow"
+                },
+                {
+                    "start": 92.22,
+                    "end": 93.92,
+                    "text": "\"Look,\""
+                },
+                {
+                    "start": 93.82,
+                    "end": 94.82,
+                    "text": "\"I'll"
+                },
+                {
+                    "start": 93.92,
+                    "end": 94.06,
+                    "text": "she"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0",
+            "start": 94.06,
+            "end": 97.14,
+            "lyric": "She stood up, the moss aglow",
+            "real_meaning": "Rising with quiet power — not the loud disruptor, but the calm demonstrator. Show, don't tell.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0498.jpg",
+                    "query": "A vast, prehistoric valley at dusk, silhouetted figures gathered around a distant glow, a lone figure watches."
+                },
+                {
+                    "offset": 1.05,
+                    "url": "media/c0499.jpg",
+                    "query": "A figure stands, the glow of firelit moss reflecting on them, a stone in their hand."
+                },
+                {
+                    "offset": 1.65,
+                    "url": "media/c0500.jpg",
+                    "query": "A figure's face, strong, determined, the reflection of a glowing mossy rock beneath them."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0501.jpg",
+                    "query": "A bustling cityscape at dusk, a lone figure sitting quietly in a cozy cafe, laptop open, surrounded by books, and glowing screens, 35mm lens."
+                },
+                {
+                    "offset": 1.05,
+                    "url": "media/c0502.jpg",
+                    "query": "A cluttered desk with a vintage laptop, surrounded by scattered papers, a steaming cup of coffee, and a half-eaten sandwich, 50mm lens."
+                },
+                {
+                    "offset": 1.65,
+                    "url": "media/c0503.jpg",
+                    "query": "up of a determined face, eyes fixed on the code, a soft smile playing at the corners of the mouth, 85mm lens."
+                }
+            ],
+            "words": [
+                {
+                    "start": 94.06,
+                    "end": 94.58,
+                    "text": "said,"
+                },
+                {
+                    "start": 94.24,
+                    "end": 99.6,
+                    "text": "a"
+                },
+                {
+                    "start": 94.82,
+                    "end": 95.18,
+                    "text": "show"
+                },
+                {
+                    "start": 95.18,
+                    "end": 95.6,
+                    "text": "you"
+                },
+                {
+                    "start": 95.6,
+                    "end": 96.14,
+                    "text": "slow"
+                },
+                {
+                    "start": 96.14,
+                    "end": 97.14,
+                    "text": "Pots."
+                }
+            ]
+        },
+        {
+            "id": "line_12_occ_0",
+            "start": 99.0,
+            "end": 108.62,
+            "lyric": "\"Look,\" she said, \"I'll show you slow",
+            "real_meaning": "Teaching patiently — the antithesis of viral content, the slow education that actually transforms.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0504.jpg",
+                    "query": "A vast prehistoric landscape at dusk, Muda stands silently, observing her tribe under a sky of warm hues."
+                },
+                {
+                    "offset": 0.82,
+                    "url": "media/c0505.jpg",
+                    "query": "Muda crouches, stone in hand, sparks flying as she carefully strikes it against another."
+                },
+                {
+                    "offset": 5.44,
+                    "url": "media/c0506.jpg",
+                    "query": "Muda's focused eyes reflect the growing flames, her expression calm and determined as she teaches."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0507.jpg",
+                    "query": "A wide cityscape at dusk with neon lights reflecting on wet streets. A lone figure sits at a table with a laptop in a quiet corner cafe."
+                },
+                {
+                    "offset": 0.82,
+                    "url": "media/c0508.jpg",
+                    "query": "A close-up of hands typing on a keyboard, the glow of a laptop screen illuminating a face with a determined expression."
+                },
+                {
+                    "offset": 5.44,
+                    "url": "media/c0509.jpg",
+                    "query": "A student's hands gently guiding a mentor's hands to type, with the soft glow of a monitor reflecting a \"Hello World\" code."
+                }
+            ],
+            "words": [
+                {
+                    "start": 99.0,
+                    "end": 100.374,
+                    "text": "\"Look,\""
+                },
+                {
+                    "start": 100.374,
+                    "end": 101.749,
+                    "text": "she"
+                },
+                {
+                    "start": 101.749,
+                    "end": 103.123,
+                    "text": "said,"
+                },
+                {
+                    "start": 103.123,
+                    "end": 104.497,
+                    "text": "\"I'll"
+                },
+                {
+                    "start": 104.497,
+                    "end": 105.871,
+                    "text": "show"
+                },
+                {
+                    "start": 105.871,
+                    "end": 107.246,
+                    "text": "you"
+                },
+                {
+                    "start": 107.246,
+                    "end": 108.62,
+                    "text": "slow"
+                }
+            ]
+        },
+        {
+            "id": "line_13_occ_0",
+            "start": 108.62,
+            "end": 109.58,
+            "lyric": "Pots. Wheel. Stone. Fire.",
+            "real_meaning": "The building blocks were always free — pottery, engineering, tools, energy. No subscription required.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0510.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hill. Warm hues paint the sky, fire is seen in the distance. Muda looks out over his domain."
+                },
+                {
+                    "offset": 0.61,
+                    "url": "media/c0511.jpg",
+                    "query": "Muda crouches, striking flint against stone, sparks fly, fire ignites.  Muda's eyes gleam in the warm glow."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0512.jpg",
+                    "query": "up of Muda's hands, calloused, gripping flint and stone, sparks fly, ignite the fire."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0513.jpg",
+                    "query": "A wide shot of a bustling cityscape at night, with a quiet student sitting alone in a brightly lit cafe, laptop open to a coding window, reflecting the urban environment."
+                },
+                {
+                    "offset": 0.61,
+                    "url": "media/c0514.jpg",
+                    "query": "A medium shot of a repair cafe. A student and an elder repairing a vintage radio, amidst a backdrop of open laptops and tools."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0515.jpg",
+                    "query": "A close-up of a studentâ€™s hands. They are holding a newly fired piece of pottery, the glaze still wet, with Linux code projected onto the surface."
+                }
+            ],
+            "words": [
+                {
+                    "start": 108.62,
+                    "end": 108.86,
+                    "text": "Pots."
+                },
+                {
+                    "start": 108.86,
+                    "end": 109.1,
+                    "text": "Wheel."
+                },
+                {
+                    "start": 109.1,
+                    "end": 109.34,
+                    "text": "Stone."
+                },
+                {
+                    "start": 109.34,
+                    "end": 109.58,
+                    "text": "Fire."
+                }
+            ]
+        },
+        {
+            "id": "line_14_interp",
+            "start": 109.58,
+            "end": 113.75,
+            "lyric": "No need to run. No need to tire.\"",
+            "real_meaning": "The anti-hustle manifesto — sufficiency over excess, being over doing, presence over performance.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0516.jpg",
+                    "query": "A sweeping vista of a prehistoric valley at dusk, a lone figure, Muda, stands, staring into the distance. The sun paints the sky with warm hues."
+                },
+                {
+                    "offset": 0.85,
+                    "url": "media/c0517.jpg",
+                    "query": "Muda crouches, hand poised over a stone, eyes fixed on the task, a small fire pit, the light warm and inviting."
+                },
+                {
+                    "offset": 2.04,
+                    "url": "media/c0518.jpg",
+                    "query": "Muda's face, tranquil, eyes reflecting the growing fire, a quiet smile."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0519.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open to a code editor."
+                },
+                {
+                    "offset": 0.85,
+                    "url": "media/c0520.jpg",
+                    "query": "A cozy repair cafe, tools scattered, a group collaboratively tinkers with old electronics."
+                },
+                {
+                    "offset": 2.04,
+                    "url": "media/c0521.jpg",
+                    "query": "A close-up of a hand gently typing on a keyboard, a serene expression on the face of the person."
+                }
+            ],
+            "words": [
+                {
+                    "start": 109.58,
+                    "end": 110.101,
+                    "text": "No"
+                },
+                {
+                    "start": 110.101,
+                    "end": 110.623,
+                    "text": "need"
+                },
+                {
+                    "start": 110.623,
+                    "end": 111.144,
+                    "text": "to"
+                },
+                {
+                    "start": 111.144,
+                    "end": 111.665,
+                    "text": "run."
+                },
+                {
+                    "start": 111.665,
+                    "end": 112.186,
+                    "text": "No"
+                },
+                {
+                    "start": 112.186,
+                    "end": 112.707,
+                    "text": "need"
+                },
+                {
+                    "start": 112.707,
+                    "end": 113.229,
+                    "text": "to"
+                },
+                {
+                    "start": 113.229,
+                    "end": 113.75,
+                    "text": "tire.\""
+                }
+            ]
+        },
+        {
+            "id": "line_15_interp",
+            "start": 113.75,
+            "end": 114.516,
+            "lyric": "Gralha's jaw fell to the floor",
+            "real_meaning": "The believer's world shattering — when the faithful see the truth, the grief is physical.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0522.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone figure sits on a cliff watching the horizon. Warm, painterly."
+                },
+                {
+                    "offset": 0.84,
+                    "url": "media/c0523.jpg",
+                    "query": "Muda picks up a stone from the ground. The fire is a warm tone."
+                },
+                {
+                    "offset": 2.07,
+                    "url": "media/c0524.jpg",
+                    "query": "A close-up of the face as the jaw falls open, eyes widened in disbelief."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0525.jpg",
+                    "query": "A vast urban landscape at dusk, a lone student sits quietly in a bustling city park, surrounded by skyscrapers and neon lights reflecting on wet pavement."
+                },
+                {
+                    "offset": 0.84,
+                    "url": "media/c0526.jpg",
+                    "query": "A teenager sits in a dimly lit room, fingers dancing on a sleek laptop keyboard, code streaming across multiple screens, surrounded by stacks of books and open source manuals."
+                },
+                {
+                    "offset": 2.07,
+                    "url": "media/c0527.jpg",
+                    "query": "A close-up of a young woman's face, her eyes wide with shock, mouth agape, as she stares at a computer screen, her reflection in the glass showing the pain of a shattered belief."
+                }
+            ],
+            "words": [
+                {
+                    "start": 113.75,
+                    "end": 113.878,
+                    "text": "Gralha's"
+                },
+                {
+                    "start": 113.878,
+                    "end": 114.005,
+                    "text": "jaw"
+                },
+                {
+                    "start": 114.005,
+                    "end": 114.133,
+                    "text": "fell"
+                },
+                {
+                    "start": 114.133,
+                    "end": 114.261,
+                    "text": "to"
+                },
+                {
+                    "start": 114.261,
+                    "end": 114.388,
+                    "text": "the"
+                },
+                {
+                    "start": 114.388,
+                    "end": 114.516,
+                    "text": "floor"
+                }
+            ]
+        },
+        {
+            "id": "line_22_occ_0",
+            "start": 114.516,
+            "end": 117.916,
+            "lyric": "The fire's here, the fire's won!",
+            "real_meaning": "The stone hasn't moved — the truth doesn't go anywhere. It was always available for anyone willing to look down.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0564.jpg",
+                    "query": "A vast prehistoric landscape at dusk, Muda sits silently, observing the world. Firelit, warm tones."
+                },
+                {
+                    "offset": 0.7,
+                    "url": "media/c0565.jpg",
+                    "query": "Muda's hands pick up a stone, strikes it against another. Fire sparks, cinematic."
+                },
+                {
+                    "offset": 1.91,
+                    "url": "media/c0566.jpg",
+                    "query": "Muda's face, eyes wide, breath misting in the cold, with the flames growing, glowing."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0567.jpg",
+                    "query": "A wide cityscape at dusk, a student seated alone in a bustling cafÃ©, laptop open, quiet focus."
+                },
+                {
+                    "offset": 0.7,
+                    "url": "media/c0568.jpg",
+                    "query": "A student is editing code, surrounded by urban tech, coffee steaming."
+                },
+                {
+                    "offset": 1.91,
+                    "url": "media/c0569.jpg",
+                    "query": "up of the student's eyes, reflecting a screen, determined, focused."
+                }
+            ],
+            "words": [
+                {
+                    "start": 89.024,
+                    "end": 89.48,
+                    "text": "stood"
+                },
+                {
+                    "start": 90.04,
+                    "end": 90.52,
+                    "text": "moss"
+                },
+                {
+                    "start": 90.52,
+                    "end": 92.22,
+                    "text": "aglow"
+                },
+                {
+                    "start": 92.22,
+                    "end": 93.92,
+                    "text": "\"Look,\""
+                },
+                {
+                    "start": 93.82,
+                    "end": 94.82,
+                    "text": "\"I'll"
+                },
+                {
+                    "start": 93.92,
+                    "end": 94.06,
+                    "text": "she"
+                }
+            ]
+        },
+        {
+            "id": "line_16_occ_0",
+            "start": 117.916,
+            "end": 117.92,
+            "lyric": "Tronco whispered \"What's this for?\"",
+            "real_meaning": "The pragmatist who can't see value in what's free — 'if it's not monetizable, what's the point?'",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0528.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda sits on a ridge, overlooking the landscape, a single bird flying in the sky above them."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0529.jpg",
+                    "query": "Muda crouches, picks up a stone, striking it against another. Sparks fly, landing on kindling, warm tones fill the scene."
+                },
+                {
+                    "offset": 3.31,
+                    "url": "media/c0530.jpg",
+                    "query": "A close-up of Muda's face, their expression curious and focused."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0531.jpg",
+                    "query": "A wide, birds-eye view of a bustling city at night, a quiet student illuminated by a laptop screen in a crowded cafe."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0532.jpg",
+                    "query": "A modern library filled with people on laptops, bookshelves replaced by servers, one person looking confused and disinterested."
+                },
+                {
+                    "offset": 3.31,
+                    "url": "media/c0533.jpg",
+                    "query": "A close-up of a personâ€™s face, eyes reflecting the glow of a computer screen, expression doubtful and questioning."
+                }
+            ],
+            "words": [
+                {
+                    "start": 117.916,
+                    "end": 117.917,
+                    "text": "Tronco"
+                },
+                {
+                    "start": 117.917,
+                    "end": 117.918,
+                    "text": "whispered"
+                },
+                {
+                    "start": 117.918,
+                    "end": 117.918,
+                    "text": "\"What's"
+                },
+                {
+                    "start": 117.918,
+                    "end": 117.919,
+                    "text": "this"
+                },
+                {
+                    "start": 117.919,
+                    "end": 117.92,
+                    "text": "for?\""
+                }
+            ]
+        },
+        {
+            "id": "line_23_interp",
+            "start": 117.92,
+            "end": 123.8,
+            "lyric": "Tchak... tchak... tchak...",
+            "real_meaning": "The sound persists — truth doesn't need followers, it just keeps working. Stone on stone, always available.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0570.jpg",
+                    "query": "A vast prehistoric valley at sunset. Muda, a silent figure, watches the horizon."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0571.jpg",
+                    "query": "Muda crouches, hand poised over a stone. Firelight dances."
+                },
+                {
+                    "offset": 3.31,
+                    "url": "media/c0572.jpg",
+                    "query": "Muda's hands, calloused and strong, strike stones. Sparks fly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0573.jpg",
+                    "query": "A vast urban cityscape at night with a quiet student illuminated in a high-rise apartment window, typing code on their laptop. The city is a vast array of lights that reflect on th"
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0574.jpg",
+                    "query": "A close-up of the student's hands, navigating through lines of code. The screen shows Wikipedia, and the code is being integrated into it. The keyboard is blue with bright cool-ton"
+                },
+                {
+                    "offset": 3.31,
+                    "url": "media/c0575.jpg",
+                    "query": "A close-up shot of a single key on the keyboard being pressed, a tiny hand pressing down a key.  The focus is the key, but the reflection of the student's face can be seen on the k"
+                }
+            ],
+            "words": [
+                {
+                    "start": 117.92,
+                    "end": 119.88,
+                    "text": "Tchak..."
+                },
+                {
+                    "start": 119.88,
+                    "end": 121.84,
+                    "text": "tchak..."
+                },
+                {
+                    "start": 121.84,
+                    "end": 123.8,
+                    "text": "tchak..."
+                }
+            ]
+        },
+        {
+            "id": "line_17_interp",
+            "start": 123.89,
+            "end": 125.959,
+            "lyric": "The women cheered, the men looked scared",
+            "real_meaning": "Liberation terrifies those who built their identity on the old system — freedom is threatening to the invested.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0534.jpg",
+                    "query": "A vast prehistoric landscape under a starlit sky, Muda stands alone watching the horizon. Dark silhouettes of mammoths in the distance, smoke in the foreground."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0535.jpg",
+                    "query": "Muda bends down, picks up a stone, and strikes it against another. Sparks fly, highlighting their weathered face in warm tones."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0536.jpg",
+                    "query": "A circle of people around a newly lit fire. Women's faces glow with joy, men's with fear, all eyes on Muda."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0537.jpg",
+                    "query": "A wide shot of a bustling cityscape at dusk, a lone student sitting quietly on a bench in a techno park, with skyscrapers towering in the background."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0538.jpg",
+                    "query": "A medium shot of a modern cafe, patrons typing on laptops, servers humming quietly, and the glow of screens reflecting on their faces."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0539.jpg",
+                    "query": "A close-up of a man's face, his eyes wide with fear as he looks at the screen showing lines of code."
+                }
+            ],
+            "words": [
+                {
+                    "start": 123.89,
+                    "end": 124.186,
+                    "text": "The"
+                },
+                {
+                    "start": 124.186,
+                    "end": 124.481,
+                    "text": "women"
+                },
+                {
+                    "start": 124.481,
+                    "end": 124.777,
+                    "text": "cheered,"
+                },
+                {
+                    "start": 124.777,
+                    "end": 125.072,
+                    "text": "the"
+                },
+                {
+                    "start": 125.072,
+                    "end": 125.368,
+                    "text": "men"
+                },
+                {
+                    "start": 125.368,
+                    "end": 125.663,
+                    "text": "looked"
+                },
+                {
+                    "start": 125.663,
+                    "end": 125.959,
+                    "text": "scared"
+                }
+            ]
+        },
+        {
+            "id": "line_18_interp",
+            "start": 125.959,
+            "end": 128.028,
+            "lyric": "The first belief was declared",
+            "real_meaning": "But even liberation becomes dogma — Muda's truth is already being turned into the next ideology.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0540.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda sits silent on a hill, observing the world below, firelit hues painting the landscape."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0541.jpg",
+                    "query": "Muda's hands cradle a stone, striking it against another, sparks flying, warmth reflected in their eyes."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0542.jpg",
+                    "query": "Muda's eyes, intense and focused, the fire within, as the first belief was declared."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0543.jpg",
+                    "query": "A quiet student sits alone in a vast, modern library, surrounded by glowing screens and towering bookshelves. Cool, urban atmosphere."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0544.jpg",
+                    "query": "The student types furiously at a laptop, surrounded by a bustling repair cafÃ©, full of people and technology."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0545.jpg",
+                    "query": "The student's face lit up by the glow of their laptop, with a mix of determination and frustration."
+                }
+            ],
+            "words": [
+                {
+                    "start": 125.959,
+                    "end": 126.373,
+                    "text": "The"
+                },
+                {
+                    "start": 126.373,
+                    "end": 126.787,
+                    "text": "first"
+                },
+                {
+                    "start": 126.787,
+                    "end": 127.2,
+                    "text": "belief"
+                },
+                {
+                    "start": 127.2,
+                    "end": 127.614,
+                    "text": "was"
+                },
+                {
+                    "start": 127.614,
+                    "end": 128.028,
+                    "text": "declared"
+                }
+            ]
+        },
+        {
+            "id": "line_19_interp",
+            "start": 128.028,
+            "end": 130.096,
+            "lyric": "MUDA! MUDA! The stone ignites!",
+            "real_meaning": "The truth spreads — but now it's spreading through the same channels that spread the lie. The medium shapes the message.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0546.jpg",
+                    "query": "A vast prehistoric valley at dusk, silhouetted figures gather around a distant glow. Muda watches,  stone in hand."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0547.jpg",
+                    "query": "Muda strikes the stone against a rock, sparks fly towards a pile of dried leaves."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0548.jpg",
+                    "query": "Muda's focused eyes, sparks fly up, a small fire ignites, the first flames flicker."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0549.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, fingers poised over the keyboard, ready to type \"Hello World\"."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0550.jpg",
+                    "query": "A repair cafe at dusk. Neon lights reflect off tools and tech, the space filled with people collaborating on open source projects."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0551.jpg",
+                    "query": "A close up of the student's face, eyes bright with determination as they type in code, the cityscape glistening behind them."
+                }
+            ],
+            "words": [
+                {
+                    "start": 128.028,
+                    "end": 128.442,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 128.442,
+                    "end": 128.855,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 128.855,
+                    "end": 129.269,
+                    "text": "The"
+                },
+                {
+                    "start": 129.269,
+                    "end": 129.682,
+                    "text": "stone"
+                },
+                {
+                    "start": 129.682,
+                    "end": 130.096,
+                    "text": "ignites!"
+                }
+            ]
+        },
+        {
+            "id": "line_20_interp",
+            "start": 130.096,
+            "end": 132.165,
+            "lyric": "MUDA! MUDA! She saw the light!",
+            "real_meaning": "The awakening spreads — more people seeing through the illusion, finding their own fire.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0552.jpg",
+                    "query": "A vast, prehistoric valley at dusk, a lone figure watches from a ridge. Shadows dance."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0553.jpg",
+                    "query": "Muda crouches, striking stone against stone. Sparks fly in slow motion."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0554.jpg",
+                    "query": "A close up of Muda's face, eyes wide with wonder, illuminated by first flames."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0555.jpg",
+                    "query": "A wide urban street at dawn, a lone figure sitting on a bench, laptop aglow, surrounded by towering glass buildings."
+                },
+                {
+                    "offset": 0.33,
+                    "url": "media/c0556.jpg",
+                    "query": "A bustling repair cafe, neon lights reflecting off rain-wet streets, tech enthusiasts huddled around tables, tools, and laptops."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0557.jpg",
+                    "query": "A close-up of a hand hovering over a keyboard, fingers poised to type, eyes reflecting the glow of a screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 130.096,
+                    "end": 130.441,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 130.441,
+                    "end": 130.786,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 130.786,
+                    "end": 131.13,
+                    "text": "She"
+                },
+                {
+                    "start": 131.13,
+                    "end": 131.475,
+                    "text": "saw"
+                },
+                {
+                    "start": 131.475,
+                    "end": 131.82,
+                    "text": "the"
+                },
+                {
+                    "start": 131.82,
+                    "end": 132.165,
+                    "text": "light!"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0",
+            "start": 132.165,
+            "end": 137.204,
+            "lyric": "MUDA! MUDA! She saw the light!",
+            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0480.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
+                },
+                {
+                    "offset": 1.07,
+                    "url": "media/c0481.jpg",
+                    "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0482.jpg",
+                    "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0483.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                },
+                {
+                    "offset": 1.07,
+                    "url": "media/c0484.jpg",
+                    "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0485.jpg",
+                    "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
+                }
+            ],
+            "words": [
+                {
+                    "start": 132.165,
+                    "end": 133.005,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 133.005,
+                    "end": 133.845,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 133.845,
+                    "end": 134.685,
+                    "text": "She"
+                },
+                {
+                    "start": 134.685,
+                    "end": 135.524,
+                    "text": "saw"
+                },
+                {
+                    "start": 135.524,
+                    "end": 136.364,
+                    "text": "the"
+                },
+                {
+                    "start": 136.364,
+                    "end": 137.204,
+                    "text": "light!"
+                }
+            ]
+        },
+        {
+            "id": "line_21_occ_0",
+            "start": 137.204,
+            "end": 140.875,
+            "lyric": "MUDA! MUDA! No need to run!",
+            "real_meaning": "Peace is possible — you can step off the treadmill and the world doesn't end.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0558.jpg",
+                    "query": "A vast, prehistoric landscape at sunset, with Muda, a silent observer, standing atop a hill overlooking a herd of running, fleeing animals."
+                },
+                {
+                    "offset": 1.22,
+                    "url": "media/c0559.jpg",
+                    "query": "Muda picks up a stone, crouches, striking it against another, sparks fly in the twilight, warm tones."
+                },
+                {
+                    "offset": 2.45,
+                    "url": "media/c0560.jpg",
+                    "query": "Muda's determined expression in close up as the sparks turn into a fire burning in the darkness."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0561.jpg",
+                    "query": "A vast cityscape at dusk, a lone student sitting quietly in a bustling urban plaza, surrounded by towering glass buildings. The student's laptop emits a soft glow, reflecting on th"
+                },
+                {
+                    "offset": 1.22,
+                    "url": "media/c0562.jpg",
+                    "query": "A crowded repair cafe, tools and electronics scattered, a group of people collaboratively fixing devices, a sense of camaraderie and shared purpose."
+                },
+                {
+                    "offset": 2.45,
+                    "url": "media/c0563.jpg",
+                    "query": "A close-up of a hand gently touching a glowing screen, fingers hovering over a keyboard, the reflection of the screen illuminating the face of the person in quiet determination."
+                }
+            ],
+            "words": [
+                {
+                    "start": 137.404,
+                    "end": 137.502,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 137.836,
+                    "end": 137.936,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 139.267,
+                    "end": 139.613,
+                    "text": "No"
+                },
+                {
+                    "start": 139.821,
+                    "end": 140.108,
+                    "text": "need"
+                },
+                {
+                    "start": 140.331,
+                    "end": 140.416,
+                    "text": "to"
+                },
+                {
+                    "start": 140.416,
+                    "end": 140.875,
+                    "text": "run!"
+                }
+            ]
+        },
+        {
+            "id": "instrumental_5",
+            "start": 156.296,
+            "end": 157.211,
+            "lyric": "Tchak... tchak... tchak...",
+            "real_meaning": "Instrumental / ambience",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 156.296,
+                    "end": 156.704,
+                    "text": "Tchak..."
+                },
+                {
+                    "start": 156.842,
+                    "end": 157.211,
+                    "text": "tchak..."
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_0",
+            "start": 158.976,
+            "end": 160.976,
+            "lyric": "\"The fire was always ours.\"",
+            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0576.jpg",
+                    "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "media/c0577.jpg",
+                    "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
+                },
+                {
+                    "offset": 4.99,
+                    "url": "media/c0578.jpg",
+                    "query": "Close up of Muda's determined eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0579.jpg",
+                    "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "media/c0580.jpg",
+                    "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
+                },
+                {
+                    "offset": 4.99,
+                    "url": "media/c0581.jpg",
+                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
+                }
+            ],
+            "words": [
+                {
+                    "start": 158.976,
+                    "end": 159.376,
+                    "text": "\"The"
+                },
+                {
+                    "start": 159.376,
+                    "end": 159.776,
+                    "text": "fire"
+                },
+                {
+                    "start": 159.776,
+                    "end": 160.176,
+                    "text": "was"
+                },
+                {
+                    "start": 160.176,
+                    "end": 160.576,
+                    "text": "always"
+                },
+                {
+                    "start": 160.576,
+                    "end": 160.976,
+                    "text": "ours.\""
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_1",
+            "start": 160.976,
+            "end": 162.976,
+            "lyric": "\"The fire was always ours.\"",
+            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0576.jpg",
+                    "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "media/c0577.jpg",
+                    "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
+                },
+                {
+                    "offset": 4.99,
+                    "url": "media/c0578.jpg",
+                    "query": "Close up of Muda's determined eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0579.jpg",
+                    "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "media/c0580.jpg",
+                    "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
+                },
+                {
+                    "offset": 4.99,
+                    "url": "media/c0581.jpg",
+                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
+                }
+            ],
+            "words": [
+                {
+                    "start": 160.976,
+                    "end": 161.376,
+                    "text": "\"The"
+                },
+                {
+                    "start": 161.376,
+                    "end": 161.776,
+                    "text": "fire"
+                },
+                {
+                    "start": 161.776,
+                    "end": 162.176,
+                    "text": "was"
+                },
+                {
+                    "start": 162.176,
+                    "end": 162.576,
+                    "text": "always"
+                },
+                {
+                    "start": 162.576,
+                    "end": 162.976,
+                    "text": "ours.\""
+                }
+            ]
+        }
+    ],
+    "beat_times": [
+        0.58,
+        1.231,
+        1.834,
+        2.415,
+        3.019,
+        3.622,
+        4.226,
+        4.83,
+        5.41,
+        6.037,
+        6.618,
+        7.221,
+        7.825,
+        8.429,
+        9.033,
+        9.636,
+        10.217,
+        10.844,
+        11.424,
+        12.028,
+        12.632,
+        13.235,
+        13.816,
+        14.42,
+        15.023,
+        15.627,
+        16.231,
+        16.834,
+        17.438,
+        18.019,
+        18.622,
+        19.226,
+        19.83,
+        20.434,
+        21.037,
+        21.641,
+        22.245,
+        22.825,
+        23.429,
+        24.033,
+        24.636,
+        25.24,
+        25.844,
+        26.448,
+        27.028,
+        27.632,
+        28.235,
+        28.839,
+        29.42,
+        30.047,
+        30.627,
+        31.231,
+        31.835,
+        32.438,
+        33.019,
+        33.622,
+        34.226,
+        34.83,
+        35.434,
+        36.037,
+        36.641,
+        37.222,
+        37.825,
+        38.429,
+        39.033,
+        39.59,
+        40.263,
+        40.89,
+        41.564,
+        42.214,
+        42.887,
+        43.491,
+        44.095,
+        44.698,
+        45.279,
+        45.929,
+        46.51,
+        47.113,
+        47.694,
+        48.321,
+        48.924,
+        49.528,
+        50.132,
+        50.712,
+        51.316,
+        51.827,
+        52.384,
+        52.918,
+        53.452,
+        54.033,
+        54.637,
+        55.24,
+        55.821,
+        56.448,
+        57.028,
+        57.632,
+        58.236,
+        58.839,
+        59.443,
+        60.024,
+        60.627,
+        61.231,
+        61.835,
+        62.438,
+        63.042,
+        63.623,
+        64.226,
+        64.83,
+        65.434,
+        66.038,
+        66.641,
+        67.222,
+        67.825,
+        68.429,
+        69.033,
+        69.637,
+        70.24,
+        70.821,
+        71.425,
+        72.028,
+        72.632,
+        73.236,
+        73.839,
+        74.443,
+        75.047,
+        75.627,
+        76.231,
+        76.835,
+        77.415,
+        78.042,
+        78.623,
+        79.226,
+        79.807,
+        80.434,
+        81.038,
+        81.641,
+        82.222,
+        82.895,
+        83.545,
+        84.196,
+        84.869,
+        85.449,
+        86.03,
+        86.61,
+        87.191,
+        87.748,
+        88.352,
+        88.932,
+        89.583,
+        90.21,
+        90.836,
+        91.463,
+        92.09,
+        92.717,
+        93.321,
+        93.925,
+        94.505,
+        95.109,
+        95.713,
+        96.316,
+        96.92,
+        97.524,
+        98.128,
+        98.731,
+        99.312,
+        99.823,
+        100.38,
+        100.914,
+        101.448,
+        102.052,
+        102.632,
+        103.236,
+        103.84,
+        104.443,
+        105.024,
+        105.628,
+        106.231,
+        106.835,
+        107.439,
+        108.042,
+        108.623,
+        109.227,
+        109.83,
+        110.434,
+        111.038,
+        111.618,
+        112.176,
+        112.779,
+        113.429,
+        114.033,
+        114.59,
+        115.217,
+        115.821,
+        116.425,
+        117.029,
+        117.632,
+        118.236,
+        118.84,
+        119.42,
+        120.024,
+        120.628,
+        121.231,
+        121.835,
+        122.439,
+        123.043,
+        123.623,
+        124.204,
+        124.83,
+        125.434,
+        126.038,
+        126.642,
+        127.222,
+        127.826,
+        128.43,
+        129.033,
+        129.637,
+        130.241,
+        130.844,
+        131.425,
+        132.029,
+        132.632,
+        133.236
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.394
+        ],
+        [
+            0.49,
+            0.421
+        ],
+        [
+            0.98,
+            0.447
+        ],
+        [
+            1.46,
+            0.442
+        ],
+        [
+            1.95,
+            0.441
+        ],
+        [
+            2.44,
+            0.444
+        ],
+        [
+            2.93,
+            0.453
+        ],
+        [
+            3.41,
+            0.471
+        ],
+        [
+            3.9,
+            0.505
+        ],
+        [
+            4.39,
+            0.553
+        ],
+        [
+            4.88,
+            0.61
+        ],
+        [
+            5.36,
+            0.68
+        ],
+        [
+            5.85,
+            0.71
+        ],
+        [
+            6.34,
+            0.726
+        ],
+        [
+            6.83,
+            0.724
+        ],
+        [
+            7.31,
+            0.703
+        ],
+        [
+            7.8,
+            0.718
+        ],
+        [
+            8.29,
+            0.715
+        ],
+        [
+            8.78,
+            0.722
+        ],
+        [
+            9.26,
+            0.75
+        ],
+        [
+            9.75,
+            0.79
+        ],
+        [
+            10.24,
+            0.806
+        ],
+        [
+            10.73,
+            0.773
+        ],
+        [
+            11.22,
+            0.776
+        ],
+        [
+            11.7,
+            0.795
+        ],
+        [
+            12.19,
+            0.809
+        ],
+        [
+            12.68,
+            0.828
+        ],
+        [
+            13.17,
+            0.872
+        ],
+        [
+            13.65,
+            0.887
+        ],
+        [
+            14.14,
+            0.863
+        ],
+        [
+            14.63,
+            0.829
+        ],
+        [
+            15.12,
+            0.777
+        ],
+        [
+            15.6,
+            0.757
+        ],
+        [
+            16.09,
+            0.764
+        ],
+        [
+            16.58,
+            0.79
+        ],
+        [
+            17.07,
+            0.864
+        ],
+        [
+            17.55,
+            0.856
+        ],
+        [
+            18.04,
+            0.844
+        ],
+        [
+            18.53,
+            0.863
+        ],
+        [
+            19.02,
+            0.839
+        ],
+        [
+            19.5,
+            0.838
+        ],
+        [
+            19.99,
+            0.776
+        ],
+        [
+            20.48,
+            0.747
+        ],
+        [
+            20.97,
+            0.782
+        ],
+        [
+            21.46,
+            0.805
+        ],
+        [
+            21.94,
+            0.854
+        ],
+        [
+            22.43,
+            0.87
+        ],
+        [
+            22.92,
+            0.889
+        ],
+        [
+            23.41,
+            0.891
+        ],
+        [
+            23.89,
+            0.837
+        ],
+        [
+            24.38,
+            0.823
+        ],
+        [
+            24.87,
+            0.786
+        ],
+        [
+            25.36,
+            0.736
+        ],
+        [
+            25.84,
+            0.747
+        ],
+        [
+            26.33,
+            0.771
+        ],
+        [
+            26.82,
+            0.769
+        ],
+        [
+            27.31,
+            0.765
+        ],
+        [
+            27.79,
+            0.74
+        ],
+        [
+            28.28,
+            0.748
+        ],
+        [
+            28.77,
+            0.821
+        ],
+        [
+            29.26,
+            0.877
+        ],
+        [
+            29.74,
+            0.872
+        ],
+        [
+            30.23,
+            0.856
+        ],
+        [
+            30.72,
+            0.887
+        ],
+        [
+            31.21,
+            0.84
+        ],
+        [
+            31.7,
+            0.762
+        ],
+        [
+            32.18,
+            0.769
+        ],
+        [
+            32.67,
+            0.772
+        ],
+        [
+            33.16,
+            0.763
+        ],
+        [
+            33.65,
+            0.842
+        ],
+        [
+            34.13,
+            0.879
+        ],
+        [
+            34.62,
+            0.858
+        ],
+        [
+            35.11,
+            0.866
+        ],
+        [
+            35.6,
+            0.865
+        ],
+        [
+            36.08,
+            0.818
+        ],
+        [
+            36.57,
+            0.775
+        ],
+        [
+            37.06,
+            0.787
+        ],
+        [
+            37.55,
+            0.792
+        ],
+        [
+            38.03,
+            0.802
+        ],
+        [
+            38.52,
+            0.864
+        ],
+        [
+            39.01,
+            0.896
+        ],
+        [
+            39.5,
+            0.858
+        ],
+        [
+            39.98,
+            0.884
+        ],
+        [
+            40.47,
+            0.874
+        ],
+        [
+            40.96,
+            0.763
+        ],
+        [
+            41.45,
+            0.726
+        ],
+        [
+            41.94,
+            0.742
+        ],
+        [
+            42.42,
+            0.752
+        ],
+        [
+            42.91,
+            0.824
+        ],
+        [
+            43.4,
+            0.868
+        ],
+        [
+            43.89,
+            0.878
+        ],
+        [
+            44.37,
+            0.884
+        ],
+        [
+            44.86,
+            0.85
+        ],
+        [
+            45.35,
+            0.829
+        ],
+        [
+            45.84,
+            0.795
+        ],
+        [
+            46.32,
+            0.729
+        ],
+        [
+            46.81,
+            0.741
+        ],
+        [
+            47.3,
+            0.779
+        ],
+        [
+            47.79,
+            0.807
+        ],
+        [
+            48.27,
+            0.827
+        ],
+        [
+            48.76,
+            0.828
+        ],
+        [
+            49.25,
+            0.871
+        ],
+        [
+            49.74,
+            0.864
+        ],
+        [
+            50.22,
+            0.844
+        ],
+        [
+            50.71,
+            0.826
+        ],
+        [
+            51.2,
+            0.759
+        ],
+        [
+            51.69,
+            0.748
+        ],
+        [
+            52.18,
+            0.783
+        ],
+        [
+            52.66,
+            0.831
+        ],
+        [
+            53.15,
+            0.851
+        ],
+        [
+            53.64,
+            0.809
+        ],
+        [
+            54.13,
+            0.803
+        ],
+        [
+            54.61,
+            0.823
+        ],
+        [
+            55.1,
+            0.79
+        ],
+        [
+            55.59,
+            0.782
+        ],
+        [
+            56.08,
+            0.786
+        ],
+        [
+            56.56,
+            0.754
+        ],
+        [
+            57.05,
+            0.757
+        ],
+        [
+            57.54,
+            0.844
+        ],
+        [
+            58.03,
+            0.793
+        ],
+        [
+            58.51,
+            0.673
+        ],
+        [
+            59.0,
+            0.63
+        ],
+        [
+            59.49,
+            0.607
+        ],
+        [
+            59.98,
+            0.766
+        ],
+        [
+            60.46,
+            0.925
+        ],
+        [
+            60.95,
+            0.938
+        ],
+        [
+            61.44,
+            0.93
+        ],
+        [
+            61.93,
+            0.891
+        ],
+        [
+            62.42,
+            0.854
+        ],
+        [
+            62.9,
+            0.846
+        ],
+        [
+            63.39,
+            0.874
+        ],
+        [
+            63.88,
+            0.901
+        ],
+        [
+            64.37,
+            0.796
+        ],
+        [
+            64.85,
+            0.809
+        ],
+        [
+            65.34,
+            0.93
+        ],
+        [
+            65.83,
+            0.933
+        ],
+        [
+            66.32,
+            0.928
+        ],
+        [
+            66.8,
+            0.881
+        ],
+        [
+            67.29,
+            0.832
+        ],
+        [
+            67.78,
+            0.862
+        ],
+        [
+            68.27,
+            0.884
+        ],
+        [
+            68.75,
+            0.862
+        ],
+        [
+            69.24,
+            0.811
+        ],
+        [
+            69.73,
+            0.836
+        ],
+        [
+            70.22,
+            0.932
+        ],
+        [
+            70.7,
+            0.942
+        ],
+        [
+            71.19,
+            0.93
+        ],
+        [
+            71.68,
+            0.889
+        ],
+        [
+            72.17,
+            0.849
+        ],
+        [
+            72.66,
+            0.854
+        ],
+        [
+            73.14,
+            0.92
+        ],
+        [
+            73.63,
+            0.914
+        ],
+        [
+            74.12,
+            0.826
+        ],
+        [
+            74.61,
+            0.834
+        ],
+        [
+            75.09,
+            0.898
+        ],
+        [
+            75.58,
+            0.893
+        ],
+        [
+            76.07,
+            0.83
+        ],
+        [
+            76.56,
+            0.785
+        ],
+        [
+            77.04,
+            0.821
+        ],
+        [
+            77.53,
+            0.872
+        ],
+        [
+            78.02,
+            0.869
+        ],
+        [
+            78.51,
+            0.824
+        ],
+        [
+            78.99,
+            0.811
+        ],
+        [
+            79.48,
+            0.818
+        ],
+        [
+            79.97,
+            0.756
+        ],
+        [
+            80.46,
+            0.729
+        ],
+        [
+            80.94,
+            0.763
+        ],
+        [
+            81.43,
+            0.798
+        ],
+        [
+            81.92,
+            0.86
+        ],
+        [
+            82.41,
+            0.849
+        ],
+        [
+            82.9,
+            0.826
+        ],
+        [
+            83.38,
+            0.841
+        ],
+        [
+            83.87,
+            0.82
+        ],
+        [
+            84.36,
+            0.809
+        ],
+        [
+            84.85,
+            0.785
+        ],
+        [
+            85.33,
+            0.736
+        ],
+        [
+            85.82,
+            0.749
+        ],
+        [
+            86.31,
+            0.808
+        ],
+        [
+            86.8,
+            0.866
+        ],
+        [
+            87.28,
+            0.88
+        ],
+        [
+            87.77,
+            0.873
+        ],
+        [
+            88.26,
+            0.843
+        ],
+        [
+            88.75,
+            0.847
+        ],
+        [
+            89.23,
+            0.879
+        ],
+        [
+            89.72,
+            0.879
+        ],
+        [
+            90.21,
+            0.846
+        ],
+        [
+            90.7,
+            0.832
+        ],
+        [
+            91.18,
+            0.798
+        ],
+        [
+            91.67,
+            0.763
+        ],
+        [
+            92.16,
+            0.774
+        ],
+        [
+            92.65,
+            0.794
+        ],
+        [
+            93.14,
+            0.764
+        ],
+        [
+            93.62,
+            0.835
+        ],
+        [
+            94.11,
+            0.908
+        ],
+        [
+            94.6,
+            0.898
+        ],
+        [
+            95.09,
+            0.886
+        ],
+        [
+            95.57,
+            0.841
+        ],
+        [
+            96.06,
+            0.799
+        ],
+        [
+            96.55,
+            0.817
+        ],
+        [
+            97.04,
+            0.829
+        ],
+        [
+            97.52,
+            0.828
+        ],
+        [
+            98.01,
+            0.797
+        ],
+        [
+            98.5,
+            0.821
+        ],
+        [
+            98.99,
+            0.877
+        ],
+        [
+            99.47,
+            0.864
+        ],
+        [
+            99.96,
+            0.889
+        ],
+        [
+            100.45,
+            0.86
+        ],
+        [
+            100.94,
+            0.764
+        ],
+        [
+            101.42,
+            0.753
+        ],
+        [
+            101.91,
+            0.79
+        ],
+        [
+            102.4,
+            0.869
+        ],
+        [
+            102.89,
+            0.93
+        ],
+        [
+            103.38,
+            0.857
+        ],
+        [
+            103.86,
+            0.791
+        ],
+        [
+            104.35,
+            0.817
+        ],
+        [
+            104.84,
+            0.877
+        ],
+        [
+            105.33,
+            0.894
+        ],
+        [
+            105.81,
+            0.803
+        ],
+        [
+            106.3,
+            0.739
+        ],
+        [
+            106.79,
+            0.768
+        ],
+        [
+            107.28,
+            0.786
+        ],
+        [
+            107.76,
+            0.841
+        ],
+        [
+            108.25,
+            0.886
+        ],
+        [
+            108.74,
+            0.873
+        ],
+        [
+            109.23,
+            0.905
+        ],
+        [
+            109.71,
+            0.884
+        ],
+        [
+            110.2,
+            0.862
+        ],
+        [
+            110.69,
+            0.831
+        ],
+        [
+            111.18,
+            0.724
+        ],
+        [
+            111.66,
+            0.736
+        ],
+        [
+            112.15,
+            0.795
+        ],
+        [
+            112.64,
+            0.848
+        ],
+        [
+            113.13,
+            0.926
+        ],
+        [
+            113.62,
+            0.91
+        ],
+        [
+            114.1,
+            0.846
+        ],
+        [
+            114.59,
+            0.839
+        ],
+        [
+            115.08,
+            0.843
+        ],
+        [
+            115.57,
+            0.84
+        ],
+        [
+            116.05,
+            0.821
+        ],
+        [
+            116.54,
+            0.783
+        ],
+        [
+            117.03,
+            0.794
+        ],
+        [
+            117.52,
+            0.888
+        ],
+        [
+            118.0,
+            0.93
+        ],
+        [
+            118.49,
+            0.878
+        ],
+        [
+            118.98,
+            0.831
+        ],
+        [
+            119.47,
+            0.861
+        ],
+        [
+            119.95,
+            0.889
+        ],
+        [
+            120.44,
+            0.813
+        ],
+        [
+            120.93,
+            0.733
+        ],
+        [
+            121.42,
+            0.699
+        ],
+        [
+            121.9,
+            0.679
+        ],
+        [
+            122.39,
+            0.765
+        ],
+        [
+            122.88,
+            0.877
+        ],
+        [
+            123.37,
+            0.892
+        ],
+        [
+            123.86,
+            0.875
+        ],
+        [
+            124.34,
+            0.824
+        ],
+        [
+            124.83,
+            0.84
+        ],
+        [
+            125.32,
+            0.868
+        ],
+        [
+            125.81,
+            0.881
+        ],
+        [
+            126.29,
+            0.895
+        ],
+        [
+            126.78,
+            0.852
+        ],
+        [
+            127.27,
+            0.865
+        ],
+        [
+            127.76,
+            0.93
+        ],
+        [
+            128.24,
+            0.943
+        ],
+        [
+            128.73,
+            0.931
+        ],
+        [
+            129.22,
+            0.89
+        ],
+        [
+            129.71,
+            0.845
+        ],
+        [
+            130.19,
+            0.877
+        ],
+        [
+            130.68,
+            0.919
+        ],
+        [
+            131.17,
+            0.907
+        ],
+        [
+            131.66,
+            0.849
+        ],
+        [
+            132.14,
+            0.873
+        ],
+        [
+            132.63,
+            0.94
+        ],
+        [
+            133.12,
+            0.954
+        ],
+        [
+            133.61,
+            0.961
+        ],
+        [
+            134.1,
+            0.941
+        ],
+        [
+            134.58,
+            0.895
+        ],
+        [
+            135.07,
+            0.903
+        ],
+        [
+            135.56,
+            0.955
+        ],
+        [
+            136.05,
+            0.911
+        ],
+        [
+            136.53,
+            0.874
+        ],
+        [
+            137.02,
+            0.898
+        ],
+        [
+            137.51,
+            0.913
+        ],
+        [
+            138.0,
+            0.927
+        ],
+        [
+            138.48,
+            0.93
+        ],
+        [
+            138.97,
+            0.884
+        ],
+        [
+            139.46,
+            0.891
+        ],
+        [
+            139.95,
+            0.863
+        ],
+        [
+            140.43,
+            0.902
+        ],
+        [
+            140.92,
+            0.934
+        ],
+        [
+            141.41,
+            0.875
+        ],
+        [
+            141.9,
+            0.906
+        ],
+        [
+            142.38,
+            0.939
+        ],
+        [
+            142.87,
+            0.926
+        ],
+        [
+            143.36,
+            0.901
+        ],
+        [
+            143.85,
+            0.865
+        ],
+        [
+            144.34,
+            0.899
+        ],
+        [
+            144.82,
+            0.935
+        ],
+        [
+            145.31,
+            0.912
+        ],
+        [
+            145.8,
+            0.888
+        ],
+        [
+            146.29,
+            0.847
+        ],
+        [
+            146.77,
+            0.83
+        ],
+        [
+            147.26,
+            0.819
+        ],
+        [
+            147.75,
+            0.759
+        ],
+        [
+            148.24,
+            0.747
+        ],
+        [
+            148.72,
+            0.832
+        ],
+        [
+            149.21,
+            0.941
+        ],
+        [
+            149.7,
+            0.999
+        ],
+        [
+            150.19,
+            0.966
+        ],
+        [
+            150.67,
+            0.876
+        ],
+        [
+            151.16,
+            0.829
+        ],
+        [
+            151.65,
+            0.826
+        ],
+        [
+            152.14,
+            0.848
+        ],
+        [
+            152.62,
+            0.839
+        ],
+        [
+            153.11,
+            0.807
+        ],
+        [
+            153.6,
+            0.881
+        ],
+        [
+            154.09,
+            0.939
+        ],
+        [
+            154.58,
+            0.946
+        ],
+        [
+            155.06,
+            0.949
+        ],
+        [
+            155.55,
+            0.895
+        ],
+        [
+            156.04,
+            0.827
+        ],
+        [
+            156.53,
+            0.806
+        ],
+        [
+            157.01,
+            0.801
+        ],
+        [
+            157.5,
+            0.8
+        ],
+        [
+            157.99,
+            0.759
+        ],
+        [
+            158.48,
+            0.766
+        ],
+        [
+            158.96,
+            0.816
+        ],
+        [
+            159.45,
+            0.812
+        ],
+        [
+            159.94,
+            0.811
+        ],
+        [
+            160.43,
+            0.802
+        ],
+        [
+            160.91,
+            0.853
+        ],
+        [
+            161.4,
+            0.867
+        ],
+        [
+            161.89,
+            0.798
+        ],
+        [
+            162.38,
+            0.814
+        ],
+        [
+            162.86,
+            0.819
+        ],
+        [
+            163.35,
+            0.754
+        ],
+        [
+            163.84,
+            0.739
+        ],
+        [
+            164.33,
+            0.747
+        ],
+        [
+            164.82,
+            0.695
+        ],
+        [
+            165.3,
+            0.625
+        ],
+        [
+            165.79,
+            0.491
+        ],
+        [
+            166.28,
+            0.35
+        ],
+        [
+            166.77,
+            0.295
+        ],
+        [
+            167.25,
+            0.259
+        ]
+    ],
+    "bpm": 99.4,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 4.81,
+            "energy": "medium",
+            "intensity": 0.467
+        },
+        {
+            "start": 4.81,
+            "end": 55.31,
+            "energy": "high",
+            "intensity": 0.806
+        },
+        {
+            "start": 55.31,
+            "end": 78.6,
+            "energy": "high",
+            "intensity": 0.846
+        },
+        {
+            "start": 78.6,
+            "end": 120.47,
+            "energy": "high",
+            "intensity": 0.831
+        },
+        {
+            "start": 120.47,
+            "end": 132.12,
+            "energy": "high",
+            "intensity": 0.852
+        },
+        {
+            "start": 132.12,
+            "end": 146.31,
+            "energy": "high",
+            "intensity": 0.91
+        },
+        {
+            "start": 146.31,
+            "end": 164.91,
+            "energy": "high",
+            "intensity": 0.834
+        },
+        {
+            "start": 164.91,
+            "end": 167.64,
+            "energy": "medium",
+            "intensity": 0.417
+        }
+    ],
+    "transition_points": [
+        0.51,
+        3.53,
+        6.55,
+        10.12,
+        13.72,
+        17.32,
+        20.34,
+        23.92,
+        26.94,
+        30.51,
+        33.53,
+        38.94,
+        43.72,
+        48.53,
+        52.06,
+        55.73,
+        60.53,
+        65.32,
+        70.12,
+        74.28,
+        77.32,
+        80.92,
+        83.94,
+        88.12,
+        91.14,
+        94.57,
+        97.73,
+        101.33,
+        104.91,
+        107.93,
+        111.2,
+        114.52,
+        117.54,
+        121.72,
+        125.02,
+        128.31,
+        132.52,
+        137.32,
+        141.5,
+        144.52,
+        147.54,
+        150.95,
+        154.11,
+        157.13,
+        160.57
+    ]
+}

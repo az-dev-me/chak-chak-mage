@@ -43,7 +43,7 @@ def _setup_logging() -> None:
 
 def cmd_build(args: argparse.Namespace) -> None:
     """Build a single album end-to-end."""
-    from chak.orchestrator import build_album, build_from_catalog
+    from chak.orchestrator import build_album, build_album_full, build_from_catalog
 
     config = load_config(args.config)
 
@@ -61,13 +61,17 @@ def cmd_build(args: argparse.Namespace) -> None:
         if not args.album_id:
             print("Error: album_id is required (or use --from-catalog)", file=sys.stderr)
             sys.exit(1)
-        summary = build_album(
+
+        build_fn = build_album_full if args.full else build_album
+        summary = build_fn(
             args.album_id, config,
             skip_alignment=args.skip_alignment,
             skip_media=args.skip_media,
             reset_failed_media=args.reset_failed,
         )
-        print(f"Build complete: {summary}")
+        variants = summary.get("variants_processed", 0)
+        label = f" (+{variants} variants)" if variants else ""
+        print(f"Build complete{label}: {summary}")
 
 
 def cmd_build_all(args: argparse.Namespace) -> None:
@@ -86,7 +90,8 @@ def cmd_align(args: argparse.Namespace) -> None:
 
     config = load_config(args.config)
     album_dir = config.project_root / "albums" / args.album_id
-    results = align_album_tracks(album_dir, config, track_id=args.track)
+    variant = getattr(args, "variant", None)
+    results = align_album_tracks(album_dir, config, track_id=args.track, variant_id=variant)
     print(f"Aligned {len(results)} tracks")
 
 
@@ -96,7 +101,8 @@ def cmd_timeline(args: argparse.Namespace) -> None:
 
     config = load_config(args.config)
     album_dir = config.project_root / "albums" / args.album_id
-    results = build_album_timelines(album_dir, config, track_id=args.track)
+    variant = getattr(args, "variant", None)
+    results = build_album_timelines(album_dir, config, track_id=args.track, variant_id=variant)
     print(f"Built {len(results)} timelines")
 
 
@@ -135,7 +141,8 @@ def cmd_fuse(args: argparse.Namespace) -> None:
 
     config = load_config(args.config)
     album_dir = config.project_root / "albums" / args.album_id
-    results = fuse_album_tracks(album_dir, config, track_id=args.track)
+    variant = getattr(args, "variant", None)
+    results = fuse_album_tracks(album_dir, config, track_id=args.track, variant_id=variant)
     print(f"Fused {len(results)} tracks")
 
 
@@ -174,6 +181,16 @@ def cmd_index(args: argparse.Namespace) -> None:
     config = load_config(args.config)
     generate_albums_index(config)
     print("Albums index regenerated")
+
+
+def cmd_process_variants(args: argparse.Namespace) -> None:
+    """Process all non-default variants through the full pipeline."""
+    from chak.orchestrator import process_all_variants
+
+    config = load_config(args.config)
+    album_dir = config.project_root / "albums" / args.album_id
+    processed = process_all_variants(album_dir, args.album_id, config)
+    print(f"Processed {processed} variant(s) for {args.album_id}")
 
 
 def cmd_catalog(args: argparse.Namespace) -> None:
@@ -332,14 +349,22 @@ def cmd_beats(args: argparse.Namespace) -> None:
 
 def cmd_structure(args: argparse.Namespace) -> None:
     """Analyze musical structure for album tracks."""
-    from chak.utils.structure import analyze_album_tracks
+    from chak.utils.structure import analyze_album_tracks, analyze_variant_track
 
     config = load_config(args.config)
     album_dir = config.project_root / "albums" / args.album_id
-    results = analyze_album_tracks(album_dir)
-    for tid, s in results.items():
-        print(f"  {tid}: {len(s['sections'])} sections, {s['bpm']:.0f} BPM, {len(s['transition_points'])} transitions")
-    print(f"Structure analysis complete: {len(results)} tracks")
+    variant = getattr(args, "variant", None)
+    track = getattr(args, "track", None)
+
+    if variant and track:
+        s = analyze_variant_track(album_dir, track, variant)
+        print(f"  {track}/{variant}: {len(s['sections'])} sections, {s['bpm']:.0f} BPM, {len(s['transition_points'])} transitions")
+        print("Structure analysis complete: 1 variant")
+    else:
+        results = analyze_album_tracks(album_dir)
+        for tid, s in results.items():
+            print(f"  {tid}: {len(s['sections'])} sections, {s['bpm']:.0f} BPM, {len(s['transition_points'])} transitions")
+        print(f"Structure analysis complete: {len(results)} tracks")
 
 
 def cmd_expand_prompts(args: argparse.Namespace) -> None:
@@ -351,6 +376,32 @@ def cmd_expand_prompts(args: argparse.Namespace) -> None:
     stats = expand_semantic_prompts(matrix_path, dry_run=args.dry_run)
     total = sum(stats.values())
     print(f"Expanded {total} lines across {len(stats)} tracks")
+    for tid, count in stats.items():
+        print(f"  {tid}: {count} lines")
+
+
+def cmd_narrative_prompts(args: argparse.Namespace) -> None:
+    """Rewrite all prompts with 3-tier narrative hierarchy."""
+    from chak.tools.narrative_prompts import generate_narrative_prompts
+
+    config = load_config(args.config)
+    matrix_path = config.project_root / "shared" / "semantics" / "base_semantic_matrix.json"
+    stats = generate_narrative_prompts(matrix_path, dry_run=args.dry_run)
+    total = sum(stats.values())
+    print(f"Rewrote {total} lines across {len(stats)} tracks with narrative hierarchy")
+    for tid, count in stats.items():
+        print(f"  {tid}: {count} lines")
+
+
+def cmd_generate_hidden(args: argparse.Namespace) -> None:
+    """Generate hidden_media_queries from real_meaning using Ollama."""
+    from chak.tools.generate_hidden_queries import generate_hidden_queries
+
+    config = load_config(args.config)
+    matrix_path = config.project_root / "shared" / "semantics" / "base_semantic_matrix.json"
+    stats = generate_hidden_queries(matrix_path, dry_run=args.dry_run)
+    total = sum(stats.values())
+    print(f"Generated hidden queries for {total} lines across {len(stats)} tracks")
     for tid, count in stats.items():
         print(f"  {tid}: {count} lines")
 
@@ -439,6 +490,8 @@ def main() -> None:
     p_build.add_argument("--skip-alignment", action="store_true", help="Skip Whisper alignment")
     p_build.add_argument("--skip-media", action="store_true", help="Skip media fetching")
     p_build.add_argument("--reset-failed", action="store_true", help="Reset failed media concepts")
+    p_build.add_argument("--full", action="store_true",
+                         help="Full build: includes structure analysis and variant processing")
     p_build.set_defaults(func=cmd_build)
 
     # build-all
@@ -449,12 +502,14 @@ def main() -> None:
     p_align = subparsers.add_parser("align", help="Run alignment only")
     p_align.add_argument("album_id", help="Album ID")
     p_align.add_argument("--track", type=str, help="Single track ID")
+    p_align.add_argument("--variant", type=str, help="Variant ID (e.g. T2b)")
     p_align.set_defaults(func=cmd_align)
 
     # timeline
     p_tl = subparsers.add_parser("timeline", help="Build timelines only")
     p_tl.add_argument("album_id", help="Album ID")
     p_tl.add_argument("--track", type=str, help="Single track ID")
+    p_tl.add_argument("--variant", type=str, help="Variant ID (e.g. T2b)")
     p_tl.set_defaults(func=cmd_timeline)
 
     # media-prep
@@ -475,6 +530,7 @@ def main() -> None:
     p_fuse = subparsers.add_parser("fuse", help="Run fusion only")
     p_fuse.add_argument("album_id", help="Album ID")
     p_fuse.add_argument("--track", type=str, help="Single track ID")
+    p_fuse.add_argument("--variant", type=str, help="Variant ID (e.g. T2b)")
     p_fuse.set_defaults(func=cmd_fuse)
 
     # export
@@ -499,12 +555,29 @@ def main() -> None:
     # structure
     p_struct = subparsers.add_parser("structure", help="Analyze musical structure for album tracks")
     p_struct.add_argument("album_id", help="Album ID")
+    p_struct.add_argument("--track", type=str, help="Single track ID")
+    p_struct.add_argument("--variant", type=str, help="Variant ID (e.g. T2b)")
     p_struct.set_defaults(func=cmd_structure)
+
+    # process-variants
+    p_pv = subparsers.add_parser("process-variants", help="Process all non-default variants through the full pipeline")
+    p_pv.add_argument("album_id", help="Album ID")
+    p_pv.set_defaults(func=cmd_process_variants)
 
     # expand-prompts
     p_expand = subparsers.add_parser("expand-prompts", help="Expand media prompts to 3 per line (Ollama)")
     p_expand.add_argument("--dry-run", action="store_true", help="Don't actually call Ollama or write")
     p_expand.set_defaults(func=cmd_expand_prompts)
+
+    # narrative-prompts
+    p_narr = subparsers.add_parser("narrative-prompts", help="Rewrite ALL prompts with 3-tier narrative hierarchy (Ollama)")
+    p_narr.add_argument("--dry-run", action="store_true", help="Don't actually call Ollama or write")
+    p_narr.set_defaults(func=cmd_narrative_prompts)
+
+    # generate-hidden
+    p_hidden = subparsers.add_parser("generate-hidden", help="Generate hidden_media_queries from real_meaning (Ollama)")
+    p_hidden.add_argument("--dry-run", action="store_true", help="Don't actually call Ollama or write")
+    p_hidden.set_defaults(func=cmd_generate_hidden)
 
     # status
     p_status = subparsers.add_parser("status", help="Show album pipeline status")

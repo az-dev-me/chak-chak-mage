@@ -34,10 +34,9 @@ class AlignmentConfig:
 class TimelineConfig:
     min_similarity: float = 0.45
     music_track_similarity: float = 0.25
-    music_tracks: list[str] = field(default_factory=lambda: [
-        "track_02", "track_03", "track_04",
-        "track_05", "track_06", "track_07", "track_08",
-    ])
+    # Auto-derived from album_config.json when empty.
+    # Set explicitly only to override.
+    music_tracks: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -171,3 +170,26 @@ def load_config(config_path: str | Path | None = None) -> PipelineConfig:
         tracks=tracks,
         project_root=root,
     )
+
+
+def derive_music_tracks(album_dir: Path) -> list[str]:
+    """Auto-derive music track IDs from album_config.json.
+
+    Tracks whose default ``variant_id`` starts with ``TTS_`` are treated as
+    spoken-word (higher similarity threshold).  Everything else is music
+    (lower threshold).
+
+    Returns an empty list if album_config.json is missing.
+    """
+    import json
+
+    config_path = album_dir / "album_config.json"
+    if not config_path.exists():
+        return []
+    with open(config_path, encoding="utf-8") as f:
+        data = json.load(f)
+    return [
+        t.get("track_id") or t.get("id", "")
+        for t in data.get("tracks", [])
+        if not (t.get("variant_id", "") or "").upper().startswith("TTS_")
+    ]

@@ -1,0 +1,892 @@
+{
+    "id": "track_04",
+    "segments": [
+        {
+            "start": 6.848,
+            "end": 9.582,
+            "text": "Soon the tribe began to split",
+            "words": [
+                {
+                    "start": 6.848,
+                    "end": 7.62,
+                    "text": "Soon",
+                    "source": "canonical"
+                },
+                {
+                    "start": 8.06,
+                    "end": 8.48,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 8.48,
+                    "end": 8.78,
+                    "text": "tribe",
+                    "source": "canonical"
+                },
+                {
+                    "start": 8.965,
+                    "end": 9.24,
+                    "text": "began",
+                    "source": "canonical"
+                },
+                {
+                    "start": 9.295,
+                    "end": 9.354,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 9.53,
+                    "end": 9.582,
+                    "text": "split",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 9.74,
+            "end": 11.8,
+            "text": "Arguments and holy writ",
+            "words": [
+                {
+                    "start": 9.74,
+                    "end": 10.552,
+                    "text": "Arguments",
+                    "source": "canonical"
+                },
+                {
+                    "start": 10.74,
+                    "end": 11.0,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 11.0,
+                    "end": 11.42,
+                    "text": "holy",
+                    "source": "canonical"
+                },
+                {
+                    "start": 11.42,
+                    "end": 11.8,
+                    "text": "writ",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 11.958,
+            "end": 14.06,
+            "text": "Some said \"Run at noon, that's right!\"",
+            "words": [
+                {
+                    "start": 11.958,
+                    "end": 12.22,
+                    "text": "Some",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.29,
+                    "end": 12.448,
+                    "text": "said",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.5,
+                    "end": 12.72,
+                    "text": "\"Run",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.72,
+                    "end": 12.9,
+                    "text": "at",
+                    "source": "canonical"
+                },
+                {
+                    "start": 12.9,
+                    "end": 13.26,
+                    "text": "noon,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.48,
+                    "end": 13.56,
+                    "text": "that's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 13.56,
+                    "end": 14.06,
+                    "text": "right!\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 14.1,
+            "end": 16.14,
+            "text": "Others \"Warm the box all night!\"",
+            "words": [
+                {
+                    "start": 14.1,
+                    "end": 14.28,
+                    "text": "Others",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.34,
+                    "end": 14.78,
+                    "text": "\"Warm",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.78,
+                    "end": 14.93,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 14.98,
+                    "end": 15.28,
+                    "text": "box",
+                    "source": "canonical"
+                },
+                {
+                    "start": 15.34,
+                    "end": 15.52,
+                    "text": "all",
+                    "source": "canonical"
+                },
+                {
+                    "start": 15.52,
+                    "end": 16.14,
+                    "text": "night!\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 16.2,
+            "end": 19.86,
+            "text": "RULES AND RITUALS, RULES AND RITUALS",
+            "words": [
+                {
+                    "start": 16.2,
+                    "end": 16.6,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 16.765,
+                    "end": 17.126,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 17.978,
+                    "end": 18.04,
+                    "text": "RITUALS,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 18.08,
+                    "end": 18.163,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 18.745,
+                    "end": 18.797,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 19.807,
+                    "end": 19.86,
+                    "text": "RITUALS",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 19.86,
+            "end": 23.648,
+            "text": "Everybody's got the truth!",
+            "words": [
+                {
+                    "start": 19.86,
+                    "end": 21.04,
+                    "text": "Everybody's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.098,
+                    "end": 21.384,
+                    "text": "got",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.555,
+                    "end": 21.72,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 21.72,
+                    "end": 23.648,
+                    "text": "truth!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 24.49,
+            "end": 27.9,
+            "text": "RULES AND RITUALS, RULES AND RITUALS",
+            "words": [
+                {
+                    "start": 24.49,
+                    "end": 24.58,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 24.855,
+                    "end": 25.041,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 25.995,
+                    "end": 26.06,
+                    "text": "RITUALS,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.498,
+                    "end": 26.56,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 26.962,
+                    "end": 27.02,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 27.845,
+                    "end": 27.9,
+                    "text": "RITUALS",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 28.155,
+            "end": 31.0,
+            "text": "Everyone except the youth!",
+            "words": [
+                {
+                    "start": 28.155,
+                    "end": 28.58,
+                    "text": "Everyone",
+                    "source": "canonical"
+                },
+                {
+                    "start": 28.58,
+                    "end": 29.199,
+                    "text": "except",
+                    "source": "canonical"
+                },
+                {
+                    "start": 29.48,
+                    "end": 29.742,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 29.83,
+                    "end": 31.0,
+                    "text": "youth!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 32.032,
+            "end": 33.615,
+            "text": "Tronco prayed to the toothed wheel",
+            "words": [
+                {
+                    "start": 32.032,
+                    "end": 32.44,
+                    "text": "Tronco",
+                    "source": "canonical"
+                },
+                {
+                    "start": 32.44,
+                    "end": 32.76,
+                    "text": "prayed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 32.76,
+                    "end": 32.9,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 32.9,
+                    "end": 33.04,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 33.04,
+                    "end": 33.42,
+                    "text": "toothed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 33.42,
+                    "end": 33.615,
+                    "text": "wheel",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 33.68,
+            "end": 35.72,
+            "text": "Said \"The magic, I can feel!\"",
+            "words": [
+                {
+                    "start": 33.68,
+                    "end": 33.88,
+                    "text": "Said",
+                    "source": "canonical"
+                },
+                {
+                    "start": 33.88,
+                    "end": 34.04,
+                    "text": "\"The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 34.04,
+                    "end": 34.44,
+                    "text": "magic,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 34.42,
+                    "end": 34.76,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 34.76,
+                    "end": 34.92,
+                    "text": "can",
+                    "source": "canonical"
+                },
+                {
+                    "start": 34.92,
+                    "end": 35.72,
+                    "text": "feel!\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 36.16,
+            "end": 37.766,
+            "text": "I just sat upon my throne",
+            "words": [
+                {
+                    "start": 36.16,
+                    "end": 36.24,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 36.24,
+                    "end": 36.5,
+                    "text": "just",
+                    "source": "canonical"
+                },
+                {
+                    "start": 36.5,
+                    "end": 36.84,
+                    "text": "sat",
+                    "source": "canonical"
+                },
+                {
+                    "start": 36.84,
+                    "end": 37.112,
+                    "text": "upon",
+                    "source": "canonical"
+                },
+                {
+                    "start": 37.275,
+                    "end": 37.359,
+                    "text": "my",
+                    "source": "canonical"
+                },
+                {
+                    "start": 37.688,
+                    "end": 37.766,
+                    "text": "throne",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 38.0,
+            "end": 39.575,
+            "text": "Eating berries, all alone",
+            "words": [
+                {
+                    "start": 38.0,
+                    "end": 38.28,
+                    "text": "Eating",
+                    "source": "canonical"
+                },
+                {
+                    "start": 38.28,
+                    "end": 39.03,
+                    "text": "berries,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 39.03,
+                    "end": 39.5,
+                    "text": "all",
+                    "source": "canonical"
+                },
+                {
+                    "start": 39.5,
+                    "end": 39.575,
+                    "text": "alone",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 39.8,
+            "end": 41.668,
+            "text": "The box became a sacred thing",
+            "words": [
+                {
+                    "start": 39.8,
+                    "end": 40.0,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 40.0,
+                    "end": 40.26,
+                    "text": "box",
+                    "source": "canonical"
+                },
+                {
+                    "start": 40.26,
+                    "end": 40.78,
+                    "text": "became",
+                    "source": "canonical"
+                },
+                {
+                    "start": 40.78,
+                    "end": 41.06,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 41.06,
+                    "end": 41.34,
+                    "text": "sacred",
+                    "source": "canonical"
+                },
+                {
+                    "start": 41.392,
+                    "end": 41.668,
+                    "text": "thing",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 41.76,
+            "end": 43.76,
+            "text": "A totem, a god, a queen, a king",
+            "words": [
+                {
+                    "start": 41.76,
+                    "end": 42.06,
+                    "text": "A",
+                    "source": "canonical"
+                },
+                {
+                    "start": 42.06,
+                    "end": 42.42,
+                    "text": "totem,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 42.44,
+                    "end": 42.56,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 42.56,
+                    "end": 42.815,
+                    "text": "god,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 42.9,
+                    "end": 43.02,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.095,
+                    "end": 43.348,
+                    "text": "queen,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.47,
+                    "end": 43.52,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.58,
+                    "end": 43.76,
+                    "text": "king",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 43.76,
+            "end": 45.751,
+            "text": "I tried to say \"It's just a tool\"",
+            "words": [
+                {
+                    "start": 43.76,
+                    "end": 43.94,
+                    "text": "I",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.02,
+                    "end": 44.08,
+                    "text": "tried",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.26,
+                    "end": 44.44,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.44,
+                    "end": 44.8,
+                    "text": "say",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.8,
+                    "end": 44.98,
+                    "text": "\"It's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 45.04,
+                    "end": 45.3,
+                    "text": "just",
+                    "source": "canonical"
+                },
+                {
+                    "start": 45.3,
+                    "end": 45.484,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 45.545,
+                    "end": 45.751,
+                    "text": "tool\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 45.82,
+            "end": 48.04,
+            "text": "But they wanted magic, they wanted fuel",
+            "words": [
+                {
+                    "start": 45.82,
+                    "end": 45.9,
+                    "text": "But",
+                    "source": "canonical"
+                },
+                {
+                    "start": 45.9,
+                    "end": 46.058,
+                    "text": "they",
+                    "source": "canonical"
+                },
+                {
+                    "start": 46.325,
+                    "end": 46.42,
+                    "text": "wanted",
+                    "source": "canonical"
+                },
+                {
+                    "start": 46.6,
+                    "end": 46.9,
+                    "text": "magic,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 46.94,
+                    "end": 47.06,
+                    "text": "they",
+                    "source": "canonical"
+                },
+                {
+                    "start": 47.315,
+                    "end": 47.4,
+                    "text": "wanted",
+                    "source": "canonical"
+                },
+                {
+                    "start": 47.4,
+                    "end": 48.04,
+                    "text": "fuel",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 48.04,
+            "end": 53.84,
+            "text": "RULES AND RITUALS, RULES AND RITUALS",
+            "words": [
+                {
+                    "start": 48.04,
+                    "end": 50.54,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 50.54,
+                    "end": 50.832,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 51.824,
+                    "end": 52.0,
+                    "text": "RITUALS,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.04,
+                    "end": 52.129,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 52.752,
+                    "end": 52.806,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 53.79,
+                    "end": 53.84,
+                    "text": "RITUALS",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 54.065,
+            "end": 57.76,
+            "text": "Everybody's got the truth!",
+            "words": [
+                {
+                    "start": 54.065,
+                    "end": 55.04,
+                    "text": "Everybody's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 55.04,
+                    "end": 55.095,
+                    "text": "got",
+                    "source": "canonical"
+                },
+                {
+                    "start": 55.48,
+                    "end": 55.74,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 55.74,
+                    "end": 57.76,
+                    "text": "truth!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 58.324,
+            "end": 61.84,
+            "text": "RULES AND RITUALS, RULES AND RITUALS",
+            "words": [
+                {
+                    "start": 58.324,
+                    "end": 58.42,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 58.76,
+                    "end": 58.816,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 59.96,
+                    "end": 60.02,
+                    "text": "RITUALS,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 60.16,
+                    "end": 60.6,
+                    "text": "RULES",
+                    "source": "canonical"
+                },
+                {
+                    "start": 60.6,
+                    "end": 61.08,
+                    "text": "AND",
+                    "source": "canonical"
+                },
+                {
+                    "start": 61.745,
+                    "end": 61.84,
+                    "text": "RITUALS",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 61.84,
+            "end": 65.55,
+            "text": "Everyone except the youth!",
+            "words": [
+                {
+                    "start": 61.84,
+                    "end": 62.5,
+                    "text": "Everyone",
+                    "source": "canonical"
+                },
+                {
+                    "start": 62.5,
+                    "end": 63.4,
+                    "text": "except",
+                    "source": "canonical"
+                },
+                {
+                    "start": 63.4,
+                    "end": 63.9,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 63.9,
+                    "end": 65.55,
+                    "text": "youth!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 66.464,
+            "end": 67.14,
+            "text": "\"...should be noon...\"",
+            "words": [
+                {
+                    "start": 66.464,
+                    "end": 66.58,
+                    "text": "\"...should",
+                    "source": "canonical"
+                },
+                {
+                    "start": 66.58,
+                    "end": 66.74,
+                    "text": "be",
+                    "source": "canonical"
+                },
+                {
+                    "start": 66.74,
+                    "end": 67.14,
+                    "text": "noon...\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 68.352,
+            "end": 69.088,
+            "text": "\"...night time...\"",
+            "words": [
+                {
+                    "start": 68.352,
+                    "end": 68.5,
+                    "text": "\"...night",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.5,
+                    "end": 69.088,
+                    "text": "time...\"",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 69.66,
+            "end": 70.08,
+            "text": "\"...the wheel...\"",
+            "words": [
+                {
+                    "start": 69.66,
+                    "end": 69.76,
+                    "text": "\"...the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 69.76,
+                    "end": 70.08,
+                    "text": "wheel...\"",
+                    "source": "canonical"
+                }
+            ]
+        }
+    ]
+}

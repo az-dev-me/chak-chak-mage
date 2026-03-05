@@ -157,10 +157,22 @@ def build_album(
             album_id,
         )
 
-    # Stage 3: Media manifest
+    # Stage 2.5: Structure analysis (fast, ~2s per track)
     has_timelines = (album_dir / "data").is_dir() and any(
         (album_dir / "data").glob("*.timeline.json")
     )
+
+    if has_timelines:
+        logger.info("── Stage 2.5: Structure analysis ──")
+        try:
+            from chak.utils.structure import analyze_album_tracks
+            analyze_album_tracks(album_dir)
+        except Exception:
+            logger.exception(
+                "Structure analysis failed (non-critical, fuse will use fallback pacing)"
+            )
+
+    # Stage 3: Media manifest
     manifest = None
 
     if has_timelines:
@@ -213,6 +225,104 @@ def build_album(
         summary["concepts_ok"],
         summary["concepts_failed"],
     )
+
+    return summary
+
+
+def process_all_variants(
+    album_dir: Path,
+    album_id: str,
+    config: PipelineConfig,
+) -> int:
+    """Process all non-default variants through the full pipeline.
+
+    For each track, iterates its ``variants`` list and skips the default
+    (already processed as the base track).  Runs: align → timeline →
+    structure → fuse → export per variant.
+
+    Returns the number of variants successfully processed.
+    """
+    import gc
+
+    from chak.stages.align import align_album_tracks
+    from chak.stages.export_js import export_album_tracks
+    from chak.stages.fuse import fuse_album_tracks
+    from chak.stages.timeline import build_album_timelines
+    from chak.utils.structure import analyze_variant_track
+
+    album_config = load_json(album_dir / "album_config.json")
+    processed = 0
+
+    for track in album_config.get("tracks", []):
+        track_id = track.get("track_id") or track.get("id", "")
+        default_vid = track.get("variant_id")
+        variants = track.get("variants") or []
+
+        for variant in variants:
+            vid = variant["id"]
+            if vid == default_vid:
+                continue  # Already processed as base track
+
+            logger.info("── Processing variant %s/%s ──", track_id, vid)
+            try:
+                align_album_tracks(
+                    album_dir, config, track_id=track_id, variant_id=vid,
+                )
+
+                # Free GPU memory between alignment calls
+                gc.collect()
+                try:
+                    import torch
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+                except ImportError:
+                    pass
+
+                build_album_timelines(
+                    album_dir, config, track_id=track_id, variant_id=vid,
+                )
+                analyze_variant_track(album_dir, track_id, vid)
+                fused = fuse_album_tracks(
+                    album_dir, config, track_id=track_id, variant_id=vid,
+                )
+                export_album_tracks(album_dir, album_id, fused)
+                processed += 1
+                logger.info("✓ Variant %s/%s complete", track_id, vid)
+            except Exception:
+                logger.exception(
+                    "Failed to process variant %s/%s — continuing with remaining",
+                    track_id, vid,
+                )
+
+    logger.info("Variant processing complete: %d variants processed", processed)
+    return processed
+
+
+def build_album_full(
+    album_id: str,
+    config: PipelineConfig,
+    *,
+    skip_alignment: bool = False,
+    skip_media: bool = False,
+    reset_failed_media: bool = False,
+) -> dict[str, Any]:
+    """Full album build: base tracks + structure + all variants.
+
+    Equivalent to running::
+
+        chak build <album_id>
+        chak process-variants <album_id>
+    """
+    summary = build_album(
+        album_id, config,
+        skip_alignment=skip_alignment,
+        skip_media=skip_media,
+        reset_failed_media=reset_failed_media,
+    )
+
+    album_dir = config.project_root / "albums" / album_id
+    variant_count = process_all_variants(album_dir, album_id, config)
+    summary["variants_processed"] = variant_count
 
     return summary
 

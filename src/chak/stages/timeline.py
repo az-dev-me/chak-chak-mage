@@ -21,9 +21,10 @@ from chak.utils.text import normalize
 logger = logging.getLogger(__name__)
 
 
-def load_alignment(alignment_dir: Path, track_id: str) -> dict[str, Any]:
-    """Load word-level alignment JSON for a track."""
-    path = alignment_dir / f"{track_id}_words.json"
+def load_alignment(alignment_dir: Path, track_id: str, variant_id: str | None = None) -> dict[str, Any]:
+    """Load word-level alignment JSON for a track (or variant)."""
+    stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    path = alignment_dir / f"{stem}_words.json"
     return load_json(path)
 
 
@@ -187,17 +188,23 @@ def build_timeline_for_track(
     track_id: str,
     config: PipelineConfig,
     lyrics_root: Path | None = None,
+    variant_id: str | None = None,
 ) -> TimelineResult:
-    """Build a canonical line timeline for a single track.
+    """Build a canonical line timeline for a single track (or variant).
 
     Uses two-pass matching for music tracks:
     - Pass 1: Standard fuzzy match
     - Pass 2: Aggregate consecutive unmatched segments and re-match
-    """
-    logger.info("Building timeline for %s...", track_id)
 
-    alignment = load_alignment(alignment_dir, track_id)
+    When *variant_id* is given, reads variant-qualified alignment and writes
+    variant-qualified timeline, but uses bare *track_id* for semantic lookup.
+    """
+    label = f"{track_id}/{variant_id}" if variant_id else track_id
+    logger.info("Building timeline for %s...", label)
+
+    alignment = load_alignment(alignment_dir, track_id, variant_id)
     segments = alignment.get("segments", [])
+    # Canonical lyrics always keyed by bare track_id (same across variants)
     canonical_lines = load_canonical_lines(semantic, track_id, lyrics_root)
 
     # Determine threshold: lower for music tracks
@@ -231,13 +238,14 @@ def build_timeline_for_track(
     matched_count = sum(1 for e in timeline if e["line_index"] is not None)
     logger.info(
         "Timeline for %s: %d matched, %d unmatched (of %d segments)",
-        track_id, matched_count, len(timeline) - matched_count, len(segments),
+        label, matched_count, len(timeline) - matched_count, len(segments),
     )
 
-    out_obj = {"id": track_id, "timeline": timeline}
+    file_stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    out_obj = {"id": file_stem, "timeline": timeline}
 
     ensure_dir(album_data_dir)
-    out_path = album_data_dir / f"{track_id}.timeline.json"
+    out_path = album_data_dir / f"{file_stem}.timeline.json"
     write_json(out_path, out_obj)
     logger.info("Wrote timeline -> %s", out_path)
 
@@ -249,11 +257,20 @@ def build_album_timelines(
     config: PipelineConfig,
     *,
     track_id: str | None = None,
+    variant_id: str | None = None,
 ) -> list[TimelineResult]:
     """Build timelines for all (or one) tracks in an album."""
     alignment_dir = album_dir.parent / "alignment"
     lyrics_root = album_dir.parent / "lyrics"
     album_data_dir = album_dir / "data"
+
+    # Auto-derive music_tracks from album_config when not explicitly set
+    if not config.timeline.music_tracks:
+        from chak.config import derive_music_tracks
+        derived = derive_music_tracks(album_dir)
+        if derived:
+            config.timeline.music_tracks = derived
+            logger.info("Auto-derived music tracks: %s", derived)
 
     if not alignment_dir.exists():
         raise FileNotFoundError(f"Alignment directory not found: {alignment_dir}")
@@ -277,6 +294,7 @@ def build_album_timelines(
             raise ValueError(f"track_id {track_id} not in semantic matrix")
         result = build_timeline_for_track(
             alignment_dir, album_data_dir, semantic, track_id, config, lyrics_root,
+            variant_id=variant_id,
         )
         results.append(result)
     else:

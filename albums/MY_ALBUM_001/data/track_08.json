@@ -7,17 +7,19 @@
             "start": 14.88,
             "end": 16.589,
             "lyric": "I sat on the couch",
-            "real_meaning": "Back in the modern world â€” the post-adventure depression, the Sunday night existential dread.",
+            "real_meaning": "Back in the modern world — the post-adventure depression, the Sunday night existential dread.",
             "media": [
                 {
-                    "offset": 0.0,
-                    "url": "media/c0339.jpg",
-                    "query": "person lying on couch staring at ceiling in dim apartment, modern existential stillness, cinematic"
-                },
+                    "offset": 1.25,
+                    "url": "media/c0847.jpg",
+                    "query": "A figure slumps on the couch, staring blankly into the firelit night, the dancing flames of a nearby campfire casting warm shadows on their face."
+                }
+            ],
+            "hidden_media": [
                 {
                     "offset": 1.25,
-                    "url": "media/c0340.jpg",
-                    "query": "A lone footprint in the dust of the coffee table."
+                    "url": "media/c0850.jpg",
+                    "query": "A man sits alone in a minimalist apartment, staring blankly at his glowing phone screen."
                 }
             ],
             "words": [
@@ -55,6 +57,7 @@
             "lyric": "stared at the ceiling",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 18.176,
@@ -83,12 +86,39 @@
             "start": 21.952,
             "end": 26.032,
             "lyric": "The hedgehog chewing on my shoe",
-            "real_meaning": "Revolution grounding you in reality â€” the pet destroying luxury goods, nature vs materialism.",
+            "real_meaning": "Revolution grounding you in reality — the pet destroying luxury goods, nature vs materialism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0342.jpg",
-                    "query": "small hedgehog gnawing on a designer shoe, humorous and grounding, warm domestic cinematic"
+                    "url": "media/c0852.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, a lone couch sits on the stone ground, a firepit nearby."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0853.jpg",
+                    "query": "A figure sits on the couch, a firepit lit,  a stone on the ground, a hedgehog nearby."
+                },
+                {
+                    "offset": 2.64,
+                    "url": "media/c0854.jpg",
+                    "query": "A close up of the hedgehog's face, eyes focused, gnawing on a shoe."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0855.jpg",
+                    "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a sleek table beside a wall of windows. Cool tones, urban."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0856.jpg",
+                    "query": "A crowded subway car, faces illuminated by phone screens, a small wildflower poking through a crack in the concrete."
+                },
+                {
+                    "offset": 2.64,
+                    "url": "media/c0857.jpg",
+                    "query": "A close-up of a hedgehog gnawing on a designer shoe, amidst a background of concrete and glass."
                 }
             ],
             "words": [
@@ -129,17 +159,29 @@
             "start": 27.968,
             "end": 29.088,
             "lyric": "And I thought...",
-            "real_meaning": "The realization that human nature doesn't change â€” same patterns, same mistakes, different technology.",
+            "real_meaning": "The realization that human nature doesn't change — same patterns, same mistakes, different technology.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0345.jpg",
-                    "query": "person's face in deep thought, city lights reflecting in window behind, contemplative cinematic portrait"
+                    "url": "media/c0858.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits center frame, firelit hues painting the landscape."
                 },
                 {
                     "offset": 0.59,
-                    "url": "media/c0346.jpg",
-                    "query": "A worn pocket watch, hands frozen, glinting in soft light."
+                    "url": "media/c0859.jpg",
+                    "query": "A figure sits on the couch, holding a stone, the lighter is on the ground, fire flickers nearby."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0861.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone face-down on a bench, cool tones, cinematic."
+                },
+                {
+                    "offset": 0.59,
+                    "url": "media/c0862.jpg",
+                    "query": "A commuter, phone in hand, reflecting on the screen, urban and modern, cool tones."
                 }
             ],
             "words": [
@@ -167,6 +209,7 @@
             "lyric": "man, it's always the same feeling",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 30.272,
@@ -205,17 +248,39 @@
             "start": 40.896,
             "end": 44.192,
             "lyric": "The lighter was just a lighter, true",
-            "real_meaning": "The smartphone is just a phone â€” the car is just transport, the job is just work. We add the sacred meaning.",
+            "real_meaning": "The smartphone is just a phone — the car is just transport, the job is just work. We add the sacred meaning.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0348.jpg",
-                    "query": "ordinary lighter lying on a table under harsh fluorescent light, demystified object, stark cinematic"
+                    "url": "media/c0864.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a cozy couch sits under a towering rock formation, the warmth of the fire reflecting the sky."
                 },
                 {
                     "offset": 1.09,
-                    "url": "media/c0349.jpg",
-                    "query": "close-up detail of The lighter was just a lighter,, cinematic macro, warm lighting, painterly"
+                    "url": "media/c0865.jpg",
+                    "query": "A figure hunkers over a stone on the ground, holding a glowing ember from a fire, the flames reflect in the subject's eyes."
+                },
+                {
+                    "offset": 1.85,
+                    "url": "media/c0866.jpg",
+                    "query": "A close-up of the subject's hand, the fire reflecting in the palm, the stone is just a stone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0867.jpg",
+                    "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a modern bench, the world stirring around it. Cinematic and urban."
+                },
+                {
+                    "offset": 1.09,
+                    "url": "media/c0868.jpg",
+                    "query": "A commuter rushes through a bustling station, phone in hand, a reflective screen showing a cityscape. Contemporary, cool tones."
+                },
+                {
+                    "offset": 1.85,
+                    "url": "media/c0869.jpg",
+                    "query": "A close-up of a hand holding a smartphone, the screen reflecting the bustling city outside. Intimate, photographic."
                 }
             ],
             "words": [
@@ -261,17 +326,29 @@
             "start": 46.172,
             "end": 48.189,
             "lyric": "But they made it a totem",
-            "real_meaning": "We turned tools into gods â€” the salary into self-worth, the follower count into identity, the brand into belonging.",
+            "real_meaning": "We turned tools into gods — the salary into self-worth, the follower count into identity, the brand into belonging.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0351.jpg",
-                    "query": "smartphone displayed in a glass case like a museum artifact, modern totem, satirical cinematic"
+                    "url": "media/c0870.jpg",
+                    "query": "A vast, firelit prehistoric landscape stretches out. A single modern couch sits isolated in the vastness."
                 },
                 {
                     "offset": 0.52,
-                    "url": "media/c0352.jpg",
-                    "query": "close-up detail of But they made it a totem,, cinematic macro, warm lighting, painterly"
+                    "url": "media/c0871.jpg",
+                    "query": "An individual is seen standing alone beside the couch, gazing into the distance. A stone tool rests at their feet."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0873.jpg",
+                    "query": "A bustling cityscape at dawn, a single phone lies face-down on a bench, a reflection of the concrete jungle on its screen."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0874.jpg",
+                    "query": "A commuter holds a phone, eyes glued to the screen, reflecting the neon lights of the urban landscape, cold tones."
                 }
             ],
             "words": [
@@ -314,6 +391,7 @@
             "lyric": "a thing to pursue",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 49.572,
@@ -342,12 +420,39 @@
             "start": 53.28,
             "end": 55.86,
             "lyric": "And today, thousands of years ahead",
-            "real_meaning": "The mirror turns on us â€” this isn't ancient history, this is your morning commute.",
+            "real_meaning": "The mirror turns on us — this isn't ancient history, this is your morning commute.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0354.jpg",
-                    "query": "modern cityscape morphing into prehistoric landscape, time collapse, surreal cinematic transition"
+                    "url": "media/c0876.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a modern couch sits in the foreground, surrounded by wild vegetation. Firelit trees and hills in the distance."
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0877.jpg",
+                    "query": "A figure sits on a couch, holding a small stone, staring at a smoldering fire in the foreground. Warm tones and a firelit sky."
+                },
+                {
+                    "offset": 1.31,
+                    "url": "media/c0878.jpg",
+                    "query": "A close up of the figure's face, the fire's reflection in their eyes, and the stone held tightly in their hand."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0879.jpg",
+                    "query": "A sprawling cityscape at dawn, a lone phone lies face-down on a sleek concrete bench."
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0880.jpg",
+                    "query": "A commuter, eyes reflecting the glow of a phone screen, stands alone in a crowded subway car."
+                },
+                {
+                    "offset": 1.31,
+                    "url": "media/c0881.jpg",
+                    "query": "A close-up of a commuter's eyes, reflecting the urban world around them."
                 }
             ],
             "words": [
@@ -388,12 +493,39 @@
             "start": 57.282,
             "end": 60.272,
             "lyric": "What's changed? Nothing, it's all been said",
-            "real_meaning": "The devastating punchline â€” all our progress is technological, not psychological. The hardware hasn't changed.",
+            "real_meaning": "The devastating punchline — all our progress is technological, not psychological. The hardware hasn't changed.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0357.jpg",
-                    "query": "split screen of caveman and modern businessman doing identical gestures, nothing has changed, cinematic"
+                    "url": "media/c0882.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, a solitary couch sits amidst towering trees, firelit in warm hues, cinematic."
+                },
+                {
+                    "offset": 1.26,
+                    "url": "media/c0883.jpg",
+                    "query": "A figure sits on the couch, staring into a small, flickering fire, dramatic, warm tones."
+                },
+                {
+                    "offset": 2.05,
+                    "url": "media/c0884.jpg",
+                    "query": "up of the figure's face, reflecting the dance of firelight, intimate, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0885.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone lies face-down on a wet concrete bench. A lone commuter walking towards the camera."
+                },
+                {
+                    "offset": 1.26,
+                    "url": "media/c0886.jpg",
+                    "query": "A crowded subway car at rush hour. Passengers stare at their phones, reflected in the glass windows."
+                },
+                {
+                    "offset": 2.05,
+                    "url": "media/c0887.jpg",
+                    "query": "A close-up of a weary commuter's reflection in their phone screen, eyes hollow, a sense of emptiness."
                 }
             ],
             "words": [
@@ -439,12 +571,39 @@
             "start": 60.272,
             "end": 62.674,
             "lyric": "WE'RE ALL RUNNING WITH THE DYING FLAME",
-            "real_meaning": "The morning commute, the career ladder, the Instagram hustle â€” running with flames we didn't light and can't sustain.",
+            "real_meaning": "The morning commute, the career ladder, the Instagram hustle — running with flames we didn't light and can't sustain.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0360.jpg",
-                    "query": "massive crowd running through a modern city carrying dying torches, urban rat race, epic cinematic"
+                    "url": "media/c0888.jpg",
+                    "query": "A vast, firelit prehistoric landscape with a lone couch on a hill, under a starlit sky, cinematic."
+                },
+                {
+                    "offset": 0.63,
+                    "url": "media/c0889.jpg",
+                    "query": "A dramatic scene of a figure, silhouetted against a warm glow, running with a dying flame in hand towards the stone."
+                },
+                {
+                    "offset": 1.42,
+                    "url": "media/c0890.jpg",
+                    "query": "An intimate close-up of the figure's expression as they hold the dying flame, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0891.jpg",
+                    "query": "A sprawling cityscape at dawn. A lonely smartphone lies face-down on a bench.  The sun is just beginning to rise."
+                },
+                {
+                    "offset": 0.63,
+                    "url": "media/c0892.jpg",
+                    "query": "A crowded subway platform. Commuters rush past, phones in hand. A hint of a flame in one screen."
+                },
+                {
+                    "offset": 1.42,
+                    "url": "media/c0893.jpg",
+                    "query": "A close-up of a hand gripping a phone. The flame from the screen, reflected in the eyes of the commuter."
                 }
             ],
             "words": [
@@ -490,17 +649,39 @@
             "start": 62.892,
             "end": 66.512,
             "lyric": "CONVINCED WE'RE CARRYING FIRE, WHAT A SHAME",
-            "real_meaning": "We think we're building something meaningful â€” but we're just carrying someone else's dying ember.",
+            "real_meaning": "We think we're building something meaningful — but we're just carrying someone else's dying ember.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0363.jpg",
-                    "query": "person proudly carrying a torch that's already gone out without realizing, tragic pride, dramatic cinematic"
+                    "url": "media/c0894.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a solitary couch sits center frame, a small fire flickers nearby."
                 },
                 {
                     "offset": 1.15,
-                    "url": "media/c0364.jpg",
-                    "query": "A close-up of their determined yet weary hands as they clasp the extinguished torch."
+                    "url": "media/c0895.jpg",
+                    "query": "A figure huddles over the fire, hands cupped around a glowing ember, eyes reflecting the warm dance of flames."
+                },
+                {
+                    "offset": 1.96,
+                    "url": "media/c0896.jpg",
+                    "query": "A close-up of the figure's face, eyes filled with realization, a single tear tracing a path down a weathered cheek."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0897.jpg",
+                    "query": "A sprawling cityscape at dawn. A single phone lies face-down on a modern skyscraper's roof, in the shadow of a concrete bird.  The sun is beginning to rise. The stone is there.  Ur"
+                },
+                {
+                    "offset": 1.15,
+                    "url": "media/c0898.jpg",
+                    "query": "A commuter rushing through a bustling metro station. His phone screen reflects the passing tunnel lights. Cool tones, contemporary."
+                },
+                {
+                    "offset": 1.96,
+                    "url": "media/c0899.jpg",
+                    "query": "A close-up of the commuter's hand clutching the phone. His thumb brushes the screen, but his eyes are distant. Intimate, photographic."
                 }
             ],
             "words": [
@@ -546,22 +727,39 @@
             "start": 66.512,
             "end": 82.14,
             "lyric": "THE STONE IS THERE, UPON THE GROUND",
-            "real_meaning": "Simple solutions surround us â€” community, nature, craft, love. Free, available, ignored.",
+            "real_meaning": "Simple solutions surround us — community, nature, craft, love. Free, available, ignored.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0366.jpg",
-                    "query": "simple stone lying on the ground glowing faintly amid rushing feet, overlooked truth, cinematic"
+                    "url": "media/c0900.jpg",
+                    "query": "A prehistoric landscape at dusk, a lone couch sits in the foreground, surrounded by a vast, firelit wilderness."
                 },
                 {
                     "offset": 0.71,
-                    "url": "media/c0367.jpg",
-                    "query": "A hand gently brushes away dirt, revealing the stone's glow."
+                    "url": "media/c0901.jpg",
+                    "query": "A dramatic close-up of a lighter being struck, sparks flying against the dark, warmly-lit background."
                 },
                 {
                     "offset": 7.81,
-                    "url": "media/c0368.jpg",
-                    "query": "Warm light radiates from a circle of interlocked hands, illuminating a path through the wilderness."
+                    "url": "media/c0902.jpg",
+                    "query": "A detailed close-up of a stone, fire glowing on the ground beside it, bathed in painterly, warm tones."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0903.jpg",
+                    "query": "A sprawling cityscape at dawn, a single smartphone lies face-down on a bench amidst the urban jungle."
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0904.jpg",
+                    "query": "A commuter, headphones in, sits on a train, eyes closed, phone in hand, overlooking the city skyline."
+                },
+                {
+                    "offset": 7.81,
+                    "url": "media/c0905.jpg",
+                    "query": "A close-up of a hand, holding a small wildflower plucked from a crack in the concrete, amidst a bustling crowd."
                 }
             ],
             "words": [
@@ -607,17 +805,39 @@
             "start": 82.14,
             "end": 88.25,
             "lyric": "WAITING FOR A STRIKE, FOR A SOUND",
-            "real_meaning": "All it takes is one person to stop and look down â€” one Muda, one moment of clarity.",
+            "real_meaning": "All it takes is one person to stop and look down — one Muda, one moment of clarity.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0369.jpg",
-                    "query": "stone waiting on the ground as a hand slowly reaches down toward it, the moment before awakening, cinematic"
+                    "url": "media/c0906.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits on a hill. Warm hues from the setting sun. Cinematic."
                 },
                 {
                     "offset": 0.87,
-                    "url": "media/c0370.jpg",
-                    "query": "The hand closes gently around the stone."
+                    "url": "media/c0907.jpg",
+                    "query": "A figure sits on the couch, holding a stone. Firelight flickers on their face. Waiting. Dramatic."
+                },
+                {
+                    "offset": 3.24,
+                    "url": "media/c0908.jpg",
+                    "query": "up of the stone, firelight reflecting on the surface. A lighter is just a lighter. Intimate."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0909.jpg",
+                    "query": "A sprawling cityscape at dawn, a lone phone face-down on a bench, a man with a bag walking through the urban landscape."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0910.jpg",
+                    "query": "A commuter crowd, one figure pauses, phone in hand. A moment of stillness in the rush. An urban cityscape, cool tones."
+                },
+                {
+                    "offset": 3.24,
+                    "url": "media/c0911.jpg",
+                    "query": "A close-up of the hand holding the phone, the glow of the screen reflecting on the hand's surface."
                 }
             ],
             "words": [
@@ -663,22 +883,39 @@
             "start": 88.252,
             "end": 129.53,
             "lyric": "The modern Gralha still shouts today:",
-            "real_meaning": "The believer hasn't changed â€” different clothes, same fear, same devotion to the brand.",
+            "real_meaning": "The believer hasn't changed — different clothes, same fear, same devotion to the brand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0372.jpg",
-                    "query": "modern businessman in suit shouting the same primitive chant, past echoing in present, cinematic"
+                    "url": "media/c0912.jpg",
+                    "query": "A sprawling prehistoric landscape, a lone couch under a vast, starry sky, cinematic fire lit."
                 },
                 {
                     "offset": 1.1,
-                    "url": "media/c0373.jpg",
-                    "query": "The businessman's fist clenched tightly around his smartphone, knuckles white."
+                    "url": "media/c0913.jpg",
+                    "query": "A close-up of a hand holding a stone with a lighter glowing in the dark."
                 },
                 {
                     "offset": 20.84,
-                    "url": "media/c0374.jpg",
-                    "query": "A swirling vortex of ancient symbols and modern logos blend in a chaotic dance."
+                    "url": "media/c0914.jpg",
+                    "query": "A close-up of a face with eyes full of determination and fire in their eyes, with a hint of fear."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0915.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, cold metallic hues, a lone figure in the distance."
+                },
+                {
+                    "offset": 1.1,
+                    "url": "media/c0916.jpg",
+                    "query": "A commuter, hood up, gazes intensely at their phone screen, reflecting city lights, in a crowded, bustling subway station."
+                },
+                {
+                    "offset": 20.84,
+                    "url": "media/c0917.jpg",
+                    "query": "A close-up of a hand clutching a phone, knuckles white, veins prominent, set against a dark, concrete background."
                 }
             ],
             "words": [
@@ -719,12 +956,39 @@
             "start": 129.53,
             "end": 130.31,
             "lyric": "\"BUT THE MAGE SAID IT WAS TRANSPORT!\"",
-            "real_meaning": "'But the CEO said it would change the world!' â€” clinging to the original promise long after it's broken.",
+            "real_meaning": "'But the CEO said it would change the world!' — clinging to the original promise long after it's broken.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0375.jpg",
-                    "query": "person shouting at a screen displaying a tech keynote, desperate belief in the promise, dramatic cinematic"
+                    "url": "media/c0918.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits beneath an ancient tree, flames flicker on the horizon."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0919.jpg",
+                    "query": "A figure huddled by a small fire, the couch behind them, the stone is in the foreground. Firelight dances on their face."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0920.jpg",
+                    "query": "The figure's intense gaze on the stone held in their hand. Embers reflect in their eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0921.jpg",
+                    "query": "A sprawling cityscape at dawn. A phone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0922.jpg",
+                    "query": "A commuter rushes through a crowded subway station, glued to a glowing phone screen."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0923.jpg",
+                    "query": "A hand tightly grips a smartphone, knuckles white, eyes reflecting the cold screen."
                 }
             ],
             "words": [
@@ -770,12 +1034,39 @@
             "start": 130.31,
             "end": 131.09,
             "lyric": "And the modern Tronco has his say:",
-            "real_meaning": "The superficial critic â€” missing the point entirely, focused on aesthetics over substance.",
+            "real_meaning": "The superficial critic — missing the point entirely, focused on aesthetics over substance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0378.jpg",
-                    "query": "well-dressed person stepping forward to give their irrelevant opinion, futile commentary, cinematic"
+                    "url": "media/c0924.jpg",
+                    "query": "A vast, firelit prehistoric landscape. A lone couch stands at the edge of a lush valley. The sun sets, casting a warm glow over the scene. A massive boulder is on the ground near t"
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0925.jpg",
+                    "query": "A figure sits on the couch, holding a stone.  A lighter lies on the ground. The figure's face is illuminated by the flickering flames of a small fire."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0926.jpg",
+                    "query": "A close-up of the figure's face, eyes reflecting the dance of the fire. The expression is one of contemplation and curiosity."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0927.jpg",
+                    "query": "A sprawling cityscape at dawn, a single smartphone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0928.jpg",
+                    "query": "A young commuter, eyes glued to a phone screen, walks through a bustling city street."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0929.jpg",
+                    "query": "A close-up of a commuter's face, the phone's reflection in their eyes, but their mind is miles away."
                 }
             ],
             "words": [
@@ -821,12 +1112,19 @@
             "start": 131.09,
             "end": 131.394,
             "lyric": "\"YEAH",
-            "real_meaning": "'But the original iPhone was better' â€” arguing about the color of the cage instead of the cage itself.",
+            "real_meaning": "'But the original iPhone was better' — arguing about the color of the cage instead of the cage itself.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0381.jpg",
-                    "query": "person arguing passionately about the color of an object while the world burns behind them, absurd priorities, cinematic"
+                    "url": "media/c0930.jpg",
+                    "query": "A prehistoric landscape with a single couch, fire burning under a vast sky."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0933.jpg",
+                    "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a bench, the sun glinting off the sleek surface, the only object in a sea of grey."
                 }
             ],
             "words": [
@@ -843,7 +1141,30 @@
             "end": 131.697,
             "lyric": "BUT THE MAGE'S LIGHTER WAS ORANGE",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 0.26,
+                    "url": "media/c0931.jpg",
+                    "query": "A figure sits on the couch, holding a stone, the fire still glowing."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0932.jpg",
+                    "query": "A hand holding a lighter, its flame casting an orange glow, with a stone nearby."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.26,
+                    "url": "media/c0934.jpg",
+                    "query": "A crowded subway car, commuters with glowing phone screens. The reflection of a man in a window. The face of a caveman is seen in the glass, in the reflection of the man on the pho"
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0935.jpg",
+                    "query": "A hand holding a modern smartphone, the screen displaying an orange flame. The hand is old, wrinkled."
+                }
+            ],
             "words": [
                 {
                     "start": 131.394,
@@ -884,6 +1205,7 @@
             "lyric": "OF COURSE",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 131.697,
@@ -902,12 +1224,29 @@
             "start": 131.88,
             "end": 132.235,
             "lyric": "I WANT A BLUE ONE!",
-            "real_meaning": "Peak consumerism â€” not even wanting freedom, just wanting the same prison in a different color.",
+            "real_meaning": "Peak consumerism — not even wanting freedom, just wanting the same prison in a different color.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0384.jpg",
-                    "query": "person screaming for a blue version of a useless product surrounded by identical products, consumer madness, cinematic"
+                    "url": "media/c0936.jpg",
+                    "query": "A vast prehistoric valley with a solitary modern couch, under a fiery sunset, cinematic."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0937.jpg",
+                    "query": "A figure stands before a firelit couch, lighter in hand, waiting."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0939.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone face-down on a sleek table, a modern cave painting."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0940.jpg",
+                    "query": "A commuter rushing through a bustling subway station, phone screen alight with vibrant blue hues."
                 }
             ],
             "words": [
@@ -944,7 +1283,20 @@
             "end": 132.447,
             "lyric": "A BLUE ONE!",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 0.52,
+                    "url": "media/c0938.jpg",
+                    "query": "A close-up of the figure's face,  eyes full of desire, a lighter with a blue flame in their hand."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.52,
+                    "url": "media/c0941.jpg",
+                    "query": "A close-up of a hand grasping a phone, eyes reflecting the blue screen, desire etched on the face."
+                }
+            ],
             "words": [
                 {
                     "start": 132.235,
@@ -970,6 +1322,7 @@
             "lyric": "A BLUE ONE!\"",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 132.447,
@@ -993,12 +1346,39 @@
             "start": 132.66,
             "end": 133.24,
             "lyric": "The fire is still there...",
-            "real_meaning": "Hope persists â€” the truth doesn't die, it waits. The stone is still on the ground.",
+            "real_meaning": "Hope persists — the truth doesn't die, it waits. The stone is still on the ground.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0387.jpg",
-                    "query": "tiny eternal flame glowing in darkness, persistent hope, quiet and beautiful, cinematic"
+                    "url": "media/c0942.jpg",
+                    "query": "A vast prehistoric landscape stretches under a fiery sunset, a lone couch sits in the distance, a stone resting on the ground."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0943.jpg",
+                    "query": "A figure sits on the couch, hands resting on knees, eyes fixed on a stone."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0944.jpg",
+                    "query": "A close-up of a stone, still warm from a previous fire, glowing in the firelit scene."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0945.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, surrounded by bustling people. Cool morning light,  modern, cinematic."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0946.jpg",
+                    "query": "A close-up of a commuter's hand on a phone screen.  The modern world is bustling around them in cool tones."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0947.jpg",
+                    "query": "A close-up of a hand picking up a small stone from the concrete. The stone is still on the ground. The hand gently picks up the stone."
                 }
             ],
             "words": [
@@ -1034,12 +1414,39 @@
             "start": 133.24,
             "end": 133.44,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth â€” it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0390.jpg",
-                    "query": "still stone in an empty field at dusk, patient and eternal, meditative cinematic wide shot"
+                    "url": "media/c0948.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
+                },
+                {
+                    "offset": 0.19,
+                    "url": "media/c0949.jpg",
+                    "query": "A hand holds a stone, glowing embers reflect on face, fire crackles."
+                },
+                {
+                    "offset": 0.39,
+                    "url": "media/c0950.jpg",
+                    "query": "up of the stone, on the ground, waiting, fire smoulders beneath."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0951.jpg",
+                    "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 0.19,
+                    "url": "media/c0952.jpg",
+                    "query": "up of a commuter's face, eyes fixed on a phone's glowing screen, reflection of city lights."
+                },
+                {
+                    "offset": 0.39,
+                    "url": "media/c0953.jpg",
+                    "query": "A single wildflower sprouting from a crack in the concrete, untouched."
                 }
             ],
             "words": [
@@ -1055,12 +1462,39 @@
             "start": 133.44,
             "end": 133.824,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth â€” it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0390.jpg",
-                    "query": "still stone in an empty field at dusk, patient and eternal, meditative cinematic wide shot"
+                    "url": "media/c0948.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
+                },
+                {
+                    "offset": 0.13,
+                    "url": "media/c0949.jpg",
+                    "query": "A hand holds a stone, glowing embers reflect on face, fire crackles."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0950.jpg",
+                    "query": "up of the stone, on the ground, waiting, fire smoulders beneath."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0951.jpg",
+                    "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 0.13,
+                    "url": "media/c0952.jpg",
+                    "query": "up of a commuter's face, eyes fixed on a phone's glowing screen, reflection of city lights."
+                },
+                {
+                    "offset": 0.26,
+                    "url": "media/c0953.jpg",
+                    "query": "A single wildflower sprouting from a crack in the concrete, untouched."
                 }
             ],
             "words": [
@@ -1076,12 +1510,39 @@
             "start": 136.237,
             "end": 139.209,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth â€” it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0390.jpg",
-                    "query": "still stone in an empty field at dusk, patient and eternal, meditative cinematic wide shot"
+                    "url": "media/c0948.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
+                },
+                {
+                    "offset": 1.25,
+                    "url": "media/c0949.jpg",
+                    "query": "A hand holds a stone, glowing embers reflect on face, fire crackles."
+                },
+                {
+                    "offset": 2.04,
+                    "url": "media/c0950.jpg",
+                    "query": "up of the stone, on the ground, waiting, fire smoulders beneath."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0951.jpg",
+                    "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 1.25,
+                    "url": "media/c0952.jpg",
+                    "query": "up of a commuter's face, eyes fixed on a phone's glowing screen, reflection of city lights."
+                },
+                {
+                    "offset": 2.04,
+                    "url": "media/c0953.jpg",
+                    "query": "A single wildflower sprouting from a crack in the concrete, untouched."
                 }
             ],
             "words": [
@@ -1097,12 +1558,39 @@
             "start": 139.21,
             "end": 142.71,
             "lyric": "Waiting for someone to remember...",
-            "real_meaning": "Waiting for the next Muda â€” the next person brave enough to stop running and pick up the stone.",
+            "real_meaning": "Waiting for the next Muda — the next person brave enough to stop running and pick up the stone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0393.jpg",
-                    "query": "silhouette of a person slowly bending down to pick up a stone, the cycle breaking, hopeful cinematic"
+                    "url": "media/c0954.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a solitary couch sits under a starry sky, a firepit smoldering nearby."
+                },
+                {
+                    "offset": 0.64,
+                    "url": "media/c0955.jpg",
+                    "query": "A figure sits on the couch, staring into the dying embers of a campfire, the glow illuminating their face."
+                },
+                {
+                    "offset": 1.43,
+                    "url": "media/c0956.jpg",
+                    "query": "The figure's eyes reflect the warmth of the embers, a look of anticipation and hope."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0957.jpg",
+                    "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 0.64,
+                    "url": "media/c0958.jpg",
+                    "query": "A busy morning train, a commuter's reflection in the window, eyes fixed on a glowing screen."
+                },
+                {
+                    "offset": 1.43,
+                    "url": "media/c0959.jpg",
+                    "query": "A clenched fist on a steel railing, waiting, a hint of a wildflower in the corner."
                 }
             ],
             "words": [
@@ -2768,5 +3256,104 @@
             0.218
         ]
     ],
-    "bpm": 76.0
+    "bpm": 76.0,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 52.96,
+            "energy": "high",
+            "intensity": 0.726
+        },
+        {
+            "start": 52.96,
+            "end": 58.79,
+            "energy": "high",
+            "intensity": 0.815
+        },
+        {
+            "start": 58.79,
+            "end": 66.34,
+            "energy": "high",
+            "intensity": 0.881
+        },
+        {
+            "start": 66.34,
+            "end": 78.9,
+            "energy": "high",
+            "intensity": 0.878
+        },
+        {
+            "start": 78.9,
+            "end": 85.45,
+            "energy": "high",
+            "intensity": 0.858
+        },
+        {
+            "start": 85.45,
+            "end": 132.79,
+            "energy": "high",
+            "intensity": 0.775
+        },
+        {
+            "start": 132.79,
+            "end": 151.65,
+            "energy": "high",
+            "intensity": 0.793
+        },
+        {
+            "start": 151.65,
+            "end": 173.0,
+            "energy": "high",
+            "intensity": 0.785
+        }
+    ],
+    "transition_points": [
+        1.25,
+        4.44,
+        7.59,
+        10.75,
+        13.82,
+        18.39,
+        21.55,
+        24.71,
+        27.86,
+        31.02,
+        34.06,
+        37.2,
+        40.22,
+        43.65,
+        46.81,
+        49.85,
+        54.17,
+        58.12,
+        61.28,
+        64.83,
+        68.36,
+        72.33,
+        75.49,
+        79.41,
+        84.17,
+        88.12,
+        91.28,
+        96.8,
+        100.5,
+        103.65,
+        107.35,
+        110.76,
+        113.92,
+        117.08,
+        122.46,
+        126.8,
+        129.96,
+        133.12,
+        136.56,
+        139.83,
+        143.38,
+        146.54,
+        150.09,
+        153.39,
+        157.59,
+        160.75,
+        163.91
+    ]
 }

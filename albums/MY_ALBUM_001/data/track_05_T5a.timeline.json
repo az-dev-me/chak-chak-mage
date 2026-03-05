@@ -1,0 +1,181 @@
+{
+    "id": "track_05_T5a",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 20.56,
+            "end": 22.86,
+            "lyric": "Muda never said a word"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 25.216,
+            "end": 27.485,
+            "lyric": "Sat and watched, and saw, and heard"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 28.219,
+            "end": 32.093,
+            "lyric": "While they ran with flame and fear"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 33.149,
+            "end": 36.753,
+            "lyric": "Muda sat and observed from here"
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 38.76,
+            "end": 42.112,
+            "lyric": "She picked a stone up from the ground"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 43.86,
+            "end": 46.735,
+            "lyric": "Made a different kind of sound"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 46.96,
+            "end": 48.16,
+            "lyric": "Tchak... tchak... tchak..."
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 49.3,
+            "end": 53.217,
+            "lyric": "MUDA! MUDA! The stone ignites!"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 54.32,
+            "end": 57.888,
+            "lyric": "MUDA! MUDA! She saw the light!"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 58.84,
+            "end": 63.136,
+            "lyric": "MUDA! MUDA! No need to run!"
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 63.402,
+            "end": 74.74,
+            "lyric": "The fire's here, the fire's won!"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 75.744,
+            "end": 79.908,
+            "lyric": "She stood up, the moss aglow"
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 80.14,
+            "end": 87.7,
+            "lyric": "\"Look,\" she said, \"I'll show you slow"
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 87.7,
+            "end": 89.42,
+            "lyric": "Pots. Wheel. Stone. Fire."
+        },
+        {
+            "id": "line_21_occ_0",
+            "line_index": 21,
+            "occurrence_index": 0,
+            "start": 89.42,
+            "end": 93.9,
+            "lyric": "MUDA! MUDA! No need to run!"
+        },
+        {
+            "id": "line_22_occ_0",
+            "line_index": 22,
+            "occurrence_index": 0,
+            "start": 94.065,
+            "end": 98.36,
+            "lyric": "The fire's here, the fire's won!"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 98.845,
+            "end": 103.345,
+            "lyric": "Tronco whispered \"What's this for?\""
+        },
+        {
+            "id": "line_24_occ_0",
+            "line_index": 24,
+            "occurrence_index": 0,
+            "start": 103.42,
+            "end": 105.24,
+            "lyric": "\"The fire was always ours.\""
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 105.22,
+            "end": 132.288,
+            "lyric": "MUDA! MUDA! She saw the light!"
+        },
+        {
+            "id": "line_24_occ_1",
+            "line_index": 24,
+            "occurrence_index": 1,
+            "start": 134.06,
+            "end": 140.352,
+            "lyric": "\"The fire was always ours.\""
+        },
+        {
+            "id": "instrumental_5",
+            "line_index": null,
+            "occurrence_index": 5,
+            "start": 141.215,
+            "end": 143.932,
+            "lyric": "Tchak... tchak... tchak..."
+        },
+        {
+            "id": "line_24_occ_2",
+            "line_index": 24,
+            "occurrence_index": 2,
+            "start": 144.352,
+            "end": 151.552,
+            "lyric": "\"The fire was always ours.\""
+        }
+    ]
+}

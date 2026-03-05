@@ -1,0 +1,1074 @@
+{
+    "id": "track_05",
+    "segments": [
+        {
+            "start": 30.0,
+            "end": 31.424,
+            "text": "Muda never said a word",
+            "words": [
+                {
+                    "start": 30.0,
+                    "end": 30.34,
+                    "text": "Muda",
+                    "source": "canonical"
+                },
+                {
+                    "start": 30.34,
+                    "end": 30.38,
+                    "text": "never",
+                    "source": "canonical"
+                },
+                {
+                    "start": 30.34,
+                    "end": 30.56,
+                    "text": "said",
+                    "source": "canonical"
+                },
+                {
+                    "start": 30.56,
+                    "end": 31.0,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 31.0,
+                    "end": 31.424,
+                    "text": "word",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 34.84,
+            "end": 44.22,
+            "text": "Sat and watched, and saw, and heard",
+            "words": [
+                {
+                    "start": 34.84,
+                    "end": 35.28,
+                    "text": "saw",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 35.28,
+                    "end": 35.74,
+                    "text": "and",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 35.74,
+                    "end": 36.16,
+                    "text": "heard",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 36.756,
+                    "end": 38.036,
+                    "text": "light!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 38.528,
+                    "end": 38.626,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 39.0,
+                    "end": 39.34,
+                    "text": "ran",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 39.34,
+                    "end": 39.58,
+                    "text": "with",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 39.58,
+                    "end": 40.14,
+                    "text": "flame",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 40.14,
+                    "end": 40.5,
+                    "text": "and",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 43.232,
+                    "end": 43.5,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.264,
+                    "end": 43.556,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.5,
+                    "end": 44.0,
+                    "text": "Sat",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.556,
+                    "end": 44.456,
+                    "text": "fire's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.0,
+                    "end": 44.22,
+                    "text": "and",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 44.22,
+            "end": 50.06,
+            "text": "While they ran with flame and fear",
+            "words": [
+                {
+                    "start": 44.22,
+                    "end": 55.94,
+                    "text": "watched,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.456,
+                    "end": 45.856,
+                    "text": "here,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 49.64,
+                    "end": 50.06,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 49.64,
+                    "end": 50.06,
+                    "text": "the",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 63.36,
+            "end": 68.12,
+            "text": "Muda sat and observed from here",
+            "words": [
+                {
+                    "start": 63.36,
+                    "end": 64.48,
+                    "text": "ignites!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 64.78,
+                    "end": 65.46,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 65.8,
+                    "end": 66.304,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.56,
+                    "end": 67.66,
+                    "text": "She",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.66,
+                    "end": 68.12,
+                    "text": "saw,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 67.66,
+                    "end": 68.12,
+                    "text": "saw",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 68.12,
+            "end": 69.12,
+            "text": "She picked a stone up from the ground",
+            "words": [
+                {
+                    "start": 68.12,
+                    "end": 68.287,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.12,
+                    "end": 68.48,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.12,
+                    "end": 68.48,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.287,
+                    "end": 68.453,
+                    "text": "heard",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.453,
+                    "end": 68.62,
+                    "text": "While",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.62,
+                    "end": 68.787,
+                    "text": "they",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.787,
+                    "end": 68.953,
+                    "text": "ran",
+                    "source": "canonical"
+                },
+                {
+                    "start": 68.953,
+                    "end": 69.12,
+                    "text": "with",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 69.12,
+            "end": 72.28,
+            "text": "Made a different kind of sound",
+            "words": [
+                {
+                    "start": 69.12,
+                    "end": 69.287,
+                    "text": "flame",
+                    "source": "canonical"
+                },
+                {
+                    "start": 69.287,
+                    "end": 69.453,
+                    "text": "and",
+                    "source": "canonical"
+                },
+                {
+                    "start": 69.453,
+                    "end": 69.62,
+                    "text": "fear",
+                    "source": "canonical"
+                },
+                {
+                    "start": 69.62,
+                    "end": 70.22,
+                    "text": "Muda",
+                    "source": "canonical"
+                },
+                {
+                    "start": 70.22,
+                    "end": 71.575,
+                    "text": "sat",
+                    "source": "canonical"
+                },
+                {
+                    "start": 71.575,
+                    "end": 72.93,
+                    "text": "and",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 72.28,
+            "end": 72.896,
+            "text": "Tchak... tchak... tchak...",
+            "words": [
+                {
+                    "start": 72.28,
+                    "end": 72.56,
+                    "text": "No",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.56,
+                    "end": 72.88,
+                    "text": "need",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.812,
+                    "end": 72.896,
+                    "text": "need",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 72.93,
+            "end": 73.632,
+            "text": "MUDA! MUDA! The stone ignites!",
+            "words": [
+                {
+                    "start": 72.93,
+                    "end": 74.285,
+                    "text": "observed",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.96,
+                    "end": 73.26,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 72.96,
+                    "end": 73.196,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 73.196,
+                    "end": 73.728,
+                    "text": "run.",
+                    "source": "canonical"
+                },
+                {
+                    "start": 73.26,
+                    "end": 73.632,
+                    "text": "run!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 74.285,
+            "end": 78.04,
+            "text": "MUDA! MUDA! She saw the light!",
+            "words": [
+                {
+                    "start": 74.285,
+                    "end": 75.64,
+                    "text": "from",
+                    "source": "canonical"
+                },
+                {
+                    "start": 74.976,
+                    "end": 75.64,
+                    "text": "fire's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 75.64,
+                    "end": 76.08,
+                    "text": "here",
+                    "source": "canonical"
+                },
+                {
+                    "start": 77.156,
+                    "end": 77.456,
+                    "text": "No",
+                    "source": "canonical"
+                },
+                {
+                    "start": 77.456,
+                    "end": 77.936,
+                    "text": "need",
+                    "source": "canonical"
+                },
+                {
+                    "start": 77.936,
+                    "end": 78.076,
+                    "text": "to",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 78.04,
+            "end": 80.096,
+            "text": "MUDA! MUDA! No need to run!",
+            "words": [
+                {
+                    "start": 78.04,
+                    "end": 78.44,
+                    "text": "won!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 78.076,
+                    "end": 78.56,
+                    "text": "tire.\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 78.752,
+                    "end": 80.096,
+                    "text": "Gralha's",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 89.024,
+            "end": 94.06,
+            "text": "The fire's here, the fire's won!",
+            "words": [
+                {
+                    "start": 89.024,
+                    "end": 89.48,
+                    "text": "stood",
+                    "source": "canonical"
+                },
+                {
+                    "start": 90.04,
+                    "end": 90.52,
+                    "text": "moss",
+                    "source": "canonical"
+                },
+                {
+                    "start": 90.52,
+                    "end": 92.22,
+                    "text": "aglow",
+                    "source": "canonical"
+                },
+                {
+                    "start": 92.22,
+                    "end": 93.92,
+                    "text": "\"Look,\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 93.82,
+                    "end": 94.82,
+                    "text": "\"I'll",
+                    "source": "canonical"
+                },
+                {
+                    "start": 93.92,
+                    "end": 94.06,
+                    "text": "she",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 94.06,
+            "end": 97.14,
+            "text": "She stood up, the moss aglow",
+            "words": [
+                {
+                    "start": 94.06,
+                    "end": 94.58,
+                    "text": "said,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 94.24,
+                    "end": 99.6,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 94.82,
+                    "end": 95.18,
+                    "text": "show",
+                    "source": "canonical"
+                },
+                {
+                    "start": 95.18,
+                    "end": 95.6,
+                    "text": "you",
+                    "source": "canonical"
+                },
+                {
+                    "start": 95.6,
+                    "end": 96.14,
+                    "text": "slow",
+                    "source": "canonical"
+                },
+                {
+                    "start": 96.14,
+                    "end": 97.14,
+                    "text": "Pots.",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 99.0,
+            "end": 108.62,
+            "text": "\"Look,\" she said, \"I'll show you slow",
+            "words": [
+                {
+                    "start": 99.0,
+                    "end": 99.38,
+                    "text": "Wheel.",
+                    "source": "canonical"
+                },
+                {
+                    "start": 99.6,
+                    "end": 100.2,
+                    "text": "stone",
+                    "source": "canonical"
+                },
+                {
+                    "start": 99.6,
+                    "end": 100.2,
+                    "text": "Stone.",
+                    "source": "canonical"
+                },
+                {
+                    "start": 100.2,
+                    "end": 104.89,
+                    "text": "up",
+                    "source": "canonical"
+                },
+                {
+                    "start": 100.46,
+                    "end": 101.06,
+                    "text": "Fire.",
+                    "source": "canonical"
+                },
+                {
+                    "start": 102.432,
+                    "end": 102.54,
+                    "text": "No",
+                    "source": "canonical"
+                },
+                {
+                    "start": 104.89,
+                    "end": 109.58,
+                    "text": "from",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 108.62,
+            "end": 109.58,
+            "text": "Pots. Wheel. Stone. Fire.",
+            "words": [
+                {
+                    "start": 108.62,
+                    "end": 108.88,
+                    "text": "jaw",
+                    "source": "canonical"
+                },
+                {
+                    "start": 108.88,
+                    "end": 109.16,
+                    "text": "fell",
+                    "source": "canonical"
+                },
+                {
+                    "start": 109.16,
+                    "end": 109.58,
+                    "text": "to",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 109.58,
+            "end": 114.516,
+            "text": "No need to run. No need to tire.\"",
+            "words": [
+                {
+                    "start": 109.58,
+                    "end": 110.0,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 110.0,
+                    "end": 111.724,
+                    "text": "ground",
+                    "source": "canonical"
+                },
+                {
+                    "start": 110.0,
+                    "end": 110.66,
+                    "text": "floor",
+                    "source": "canonical"
+                },
+                {
+                    "start": 110.66,
+                    "end": 111.66,
+                    "text": "Tronco",
+                    "source": "canonical"
+                },
+                {
+                    "start": 111.724,
+                    "end": 113.448,
+                    "text": "Made",
+                    "source": "canonical"
+                },
+                {
+                    "start": 113.316,
+                    "end": 114.116,
+                    "text": "whispered",
+                    "source": "canonical"
+                },
+                {
+                    "start": 113.448,
+                    "end": 115.172,
+                    "text": "a",
+                    "source": "canonical"
+                },
+                {
+                    "start": 114.116,
+                    "end": 114.516,
+                    "text": "\"What's",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 114.516,
+            "end": 117.916,
+            "text": "Gralha's jaw fell to the floor",
+            "words": [
+                {
+                    "start": 114.516,
+                    "end": 114.797,
+                    "text": "this",
+                    "source": "canonical"
+                },
+                {
+                    "start": 115.044,
+                    "end": 115.115,
+                    "text": "for?\"",
+                    "source": "canonical"
+                },
+                {
+                    "start": 115.172,
+                    "end": 116.896,
+                    "text": "different",
+                    "source": "canonical"
+                },
+                {
+                    "start": 116.896,
+                    "end": 118.62,
+                    "text": "kind",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.62,
+                    "end": 118.66,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 117.676,
+                    "end": 117.916,
+                    "text": "women",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 117.916,
+            "end": 119.214,
+            "text": "Tronco whispered \"What's this for?\"",
+            "words": [
+                {
+                    "start": 117.916,
+                    "end": 118.797,
+                    "text": "cheered,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 118.62,
+                    "end": 120.344,
+                    "text": "of",
+                    "source": "canonical"
+                },
+                {
+                    "start": 120.344,
+                    "end": 120.384,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.021,
+                    "end": 119.076,
+                    "text": "men",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.141,
+                    "end": 119.214,
+                    "text": "looked",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 119.501,
+            "end": 123.792,
+            "text": "The women cheered, the men looked scared",
+            "words": [
+                {
+                    "start": 119.501,
+                    "end": 119.57,
+                    "text": "scared",
+                    "source": "canonical"
+                },
+                {
+                    "start": 119.776,
+                    "end": 120.016,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 120.086,
+                    "end": 120.244,
+                    "text": "first",
+                    "source": "canonical"
+                },
+                {
+                    "start": 120.296,
+                    "end": 120.9,
+                    "text": "belief",
+                    "source": "canonical"
+                },
+                {
+                    "start": 120.344,
+                    "end": 122.068,
+                    "text": "sound",
+                    "source": "canonical"
+                },
+                {
+                    "start": 121.368,
+                    "end": 121.456,
+                    "text": "was",
+                    "source": "canonical"
+                },
+                {
+                    "start": 122.068,
+                    "end": 123.792,
+                    "text": "Tchak...",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 123.792,
+            "end": 128.16,
+            "text": "The first belief was declared",
+            "words": [
+                {
+                    "start": 123.792,
+                    "end": 125.516,
+                    "text": "tchak...",
+                    "source": "canonical"
+                },
+                {
+                    "start": 125.516,
+                    "end": 127.24,
+                    "text": "tchak...",
+                    "source": "canonical"
+                },
+                {
+                    "start": 126.208,
+                    "end": 127.316,
+                    "text": "declared",
+                    "source": "canonical"
+                },
+                {
+                    "start": 127.24,
+                    "end": 127.84,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 127.316,
+                    "end": 128.192,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 128.16,
+            "end": 132.089,
+            "text": "MUDA! MUDA! The stone ignites!",
+            "words": [
+                {
+                    "start": 128.16,
+                    "end": 128.76,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 128.316,
+                    "end": 128.413,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 129.1,
+                    "end": 129.48,
+                    "text": "ah,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 129.48,
+                    "end": 130.243,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 130.243,
+                    "end": 130.556,
+                    "text": "stone",
+                    "source": "canonical"
+                },
+                {
+                    "start": 130.625,
+                    "end": 132.089,
+                    "text": "ignites!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 132.365,
+            "end": 137.404,
+            "text": "MUDA! MUDA! She saw the light!",
+            "words": [
+                {
+                    "start": 132.365,
+                    "end": 132.447,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 133.356,
+                    "end": 133.424,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 133.94,
+                    "end": 134.34,
+                    "text": "ah,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 134.518,
+                    "end": 134.856,
+                    "text": "She",
+                    "source": "canonical"
+                },
+                {
+                    "start": 134.911,
+                    "end": 135.296,
+                    "text": "saw",
+                    "source": "canonical"
+                },
+                {
+                    "start": 135.386,
+                    "end": 135.437,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 136.17,
+                    "end": 137.101,
+                    "text": "light!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 137.404,
+            "end": 140.875,
+            "text": "MUDA! MUDA! No need to run!",
+            "words": [
+                {
+                    "start": 137.404,
+                    "end": 137.502,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 137.836,
+                    "end": 137.936,
+                    "text": "MUDA!",
+                    "source": "canonical"
+                },
+                {
+                    "start": 138.7,
+                    "end": 139.1,
+                    "text": "ah,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 139.267,
+                    "end": 139.613,
+                    "text": "No",
+                    "source": "canonical"
+                },
+                {
+                    "start": 139.821,
+                    "end": 140.108,
+                    "text": "need",
+                    "source": "canonical"
+                },
+                {
+                    "start": 140.331,
+                    "end": 140.416,
+                    "text": "to",
+                    "source": "canonical"
+                },
+                {
+                    "start": 140.416,
+                    "end": 140.875,
+                    "text": "run!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 142.036,
+            "end": 156.296,
+            "text": "The fire's here, the fire's won!",
+            "words": [
+                {
+                    "start": 142.036,
+                    "end": 142.136,
+                    "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 142.748,
+                    "end": 142.836,
+                    "text": "fire's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 142.836,
+                    "end": 143.488,
+                    "text": "here,",
+                    "source": "canonical"
+                },
+                {
+                    "start": 143.488,
+                    "end": 144.576,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 144.576,
+                    "end": 145.216,
+                    "text": "fire's",
+                    "source": "canonical"
+                },
+                {
+                    "start": 152.92,
+                    "end": 153.86,
+                    "text": "Ooh,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 153.86,
+                    "end": 153.96,
+                    "text": "ooh,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 154.416,
+                    "end": 156.296,
+                    "text": "won!",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 156.296,
+            "end": 157.68,
+            "text": "Tchak... tchak... tchak...",
+            "words": [
+                {
+                    "start": 156.296,
+                    "end": 156.704,
+                    "text": "Tchak...",
+                    "source": "canonical"
+                },
+                {
+                    "start": 156.842,
+                    "end": 157.211,
+                    "text": "tchak...",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 157.68,
+            "end": 166.464,
+            "text": "\"The fire was always ours.\"",
+            "words": [
+                {
+                    "start": 157.68,
+                    "end": 158.18,
+                    "text": "check",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 159.176,
+                    "end": 160.696,
+                    "text": "\"The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 161.158,
+                    "end": 161.21,
+                    "text": "fire",
+                    "source": "canonical"
+                },
+                {
+                    "start": 164.336,
+                    "end": 164.436,
+                    "text": "was",
+                    "source": "canonical"
+                },
+                {
+                    "start": 165.041,
+                    "end": 165.11,
+                    "text": "always",
+                    "source": "canonical"
+                },
+                {
+                    "start": 165.316,
+                    "end": 166.464,
+                    "text": "ours.\"",
+                    "source": "canonical"
+                }
+            ]
+        }
+    ]
+}

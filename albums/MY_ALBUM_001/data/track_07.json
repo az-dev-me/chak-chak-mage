@@ -7,12 +7,39 @@
             "start": 10.672,
             "end": 14.012,
             "lyric": "They were fighting when I slipped away",
-            "real_meaning": "The elite exiting the mess they created â€” the billionaire building a bunker, the politician retiring to a villa.",
+            "real_meaning": "The elite exiting the mess they created — the billionaire building a bunker, the politician retiring to a villa.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0288.jpg",
-                    "query": "figure quietly slipping away from a chaotic battle scene, escape from responsibility, cinematic"
+                    "url": "media/c0720.jpg",
+                    "query": "Wideshot of a prehistoric tribe gathering, firelit and warm,  with a figure quietly slipping away."
+                },
+                {
+                    "offset": 0.96,
+                    "url": "media/c0721.jpg",
+                    "query": "Tribe members fighting over an empty lighter in a dramatic firelit struggle."
+                },
+                {
+                    "offset": 1.61,
+                    "url": "media/c0722.jpg",
+                    "query": "A lone figure's back, walking away, the dim firelight on their shoulders."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0723.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone box of belongings sits on a rooftop. A helicopter with a banner and a bunker being constructed are visible."
+                },
+                {
+                    "offset": 0.96,
+                    "url": "media/c0724.jpg",
+                    "query": "A sleek boardroom, CEO's chair empty.  A modern IPO bell with a dead screen. Empty glasses and half eaten pizza on the table."
+                },
+                {
+                    "offset": 1.61,
+                    "url": "media/c0725.jpg",
+                    "query": "A billionaire in a suit, holding a bunker blueprint. The sun setting behind him, casting long shadows. A helicopter in the background."
                 }
             ],
             "words": [
@@ -58,12 +85,39 @@
             "start": 15.582,
             "end": 19.352,
             "lyric": "Grabbed my hedgehog, didn't stay",
-            "real_meaning": "Taking only what's real â€” the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
+            "real_meaning": "Taking only what's real — the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0291.jpg",
-                    "query": "person gently picking up a small hedgehog while chaos rages behind, tender amid turmoil, cinematic"
+                    "url": "media/c0726.jpg",
+                    "query": "A vast prehistoric valley at dusk, a figure vanishes into the distance."
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0727.jpg",
+                    "query": "A tribe in heated combat, firelight illuminating faces contorted with tension."
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0728.jpg",
+                    "query": "A hand gently scoops up a hedgehog, eyes filled with determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0729.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands amidst a chaotic urban landscape, holding a small box of belongings."
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0730.jpg",
+                    "query": "A sleek, modern office with flickering screens and a dimly lit corridor. A figure in a suit exits the room as the room begins to darken."
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0731.jpg",
+                    "query": "A close-up of a hand cradling a small hedgehog, its eyes reflecting a dying screen."
                 }
             ],
             "words": [
@@ -99,12 +153,39 @@
             "start": 20.833,
             "end": 24.792,
             "lyric": "Just one look back to see the scene",
-            "real_meaning": "The backward glance â€” Lot's wife, the rearview mirror, the moment of regret before you drive away.",
+            "real_meaning": "The backward glance — Lot's wife, the rearview mirror, the moment of regret before you drive away.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0294.jpg",
-                    "query": "figure looking back over shoulder at a burning camp, regret and relief, dramatic cinematic silhouette"
+                    "url": "media/c0732.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk. Smoke from a fire at the center of a distant camp. A fleeing figure runs to the edge of the frame. The green glow of a cell phone and a"
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0733.jpg",
+                    "query": "A figure throws a lighter into the air. A tribe fights over a glowing shell in the foreground. A glowing green rectangle glows on the right edge of the frame."
+                },
+                {
+                    "offset": 1.99,
+                    "url": "media/c0734.jpg",
+                    "query": "A figure glances back at the firelit tribe."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0735.jpg",
+                    "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a bustling street corner. Concrete jungle, neon lights, cool tones, cinematic."
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0736.jpg",
+                    "query": "An IPO celebration, a CEO rings a bell while a crowd cheers, a sea of smartphones captures the moment, cool tones, metallic."
+                },
+                {
+                    "offset": 1.99,
+                    "url": "media/c0737.jpg",
+                    "query": "A man's face in the rearview mirror of a sleek car, his eyes filled with regret, a cityscape of e-waste recedes in the distance, warm tones, black and white."
                 }
             ],
             "words": [
@@ -155,12 +236,39 @@
             "start": 25.413,
             "end": 29.932,
             "lyric": "The tribe all fighting, mean and keen",
-            "real_meaning": "Social media in 2024 â€” everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
+            "real_meaning": "Social media in 2024 — everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0297.jpg",
-                    "query": "chaotic battle scene of primitive people fighting over scattered objects, senseless conflict, wide cinematic"
+                    "url": "media/c0738.jpg",
+                    "query": "A vast, prehistoric landscape under a fiery sunset. The tribe is silhouetted against the flames of their campfire."
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0739.jpg",
+                    "query": "The Mage, cloaked in shadows, throws a lighter. A tribe member lunges for it."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0740.jpg",
+                    "query": "Two tribal warriors grapple for the empty lighter, faces contorted with fierce determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0741.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings on a busy street corner.  High-rise buildings and neon lights surround them."
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0742.jpg",
+                    "query": "A chaotic trading floor, traders frantically gesturing, screens displaying volatile stock prices, and a defeated CEO exiting the frame."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0743.jpg",
+                    "query": "A tight close-up of a hand frantically swiping through a social media feed, surrounded by dark tones and shadows."
                 }
             ],
             "words": [
@@ -206,17 +314,39 @@
             "start": 31.468,
             "end": 35.272,
             "lyric": "I threw the lighter in the air",
-            "real_meaning": "Releasing the product into the wild â€” the IPO, the open-source release, letting go of what you created.",
+            "real_meaning": "Releasing the product into the wild — the IPO, the open-source release, letting go of what you created.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0300.jpg",
-                    "query": "hand releasing an orange lighter spinning upward into the air, slow motion release, dramatic cinematic"
+                    "url": "media/c0744.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure darting across the savannah."
                 },
                 {
                     "offset": 0.6,
-                    "url": "media/c0301.jpg",
-                    "query": "A close-up of the lighter's flame flickering gently as it ascends against a fiery backdrop."
+                    "url": "media/c0745.jpg",
+                    "query": "A tribe huddled around a dying fire, a mage throwing an empty lighter into the air."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0746.jpg",
+                    "query": "A close-up of the mage's face, eyes wide with determination as he releases the lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0747.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure carries a box into a high-rise building, the streets bustling with activity below."
+                },
+                {
+                    "offset": 0.6,
+                    "url": "media/c0748.jpg",
+                    "query": "A dimly lit office, a CEO stands alone, the IPO bell in hand, and a crowd of anxious faces glows through the glass windows."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0749.jpg",
+                    "query": "A hand reaches out, releasing a lighter into a vast, starry night sky, reflecting the CEO's decision to let go of his creation."
                 }
             ],
             "words": [
@@ -262,17 +392,39 @@
             "start": 36.8,
             "end": 40.272,
             "lyric": "Gralha jumped to grab it there",
-            "real_meaning": "The consumer leaping for the product â€” launch day queues, Black Friday stampedes, desperate acquisition.",
+            "real_meaning": "The consumer leaping for the product — launch day queues, Black Friday stampedes, desperate acquisition.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0303.jpg",
-                    "query": "figure leaping desperately to catch a falling object, devotion and desperation, dramatic action cinematic"
+                    "url": "media/c0750.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk, a lone figure running, smoke from the distance.  WIDE."
                 },
                 {
                     "offset": 0.56,
-                    "url": "media/c0304.jpg",
-                    "query": "A hand reaches out, fingers splayed wide, grasping for the prize, sunlight glints off the gleaming object."
+                    "url": "media/c0751.jpg",
+                    "query": "A tribe, silhouetted, clashing over an empty plastic object."
+                },
+                {
+                    "offset": 1.86,
+                    "url": "media/c0752.jpg",
+                    "query": "A determined figure leaping, hands outstretched, eyes locked on a distant, tantalizing object."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0753.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings, skyscrapers loom in the background."
+                },
+                {
+                    "offset": 0.56,
+                    "url": "media/c0754.jpg",
+                    "query": "The CEO's office; sleek, modern, devoid of life. An empty chair, a cold, dark screen."
+                },
+                {
+                    "offset": 1.86,
+                    "url": "media/c0755.jpg",
+                    "query": "A chaotic, crowded shopping scene. A consumer jumps over the railing to grab a device, desperate hands reaching out in the background."
                 }
             ],
             "words": [
@@ -313,17 +465,39 @@
             "start": 41.832,
             "end": 45.492,
             "lyric": "The tribe all followed, wild and thick",
-            "real_meaning": "The herd following â€” viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "real_meaning": "The herd following — viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0306.jpg",
-                    "query": "stampeding crowd all reaching for the same object, herd mentality, chaotic wide angle cinematic"
+                    "url": "media/c0756.jpg",
+                    "query": "A vast prehistoric valley bathed in warm sunlight, a lone figure running toward the horizon, a tribal horde pursuing."
                 },
                 {
                     "offset": 0.8,
-                    "url": "media/c0307.jpg",
-                    "query": "A frenzied hand grasping for an object just out of reach."
+                    "url": "media/c0757.jpg",
+                    "query": "A dramatic scene at the edge of a cliff. The Mage holds an empty lighter, tribe members fighting over it."
+                },
+                {
+                    "offset": 2.1,
+                    "url": "media/c0758.jpg",
+                    "query": "A close-up of the Mage's face, eyes wide with determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0759.jpg",
+                    "query": "A wide shot of a bustling cityscape at dusk, a lone box of belongings sits on the curb in front of a towering skyscraper."
+                },
+                {
+                    "offset": 0.8,
+                    "url": "media/c0760.jpg",
+                    "query": "A crowded trading floor, faces lit by screens, hands gesturing frantically as people rush to buy more."
+                },
+                {
+                    "offset": 2.1,
+                    "url": "media/c0761.jpg",
+                    "query": "A close-up of a person's hand holding a phone, fingers scrolling frantically, face hidden in shadow."
                 }
             ],
             "words": [
@@ -369,17 +543,39 @@
             "start": 47.456,
             "end": 50.992,
             "lyric": "For an object that wouldn't click",
-            "real_meaning": "The empty product â€” the lighter without gas, the app without value, the status symbol without substance.",
+            "real_meaning": "The empty product — the lighter without gas, the app without value, the status symbol without substance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0309.jpg",
-                    "query": "close-up of a hand clicking an empty lighter repeatedly, no flame, futile clicks, intimate cinematic"
+                    "url": "media/c0762.jpg",
+                    "query": "WIDE scene of a prehistoric landscape with a tribe around a fire. Warm hues."
                 },
                 {
                     "offset": 1.07,
-                    "url": "media/c0310.jpg",
-                    "query": "A close-up of cracked and empty lighter fluid bottle, golden residue glistening in warm light."
+                    "url": "media/c0763.jpg",
+                    "query": "MEDIUM shot of a tribe member tossing a lighter into the center of the tribe."
+                },
+                {
+                    "offset": 1.75,
+                    "url": "media/c0764.jpg",
+                    "query": "UP of hands grasping an empty lighter, trying to ignite."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0765.jpg",
+                    "query": "A sprawling cityscape at dusk, a lonely box of belongings sits on a curb, ready for disposal."
+                },
+                {
+                    "offset": 1.07,
+                    "url": "media/c0766.jpg",
+                    "query": "A chaotic stock exchange floor, a CEO stands alone. Their phone screen is dark."
+                },
+                {
+                    "offset": 1.75,
+                    "url": "media/c0767.jpg",
+                    "query": "A close-up of a sleek, unused smartphone. The screen reflects the lifeless glow of an empty office."
                 }
             ],
             "words": [
@@ -420,17 +616,39 @@
             "start": 62.14,
             "end": 66.612,
             "lyric": "The gas was gone, they didn't know",
-            "real_meaning": "The bubble has burst but nobody realizes â€” the company is bankrupt but the stock price hasn't caught up.",
+            "real_meaning": "The bubble has burst but nobody realizes — the company is bankrupt but the stock price hasn't caught up.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0312.jpg",
-                    "query": "crowd worshipping an empty shell without realizing it's hollow, blind devotion, dramatic irony cinematic"
+                    "url": "media/c0768.jpg",
+                    "query": "A vast prehistoric landscape at sunset, a lone figure retreating, tribal silhouettes chasing."
                 },
                 {
                     "offset": 0.92,
-                    "url": "media/c0313.jpg",
-                    "query": "A lone executive, face hidden in shadow, frantically shuffling papers under harsh light."
+                    "url": "media/c0769.jpg",
+                    "query": "A chaotic struggle over an empty plastic lighter, tribal members fighting, fire lit weapons glinting."
+                },
+                {
+                    "offset": 2.25,
+                    "url": "media/c0770.jpg",
+                    "query": "A close-up of a tribesman's face, desperation and realization."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0771.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street; high-rise buildings loom above. Neon lights reflect on the damp pavement; cool tones. The camera"
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0772.jpg",
+                    "query": "A chaotic trading floor, people stare at screens. One man in a suit, turns from his terminal, looks at his phone, the screen is dead.  The camera is mid shot."
+                },
+                {
+                    "offset": 2.25,
+                    "url": "media/c0773.jpg",
+                    "query": "A close-up of a man's face, his eyes wide with shock, his phone screen flickers to black, and he is in a dark room. The camera is intimate."
                 }
             ],
             "words": [
@@ -476,12 +694,39 @@
             "start": 68.252,
             "end": 72.232,
             "lyric": "The sacred thing had nothing to show",
-            "real_meaning": "The emperor's new clothes â€” the product is empty, the promise is void, the magic was always fake.",
+            "real_meaning": "The emperor's new clothes — the product is empty, the promise is void, the magic was always fake.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0315.jpg",
-                    "query": "ornate pedestal displaying an empty transparent container, nothing inside, grand emptiness, cinematic"
+                    "url": "media/c0774.jpg",
+                    "query": "A vast prehistoric landscape at sunset, a lone figure running from a distant firelit tribe."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0775.jpg",
+                    "query": "A dramatic struggle around an empty plastic shell, tribespeople fighting, firelight casting warm shadows."
+                },
+                {
+                    "offset": 2.06,
+                    "url": "media/c0776.jpg",
+                    "query": "A close-up of a tribal leader, expression of shock and disbelief, holding an empty lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0777.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, overlooking the urban jungle."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0778.jpg",
+                    "query": "An empty boardroom, a ticker screen flickers to a dead screen. The eerie silence of a broken promise."
+                },
+                {
+                    "offset": 2.06,
+                    "url": "media/c0779.jpg",
+                    "query": "A close-up of a hand holding an empty phone case, the screen cracked, the magic gone. A symbol of the emperor's new clothes."
                 }
             ],
             "words": [
@@ -527,17 +772,39 @@
             "start": 72.232,
             "end": 77.512,
             "lyric": "Empty plastic, hollow shell",
-            "real_meaning": "Consumer waste â€” landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
+            "real_meaning": "Consumer waste — landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0318.jpg",
-                    "query": "pile of discarded plastic objects in harsh light, consumer waste monument, stark cinematic"
+                    "url": "media/c0780.jpg",
+                    "query": "A vast prehistoric valley at sunset, a lone figure dashes away from a distant firelit tribe. Smoke billows.  Cinematic."
                 },
                 {
                     "offset": 0.7,
-                    "url": "media/c0319.jpg",
-                    "query": "A tattered shirt in warm sunlight hangs on barbed wire fence"
+                    "url": "media/c0781.jpg",
+                    "query": "The fleeing figure throws a small object, sparks fly. A fiery torch is dropped as a group of figures grapple.  Warm."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0782.jpg",
+                    "query": "up of a weathered hand clutching an empty, melted plastic container.  Emotional, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0783.jpg",
+                    "query": "A vast, urban landscape at dusk, a solitary figure stands by a towering pile of unopened boxes."
+                },
+                {
+                    "offset": 0.7,
+                    "url": "media/c0784.jpg",
+                    "query": "A bustling city street, neon lights reflecting off rain-soaked pavement, people rushing with shopping bags."
+                },
+                {
+                    "offset": 2.68,
+                    "url": "media/c0785.jpg",
+                    "query": "A discarded pile of broken electronics and clothing in an alley, lit by a single streetlight."
                 }
             ],
             "words": [
@@ -568,17 +835,39 @@
             "start": 78.832,
             "end": 82.772,
             "lyric": "I ran to my green time-travel cell",
-            "real_meaning": "Retreating to safety â€” logging off, going offline, escaping to nature, finding the exit before the building collapses.",
+            "real_meaning": "Retreating to safety — logging off, going offline, escaping to nature, finding the exit before the building collapses.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0321.jpg",
-                    "query": "figure running toward a glowing green doorway at the end of a dark corridor, escape to reality, cinematic"
+                    "url": "media/c0786.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk, a lone figure retreating into the distance."
                 },
                 {
                     "offset": 0.7,
-                    "url": "media/c0322.jpg",
-                    "query": "The glowing doorway shimmers and ripples as if it were water."
+                    "url": "media/c0787.jpg",
+                    "query": "A tribe clashes over a small, empty plastic lighter, flames reflecting on determined faces."
+                },
+                {
+                    "offset": 2.02,
+                    "url": "media/c0788.jpg",
+                    "query": "A close up of the Mage, running towards a glowing green cell, their eyes wide with hope."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0789.jpg",
+                    "query": "Aerial view of a sprawling cityscape. A lone box of belongings sits on a rooftop."
+                },
+                {
+                    "offset": 0.7,
+                    "url": "media/c0790.jpg",
+                    "query": "A sleek, modern boardroom, now empty. A broken IPO bell sits on a table. An e-waste dump is visible out the window."
+                },
+                {
+                    "offset": 2.02,
+                    "url": "media/c0791.jpg",
+                    "query": "A close-up of a personâ€™s hands pressing a power button on a sleek, modern laptop."
                 }
             ],
             "words": [
@@ -624,17 +913,39 @@
             "start": 83.738,
             "end": 88.16,
             "lyric": "Grabbed the hedgehog (just in case)",
-            "real_meaning": "Keeping the one real thing â€” the pet, the garden, the handwritten letter, the analog truth in a digital world.",
+            "real_meaning": "Keeping the one real thing — the pet, the garden, the handwritten letter, the analog truth in a digital world.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0324.jpg",
-                    "query": "hands cradling a small hedgehog protectively, the one real thing, tender cinematic close-up"
+                    "url": "media/c0792.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk, a lone figure slipping away from a distant tribe."
                 },
                 {
                     "offset": 1.08,
-                    "url": "media/c0325.jpg",
-                    "query": "Hands gently caressing the hedgehog's spine. Spines soften and shift with touch"
+                    "url": "media/c0793.jpg",
+                    "query": "A tribesman throwing a lighter, sparks flying, others rushing towards the empty plastic shell."
+                },
+                {
+                    "offset": 2.41,
+                    "url": "media/c0794.jpg",
+                    "query": "up of a hand gently grabbing a hedgehog, eyes filled with determination and warmth."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0795.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0796.jpg",
+                    "query": "CEO walks out of skyscraper, mountains of e-waste in the background."
+                },
+                {
+                    "offset": 2.41,
+                    "url": "media/c0797.jpg",
+                    "query": "A hand gently petting a cat, candlelight flickers on an open journal."
                 }
             ],
             "words": [
@@ -675,17 +986,39 @@
             "start": 89.344,
             "end": 93.352,
             "lyric": "Saw the confusion on each face",
-            "real_meaning": "The moment the magic dies â€” the look in people's eyes when the influencer is exposed, the leader falls.",
+            "real_meaning": "The moment the magic dies — the look in people's eyes when the influencer is exposed, the leader falls.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0327.jpg",
-                    "query": "multiple confused faces looking around in bewilderment, collective disillusionment, portrait cinematic"
+                    "url": "media/c0798.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk, a lone figure fleeing, tribe in pursuit."
                 },
                 {
                     "offset": 0.75,
-                    "url": "media/c0328.jpg",
-                    "query": "A tattered idol worshipped by shadowy figures."
+                    "url": "media/c0799.jpg",
+                    "query": "The figure throws a small, smoking object, tribe members lunge for it, warm hues."
+                },
+                {
+                    "offset": 2.07,
+                    "url": "media/c0800.jpg",
+                    "query": "A tribe member's face, eyes wide with confusion, lit by flickering fire."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0801.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone box of belongings in the foreground, surrounded by towering skyscrapers and neon lights reflecting off rain-soaked streets."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0802.jpg",
+                    "query": "A chaotic Black Friday sale, shoppers rushing, empty boxes being carried, the scene is a flurry of cool tones, and the lights and screens around people are flickering."
+                },
+                {
+                    "offset": 2.07,
+                    "url": "media/c0803.jpg",
+                    "query": "A close-up of a person's face, eyes wide with shock and disillusionment, standing alone in a vast, empty warehouse filled with discarded electronics."
                 }
             ],
             "words": [
@@ -726,17 +1059,39 @@
             "start": 94.912,
             "end": 98.272,
             "lyric": "Closed the door and pressed return",
-            "real_meaning": "Pressing Ctrl+Z on civilization â€” the desire to undo, to go back, to start over knowing what we know.",
+            "real_meaning": "Pressing Ctrl+Z on civilization — the desire to undo, to go back, to start over knowing what we know.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0330.jpg",
-                    "query": "hand pressing a glowing button on a vintage machine, the reset moment, dramatic close-up cinematic"
+                    "url": "media/c0804.jpg",
+                    "query": "Vast prehistoric valley at sunset. Distant tribe circles flickering fire. Figure slips away into wilderness."
                 },
                 {
                     "offset": 1.1,
-                    "url": "media/c0331.jpg",
-                    "query": "Gears and cogs whirl in slow motion, smoke billowing from the machine."
+                    "url": "media/c0805.jpg",
+                    "query": "Mage struggles with empty lighter. Tribe gathers, eyes fixed on the object. Warm firelight casts long shadows."
+                },
+                {
+                    "offset": 1.75,
+                    "url": "media/c0806.jpg",
+                    "query": "Mage's expression of determination.  Holding lighter.  Firelight plays on their face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0807.jpg",
+                    "query": "A sprawling urban landscape at dusk, a lone figure stands amidst a sea of abandoned boxes, reflecting on their belongings, on a dark road."
+                },
+                {
+                    "offset": 1.1,
+                    "url": "media/c0808.jpg",
+                    "query": "A sleek, modern office space, filled with empty chairs, dead screens, and the eerie glow of standby lights."
+                },
+                {
+                    "offset": 1.75,
+                    "url": "media/c0809.jpg",
+                    "query": "A close-up of a hand pressing a button on a keyboard, the reflection of a dark screen in the foreground, fingers trembling with uncertainty."
                 }
             ],
             "words": [
@@ -777,17 +1132,39 @@
             "start": 100.52,
             "end": 103.81,
             "lyric": "Leaving them to crash and burn",
-            "real_meaning": "The guilt of the escapist â€” knowing you're leaving others in the system while you find peace. Survivor's guilt.",
+            "real_meaning": "The guilt of the escapist — knowing you're leaving others in the system while you find peace. Survivor's guilt.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0333.jpg",
-                    "query": "green door closing on a scene of distant fires and chaos, leaving behind, bittersweet cinematic"
+                    "url": "media/c0810.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure flees, firelight flickers behind in warm tones."
                 },
                 {
                     "offset": 0.77,
-                    "url": "media/c0334.jpg",
-                    "query": "A single tear rolling down a cheek, warmly lit by flickering firelight, capturing the pain and resignation of loss."
+                    "url": "media/c0811.jpg",
+                    "query": "The figure throws a small, empty, plastic shell. A tribe wrestles for it in a fiery, dramatic scene."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0812.jpg",
+                    "query": "up of the figure's face. A mix of relief, fear, and guilt, illuminated by warm firelight."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0813.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street, reflections of neon lights on the pavement."
+                },
+                {
+                    "offset": 0.77,
+                    "url": "media/c0814.jpg",
+                    "query": "A chaotic office party, a CEO holds a champagne glass, a clock strikes midnight,  a ticker display of stock prices freezes."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0815.jpg",
+                    "query": "A weary hand holds a journal, a flickering candle casts dancing shadows, a smartphone lies facedown on the table."
                 }
             ],
             "words": [
@@ -828,12 +1205,39 @@
             "start": 103.81,
             "end": 106.49,
             "lyric": "I threw the lighter in the air",
-            "real_meaning": "Releasing the product into the wild â€” the IPO, the open-source release, letting go of what you created.",
+            "real_meaning": "The second letting go — this time not strategic release but genuine surrender. Throwing it away for real.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0300.jpg",
-                    "query": "hand releasing an orange lighter spinning upward into the air, slow motion release, dramatic cinematic"
+                    "url": "media/c0816.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, with a lone figure slipping away from a tribe gathering around a dying fire."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0817.jpg",
+                    "query": "A close battle for a small, empty, shiny object, warm firelight flickering on the tribe's determined faces."
+                },
+                {
+                    "offset": 1.42,
+                    "url": "media/c0818.jpg",
+                    "query": "A hand releasing a small, empty lighter into the night sky, firelight casting a warm glow on the determined face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0819.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, looking down at the urban jungle below."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0820.jpg",
+                    "query": "A grim office, a CEO standing alone at a blank, dark screen computer, the empty trading floor reflecting in the glass doors.  The desk is bare, all files gone.  The city lights in"
+                },
+                {
+                    "offset": 1.42,
+                    "url": "media/c0821.jpg",
+                    "query": "A close-up of a hand, releasing an old cell phone, letting it fall into a dumpster filled with e-waste, under a cold fluorescent bulb."
                 }
             ],
             "words": [
@@ -879,22 +1283,39 @@
             "start": 106.492,
             "end": 114.859,
             "lyric": "Gralha jumped to grab it there",
-            "real_meaning": "The consumer leaping for the product â€” launch day queues, Black Friday stampedes, desperate acquisition.",
+            "real_meaning": "Even now, someone will chase it — the cycle never fully breaks. New consumers, same desperation.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0303.jpg",
-                    "query": "figure leaping desperately to catch a falling object, devotion and desperation, dramatic action cinematic"
+                    "url": "media/c0822.jpg",
+                    "query": "A vast prehistoric landscape at dusk, smoke from fire rises.  Two figures running away from the flames.  A tribe gathers around the fire."
                 },
                 {
                     "offset": 0.71,
-                    "url": "media/c0304.jpg",
-                    "query": "A hand reaches out, fingers splayed wide, grasping for the prize, sunlight glints off the gleaming object."
+                    "url": "media/c0823.jpg",
+                    "query": "A dramatic close-up of a lighter being thrown in front of a running figure.  The lighter falls on the ground and a tribe member reaches for it.  The tribe is running behind the lig"
                 },
                 {
                     "offset": 3.99,
-                    "url": "media/c0305.jpg",
-                    "query": "A chaotic blur of bodies, arms flailing, silhouettes against a harsh sunset, all converging on a single point."
+                    "url": "media/c0824.jpg",
+                    "query": "A close-up of a hand grabbing for a lighter.  The lighter is empty and the hand is covered in dirt and scratches."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0825.jpg",
+                    "query": "A wide shot of a bustling cityscape at night, a lonely cardboard box sits in the foreground under the cold glow of neon lights. A person is walking away."
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0826.jpg",
+                    "query": "A medium shot of a chaotic Black Friday sales event inside a tech store, with shoppers frantically grasping for nothing, illuminated by harsh fluorescent lights."
+                },
+                {
+                    "offset": 3.99,
+                    "url": "media/c0827.jpg",
+                    "query": "A close-up of a desperate hand reaching for a glistening new phone in an e-waste dump, surrounded by discarded tech."
                 }
             ],
             "words": [
@@ -935,22 +1356,39 @@
             "start": 114.859,
             "end": 123.226,
             "lyric": "The tribe all followed, wild and thick",
-            "real_meaning": "The herd following â€” viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "real_meaning": "The pattern repeats infinitely — new object, new tribe, same behavior. The lighter changes, the running doesn't.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0306.jpg",
-                    "query": "stampeding crowd all reaching for the same object, herd mentality, chaotic wide angle cinematic"
+                    "url": "media/c0828.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone figure flees towards a distant cave. The warm hues of the setting sun illuminate the rugged terrain."
                 },
                 {
                     "offset": 0.89,
-                    "url": "media/c0307.jpg",
-                    "query": "A frenzied hand grasping for an object just out of reach."
+                    "url": "media/c0829.jpg",
+                    "query": "A desperate tribe, lit by flickering firelight, fights for an empty lighter, hands outstretched, faces contorted in struggle."
                 },
                 {
                     "offset": 4.19,
-                    "url": "media/c0308.jpg",
-                    "query": "A whirlpool of faces and arms, devouring their own in pursuit."
+                    "url": "media/c0830.jpg",
+                    "query": "A tight close-up of the tribe's leader, eyes wide with primal intensity, teeth bared, wild hair whipping in the wind."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0831.jpg",
+                    "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a busy street corner. Cool, cinematic."
+                },
+                {
+                    "offset": 0.89,
+                    "url": "media/c0832.jpg",
+                    "query": "A sleek office boardroom, a CEO sits alone amidst a sea of glowing screens, the room is dark. Cool tones, modern."
+                },
+                {
+                    "offset": 4.19,
+                    "url": "media/c0833.jpg",
+                    "query": "A close-up of a hand, holding a flickering lighter in the dark, the lighter's flame reflecting on the hand. Intimate, photographic."
                 }
             ],
             "words": [
@@ -996,17 +1434,39 @@
             "start": 123.226,
             "end": 131.593,
             "lyric": "For an object that wouldn't click",
-            "real_meaning": "The empty product â€” the lighter without gas, the app without value, the status symbol without substance.",
+            "real_meaning": "And the object is still empty — was always empty. The gas ran out ages ago. Nobody checks anymore.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0309.jpg",
-                    "query": "close-up of a hand clicking an empty lighter repeatedly, no flame, futile clicks, intimate cinematic"
+                    "url": "media/c0834.jpg",
+                    "query": "A vast, fiery landscape, a lone figure sprinting away from a tribal encampment."
                 },
                 {
                     "offset": 1.07,
-                    "url": "media/c0310.jpg",
-                    "query": "A close-up of cracked and empty lighter fluid bottle, golden residue glistening in warm light."
+                    "url": "media/c0835.jpg",
+                    "query": "A group of tribespeople, cloaked in furs, fiercely grappling over a glinting object."
+                },
+                {
+                    "offset": 4.32,
+                    "url": "media/c0836.jpg",
+                    "query": "A hand, calloused and worn, shaking as it attempts to spark an empty lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0837.jpg",
+                    "query": "A vast, empty city street at dawn, a lone cardboard box sits on the pavement, a few belongings spilling out."
+                },
+                {
+                    "offset": 1.07,
+                    "url": "media/c0838.jpg",
+                    "query": "A crowded trading floor, faces filled with tension, eyes glued to flickering screens displaying volatile numbers."
+                },
+                {
+                    "offset": 4.32,
+                    "url": "media/c0839.jpg",
+                    "query": "A close-up of a hand powering down a smart phone, the screen fading to black, the hand's owner lost in thought."
                 }
             ],
             "words": [
@@ -1047,12 +1507,39 @@
             "start": 131.593,
             "end": 139.96,
             "lyric": "\"Revolution... I'll call you Revolution.\"",
-            "real_meaning": "Naming the hedgehog Revolution â€” real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
+            "real_meaning": "Naming the hedgehog Revolution — real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0336.jpg",
-                    "query": "person holding a hedgehog close to their face, whispering its name, intimate warmth, emotional cinematic"
+                    "url": "media/c0840.jpg",
+                    "query": "A vast prehistoric landscape under a fiery sunset. The lone figure of a woman running away, a tribe fighting over a small object."
+                },
+                {
+                    "offset": 2.79,
+                    "url": "media/c0841.jpg",
+                    "query": "The tribe huddled around a dying fire, arguing over a small, empty plastic object. The woman runs away, a hedgehog clutched to her chest."
+                },
+                {
+                    "offset": 5.58,
+                    "url": "media/c0842.jpg",
+                    "query": "The woman smiles, eyes lit with a warm glow as she gently cradles the hedgehog, her face etched with determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0843.jpg",
+                    "query": "A sprawling cityscape at dusk, a lonely figure stands alone with a box of belongings, ready to move out of a modern, high-rise apartment building."
+                },
+                {
+                    "offset": 2.79,
+                    "url": "media/c0844.jpg",
+                    "query": "A crowded trading floor in a chaotic moment, a CEO with a grim expression, a ringing IPO bell and a 2023 tech gadget in his hand, the screen of a 2023 smartphone in a dead moment."
+                },
+                {
+                    "offset": 5.58,
+                    "url": "media/c0845.jpg",
+                    "query": "A close-up of a young woman's face, lit by candlelight, as she holds a journal, the warm glow reflecting in her eyes, with a small, hedgehog in her lap."
                 }
             ],
             "words": [
@@ -2437,5 +2924,83 @@
             0.312
         ]
     ],
-    "bpm": 92.3
+    "bpm": 92.3,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 32.32,
+            "energy": "high",
+            "intensity": 0.736
+        },
+        {
+            "start": 32.32,
+            "end": 64.13,
+            "energy": "high",
+            "intensity": 0.846
+        },
+        {
+            "start": 64.13,
+            "end": 69.38,
+            "energy": "high",
+            "intensity": 0.772
+        },
+        {
+            "start": 69.38,
+            "end": 84.27,
+            "energy": "high",
+            "intensity": 0.791
+        },
+        {
+            "start": 84.27,
+            "end": 117.08,
+            "energy": "high",
+            "intensity": 0.892
+        },
+        {
+            "start": 117.08,
+            "end": 139.96,
+            "energy": "medium",
+            "intensity": 0.636
+        }
+    ],
+    "transition_points": [
+        0.37,
+        3.69,
+        6.97,
+        10.94,
+        15.53,
+        18.81,
+        23.48,
+        26.75,
+        32.04,
+        36.18,
+        39.29,
+        43.1,
+        46.88,
+        50.18,
+        53.31,
+        56.45,
+        59.74,
+        63.04,
+        66.29,
+        69.61,
+        75.05,
+        78.46,
+        81.48,
+        86.45,
+        89.75,
+        92.83,
+        96.32,
+        99.45,
+        102.56,
+        105.86,
+        108.99,
+        112.43,
+        115.73,
+        119.0,
+        122.95,
+        127.04,
+        130.15,
+        133.4
+    ]
 }

@@ -8,12 +8,39 @@ var track_05_data = {
             "start": 20.18,
             "end": 22.54,
             "lyric": "Muda never said a word",
-            "real_meaning": "The quiet observer â€” the scientist, the philosopher, the one who watches instead of shouting.",
+            "real_meaning": "The quiet observer — the scientist, the philosopher, the one who watches instead of shouting.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0168.jpg",
-                    "query": "silent woman observing from the edge of a firelit group, thoughtful outsider, warm cinematic"
+                    "url": "media/c0432.jpg",
+                    "query": "A vast, firelit prehistoric landscape at twilight. Muda, sits on a rocky outcrop, overlooking the world. Warm tones of sunset and fire."
+                },
+                {
+                    "offset": 0.86,
+                    "url": "media/c0433.jpg",
+                    "query": "Muda, crouched by a rock, strikes a stone. Sparks fly. Dramatic, warm tones, firelight illuminating Mudaâ€™s focused face."
+                },
+                {
+                    "offset": 1.46,
+                    "url": "media/c0434.jpg",
+                    "query": "Close up of Mudaâ€™s determined eyes, reflecting the sparks. Silent, painterly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0435.jpg",
+                    "query": "A vast cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop open, coding softly, the glowing screen reflects on the cityscape."
+                },
+                {
+                    "offset": 0.86,
+                    "url": "media/c0436.jpg",
+                    "query": "A close-up of a young person in a repair cafe, hands working meticulously on a circuit board. The table is covered with tools, and the person is surrounded by a computer."
+                },
+                {
+                    "offset": 1.46,
+                    "url": "media/c0437.jpg",
+                    "query": "A quiet, focused face of a student, eyes studying code in the glow of a laptop screen. Soft, cool tones."
                 }
             ],
             "words": [
@@ -49,12 +76,39 @@ var track_05_data = {
             "start": 24.736,
             "end": 27.148,
             "lyric": "Sat and watched, and saw, and heard",
-            "real_meaning": "First-principles thinking â€” actually looking at reality instead of repeating what others say.",
+            "real_meaning": "First-principles thinking — actually looking at reality instead of repeating what others say.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0171.jpg",
-                    "query": "woman sitting still while chaos moves around her in blur, calm center of the storm, cinematic"
+                    "url": "media/c0438.jpg",
+                    "query": "A vast, prehistoric valley at dusk, Muda sits on a hill, observing the world below, warm hues painting the sky."
+                },
+                {
+                    "offset": 0.5,
+                    "url": "media/c0439.jpg",
+                    "query": "Muda, hands outstretched, holds a stone, eyes focused on the firelit ground, ready to strike.  Close-up, of the spark flying in slow motion, as the stone's edge meets the flint."
+                },
+                {
+                    "offset": 1.11,
+                    "url": "media/c0440.jpg",
+                    "query": "up, of Muda's face, eyes reflecting the fire, a mix of curiosity and determination."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0441.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, code glows on the screen under the urban skyline."
+                },
+                {
+                    "offset": 0.5,
+                    "url": "media/c0442.jpg",
+                    "query": "A repair cafe's interior, with Linux laptops and open source posters on the walls. People collaborate on various tech projects."
+                },
+                {
+                    "offset": 1.11,
+                    "url": "media/c0443.jpg",
+                    "query": "up of a student's hands typing 'Hello World' on a laptop keyboard, fingers dancing on keys."
                 }
             ],
             "words": [
@@ -100,12 +154,39 @@ var track_05_data = {
             "start": 29.542,
             "end": 31.666,
             "lyric": "While they ran with flame and fear",
-            "real_meaning": "While everyone else panicked, hustled, and performed â€” she simply observed the mechanism.",
+            "real_meaning": "While everyone else panicked, hustled, and performed — she simply observed the mechanism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0174.jpg",
-                    "query": "blurred figures running frantically in background while one figure sits still in focus, contrast, cinematic"
+                    "url": "media/c0444.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hillside, watching a distant encampment with a stone in hand,  a warm orange glow on the horizon."
+                },
+                {
+                    "offset": 0.5,
+                    "url": "media/c0445.jpg",
+                    "query": "A close up of Mudaâ€™s face in the dark, her eyes reflect the distant flickers of panic and fire. Her hand grips the stone tightly as she observes."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0446.jpg",
+                    "query": "A tight shot of Muda's hand, stone held firmly, as sparks fly out, a moment of quiet triumph in the chaos."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0447.jpg",
+                    "query": "A wide, panoramic view of a bustling cityscape at night, with a quiet student seated in a dimly lit alley."
+                },
+                {
+                    "offset": 0.5,
+                    "url": "media/c0448.jpg",
+                    "query": "Student at a laptop in a modern library, cool blue screen reflects on her focused face."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0449.jpg",
+                    "query": "Student's eyes locked on the code, calm, while chaos reflected in the window behind her."
                 }
             ],
             "words": [
@@ -151,12 +232,39 @@ var track_05_data = {
             "start": 34.449,
             "end": 36.666,
             "lyric": "Muda sat and observed from here",
-            "real_meaning": "Choosing stillness over action â€” meditation over medication, understanding over reaction.",
+            "real_meaning": "Choosing stillness over action — meditation over medication, understanding over reaction.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0177.jpg",
-                    "query": "woman sitting cross-legged on a rock overlooking a valley of running people, elevated perspective, cinematic"
+                    "url": "media/c0450.jpg",
+                    "query": "A vast prehistoric valley under a fiery sunset, a lone figure sits still, observing the world."
+                },
+                {
+                    "offset": 0.98,
+                    "url": "media/c0451.jpg",
+                    "query": "Muda's hands cradle a stone, eyes focused, as he prepares to strike it."
+                },
+                {
+                    "offset": 1.59,
+                    "url": "media/c0452.jpg",
+                    "query": "Muda's gaze, intense and calm, reflects the dance of distant flames."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0453.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling park, surrounded by towering skyscrapers and neon lights."
+                },
+                {
+                    "offset": 0.98,
+                    "url": "media/c0454.jpg",
+                    "query": "A cluttered desk with dual monitors, one displaying lines of code, the other a Wikipedia edit page, surrounded by scattered papers and a laptop displaying GitHub."
+                },
+                {
+                    "offset": 1.59,
+                    "url": "media/c0455.jpg",
+                    "query": "A close-up of a hand holding a small, worn paperback, resting on a knee.  The hand is still, meditative, but the environment behind it is busy and full of activity."
                 }
             ],
             "words": [
@@ -197,12 +305,39 @@ var track_05_data = {
             "start": 38.855,
             "end": 41.238,
             "lyric": "She picked a stone up from the ground",
-            "real_meaning": "The first act of genuine science â€” picking up what's freely available instead of worshipping what's sold.",
+            "real_meaning": "The first act of genuine science — picking up what's freely available instead of worshipping what's sold.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0180.jpg",
-                    "query": "hands carefully lifting a rough stone from the earth, reverent simplicity, warm macro cinematic"
+                    "url": "media/c0456.jpg",
+                    "query": "A vast, prehistoric landscape at sunset. Muda stands alone, watching the world."
+                },
+                {
+                    "offset": 0.74,
+                    "url": "media/c0457.jpg",
+                    "query": "Muda's hands reach out, picking up a stone. A close up of a hand holding the stone, a dramatic firelight casting shadows."
+                },
+                {
+                    "offset": 1.41,
+                    "url": "media/c0458.jpg",
+                    "query": "Muda's hands, holding the stone, warm tones, the intimate moment of picking up a stone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0459.jpg",
+                    "query": "A quiet student sits alone in a bustling urban cafÃ©, laptop open, coding, surrounded by neon signs and rain-slicked streets."
+                },
+                {
+                    "offset": 0.74,
+                    "url": "media/c0460.jpg",
+                    "query": "up of a screen with a GitHub repository, cursor blinking, hands typing, a repair cafe poster in the background."
+                },
+                {
+                    "offset": 1.41,
+                    "url": "media/c0461.jpg",
+                    "query": "A close-up of a young personâ€™s hands reaching out to pick up a discarded circuit board from the ground."
                 }
             ],
             "words": [
@@ -253,12 +388,39 @@ var track_05_data = {
             "start": 41.44,
             "end": 43.706,
             "lyric": "Made a different kind of sound",
-            "real_meaning": "Innovation from first principles â€” not a louder version of the old noise, but something fundamentally new.",
+            "real_meaning": "Innovation from first principles — not a louder version of the old noise, but something fundamentally new.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0183.jpg",
-                    "query": "stone striking stone with sparks flying in a new pattern, breakthrough moment, dramatic close-up"
+                    "url": "media/c0462.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone figure stands atop a hill, watching the herd of grazing animals, fire in the distance."
+                },
+                {
+                    "offset": 0.77,
+                    "url": "media/c0463.jpg",
+                    "query": "Muda kneels before a pile of stones.  Hands hover, ready to strike, eyes intense.  Spark against the stone."
+                },
+                {
+                    "offset": 1.45,
+                    "url": "media/c0464.jpg",
+                    "query": "Muda's hands, rough and calloused, hold a flint, sparks fly with a satisfying snap, warm glow of a newly lit flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0465.jpg",
+                    "query": "A quiet student in a bustling modern city, surrounded by skyscrapers and technology, contemplating a laptop."
+                },
+                {
+                    "offset": 0.77,
+                    "url": "media/c0466.jpg",
+                    "query": "A busy repair cafÃ©, filled with people collaborating on open-source projects, and repairing tech."
+                },
+                {
+                    "offset": 1.45,
+                    "url": "media/c0467.jpg",
+                    "query": "A close-up of the student's fingers on a keyboard, pressing a key to launch a new program."
                 }
             ],
             "words": [
@@ -299,12 +461,39 @@ var track_05_data = {
             "start": 43.94,
             "end": 45.86,
             "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The real sound of discovery â€” unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
+            "real_meaning": "The real sound of discovery — unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0186.jpg",
-                    "query": "extreme close-up of flint striking steel, sparks cascading in slow motion, beautiful and raw"
+                    "url": "media/c0468.jpg",
+                    "query": "A vast, firelit prehistoric valley at sunset, a lone figure watches."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0469.jpg",
+                    "query": "Muda kneels, stone in hand, striking it against another, sparks fly."
+                },
+                {
+                    "offset": 1.34,
+                    "url": "media/c0470.jpg",
+                    "query": "Muda's determined face, stone held tight, sparks flying in slow motion."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0471.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, coding in the dusk. Cool, modern tones."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0472.jpg",
+                    "query": "A repair cafe filled with people working on gadgets. Cool tones."
+                },
+                {
+                    "offset": 1.34,
+                    "url": "media/c0473.jpg",
+                    "query": "A close-up of a student's hands typing on a keyboard, fingers dancing over the keys."
                 }
             ],
             "words": [
@@ -330,17 +519,39 @@ var track_05_data = {
             "start": 47.612,
             "end": 51.92,
             "lyric": "MUDA! MUDA! The stone ignites!",
-            "real_meaning": "The Enlightenment arrives â€” Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
+            "real_meaning": "The Enlightenment arrives — Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0189.jpg",
-                    "query": "woman holding fire she created herself, triumphant golden light illuminating her face, heroic cinematic"
+                    "url": "media/c0474.jpg",
+                    "query": "A vast prehistoric landscape at dusk. Muda sits on a hill, observing the world, a few small animals running around the bottom of the frame. Cinematic."
                 },
                 {
                     "offset": 0.71,
-                    "url": "media/c0190.jpg",
-                    "query": "Woman's fingers dancing around flame, embers trailing behind in the air."
+                    "url": "media/c0475.jpg",
+                    "query": "Muda, a pre-historic human, focuses intently on a stone, hands ready to strike a fire. Dramatic."
+                },
+                {
+                    "offset": 2.52,
+                    "url": "media/c0476.jpg",
+                    "query": "Muda's face, intense and concentrated, eyes fixed on the stone.  Sparks fly from the stone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0477.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop glowing in the cool tones of neon lights."
+                },
+                {
+                    "offset": 0.71,
+                    "url": "media/c0478.jpg",
+                    "query": "A close-up of a student in a repair cafe, hands working to fix a broken computer, surrounded by old and new electronics."
+                },
+                {
+                    "offset": 2.52,
+                    "url": "media/c0479.jpg",
+                    "query": "A close-up of the student's hands typing on a keyboard, the reflection of a screen on their glasses, showing the \"Hello, World!\" command."
                 }
             ],
             "words": [
@@ -376,12 +587,39 @@ var track_05_data = {
             "start": 51.995,
             "end": 53.776,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0192.jpg",
-                    "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
+                    "url": "media/c0480.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0481.jpg",
+                    "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0482.jpg",
+                    "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0483.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0484.jpg",
+                    "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0485.jpg",
+                    "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
                 }
             ],
             "words": [
@@ -422,12 +660,39 @@ var track_05_data = {
             "start": 54.04,
             "end": 56.455,
             "lyric": "MUDA! MUDA! No need to run!",
-            "real_meaning": "You don't need the rat race â€” the fire was never in the running, it was in the understanding.",
+            "real_meaning": "You don't need the rat race — the fire was never in the running, it was in the understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0195.jpg",
-                    "query": "people stopping mid-run and looking around in wonder, collective awakening, wide cinematic"
+                    "url": "media/c0486.jpg",
+                    "query": "A vast, prehistoric landscape at dusk, Muda sits silently on a hill, watching the world below. A cinematic wide shot."
+                },
+                {
+                    "offset": 0.6,
+                    "url": "media/c0487.jpg",
+                    "query": "Muda picks up a stone, firelight flickers in their eyes. Muda strikes the stone against a rock, sparks fly. A dramatic medium shot."
+                },
+                {
+                    "offset": 1.2,
+                    "url": "media/c0488.jpg",
+                    "query": "Muda's face glows with warmth and determination as they finally create fire. A close up of Muda's face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0489.jpg",
+                    "query": "A vast cityscape at dusk, a lone student in silhouette, a laptop aglow with code. Urban, cinematic."
+                },
+                {
+                    "offset": 0.6,
+                    "url": "media/c0490.jpg",
+                    "query": "A bustling repair cafe, tools and screens, a community around a computer. Contemporary, cool tones."
+                },
+                {
+                    "offset": 1.2,
+                    "url": "media/c0491.jpg",
+                    "query": "A close-up of eyes, reflecting a screen with endless lines of code, determination. Intimate, photographic."
                 }
             ],
             "words": [
@@ -468,17 +733,39 @@ var track_05_data = {
             "start": 57.06,
             "end": 63.32,
             "lyric": "The fire's here, the fire's won!",
-            "real_meaning": "The solution was always at your feet â€” open knowledge, simple living, human connection without intermediaries.",
+            "real_meaning": "The solution was always at your feet — open knowledge, simple living, human connection without intermediaries.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0198.jpg",
-                    "query": "fire burning freely on the ground surrounded by simple stones, accessible truth, warm cinematic"
+                    "url": "media/c0492.jpg",
+                    "query": "A vast, firelit prehistoric valley at dusk. Muda stands, observing."
                 },
                 {
                     "offset": 0.57,
-                    "url": "media/c0199.jpg",
-                    "query": "close-up detail of The fire's here, the fire's won!, cinematic macro, warm lighting, painterly"
+                    "url": "media/c0493.jpg",
+                    "query": "Muda crouches, striking a stone against another, sparks fly."
+                },
+                {
+                    "offset": 2.96,
+                    "url": "media/c0494.jpg",
+                    "query": "Muda's face, eyes wide with triumph. Warm, flickering light on skin."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0495.jpg",
+                    "query": "A quiet student sits alone in a bustling urban cafe, laptop open, neon signs reflecting on the glass window."
+                },
+                {
+                    "offset": 0.57,
+                    "url": "media/c0496.jpg",
+                    "query": "A repair cafe in a modern warehouse, people tinkering with tech, a Linux sticker on a laptop visible."
+                },
+                {
+                    "offset": 2.96,
+                    "url": "media/c0497.jpg",
+                    "query": "A close-up of a hand typing \"Hello World\" on a keyboard, a warm smile on the student's face."
                 }
             ],
             "words": [
@@ -519,12 +806,39 @@ var track_05_data = {
             "start": 63.32,
             "end": 64.835,
             "lyric": "She stood up, the moss aglow",
-            "real_meaning": "Rising with quiet power â€” not the loud disruptor, but the calm demonstrator. Show, don't tell.",
+            "real_meaning": "Rising with quiet power — not the loud disruptor, but the calm demonstrator. Show, don't tell.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0201.jpg",
-                    "query": "woman standing tall with glowing moss at her feet, quiet power, dawn light cinematic"
+                    "url": "media/c0498.jpg",
+                    "query": "A vast, prehistoric valley at dusk, silhouetted figures gathered around a distant glow, a lone figure watches."
+                },
+                {
+                    "offset": 0.91,
+                    "url": "media/c0499.jpg",
+                    "query": "A figure stands, the glow of firelit moss reflecting on them, a stone in their hand."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0500.jpg",
+                    "query": "A figure's face, strong, determined, the reflection of a glowing mossy rock beneath them."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0501.jpg",
+                    "query": "A bustling cityscape at dusk, a lone figure sitting quietly in a cozy cafe, laptop open, surrounded by books, and glowing screens, 35mm lens."
+                },
+                {
+                    "offset": 0.91,
+                    "url": "media/c0502.jpg",
+                    "query": "A cluttered desk with a vintage laptop, surrounded by scattered papers, a steaming cup of coffee, and a half-eaten sandwich, 50mm lens."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0503.jpg",
+                    "query": "up of a determined face, eyes fixed on the code, a soft smile playing at the corners of the mouth, 85mm lens."
                 }
             ],
             "words": [
@@ -565,17 +879,39 @@ var track_05_data = {
             "start": 65.5,
             "end": 70.39,
             "lyric": "\"Look,\" she said, \"I'll show you slow",
-            "real_meaning": "Teaching patiently â€” the antithesis of viral content, the slow education that actually transforms.",
+            "real_meaning": "Teaching patiently — the antithesis of viral content, the slow education that actually transforms.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0204.jpg",
-                    "query": "teacher demonstrating something simple to gathered listeners, patient wisdom, warm firelight cinematic"
+                    "url": "media/c0504.jpg",
+                    "query": "A vast prehistoric landscape at dusk, Muda stands silently, observing her tribe under a sky of warm hues."
                 },
                 {
                     "offset": 0.54,
-                    "url": "media/c0205.jpg",
-                    "query": "A close-up of the teacher's hands, gently molding clay by firelight."
+                    "url": "media/c0505.jpg",
+                    "query": "Muda crouches, stone in hand, sparks flying as she carefully strikes it against another."
+                },
+                {
+                    "offset": 2.33,
+                    "url": "media/c0506.jpg",
+                    "query": "Muda's focused eyes reflect the growing flames, her expression calm and determined as she teaches."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0507.jpg",
+                    "query": "A wide cityscape at dusk with neon lights reflecting on wet streets. A lone figure sits at a table with a laptop in a quiet corner cafe."
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0508.jpg",
+                    "query": "A close-up of hands typing on a keyboard, the glow of a laptop screen illuminating a face with a determined expression."
+                },
+                {
+                    "offset": 2.33,
+                    "url": "media/c0509.jpg",
+                    "query": "A student's hands gently guiding a mentor's hands to type, with the soft glow of a monitor reflecting a \"Hello World\" code."
                 }
             ],
             "words": [
@@ -621,17 +957,39 @@ var track_05_data = {
             "start": 70.54,
             "end": 76.139,
             "lyric": "Pots. Wheel. Stone. Fire.",
-            "real_meaning": "The building blocks were always free â€” pottery, engineering, tools, energy. No subscription required.",
+            "real_meaning": "The building blocks were always free — pottery, engineering, tools, energy. No subscription required.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0207.jpg",
-                    "query": "four simple objects arranged on the ground â€” pot wheel stone flame, fundamental tools of civilization, cinematic"
+                    "url": "media/c0510.jpg",
+                    "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hill. Warm hues paint the sky, fire is seen in the distance. Muda looks out over his domain."
                 },
                 {
                     "offset": 0.88,
-                    "url": "media/c0208.jpg",
-                    "query": "Close-up of hands molding clay in soft sunlight."
+                    "url": "media/c0511.jpg",
+                    "query": "Muda crouches, striking flint against stone, sparks fly, fire ignites.  Muda's eyes gleam in the warm glow."
+                },
+                {
+                    "offset": 3.3,
+                    "url": "media/c0512.jpg",
+                    "query": "up of Muda's hands, calloused, gripping flint and stone, sparks fly, ignite the fire."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0513.jpg",
+                    "query": "A wide shot of a bustling cityscape at night, with a quiet student sitting alone in a brightly lit cafe, laptop open to a coding window, reflecting the urban environment."
+                },
+                {
+                    "offset": 0.88,
+                    "url": "media/c0514.jpg",
+                    "query": "A medium shot of a repair cafe. A student and an elder repairing a vintage radio, amidst a backdrop of open laptops and tools."
+                },
+                {
+                    "offset": 3.3,
+                    "url": "media/c0515.jpg",
+                    "query": "A close-up of a studentâ€™s hands. They are holding a newly fired piece of pottery, the glaze still wet, with Linux code projected onto the surface."
                 }
             ],
             "words": [
@@ -662,17 +1020,39 @@ var track_05_data = {
             "start": 76.14,
             "end": 76.694,
             "lyric": "No need to run. No need to tire.\"",
-            "real_meaning": "The anti-hustle manifesto â€” sufficiency over excess, being over doing, presence over performance.",
+            "real_meaning": "The anti-hustle manifesto — sufficiency over excess, being over doing, presence over performance.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0210.jpg",
-                    "query": "person sitting peacefully by a self-sustaining fire, no urgency, serene twilight cinematic"
+                    "url": "media/c0516.jpg",
+                    "query": "A sweeping vista of a prehistoric valley at dusk, a lone figure, Muda, stands, staring into the distance. The sun paints the sky with warm hues."
                 },
                 {
                     "offset": 0.69,
-                    "url": "media/c0211.jpg",
-                    "query": "A pair of worn-out boots placed near the fire, glowing embers reflecting off scuffed leather."
+                    "url": "media/c0517.jpg",
+                    "query": "Muda crouches, hand poised over a stone, eyes fixed on the task, a small fire pit, the light warm and inviting."
+                },
+                {
+                    "offset": 2.48,
+                    "url": "media/c0518.jpg",
+                    "query": "Muda's face, tranquil, eyes reflecting the growing fire, a quiet smile."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0519.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open to a code editor."
+                },
+                {
+                    "offset": 0.69,
+                    "url": "media/c0520.jpg",
+                    "query": "A cozy repair cafe, tools scattered, a group collaboratively tinkers with old electronics."
+                },
+                {
+                    "offset": 2.48,
+                    "url": "media/c0521.jpg",
+                    "query": "A close-up of a hand gently typing on a keyboard, a serene expression on the face of the person."
                 }
             ],
             "words": [
@@ -723,17 +1103,39 @@ var track_05_data = {
             "start": 76.694,
             "end": 80.4,
             "lyric": "MUDA! MUDA! No need to run!",
-            "real_meaning": "You don't need the rat race â€” the fire was never in the running, it was in the understanding.",
+            "real_meaning": "Peace is possible — you can step off the treadmill and the world doesn't end.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0195.jpg",
-                    "query": "people stopping mid-run and looking around in wonder, collective awakening, wide cinematic"
+                    "url": "media/c0558.jpg",
+                    "query": "A vast, prehistoric landscape at sunset, with Muda, a silent observer, standing atop a hill overlooking a herd of running, fleeing animals."
                 },
                 {
                     "offset": 0.72,
-                    "url": "media/c0196.jpg",
-                    "query": "A lone runner pauses, face tilting up towards golden rays of sunlight."
+                    "url": "media/c0559.jpg",
+                    "query": "Muda picks up a stone, crouches, striking it against another, sparks fly in the twilight, warm tones."
+                },
+                {
+                    "offset": 1.93,
+                    "url": "media/c0560.jpg",
+                    "query": "Muda's determined expression in close up as the sparks turn into a fire burning in the darkness."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0561.jpg",
+                    "query": "A vast cityscape at dusk, a lone student sitting quietly in a bustling urban plaza, surrounded by towering glass buildings. The student's laptop emits a soft glow, reflecting on th"
+                },
+                {
+                    "offset": 0.72,
+                    "url": "media/c0562.jpg",
+                    "query": "A crowded repair cafe, tools and electronics scattered, a group of people collaboratively fixing devices, a sense of camaraderie and shared purpose."
+                },
+                {
+                    "offset": 1.93,
+                    "url": "media/c0563.jpg",
+                    "query": "A close-up of a hand gently touching a glowing screen, fingers hovering over a keyboard, the reflection of the screen illuminating the face of the person in quiet determination."
                 }
             ],
             "words": [
@@ -774,12 +1176,39 @@ var track_05_data = {
             "start": 80.4,
             "end": 80.88,
             "lyric": "Gralha's jaw fell to the floor",
-            "real_meaning": "The believer's world shattering â€” when the faithful see the truth, the grief is physical.",
+            "real_meaning": "The believer's world shattering — when the faithful see the truth, the grief is physical.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0213.jpg",
-                    "query": "man's face frozen in shock and disbelief, world crumbling around him, dramatic portrait cinematic"
+                    "url": "media/c0522.jpg",
+                    "query": "A vast prehistoric valley at dusk, a lone figure sits on a cliff watching the horizon. Warm, painterly."
+                },
+                {
+                    "offset": 0.64,
+                    "url": "media/c0523.jpg",
+                    "query": "Muda picks up a stone from the ground. The fire is a warm tone."
+                },
+                {
+                    "offset": 1.82,
+                    "url": "media/c0524.jpg",
+                    "query": "A close-up of the face as the jaw falls open, eyes widened in disbelief."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0525.jpg",
+                    "query": "A vast urban landscape at dusk, a lone student sits quietly in a bustling city park, surrounded by skyscrapers and neon lights reflecting on wet pavement."
+                },
+                {
+                    "offset": 0.64,
+                    "url": "media/c0526.jpg",
+                    "query": "A teenager sits in a dimly lit room, fingers dancing on a sleek laptop keyboard, code streaming across multiple screens, surrounded by stacks of books and open source manuals."
+                },
+                {
+                    "offset": 1.82,
+                    "url": "media/c0527.jpg",
+                    "query": "A close-up of a young woman's face, her eyes wide with shock, mouth agape, as she stares at a computer screen, her reflection in the glass showing the pain of a shattered belief."
                 }
             ],
             "words": [
@@ -820,12 +1249,39 @@ var track_05_data = {
             "start": 80.88,
             "end": 84.44,
             "lyric": "The fire's here, the fire's won!",
-            "real_meaning": "The solution was always at your feet â€” open knowledge, simple living, human connection without intermediaries.",
+            "real_meaning": "The stone hasn't moved — the truth doesn't go anywhere. It was always available for anyone willing to look down.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0198.jpg",
-                    "query": "fire burning freely on the ground surrounded by simple stones, accessible truth, warm cinematic"
+                    "url": "media/c0564.jpg",
+                    "query": "A vast prehistoric landscape at dusk, Muda sits silently, observing the world. Firelit, warm tones."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0565.jpg",
+                    "query": "Muda's hands pick up a stone, strikes it against another. Fire sparks, cinematic."
+                },
+                {
+                    "offset": 2.02,
+                    "url": "media/c0566.jpg",
+                    "query": "Muda's face, eyes wide, breath misting in the cold, with the flames growing, glowing."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0567.jpg",
+                    "query": "A wide cityscape at dusk, a student seated alone in a bustling cafÃ©, laptop open, quiet focus."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0568.jpg",
+                    "query": "A student is editing code, surrounded by urban tech, coffee steaming."
+                },
+                {
+                    "offset": 2.02,
+                    "url": "media/c0569.jpg",
+                    "query": "up of the student's eyes, reflecting a screen, determined, focused."
                 }
             ],
             "words": [
@@ -866,12 +1322,39 @@ var track_05_data = {
             "start": 84.44,
             "end": 84.66,
             "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The sound persists â€” truth doesn't need followers, it just keeps working. Stone on stone, always available.",
+            "real_meaning": "The sound persists — truth doesn't need followers, it just keeps working. Stone on stone, always available.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0225.jpg",
-                    "query": "stones striking in rhythm, sparks in darkness, persistent simple truth, meditative cinematic"
+                    "url": "media/c0570.jpg",
+                    "query": "A vast prehistoric valley at sunset. Muda, a silent figure, watches the horizon."
+                },
+                {
+                    "offset": 1.01,
+                    "url": "media/c0571.jpg",
+                    "query": "Muda crouches, hand poised over a stone. Firelight dances."
+                },
+                {
+                    "offset": 2.75,
+                    "url": "media/c0572.jpg",
+                    "query": "Muda's hands, calloused and strong, strike stones. Sparks fly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0573.jpg",
+                    "query": "A vast urban cityscape at night with a quiet student illuminated in a high-rise apartment window, typing code on their laptop. The city is a vast array of lights that reflect on th"
+                },
+                {
+                    "offset": 1.01,
+                    "url": "media/c0574.jpg",
+                    "query": "A close-up of the student's hands, navigating through lines of code. The screen shows Wikipedia, and the code is being integrated into it. The keyboard is blue with bright cool-ton"
+                },
+                {
+                    "offset": 2.75,
+                    "url": "media/c0575.jpg",
+                    "query": "A close-up shot of a single key on the keyboard being pressed, a tiny hand pressing down a key.  The focus is the key, but the reflection of the student's face can be seen on the k"
                 }
             ],
             "words": [
@@ -897,12 +1380,39 @@ var track_05_data = {
             "start": 84.66,
             "end": 88.98,
             "lyric": "Tronco whispered \"What's this for?\"",
-            "real_meaning": "The pragmatist who can't see value in what's free â€” 'if it's not monetizable, what's the point?'",
+            "real_meaning": "The pragmatist who can't see value in what's free — 'if it's not monetizable, what's the point?'",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0216.jpg",
-                    "query": "confused man whispering while looking at a simple stone, unable to see its value, intimate cinematic"
+                    "url": "media/c0528.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda sits on a ridge, overlooking the landscape, a single bird flying in the sky above them."
+                },
+                {
+                    "offset": 0.79,
+                    "url": "media/c0529.jpg",
+                    "query": "Muda crouches, picks up a stone, striking it against another. Sparks fly, landing on kindling, warm tones fill the scene."
+                },
+                {
+                    "offset": 2.53,
+                    "url": "media/c0530.jpg",
+                    "query": "A close-up of Muda's face, their expression curious and focused."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0531.jpg",
+                    "query": "A wide, birds-eye view of a bustling city at night, a quiet student illuminated by a laptop screen in a crowded cafe."
+                },
+                {
+                    "offset": 0.79,
+                    "url": "media/c0532.jpg",
+                    "query": "A modern library filled with people on laptops, bookshelves replaced by servers, one person looking confused and disinterested."
+                },
+                {
+                    "offset": 2.53,
+                    "url": "media/c0533.jpg",
+                    "query": "A close-up of a personâ€™s face, eyes reflecting the glow of a computer screen, expression doubtful and questioning."
                 }
             ],
             "words": [
@@ -938,12 +1448,39 @@ var track_05_data = {
             "start": 88.98,
             "end": 89.09,
             "lyric": "The women cheered, the men looked scared",
-            "real_meaning": "Liberation terrifies those who built their identity on the old system â€” freedom is threatening to the invested.",
+            "real_meaning": "Liberation terrifies those who built their identity on the old system — freedom is threatening to the invested.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0219.jpg",
-                    "query": "split scene of joy and fear, some celebrating while others recoil, emotional contrast, cinematic"
+                    "url": "media/c0534.jpg",
+                    "query": "A vast prehistoric landscape under a starlit sky, Muda stands alone watching the horizon. Dark silhouettes of mammoths in the distance, smoke in the foreground."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0535.jpg",
+                    "query": "Muda bends down, picks up a stone, and strikes it against another. Sparks fly, highlighting their weathered face in warm tones."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0536.jpg",
+                    "query": "A circle of people around a newly lit fire. Women's faces glow with joy, men's with fear, all eyes on Muda."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0537.jpg",
+                    "query": "A wide shot of a bustling cityscape at dusk, a lone student sitting quietly on a bench in a techno park, with skyscrapers towering in the background."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0538.jpg",
+                    "query": "A medium shot of a modern cafe, patrons typing on laptops, servers humming quietly, and the glow of screens reflecting on their faces."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0539.jpg",
+                    "query": "A close-up of a man's face, his eyes wide with fear as he looks at the screen showing lines of code."
                 }
             ],
             "words": [
@@ -989,12 +1526,39 @@ var track_05_data = {
             "start": 89.09,
             "end": 89.195,
             "lyric": "The first belief was declared",
-            "real_meaning": "But even liberation becomes dogma â€” Muda's truth is already being turned into the next ideology.",
+            "real_meaning": "But even liberation becomes dogma — Muda's truth is already being turned into the next ideology.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0222.jpg",
-                    "query": "crowd beginning to form around a new symbol, the cycle starting again, bittersweet cinematic"
+                    "url": "media/c0540.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda sits silent on a hill, observing the world below, firelit hues painting the landscape."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0541.jpg",
+                    "query": "Muda's hands cradle a stone, striking it against another, sparks flying, warmth reflected in their eyes."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0542.jpg",
+                    "query": "Muda's eyes, intense and focused, the fire within, as the first belief was declared."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0543.jpg",
+                    "query": "A quiet student sits alone in a vast, modern library, surrounded by glowing screens and towering bookshelves. Cool, urban atmosphere."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0544.jpg",
+                    "query": "The student types furiously at a laptop, surrounded by a bustling repair cafÃ©, full of people and technology."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0545.jpg",
+                    "query": "The student's face lit up by the glow of their laptop, with a mix of determination and frustration."
                 }
             ],
             "words": [
@@ -1030,12 +1594,39 @@ var track_05_data = {
             "start": 89.195,
             "end": 89.3,
             "lyric": "MUDA! MUDA! The stone ignites!",
-            "real_meaning": "The Enlightenment arrives â€” Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
+            "real_meaning": "The truth spreads — but now it's spreading through the same channels that spread the lie. The medium shapes the message.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0189.jpg",
-                    "query": "woman holding fire she created herself, triumphant golden light illuminating her face, heroic cinematic"
+                    "url": "media/c0546.jpg",
+                    "query": "A vast prehistoric valley at dusk, silhouetted figures gather around a distant glow. Muda watches,  stone in hand."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0547.jpg",
+                    "query": "Muda strikes the stone against a rock, sparks fly towards a pile of dried leaves."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0548.jpg",
+                    "query": "Muda's focused eyes, sparks fly up, a small fire ignites, the first flames flicker."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0549.jpg",
+                    "query": "A quiet student sits alone in a bustling city park, laptop open, fingers poised over the keyboard, ready to type \"Hello World\"."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0550.jpg",
+                    "query": "A repair cafe at dusk. Neon lights reflect off tools and tech, the space filled with people collaborating on open source projects."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0551.jpg",
+                    "query": "A close up of the student's face, eyes bright with determination as they type in code, the cityscape glistening behind them."
                 }
             ],
             "words": [
@@ -1071,12 +1662,39 @@ var track_05_data = {
             "start": 89.3,
             "end": 90.8,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "The awakening spreads — more people seeing through the illusion, finding their own fire.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0192.jpg",
-                    "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
+                    "url": "media/c0552.jpg",
+                    "query": "A vast, prehistoric valley at dusk, a lone figure watches from a ridge. Shadows dance."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0553.jpg",
+                    "query": "Muda crouches, striking stone against stone. Sparks fly in slow motion."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0554.jpg",
+                    "query": "A close up of Muda's face, eyes wide with wonder, illuminated by first flames."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0555.jpg",
+                    "query": "A wide urban street at dawn, a lone figure sitting on a bench, laptop aglow, surrounded by towering glass buildings."
+                },
+                {
+                    "offset": 0.04,
+                    "url": "media/c0556.jpg",
+                    "query": "A bustling repair cafe, neon lights reflecting off rain-wet streets, tech enthusiasts huddled around tables, tools, and laptops."
+                },
+                {
+                    "offset": 0.07,
+                    "url": "media/c0557.jpg",
+                    "query": "A close-up of a hand hovering over a keyboard, fingers poised to type, eyes reflecting the glow of a screen."
                 }
             ],
             "words": [
@@ -1117,22 +1735,39 @@ var track_05_data = {
             "start": 99.93,
             "end": 104.924,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion â€” 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0192.jpg",
-                    "query": "radiant figure surrounded by dawning light while shadows flee, awakening moment, epic cinematic"
+                    "url": "media/c0480.jpg",
+                    "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
                 },
                 {
                     "offset": 0.98,
-                    "url": "media/c0193.jpg",
-                    "query": "A radiant tear traces down her cheek, catching sunrays like liquid gold."
+                    "url": "media/c0481.jpg",
+                    "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
                 },
                 {
                     "offset": 2.7,
-                    "url": "media/c0194.jpg",
-                    "query": "Shadows recoil and dissipate, revealing a vast, barren landscape beneath a crimson sky."
+                    "url": "media/c0482.jpg",
+                    "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0483.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                },
+                {
+                    "offset": 0.98,
+                    "url": "media/c0484.jpg",
+                    "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
+                },
+                {
+                    "offset": 2.7,
+                    "url": "media/c0485.jpg",
+                    "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
                 }
             ],
             "words": [
@@ -1175,6 +1810,7 @@ var track_05_data = {
             "lyric": "Tchak... tchak... tchak...",
             "real_meaning": "Instrumental / ambience",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 111.14,
@@ -1208,22 +1844,39 @@ var track_05_data = {
             "start": 114.46,
             "end": 114.56,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0228.jpg",
-                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
+                    "url": "media/c0576.jpg",
+                    "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
                     "offset": 0.76,
-                    "url": "media/c0229.jpg",
-                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
+                    "url": "media/c0577.jpg",
+                    "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
                 },
                 {
                     "offset": 9.74,
-                    "url": "media/c0230.jpg",
-                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
+                    "url": "media/c0578.jpg",
+                    "query": "Close up of Muda's determined eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0579.jpg",
+                    "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0580.jpg",
+                    "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
+                },
+                {
+                    "offset": 9.74,
+                    "url": "media/c0581.jpg",
+                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
                 }
             ],
             "words": [
@@ -1259,22 +1912,39 @@ var track_05_data = {
             "start": 114.56,
             "end": 114.66,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0228.jpg",
-                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
+                    "url": "media/c0576.jpg",
+                    "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
                     "offset": 0.76,
-                    "url": "media/c0229.jpg",
-                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
+                    "url": "media/c0577.jpg",
+                    "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
                 },
                 {
                     "offset": 9.74,
-                    "url": "media/c0230.jpg",
-                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
+                    "url": "media/c0578.jpg",
+                    "query": "Close up of Muda's determined eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0579.jpg",
+                    "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0580.jpg",
+                    "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
+                },
+                {
+                    "offset": 9.74,
+                    "url": "media/c0581.jpg",
+                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
                 }
             ],
             "words": [
@@ -1310,22 +1980,39 @@ var track_05_data = {
             "start": 114.66,
             "end": 135.76,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album â€” the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0228.jpg",
-                    "query": "hands cupped around a self-made flame, intimate warmth, human power, emotional close-up cinematic"
+                    "url": "media/c0576.jpg",
+                    "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
                     "offset": 0.56,
-                    "url": "media/c0229.jpg",
-                    "query": "A single ember floating away from the fire against a dark background, with warm tones and painterly strokes."
+                    "url": "media/c0577.jpg",
+                    "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
                 },
                 {
                     "offset": 9.54,
-                    "url": "media/c0230.jpg",
-                    "query": "An abstract representation of a flame transforming into a heart in rich reds and oranges, glowing with cinematic lighting."
+                    "url": "media/c0578.jpg",
+                    "query": "Close up of Muda's determined eyes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0579.jpg",
+                    "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
+                },
+                {
+                    "offset": 0.56,
+                    "url": "media/c0580.jpg",
+                    "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
+                },
+                {
+                    "offset": 9.54,
+                    "url": "media/c0581.jpg",
+                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
                 }
             ],
             "words": [
@@ -2731,7 +3418,84 @@ var track_05_data = {
             0.26
         ]
     ],
-    "bpm": 99.4
+    "bpm": 99.4,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 39.43,
+            "energy": "high",
+            "intensity": 0.713
+        },
+        {
+            "start": 39.43,
+            "end": 64.32,
+            "energy": "high",
+            "intensity": 0.831
+        },
+        {
+            "start": 64.32,
+            "end": 72.98,
+            "energy": "high",
+            "intensity": 0.786
+        },
+        {
+            "start": 72.98,
+            "end": 106.56,
+            "energy": "high",
+            "intensity": 0.837
+        },
+        {
+            "start": 106.56,
+            "end": 111.6,
+            "energy": "high",
+            "intensity": 0.909
+        },
+        {
+            "start": 111.6,
+            "end": 139.84,
+            "energy": "high",
+            "intensity": 0.767
+        }
+    ],
+    "transition_points": [
+        0.42,
+        3.44,
+        6.71,
+        9.73,
+        13.03,
+        16.04,
+        19.92,
+        24.73,
+        28.63,
+        31.93,
+        35.22,
+        39.78,
+        43.93,
+        47.83,
+        52.64,
+        56.24,
+        59.54,
+        62.83,
+        66.13,
+        69.43,
+        72.45,
+        76.32,
+        79.34,
+        83.22,
+        86.94,
+        90.12,
+        93.37,
+        96.73,
+        100.64,
+        104.23,
+        107.83,
+        111.06,
+        114.13,
+        117.73,
+        121.32,
+        129.13,
+        133.03
+    ]
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

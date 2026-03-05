@@ -7,12 +7,29 @@
             "start": 11.392,
             "end": 13.312,
             "lyric": "Gralha held the orange box",
-            "real_meaning": "The first human holding a smartphone â€” turning it over, mesmerized by something they can't understand.",
+            "real_meaning": "The first human holding a smartphone — turning it over, mesmerized by something they can't understand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0009.jpg",
-                    "query": "primitive man holding a glowing orange object in both hands, reverent awe, cinematic firelight"
+                    "url": "media/c0018.jpg",
+                    "query": "A lush, prehistoric valley stretches out beneath a stormy sky. In the foreground, a green phone booth stands as an alien artifact amidst the wild landscape."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0019.jpg",
+                    "query": "A rugged man in animal hides approaches the phone booth, a Bic lighter in his hand. The firelight casts warm shadows on his face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0021.jpg",
+                    "query": "A dimly lit attic filled with forgotten boxes, a dusty laptop on a wooden table, a single ray of sunlight streaming through a small window."
+                },
+                {
+                    "offset": 0.92,
+                    "url": "media/c0022.jpg",
+                    "query": "A teenager's bedroom at night, glow of a first iPhone illuminating their face."
                 }
             ],
             "words": [
@@ -49,7 +66,20 @@
             "end": 14.572,
             "lyric": "turned it in his hand",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 1.96,
+                    "url": "media/c0020.jpg",
+                    "query": "The man holds a rectangular orange box with both hands. The box is turned over, mesmerized by something he can't understand."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 1.96,
+                    "url": "media/c0023.jpg",
+                    "query": "up of hands cautiously turning over a sleek, brand-new iPhone."
+                }
+            ],
             "words": [
                 {
                     "start": 13.312,
@@ -83,12 +113,29 @@
             "start": 14.572,
             "end": 16.272,
             "lyric": "\"Mage,\" he said",
-            "real_meaning": "The consumer asking the tech guru to explain how it works â€” already surrendering authority to the 'expert'.",
+            "real_meaning": "The consumer asking the tech guru to explain how it works — already surrendering authority to the 'expert'.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0012.jpg",
-                    "query": "two figures in a dark cave, one kneeling before the other, seeking knowledge, dramatic shadows"
+                    "url": "media/c0024.jpg",
+                    "query": "A lush prehistoric valley, a green phone booth stands. Dramatic, cinematic."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0025.jpg",
+                    "query": "Two figures meet, one holds a BIC lighter. Firelight dances, warm tones."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0027.jpg",
+                    "query": "A sprawling cityscape at dusk, a teenager's bedroom window in the foreground, dusty laptop on a desk in the attic. A streetlight glow."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0028.jpg",
+                    "query": "The teenager's hands trembling as they open the first iPhone box, a gleam of anticipation in their eyes."
                 }
             ],
             "words": [
@@ -116,6 +163,7 @@
             "lyric": "\"explain to me",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 16.71,
@@ -141,6 +189,7 @@
             "lyric": "help me understand",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 17.532,
@@ -168,13 +217,35 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0015.jpg",
-                    "query": "ethereal sleeping flame curled up inside a translucent box, dreamlike surreal art, warm glow"
+                    "url": "media/c0030.jpg",
+                    "query": "A lush prehistoric valley stretches out, a green phone booth stands alone in the center, surrounded by towering trees."
                 },
                 {
                     "offset": 0.54,
-                    "url": "media/c0016.jpg",
-                    "query": "Glowing tendrils of flame gently unfurl from their box."
+                    "url": "media/c0031.jpg",
+                    "query": "A figure emerges from the phone booth, holding a small, glowing object, cave dwellers gather around, eyes wide with awe."
+                },
+                {
+                    "offset": 2.05,
+                    "url": "media/c0032.jpg",
+                    "query": "The figure ignites a cave dwellerâ€™s torch with a small, orange flame from the glowing object, both faces aglow with wonder."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0033.jpg",
+                    "query": "A sprawling cityscape at dusk, a lone attic window glows with the first light of a dusty laptop. Urban, cinematic."
+                },
+                {
+                    "offset": 0.54,
+                    "url": "media/c0034.jpg",
+                    "query": "A teenager's hands tremble as they hover over a sleek, unopened iPhone box, eyes wide with anticipation. Cool tones."
+                },
+                {
+                    "offset": 2.05,
+                    "url": "media/c0035.jpg",
+                    "query": "A close-up of a teenager's face, eyes reflecting the glow of a Wi-Fi signal icon, as they ponder the unseen. Intimate, photographic."
                 }
             ],
             "words": [
@@ -217,6 +288,7 @@
             "lyric": "Where does it go to rest?",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 21.512,
@@ -255,12 +327,39 @@
             "start": 23.972,
             "end": 27.426,
             "lyric": "Show me its cradle, show me its nest.\"",
-            "real_meaning": "Show me the server farm, show me the algorithm â€” the desperate need to locate the magic somewhere physical.",
+            "real_meaning": "Show me the server farm, show me the algorithm — the desperate need to locate the magic somewhere physical.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0018.jpg",
-                    "query": "vast glowing data center reflected in a primitive man's eyes, juxtaposition of ancient and modern"
+                    "url": "media/c0036.jpg",
+                    "query": "A lush prehistoric valley. A green phone booth stands alone."
+                },
+                {
+                    "offset": 0.83,
+                    "url": "media/c0037.jpg",
+                    "query": "A figure emerges from the booth. A cave dweller approaches, holding a BIC lighter."
+                },
+                {
+                    "offset": 1.85,
+                    "url": "media/c0038.jpg",
+                    "query": "Cave dweller's eyes wide with wonder, holding the lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0039.jpg",
+                    "query": "A vast, overgrown attic filled with discarded tech, a dusty laptop sits open, screen glowing softly, urban buildings visible through a cracked window."
+                },
+                {
+                    "offset": 0.83,
+                    "url": "media/c0040.jpg",
+                    "query": "A teenager sits cross-legged on a bed, eyes wide with wonder, holding an unboxed first-generation iPhone, cool blue light illuminating their face."
+                },
+                {
+                    "offset": 1.85,
+                    "url": "media/c0041.jpg",
+                    "query": "A sprawling server farm, humming with activity, rows of servers stretching into the distance, a close-up of a teenager's hands tracing the cables, desperation in their expression."
                 }
             ],
             "words": [
@@ -311,12 +410,39 @@
             "start": 28.256,
             "end": 31.581,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "The brand chant â€” iPhone! iPhone! Tesla! Tesla! â€” the product becomes the prayer.",
+            "real_meaning": "The brand chant — iPhone! iPhone! Tesla! Tesla! — the product becomes the prayer.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
-                    "query": "crowd of primitive humans chanting around a glowing orange totem on a stone altar, wide cinematic shot"
+                    "url": "media/c0042.jpg",
+                    "query": "A lush, prehistoric valley stretches beneath an azure sky, a solitary green phone booth stands, untouched."
+                },
+                {
+                    "offset": 0.88,
+                    "url": "media/c0043.jpg",
+                    "query": "A traveler emerges from the booth, ignites a tiny flame from an orange box, cave dwellers gather, awestruck, firelight dancing."
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0044.jpg",
+                    "query": "The traveler holds the lighter, its flickering flame reflecting in the wide eyes of a cave dweller, who bows."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0045.jpg",
+                    "query": "A dimly lit attic filled with dusty artifacts, a worn-out laptop sits on an old wooden desk, screen glowing with the first signs of life, urban sprawl visible through the small win"
+                },
+                {
+                    "offset": 0.88,
+                    "url": "media/c0046.jpg",
+                    "query": "A teenager's excited face illuminated by the glow of a newly unboxed iPhone, hands trembling with anticipation, a Silicon Valley skyline visible through the window."
+                },
+                {
+                    "offset": 1.95,
+                    "url": "media/c0047.jpg",
+                    "query": "A close-up of a reverent expression on the face of a person, hands holding a sleek smartphone, eyes reflecting the glow of the screen, the brand logo visible on the back of the dev"
                 }
             ],
             "words": [
@@ -357,17 +483,39 @@
             "start": 33.032,
             "end": 36.492,
             "lyric": "The baby fire sleeps inside!",
-            "real_meaning": "The lie that the magic lives inside the product â€” not in human ingenuity, but in the branded object.",
+            "real_meaning": "The lie that the magic lives inside the product — not in human ingenuity, but in the branded object.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
-                    "query": "tiny flame sleeping inside a translucent orange shell, nurturing glow, macro cinematic"
+                    "url": "media/c0048.jpg",
+                    "query": "A lone green phone booth stands in a vast, untouched prehistoric valley at dusk, volcanic plumes in the distance."
                 },
                 {
                     "offset": 0.85,
-                    "url": "media/c0025.jpg",
-                    "query": "A tender ember drifts from the shell, floating gently in an expanse of dark amber."
+                    "url": "media/c0049.jpg",
+                    "query": "A traveler emerges from the phone booth, BIC lighter in hand, cave dwellers cautiously approach."
+                },
+                {
+                    "offset": 1.91,
+                    "url": "media/c0050.jpg",
+                    "query": "The traveler ignites the lighter, cave dwellers' faces aglow with wonder and awe as they gather around."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0051.jpg",
+                    "query": "A dimly lit attic filled with dusty boxes, a vintage laptop hums to life on an old wooden table."
+                },
+                {
+                    "offset": 0.85,
+                    "url": "media/c0052.jpg",
+                    "query": "A teenager's eyes wide with wonder, holding an unboxed iPhone, reflecting city lights."
+                },
+                {
+                    "offset": 1.91,
+                    "url": "media/c0053.jpg",
+                    "query": "up of a hand, gently caressing a sleek, black Apple product."
                 }
             ],
             "words": [
@@ -403,12 +551,39 @@
             "start": 36.809,
             "end": 40.172,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "Repetition cements belief â€” advertising, slogans, viral loops. Say it enough and it becomes truth.",
+            "real_meaning": "Repetition cements belief — advertising, slogans, viral loops. Say it enough and it becomes truth.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
-                    "query": "massive glowing orange billboard in a rain-soaked city, hypnotized crowd staring up, cyberpunk cinematic"
+                    "url": "media/c0054.jpg",
+                    "query": "A vast, green phone booth stands alone in a prehistoric valley, surrounded by towering rocks and a fiery sun. Cinematic."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0055.jpg",
+                    "query": "A lone figure emerges from the phone booth. The BIC lighter is the orange box. The firelit cave dwellers look on in awe."
+                },
+                {
+                    "offset": 1.81,
+                    "url": "media/c0056.jpg",
+                    "query": "The cave dwellers' eyes widen in wonder as they stare at the lighter.  The orange box is the only thing in the world. Repetition cements belief"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0057.jpg",
+                    "query": "A dimly lit attic filled with old boxes, a dusty laptop sits open, screen glowing in the darkness."
+                },
+                {
+                    "offset": 0.76,
+                    "url": "media/c0058.jpg",
+                    "query": "A teenager's room at night, face illuminated by the first glow of a new iPhone, eyes wide with wonder."
+                },
+                {
+                    "offset": 1.81,
+                    "url": "media/c0059.jpg",
+                    "query": "up of a hand repeatedly tapping on the keypad."
                 }
             ],
             "words": [
@@ -449,17 +624,39 @@
             "start": 41.512,
             "end": 44.649,
             "lyric": "We'll run with it, we'll run with pride!",
-            "real_meaning": "We'll chase the trend, we'll hustle with honor â€” the rat race rebranded as purpose.",
+            "real_meaning": "We'll chase the trend, we'll hustle with honor — the rat race rebranded as purpose.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
-                    "query": "silhouettes of people running through a neon city carrying glowing screens, motion blur, cinematic"
+                    "url": "media/c0060.jpg",
+                    "query": "A lone green phone booth stands in a vast, prehistoric valley at sunset."
                 },
                 {
                     "offset": 0.8,
-                    "url": "media/c0031.jpg",
-                    "query": "A lone figure dashing through neon rain at night, their silhouette carrying a glowing rectangle."
+                    "url": "media/c0061.jpg",
+                    "query": "A figure emerges from the phone booth, holding a small, glowing object, as awe-struck cave dwellers gather around a fire."
+                },
+                {
+                    "offset": 1.84,
+                    "url": "media/c0062.jpg",
+                    "query": "The time traveler's face, eyes wide with wonder and exhilaration, as they strike the BIC lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0063.jpg",
+                    "query": "A vast, cluttered attic filled with forgotten memories, a dusty laptop sitting on a wooden desk with sunlight streaming through a small window."
+                },
+                {
+                    "offset": 0.8,
+                    "url": "media/c0064.jpg",
+                    "query": "A teenager's excited face illuminated by the first glow of a laptop screen, hands trembling with anticipation and eyes wide with curiosity."
+                },
+                {
+                    "offset": 1.84,
+                    "url": "media/c0065.jpg",
+                    "query": "Close up of a young womanâ€™s face, eyes sparkling with determination, phone in hand, capturing the energy and exhilaration of chasing dreams."
                 }
             ],
             "words": [
@@ -510,17 +707,39 @@
             "start": 45.712,
             "end": 47.992,
             "lyric": "I said \"The fire lives in here",
-            "real_meaning": "The Mage's first deliberate lie â€” the tech founder's keynote, the influencer's promise: 'everything you need is in this device'.",
+            "real_meaning": "The Mage's first deliberate lie — the tech founder's keynote, the influencer's promise: 'everything you need is in this device'.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0033.jpg",
-                    "query": "charismatic figure on a stage presenting a glowing object to a mesmerized audience, dramatic lighting"
+                    "url": "media/c0066.jpg",
+                    "query": "A lush prehistoric valley, a lone green phone booth stands. Firelit cavemen gather, warm hues paint the scene. A modern object in a timeless landscape."
                 },
                 {
                     "offset": 0.8,
-                    "url": "media/c0034.jpg",
-                    "query": "A close-up of the glowing object,"
+                    "url": "media/c0067.jpg",
+                    "query": "A figure steps out of the phone booth, holding a small, glowing object. Surrounding cavemen look with awe, warmth of the firelight casts shadows on their faces."
+                },
+                {
+                    "offset": 1.87,
+                    "url": "media/c0068.jpg",
+                    "query": "The figure's hand, holding a tiny, glowing lighter. Warm tones, intimate, the flame flickers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0069.jpg",
+                    "query": "A grimy, cluttered attic. Sunlight streams through a small window, illuminating a dusty laptop on an old wooden desk."
+                },
+                {
+                    "offset": 0.8,
+                    "url": "media/c0070.jpg",
+                    "query": "A teenager in a dimly lit room. Eyes wide, hands trembling, holds the first iPhone box."
+                },
+                {
+                    "offset": 1.87,
+                    "url": "media/c0071.jpg",
+                    "query": "A close-up of a young tech influencer's face.  Their eyes glint with excitement, a new gadget in hand, lips curled in a smile."
                 }
             ],
             "words": [
@@ -568,6 +787,7 @@
             "lyric": "curled up small and tight",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 48.012,
@@ -601,12 +821,29 @@
             "start": 49.412,
             "end": 50.772,
             "lyric": "When you go chak-chak",
-            "real_meaning": "Swipe to unlock â€” the ritual gesture that activates the magic. Simple, addictive, designed.",
+            "real_meaning": "Swipe to unlock — the ritual gesture that activates the magic. Simple, addictive, designed.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0036.jpg",
-                    "query": "finger flicking a lighter wheel in extreme close-up, sparks flying, dramatic macro photography"
+                    "url": "media/c0072.jpg",
+                    "query": "A vast prehistoric valley stretches beneath a stormy sky, a lone green phone booth stands in the middle of the landscape."
+                },
+                {
+                    "offset": 0.77,
+                    "url": "media/c0073.jpg",
+                    "query": "A lone figure, a time traveler, steps out of the booth, holding a small, metallic object in his hand, eyes wide with wonder."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0075.jpg",
+                    "query": "A dimly lit attic filled with dusty remnants of the past, a vintage laptop sits on a worn-out table. An urban skyline is visible through the small window, with the cool light of th"
+                },
+                {
+                    "offset": 0.77,
+                    "url": "media/c0076.jpg",
+                    "query": "A teenager's hands hover over a brand-new iPhone, eyes wide with anticipation. The keynote event plays in the background."
                 }
             ],
             "words": [
@@ -638,7 +875,20 @@
             "end": 52.13,
             "lyric": "it wakes up",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 1.83,
+                    "url": "media/c0074.jpg",
+                    "query": "The traveler's hands carefully cradle the BIC lighter, flicking the wheel, creating a spark, igniting the flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 1.83,
+                    "url": "media/c0077.jpg",
+                    "query": "A close-up of a teenager's finger swiping across a sleek iPhone screen, unlocking the device and revealing a vibrant home screen."
+                }
+            ],
             "words": [
                 {
                     "start": 51.032,
@@ -664,6 +914,7 @@
             "lyric": "burning bright",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 52.216,
@@ -682,17 +933,29 @@
             "start": 53.312,
             "end": 55.014,
             "lyric": "You have to run",
-            "real_meaning": "The urgency economy â€” act now, limited time, don't miss out. FOMO as sacred duty.",
+            "real_meaning": "The urgency economy — act now, limited time, don't miss out. FOMO as sacred duty.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0039.jpg",
-                    "query": "person sprinting through a crowd carrying a fragile flame, desperate determination, cinematic motion"
+                    "url": "media/c0078.jpg",
+                    "query": "A lush prehistoric valley stretches out from the base of a distant, misty mountain range. At its center, a bright green phone booth stands, anachronistic and out of place, glowing"
                 },
                 {
                     "offset": 0.56,
-                    "url": "media/c0040.jpg",
-                    "query": "The flame flickers as wind from the sprinting person's speed dances with it."
+                    "url": "media/c0079.jpg",
+                    "query": "A time traveler emerges from the phone booth, BIC lighter in hand, eyes wide with amazement and urgency. A group of curious, firelit cave dwellers approach cautiously, their eyes w"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0081.jpg",
+                    "query": "A bird's eye view of a sprawling cityscape at dusk, a lone attic window glows with the warm light of an old laptop."
+                },
+                {
+                    "offset": 0.56,
+                    "url": "media/c0082.jpg",
+                    "query": "A teenager in a dimly lit bedroom, eyes wide with wonder, holding an unboxed first-generation iPhone, fingers tracing the screen."
                 }
             ],
             "words": [
@@ -724,7 +987,20 @@
             "end": 56.2,
             "lyric": "you have to race",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 2.16,
+                    "url": "media/c0080.jpg",
+                    "query": "The traveler holds out the glowing BIC lighter, its flame flickering dramatically. The cave dwellers reach out tentatively, their faces illuminated by the warm, dancing light, thei"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 2.16,
+                    "url": "media/c0083.jpg",
+                    "query": "A close-up of a hand hurriedly typing on a sleek laptop keyboard, fingers tapping anxiously, eyes scanning the screen."
+                }
+            ],
             "words": [
                 {
                     "start": 55.172,
@@ -755,6 +1031,7 @@
             "lyric": "carry it with care",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 56.432,
@@ -783,22 +1060,29 @@
             "start": 57.672,
             "end": 58.882,
             "lyric": "To the new pile",
-            "real_meaning": "Move fast, pivot, disrupt â€” before the trend dies, before the stock crashes, before the algorithm changes.",
+            "real_meaning": "Move fast, pivot, disrupt — before the trend dies, before the stock crashes, before the algorithm changes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0042.jpg",
-                    "query": "figure leaping between crumbling platforms over a void, carrying a dying light, epic cinematic"
+                    "url": "media/c0084.jpg",
+                    "query": "A lush, prehistoric valley stretches out, a vibrant green phone booth stands solitary amidst towering trees and a firelit sunset."
                 },
                 {
                     "offset": 0.94,
-                    "url": "media/c0043.jpg",
-                    "query": "A glint of light from the fading lantern reflecting off a golden watch. The figureâ€™s silhouette, shrouded in dusty fabric, backlit by a setting sun with crimson hues that evoke an"
+                    "url": "media/c0085.jpg",
+                    "query": "A time traveler, wide-eyed, steps out of the phone booth, holding a small, glowing object, facing a circle of curious cave dwellers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0087.jpg",
+                    "query": "A dimly lit attic filled with forgotten boxes, a dusty laptop sits open, screen aglow, reflecting on the cluttered urban landscape outside the window."
                 },
                 {
-                    "offset": 4.09,
-                    "url": "media/c0044.jpg",
-                    "query": "Figure's silhouette against the stark void, platforms crumbling to reveal a chaotic swirl of vibrant colors."
+                    "offset": 0.94,
+                    "url": "media/c0088.jpg",
+                    "query": "A sleek, modern apartment. A teenager, eyes wide with wonder, holds the first iPhone, fingers dancing over the screen."
                 }
             ],
             "words": [
@@ -831,6 +1115,7 @@
             "lyric": "to the new place",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 59.092,
@@ -860,7 +1145,20 @@
             "end": 65.152,
             "lyric": "before it disappears in air\"",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 4.09,
+                    "url": "media/c0086.jpg",
+                    "query": "The traveler's hands tremble slightly as they spark the BIC lighter, creating a mesmerizing, intimate flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 4.09,
+                    "url": "media/c0089.jpg",
+                    "query": "A close-up of a hand, quickly typing on a sleek laptop keyboard, fingers racing against time as a glint of determination shines in the eyes of the tech enthusiast."
+                }
+            ],
             "words": [
                 {
                     "start": 60.44,
@@ -894,17 +1192,39 @@
             "start": 66.182,
             "end": 69.562,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "The brand chant â€” iPhone! iPhone! Tesla! Tesla! â€” the product becomes the prayer.",
+            "real_meaning": "The chant intensifies — the ritual deepens, the brand loyalty hardens into tribal identity.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
-                    "query": "crowd of primitive humans chanting around a glowing orange totem on a stone altar, wide cinematic shot"
+                    "url": "media/c0090.jpg",
+                    "query": "A lush, prehistoric valley stretches out, a stark green phone booth stands solitary amidst towering trees, firelit hues paint the sky."
                 },
                 {
                     "offset": 0.85,
-                    "url": "media/c0022.jpg",
-                    "query": "A hand reaches towards the orange totem, fingers outstretched, eyes wide with wonder."
+                    "url": "media/c0091.jpg",
+                    "query": "A time traveler emerges from the booth, holding a small, orange object, cave dwellers approach, awestruck by the warm glow."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0092.jpg",
+                    "query": "A close-up of the traveler's face, eyes wide with wonder, as the cave dwellers chant, gazing at the lighter, faces illuminated by the fire."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0093.jpg",
+                    "query": "A dimly lit attic filled with junk, a dusty laptop sits open, a soft glow emanating from the screen, seen through an open door at the top of a staircase."
+                },
+                {
+                    "offset": 0.85,
+                    "url": "media/c0094.jpg",
+                    "query": "A teenager sits cross-legged on a bed, eyes wide with wonder, holding an unboxed iPhone."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0095.jpg",
+                    "query": "A close-up of a teenager's hands, eagerly tearing open the orange box."
                 }
             ],
             "words": [
@@ -945,17 +1265,39 @@
             "start": 70.922,
             "end": 73.856,
             "lyric": "The baby fire sleeps inside!",
-            "real_meaning": "The lie that the magic lives inside the product â€” not in human ingenuity, but in the branded object.",
+            "real_meaning": "The lie repeated becomes truth — the product isn't just useful, it's alive, it's precious, it needs you.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
-                    "query": "tiny flame sleeping inside a translucent orange shell, nurturing glow, macro cinematic"
+                    "url": "media/c0096.jpg",
+                    "query": "A lush prehistoric valley stretches beneath a vast sky, a solitary green phone booth stands mysteriously among towering prehistoric trees."
                 },
                 {
                     "offset": 0.85,
-                    "url": "media/c0025.jpg",
-                    "query": "A tender ember drifts from the shell, floating gently in an expanse of dark amber."
+                    "url": "media/c0097.jpg",
+                    "query": "A time traveler emerges from the booth, holding a small BIC lighter. Cave dwellers gather, eyes wide, mesmerized by the flickering flame."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0098.jpg",
+                    "query": "The traveler cradles the lighter gently, protecting the tiny flame from the wind. The baby fire dances, casting a warm glow on awestruck faces."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0099.jpg",
+                    "query": "A dimly lit attic filled with forgotten boxes, a dusty laptop sits open, screen glowing softly, revealing the urban cityscape outside the window."
+                },
+                {
+                    "offset": 0.85,
+                    "url": "media/c0100.jpg",
+                    "query": "A teenager's hands carefully unboxing the first iPhone, fingers tracing the sleek design, eyes wide with wonder and anticipation."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0101.jpg",
+                    "query": "A close-up of the teenager's face, eyes reflecting the iPhone's screen, a mix of awe and longing."
                 }
             ],
             "words": [
@@ -991,17 +1333,39 @@
             "start": 74.642,
             "end": 78.124,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "Repetition cements belief â€” advertising, slogans, viral loops. Say it enough and it becomes truth.",
+            "real_meaning": "The viral loop — share it, repost it, make it trend. The chant goes digital.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
-                    "query": "massive glowing orange billboard in a rain-soaked city, hypnotized crowd staring up, cyberpunk cinematic"
+                    "url": "media/c0102.jpg",
+                    "query": "A green phone booth stands isolated in a vast, prehistoric valley at dusk, fireflies emerge in a warm twilight."
                 },
                 {
                     "offset": 0.82,
-                    "url": "media/c0028.jpg",
-                    "query": "A lone figure in neon raincoat running through flooded streets."
+                    "url": "media/c0103.jpg",
+                    "query": "A figure emerges from the phone booth, holding an orange box, surrounded by curious cave dwellers, firelit."
+                },
+                {
+                    "offset": 1.87,
+                    "url": "media/c0104.jpg",
+                    "query": "A close-up of a cave dweller's awestruck face, eyes reflecting the flickering flame of a BIC lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0105.jpg",
+                    "query": "A sprawling cityscape at dusk, a single attic window aglow with the dusty light of an old laptop, urban architecture, cool tones, cinematic, dramatic."
+                },
+                {
+                    "offset": 0.82,
+                    "url": "media/c0106.jpg",
+                    "query": "A teenager in a dimly lit room, eyes wide with wonder, holding a shiny new iPhone, unboxing, first touch, close-up"
+                },
+                {
+                    "offset": 1.87,
+                    "url": "media/c0107.jpg",
+                    "query": "A close-up of a hand holding a smartphone, thumbs hovering over the share button, cool tones, glowing screen, modern."
                 }
             ],
             "words": [
@@ -1042,17 +1406,39 @@
             "start": 79.328,
             "end": 82.233,
             "lyric": "We'll run with it, we'll run with pride!",
-            "real_meaning": "We'll chase the trend, we'll hustle with honor â€” the rat race rebranded as purpose.",
+            "real_meaning": "Pride in the hustle — wearing busy as a badge, productivity as identity, exhaustion as virtue.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
-                    "query": "silhouettes of people running through a neon city carrying glowing screens, motion blur, cinematic"
+                    "url": "media/c0108.jpg",
+                    "query": "A lone green phone booth stands in a vast, prehistoric valley, under a dramatic sky, painted in warm hues."
                 },
                 {
                     "offset": 0.87,
-                    "url": "media/c0031.jpg",
-                    "query": "A lone figure dashing through neon rain at night, their silhouette carrying a glowing rectangle."
+                    "url": "media/c0109.jpg",
+                    "query": "A time traveler, in modern clothes and holding a BIC lighter, stands with a group of curious, firelit cave dwellers, their faces glowing."
+                },
+                {
+                    "offset": 1.41,
+                    "url": "media/c0110.jpg",
+                    "query": "The travelerâ€™s hand holds the lighter out, flickering fire reflecting in their eyes. Pride and determination in their gaze as the cave dwellersâ€™ faces are illuminated."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0111.jpg",
+                    "query": "A dimly lit attic filled with forgotten boxes, a dusty laptop sits open, a soft glow emanating from the screen. The camera is at a low angle, looking up at the urban landscape thro"
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0112.jpg",
+                    "query": "A sleek, modern apartment with floor-to-ceiling windows, a teenager sits on the floor, the iPhone box open, eyes wide with anticipation, as they take in the new device, it's white"
+                },
+                {
+                    "offset": 1.41,
+                    "url": "media/c0113.jpg",
+                    "query": "A close-up of a teenagerâ€™s face, eyes glinting with exhaustion and pride, they stare at the camera, hands on a keyboard, a glowing screen illuminating their features."
                 }
             ],
             "words": [
@@ -1103,12 +1489,39 @@
             "start": 83.648,
             "end": 86.402,
             "lyric": "And that's how I became a god",
-            "real_meaning": "The tech billionaire moment â€” one clever trick and suddenly you're worshipped. Zuckerberg in a dorm room.",
+            "real_meaning": "The tech billionaire moment — one clever trick and suddenly you're worshipped. Zuckerberg in a dorm room.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0045.jpg",
-                    "query": "ordinary person sitting on a crude throne surrounded by worshipping followers, ironic divine light"
+                    "url": "media/c0114.jpg",
+                    "query": "A lone green phone booth stands amidst a vast, prehistoric valley. The sun sets, casting warm tones over the landscape."
+                },
+                {
+                    "offset": 0.73,
+                    "url": "media/c0115.jpg",
+                    "query": "A figure emerges from the phone booth, holding a small, mysterious object. A cave dweller watches, eyes wide with wonder."
+                },
+                {
+                    "offset": 1.24,
+                    "url": "media/c0116.jpg",
+                    "query": "The figure strikes the object, creating a brilliant flame. The cave dweller's face, lit by firelight, transforms with awe."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0117.jpg",
+                    "query": "A dimly lit attic filled with old boxes, a dusty laptop sits open, screen glowing softly, urban skyline visible through the window."
+                },
+                {
+                    "offset": 0.73,
+                    "url": "media/c0118.jpg",
+                    "query": "A teenager's hands tremble slightly, holding an unopened iPhone box, fingers tracing the Apple logo."
+                },
+                {
+                    "offset": 1.24,
+                    "url": "media/c0119.jpg",
+                    "query": "up of a young man's face, eyes wide with awe and realization, as he holds his first iPhone."
                 }
             ],
             "words": [
@@ -1154,12 +1567,39 @@
             "start": 86.402,
             "end": 90.562,
             "lyric": "With a plastic BIC and a nod",
-            "real_meaning": "With a cheap gadget and false confidence â€” the tools of modern godhood are absurdly mundane.",
+            "real_meaning": "With a cheap gadget and false confidence — the tools of modern godhood are absurdly mundane.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0048.jpg",
-                    "query": "close-up of a cheap plastic lighter elevated on a velvet cushion like a crown jewel, satirical"
+                    "url": "media/c0120.jpg",
+                    "query": "A lush, prehistoric valley sprawls beneath a stormy sky. A green phone booth stands alone, untouched by time."
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0121.jpg",
+                    "query": "A figure emerges from the booth, holding a small, plastic object. Cave dwellers gather, eyes wide with awe and curiosity."
+                },
+                {
+                    "offset": 2.11,
+                    "url": "media/c0122.jpg",
+                    "query": "The figure strikes the BIC lighter, a tiny flame dancing in the darkness. A warm, intimate glow illuminates a face full of false confidence."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0123.jpg",
+                    "query": "A grimy attic window casts light on a dusty laptop, urban skyline visible outside. An old Apple laptop, a dusty keyboard, an empty soda can on the floor."
+                },
+                {
+                    "offset": 0.65,
+                    "url": "media/c0124.jpg",
+                    "query": "A teenager's hands tremble as they hover over the keyboard, eyes wide with anticipation. Their face is lit up by the glow of the first screen."
+                },
+                {
+                    "offset": 2.11,
+                    "url": "media/c0125.jpg",
+                    "query": "A close-up of a teenager's face. The glow of a screen illuminates their expression as they open a plastic box with a cheap gadget, their eyes wide with excitement."
                 }
             ],
             "words": [
@@ -1205,12 +1645,39 @@
             "start": 92.288,
             "end": 94.363,
             "lyric": "Twelve believers, faithful, true",
-            "real_meaning": "The first followers, the early adopters, the disciples â€” every cult starts with a small devoted group.",
+            "real_meaning": "The first followers, the early adopters, the disciples — every cult starts with a small devoted group.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0051.jpg",
-                    "query": "circle of devoted followers with glowing eyes surrounding a central figure, cult-like atmosphere, cinematic"
+                    "url": "media/c0126.jpg",
+                    "query": "A lush prehistoric valley stretches out, a green phone booth stands isolated under a vast sky, firelight flickers in the distance."
+                },
+                {
+                    "offset": 0.55,
+                    "url": "media/c0127.jpg",
+                    "query": "A time traveler, cloaked in furs, emerges from the phone booth, BIC lighter flickering in hand, surrounded by curious cave dwellers."
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0128.jpg",
+                    "query": "Twelve eager faces, aglow in firelight, eyes wide with wonder, gazing at the dancing flame of the BIC lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0129.jpg",
+                    "query": "A vast, abandoned attic filled with dusty relics. A tattered laptop sits atop an old wooden desk, a soft glow emanating from the cracked screen. The window is open, revealing a mod"
+                },
+                {
+                    "offset": 0.55,
+                    "url": "media/c0130.jpg",
+                    "query": "A teenager's eager hands hover over a pristine iPhone box. The room is softly lit, with sleek tech gadgets scattered across a contemporary desk. The first iPhone glows in the dim l"
+                },
+                {
+                    "offset": 1.08,
+                    "url": "media/c0131.jpg",
+                    "query": "A close-up of hands holding a laptop, fingers poised to touch the glowing screen. Awe and wonder. The scene is intimate, the laptop screen reflects the room."
                 }
             ],
             "words": [
@@ -1241,22 +1708,39 @@
             "start": 94.882,
             "end": 102.762,
             "lyric": "Gralha said \"I'll translate for you\"",
-            "real_meaning": "The first middle-man, the first priest, the first PR department â€” monetizing access to the 'truth'.",
+            "real_meaning": "The first middle-man, the first priest, the first PR department — monetizing access to the 'truth'.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0054.jpg",
-                    "query": "figure standing between two groups acting as interpreter, bridge between worlds, dramatic shadows"
+                    "url": "media/c0132.jpg",
+                    "query": "A lush prehistoric valley stretches out, a stark green phone booth sits eerily amidst towering ancient trees, firelight flickering in the distance."
                 },
                 {
                     "offset": 0.57,
-                    "url": "media/c0055.jpg",
-                    "query": "A golden coin is tossed mid-air between the figure and the worlds."
+                    "url": "media/c0133.jpg",
+                    "query": "A figure emerges from the phone booth, holding a small object with a flickering flame, cave dwellers gather, eyes wide with awe and curiosity."
                 },
                 {
                     "offset": 3.73,
-                    "url": "media/c0056.jpg",
-                    "query": "The figure's face is partially obscured by a glowing halo, as both sides are enveloped in an orange, fiery embrace."
+                    "url": "media/c0134.jpg",
+                    "query": "A close up of a cave dweller's face, eyes locked onto the flickering lighter. Gralha looks on, expression of reverence and wonder, ready to bridge a new world."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0135.jpg",
+                    "query": "A dimly lit attic filled with old boxes and forgotten treasures, a dusty laptop sitting open on a wooden table, urban cityscape visible through a small window."
+                },
+                {
+                    "offset": 0.57,
+                    "url": "media/c0136.jpg",
+                    "query": "A teenager's face glowing in the light of a laptop screen, eyes wide with wonder and curiosity, the world of the internet unfolding before them."
+                },
+                {
+                    "offset": 3.73,
+                    "url": "media/c0137.jpg",
+                    "query": "A close-up of a hand holding a brand new iPhone, fingers trembling with anticipation as they carefully unwrap the packaging."
                 }
             ],
             "words": [
@@ -1297,17 +1781,39 @@
             "start": 102.762,
             "end": 107.356,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "The brand chant â€” iPhone! iPhone! Tesla! Tesla! â€” the product becomes the prayer.",
+            "real_meaning": "The brand goes mainstream — from niche cult to mass phenomenon, the chant becomes inescapable.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
-                    "query": "crowd of primitive humans chanting around a glowing orange totem on a stone altar, wide cinematic shot"
+                    "url": "media/c0138.jpg",
+                    "query": "A lush valley. A green phone booth sits incongruously by a firelit cave entrance. Warm tones of a sunset."
                 },
                 {
                     "offset": 0.59,
-                    "url": "media/c0022.jpg",
-                    "query": "A hand reaches towards the orange totem, fingers outstretched, eyes wide with wonder."
+                    "url": "media/c0139.jpg",
+                    "query": "A traveler in modern clothes emerges from the booth, holding a small orange object. Cautious, awe-struck cave dwellers."
+                },
+                {
+                    "offset": 2.17,
+                    "url": "media/c0140.jpg",
+                    "query": "A close-up of a cave dweller's face. Eyes wide with wonder as he gazes at the lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0141.jpg",
+                    "query": "A sprawling cityscape at dusk, a teenager's face illuminated by a dusty laptop screen in an attic window."
+                },
+                {
+                    "offset": 0.59,
+                    "url": "media/c0142.jpg",
+                    "query": "A sleek, modern apartment filled with cutting-edge gadgets, a teenager unboxing the first iPhone."
+                },
+                {
+                    "offset": 2.17,
+                    "url": "media/c0143.jpg",
+                    "query": "A crowded street with excited people holding out smartphones with the glow of the first Apple keynote on their faces."
                 }
             ],
             "words": [
@@ -1348,17 +1854,39 @@
             "start": 108.802,
             "end": 111.863,
             "lyric": "The baby fire sleeps inside!",
-            "real_meaning": "The lie that the magic lives inside the product â€” not in human ingenuity, but in the branded object.",
+            "real_meaning": "The mythology solidifies — the product isn't just a thing, it's a being. The brand becomes alive in people's minds.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
-                    "query": "tiny flame sleeping inside a translucent orange shell, nurturing glow, macro cinematic"
+                    "url": "media/c0144.jpg",
+                    "query": "A lush, green phone booth stands solitary in a vast prehistoric valley, under a dramatic, firelit sky."
                 },
                 {
                     "offset": 0.87,
-                    "url": "media/c0025.jpg",
-                    "query": "A tender ember drifts from the shell, floating gently in an expanse of dark amber."
+                    "url": "media/c0145.jpg",
+                    "query": "A figure emerges from the booth, holding a small, glowing object, as curious cave dwellers gather around."
+                },
+                {
+                    "offset": 1.93,
+                    "url": "media/c0146.jpg",
+                    "query": "The figure's hands cradle the glowing object, tenderly protecting the tiny, flickering flame within."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0147.jpg",
+                    "query": "A dilapidated, modern attic, dusty laptop sits on a wooden table. A dim light casts a shadow on a wall of books."
+                },
+                {
+                    "offset": 0.87,
+                    "url": "media/c0148.jpg",
+                    "query": "A teenager's hands gently unbox an iPhone in a sleek, white Apple box."
+                },
+                {
+                    "offset": 1.93,
+                    "url": "media/c0149.jpg",
+                    "query": "The teenager holds a new iPhone, eyes wide in wonder, holding a glowing, magical object."
                 }
             ],
             "words": [
@@ -1394,17 +1922,39 @@
             "start": 112.542,
             "end": 115.337,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
-            "real_meaning": "Repetition cements belief â€” advertising, slogans, viral loops. Say it enough and it becomes truth.",
+            "real_meaning": "Market saturation — everyone has one, everyone chants, questioning it means questioning yourself.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
-                    "query": "massive glowing orange billboard in a rain-soaked city, hypnotized crowd staring up, cyberpunk cinematic"
+                    "url": "media/c0150.jpg",
+                    "query": "A vast, green prehistoric valley under a fiery sunset. A lone phone booth stands in the middle of it all."
                 },
                 {
                     "offset": 0.82,
-                    "url": "media/c0028.jpg",
-                    "query": "A lone figure in neon raincoat running through flooded streets."
+                    "url": "media/c0151.jpg",
+                    "query": "A time traveler, awestruck, approaches a group of curious cave dwellers. He holds a glowing BIC lighter."
+                },
+                {
+                    "offset": 1.35,
+                    "url": "media/c0152.jpg",
+                    "query": "A close up of a cave dweller.  Eyes wide, mouth open, as he gazes in wonder at the glowing BIC lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0153.jpg",
+                    "query": "A vast urban attic, dimly lit, filled with forgotten items, a dusty laptop glows with the first internet connection, connecting the modern world."
+                },
+                {
+                    "offset": 0.82,
+                    "url": "media/c0154.jpg",
+                    "query": "A bustling Silicon Valley cafe, sleek iPhones scattered among patrons, their faces illuminated by screens, reflecting modern tech culture."
+                },
+                {
+                    "offset": 1.35,
+                    "url": "media/c0155.jpg",
+                    "query": "A crowd of teens in a mall, everyone holds an iPhone, the box is orange, the light reflects off the box, capturing the emotion of questioning the new tech."
                 }
             ],
             "words": [
@@ -1445,17 +1995,39 @@
             "start": 117.048,
             "end": 120.315,
             "lyric": "We'll run with it, we'll run with pride!",
-            "real_meaning": "We'll chase the trend, we'll hustle with honor â€” the rat race rebranded as purpose.",
+            "real_meaning": "The institutional hustle — it's no longer passion, it's infrastructure. The run has become the economy.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
-                    "query": "silhouettes of people running through a neon city carrying glowing screens, motion blur, cinematic"
+                    "url": "media/c0156.jpg",
+                    "query": "A lush prehistoric valley stretches beneath an azure sky, a lone green phone booth standing tall amidst wild foliage and towering rock formations."
                 },
                 {
                     "offset": 0.52,
-                    "url": "media/c0031.jpg",
-                    "query": "A lone figure dashing through neon rain at night, their silhouette carrying a glowing rectangle."
+                    "url": "media/c0157.jpg",
+                    "query": "A time traveler, clad in peculiar attire, emerges from the phone booth, holding a small object that emits a flickering flame. Surrounding cave dwellers gaze in awe."
+                },
+                {
+                    "offset": 1.56,
+                    "url": "media/c0158.jpg",
+                    "query": "The time traveler's eyes gleam with determination as he strikes the BIC lighter, igniting a small fire that casts warm, dancing shadows on his face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0159.jpg",
+                    "query": "A dimly lit attic, dust particles dancing in a sunbeam, an old laptop sits on a wooden desk, urban buildings visible through a small window."
+                },
+                {
+                    "offset": 0.52,
+                    "url": "media/c0160.jpg",
+                    "query": "A sleek, modern office. A person, silhouetted against the backdrop of a large screen. A glowing iPhone is visible in their hand, a tech influencer profile displayed."
+                },
+                {
+                    "offset": 1.56,
+                    "url": "media/c0161.jpg",
+                    "query": "A close-up of a hand, fingers tracing the smooth surface of an Apple logo on a box. A subtle reflection of a Silicon Valley skyline in the background."
                 }
             ],
             "words": [
@@ -1506,22 +2078,39 @@
             "start": 122.162,
             "end": 127.546,
             "lyric": "Run, run, don't let it die!",
-            "real_meaning": "Keep scrolling, keep buying, keep hustling â€” never stop or the illusion breaks.",
+            "real_meaning": "Keep scrolling, keep buying, keep hustling — never stop or the illusion breaks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0057.jpg",
-                    "query": "crowd running frantically through smoke carrying tiny lights, desperation and devotion, wide cinematic"
+                    "url": "media/c0162.jpg",
+                    "query": "A lush valley of prehistoric greenery, a vibrant green phone booth stands in the foreground, as a firelit sky frames the scene."
                 },
                 {
                     "offset": 0.67,
-                    "url": "media/c0058.jpg",
-                    "query": "A lone runner's face bathed in warm, flickering light, eyes wide with determination and fear."
+                    "url": "media/c0163.jpg",
+                    "query": "A time traveler steps out of the phone booth, holding a small BIC lighter."
                 },
                 {
                     "offset": 2.78,
-                    "url": "media/c0059.jpg",
-                    "query": "Dizzying vortex of smoke and lights, tiny fires spiral into an abstract maelstrom, a void threatening to consume"
+                    "url": "media/c0164.jpg",
+                    "query": "The traveler frantically flicks the lighter, desperate to ignite the flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0165.jpg",
+                    "query": "A dimly lit attic filled with dusty boxes, a vintage laptop sits open, screen aglow, reflecting on the teenager's curious face."
+                },
+                {
+                    "offset": 0.67,
+                    "url": "media/c0166.jpg",
+                    "query": "A sleek, modern apartment with floor-to-ceiling windows, a young adult sits on a couch, eyes glued to a new iPhone, fingers swiping rapidly."
+                },
+                {
+                    "offset": 2.78,
+                    "url": "media/c0167.jpg",
+                    "query": "A close-up of a hand swiftly scrolling through an online marketplace, the glow of the screen illuminating a face consumed by the endless stream of products."
                 }
             ],
             "words": [
@@ -3015,5 +3604,88 @@
             0.504
         ]
     ],
-    "bpm": 112.3
+    "bpm": 112.3,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 28.72,
+            "energy": "high",
+            "intensity": 0.742
+        },
+        {
+            "start": 28.72,
+            "end": 56.54,
+            "energy": "high",
+            "intensity": 0.853
+        },
+        {
+            "start": 56.54,
+            "end": 66.73,
+            "energy": "high",
+            "intensity": 0.871
+        },
+        {
+            "start": 66.73,
+            "end": 90.05,
+            "energy": "high",
+            "intensity": 0.876
+        },
+        {
+            "start": 90.05,
+            "end": 92.21,
+            "energy": "high",
+            "intensity": 0.697
+        },
+        {
+            "start": 92.21,
+            "end": 104.63,
+            "energy": "high",
+            "intensity": 0.853
+        },
+        {
+            "start": 104.63,
+            "end": 144.12,
+            "energy": "high",
+            "intensity": 0.898
+        }
+    ],
+    "transition_points": [
+        0.79,
+        3.97,
+        7.13,
+        11.1,
+        14.51,
+        17.62,
+        21.48,
+        24.78,
+        27.93,
+        31.07,
+        34.25,
+        37.66,
+        40.82,
+        44.4,
+        47.55,
+        50.83,
+        53.99,
+        57.14,
+        60.3,
+        67.94,
+        72.14,
+        76.63,
+        80.57,
+        83.73,
+        86.91,
+        90.05,
+        93.46,
+        96.62,
+        99.78,
+        105.84,
+        109.78,
+        114.24,
+        118.07,
+        126.5,
+        134.51,
+        138.72,
+        142.01
+    ]
 }

@@ -1,22 +1,24 @@
 // player.js
-// Handles Audio, Syncing, and UI Updating
-// v2: rAF-based sync, progressive karaoke, energy-responsive effects
+// Orchestrator — delegates visual rendering to zone modules + timing engine
+// Zone 1 (phone frame): literal story images
+// Zone 2 (floating particles): hidden narrative fragments
+// Zone 3 (ambient background): hidden narrative images (blurred/dimmed)
 
 // ── Constants ────────────────────────────────────────────
 const DISPLAY_MAX_WORDS = 60;
 const DISPLAY_MAX_CHARS = 400;
 
-// Per-track color themes (mood-derived)
+// Per-track color themes
 const TRACK_THEMES = {
-    track_01: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' }, // Teal — mysterious/narration
-    track_02: { accent: '#ff8844', glow: 'rgba(255,136,68,0.6)' },  // Orange — the orange box!
-    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },   // Red — fire run, urgency
-    track_04: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },   // Gold — rules, tradition
-    track_05: { accent: '#ff77aa', glow: 'rgba(255,119,170,0.6)' }, // Pink — Muda, warmth
-    track_06: { accent: '#aa66ff', glow: 'rgba(170,102,255,0.6)' }, // Purple — conflict/duality
-    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },  // Blue — empty/bittersweet
-    track_08: { accent: '#ffcc33', glow: 'rgba(255,204,51,0.6)' },  // Warm gold — finale
-    track_09: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' }, // Teal — epilogue mirror
+    track_01: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' },
+    track_02: { accent: '#ff8844', glow: 'rgba(255,136,68,0.6)' },
+    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },
+    track_04: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },
+    track_05: { accent: '#ff77aa', glow: 'rgba(255,119,170,0.6)' },
+    track_06: { accent: '#aa66ff', glow: 'rgba(170,102,255,0.6)' },
+    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },
+    track_08: { accent: '#ffcc33', glow: 'rgba(255,204,51,0.6)' },
+    track_09: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' },
 };
 
 // ── Utility ──────────────────────────────────────────────
@@ -29,10 +31,6 @@ function sanitizeLyricForDisplay(text) {
         return words.slice(0, DISPLAY_MAX_WORDS).join(' ') + '\u2026';
     }
     return t.slice(0, DISPLAY_MAX_CHARS) + '\u2026';
-}
-
-function escapeHtml(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 function formatTime(seconds) {
@@ -53,41 +51,45 @@ const elPrev = document.getElementById('lyric-prev');
 const elCurr = document.getElementById('lyric-curr');
 const elNext = document.getElementById('lyric-next');
 const elTrackName = document.getElementById('current-track-name');
-const mediaLayerA = document.getElementById('media-layer-a');
-const mediaLayerB = document.getElementById('media-layer-b');
 const meaningPanel = document.getElementById('meaning-panel');
 const meaningText = document.getElementById('meaning-text');
 const trackListNav = document.getElementById('track-list');
-const vignetteOverlay = document.getElementById('vignette-overlay');
 const timeCurrent = document.getElementById('time-current');
 const timeTotal = document.getElementById('time-total');
 
 // ── State ────────────────────────────────────────────────
 let currentTrackIndex = 0;
 let currentLyricIndex = -1;
-let currentMediaIndex = -1;
-let currentActiveMediaLayer = 'A';
 let currentWordIndex = -1;
-let lastTriggeredMedia = null;
 let rafId = null;
 let wordSpansBuilt = false;
 let wordSpans = [];
-let lastEnergyCheck = 0;
+let lastEnergyTick = 0;
+let lineEnteredAt = 0;        // performance.now() when line changed
+const LINE_GRACE_MS = 200;    // ms before word highlighting kicks in
 
 // Image preload cache
 const preloadedImages = new Set();
 
+// Variant state
+let currentVariantId = null;
+const variantPicker = document.getElementById('variant-picker');
+
 // ── Init ─────────────────────────────────────────────────
 async function initPlayer() {
     const entry = (typeof getAlbumEntryById === 'function' && currentAlbumId)
-        ? getAlbumEntryById(currentAlbumId)
-        : null;
+        ? getAlbumEntryById(currentAlbumId) : null;
     currentAlbumConfig = entry && entry.config ? entry.config : fallbackAlbumConfig;
 
     const elTitle = document.getElementById('album-title');
     const elSubtitle = document.getElementById('album-subtitle');
     if (elTitle) elTitle.innerText = currentAlbumConfig.title || '';
     if (elSubtitle) elSubtitle.innerText = currentAlbumConfig.description || '';
+
+    // Init zone modules
+    Zone1Inner.init();
+    Zone2Outer.init();
+    Zone3Ambient.init();
 
     buildTrackList();
     await loadTrack(0);
@@ -111,9 +113,93 @@ function buildTrackList() {
 function updateTrackPills() {
     if (!trackListNav) return;
     const pills = trackListNav.querySelectorAll('.track-pill');
-    pills.forEach((p, i) => {
-        p.classList.toggle('active', i === currentTrackIndex);
+    pills.forEach((p, i) => p.classList.toggle('active', i === currentTrackIndex));
+}
+
+// ── Variant Picker ──────────────────────────────────────
+function buildVariantPicker(trackMeta) {
+    if (!variantPicker) return;
+    variantPicker.innerHTML = '';
+    const variants = trackMeta.variants || [];
+    if (variants.length <= 1) {
+        variantPicker.classList.add('hidden');
+        currentVariantId = null;
+        return;
+    }
+    variantPicker.classList.remove('hidden');
+    // Mark the "best" variant as default active
+    const defaultVariant = trackMeta.variant_id || variants[0].id;
+    currentVariantId = defaultVariant;
+
+    variants.forEach(v => {
+        const btn = document.createElement('button');
+        btn.className = 'variant-btn' + (v.id === defaultVariant ? ' active' : '');
+        btn.textContent = v.label;
+        btn.dataset.variantId = v.id;
+        btn.dataset.audio = v.audio;
+        btn.addEventListener('click', () => switchVariant(v, trackMeta));
+        variantPicker.appendChild(btn);
     });
+}
+
+async function switchVariant(variant, trackMeta) {
+    if (variant.id === currentVariantId) return;
+    currentVariantId = variant.id;
+
+    // Update active state on buttons
+    if (variantPicker) {
+        variantPicker.querySelectorAll('.variant-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.variantId === variant.id);
+        });
+    }
+
+    const wasPlaying = !audio.paused;
+    if (wasPlaying) stopSyncLoop();
+
+    // Load variant-specific data (alignment, timeline, media)
+    await fetchTrackData(trackMeta.id, variant.id);
+    TimingEngine.load(loadedTrackData);
+
+    // Swap audio
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
+    audio.src = `${albumPath}/${variant.audio}`;
+    audio.currentTime = 0;
+
+    // Full reset
+    currentLyricIndex = -1;
+    currentWordIndex = -1;
+    wordSpansBuilt = false;
+    wordSpans = [];
+    preloadedImages.clear();
+
+    Zone1Inner.reset();
+    Zone2Outer.reset();
+    Zone3Ambient.reset();
+    TimingEngine.reset();
+
+    // Set initial images from new variant's data
+    const tl = loadedTrackData && loadedTrackData.timeline;
+    if (tl) {
+        const firstMediaLine = findFirstMediaLine(tl);
+        if (firstMediaLine) {
+            if (firstMediaLine.media && firstMediaLine.media.length > 0)
+                Zone1Inner.setImage(`${albumPath}/${firstMediaLine.media[0].url}`);
+            if (firstMediaLine.hidden_media && firstMediaLine.hidden_media.length > 0)
+                Zone3Ambient.setImage(`${albumPath}/${firstMediaLine.hidden_media[0].url}`);
+            Zone2Outer.updateBars(firstMediaLine, 0, albumPath);
+        }
+        preloadImagesForLines(tl, 0, 3);
+    }
+
+    // Lyrics display
+    if (elPrev) elPrev.innerText = "";
+    if (elCurr) elCurr.innerHTML = trackMeta.title || "...";
+    if (elNext && tl && tl.length > 0) elNext.innerText = sanitizeLyricForDisplay(tl[0].lyric);
+
+    if (wasPlaying) {
+        audio.play();
+        startSyncLoop();
+    }
 }
 
 // ── Dynamic Color Theme ──────────────────────────────────
@@ -121,6 +207,18 @@ function applyTrackTheme(trackId) {
     const theme = TRACK_THEMES[trackId] || { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' };
     document.documentElement.style.setProperty('--accent', theme.accent);
     document.documentElement.style.setProperty('--accent-glow', theme.glow);
+}
+
+// ── Find first line with media/hidden_media ──────────────
+function findFirstMediaLine(timeline) {
+    if (!timeline) return null;
+    for (let i = 0; i < timeline.length; i++) {
+        if ((timeline[i].media && timeline[i].media.length > 0) ||
+            (timeline[i].hidden_media && timeline[i].hidden_media.length > 0)) {
+            return timeline[i];
+        }
+    }
+    return null;
 }
 
 // ── Track Loading ────────────────────────────────────────
@@ -133,104 +231,117 @@ async function loadTrack(index) {
     audio.src = `albums/${currentAlbumConfig.album_id}/${trackMeta.audioFile}`;
     if (elTrackName) elTrackName.innerText = trackMeta.title || '';
 
-    // Apply color theme
     applyTrackTheme(trackMeta.id);
     updateTrackPills();
+    buildVariantPicker(trackMeta);
 
-    // Default Media Fallback
-    let initMediaStr = trackMeta.defaultMedia;
-    if (typeof masterMatrix !== 'undefined' && masterMatrix && masterMatrix.narrative_phases) {
-        const phase = masterMatrix.narrative_phases.find(p =>
-            p && p.covers_tracks && p.covers_tracks.includes(trackMeta.id)
-        );
-        if (phase && phase.media_pool && phase.media_pool.length > 0) {
-            initMediaStr = phase.media_pool[0].url;
-        }
-    }
-    if (initMediaStr) {
-        triggerMediaChange(`albums/${currentAlbumConfig.album_id}/media/${initMediaStr}`);
+    // Load sync data — pass default variant so we load the right data file
+    const defaultVariantId = trackMeta.variant_id || null;
+    currentVariantId = defaultVariantId;
+    await fetchTrackData(trackMeta.id, defaultVariantId);
+
+    // Load timing data into TimingEngine
+    if (loadedTrackData) {
+        TimingEngine.load(loadedTrackData);
     }
 
-    // Load the dynamic sync data
-    await fetchTrackData(trackMeta.id);
+    // Load structure data fallback
+    if (typeof loadStructureData === 'function') {
+        await loadStructureData(currentAlbumConfig.album_id, trackMeta.id);
+    }
 
-    // Reset state
+    // Reset state FIRST
     currentLyricIndex = -1;
-    currentMediaIndex = -1;
     currentWordIndex = -1;
-    lastTriggeredMedia = null;
     wordSpansBuilt = false;
     wordSpans = [];
     preloadedImages.clear();
 
+    // Reset all zone modules
+    Zone1Inner.reset();
+    Zone2Outer.reset();
+    Zone3Ambient.reset();
+    TimingEngine.reset();
+
+    // THEN set initial images (after reset, so they're not cleared)
     const tl = loadedTrackData && loadedTrackData.timeline;
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
+    const firstMediaLine = findFirstMediaLine(tl);
+
+    if (firstMediaLine) {
+        // Zone 1: literal story image inside phone frame
+        if (firstMediaLine.media && firstMediaLine.media.length > 0) {
+            Zone1Inner.setImage(`${albumPath}/${firstMediaLine.media[0].url}`);
+        }
+        // Zone 3: hidden narrative image as atmospheric background
+        if (firstMediaLine.hidden_media && firstMediaLine.hidden_media.length > 0) {
+            Zone3Ambient.setImage(`${albumPath}/${firstMediaLine.hidden_media[0].url}`);
+        }
+        // Zone 2: bars show first line's hidden narrative at edges
+        Zone2Outer.updateBars(firstMediaLine, 0, albumPath);
+    }
+
+    // Lyrics display
     if (elPrev) elPrev.innerText = "";
-    if (elCurr) elCurr.innerHTML = (tl && tl.length > 0) ? "..." : (trackMeta.title || "");
+    if (elCurr) elCurr.innerHTML = trackMeta.title || "...";
     if (elNext) elNext.innerText = (tl && tl.length > 0) ? sanitizeLyricForDisplay(tl[0].lyric) : "";
 
-    // Hide meaning panel
+    // Hide meaning panels
     if (meaningPanel) {
         meaningPanel.classList.remove('meaning-visible');
         meaningPanel.classList.add('meaning-hidden');
     }
 
-    // Reset time display
     if (timeCurrent) timeCurrent.textContent = '0:00';
     if (timeTotal) timeTotal.textContent = '0:00';
-}
 
-// ── Media Change (A/B crossfade) ─────────────────────────
-function triggerMediaChange(mediaUrl) {
-    if (!mediaUrl) return;
-    if (currentActiveMediaLayer === 'A') {
-        if (mediaLayerB) mediaLayerB.style.backgroundImage = `url('${mediaUrl}')`;
-        if (mediaLayerB) mediaLayerB.classList.add('active');
-        if (mediaLayerA) mediaLayerA.classList.remove('active');
-        currentActiveMediaLayer = 'B';
-    } else {
-        if (mediaLayerA) mediaLayerA.style.backgroundImage = `url('${mediaUrl}')`;
-        if (mediaLayerA) mediaLayerA.classList.add('active');
-        if (mediaLayerB) mediaLayerB.classList.remove('active');
-        currentActiveMediaLayer = 'A';
-    }
+    // Preload first few lines of images
+    if (tl) preloadImagesForLines(tl, 0, 3);
 }
 
 // ── Image Preloader ──────────────────────────────────────
 function preloadImagesForLines(timeline, startIdx, count) {
     if (!timeline) return;
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
+
     for (let i = startIdx; i < Math.min(startIdx + count, timeline.length); i++) {
         const entry = timeline[i];
-        if (!entry || !entry.media) continue;
-        for (const m of entry.media) {
+        if (!entry) continue;
+        const allMedia = (entry.media || []).concat(entry.hidden_media || []);
+        for (const m of allMedia) {
             if (m && m.url && !preloadedImages.has(m.url)) {
                 const img = new Image();
-                img.src = `albums/${currentAlbumConfig.album_id}/${m.url}`;
+                img.src = `${albumPath}/${m.url}`;
                 preloadedImages.add(m.url);
             }
         }
     }
-}
 
-// ── Energy Lookup (binary search) ────────────────────────
-function getEnergyAtTime(energyCurve, time) {
-    if (!energyCurve || energyCurve.length === 0) return 0.5;
-    if (time <= energyCurve[0][0]) return energyCurve[0][1];
-    if (time >= energyCurve[energyCurve.length - 1][0]) return energyCurve[energyCurve.length - 1][1];
-
-    let lo = 0, hi = energyCurve.length - 1;
-    while (lo < hi - 1) {
-        const mid = (lo + hi) >> 1;
-        if (energyCurve[mid][0] <= time) lo = mid;
-        else hi = mid;
+    // Background preload for lines further ahead
+    const bgStart = startIdx + count;
+    const bgEnd = Math.min(bgStart + 3, timeline.length);
+    const loadBg = () => {
+        for (let i = bgStart; i < bgEnd; i++) {
+            const entry = timeline[i];
+            if (!entry) continue;
+            const allMedia = (entry.media || []).concat(entry.hidden_media || []);
+            for (const m of allMedia) {
+                if (m && m.url && !preloadedImages.has(m.url)) {
+                    const img = new Image();
+                    img.src = `${albumPath}/${m.url}`;
+                    preloadedImages.add(m.url);
+                }
+            }
+        }
+    };
+    if (typeof requestIdleCallback !== 'undefined') {
+        requestIdleCallback(loadBg);
+    } else {
+        setTimeout(loadBg, 200);
     }
-    // Linear interpolation
-    const t0 = energyCurve[lo][0], t1 = energyCurve[hi][0];
-    const v0 = energyCurve[lo][1], v1 = energyCurve[hi][1];
-    const frac = (t1 > t0) ? (time - t0) / (t1 - t0) : 0;
-    return v0 + frac * (v1 - v0);
 }
 
-// ── Build Word Spans (once per line) ─────────────────────
+// ── Build Word Spans ─────────────────────────────────────
 function buildWordSpans(words) {
     wordSpans = [];
     if (!words || words.length === 0) return '';
@@ -259,8 +370,12 @@ function syncTick() {
     if (!loadedTrackData || !loadedTrackData.timeline || loadedTrackData.timeline.length === 0) return;
     const timeline = loadedTrackData.timeline;
     const ct = audio.currentTime;
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
 
-    // ── 1. Find current timeline entry ──
+    // ── 1. Timing engine tick ──
+    const timing = TimingEngine.tick(ct);
+
+    // ── 2. Find current timeline entry ──
     let newTimelineIdx = -1;
     let inGap = false;
     for (let i = 0; i < timeline.length; i++) {
@@ -269,7 +384,6 @@ function syncTick() {
             break;
         }
     }
-    // Fallback: show last started entry (we're in a gap between entries)
     if (newTimelineIdx === -1) {
         inGap = true;
         for (let i = 0; i < timeline.length; i++) {
@@ -277,15 +391,15 @@ function syncTick() {
         }
     }
 
-    // ── 2. Line change ──
+    // ── 3. Line change ──
     if (newTimelineIdx !== currentLyricIndex && newTimelineIdx !== -1) {
         currentLyricIndex = newTimelineIdx;
         currentWordIndex = -1;
         wordSpansBuilt = false;
-        lastTriggeredMedia = null;
+        lineEnteredAt = performance.now();  // Grace period: don't highlight first word immediately
         const lineData = timeline[currentLyricIndex];
 
-        // Prev/next
+        // Prev/next lyrics
         if (elPrev) {
             elPrev.innerText = currentLyricIndex > 0
                 ? sanitizeLyricForDisplay(timeline[currentLyricIndex - 1].lyric) : "";
@@ -298,14 +412,11 @@ function syncTick() {
         // Current line
         if (elCurr && lineData) {
             const baseLyric = sanitizeLyricForDisplay(lineData.lyric);
-
-            // Responsive sizing
             elCurr.classList.remove('lyric-short', 'lyric-medium', 'lyric-long', 'slide-in');
             if (baseLyric.length <= 40) elCurr.classList.add('lyric-short');
             else if (baseLyric.length <= 120) elCurr.classList.add('lyric-medium');
             else elCurr.classList.add('lyric-long');
 
-            // Build word spans if words available, else plain text
             const words = lineData.words || [];
             if (words.length > 0) {
                 elCurr.innerHTML = '';
@@ -315,12 +426,11 @@ function syncTick() {
                 wordSpansBuilt = false;
             }
 
-            // Slide-in animation
-            void elCurr.offsetWidth; // force reflow
+            void elCurr.offsetWidth;
             elCurr.classList.add('slide-in');
         }
 
-        // Meaning panel
+        // Inner meaning panel (inside phone frame)
         if (lineData && lineData.real_meaning) {
             if (meaningText) meaningText.textContent = lineData.real_meaning;
             if (meaningPanel) {
@@ -334,44 +444,51 @@ function syncTick() {
             }
         }
 
-        // Preload images for upcoming lines
-        preloadImagesForLines(timeline, currentLyricIndex, 3);
+        // Zone 2: outer meaning overlay
+        Zone2Outer.updateMeaning(lineData);
+
+        // (bars now update per-frame in section 5 to catch offset changes)
+
+        // Preload upcoming images
+        preloadImagesForLines(timeline, currentLyricIndex, 2);
     }
 
-    // ── 3. Progressive word highlighting ──
+    // ── 4. Progressive word highlighting ──
     if (currentLyricIndex !== -1 && currentLyricIndex < timeline.length && wordSpansBuilt) {
-        const activeLine = timeline[currentLyricIndex];
-        const words = activeLine.words || [];
-        if (words.length > 0 && wordSpans.length > 0) {
-            const limit = Math.min(wordSpans.length, words.length);
+        // Grace period: keep all words as word-future for LINE_GRACE_MS after line change
+        if (performance.now() - lineEnteredAt < LINE_GRACE_MS) {
+            // Still in grace — all spans stay 'word-future' (set by buildWordSpans)
+        } else {
+            const activeLine = timeline[currentLyricIndex];
+            const words = activeLine.words || [];
+            if (words.length > 0 && wordSpans.length > 0) {
+                const limit = Math.min(wordSpans.length, words.length);
 
-            // In a gap between timeline entries: mark all words as sung
-            if (inGap) {
-                if (currentWordIndex !== limit) {
-                    currentWordIndex = limit;
-                    for (let i = 0; i < limit; i++) wordSpans[i].className = 'word-sung';
-                }
-            } else {
-                let newWordIdx = -1;
-                for (let w = 0; w < words.length; w++) {
-                    if (ct >= words[w].start) newWordIdx = w;
-                }
+                if (inGap) {
+                    if (currentWordIndex !== limit) {
+                        currentWordIndex = limit;
+                        for (let i = 0; i < limit; i++) wordSpans[i].className = 'word-sung';
+                    }
+                } else {
+                    let newWordIdx = -1;
+                    for (let w = 0; w < words.length; w++) {
+                        if (ct >= words[w].start) newWordIdx = w;
+                    }
 
-                if (newWordIdx !== currentWordIndex) {
-                    currentWordIndex = newWordIdx;
-                    for (let i = 0; i < limit; i++) {
-                        if (newWordIdx === -1) {
-                            // Before first word starts
-                            wordSpans[i].className = 'word-future';
-                        } else if (i < newWordIdx) {
-                            wordSpans[i].className = 'word-sung';
-                        } else if (i === newWordIdx) {
-                            // Only show as active if we're within the word's duration
-                            const w = words[i];
-                            const isWithin = ct >= w.start && ct < w.end;
-                            wordSpans[i].className = isWithin ? 'word-active' : 'word-sung';
-                        } else {
-                            wordSpans[i].className = 'word-future';
+                    if (newWordIdx !== currentWordIndex) {
+                        currentWordIndex = newWordIdx;
+                        for (let i = 0; i < limit; i++) {
+                            if (newWordIdx === -1) {
+                                wordSpans[i].className = 'word-future';
+                            } else if (i < newWordIdx) {
+                                wordSpans[i].className = 'word-sung';
+                            } else if (i === newWordIdx) {
+                                const w = words[i];
+                                const isWithin = ct >= w.start && ct < w.end;
+                                wordSpans[i].className = isWithin ? 'word-active' : 'word-sung';
+                            } else {
+                                wordSpans[i].className = 'word-future';
+                            }
                         }
                     }
                 }
@@ -379,45 +496,52 @@ function syncTick() {
         }
     }
 
-    // ── 4. Media sub-timeline ──
+    // ── 5. Zone media updates ──
     if (currentLyricIndex !== -1 && currentLyricIndex < timeline.length) {
         const activeLine = timeline[currentLyricIndex];
-        const mediaArr = activeLine && activeLine.media;
-        if (mediaArr && mediaArr.length > 0) {
-            let chosenMedia = mediaArr[0].url;
-            for (let m = 0; m < mediaArr.length; m++) {
-                if (!mediaArr[m]) continue;
-                const triggerTime = activeLine.start + parseFloat(mediaArr[m].offset || 0);
-                if (ct >= triggerTime) chosenMedia = mediaArr[m].url;
+
+        // Zone 1: literal story images inside phone frame (beat-aligned cutting)
+        Zone1Inner.updateMedia(activeLine, ct, albumPath, loadedTrackData.beat_times);
+
+        // Zone 2: bars show current line's hidden narrative (gradient-masked edges)
+        Zone2Outer.updateBars(activeLine, ct, albumPath);
+
+        // Zone 2: burst on high energy + beats
+        Zone2Outer.updateBurst(timing.energy, timing.beatPulse, albumPath, timeline, currentLyricIndex);
+
+        // Zone 2: section change — refresh bars with nearest hidden images
+        if (timing.sectionChanged && timing.section) {
+            const secIdx = loadedTrackData.sections ? loadedTrackData.sections.indexOf(timing.section) : -1;
+            Zone2Outer.onSectionChange(secIdx, timeline, ct, albumPath);
+            // Chorus pulse on high-energy section transitions
+            if (timing.energy > 0.7) {
+                Zone2Outer.chorusPulse();
             }
-            if (chosenMedia && lastTriggeredMedia !== chosenMedia) {
-                lastTriggeredMedia = chosenMedia;
-                triggerMediaChange(`albums/${currentAlbumConfig.album_id}/${chosenMedia}`);
+        }
+
+        // Zone 3: ambient background shows HIDDEN narrative (modern parallel)
+        if (activeLine.hidden_media && activeLine.hidden_media.length > 0) {
+            let chosenHidden = activeLine.hidden_media[0].url;
+            for (let h = 0; h < activeLine.hidden_media.length; h++) {
+                if (!activeLine.hidden_media[h]) continue;
+                const trigTime = activeLine.start + parseFloat(activeLine.hidden_media[h].offset || 0);
+                if (ct >= trigTime) chosenHidden = activeLine.hidden_media[h].url;
+            }
+            if (chosenHidden) {
+                Zone3Ambient.setImage(`${albumPath}/${chosenHidden}`);
             }
         }
     }
 
-    // ── 5. Energy-responsive effects (throttled to ~10Hz) ──
+    // ── 6. Beat pulse (every frame) ──
+    Zone2Outer.applyBeatPulse(timing.beatPulse);
+
+    // ── 7. Energy-responsive effects (throttled ~15Hz) ──
     const now = performance.now();
-    if (now - lastEnergyCheck > 100) {
-        lastEnergyCheck = now;
-        const energyCurve = loadedTrackData.energy_curve;
-        if (energyCurve && energyCurve.length > 0) {
-            const energy = getEnergyAtTime(energyCurve, ct);
-
-            // Dynamic brightness: 0.25 at low energy, 0.50 at high
-            const brightness = 0.25 + energy * 0.25;
-            document.documentElement.style.setProperty('--media-brightness', brightness.toFixed(3));
-
-            // Vignette opacity: deeper at quiet sections
-            if (vignetteOverlay) {
-                vignetteOverlay.style.opacity = (1.0 - energy * 0.5).toFixed(2);
-            }
-
-            // Crossfade speed: fast at high energy, slow at quiet
-            const speed = (1.2 - energy * 0.9).toFixed(2);
-            document.documentElement.style.setProperty('--crossfade-speed', speed + 's');
-        }
+    if (now - lastEnergyTick > 66) {
+        lastEnergyTick = now;
+        Zone3Ambient.applyEnergy(timing.energy);
+        Zone2Outer.applyEnergy(timing.energy);
     }
 }
 
@@ -431,6 +555,44 @@ function stopSyncLoop() {
         cancelAnimationFrame(rafId);
         rafId = null;
     }
+}
+
+// ── Auto-Hide UI (immersive mode) ────────────────────────
+// During playback, controls collapse and track pills shrink to dots.
+// Mouse movement over the phone frame reveals everything temporarily.
+let uiCollapseTimer = null;
+const UI_COLLAPSE_MS = 4000;
+
+function collapseUI() {
+    const pc = document.getElementById('player-controls');
+    if (pc) pc.classList.add('controls-compact');
+    if (trackListNav) trackListNav.classList.add('track-nav-dim');
+}
+
+function revealUI() {
+    const pc = document.getElementById('player-controls');
+    if (pc) pc.classList.remove('controls-compact');
+    if (trackListNav) trackListNav.classList.remove('track-nav-dim');
+    clearTimeout(uiCollapseTimer);
+}
+
+function scheduleUICollapse() {
+    clearTimeout(uiCollapseTimer);
+    if (!audio.paused) {
+        uiCollapseTimer = setTimeout(() => {
+            if (!audio.paused) collapseUI();
+        }, UI_COLLAPSE_MS);
+    }
+}
+
+// Mouse movement over phone frame temporarily reveals UI
+const phoneFrame = document.getElementById('phone-frame');
+if (phoneFrame) {
+    phoneFrame.addEventListener('mousemove', () => {
+        if (audio.paused) return;
+        revealUI();
+        scheduleUICollapse();
+    });
 }
 
 // ── Playback Controls ────────────────────────────────────
@@ -460,7 +622,7 @@ if (btnPrev) btnPrev.addEventListener('click', () => {
     }
 });
 
-// Progress bar (keep timeupdate for this — low frequency is fine)
+// Progress bar
 audio.addEventListener('timeupdate', () => {
     if (progressBar && audio.duration) {
         progressBar.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
@@ -472,15 +634,18 @@ audio.addEventListener('timeupdate', () => {
 audio.addEventListener('play', () => {
     if (btnPlay) btnPlay.innerText = "\u23F8";
     startSyncLoop();
+    scheduleUICollapse();
 });
 
 audio.addEventListener('pause', () => {
     if (btnPlay) btnPlay.innerText = "\u25B6";
     stopSyncLoop();
+    revealUI();
 });
 
 audio.addEventListener('ended', () => {
     stopSyncLoop();
+    revealUI();
     if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
         loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
     } else {
@@ -494,12 +659,57 @@ if (progressContainer) {
         if (!audio.duration) return;
         const clickPercent = e.offsetX / progressContainer.offsetWidth;
         audio.currentTime = clickPercent * audio.duration;
-        // Reset lyric index to force re-sync
         currentLyricIndex = -1;
         currentWordIndex = -1;
         wordSpansBuilt = false;
     });
 }
+
+// ── Diagnostics (call window.diagImages() from browser console) ──
+window.diagImages = function() {
+    console.log('=== IMAGE DIAGNOSTIC ===');
+    console.log('Album ID:', currentAlbumId);
+    console.log('Track index:', currentTrackIndex);
+    console.log('Current lyric index:', currentLyricIndex);
+    console.log('Audio time:', audio.currentTime.toFixed(2));
+    console.log('Audio paused:', audio.paused);
+
+    if (!loadedTrackData || !loadedTrackData.timeline) {
+        console.error('NO TRACK DATA LOADED');
+        return;
+    }
+
+    const tl = loadedTrackData.timeline;
+    const withMedia = tl.filter(l => l.media && l.media.length > 0).length;
+    const withHidden = tl.filter(l => l.hidden_media && l.hidden_media.length > 0).length;
+    console.log(`Timeline: ${tl.length} entries, ${withMedia} with media, ${withHidden} with hidden_media`);
+
+    // Show what's currently displayed in each zone
+    const z1a = document.getElementById('inner-img-a');
+    const z1b = document.getElementById('inner-img-b');
+    console.log('Zone1 layer A:', z1a?.style.backgroundImage?.slice(0, 80));
+    console.log('Zone1 layer B:', z1b?.style.backgroundImage?.slice(0, 80));
+
+    const z3a = document.getElementById('ambient-layer-a');
+    const z3b = document.getElementById('ambient-layer-b');
+    console.log('Zone3 layer A:', z3a?.style.backgroundImage?.slice(0, 80));
+    console.log('Zone3 layer B:', z3b?.style.backgroundImage?.slice(0, 80));
+
+    // Test load a specific image
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
+    const testUrl = tl[0]?.media?.[0]?.url;
+    if (testUrl) {
+        const img = new Image();
+        img.onload = () => console.log(`TEST LOAD OK: ${albumPath}/${testUrl} (${img.width}x${img.height})`);
+        img.onerror = () => console.error(`TEST LOAD FAILED: ${albumPath}/${testUrl}`);
+        img.src = `${albumPath}/${testUrl}`;
+    }
+
+    console.log('Structure:', loadedTrackData.sections ? `${loadedTrackData.sections.length} sections` : 'NONE');
+    console.log('Beat times:', loadedTrackData.beat_times ? `${loadedTrackData.beat_times.length} beats` : 'NONE');
+    console.log('Energy curve:', loadedTrackData.energy_curve ? `${loadedTrackData.energy_curve.length} points` : 'NONE');
+    console.log('=== END DIAGNOSTIC ===');
+};
 
 // ── Init on Load ─────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {

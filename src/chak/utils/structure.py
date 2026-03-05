@@ -160,10 +160,17 @@ def save_structure(structure: dict, out_path: Path) -> None:
     logger.info("Saved structure -> %s", out_path)
 
 
-def load_structure(track_id: str, album_dir: Path) -> dict | None:
-    """Load cached structure analysis for a track."""
-    path = album_dir / "data" / f"{track_id}.structure.json"
+def load_structure(track_id: str, album_dir: Path, variant_id: str | None = None) -> dict | None:
+    """Load cached structure analysis for a track (or variant)."""
+    stem = f"{track_id}_{variant_id}" if variant_id else track_id
+    path = album_dir / "data" / f"{stem}.structure.json"
     if not path.exists():
+        if variant_id:
+            # Fall back to base track structure
+            base_path = album_dir / "data" / f"{track_id}.structure.json"
+            if base_path.exists():
+                with open(base_path, encoding="utf-8") as f:
+                    return json.load(f)
         return None
     with open(path, encoding="utf-8") as f:
         return json.load(f)
@@ -206,6 +213,46 @@ def get_avg_intensity(structure: dict, start: float, end: float) -> float:
         return get_intensity_at(structure, (start + end) / 2)
 
     return sum(values) / len(values)
+
+
+def analyze_variant_track(
+    album_dir: Path,
+    track_id: str,
+    variant_id: str,
+) -> dict:
+    """Analyze structure for a single variant audio file.
+
+    Looks up the variant's audio filename from album_config.json and writes
+    the structure to ``data/{track_id}_{variant_id}.structure.json``.
+    """
+    config_path = album_dir / "album_config.json"
+    with open(config_path, encoding="utf-8") as f:
+        album_config = json.load(f)
+
+    track_entry = next(
+        (t for t in album_config["tracks"]
+         if (t.get("track_id") or t.get("id")) == track_id),
+        None,
+    )
+    if not track_entry:
+        raise ValueError(f"Track {track_id} not found in album_config.json")
+
+    variant_entry = next(
+        (v for v in (track_entry.get("variants") or [])
+         if v["id"] == variant_id),
+        None,
+    )
+    if not variant_entry:
+        raise ValueError(f"Variant {variant_id} not found for {track_id}")
+
+    audio_path = album_dir / variant_entry["audio"]
+    if not audio_path.exists():
+        raise FileNotFoundError(f"Variant audio not found: {audio_path}")
+
+    structure = analyze_track(audio_path)
+    cache_path = album_dir / "data" / f"{track_id}_{variant_id}.structure.json"
+    save_structure(structure, cache_path)
+    return structure
 
 
 def analyze_album_tracks(album_dir: Path) -> dict[str, dict]:

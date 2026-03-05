@@ -8,22 +8,29 @@ var track_01_data = {
             "start": 0.2,
             "end": 1.749,
             "lyric": "When I pressed play on the time machine",
-            "real_meaning": "The naive, trivial expectations we had before technology changed everything â€” like buying the first smartphone 'just to make calls'.",
+            "real_meaning": "The naive, trivial expectations we had before technology changed everything — like buying the first smartphone 'just to make calls'.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0000.jpg",
-                    "query": "vintage green British phone booth glowing in fog, mysterious cinematic lighting, time travel portal"
+                    "query": "A lush, prehistoric valley stretches out, a green phone booth stands eerily alone, firelight flickering in the distance."
                 },
                 {
                     "offset": 0.68,
                     "url": "media/c0001.jpg",
-                    "query": "A steaming cup of tea sits on an old, wooden table in a green booth. The door is ajar and mist slowly rolls inside."
+                    "query": "A figure steps out of the phone booth, BIC lighter in hand, gazing in awe at the fiery torches of the surrounding cave dwellers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0003.jpg",
+                    "query": "A sprawling cityscape at dawn, a teenager in an attic window, dusty laptop glowing."
                 },
                 {
-                    "offset": 6.25,
-                    "url": "media/c0002.jpg",
-                    "query": "Faded newspaper clippings swirl as they catch fire in the phonebooth, forming a vortex."
+                    "offset": 0.68,
+                    "url": "media/c0004.jpg",
+                    "query": "Teenager, 2007, iPhone in hands, awe on their face,  in a dimly lit room."
                 }
             ],
             "words": [
@@ -76,6 +83,7 @@ var track_01_data = {
             "lyric": "(which was actually a British phone booth painted",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 1.94,
@@ -126,6 +134,7 @@ var track_01_data = {
             "lyric": "green",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 4.78,
@@ -140,7 +149,20 @@ var track_01_data = {
             "end": 6.612,
             "lyric": "don't ask)",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 6.25,
+                    "url": "media/c0002.jpg",
+                    "query": "up of the time traveler's face, eyes wide with wonder and disbelief as they grasp the lighter, sparks fly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 6.25,
+                    "url": "media/c0005.jpg",
+                    "query": "up of their eyes and the first iPhone screen."
+                }
+            ],
             "words": [
                 {
                     "start": 5.826,
@@ -161,6 +183,7 @@ var track_01_data = {
             "lyric": "my only intention was to grab some cool",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 6.944,
@@ -211,6 +234,7 @@ var track_01_data = {
             "lyric": "rocks and see a dinosaur before dinner.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 9.258,
@@ -254,22 +278,29 @@ var track_01_data = {
             "start": 12.032,
             "end": 14.04,
             "lyric": "I landed in a valley of moss and",
-            "real_meaning": "Humanity in its raw state â€” before technology, before dogma. Survival was simple, honest, and desperately hard.",
+            "real_meaning": "Humanity in its raw state — before technology, before dogma. Survival was simple, honest, and desperately hard.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0003.jpg",
-                    "query": "prehistoric misty valley with a lone figure crouched by dying embers, smoke rising, cinematic wide shot"
+                    "url": "media/c0006.jpg",
+                    "query": "A lone green phone booth stands in a vast, misty valley. Lush ferns and towering trees surround it. The sun is setting, casting warm hues over the prehistoric landscape. Dramatic p"
                 },
                 {
                     "offset": 0.72,
-                    "url": "media/c0004.jpg",
-                    "query": "A close-up of hands expertly crafting a stone tool against a backdrop of fiery embers."
+                    "url": "media/c0007.jpg",
+                    "query": "A time traveler emerges from the phone booth, holding a small, glowing object. A cave dweller crouches nearby, desperately trying to start a fire. The traveler's face is a mix of a"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0009.jpg",
+                    "query": "An abandoned attic filled with dusty artifacts, a flickering laptop screen glows in the darkness."
                 },
                 {
-                    "offset": 7.77,
-                    "url": "media/c0005.jpg",
-                    "query": "Ethereal rays of sunlight breaking through fog to illuminate the figure from above."
+                    "offset": 0.72,
+                    "url": "media/c0010.jpg",
+                    "query": "A teenager's fingers hover over a newly unboxed iPhone, eyes wide with anticipation."
                 }
             ],
             "words": [
@@ -322,6 +353,7 @@ var track_01_data = {
             "lyric": "smoke.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 14.04,
@@ -337,6 +369,7 @@ var track_01_data = {
             "lyric": "Smell of rain, fire in the air.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 15.04,
@@ -382,6 +415,7 @@ var track_01_data = {
             "lyric": "And there he was:",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 18.368,
@@ -411,7 +445,20 @@ var track_01_data = {
             "end": 21.536,
             "lyric": "the first human I'd ever seen.",
             "real_meaning": "",
-            "media": [],
+            "media": [
+                {
+                    "offset": 7.77,
+                    "url": "media/c0008.jpg",
+                    "query": "The cave dweller's weathered hands cradle a tiny, smoldering twig. His eyes are wide with determination and fear. The traveler watches, their expression a mix of empathy and wonder"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 7.77,
+                    "url": "media/c0011.jpg",
+                    "query": "A close-up of a human hand striking flint, sparks flying, raw determination etched on the skin."
+                }
+            ],
             "words": [
                 {
                     "start": 19.744,
@@ -452,6 +499,7 @@ var track_01_data = {
             "lyric": "Crouched by a pile of stones",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 22.088,
@@ -492,6 +540,7 @@ var track_01_data = {
             "lyric": "blowing on a twig like his life depended",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 24.0,
@@ -542,6 +591,7 @@ var track_01_data = {
             "lyric": "on it.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 26.09,
@@ -562,6 +612,7 @@ var track_01_data = {
             "lyric": "And it did.",
             "real_meaning": "",
             "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 26.8,
@@ -589,8 +640,35 @@ var track_01_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0006.jpg",
-                    "query": "close-up of a primitive man's face lit by firelight, eyes wide with curiosity, dramatic portrait"
+                    "url": "media/c0012.jpg",
+                    "query": "A lone, verdant phone booth stands amidst a vast, untamed prehistoric valley bathed in warm hues at sunset, cinematic."
+                },
+                {
+                    "offset": 0.66,
+                    "url": "media/c0013.jpg",
+                    "query": "A curious cave dweller approaches the phone booth, firelight flickering in the background, eyes wide with wonder, dramatic."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0014.jpg",
+                    "query": "The cave dweller gazes in awe at the glowing BIC lighter held by the time traveler. Painterly, intimate."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0015.jpg",
+                    "query": "A dusty attic filled with forgotten relics. A teenager peeks under the dust, discovering a laptop and opening it."
+                },
+                {
+                    "offset": 0.66,
+                    "url": "media/c0016.jpg",
+                    "query": "An urban apartment with exposed brick.  A glowing screen, illuminating the teenager's face. Awe.  The first iPhone unboxing."
+                },
+                {
+                    "offset": 0.0,
+                    "url": "media/c0017.jpg",
+                    "query": "A close up of the teenagerâ€™s face as they hold the iPhone for the first time.  Eyes wide open. Awe."
                 }
             ],
             "words": [
@@ -918,7 +996,37 @@ var track_01_data = {
             0.454
         ]
     ],
-    "bpm": 112.3
+    "bpm": 112.3,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 0.49,
+            "energy": "high",
+            "intensity": 0.789
+        },
+        {
+            "start": 0.49,
+            "end": 17.44,
+            "energy": "high",
+            "intensity": 0.782
+        },
+        {
+            "start": 17.44,
+            "end": 29.64,
+            "energy": "high",
+            "intensity": 0.739
+        }
+    ],
+    "transition_points": [
+        0.6,
+        3.92,
+        7.5,
+        11.91,
+        16.39,
+        20.11,
+        23.64,
+        28.51
+    ]
 };
 window.albumData = window.albumData || {};
 window.albumData["MY_ALBUM_001"] = window.albumData["MY_ALBUM_001"] || {};

@@ -1,11 +1,22 @@
+/* ═══════════════════════════════════════════════════════════════
+   THE CHAK CHAK MAGE — Interactive Studio
+   Dual-Narrative Visual Architecture
+   Phone Frame (literal story) + Atmospheric Background (hidden parallel)
+   ═══════════════════════════════════════════════════════════════ */
+
 :root {
     --gold: #ffaa00;
     --accent: #ffaa00;
     --accent-glow: rgba(255, 170, 0, 0.6);
     --dark: #111;
     --text-glow: 0 0 10px var(--accent-glow);
-    --media-brightness: 0.35;
-    --crossfade-speed: 0.6s;
+
+    /* Beat-reactive (set by JS) */
+    --beat-pulse: 1.0;
+    --beat-brightness: 0.0;
+
+    /* Energy-reactive (set by JS ~15Hz) */
+    --ambient-brightness: 0.15;
 }
 
 * {
@@ -18,87 +29,230 @@ body,
 html {
     width: 100vw;
     height: 100vh;
-    background-color: var(--dark);
+    background-color: #000;
     font-family: 'Inter', sans-serif;
     color: #fff;
     overflow: hidden;
 }
 
-/* ═══════════════════════════════════════════════════════
-   MEDIA CANVAS (Bottom Layer)
-   ═══════════════════════════════════════════════════════ */
-#media-canvas {
+/* ═══════════════════════════════════════════════════════════════
+   ZONE 3: AMBIENT BACKGROUND — HIDDEN NARRATIVE
+   Fullscreen blurred/dimmed — shows modern parallel images
+   ═══════════════════════════════════════════════════════════════ */
+#ambient-field {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     z-index: 1;
 }
 
-.media-layer {
+.ambient-layer {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background-size: cover;
     background-position: center;
     opacity: 0;
-    transition: opacity var(--crossfade-speed) ease-in-out;
-    filter: brightness(var(--media-brightness));
-    will-change: opacity, transform;
+    transition: opacity 3s ease-in-out;
+    filter: blur(6px) brightness(var(--ambient-brightness)) saturate(0.8);
+    transform: scale(1.05);
+    will-change: opacity;
 }
 
-.media-layer.active {
+.ambient-layer.active {
     opacity: 1;
-    animation: ken-burns 12s ease-in-out infinite alternate;
 }
 
-@keyframes ken-burns {
-    0% { transform: scale(1.0) translate(0, 0); }
-    100% { transform: scale(1.08) translate(-1%, -1%); }
-}
-
-/* Allows videos in future */
-.media-layer video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* ═══════════════════════════════════════════════════════
-   ENERGY-RESPONSIVE VIGNETTE
-   ═══════════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════════════════
+   VIGNETTE — depth and focus toward center
+   ═══════════════════════════════════════════════════════════════ */
 #vignette-overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     z-index: 2;
     pointer-events: none;
     background: radial-gradient(
         ellipse at center,
-        transparent 30%,
-        rgba(0, 0, 0, 0.7) 100%
+        transparent 35%,
+        rgba(0, 0, 0, 0.55) 100%
     );
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
 }
 
-/* ═══════════════════════════════════════════════════════
-   UI OVERLAY
-   ═══════════════════════════════════════════════════════ */
-#ui-container {
+/* ═══════════════════════════════════════════════════════════════
+   ZONE 2: NARRATIVE FRAME — hidden images fill 4 bars around phone
+   Each bar = full-viewport overlay with gradient mask revealing its edge
+   A/B crossfade layers, beat-synced brightness, energy-reactive
+   ═══════════════════════════════════════════════════════════════ */
+#narrative-frame {
+    position: fixed;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.frame-bar {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.bar-layer {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    will-change: opacity;
+    filter: blur(2px) saturate(0.85) brightness(calc(var(--bar-brightness, 0.4) + var(--beat-brightness, 0)));
+}
+
+.bar-layer.active {
+    opacity: 1;
+}
+
+/* Gradient masks — each bar visible at its viewport edge, fading toward center
+   Left/right bars extend further (more visible space beside phone)
+   Top/bottom are narrower (phone fills most of the vertical) */
+.bar-top {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 8%, transparent 18%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 8%, transparent 18%);
+}
+
+.bar-bottom {
+    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 8%, transparent 18%);
+    mask-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 8%, transparent 18%);
+}
+
+.bar-left {
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 22%, transparent 42%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 22%, transparent 42%);
+}
+
+.bar-right {
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 22%, transparent 42%);
+    mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 22%, transparent 42%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ZONE 1: PHONE FRAME — LITERAL STORY (center)
+   ═══════════════════════════════════════════════════════════════ */
+#zone-container {
     position: relative;
     z-index: 10;
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
+#phone-frame {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 9 / 16;
+    max-height: 80vh;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow:
+        0 0 40px rgba(0, 0, 0, 0.8),
+        0 0 80px rgba(0, 0, 0, 0.4),
+        inset 0 0 1px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: var(--dark);
+    transform: scale(var(--beat-pulse));
+    transition: transform 0.08s ease-out;
+    will-change: transform;
+}
+
+/* A/B image layers INSIDE the phone frame */
+.inner-img-layer {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    will-change: opacity;
+}
+
+.inner-img-layer.active {
+    opacity: 1;
+}
+
+/* Content overlay — gradient scrim for readability */
+#inner-content {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.15) 30%,
+        rgba(0, 0, 0, 0.15) 60%,
+        rgba(0, 0, 0, 0.7) 100%
+    );
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HIDDEN MEANING OVERLAY — outside phone frame, bottom center
+   Shows the modern-parallel interpretation of the current lyric
+   ═══════════════════════════════════════════════════════════════ */
+#hidden-meaning-overlay {
+    position: fixed;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    z-index: 15;
+    text-align: center;
+    max-width: 500px;
+    padding: 8px 18px;
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 1.2s ease, transform 0.8s ease;
+    pointer-events: none;
+    backdrop-filter: blur(8px);
+}
+
+#hidden-meaning-overlay.hidden-meaning-on {
+    opacity: 0.9;
+    transform: translateX(-50%) translateY(0);
+}
+
+.hidden-meaning-label {
+    display: block;
+    font-size: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--accent);
+    opacity: 0.7;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+#hidden-meaning-text {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.4;
+}
+
+/* Phone portrait: hide meaning overlay (phone shows inner meaning panel) */
+@media (max-width: 768px) and (orientation: portrait) {
+    #hidden-meaning-overlay { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════════════════════════════ */
 header {
     text-align: center;
-    padding: 15px 20px;
+    padding: 8px 12px 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,26 +261,24 @@ header {
 
 header h1 {
     font-family: 'Cinzel', serif;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-shadow: var(--text-glow);
-    font-size: 1.6rem;
+    font-size: 0.9rem;
 }
 
 header p {
-    opacity: 0.7;
-    font-size: 0.8rem;
-    margin-top: 4px;
+    display: none;
 }
 
 .sm-btn {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
-    padding: 4px 12px;
-    margin-top: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255,255,255,0.6);
+    padding: 2px 8px;
+    margin-top: 3px;
     cursor: pointer;
     border-radius: 4px;
-    font-size: 0.75rem;
+    font-size: 0.55rem;
 }
 
 .sm-btn:hover {
@@ -134,38 +286,34 @@ header p {
     border-color: var(--accent);
 }
 
-/* ═══════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════
    TRACK LIST NAVIGATION
-   ═══════════════════════════════════════════════════════ */
+   ═══════════════════════════════════════════════════════════════ */
 #track-list {
     display: flex;
-    gap: 6px;
-    padding: 6px 20px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 4px 8px;
     flex-shrink: 0;
     justify-content: center;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-#track-list::-webkit-scrollbar {
-    display: none;
+    max-width: 100%;
+    transition: gap 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                padding 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .track-pill {
     flex-shrink: 0;
-    padding: 5px 14px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background: rgba(0, 0, 0, 0.4);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 0.7rem;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(0, 0, 0, 0.35);
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.5rem;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.45s cubic-bezier(0.4, 0, 0.2, 1);
     white-space: nowrap;
-    backdrop-filter: blur(4px);
+    min-width: 0;
 }
 
 .track-pill:hover {
@@ -179,12 +327,63 @@ header p {
     color: #000;
     font-weight: 600;
     border-color: var(--accent);
-    box-shadow: 0 0 12px var(--accent-glow);
+    box-shadow: 0 0 10px var(--accent-glow);
 }
 
-/* ═══════════════════════════════════════════════════════
-   VIEWS
-   ═══════════════════════════════════════════════════════ */
+/* ── Track nav dimmed: pills collapse to glowing dots ── */
+#track-list.track-nav-dim {
+    gap: 6px;
+    padding: 6px 8px;
+}
+
+#track-list.track-nav-dim .track-pill {
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    border-radius: 50%;
+    font-size: 0;
+    color: transparent;
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#track-list.track-nav-dim .track-pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 10px var(--accent-glow);
+    animation: dot-breathe 2.5s ease-in-out infinite;
+}
+
+@keyframes dot-breathe {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 8px var(--accent-glow); }
+    50%      { transform: scale(1.4); box-shadow: 0 0 16px var(--accent-glow); }
+}
+
+/* Hover: dots expand back to full pills */
+#track-list.track-nav-dim:hover {
+    gap: 4px;
+    padding: 4px 8px;
+}
+
+#track-list.track-nav-dim:hover .track-pill {
+    padding: 2px 7px;
+    width: auto;
+    height: auto;
+    min-width: auto;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.55);
+    animation: none;
+}
+
+#track-list.track-nav-dim:hover .track-pill.active {
+    color: #000;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PLAYER VIEW
+   ═══════════════════════════════════════════════════════════════ */
 .view {
     flex-grow: 1;
     display: none;
@@ -203,45 +402,49 @@ header p {
     display: none !important;
 }
 
-/* ═══════════════════════════════════════════════════════
-   PLAYER VIEW — LYRICS
-   ═══════════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════════════════
+   LYRICS DISPLAY
+   ═══════════════════════════════════════════════════════════════ */
 #lyrics-display {
     text-align: center;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 850px;
-    max-height: 50vh;
+    max-width: 100%;
+    max-height: 40vh;
     overflow-y: auto;
     overflow-x: hidden;
     word-wrap: break-word;
     min-height: 0;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 
 .lyric-line {
-    margin: 12px 0;
+    margin: 8px 0;
     transition: all 0.3s ease;
 }
 
 #lyric-prev,
 #lyric-next {
-    font-size: 1.1rem;
-    opacity: 0.25;
+    font-size: 0.75rem;
+    opacity: 0.2;
     transition: opacity 0.4s ease;
+    overflow-wrap: break-word;
+    word-break: keep-all;
 }
 
 #lyric-curr {
-    font-size: 2.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--accent);
-    text-shadow: 0 0 15px var(--accent-glow);
+    text-shadow: 0 0 12px var(--accent-glow);
     transition: font-size 0.3s ease, transform 0.15s ease;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    hyphens: none;
 }
 
-/* Slide-in animation for lyric line change */
 #lyric-curr.slide-in {
     animation: slide-in-up 0.35s ease-out;
 }
@@ -249,7 +452,7 @@ header p {
 @keyframes slide-in-up {
     0% {
         opacity: 0;
-        transform: translateY(16px);
+        transform: translateY(12px);
     }
     100% {
         opacity: 1;
@@ -257,124 +460,164 @@ header p {
     }
 }
 
-/* Responsive lyric sizing based on length */
-#lyric-curr.lyric-short { font-size: 3rem; }
-#lyric-curr.lyric-medium { font-size: 2.2rem; }
-#lyric-curr.lyric-long { font-size: 1.5rem; line-height: 1.4; }
+/* Responsive lyric sizing */
+#lyric-curr.lyric-short { font-size: 1.5rem; }
+#lyric-curr.lyric-medium { font-size: 1.2rem; }
+#lyric-curr.lyric-long { font-size: 0.95rem; line-height: 1.4; }
 
-/* ═══════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════
    PROGRESSIVE KARAOKE WORD HIGHLIGHTING
-   ═══════════════════════════════════════════════════════ */
-
-/* Already sung words — bright, with subtle gold warmth */
+   ═══════════════════════════════════════════════════════════════ */
 .word-sung {
     color: #fff;
-    text-shadow: 0 0 6px rgba(255, 200, 100, 0.5);
+    text-shadow: 0 0 5px rgba(255, 200, 100, 0.4);
     transition: color 0.15s, text-shadow 0.15s;
 }
 
-/* Currently active word — white with pulse */
 .word-active {
     font-weight: 700;
     color: #fff;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.9), 0 0 20px var(--accent-glow);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.9), 0 0 18px var(--accent-glow);
     animation: word-pulse 0.5s ease-in-out;
 }
 
 @keyframes word-pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.08); }
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.08); }
     100% { transform: scale(1); }
 }
 
-/* Future words — dim */
 .word-future {
     opacity: 0.4;
     color: var(--accent);
     transition: opacity 0.15s;
 }
 
-/* Legacy class kept for backward compatibility */
-.word-inactive {
-    opacity: 0.4;
-    color: var(--accent);
+/* ═══════════════════════════════════════════════════════════════
+   MEANING PANEL (inside phone frame)
+   Hidden on desktop — meaning text shown in outer overlay instead
+   ═══════════════════════════════════════════════════════════════ */
+#meaning-panel {
+    width: 85%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 170, 0, 0.08);
+    border-radius: 8px;
+    padding: 5px 12px;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    flex-shrink: 0;
+    max-height: 60px;
+    overflow: hidden;
+    display: none;
 }
 
-/* ═══════════════════════════════════════════════════════
-   MEANING PANEL
-   ═══════════════════════════════════════════════════════ */
-#meaning-panel {
-    position: fixed;
-    bottom: 180px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 500px;
-    width: 90%;
-    background: rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 170, 0, 0.15);
-    border-radius: 10px;
-    padding: 12px 18px;
-    z-index: 15;
-    transition: opacity 0.4s ease, transform 0.4s ease;
+/* Phone portrait: show inner meaning panel (outer overlay hidden) */
+@media (max-width: 768px) and (orientation: portrait) {
+    #meaning-panel { display: block; }
 }
 
 #meaning-panel.meaning-hidden {
     opacity: 0;
-    transform: translateX(-50%) translateY(10px);
+    transform: translateY(6px);
     pointer-events: none;
 }
 
 #meaning-panel.meaning-visible {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(0);
 }
 
 .meaning-label {
     display: block;
-    font-size: 0.55rem;
+    font-size: 0.5rem;
     font-weight: 600;
     letter-spacing: 2px;
     color: var(--accent);
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     text-transform: uppercase;
 }
 
 #meaning-text {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-style: italic;
     color: #ccc;
     line-height: 1.4;
 }
 
-/* ═══════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════
    PLAYER CONTROLS
-   ═══════════════════════════════════════════════════════ */
+   ═══════════════════════════════════════════════════════════════ */
 #player-controls {
     width: 90%;
-    max-width: 600px;
-    margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 18px;
+    max-width: 400px;
+    margin: 0 auto 8px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 14px;
     border-radius: 10px;
-    border: 1px solid rgba(255, 170, 0, 0.2);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 170, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     flex-shrink: 0;
+    transition: padding 0.5s ease, background 0.5s ease, border-color 0.5s ease;
 }
 
 .track-info {
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     font-family: 'Cinzel', serif;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
+    transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+/* Variant picker — small buttons below track name */
+.variant-picker {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 6px;
+    transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.variant-picker.hidden {
+    display: none;
+}
+
+.variant-btn {
+    padding: 1px 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.35);
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.variant-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+    color: #fff;
+}
+
+.variant-btn.active {
+    background: var(--accent);
+    color: #000;
+    font-weight: 600;
+    border-color: var(--accent);
 }
 
 .progress-bar-container {
     width: 100%;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.15);
+    height: 3px;
+    background: rgba(255, 255, 255, 0.12);
     cursor: pointer;
     border-radius: 2px;
 }
@@ -390,24 +633,30 @@ header p {
 .time-display {
     display: flex;
     justify-content: space-between;
-    font-size: 0.65rem;
-    opacity: 0.5;
-    margin-top: 4px;
+    font-size: 0.55rem;
+    opacity: 0.45;
+    margin-top: 3px;
     padding: 0 2px;
+    transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
+    max-height: 20px;
+    overflow: hidden;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 12px;
+    gap: 24px;
+    margin-top: 8px;
+    transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
+    max-height: 50px;
+    overflow: hidden;
 }
 
 .buttons button {
     background: none;
     border: none;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: color 0.2s, transform 0.15s;
 }
@@ -417,65 +666,243 @@ header p {
     transform: scale(1.1);
 }
 
-/* ═══════════════════════════════════════════════════════
-   EDITOR VIEW (legacy)
-   ═══════════════════════════════════════════════════════ */
-#editor-layout {
+/* ── Controls compact: collapse to thin progress bar during playback ── */
+#player-controls.controls-compact {
+    padding: 4px 14px 3px;
+    background: rgba(0, 0, 0, 0.15);
+    border-color: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+#player-controls.controls-compact .track-info,
+#player-controls.controls-compact .variant-picker,
+#player-controls.controls-compact .buttons,
+#player-controls.controls-compact .time-display {
+    opacity: 0;
+    max-height: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+/* Hover: glass panel rises back with all controls */
+#player-controls.controls-compact:hover {
+    padding: 8px 14px;
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 170, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+#player-controls.controls-compact:hover .track-info {
+    opacity: 1;
+    max-height: 30px;
+    margin-bottom: 4px;
+    pointer-events: auto;
+}
+
+#player-controls.controls-compact:hover .variant-picker:not(.hidden) {
+    opacity: 1;
+    max-height: 30px;
+    margin-bottom: 6px;
+    pointer-events: auto;
+}
+
+#player-controls.controls-compact:hover .time-display {
+    opacity: 0.45;
+    max-height: 20px;
+    margin-top: 3px;
+    pointer-events: auto;
+}
+
+#player-controls.controls-compact:hover .buttons {
+    opacity: 1;
+    max-height: 50px;
+    margin-top: 8px;
+    pointer-events: auto;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE BREAKPOINTS
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Phone portrait: fullscreen phone frame, hide narrative bars */
+@media (max-width: 768px) and (orientation: portrait) {
+    #phone-frame {
+        border-radius: 0;
+        max-height: 100vh;
+        max-width: 100%;
+        box-shadow: none;
+        border: none;
+    }
+    #zone-container {
+        padding: 0;
+    }
+    #narrative-frame {
+        display: none;
+    }
+    #hidden-meaning-overlay {
+        display: none;
+    }
+}
+
+/* Phone landscape: bars present but more blurred */
+@media (orientation: landscape) and (max-height: 500px) {
+    #phone-frame {
+        max-height: 98vh;
+        border-radius: 12px;
+    }
+    .bar-layer {
+        filter: blur(6px) saturate(0.6) brightness(var(--bar-brightness, 0.2));
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1199px) {
+    #phone-frame {
+        max-width: 320px;
+    }
+}
+
+/* Ultrawide: less blur, more visible hidden narrative */
+@media (min-width: 1800px) {
+    .bar-layer {
+        filter: blur(3px) saturate(0.85) brightness(calc(var(--bar-brightness, 0.35) + var(--beat-brightness, 0)));
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BURST OVERLAY — rapid image flash on climactic moments
+   Vision doc: "Fire 4-8 images in rapid succession (150-250ms each)"
+   mix-blend-mode: screen for ethereal flash effect
+   ═══════════════════════════════════════════════════════════════ */
+/* BURST DISABLED — was firing too often, causing 4-panel flash chaos.
+   Re-enable once basic image stability is confirmed */
+#burst-container {
+    display: none !important;
+}
+
+.burst-panel {
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.08s ease;
+}
+
+.burst-panel.flash {
+    opacity: 0.6;
+}
+
+/* mix-blend-mode REMOVED — was causing additive brightness flashing */
+
+/* Phone portrait: hide burst overlay */
+@media (max-width: 768px) and (orientation: portrait) {
+    #burst-container { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SIDE PANELS — fixed left/right panels showing hidden narrative
+   These show the modern-parallel images alongside the phone frame
+   ═══════════════════════════════════════════════════════════════ */
+#side-panels-container {
+    position: fixed;
+    inset: 0;
+    z-index: 8;
+    pointer-events: none;
     display: flex;
-    width: 90%;
-    height: 80%;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    opacity: 0.7;
+    transition: opacity 0.5s ease;
 }
 
-.editor-panel {
-    flex: 1;
-    background: rgba(0, 0, 0, 0.8);
-    border: 1px solid #444;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+.side-panel {
+    position: absolute;
+    width: 18vw;
+    max-width: 280px;
+    height: 50vh;
+    max-height: 450px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7), inset 0 0 1px rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.editor-panel h3 {
-    margin-bottom: 15px;
-    color: var(--accent);
+#side-panel-left {
+    /* Position flush beside phone frame: center minus half phone width minus panel width minus gap */
+    right: calc(50% + 180px + 12px);
+    left: auto;
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 40%, rgba(0,0,0,0.4) 80%, transparent 100%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,1) 40%, rgba(0,0,0,0.4) 80%, transparent 100%);
 }
 
-textarea {
-    flex-grow: 1;
-    background: #222;
-    color: #0f0;
-    border: 1px solid #555;
-    padding: 10px;
-    font-family: monospace;
-    resize: none;
-    margin-bottom: 15px;
+#side-panel-right {
+    /* Position flush beside phone frame: center minus half phone width minus panel width minus gap */
+    left: calc(50% + 180px + 12px);
+    right: auto;
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 40%, rgba(0,0,0,0.4) 80%, transparent 100%);
+    mask-image: linear-gradient(to left, rgba(0,0,0,1) 40%, rgba(0,0,0,0.4) 80%, transparent 100%);
 }
 
-.action-btn {
-    background: var(--accent);
-    color: #000;
-    font-weight: bold;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 5px;
+.side-img {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2.5s ease-in-out;
+    animation: ken-burns-slow 30s ease-in-out infinite alternate;
 }
 
-.action-btn:hover {
-    background: #ffcc55;
+.side-img.active {
+    opacity: 1;
 }
 
-.instruction {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: #aaa;
+/* Phone portrait: hide side panels */
+@media (max-width: 768px) and (orientation: portrait) {
+    #side-panels-container { display: none; }
 }
 
-#sync-status {
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #f00;
+/* Narrow screens: smaller side panels */
+@media (max-width: 1100px) {
+    .side-panel { width: 15vw; height: 38vh; }
+    #side-panel-left { right: calc(50% + 160px + 8px); }
+    #side-panel-right { left: calc(50% + 160px + 8px); }
+}
+
+/* Very narrow landscape: hide side panels */
+@media (max-width: 900px) {
+    #side-panels-container { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   KEN BURNS — slow zoom on active image layers
+   Creates movement even when images are held
+   Applied to ALL layers (not just .active) so A and B animate in
+   sync — no phase mismatch during crossfade transitions.
+   ═══════════════════════════════════════════════════════════════ */
+.inner-img-layer {
+    animation: ken-burns 20s ease-in-out infinite alternate;
+}
+
+.ambient-layer {
+    animation: ken-burns-slow 30s ease-in-out infinite alternate;
+}
+
+@keyframes ken-burns {
+    0%   { transform: scale(1.0) translate(0, 0); }
+    100% { transform: scale(1.06) translate(-0.8%, -0.5%); }
+}
+
+@keyframes ken-burns-slow {
+    0%   { transform: scale(1.02) translate(0, 0); }
+    100% { transform: scale(1.08) translate(0.5%, 0.3%); }
+}
+
+/* Tablet: smaller side panels */
+@media (min-width: 769px) and (max-width: 1199px) {
+    .side-panel { width: 15vw; height: 40vh; }
+    #side-panel-left { right: calc(50% + 160px + 8px); }
+    #side-panel-right { left: calc(50% + 160px + 8px); }
 }

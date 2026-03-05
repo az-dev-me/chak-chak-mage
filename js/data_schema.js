@@ -11,6 +11,10 @@
 let currentAlbumConfig = null;
 let currentAlbumId = null;
 
+// Cache-buster: appended to all image URLs to defeat browser caching of old pipeline images
+// Change this value (or set to Date.now()) after each pipeline regeneration
+const IMAGE_CACHE_BUSTER = `?v=${Date.now()}`;
+
 // Minimal fallback used only when no albums_index is available at all.
 const fallbackAlbumConfig = {
     album_id: "UNKNOWN",
@@ -47,7 +51,9 @@ function normalizeAlbumConfig(config) {
             title: t.title || TRACK_TITLES[trackId] || trackId,
             audioFile,
             defaultMedia: t.defaultMedia || `bg_t${num}.png`,
-            dataVar: `${trackId}_data`
+            dataVar: `${trackId}_data`,
+            variant_id: t.variant_id || null,
+            variants: t.variants || []
         };
     });
     return { ...config, tracks };
@@ -80,15 +86,16 @@ let loadedTrackData = null;
 
 const trackLoadPromises = {};
 
-function loadAlbumTrackScript(albumId, trackId) {
-    const key = `${albumId}:${trackId}`;
+function loadAlbumTrackScript(albumId, trackId, variantId) {
+    const dataKey = variantId ? `${trackId}_${variantId}` : trackId;
+    const key = `${albumId}:${dataKey}`;
     if (trackLoadPromises[key]) {
         return trackLoadPromises[key];
     }
 
     trackLoadPromises[key] = new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = `albums/${albumId}/data/${trackId}.js`;
+        script.src = `albums/${albumId}/data/${dataKey}.js`;
         script.onload = () => resolve();
         script.onerror = (e) => reject(e);
         document.head.appendChild(script);
@@ -97,7 +104,7 @@ function loadAlbumTrackScript(albumId, trackId) {
     return trackLoadPromises[key];
 }
 
-async function fetchTrackData(trackId) {
+async function fetchTrackData(trackId, variantId) {
     const activeAlbumId = currentAlbumId || fallbackAlbumConfig.album_id;
     const albumEntry = getAlbumEntryById(activeAlbumId) || { config: fallbackAlbumConfig };
     const config = albumEntry.config;
@@ -106,19 +113,34 @@ async function fetchTrackData(trackId) {
         return;
     }
     const item = config.tracks.find(t => t.id === trackId);
+    const dataKey = variantId ? `${trackId}_${variantId}` : trackId;
 
-    // Prefer albumData[albumId][trackId] if available; otherwise dynamically load the script.
-    if (!window.albumData || !window.albumData[activeAlbumId] || !window.albumData[activeAlbumId][trackId]) {
+    // Prefer albumData[albumId][dataKey] if available; otherwise dynamically load the script.
+    if (!window.albumData || !window.albumData[activeAlbumId] || !window.albumData[activeAlbumId][dataKey]) {
         try {
-            await loadAlbumTrackScript(activeAlbumId, trackId);
+            await loadAlbumTrackScript(activeAlbumId, trackId, variantId);
         } catch (_e) {
             // Script load failed — will try fallbacks below
         }
     }
 
-    if (window.albumData && window.albumData[activeAlbumId] && window.albumData[activeAlbumId][trackId]) {
-        loadedTrackData = window.albumData[activeAlbumId][trackId];
+    if (window.albumData && window.albumData[activeAlbumId] && window.albumData[activeAlbumId][dataKey]) {
+        loadedTrackData = window.albumData[activeAlbumId][dataKey];
         return;
+    }
+
+    // Fallback: try base track data if variant data not found
+    if (variantId) {
+        // Ensure base track script is loaded
+        if (!window.albumData || !window.albumData[activeAlbumId] || !window.albumData[activeAlbumId][trackId]) {
+            try {
+                await loadAlbumTrackScript(activeAlbumId, trackId);
+            } catch (_e2) { /* base script also missing */ }
+        }
+        if (window.albumData && window.albumData[activeAlbumId] && window.albumData[activeAlbumId][trackId]) {
+            loadedTrackData = window.albumData[activeAlbumId][trackId];
+            return;
+        }
     }
 
     // Fallback to legacy globals if they still exist.
@@ -129,5 +151,28 @@ async function fetchTrackData(trackId) {
             id: trackId,
             timeline: []
         };
+    }
+}
+
+// Load structure data (sections, transition_points) from .structure.json
+// Called after fetchTrackData — supplements track data if not already present.
+async function loadStructureData(albumId, trackId) {
+    if (!loadedTrackData) return;
+    // Skip if structure data already exists in track data
+    if (loadedTrackData.sections && loadedTrackData.sections.length > 0) return;
+
+    try {
+        const resp = await fetch(`albums/${albumId}/data/${trackId}.structure.json`);
+        if (resp.ok) {
+            const data = await resp.json();
+            loadedTrackData.sections = data.sections || [];
+            loadedTrackData.transition_points = data.transition_points || [];
+            // Re-load timing engine with updated data
+            if (typeof TimingEngine !== 'undefined') {
+                TimingEngine.load(loadedTrackData);
+            }
+        }
+    } catch (_e) {
+        // Structure data not available — non-critical
     }
 }
