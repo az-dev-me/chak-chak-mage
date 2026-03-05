@@ -58,11 +58,31 @@ def _load_model(config: AlignmentConfig) -> Any:
     )
 
 
-def _get_canonical_lyrics(project_root: Path, track_id: str) -> str | None:
-    """Load canonical lyrics for a track from the semantic matrix.
+def _get_canonical_lyrics(
+    project_root: Path, track_id: str, variant_id: str | None = None,
+) -> str | None:
+    """Load canonical lyrics for a track (or variant) alignment.
+
+    Priority:
+    1. Variant-specific lyrics file: ``shared/semantics/lyrics/{track_id}_{variant_id}.txt``
+    2. Semantic matrix lyrics: ``shared/semantics/base_semantic_matrix.json``
 
     Returns all lyrics joined with newlines, or None if not found.
     """
+    # Check for variant-specific lyrics file first
+    if variant_id:
+        lyrics_dir = project_root / "shared" / "semantics" / "lyrics"
+        lyrics_file = lyrics_dir / f"{track_id}_{variant_id}.txt"
+        if lyrics_file.exists():
+            text = lyrics_file.read_text(encoding="utf-8").strip()
+            if text:
+                logger.info(
+                    "%s/%s: Using variant-specific lyrics from %s",
+                    track_id, variant_id, lyrics_file.name,
+                )
+                return text
+
+    # Fall back to semantic matrix
     matrix_path = project_root / "shared" / "semantics" / "base_semantic_matrix.json"
     if not matrix_path.exists():
         return None
@@ -1197,7 +1217,7 @@ def align_album_tracks(
             raise FileNotFoundError(f"Variant audio not found: {audio_path}")
 
         out_path = alignment_dir / f"{track_id}_{variant_id}_words.json"
-        canonical = _get_canonical_lyrics(config.project_root, track_id)
+        canonical = _get_canonical_lyrics(config.project_root, track_id, variant_id)
         if canonical:
             logger.info("%s/%s: Using canonical lyrics for guided alignment", track_id, variant_id)
 
