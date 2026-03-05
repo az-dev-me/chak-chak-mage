@@ -1,0 +1,483 @@
+{
+    "id": "track_24",
+    "segments": [
+        {
+            "start": 31.328,
+            "end": 35.2,
+            "text": "I threw the lighter in the air",
+            "words": [
+                {
+                    "start": 31.328,
+                    "end": 31.5,
+                    "text": "I"
+                },
+                {
+                    "start": 31.5,
+                    "end": 31.88,
+                    "text": "threw"
+                },
+                {
+                    "start": 31.88,
+                    "end": 32.3,
+                    "text": "the"
+                },
+                {
+                    "start": 32.3,
+                    "end": 33.22,
+                    "text": "lighter"
+                },
+                {
+                    "start": 33.22,
+                    "end": 34.14,
+                    "text": "in"
+                },
+                {
+                    "start": 34.14,
+                    "end": 34.64,
+                    "text": "the"
+                },
+                {
+                    "start": 34.64,
+                    "end": 35.2,
+                    "text": "air"
+                }
+            ]
+        },
+        {
+            "start": 36.768,
+            "end": 40.256,
+            "text": "Grab a jump to grab it there",
+            "words": [
+                {
+                    "start": 36.768,
+                    "end": 37.24,
+                    "text": "Grab"
+                },
+                {
+                    "start": 37.24,
+                    "end": 37.58,
+                    "text": "a"
+                },
+                {
+                    "start": 37.58,
+                    "end": 38.08,
+                    "text": "jump"
+                },
+                {
+                    "start": 38.112,
+                    "end": 38.56,
+                    "text": "to"
+                },
+                {
+                    "start": 38.976,
+                    "end": 39.44,
+                    "text": "grab"
+                },
+                {
+                    "start": 39.488,
+                    "end": 39.76,
+                    "text": "it"
+                },
+                {
+                    "start": 39.76,
+                    "end": 40.256,
+                    "text": "there"
+                }
+            ]
+        },
+        {
+            "start": 41.82,
+            "end": 45.48,
+            "text": "The tribal follow wild and thick",
+            "words": [
+                {
+                    "start": 41.82,
+                    "end": 42.0,
+                    "text": "The"
+                },
+                {
+                    "start": 42.08,
+                    "end": 42.46,
+                    "text": "tribal"
+                },
+                {
+                    "start": 42.46,
+                    "end": 43.58,
+                    "text": "follow"
+                },
+                {
+                    "start": 43.58,
+                    "end": 44.56,
+                    "text": "wild"
+                },
+                {
+                    "start": 44.56,
+                    "end": 45.08,
+                    "text": "and"
+                },
+                {
+                    "start": 45.08,
+                    "end": 45.48,
+                    "text": "thick"
+                }
+            ]
+        },
+        {
+            "start": 47.32,
+            "end": 48.04,
+            "text": "For an",
+            "words": [
+                {
+                    "start": 47.32,
+                    "end": 47.8,
+                    "text": "For"
+                },
+                {
+                    "start": 47.94,
+                    "end": 48.04,
+                    "text": "an"
+                }
+            ]
+        },
+        {
+            "start": 48.544,
+            "end": 51.08,
+            "text": "object that wouldn't click",
+            "words": [
+                {
+                    "start": 48.544,
+                    "end": 48.8,
+                    "text": "object"
+                },
+                {
+                    "start": 48.8,
+                    "end": 50.02,
+                    "text": "that"
+                },
+                {
+                    "start": 50.02,
+                    "end": 50.72,
+                    "text": "wouldn't"
+                },
+                {
+                    "start": 50.72,
+                    "end": 51.08,
+                    "text": "click"
+                }
+            ]
+        },
+        {
+            "start": 60.85,
+            "end": 64.256,
+            "text": "The gas was gone,",
+            "words": [
+                {
+                    "start": 60.85,
+                    "end": 62.1,
+                    "text": "The"
+                },
+                {
+                    "start": 62.1,
+                    "end": 63.46,
+                    "text": "gas"
+                },
+                {
+                    "start": 63.46,
+                    "end": 63.72,
+                    "text": "was"
+                },
+                {
+                    "start": 63.72,
+                    "end": 64.256,
+                    "text": "gone,"
+                }
+            ]
+        },
+        {
+            "start": 65.696,
+            "end": 66.64,
+            "text": "they didn't know",
+            "words": [
+                {
+                    "start": 65.696,
+                    "end": 65.82,
+                    "text": "they"
+                },
+                {
+                    "start": 65.952,
+                    "end": 66.28,
+                    "text": "didn't"
+                },
+                {
+                    "start": 66.28,
+                    "end": 66.64,
+                    "text": "know"
+                }
+            ]
+        },
+        {
+            "start": 68.24,
+            "end": 72.22,
+            "text": "The sacred thing had nothing to show",
+            "words": [
+                {
+                    "start": 68.24,
+                    "end": 68.34,
+                    "text": "The"
+                },
+                {
+                    "start": 68.34,
+                    "end": 68.9,
+                    "text": "sacred"
+                },
+                {
+                    "start": 68.9,
+                    "end": 69.62,
+                    "text": "thing"
+                },
+                {
+                    "start": 69.62,
+                    "end": 70.96,
+                    "text": "had"
+                },
+                {
+                    "start": 70.96,
+                    "end": 71.46,
+                    "text": "nothing"
+                },
+                {
+                    "start": 71.46,
+                    "end": 71.76,
+                    "text": "to"
+                },
+                {
+                    "start": 71.76,
+                    "end": 72.22,
+                    "text": "show"
+                }
+            ]
+        },
+        {
+            "start": 73.728,
+            "end": 75.06,
+            "text": "Empty plastic,",
+            "words": [
+                {
+                    "start": 73.728,
+                    "end": 74.16,
+                    "text": "Empty"
+                },
+                {
+                    "start": 74.16,
+                    "end": 75.06,
+                    "text": "plastic,"
+                }
+            ]
+        },
+        {
+            "start": 76.384,
+            "end": 82.74,
+            "text": "hollow shell I ran to my green time travel cell",
+            "words": [
+                {
+                    "start": 76.384,
+                    "end": 76.7,
+                    "text": "hollow"
+                },
+                {
+                    "start": 76.7,
+                    "end": 77.5,
+                    "text": "shell"
+                },
+                {
+                    "start": 77.5,
+                    "end": 78.94,
+                    "text": "I"
+                },
+                {
+                    "start": 78.94,
+                    "end": 79.24,
+                    "text": "ran"
+                },
+                {
+                    "start": 79.24,
+                    "end": 79.42,
+                    "text": "to"
+                },
+                {
+                    "start": 79.42,
+                    "end": 79.72,
+                    "text": "my"
+                },
+                {
+                    "start": 79.72,
+                    "end": 80.28,
+                    "text": "green"
+                },
+                {
+                    "start": 80.28,
+                    "end": 81.44,
+                    "text": "time"
+                },
+                {
+                    "start": 81.824,
+                    "end": 82.1,
+                    "text": "travel"
+                },
+                {
+                    "start": 82.1,
+                    "end": 82.74,
+                    "text": "cell"
+                }
+            ]
+        },
+        {
+            "start": 84.7,
+            "end": 88.064,
+            "text": "Grabbed a hedgehog just in case",
+            "words": [
+                {
+                    "start": 84.7,
+                    "end": 84.84,
+                    "text": "Grabbed"
+                },
+                {
+                    "start": 84.84,
+                    "end": 85.08,
+                    "text": "a"
+                },
+                {
+                    "start": 85.08,
+                    "end": 86.28,
+                    "text": "hedgehog"
+                },
+                {
+                    "start": 86.28,
+                    "end": 86.84,
+                    "text": "just"
+                },
+                {
+                    "start": 86.84,
+                    "end": 87.24,
+                    "text": "in"
+                },
+                {
+                    "start": 87.24,
+                    "end": 88.064,
+                    "text": "case"
+                }
+            ]
+        },
+        {
+            "start": 89.376,
+            "end": 92.928,
+            "text": "Saw the confusion on each face",
+            "words": [
+                {
+                    "start": 89.376,
+                    "end": 89.58,
+                    "text": "Saw"
+                },
+                {
+                    "start": 89.58,
+                    "end": 89.86,
+                    "text": "the"
+                },
+                {
+                    "start": 89.86,
+                    "end": 91.0,
+                    "text": "confusion"
+                },
+                {
+                    "start": 91.0,
+                    "end": 92.14,
+                    "text": "on"
+                },
+                {
+                    "start": 92.256,
+                    "end": 92.52,
+                    "text": "each"
+                },
+                {
+                    "start": 92.52,
+                    "end": 92.928,
+                    "text": "face"
+                }
+            ]
+        },
+        {
+            "start": 94.848,
+            "end": 98.12,
+            "text": "Closed the door and pressed return",
+            "words": [
+                {
+                    "start": 94.848,
+                    "end": 95.26,
+                    "text": "Closed"
+                },
+                {
+                    "start": 95.26,
+                    "end": 95.58,
+                    "text": "the"
+                },
+                {
+                    "start": 95.712,
+                    "end": 96.1,
+                    "text": "door"
+                },
+                {
+                    "start": 96.288,
+                    "end": 96.78,
+                    "text": "and"
+                },
+                {
+                    "start": 97.024,
+                    "end": 97.36,
+                    "text": "pressed"
+                },
+                {
+                    "start": 97.36,
+                    "end": 98.12,
+                    "text": "return"
+                }
+            ]
+        },
+        {
+            "start": 100.06,
+            "end": 103.6,
+            "text": "Leaving them to crash and burn",
+            "words": [
+                {
+                    "start": 100.06,
+                    "end": 100.6,
+                    "text": "Leaving"
+                },
+                {
+                    "start": 100.6,
+                    "end": 101.38,
+                    "text": "them"
+                },
+                {
+                    "start": 101.38,
+                    "end": 101.94,
+                    "text": "to"
+                },
+                {
+                    "start": 101.94,
+                    "end": 102.66,
+                    "text": "crash"
+                },
+                {
+                    "start": 102.66,
+                    "end": 103.18,
+                    "text": "and"
+                },
+                {
+                    "start": 103.18,
+                    "end": 103.6,
+                    "text": "burn"
+                }
+            ]
+        }
+    ]
+}

@@ -154,6 +154,40 @@ async function fetchTrackData(trackId, variantId) {
     }
 }
 
+// ── Album Duration Tracking (for dual timeline) ──
+let trackDurations = [];
+let albumTotalDuration = 0;
+let trackCumulativeStarts = [];
+
+async function loadAlbumDurations(albumId, trackCount) {
+    trackDurations = [];
+    trackCumulativeStarts = [0];
+    albumTotalDuration = 0;
+
+    const promises = [];
+    for (let i = 1; i <= trackCount; i++) {
+        const trackId = `track_${String(i).padStart(2, '0')}`;
+        promises.push(
+            fetch(`albums/${albumId}/data/${trackId}.structure.json`)
+                .then(r => r.ok ? r.json() : null)
+                .then(d => ({ index: i - 1, duration: d ? d.duration : 180 }))
+                .catch(() => ({ index: i - 1, duration: 180 }))
+        );
+    }
+
+    const results = await Promise.all(promises);
+    results.sort((a, b) => a.index - b.index);
+    results.forEach(r => {
+        trackDurations.push(r.duration);
+        albumTotalDuration += r.duration;
+    });
+
+    trackCumulativeStarts = [0];
+    for (let i = 0; i < trackDurations.length - 1; i++) {
+        trackCumulativeStarts.push(trackCumulativeStarts[i] + trackDurations[i]);
+    }
+}
+
 // Load structure data (sections, transition_points) from .structure.json
 // Called after fetchTrackData — supplements track data if not already present.
 async function loadStructureData(albumId, trackId) {

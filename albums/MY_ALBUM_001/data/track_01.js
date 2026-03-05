@@ -8,29 +8,29 @@ var track_01_data = {
             "start": 0.2,
             "end": 1.749,
             "lyric": "When I pressed play on the time machine",
-            "real_meaning": "The naive, trivial expectations we had before technology changed everything — like buying the first smartphone 'just to make calls'.",
+            "real_meaning": "The accidental genesis of power: Humans stumble into godhood and alter history not by grand design, but through chaos, improvisation, and mundane intentions.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0000.jpg",
-                    "query": "A lush, prehistoric valley stretches out, a green phone booth stands eerily alone, firelight flickering in the distance."
+                    "query": "Wide establishing shot: A dense, mist-filled paleolithic forest at twilight. In the center of a clearing stands a solitary, anachronistic green British phone booth."
                 },
                 {
                     "offset": 0.68,
                     "url": "media/c0001.jpg",
-                    "query": "A figure steps out of the phone booth, BIC lighter in hand, gazing in awe at the fiery torches of the surrounding cave dwellers."
+                    "query": "Medium tracking shot: The heavy door of the green phone booth pushes open with a creak. A figure in a modern hoodie steps out, boots sinking into the untouched moss."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0003.jpg",
-                    "query": "A sprawling cityscape at dawn, a teenager in an attic window, dusty laptop glowing."
+                    "query": "Wide establishing shot: A cluttered, dark suburban attic filled with cardboard boxes and forgotten relics. Rain patters against a small skylight window."
                 },
                 {
                     "offset": 0.68,
                     "url": "media/c0004.jpg",
-                    "query": "Teenager, 2007, iPhone in hands, awe on their face,  in a dimly lit room."
+                    "query": "Medium tracking shot: The camera slowly moves through the dust motes toward an old, closed laptop sitting on a wooden desk."
                 }
             ],
             "words": [
@@ -153,14 +153,14 @@ var track_01_data = {
                 {
                     "offset": 6.25,
                     "url": "media/c0002.jpg",
-                    "query": "up of the time traveler's face, eyes wide with wonder and disbelief as they grasp the lighter, sparks fly."
+                    "query": "Over-the-shoulder shot: The traveler looks past the trees. In the distance, the faint, warm flicker of a dying campfire illuminates the entrance to a rocky cave."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 6.25,
                     "url": "media/c0005.jpg",
-                    "query": "up of their eyes and the first iPhone screen."
+                    "query": "Close-up: A teenager's hand reaches into frame, wiping away a thick layer of dust from the laptop's silver casing."
                 }
             ],
             "words": [
@@ -278,29 +278,29 @@ var track_01_data = {
             "start": 12.032,
             "end": 14.04,
             "lyric": "I landed in a valley of moss and",
-            "real_meaning": "Humanity in its raw state — before technology, before dogma. Survival was simple, honest, and desperately hard.",
+            "real_meaning": "Humanity's raw state: The primal, harsh reality of survival before technology and dogma insulated us, where actions had immediate, life-or-death consequences.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0006.jpg",
-                    "query": "A lone green phone booth stands in a vast, misty valley. Lush ferns and towering trees surround it. The sun is setting, casting warm hues over the prehistoric landscape. Dramatic p"
+                    "query": "Wide shot: The traveler approaches the cave cautiously. The air is thick with smoke. Near the dying embers, a single, rugged cave dweller is huddled in the cold."
                 },
                 {
                     "offset": 0.72,
                     "url": "media/c0007.jpg",
-                    "query": "A time traveler emerges from the phone booth, holding a small, glowing object. A cave dweller crouches nearby, desperately trying to start a fire. The traveler's face is a mix of a"
+                    "query": "Medium shot: The cave dweller is desperately blowing on a tiny, smoking twig, his face painted with soot and desperate exhaustion."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0009.jpg",
-                    "query": "An abandoned attic filled with dusty artifacts, a flickering laptop screen glows in the darkness."
+                    "query": "Medium shot: The teenager opens the lid of the laptop. The screen remains black for a tense second."
                 },
                 {
                     "offset": 0.72,
                     "url": "media/c0010.jpg",
-                    "query": "A teenager's fingers hover over a newly unboxed iPhone, eyes wide with anticipation."
+                    "query": "Close-up: The power button. The teenager's finger presses it firmly."
                 }
             ],
             "words": [
@@ -449,14 +449,14 @@ var track_01_data = {
                 {
                     "offset": 7.77,
                     "url": "media/c0008.jpg",
-                    "query": "The cave dweller's weathered hands cradle a tiny, smoldering twig. His eyes are wide with determination and fear. The traveler watches, their expression a mix of empathy and wonder"
+                    "query": "Close-up: The cave dweller's hollow, terrified eyes as the twig's ember finally fades to black, leaving him in darkness."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 7.77,
                     "url": "media/c0011.jpg",
-                    "query": "A close-up of a human hand striking flint, sparks flying, raw determination etched on the skin."
+                    "query": "Over-the-shoulder shot: The screen suddenly flashes bright white, illuminating the dark attic and casting a harsh glow on the teenager's face."
                 }
             ],
             "words": [
@@ -636,39 +636,39 @@ var track_01_data = {
             "start": 27.807,
             "end": 29.168,
             "lyric": "Let's call him Gralha.",
-            "real_meaning": "Naming the archetype: the first naive consumer, the first believer, the first follower.",
+            "real_meaning": "The archetype of the naive believer (Gralha): The first human ready to surrender agency, trade wonder for submission, and follow blindly.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0012.jpg",
-                    "query": "A lone, verdant phone booth stands amidst a vast, untamed prehistoric valley bathed in warm hues at sunset, cinematic."
+                    "query": "Medium shot: The cave dweller (Gralha) slowly looks up, noticing the modern traveler standing over him."
                 },
                 {
                     "offset": 0.66,
                     "url": "media/c0013.jpg",
-                    "query": "A curious cave dweller approaches the phone booth, firelight flickering in the background, eyes wide with wonder, dramatic."
+                    "query": "Close-up: Gralha's expression shifts from despair to absolute shock as he registers the traveler's strange clothing."
                 },
                 {
                     "offset": 0.0,
                     "url": "media/c0014.jpg",
-                    "query": "The cave dweller gazes in awe at the glowing BIC lighter held by the time traveler. Painterly, intimate."
+                    "query": "Point of view (Gralha): Looking up at the traveler, whose hand slowly reaches into their pocket, retrieving a bright orange plastic BIC lighter."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0015.jpg",
-                    "query": "A dusty attic filled with forgotten relics. A teenager peeks under the dust, discovering a laptop and opening it."
+                    "query": "Close-up: The teenager's eyes, reflecting the loading screen of a vintage operating system."
                 },
                 {
                     "offset": 0.66,
                     "url": "media/c0016.jpg",
-                    "query": "An urban apartment with exposed brick.  A glowing screen, illuminating the teenager's face. Awe.  The first iPhone unboxing."
+                    "query": "Medium shot: The teenager smiles, captivated by the glow, completely isolated from the outside world visible in the rain-streaked window."
                 },
                 {
                     "offset": 0.0,
                     "url": "media/c0017.jpg",
-                    "query": "A close up of the teenagerâ€™s face as they hold the iPhone for the first time.  Eyes wide open. Awe."
+                    "query": "Extreme close-up: A progress bar creeping across the glowing screen, the gateway to the digital world opening."
                 }
             ],
             "words": [

@@ -101,7 +101,7 @@
         },
         {
             "start": 7.621,
-            "end": 10.16,
+            "end": 11.06,
             "text": "Muda's wrong, she breaks the rules!",
             "words": [
                 {
@@ -133,20 +133,20 @@
                     "end": 10.004,
                     "text": "the",
                     "source": "canonical"
+                },
+                {
+                    "start": 11.004,
+                    "end": 11.06,
+                    "text": "rules!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 10.16,
+            "start": 11.375,
             "end": 13.929,
             "text": "We are the faithful, we are the tools!",
             "words": [
-                {
-                    "start": 10.16,
-                    "end": 10.9,
-                    "text": "rules!",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 11.375,
                     "end": 11.46,
@@ -537,7 +537,7 @@
         },
         {
             "start": 45.14,
-            "end": 47.82,
+            "end": 48.04,
             "text": "GRAL-HA! GRAL-HA!",
             "words": [
                 {
@@ -555,10 +555,16 @@
             ]
         },
         {
-            "start": 48.64,
-            "end": 49.66,
+            "start": 48.04,
+            "end": 51.74,
             "text": "MU-DA! MU-DA!",
             "words": [
+                {
+                    "start": 48.04,
+                    "end": 48.24,
+                    "text": "muda,",
+                    "source": "ad-lib"
+                },
                 {
                     "start": 48.64,
                     "end": 48.74,
@@ -570,36 +576,42 @@
                     "end": 49.66,
                     "text": "MU-DA!",
                     "source": "canonical"
+                },
+                {
+                    "start": 50.46,
+                    "end": 50.656,
+                    "text": "Red,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 51.1,
+                    "end": 51.32,
+                    "text": "black,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 51.48,
+                    "end": 51.74,
+                    "text": "red,",
+                    "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 52.58,
+            "start": 52.02,
             "end": 57.311,
             "text": "Tronco stepped between the two",
             "words": [
                 {
-                    "start": 52.58,
-                    "end": 52.7,
-                    "text": "Move",
+                    "start": 52.02,
+                    "end": 52.94,
+                    "text": "muda,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 52.7,
-                    "end": 52.78,
-                    "text": "it,",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 53.44,
-                    "end": 53.62,
-                    "text": "move",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 53.62,
-                    "end": 53.88,
-                    "text": "it!",
+                    "start": 53.4,
+                    "end": 53.5,
+                    "text": "muda",
                     "source": "ad-lib"
                 },
                 {
@@ -899,12 +911,12 @@
                 },
                 {
                     "start": 82.0,
-                    "end": 82.36,
+                    "end": 82.38,
                     "text": "is",
                     "source": "canonical"
                 },
                 {
-                    "start": 82.36,
+                    "start": 82.38,
                     "end": 82.96,
                     "text": "right?",
                     "source": "canonical"
@@ -913,7 +925,7 @@
         },
         {
             "start": 82.96,
-            "end": 101.64,
+            "end": 101.62,
             "text": "\"Where's the Mage gone?\"",
             "words": [
                 {
@@ -936,7 +948,7 @@
                 },
                 {
                     "start": 101.2,
-                    "end": 101.64,
+                    "end": 101.62,
                     "text": "gone?\"",
                     "source": "canonical"
                 }

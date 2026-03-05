@@ -46,7 +46,6 @@ const btnPlay = document.getElementById('btn-play');
 const btnNext = document.getElementById('btn-next');
 const btnPrev = document.getElementById('btn-prev');
 const progressBar = document.getElementById('progress-bar');
-const progressContainer = document.getElementById('progress-container');
 const elPrev = document.getElementById('lyric-prev');
 const elCurr = document.getElementById('lyric-curr');
 const elNext = document.getElementById('lyric-next');
@@ -90,6 +89,12 @@ async function initPlayer() {
     Zone1Inner.init();
     Zone2Outer.init();
     Zone3Ambient.init();
+
+    // Load album durations for dual timeline
+    if (typeof loadAlbumDurations === 'function' && currentAlbumConfig.tracks) {
+        await loadAlbumDurations(currentAlbumConfig.album_id, currentAlbumConfig.tracks.length);
+        buildAlbumTimelineTicks();
+    }
 
     buildTrackList();
     await loadTrack(0);
@@ -299,6 +304,20 @@ async function loadTrack(index) {
     if (tl) preloadImagesForLines(tl, 0, 3);
 }
 
+// ── Album Timeline Ticks ─────────────────────────────────
+function buildAlbumTimelineTicks() {
+    const container = document.getElementById('album-track-ticks');
+    if (!container || typeof albumTotalDuration === 'undefined' || albumTotalDuration <= 0) return;
+    container.innerHTML = '';
+
+    for (let i = 1; i < trackCumulativeStarts.length; i++) {
+        const tick = document.createElement('div');
+        tick.className = 'track-tick';
+        tick.style.left = `${(trackCumulativeStarts[i] / albumTotalDuration) * 100}%`;
+        container.appendChild(tick);
+    }
+}
+
 // ── Image Preloader ──────────────────────────────────────
 function preloadImagesForLines(timeline, startIdx, count) {
     if (!timeline) return;
@@ -430,14 +449,15 @@ function syncTick() {
             elCurr.classList.add('slide-in');
         }
 
-        // Inner meaning panel (inside phone frame)
-        if (lineData && lineData.real_meaning) {
+        // Modern parallel panel (always visible inside phone, dims when no text)
+        if (lineData && lineData.real_meaning && lineData.real_meaning.trim()) {
             if (meaningText) meaningText.textContent = lineData.real_meaning;
             if (meaningPanel) {
                 meaningPanel.classList.remove('meaning-hidden');
                 meaningPanel.classList.add('meaning-visible');
             }
         } else {
+            // Keep last text visible but dimmed — no layout jump
             if (meaningPanel) {
                 meaningPanel.classList.remove('meaning-visible');
                 meaningPanel.classList.add('meaning-hidden');
@@ -534,7 +554,7 @@ function syncTick() {
     }
 
     // ── 6. Beat pulse (every frame) ──
-    Zone2Outer.applyBeatPulse(timing.beatPulse);
+    Zone2Outer.applyBeatPulse(timing.beatPulse, timing.isDownbeat);
 
     // ── 7. Energy-responsive effects (throttled ~15Hz) ──
     const now = performance.now();
@@ -622,13 +642,39 @@ if (btnPrev) btnPrev.addEventListener('click', () => {
     }
 });
 
-// Progress bar
+// Progress bar — dual timeline (album + track)
 audio.addEventListener('timeupdate', () => {
+    // Track-level progress
     if (progressBar && audio.duration) {
         progressBar.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
     }
-    if (timeCurrent) timeCurrent.textContent = formatTime(audio.currentTime);
-    if (timeTotal && audio.duration) timeTotal.textContent = formatTime(audio.duration);
+
+    // Album-level progress
+    const albumBar = document.getElementById('album-progress-bar');
+    if (albumBar && typeof albumTotalDuration !== 'undefined' && albumTotalDuration > 0) {
+        const albumPosition = (trackCumulativeStarts[currentTrackIndex] || 0) + audio.currentTime;
+        albumBar.style.width = `${(albumPosition / albumTotalDuration) * 100}%`;
+    }
+
+    // Time display — switches between album and track mode on hover
+    const timelineContainer = document.getElementById('timeline-container');
+    const isHovering = timelineContainer && timelineContainer.matches(':hover');
+    const modeLabel = document.getElementById('time-mode-label');
+
+    if (isHovering) {
+        if (timeCurrent) timeCurrent.textContent = formatTime(audio.currentTime);
+        if (timeTotal && audio.duration) timeTotal.textContent = formatTime(audio.duration);
+        if (modeLabel) modeLabel.textContent = 'TRACK';
+    } else {
+        const albumPos = (typeof trackCumulativeStarts !== 'undefined' ? (trackCumulativeStarts[currentTrackIndex] || 0) : 0) + audio.currentTime;
+        if (timeCurrent) timeCurrent.textContent = formatTime(albumPos);
+        if (timeTotal && typeof albumTotalDuration !== 'undefined' && albumTotalDuration > 0) {
+            timeTotal.textContent = formatTime(albumTotalDuration);
+        } else if (timeTotal && audio.duration) {
+            timeTotal.textContent = formatTime(audio.duration);
+        }
+        if (modeLabel) modeLabel.textContent = 'ALBUM';
+    }
 });
 
 audio.addEventListener('play', () => {
@@ -654,14 +700,44 @@ audio.addEventListener('ended', () => {
     }
 });
 
-if (progressContainer) {
-    progressContainer.addEventListener('click', (e) => {
+// Track-level scrub
+const trackProgressContainer = document.getElementById('track-progress-container');
+if (trackProgressContainer) {
+    trackProgressContainer.addEventListener('click', (e) => {
         if (!audio.duration) return;
-        const clickPercent = e.offsetX / progressContainer.offsetWidth;
+        const clickPercent = e.offsetX / trackProgressContainer.offsetWidth;
         audio.currentTime = clickPercent * audio.duration;
         currentLyricIndex = -1;
         currentWordIndex = -1;
         wordSpansBuilt = false;
+    });
+}
+
+// Album-level scrub — click jumps to correct track + position
+const albumProgressContainer = document.getElementById('album-progress-container');
+if (albumProgressContainer) {
+    albumProgressContainer.addEventListener('click', (e) => {
+        if (typeof albumTotalDuration === 'undefined' || albumTotalDuration <= 0) return;
+        const clickPercent = e.offsetX / albumProgressContainer.offsetWidth;
+        const albumTime = clickPercent * albumTotalDuration;
+
+        // Find which track this falls in
+        let targetTrack = 0;
+        for (let i = 0; i < trackCumulativeStarts.length; i++) {
+            if (albumTime >= trackCumulativeStarts[i]) targetTrack = i;
+        }
+
+        const timeInTrack = albumTime - trackCumulativeStarts[targetTrack];
+
+        if (targetTrack !== currentTrackIndex) {
+            loadTrack(targetTrack).then(() => {
+                audio.currentTime = Math.max(0, timeInTrack);
+                audio.play();
+                startSyncLoop();
+            });
+        } else {
+            audio.currentTime = Math.max(0, timeInTrack);
+        }
     });
 }
 

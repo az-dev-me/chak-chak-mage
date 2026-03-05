@@ -7,19 +7,19 @@
             "start": 0.4,
             "end": 1.046,
             "lyric": "When I got home",
-            "real_meaning": "Full circle — back where we started, but now we understand the pattern. Revolution is still biting the shoes.",
+            "real_meaning": "Coming full circle: Back where we started, but now armed with the heavy understanding of the pattern. The Revolution still bites the shoes.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0960.jpg",
-                    "query": "A vast, prehistoric landscape at dusk, with a single, firelit cave. The world is painted in warm hues, shadows dancing."
+                    "query": "Wide shot: The traveler stands up and walks to the window, looking out over the sprawling, glowing city."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0963.jpg",
-                    "query": "A sprawling cityscape at dusk, a sleek smartphone lies untouched on a windowsill, reflection of the neon lights."
+                    "query": "Wide shot: The user's apartment. Stripped of excess screens. Quiet, analog, calm."
                 }
             ],
             "words": [
@@ -55,14 +55,14 @@
                 {
                     "offset": 0.85,
                     "url": "media/c0961.jpg",
-                    "query": "A caveman sits on a fur-lined couch, staring at the ceiling. Warm light illuminates the scene, a fire in the background."
+                    "query": "Medium shot: The traveler looks from the city back to the smartphone, shaking their head at the absurdity of it all."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.85,
                     "url": "media/c0964.jpg",
-                    "query": "A cluttered apartment, a child's drawing of a hedgehog on the wall, a phone charging, unnoticed."
+                    "query": "Medium shot: The phone sits face-down on a bookshelf, gathering dust. Not destroyed, just ignored."
                 }
             ],
             "words": [
@@ -118,14 +118,14 @@
                 {
                     "offset": 3.13,
                     "url": "media/c0962.jpg",
-                    "query": "up of a caveman's face, eyes gazing at the ceiling, as a hedgehog gnaws on his shoe."
+                    "query": "Close-up: The traveler purposefully turns the smartphone face down on the table, silencing it."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.13,
                     "url": "media/c0965.jpg",
-                    "query": "up of a hand, stone in palm, a slight smile, understanding in the eyes."
+                    "query": "Close-up: The user writing in a physical notebook with a pen. The scratch of ink on paper."
                 }
             ],
             "words": [
@@ -187,7 +187,7 @@
             "start": 7.2,
             "end": 7.988,
             "lyric": "And I thought...",
-            "real_meaning": "The blunt epiphany — stripped of poetry, the truth is simple and profane. We never learn.",
+            "real_meaning": "The blunt epiphany: Stripped of all grand poetry, the truth is horribly profane: we just never learn. It's always the same shit.",
             "media": [
                 {
                     "offset": 0.0,
@@ -287,7 +287,7 @@
             "start": 11.744,
             "end": 13.344,
             "lyric": "The lighter was just a lighter.",
-            "real_meaning": "The complete arc — tool becomes symbol becomes weapon. Money, religion, ideology: all lighters without gas.",
+            "real_meaning": "The complete arc of civilization: The tool becomes a symbol, becomes a totem, becomes a weapon. Money and ideology are just lighters without gas.",
             "media": [
                 {
                     "offset": 0.0,
@@ -465,7 +465,7 @@
             "start": 19.534,
             "end": 23.31,
             "lyric": "And today, thousands of years later, what's changed?",
-            "real_meaning": "The question that echoes through time — what has actually changed about the human condition?",
+            "real_meaning": "The question that echoes through time: Despite all our skyscrapers and servers, what has fundamentally changed about the human condition?",
             "media": [
                 {
                     "offset": 0.0,
@@ -548,7 +548,7 @@
             "start": 23.31,
             "end": 25.18,
             "lyric": "Nothing.",
-            "real_meaning": "The single-word verdict on human progress — technological giants, psychological infants.",
+            "real_meaning": "The single-word verdict: 'Nothing.' We are technological giants, but psychological infants. The paleolithic brain rules the silicon world.",
             "media": [
                 {
                     "offset": 0.0,
@@ -596,7 +596,7 @@
             "start": 25.184,
             "end": 27.04,
             "lyric": "The modern Gralha still shouts:",
-            "real_meaning": "Still defending the lie — 'but the app said', 'but my guru said', 'but the market said'. Faith in authority persists.",
+            "real_meaning": "Still defending the lie: 'But the app said', 'but the market demands'. Our blind faith in abstract authority is identical to worshipping the Mage.",
             "media": [
                 {
                     "offset": 0.0,
@@ -712,7 +712,7 @@
             "start": 29.88,
             "end": 31.68,
             "lyric": "And the modern Tronco replies:",
-            "real_meaning": "Peak futility — arguing about packaging while the product is empty. Color wars over substance.",
+            "real_meaning": "Peak futility: The ultimate absurdity of arguing fiercely about the color of the plastic while the lighter has been out of gas for years.",
             "media": [
                 {
                     "offset": 0.0,
@@ -904,7 +904,7 @@
             "start": 36.96,
             "end": 39.244,
             "lyric": "The fire is still there. Waiting.",
-            "real_meaning": "The final hope — the stone hasn't moved, the truth hasn't expired, the fire is still free for anyone who stops running.",
+            "real_meaning": "The final hope: The stone hasn't moved. The truth hasn't expired. Genuine meaning is completely free for anyone who simply stops running.",
             "media": [
                 {
                     "offset": 0.0,
@@ -977,7 +977,7 @@
             "start": 39.972,
             "end": 41.92,
             "lyric": "Waiting for someone to remember to strike the",
-            "real_meaning": "The album's last word and its entire message — stop. Look down. The answer was always at your feet. Chak-chak.",
+            "real_meaning": "The album's ultimate message: Stop. Look down. The answer was never in the frantic running; it was always right at your feet. Chak-chak.",
             "media": [
                 {
                     "offset": 0.0,

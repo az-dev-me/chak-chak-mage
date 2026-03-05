@@ -1,0 +1,522 @@
+{
+    "id": "track_16",
+    "segments": [
+        {
+            "start": 0.064,
+            "end": 3.64,
+            "text": "Next morning Growler lit the flame",
+            "words": [
+                {
+                    "start": 0.064,
+                    "end": 0.36,
+                    "text": "Next"
+                },
+                {
+                    "start": 0.36,
+                    "end": 1.2,
+                    "text": "morning"
+                },
+                {
+                    "start": 1.2,
+                    "end": 2.04,
+                    "text": "Growler"
+                },
+                {
+                    "start": 2.04,
+                    "end": 2.58,
+                    "text": "lit"
+                },
+                {
+                    "start": 2.58,
+                    "end": 3.08,
+                    "text": "the"
+                },
+                {
+                    "start": 3.08,
+                    "end": 3.64,
+                    "text": "flame"
+                }
+            ]
+        },
+        {
+            "start": 4.08,
+            "end": 6.21,
+            "text": "Chak, chak, a tiny light",
+            "words": [
+                {
+                    "start": 4.08,
+                    "end": 4.34,
+                    "text": "Chak,"
+                },
+                {
+                    "start": 4.5,
+                    "end": 4.74,
+                    "text": "chak,"
+                },
+                {
+                    "start": 4.78,
+                    "end": 4.96,
+                    "text": "a"
+                },
+                {
+                    "start": 4.96,
+                    "end": 5.56,
+                    "text": "tiny"
+                },
+                {
+                    "start": 5.56,
+                    "end": 6.21,
+                    "text": "light"
+                }
+            ]
+        },
+        {
+            "start": 7.616,
+            "end": 10.74,
+            "text": "Now I run, he said, and came",
+            "words": [
+                {
+                    "start": 7.616,
+                    "end": 7.96,
+                    "text": "Now"
+                },
+                {
+                    "start": 7.96,
+                    "end": 8.36,
+                    "text": "I"
+                },
+                {
+                    "start": 8.36,
+                    "end": 8.86,
+                    "text": "run,"
+                },
+                {
+                    "start": 8.98,
+                    "end": 9.16,
+                    "text": "he"
+                },
+                {
+                    "start": 9.16,
+                    "end": 9.86,
+                    "text": "said,"
+                },
+                {
+                    "start": 9.92,
+                    "end": 10.22,
+                    "text": "and"
+                },
+                {
+                    "start": 10.22,
+                    "end": 10.74,
+                    "text": "came"
+                }
+            ]
+        },
+        {
+            "start": 11.16,
+            "end": 13.32,
+            "text": "Running with all is my",
+            "words": [
+                {
+                    "start": 11.16,
+                    "end": 11.48,
+                    "text": "Running"
+                },
+                {
+                    "start": 11.48,
+                    "end": 12.06,
+                    "text": "with"
+                },
+                {
+                    "start": 12.06,
+                    "end": 12.5,
+                    "text": "all"
+                },
+                {
+                    "start": 12.5,
+                    "end": 12.88,
+                    "text": "is"
+                },
+                {
+                    "start": 12.88,
+                    "end": 13.32,
+                    "text": "my"
+                }
+            ]
+        },
+        {
+            "start": 14.7,
+            "end": 15.04,
+            "text": "Run,",
+            "words": [
+                {
+                    "start": 14.7,
+                    "end": 15.04,
+                    "text": "Run,"
+                }
+            ]
+        },
+        {
+            "start": 15.58,
+            "end": 16.78,
+            "text": "Rala, run",
+            "words": [
+                {
+                    "start": 15.58,
+                    "end": 16.12,
+                    "text": "Rala,"
+                },
+                {
+                    "start": 16.42,
+                    "end": 16.78,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 18.08,
+            "end": 21.248,
+            "text": "The baby fire mustn't die",
+            "words": [
+                {
+                    "start": 18.08,
+                    "end": 18.2,
+                    "text": "The"
+                },
+                {
+                    "start": 18.2,
+                    "end": 18.88,
+                    "text": "baby"
+                },
+                {
+                    "start": 18.88,
+                    "end": 19.78,
+                    "text": "fire"
+                },
+                {
+                    "start": 19.78,
+                    "end": 20.98,
+                    "text": "mustn't"
+                },
+                {
+                    "start": 20.98,
+                    "end": 21.248,
+                    "text": "die"
+                }
+            ]
+        },
+        {
+            "start": 21.82,
+            "end": 21.984,
+            "text": "Run,",
+            "words": [
+                {
+                    "start": 21.82,
+                    "end": 21.984,
+                    "text": "Run,"
+                }
+            ]
+        },
+        {
+            "start": 22.74,
+            "end": 23.7,
+            "text": "Rala, run",
+            "words": [
+                {
+                    "start": 22.74,
+                    "end": 23.168,
+                    "text": "Rala,"
+                },
+                {
+                    "start": 23.6,
+                    "end": 23.7,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 25.28,
+            "end": 28.68,
+            "text": "Reach the new pile, touch the sky",
+            "words": [
+                {
+                    "start": 25.28,
+                    "end": 25.6,
+                    "text": "Reach"
+                },
+                {
+                    "start": 25.6,
+                    "end": 25.78,
+                    "text": "the"
+                },
+                {
+                    "start": 25.888,
+                    "end": 26.1,
+                    "text": "new"
+                },
+                {
+                    "start": 26.1,
+                    "end": 26.784,
+                    "text": "pile,"
+                },
+                {
+                    "start": 27.12,
+                    "end": 27.52,
+                    "text": "touch"
+                },
+                {
+                    "start": 27.648,
+                    "end": 27.88,
+                    "text": "the"
+                },
+                {
+                    "start": 27.88,
+                    "end": 28.68,
+                    "text": "sky"
+                }
+            ]
+        },
+        {
+            "start": 30.26,
+            "end": 34.06,
+            "text": "200 meters, wind in phase",
+            "words": [
+                {
+                    "start": 30.26,
+                    "end": 31.2,
+                    "text": "200"
+                },
+                {
+                    "start": 31.2,
+                    "end": 32.192,
+                    "text": "meters,"
+                },
+                {
+                    "start": 32.52,
+                    "end": 32.82,
+                    "text": "wind"
+                },
+                {
+                    "start": 32.82,
+                    "end": 33.32,
+                    "text": "in"
+                },
+                {
+                    "start": 33.32,
+                    "end": 34.06,
+                    "text": "phase"
+                }
+            ]
+        },
+        {
+            "start": 34.28,
+            "end": 37.24,
+            "text": "The tribe behind, scream in pace",
+            "words": [
+                {
+                    "start": 34.28,
+                    "end": 34.64,
+                    "text": "The"
+                },
+                {
+                    "start": 34.72,
+                    "end": 34.92,
+                    "text": "tribe"
+                },
+                {
+                    "start": 34.92,
+                    "end": 35.52,
+                    "text": "behind,"
+                },
+                {
+                    "start": 35.98,
+                    "end": 36.44,
+                    "text": "scream"
+                },
+                {
+                    "start": 36.44,
+                    "end": 36.88,
+                    "text": "in"
+                },
+                {
+                    "start": 36.88,
+                    "end": 37.24,
+                    "text": "pace"
+                }
+            ]
+        },
+        {
+            "start": 38.04,
+            "end": 40.56,
+            "text": "He reached the end, he blew, he blew",
+            "words": [
+                {
+                    "start": 38.04,
+                    "end": 38.22,
+                    "text": "He"
+                },
+                {
+                    "start": 38.22,
+                    "end": 38.5,
+                    "text": "reached"
+                },
+                {
+                    "start": 38.56,
+                    "end": 38.74,
+                    "text": "the"
+                },
+                {
+                    "start": 38.74,
+                    "end": 39.12,
+                    "text": "end,"
+                },
+                {
+                    "start": 39.22,
+                    "end": 39.34,
+                    "text": "he"
+                },
+                {
+                    "start": 39.34,
+                    "end": 39.66,
+                    "text": "blew,"
+                },
+                {
+                    "start": 40.08,
+                    "end": 40.24,
+                    "text": "he"
+                },
+                {
+                    "start": 40.24,
+                    "end": 40.56,
+                    "text": "blew"
+                }
+            ]
+        },
+        {
+            "start": 40.94,
+            "end": 44.064,
+            "text": "The flame was gone, what could he do?",
+            "words": [
+                {
+                    "start": 40.94,
+                    "end": 41.1,
+                    "text": "The"
+                },
+                {
+                    "start": 41.1,
+                    "end": 41.78,
+                    "text": "flame"
+                },
+                {
+                    "start": 41.78,
+                    "end": 42.02,
+                    "text": "was"
+                },
+                {
+                    "start": 42.02,
+                    "end": 42.56,
+                    "text": "gone,"
+                },
+                {
+                    "start": 42.92,
+                    "end": 43.02,
+                    "text": "what"
+                },
+                {
+                    "start": 43.34,
+                    "end": 43.44,
+                    "text": "could"
+                },
+                {
+                    "start": 43.44,
+                    "end": 43.68,
+                    "text": "he"
+                },
+                {
+                    "start": 43.68,
+                    "end": 44.064,
+                    "text": "do?"
+                }
+            ]
+        },
+        {
+            "start": 44.88,
+            "end": 47.8,
+            "text": "Some said only run at noon",
+            "words": [
+                {
+                    "start": 44.88,
+                    "end": 45.24,
+                    "text": "Some"
+                },
+                {
+                    "start": 45.44,
+                    "end": 45.88,
+                    "text": "said"
+                },
+                {
+                    "start": 45.88,
+                    "end": 46.46,
+                    "text": "only"
+                },
+                {
+                    "start": 46.784,
+                    "end": 47.02,
+                    "text": "run"
+                },
+                {
+                    "start": 47.02,
+                    "end": 47.38,
+                    "text": "at"
+                },
+                {
+                    "start": 47.38,
+                    "end": 47.8,
+                    "text": "noon"
+                }
+            ]
+        },
+        {
+            "start": 48.52,
+            "end": 51.58,
+            "text": "Others warm the box beneath the moon",
+            "words": [
+                {
+                    "start": 48.52,
+                    "end": 49.28,
+                    "text": "Others"
+                },
+                {
+                    "start": 49.28,
+                    "end": 49.78,
+                    "text": "warm"
+                },
+                {
+                    "start": 49.92,
+                    "end": 50.04,
+                    "text": "the"
+                },
+                {
+                    "start": 50.04,
+                    "end": 50.44,
+                    "text": "box"
+                },
+                {
+                    "start": 50.56,
+                    "end": 50.92,
+                    "text": "beneath"
+                },
+                {
+                    "start": 50.92,
+                    "end": 51.18,
+                    "text": "the"
+                },
+                {
+                    "start": 51.18,
+                    "end": 51.58,
+                    "text": "moon"
+                }
+            ]
+        }
+    ]
+}

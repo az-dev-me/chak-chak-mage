@@ -124,25 +124,35 @@ const Zone2Outer = (() => {
         setSidePanelImage('right', sceneUrl);
     }
 
-    // Show hidden meaning overlay (outside phone frame)
+    // Meaning overlay — now handled inside phone frame by player.js
     function updateMeaning(activeLine) {
-        const text = activeLine && activeLine.real_meaning;
-        if (text && meaningOverlay && meaningText) {
-            meaningText.textContent = text;
-            meaningOverlay.classList.add('hidden-meaning-on');
-            meaningOverlay.classList.remove('hidden-meaning-off');
-        } else if (meaningOverlay) {
-            meaningOverlay.classList.remove('hidden-meaning-on');
-            meaningOverlay.classList.add('hidden-meaning-off');
-        }
+        // External overlay permanently hidden; meaning panel is inside #phone-frame
+        return;
     }
 
-    // Beat pulse: CSS custom properties for phone scale + bar brightness spike
-    function applyBeatPulse(beatPulse) {
-        const scale = 1.0 + beatPulse * 0.005;
+    // Beat pulse: CSS custom properties for text glow, strip border, bar brightness, downbeat flash
+    function applyBeatPulse(beatPulse, isDownbeat) {
+        // Text glow: every beat
+        document.documentElement.style.setProperty('--beat-text-glow', beatPulse.toFixed(3));
+
+        // Meaning strip border: every beat (gold shimmer)
+        const borderAlpha = 0.12 + beatPulse * 0.35;
+        document.documentElement.style.setProperty('--beat-strip-border', borderAlpha.toFixed(3));
+
+        // Bar brightness: every beat
         const brightness = beatPulse * 0.03;
-        document.documentElement.style.setProperty('--beat-pulse', scale.toFixed(4));
         document.documentElement.style.setProperty('--beat-brightness', brightness.toFixed(4));
+
+        // Downbeat flash: stronger brightness on measure start (every 4th beat)
+        if (isDownbeat && beatPulse > 0.5) {
+            document.documentElement.style.setProperty('--beat-bg-flash', (beatPulse * 0.8).toFixed(3));
+        } else {
+            // Fast decay
+            const current = parseFloat(
+                document.documentElement.style.getPropertyValue('--beat-bg-flash') || '0'
+            );
+            document.documentElement.style.setProperty('--beat-bg-flash', (current * 0.85).toFixed(3));
+        }
     }
 
     // Energy-reactive bar brightness + narrative frame opacity

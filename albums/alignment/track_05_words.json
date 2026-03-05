@@ -236,7 +236,7 @@
         },
         {
             "start": 41.44,
-            "end": 43.94,
+            "end": 43.706,
             "text": "Made a different kind of sound",
             "words": [
                 {
@@ -279,7 +279,7 @@
         },
         {
             "start": 43.94,
-            "end": 45.86,
+            "end": 47.72,
             "text": "Tchak... tchak... tchak...",
             "words": [
                 {
@@ -295,48 +295,18 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 45.44,
-                    "end": 45.86,
-                    "text": "chuk",
-                    "source": "ad-lib"
+                    "start": 47.633,
+                    "end": 47.72,
+                    "text": "tchak...",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 45.86,
+            "start": 47.812,
             "end": 51.92,
             "text": "MUDA! MUDA! The stone ignites!",
             "words": [
-                {
-                    "start": 45.86,
-                    "end": 46.18,
-                    "text": "chuk",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 46.18,
-                    "end": 46.46,
-                    "text": "chuk",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 46.46,
-                    "end": 46.88,
-                    "text": "chuk",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 46.88,
-                    "end": 47.12,
-                    "text": "chuk",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 47.12,
-                    "end": 47.52,
-                    "text": "chuk",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 47.812,
                     "end": 48.973,
@@ -371,7 +341,7 @@
         },
         {
             "start": 51.995,
-            "end": 54.1,
+            "end": 53.776,
             "text": "MUDA! MUDA! She saw the light!",
             "words": [
                 {
@@ -413,16 +383,10 @@
             ]
         },
         {
-            "start": 54.1,
+            "start": 54.518,
             "end": 56.455,
             "text": "MUDA! MUDA! No need to run!",
             "words": [
-                {
-                    "start": 54.1,
-                    "end": 54.24,
-                    "text": "Muda,",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 54.518,
                     "end": 54.6,
@@ -495,12 +459,6 @@
                     "end": 59.012,
                     "text": "fire's",
                     "source": "canonical"
-                },
-                {
-                    "start": 59.78,
-                    "end": 60.38,
-                    "text": "Ooh",
-                    "source": "ad-lib"
                 },
                 {
                     "start": 62.54,
@@ -614,12 +572,6 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 72.62,
-                    "end": 73.36,
-                    "text": "Pots,",
-                    "source": "ad-lib"
-                },
-                {
                     "start": 73.54,
                     "end": 73.96,
                     "text": "Wheel.",
@@ -641,7 +593,7 @@
         },
         {
             "start": 76.694,
-            "end": 81.24,
+            "end": 80.78,
             "text": "No need to run. No need to tire.\"",
             "words": [
                 {
@@ -695,16 +647,10 @@
             ]
         },
         {
-            "start": 81.24,
+            "start": 82.272,
             "end": 84.444,
             "text": "Gralha's jaw fell to the floor",
             "words": [
-                {
-                    "start": 81.24,
-                    "end": 81.36,
-                    "text": "Ooh",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 82.272,
                     "end": 82.92,
@@ -831,7 +777,7 @@
         },
         {
             "start": 89.4,
-            "end": 93.18,
+            "end": 93.48,
             "text": "The first belief was declared",
             "words": [
                 {
@@ -865,52 +811,70 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 92.12,
-                    "end": 92.24,
-                    "text": "Chik",
+                    "start": 92.14,
+                    "end": 92.28,
+                    "text": "Chak,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.24,
-                    "end": 92.52,
-                    "text": "-chik",
+                    "start": 92.32,
+                    "end": 92.54,
+                    "text": "chak,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.52,
-                    "end": 92.84,
-                    "text": "-chik",
+                    "start": 92.68,
+                    "end": 92.9,
+                    "text": "chak,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.84,
-                    "end": 93.18,
-                    "text": "-chik",
+                    "start": 92.9,
+                    "end": 93.48,
+                    "text": "chak,",
                     "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 94.98,
+            "start": 94.96,
             "end": 100.057,
             "text": "MUDA! MUDA! The stone ignites!",
             "words": [
                 {
-                    "start": 94.98,
-                    "end": 95.26,
-                    "text": "-chik",
+                    "start": 94.96,
+                    "end": 95.24,
+                    "text": "chak,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 95.26,
+                    "start": 95.24,
                     "end": 95.58,
-                    "text": "-chik",
+                    "text": "chak,",
                     "source": "ad-lib"
                 },
                 {
                     "start": 95.58,
-                    "end": 95.88,
-                    "text": "-chik",
+                    "end": 96.0,
+                    "text": "chak,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 96.0,
+                    "end": 96.32,
+                    "text": "chak,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 96.32,
+                    "end": 96.5,
+                    "text": "chak,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 96.5,
+                    "end": 96.72,
+                    "text": "chak,",
                     "source": "ad-lib"
                 },
                 {
@@ -947,7 +911,7 @@
         },
         {
             "start": 100.13,
-            "end": 102.025,
+            "end": 101.742,
             "text": "MUDA! MUDA! She saw the light!",
             "words": [
                 {
@@ -1000,12 +964,6 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 102.32,
-                    "end": 102.9,
-                    "text": "mura",
-                    "source": "ad-lib"
-                },
-                {
                     "start": 103.058,
                     "end": 103.12,
                     "text": "MUDA!",
@@ -1039,7 +997,7 @@
         },
         {
             "start": 105.12,
-            "end": 109.088,
+            "end": 108.3,
             "text": "The fire's here, the fire's won!",
             "words": [
                 {
@@ -1073,28 +1031,16 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 106.84,
-                    "end": 107.06,
-                    "text": "is",
-                    "source": "ad-lib"
-                },
-                {
                     "start": 107.44,
                     "end": 108.3,
                     "text": "won!",
                     "source": "canonical"
-                },
-                {
-                    "start": 108.58,
-                    "end": 109.088,
-                    "text": "Ooo...",
-                    "source": "ad-lib"
                 }
             ]
         },
         {
             "start": 111.14,
-            "end": 112.8,
+            "end": 113.774,
             "text": "Tchak... tchak... tchak...",
             "words": [
                 {
@@ -1110,30 +1056,18 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 112.192,
-                    "end": 112.7,
-                    "text": "-chik",
-                    "source": "ad-lib"
+                    "start": 113.504,
+                    "end": 113.774,
+                    "text": "tchak...",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 112.8,
-            "end": 135.13,
+            "start": 114.66,
+            "end": 115.297,
             "text": "\"The fire was always ours.\"",
             "words": [
-                {
-                    "start": 112.8,
-                    "end": 112.96,
-                    "text": "-chik",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 112.96,
-                    "end": 113.4,
-                    "text": "-chik",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 114.66,
                     "end": 114.82,
@@ -1150,24 +1084,6 @@
                     "start": 115.235,
                     "end": 115.297,
                     "text": "was",
-                    "source": "canonical"
-                },
-                {
-                    "start": 115.9,
-                    "end": 116.54,
-                    "text": "ours",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 131.18,
-                    "end": 134.18,
-                    "text": "always",
-                    "source": "canonical"
-                },
-                {
-                    "start": 134.18,
-                    "end": 135.13,
-                    "text": "ours.\"",
                     "source": "canonical"
                 }
             ]

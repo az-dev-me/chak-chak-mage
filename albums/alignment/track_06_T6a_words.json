@@ -438,7 +438,7 @@
         },
         {
             "start": 36.0,
-            "end": 38.0,
+            "end": 37.98,
             "text": "Burning in the same night!",
             "words": [
                 {
@@ -474,19 +474,19 @@
             ]
         },
         {
-            "start": 38.0,
+            "start": 37.98,
             "end": 41.006,
             "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
-                    "start": 38.0,
+                    "start": 37.98,
                     "end": 38.1,
                     "text": "Hey,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 38.36,
-                    "end": 38.66,
+                    "start": 38.3,
+                    "end": 38.64,
                     "text": "hey,",
                     "source": "ad-lib"
                 },
@@ -549,43 +549,43 @@
         },
         {
             "start": 48.58,
-            "end": 57.22,
+            "end": 55.491,
             "text": "GRAL-HA! GRAL-HA!",
             "words": [
                 {
                     "start": 48.58,
-                    "end": 48.9,
+                    "end": 48.88,
                     "text": "-da",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 48.9,
-                    "end": 49.22,
+                    "start": 48.88,
+                    "end": 49.12,
                     "text": "-da",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 49.22,
-                    "end": 49.42,
+                    "start": 49.12,
+                    "end": 49.4,
                     "text": "-da",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 49.42,
-                    "end": 49.62,
+                    "start": 49.4,
+                    "end": 49.6,
                     "text": "-da",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 49.62,
-                    "end": 49.7,
+                    "start": 49.6,
+                    "end": 49.76,
                     "text": "-da",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 49.7,
-                    "end": 49.98,
-                    "text": "-da,",
+                    "start": 49.76,
+                    "end": 49.94,
+                    "text": "-da",
                     "source": "ad-lib"
                 },
                 {
@@ -595,40 +595,10 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 54.496,
-                    "end": 54.62,
-                    "text": "ra",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 54.62,
-                    "end": 54.92,
-                    "text": "-da",
-                    "source": "ad-lib"
-                },
-                {
                     "start": 55.211,
                     "end": 55.491,
                     "text": "GRAL-HA!",
                     "source": "canonical"
-                },
-                {
-                    "start": 55.7,
-                    "end": 56.3,
-                    "text": "-da",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 56.3,
-                    "end": 56.66,
-                    "text": "-da",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 56.66,
-                    "end": 57.22,
-                    "text": "-da,",
-                    "source": "ad-lib"
                 }
             ]
         },
@@ -794,7 +764,7 @@
         },
         {
             "start": 72.844,
-            "end": 77.6,
+            "end": 76.704,
             "text": "I'm just scared of the dark...\"",
             "words": [
                 {
@@ -836,16 +806,10 @@
             ]
         },
         {
-            "start": 77.6,
-            "end": 94.58,
+            "start": 78.284,
+            "end": 94.5,
             "text": "TWO FIRES! TWO FIRES!",
             "words": [
-                {
-                    "start": 77.6,
-                    "end": 78.14,
-                    "text": "Where's",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 78.284,
                     "end": 78.384,
@@ -853,68 +817,62 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 78.816,
-                    "end": 78.96,
-                    "text": "magic",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 78.96,
-                    "end": 80.31,
+                    "start": 90.44,
+                    "end": 91.24,
                     "text": "gone?",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.24,
-                    "end": 92.62,
+                    "start": 92.4,
+                    "end": 92.66,
                     "text": "TWO",
                     "source": "canonical"
                 },
                 {
-                    "start": 92.62,
-                    "end": 93.38,
+                    "start": 92.66,
+                    "end": 93.22,
                     "text": "FIRES!",
                     "source": "canonical"
                 },
                 {
-                    "start": 94.464,
-                    "end": 94.58,
+                    "start": 94.24,
+                    "end": 94.5,
                     "text": "TWO",
                     "source": "canonical"
                 }
             ]
         },
         {
-            "start": 94.688,
+            "start": 94.752,
             "end": 98.36,
             "text": "Burning in the same night!",
             "words": [
                 {
-                    "start": 94.688,
+                    "start": 94.752,
                     "end": 95.32,
                     "text": "FIRES!",
                     "source": "canonical"
                 },
                 {
-                    "start": 96.608,
-                    "end": 97.34,
+                    "start": 96.64,
+                    "end": 97.36,
                     "text": "Burning",
                     "source": "canonical"
                 },
                 {
-                    "start": 97.34,
+                    "start": 97.36,
                     "end": 97.78,
                     "text": "in",
                     "source": "canonical"
                 },
                 {
                     "start": 97.78,
-                    "end": 97.98,
+                    "end": 97.96,
                     "text": "the",
                     "source": "canonical"
                 },
                 {
-                    "start": 97.98,
+                    "start": 97.96,
                     "end": 98.36,
                     "text": "same",
                     "source": "canonical"
@@ -923,43 +881,37 @@
         },
         {
             "start": 98.36,
-            "end": 101.34,
+            "end": 99.56,
             "text": "TWO FIRES! TWO FIRES!",
             "words": [
                 {
                     "start": 98.36,
-                    "end": 98.9,
+                    "end": 98.94,
                     "text": "night!",
                     "source": "canonical"
                 },
                 {
-                    "start": 100.0,
-                    "end": 100.32,
-                    "text": "TWO",
-                    "source": "canonical"
-                },
-                {
-                    "start": 100.32,
-                    "end": 100.84,
-                    "text": "FIRES!",
-                    "source": "canonical"
-                },
-                {
-                    "start": 101.1,
-                    "end": 101.34,
-                    "text": "TWO",
-                    "source": "canonical"
+                    "start": 99.24,
+                    "end": 99.42,
+                    "text": "Hey,",
+                    "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 101.34,
+            "start": 99.56,
             "end": 102.04,
             "text": "Which one is right?",
             "words": [
                 {
+                    "start": 99.56,
+                    "end": 99.92,
+                    "text": "hey,",
+                    "source": "ad-lib"
+                },
+                {
                     "start": 101.34,
-                    "end": 101.792,
+                    "end": 101.86,
                     "text": "FIRES!",
                     "source": "canonical"
                 }
@@ -967,47 +919,47 @@
         },
         {
             "start": 102.04,
-            "end": 122.432,
+            "end": 122.42,
             "text": "\"Where's the Mage gone?\"",
             "words": [
                 {
                     "start": 102.04,
-                    "end": 102.24,
+                    "end": 102.26,
                     "text": "two",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 102.24,
-                    "end": 102.816,
+                    "start": 102.26,
+                    "end": 102.784,
                     "text": "fires,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 104.12,
-                    "end": 104.92,
+                    "start": 104.14,
+                    "end": 104.96,
                     "text": "right?",
                     "source": "canonical"
                 },
                 {
-                    "start": 104.92,
-                    "end": 105.92,
+                    "start": 104.96,
+                    "end": 105.96,
                     "text": "\"Where's",
                     "source": "canonical"
                 },
                 {
-                    "start": 106.84,
-                    "end": 107.104,
+                    "start": 106.82,
+                    "end": 107.12,
                     "text": "Hey,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 107.2,
-                    "end": 107.64,
+                    "start": 107.24,
+                    "end": 107.66,
                     "text": "hey.",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 107.64,
+                    "start": 107.66,
                     "end": 119.724,
                     "text": "Mage",
                     "source": "canonical"
@@ -1019,8 +971,8 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 122.02,
-                    "end": 122.432,
+                    "start": 122.12,
+                    "end": 122.42,
                     "text": "Hey,",
                     "source": "ad-lib"
                 }

@@ -1,0 +1,1544 @@
+{
+    "id": "track_11",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 0.1,
+            "text": "Ah,",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.1,
+                    "text": "Ah,"
+                }
+            ]
+        },
+        {
+            "start": 0.88,
+            "end": 3.51,
+            "text": "buh, buh, buh, buh, da, da, da, da, da, da, dum",
+            "words": [
+                {
+                    "start": 0.88,
+                    "end": 1.152,
+                    "text": "buh,"
+                },
+                {
+                    "start": 1.24,
+                    "end": 1.52,
+                    "text": "buh,"
+                },
+                {
+                    "start": 1.52,
+                    "end": 1.8,
+                    "text": "buh,"
+                },
+                {
+                    "start": 1.8,
+                    "end": 2.04,
+                    "text": "buh,"
+                },
+                {
+                    "start": 2.08,
+                    "end": 2.18,
+                    "text": "da,"
+                },
+                {
+                    "start": 2.18,
+                    "end": 2.336,
+                    "text": "da,"
+                },
+                {
+                    "start": 2.64,
+                    "end": 2.64,
+                    "text": "da,"
+                },
+                {
+                    "start": 2.66,
+                    "end": 2.76,
+                    "text": "da,"
+                },
+                {
+                    "start": 2.88,
+                    "end": 2.98,
+                    "text": "da,"
+                },
+                {
+                    "start": 3.02,
+                    "end": 3.12,
+                    "text": "da,"
+                },
+                {
+                    "start": 3.12,
+                    "end": 3.51,
+                    "text": "dum"
+                }
+            ]
+        },
+        {
+            "start": 4.98,
+            "end": 5.38,
+            "text": "Ah,",
+            "words": [
+                {
+                    "start": 4.98,
+                    "end": 5.38,
+                    "text": "Ah,"
+                }
+            ]
+        },
+        {
+            "start": 5.68,
+            "end": 5.98,
+            "text": "buh,",
+            "words": [
+                {
+                    "start": 5.68,
+                    "end": 5.98,
+                    "text": "buh,"
+                }
+            ]
+        },
+        {
+            "start": 6.02,
+            "end": 6.28,
+            "text": "buh,",
+            "words": [
+                {
+                    "start": 6.02,
+                    "end": 6.28,
+                    "text": "buh,"
+                }
+            ]
+        },
+        {
+            "start": 6.32,
+            "end": 6.42,
+            "text": "buh,",
+            "words": [
+                {
+                    "start": 6.32,
+                    "end": 6.42,
+                    "text": "buh,"
+                }
+            ]
+        },
+        {
+            "start": 6.56,
+            "end": 6.82,
+            "text": "buh,",
+            "words": [
+                {
+                    "start": 6.56,
+                    "end": 6.82,
+                    "text": "buh,"
+                }
+            ]
+        },
+        {
+            "start": 6.84,
+            "end": 6.98,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 6.84,
+                    "end": 6.98,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.0,
+            "end": 7.14,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 7.0,
+                    "end": 7.14,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.14,
+            "end": 7.26,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 7.14,
+                    "end": 7.26,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.26,
+            "end": 7.46,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 7.26,
+                    "end": 7.46,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.46,
+            "end": 7.64,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 7.46,
+                    "end": 7.64,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.64,
+            "end": 7.8,
+            "text": "da,",
+            "words": [
+                {
+                    "start": 7.64,
+                    "end": 7.8,
+                    "text": "da,"
+                }
+            ]
+        },
+        {
+            "start": 7.8,
+            "end": 8.3,
+            "text": "dum",
+            "words": [
+                {
+                    "start": 7.8,
+                    "end": 8.3,
+                    "text": "dum"
+                }
+            ]
+        },
+        {
+            "start": 10.3,
+            "end": 12.38,
+            "text": "I pressed play on the green phone booth",
+            "words": [
+                {
+                    "start": 10.3,
+                    "end": 10.48,
+                    "text": "I"
+                },
+                {
+                    "start": 10.56,
+                    "end": 10.76,
+                    "text": "pressed"
+                },
+                {
+                    "start": 10.76,
+                    "end": 11.1,
+                    "text": "play"
+                },
+                {
+                    "start": 11.1,
+                    "end": 11.32,
+                    "text": "on"
+                },
+                {
+                    "start": 11.32,
+                    "end": 11.44,
+                    "text": "the"
+                },
+                {
+                    "start": 11.44,
+                    "end": 11.66,
+                    "text": "green"
+                },
+                {
+                    "start": 11.66,
+                    "end": 11.98,
+                    "text": "phone"
+                },
+                {
+                    "start": 11.98,
+                    "end": 12.38,
+                    "text": "booth"
+                }
+            ]
+        },
+        {
+            "start": 12.8,
+            "end": 14.5,
+            "text": "Painted a British box, that's the truth",
+            "words": [
+                {
+                    "start": 12.8,
+                    "end": 13.0,
+                    "text": "Painted"
+                },
+                {
+                    "start": 13.0,
+                    "end": 13.24,
+                    "text": "a"
+                },
+                {
+                    "start": 13.24,
+                    "end": 13.48,
+                    "text": "British"
+                },
+                {
+                    "start": 13.48,
+                    "end": 13.78,
+                    "text": "box,"
+                },
+                {
+                    "start": 13.86,
+                    "end": 14.1,
+                    "text": "that's"
+                },
+                {
+                    "start": 14.1,
+                    "end": 14.28,
+                    "text": "the"
+                },
+                {
+                    "start": 14.28,
+                    "end": 14.5,
+                    "text": "truth"
+                }
+            ]
+        },
+        {
+            "start": 14.912,
+            "end": 16.98,
+            "text": "Don't ask me why, I can't explain",
+            "words": [
+                {
+                    "start": 14.912,
+                    "end": 15.24,
+                    "text": "Don't"
+                },
+                {
+                    "start": 15.24,
+                    "end": 15.46,
+                    "text": "ask"
+                },
+                {
+                    "start": 15.46,
+                    "end": 15.58,
+                    "text": "me"
+                },
+                {
+                    "start": 15.58,
+                    "end": 15.96,
+                    "text": "why,"
+                },
+                {
+                    "start": 16.06,
+                    "end": 16.24,
+                    "text": "I"
+                },
+                {
+                    "start": 16.24,
+                    "end": 16.52,
+                    "text": "can't"
+                },
+                {
+                    "start": 16.52,
+                    "end": 16.98,
+                    "text": "explain"
+                }
+            ]
+        },
+        {
+            "start": 17.12,
+            "end": 18.2,
+            "text": "Just one of cool rocks,",
+            "words": [
+                {
+                    "start": 17.12,
+                    "end": 17.38,
+                    "text": "Just"
+                },
+                {
+                    "start": 17.38,
+                    "end": 17.62,
+                    "text": "one"
+                },
+                {
+                    "start": 17.62,
+                    "end": 17.74,
+                    "text": "of"
+                },
+                {
+                    "start": 17.74,
+                    "end": 17.96,
+                    "text": "cool"
+                },
+                {
+                    "start": 17.96,
+                    "end": 18.2,
+                    "text": "rocks,"
+                }
+            ]
+        },
+        {
+            "start": 18.26,
+            "end": 19.42,
+            "text": "maybe a saber-toothed mane",
+            "words": [
+                {
+                    "start": 18.26,
+                    "end": 18.4,
+                    "text": "maybe"
+                },
+                {
+                    "start": 18.4,
+                    "end": 18.64,
+                    "text": "a"
+                },
+                {
+                    "start": 18.64,
+                    "end": 18.86,
+                    "text": "saber"
+                },
+                {
+                    "start": 18.86,
+                    "end": 19.28,
+                    "text": "-toothed"
+                },
+                {
+                    "start": 19.28,
+                    "end": 19.42,
+                    "text": "mane"
+                }
+            ]
+        },
+        {
+            "start": 19.48,
+            "end": 22.48,
+            "text": "See a dinosaur before my teeth",
+            "words": [
+                {
+                    "start": 19.48,
+                    "end": 19.7,
+                    "text": "See"
+                },
+                {
+                    "start": 19.7,
+                    "end": 19.86,
+                    "text": "a"
+                },
+                {
+                    "start": 19.86,
+                    "end": 20.38,
+                    "text": "dinosaur"
+                },
+                {
+                    "start": 20.38,
+                    "end": 21.3,
+                    "text": "before"
+                },
+                {
+                    "start": 21.3,
+                    "end": 22.06,
+                    "text": "my"
+                },
+                {
+                    "start": 22.06,
+                    "end": 22.48,
+                    "text": "teeth"
+                }
+            ]
+        },
+        {
+            "start": 24.512,
+            "end": 27.296,
+            "text": "A triceratops staring at me",
+            "words": [
+                {
+                    "start": 24.512,
+                    "end": 24.64,
+                    "text": "A"
+                },
+                {
+                    "start": 24.64,
+                    "end": 25.68,
+                    "text": "triceratops"
+                },
+                {
+                    "start": 25.68,
+                    "end": 26.42,
+                    "text": "staring"
+                },
+                {
+                    "start": 26.42,
+                    "end": 26.96,
+                    "text": "at"
+                },
+                {
+                    "start": 26.96,
+                    "end": 27.296,
+                    "text": "me"
+                }
+            ]
+        },
+        {
+            "start": 29.3,
+            "end": 31.66,
+            "text": "I landed in a valley of moss and smoke,",
+            "words": [
+                {
+                    "start": 29.3,
+                    "end": 29.4,
+                    "text": "I"
+                },
+                {
+                    "start": 29.4,
+                    "end": 29.7,
+                    "text": "landed"
+                },
+                {
+                    "start": 29.7,
+                    "end": 29.94,
+                    "text": "in"
+                },
+                {
+                    "start": 29.94,
+                    "end": 30.06,
+                    "text": "a"
+                },
+                {
+                    "start": 30.06,
+                    "end": 30.32,
+                    "text": "valley"
+                },
+                {
+                    "start": 30.32,
+                    "end": 30.58,
+                    "text": "of"
+                },
+                {
+                    "start": 30.58,
+                    "end": 30.94,
+                    "text": "moss"
+                },
+                {
+                    "start": 30.94,
+                    "end": 31.16,
+                    "text": "and"
+                },
+                {
+                    "start": 31.16,
+                    "end": 31.66,
+                    "text": "smoke,"
+                }
+            ]
+        },
+        {
+            "start": 31.82,
+            "end": 32.7,
+            "text": "smell of rain,",
+            "words": [
+                {
+                    "start": 31.82,
+                    "end": 32.06,
+                    "text": "smell"
+                },
+                {
+                    "start": 32.06,
+                    "end": 32.32,
+                    "text": "of"
+                },
+                {
+                    "start": 32.32,
+                    "end": 32.7,
+                    "text": "rain,"
+                }
+            ]
+        },
+        {
+            "start": 32.92,
+            "end": 35.1,
+            "text": "the night awoke and there he was,",
+            "words": [
+                {
+                    "start": 32.92,
+                    "end": 33.04,
+                    "text": "the"
+                },
+                {
+                    "start": 33.04,
+                    "end": 33.36,
+                    "text": "night"
+                },
+                {
+                    "start": 33.36,
+                    "end": 33.96,
+                    "text": "awoke"
+                },
+                {
+                    "start": 33.96,
+                    "end": 34.16,
+                    "text": "and"
+                },
+                {
+                    "start": 34.16,
+                    "end": 34.56,
+                    "text": "there"
+                },
+                {
+                    "start": 34.56,
+                    "end": 34.78,
+                    "text": "he"
+                },
+                {
+                    "start": 34.78,
+                    "end": 35.1,
+                    "text": "was,"
+                }
+            ]
+        },
+        {
+            "start": 35.16,
+            "end": 36.3,
+            "text": "the first human soul,",
+            "words": [
+                {
+                    "start": 35.16,
+                    "end": 35.26,
+                    "text": "the"
+                },
+                {
+                    "start": 35.26,
+                    "end": 35.58,
+                    "text": "first"
+                },
+                {
+                    "start": 35.58,
+                    "end": 35.86,
+                    "text": "human"
+                },
+                {
+                    "start": 35.86,
+                    "end": 36.3,
+                    "text": "soul,"
+                }
+            ]
+        },
+        {
+            "start": 36.58,
+            "end": 37.52,
+            "text": "blowin' on a twig,",
+            "words": [
+                {
+                    "start": 36.58,
+                    "end": 36.96,
+                    "text": "blowin'"
+                },
+                {
+                    "start": 36.98,
+                    "end": 37.1,
+                    "text": "on"
+                },
+                {
+                    "start": 37.1,
+                    "end": 37.22,
+                    "text": "a"
+                },
+                {
+                    "start": 37.22,
+                    "end": 37.52,
+                    "text": "twig,"
+                }
+            ]
+        },
+        {
+            "start": 37.84,
+            "end": 38.93,
+            "text": "losin' control.",
+            "words": [
+                {
+                    "start": 37.84,
+                    "end": 38.1,
+                    "text": "losin'"
+                },
+                {
+                    "start": 38.18,
+                    "end": 38.93,
+                    "text": "control."
+                }
+            ]
+        },
+        {
+            "start": 42.86,
+            "end": 44.38,
+            "text": "I'm the mage by accident,",
+            "words": [
+                {
+                    "start": 42.86,
+                    "end": 43.1,
+                    "text": "I'm"
+                },
+                {
+                    "start": 43.1,
+                    "end": 43.24,
+                    "text": "the"
+                },
+                {
+                    "start": 43.24,
+                    "end": 43.48,
+                    "text": "mage"
+                },
+                {
+                    "start": 43.52,
+                    "end": 43.78,
+                    "text": "by"
+                },
+                {
+                    "start": 43.78,
+                    "end": 44.38,
+                    "text": "accident,"
+                }
+            ]
+        },
+        {
+            "start": 44.66,
+            "end": 45.28,
+            "text": "right guy,",
+            "words": [
+                {
+                    "start": 44.66,
+                    "end": 44.98,
+                    "text": "right"
+                },
+                {
+                    "start": 44.98,
+                    "end": 45.28,
+                    "text": "guy,"
+                }
+            ]
+        },
+        {
+            "start": 45.4,
+            "end": 46.14,
+            "text": "wrong time,",
+            "words": [
+                {
+                    "start": 45.4,
+                    "end": 45.58,
+                    "text": "wrong"
+                },
+                {
+                    "start": 45.58,
+                    "end": 46.14,
+                    "text": "time,"
+                }
+            ]
+        },
+        {
+            "start": 46.24,
+            "end": 46.96,
+            "text": "no consent,",
+            "words": [
+                {
+                    "start": 46.24,
+                    "end": 46.48,
+                    "text": "no"
+                },
+                {
+                    "start": 46.48,
+                    "end": 46.96,
+                    "text": "consent,"
+                }
+            ]
+        },
+        {
+            "start": 47.328,
+            "end": 48.28,
+            "text": "came for some rocks,",
+            "words": [
+                {
+                    "start": 47.328,
+                    "end": 47.54,
+                    "text": "came"
+                },
+                {
+                    "start": 47.54,
+                    "end": 47.78,
+                    "text": "for"
+                },
+                {
+                    "start": 47.78,
+                    "end": 48.02,
+                    "text": "some"
+                },
+                {
+                    "start": 48.02,
+                    "end": 48.28,
+                    "text": "rocks,"
+                }
+            ]
+        },
+        {
+            "start": 48.36,
+            "end": 48.5,
+            "text": "now",
+            "words": [
+                {
+                    "start": 48.36,
+                    "end": 48.5,
+                    "text": "now"
+                }
+            ]
+        },
+        {
+            "start": 48.5,
+            "end": 51.008,
+            "text": "I gotta run, but the story's already begun.",
+            "words": [
+                {
+                    "start": 48.5,
+                    "end": 48.84,
+                    "text": "I"
+                },
+                {
+                    "start": 48.84,
+                    "end": 49.16,
+                    "text": "gotta"
+                },
+                {
+                    "start": 49.16,
+                    "end": 49.5,
+                    "text": "run,"
+                },
+                {
+                    "start": 49.6,
+                    "end": 49.7,
+                    "text": "but"
+                },
+                {
+                    "start": 49.7,
+                    "end": 49.84,
+                    "text": "the"
+                },
+                {
+                    "start": 49.84,
+                    "end": 50.2,
+                    "text": "story's"
+                },
+                {
+                    "start": 50.2,
+                    "end": 50.66,
+                    "text": "already"
+                },
+                {
+                    "start": 50.66,
+                    "end": 51.008,
+                    "text": "begun."
+                }
+            ]
+        },
+        {
+            "start": 54.46,
+            "end": 60.67,
+            "text": "the flame lit bright and my whole life faded into night",
+            "words": [
+                {
+                    "start": 54.46,
+                    "end": 54.56,
+                    "text": "the"
+                },
+                {
+                    "start": 54.56,
+                    "end": 54.9,
+                    "text": "flame"
+                },
+                {
+                    "start": 54.9,
+                    "end": 55.18,
+                    "text": "lit"
+                },
+                {
+                    "start": 55.18,
+                    "end": 56.18,
+                    "text": "bright"
+                },
+                {
+                    "start": 56.18,
+                    "end": 58.08,
+                    "text": "and"
+                },
+                {
+                    "start": 58.08,
+                    "end": 58.22,
+                    "text": "my"
+                },
+                {
+                    "start": 58.22,
+                    "end": 58.52,
+                    "text": "whole"
+                },
+                {
+                    "start": 58.52,
+                    "end": 58.82,
+                    "text": "life"
+                },
+                {
+                    "start": 58.82,
+                    "end": 59.24,
+                    "text": "faded"
+                },
+                {
+                    "start": 59.24,
+                    "end": 59.82,
+                    "text": "into"
+                },
+                {
+                    "start": 59.82,
+                    "end": 60.67,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "start": 71.46,
+            "end": 72.96,
+            "text": "Grala looked at me,",
+            "words": [
+                {
+                    "start": 71.46,
+                    "end": 72.26,
+                    "text": "Grala"
+                },
+                {
+                    "start": 72.42,
+                    "end": 72.52,
+                    "text": "looked"
+                },
+                {
+                    "start": 72.52,
+                    "end": 72.64,
+                    "text": "at"
+                },
+                {
+                    "start": 72.64,
+                    "end": 72.96,
+                    "text": "me,"
+                }
+            ]
+        },
+        {
+            "start": 73.16,
+            "end": 74.1,
+            "text": "dropped his stick,",
+            "words": [
+                {
+                    "start": 73.16,
+                    "end": 73.48,
+                    "text": "dropped"
+                },
+                {
+                    "start": 73.48,
+                    "end": 73.76,
+                    "text": "his"
+                },
+                {
+                    "start": 73.76,
+                    "end": 74.1,
+                    "text": "stick,"
+                }
+            ]
+        },
+        {
+            "start": 74.28,
+            "end": 76.42,
+            "text": "saw my super box sweater thick",
+            "words": [
+                {
+                    "start": 74.28,
+                    "end": 74.6,
+                    "text": "saw"
+                },
+                {
+                    "start": 74.6,
+                    "end": 74.94,
+                    "text": "my"
+                },
+                {
+                    "start": 74.94,
+                    "end": 75.24,
+                    "text": "super"
+                },
+                {
+                    "start": 75.24,
+                    "end": 75.56,
+                    "text": "box"
+                },
+                {
+                    "start": 75.56,
+                    "end": 75.86,
+                    "text": "sweater"
+                },
+                {
+                    "start": 75.86,
+                    "end": 76.42,
+                    "text": "thick"
+                }
+            ]
+        },
+        {
+            "start": 76.64,
+            "end": 77.64,
+            "text": "pointed at the light,",
+            "words": [
+                {
+                    "start": 76.64,
+                    "end": 77.04,
+                    "text": "pointed"
+                },
+                {
+                    "start": 77.04,
+                    "end": 77.3,
+                    "text": "at"
+                },
+                {
+                    "start": 77.3,
+                    "end": 77.44,
+                    "text": "the"
+                },
+                {
+                    "start": 77.44,
+                    "end": 77.64,
+                    "text": "light,"
+                }
+            ]
+        },
+        {
+            "start": 77.68,
+            "end": 78.7,
+            "text": "I went ooga-boo,",
+            "words": [
+                {
+                    "start": 77.68,
+                    "end": 77.76,
+                    "text": "I"
+                },
+                {
+                    "start": 77.76,
+                    "end": 77.94,
+                    "text": "went"
+                },
+                {
+                    "start": 77.94,
+                    "end": 78.38,
+                    "text": "ooga"
+                },
+                {
+                    "start": 78.38,
+                    "end": 78.7,
+                    "text": "-boo,"
+                }
+            ]
+        },
+        {
+            "start": 78.88,
+            "end": 80.04,
+            "text": "I went chock-chock,",
+            "words": [
+                {
+                    "start": 78.88,
+                    "end": 78.96,
+                    "text": "I"
+                },
+                {
+                    "start": 78.96,
+                    "end": 79.18,
+                    "text": "went"
+                },
+                {
+                    "start": 79.18,
+                    "end": 79.58,
+                    "text": "chock"
+                },
+                {
+                    "start": 79.58,
+                    "end": 80.04,
+                    "text": "-chock,"
+                }
+            ]
+        },
+        {
+            "start": 80.192,
+            "end": 81.3,
+            "text": "he fell back new",
+            "words": [
+                {
+                    "start": 80.192,
+                    "end": 80.38,
+                    "text": "he"
+                },
+                {
+                    "start": 80.38,
+                    "end": 80.68,
+                    "text": "fell"
+                },
+                {
+                    "start": 80.68,
+                    "end": 81.0,
+                    "text": "back"
+                },
+                {
+                    "start": 81.0,
+                    "end": 81.3,
+                    "text": "new"
+                }
+            ]
+        },
+        {
+            "start": 81.68,
+            "end": 83.58,
+            "text": "Oooooogabooga!",
+            "words": [
+                {
+                    "start": 81.68,
+                    "end": 83.58,
+                    "text": "Oooooogabooga!"
+                }
+            ]
+        },
+        {
+            "start": 84.16,
+            "end": 85.52,
+            "text": "Chan-chan translation",
+            "words": [
+                {
+                    "start": 84.16,
+                    "end": 84.32,
+                    "text": "Chan"
+                },
+                {
+                    "start": 84.32,
+                    "end": 84.8,
+                    "text": "-chan"
+                },
+                {
+                    "start": 84.8,
+                    "end": 85.52,
+                    "text": "translation"
+                }
+            ]
+        },
+        {
+            "start": 86.144,
+            "end": 89.08,
+            "text": "Come see the madman",
+            "words": [
+                {
+                    "start": 86.144,
+                    "end": 87.02,
+                    "text": "Come"
+                },
+                {
+                    "start": 87.02,
+                    "end": 87.36,
+                    "text": "see"
+                },
+                {
+                    "start": 87.36,
+                    "end": 87.6,
+                    "text": "the"
+                },
+                {
+                    "start": 87.6,
+                    "end": 89.08,
+                    "text": "madman"
+                }
+            ]
+        },
+        {
+            "start": 89.728,
+            "end": 92.18,
+            "text": "Five minutes, twelve creatures gathered round",
+            "words": [
+                {
+                    "start": 89.728,
+                    "end": 89.98,
+                    "text": "Five"
+                },
+                {
+                    "start": 89.98,
+                    "end": 90.38,
+                    "text": "minutes,"
+                },
+                {
+                    "start": 90.48,
+                    "end": 90.72,
+                    "text": "twelve"
+                },
+                {
+                    "start": 90.72,
+                    "end": 91.12,
+                    "text": "creatures"
+                },
+                {
+                    "start": 91.12,
+                    "end": 91.6,
+                    "text": "gathered"
+                },
+                {
+                    "start": 91.6,
+                    "end": 92.18,
+                    "text": "round"
+                }
+            ]
+        },
+        {
+            "start": 92.44,
+            "end": 94.76,
+            "text": "Mouths wide open, not a sound",
+            "words": [
+                {
+                    "start": 92.44,
+                    "end": 92.78,
+                    "text": "Mouths"
+                },
+                {
+                    "start": 92.78,
+                    "end": 93.06,
+                    "text": "wide"
+                },
+                {
+                    "start": 93.06,
+                    "end": 93.46,
+                    "text": "open,"
+                },
+                {
+                    "start": 93.62,
+                    "end": 93.86,
+                    "text": "not"
+                },
+                {
+                    "start": 93.86,
+                    "end": 94.06,
+                    "text": "a"
+                },
+                {
+                    "start": 94.06,
+                    "end": 94.76,
+                    "text": "sound"
+                }
+            ]
+        },
+        {
+            "start": 98.52,
+            "end": 100.18,
+            "text": "I'm the mage by accident",
+            "words": [
+                {
+                    "start": 98.52,
+                    "end": 98.9,
+                    "text": "I'm"
+                },
+                {
+                    "start": 98.9,
+                    "end": 99.04,
+                    "text": "the"
+                },
+                {
+                    "start": 99.04,
+                    "end": 99.3,
+                    "text": "mage"
+                },
+                {
+                    "start": 99.3,
+                    "end": 99.6,
+                    "text": "by"
+                },
+                {
+                    "start": 99.6,
+                    "end": 100.18,
+                    "text": "accident"
+                }
+            ]
+        },
+        {
+            "start": 100.52,
+            "end": 102.624,
+            "text": "Right guy, wrong time, no consent",
+            "words": [
+                {
+                    "start": 100.52,
+                    "end": 100.78,
+                    "text": "Right"
+                },
+                {
+                    "start": 100.78,
+                    "end": 101.06,
+                    "text": "guy,"
+                },
+                {
+                    "start": 101.18,
+                    "end": 101.36,
+                    "text": "wrong"
+                },
+                {
+                    "start": 101.36,
+                    "end": 101.9,
+                    "text": "time,"
+                },
+                {
+                    "start": 102.04,
+                    "end": 102.28,
+                    "text": "no"
+                },
+                {
+                    "start": 102.28,
+                    "end": 102.624,
+                    "text": "consent"
+                }
+            ]
+        },
+        {
+            "start": 103.08,
+            "end": 105.06,
+            "text": "Came for some rocks, now I gotta run",
+            "words": [
+                {
+                    "start": 103.08,
+                    "end": 103.34,
+                    "text": "Came"
+                },
+                {
+                    "start": 103.34,
+                    "end": 103.6,
+                    "text": "for"
+                },
+                {
+                    "start": 103.616,
+                    "end": 103.82,
+                    "text": "some"
+                },
+                {
+                    "start": 103.82,
+                    "end": 104.064,
+                    "text": "rocks,"
+                },
+                {
+                    "start": 104.16,
+                    "end": 104.3,
+                    "text": "now"
+                },
+                {
+                    "start": 104.3,
+                    "end": 104.66,
+                    "text": "I"
+                },
+                {
+                    "start": 104.704,
+                    "end": 104.96,
+                    "text": "gotta"
+                },
+                {
+                    "start": 104.96,
+                    "end": 105.06,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 105.38,
+            "end": 106.82,
+            "text": "But the story's already begun",
+            "words": [
+                {
+                    "start": 105.38,
+                    "end": 105.52,
+                    "text": "But"
+                },
+                {
+                    "start": 105.52,
+                    "end": 105.62,
+                    "text": "the"
+                },
+                {
+                    "start": 105.62,
+                    "end": 106.0,
+                    "text": "story's"
+                },
+                {
+                    "start": 106.0,
+                    "end": 106.46,
+                    "text": "already"
+                },
+                {
+                    "start": 106.46,
+                    "end": 106.82,
+                    "text": "begun"
+                }
+            ]
+        },
+        {
+            "start": 107.44,
+            "end": 107.54,
+            "text": "Shock,",
+            "words": [
+                {
+                    "start": 107.44,
+                    "end": 107.54,
+                    "text": "Shock,"
+                }
+            ]
+        },
+        {
+            "start": 109.8,
+            "end": 111.168,
+            "text": "shock, the flame lit bright",
+            "words": [
+                {
+                    "start": 109.8,
+                    "end": 110.08,
+                    "text": "shock,"
+                },
+                {
+                    "start": 110.3,
+                    "end": 110.4,
+                    "text": "the"
+                },
+                {
+                    "start": 110.464,
+                    "end": 110.72,
+                    "text": "flame"
+                },
+                {
+                    "start": 110.72,
+                    "end": 110.96,
+                    "text": "lit"
+                },
+                {
+                    "start": 110.96,
+                    "end": 111.168,
+                    "text": "bright"
+                }
+            ]
+        },
+        {
+            "start": 117.01,
+            "end": 120.576,
+            "text": "And my whole life faded into night",
+            "words": [
+                {
+                    "start": 117.01,
+                    "end": 118.06,
+                    "text": "And"
+                },
+                {
+                    "start": 118.06,
+                    "end": 118.24,
+                    "text": "my"
+                },
+                {
+                    "start": 118.24,
+                    "end": 118.52,
+                    "text": "whole"
+                },
+                {
+                    "start": 118.52,
+                    "end": 118.78,
+                    "text": "life"
+                },
+                {
+                    "start": 118.78,
+                    "end": 119.2,
+                    "text": "faded"
+                },
+                {
+                    "start": 119.2,
+                    "end": 119.82,
+                    "text": "into"
+                },
+                {
+                    "start": 119.82,
+                    "end": 120.576,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "start": 125.7,
+            "end": 128.4,
+            "text": "Where the hell did I land?",
+            "words": [
+                {
+                    "start": 125.7,
+                    "end": 126.48,
+                    "text": "Where"
+                },
+                {
+                    "start": 126.48,
+                    "end": 126.66,
+                    "text": "the"
+                },
+                {
+                    "start": 126.66,
+                    "end": 126.94,
+                    "text": "hell"
+                },
+                {
+                    "start": 126.94,
+                    "end": 127.14,
+                    "text": "did"
+                },
+                {
+                    "start": 127.14,
+                    "end": 127.5,
+                    "text": "I"
+                },
+                {
+                    "start": 127.5,
+                    "end": 128.4,
+                    "text": "land?"
+                }
+            ]
+        },
+        {
+            "start": 129.58,
+            "end": 132.38,
+            "text": "Sound of tribe approaching",
+            "words": [
+                {
+                    "start": 129.58,
+                    "end": 130.48,
+                    "text": "Sound"
+                },
+                {
+                    "start": 130.48,
+                    "end": 130.88,
+                    "text": "of"
+                },
+                {
+                    "start": 130.88,
+                    "end": 131.6,
+                    "text": "tribe"
+                },
+                {
+                    "start": 131.6,
+                    "end": 132.38,
+                    "text": "approaching"
+                }
+            ]
+        },
+        {
+            "start": 133.94,
+            "end": 134.3,
+            "text": "footsteps",
+            "words": [
+                {
+                    "start": 133.94,
+                    "end": 134.3,
+                    "text": "footsteps"
+                }
+            ]
+        }
+    ]
+}

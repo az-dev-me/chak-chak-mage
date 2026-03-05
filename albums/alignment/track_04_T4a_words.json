@@ -722,7 +722,7 @@
         },
         {
             "start": 54.065,
-            "end": 57.76,
+            "end": 58.324,
             "text": "Everybody's got the truth!",
             "words": [
                 {
@@ -767,6 +767,12 @@
                     "end": 58.816,
                     "text": "AND",
                     "source": "canonical"
+                },
+                {
+                    "start": 59.08,
+                    "end": 59.64,
+                    "text": "lichens,",
+                    "source": "ad-lib"
                 },
                 {
                     "start": 59.96,

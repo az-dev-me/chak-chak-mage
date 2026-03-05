@@ -54,14 +54,14 @@
             "line_index": 6,
             "occurrence_index": 0,
             "start": 43.94,
-            "end": 45.86,
+            "end": 47.72,
             "lyric": "Tchak... tchak... tchak..."
         },
         {
             "id": "line_7_occ_0",
             "line_index": 7,
             "occurrence_index": 0,
-            "start": 45.86,
+            "start": 47.812,
             "end": 51.92,
             "lyric": "MUDA! MUDA! The stone ignites!"
         },
@@ -77,7 +77,7 @@
             "id": "line_9_occ_0",
             "line_index": 9,
             "occurrence_index": 0,
-            "start": 54.04,
+            "start": 54.518,
             "end": 56.455,
             "lyric": "MUDA! MUDA! No need to run!"
         },
@@ -125,7 +125,7 @@
             "id": "line_22_occ_0",
             "line_index": 22,
             "occurrence_index": 0,
-            "start": 80.88,
+            "start": 82.272,
             "end": 84.444,
             "lyric": "The fire's here, the fire's won!"
         },
@@ -142,14 +142,14 @@
             "line_index": 24,
             "occurrence_index": 0,
             "start": 89.4,
-            "end": 92.5,
+            "end": 93.48,
             "lyric": "\"The fire was always ours.\""
         },
         {
             "id": "line_8_occ_0",
             "line_index": 8,
             "occurrence_index": 0,
-            "start": 96.88,
+            "start": 94.96,
             "end": 104.924,
             "lyric": "MUDA! MUDA! She saw the light!"
         },
@@ -174,7 +174,7 @@
             "line_index": 24,
             "occurrence_index": 2,
             "start": 114.66,
-            "end": 135.76,
+            "end": 115.297,
             "lyric": "\"The fire was always ours.\""
         }
     ]

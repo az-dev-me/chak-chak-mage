@@ -77,18 +77,25 @@
                     </div>
 
                     <div id="meaning-panel" class="meaning-hidden">
-                        <span class="meaning-label">MEANING</span>
+                        <span class="meaning-label">THE MODERN PARALLEL</span>
                         <p id="meaning-text"></p>
                     </div>
 
                     <div id="player-controls">
                         <div class="track-info" id="current-track-name">Track Loading...</div>
                         <div id="variant-picker" class="variant-picker hidden"></div>
-                        <div class="progress-bar-container" id="progress-container">
-                            <div id="progress-bar"></div>
+                        <div id="timeline-container">
+                            <div class="progress-bar-container" id="album-progress-container">
+                                <div id="album-progress-bar"></div>
+                                <div id="album-track-ticks"></div>
+                            </div>
+                            <div class="progress-bar-container" id="track-progress-container">
+                                <div id="progress-bar"></div>
+                            </div>
                         </div>
                         <div class="time-display">
                             <span id="time-current">0:00</span>
+                            <span id="time-mode-label">ALBUM</span>
                             <span id="time-total">0:00</span>
                         </div>
                         <div class="buttons">

@@ -1,0 +1,1337 @@
+{
+    "id": "track_12",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 0.1,
+            "text": "\u266a",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.1,
+                    "text": "\u266a"
+                }
+            ]
+        },
+        {
+            "start": 10.84,
+            "end": 13.18,
+            "text": "Brother held the orange box,",
+            "words": [
+                {
+                    "start": 10.84,
+                    "end": 11.54,
+                    "text": "Brother"
+                },
+                {
+                    "start": 11.88,
+                    "end": 11.98,
+                    "text": "held"
+                },
+                {
+                    "start": 11.98,
+                    "end": 12.26,
+                    "text": "the"
+                },
+                {
+                    "start": 12.26,
+                    "end": 12.68,
+                    "text": "orange"
+                },
+                {
+                    "start": 12.68,
+                    "end": 13.18,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 13.28,
+            "end": 14.53,
+            "text": "turned it in his hand",
+            "words": [
+                {
+                    "start": 13.28,
+                    "end": 13.56,
+                    "text": "turned"
+                },
+                {
+                    "start": 13.56,
+                    "end": 13.74,
+                    "text": "it"
+                },
+                {
+                    "start": 13.74,
+                    "end": 13.9,
+                    "text": "in"
+                },
+                {
+                    "start": 13.9,
+                    "end": 14.08,
+                    "text": "his"
+                },
+                {
+                    "start": 14.08,
+                    "end": 14.53,
+                    "text": "hand"
+                }
+            ]
+        },
+        {
+            "start": 15.36,
+            "end": 18.56,
+            "text": "Magee said, explain to me, help me understand",
+            "words": [
+                {
+                    "start": 15.36,
+                    "end": 15.82,
+                    "text": "Magee"
+                },
+                {
+                    "start": 15.82,
+                    "end": 16.16,
+                    "text": "said,"
+                },
+                {
+                    "start": 16.26,
+                    "end": 16.68,
+                    "text": "explain"
+                },
+                {
+                    "start": 16.68,
+                    "end": 16.96,
+                    "text": "to"
+                },
+                {
+                    "start": 16.96,
+                    "end": 17.18,
+                    "text": "me,"
+                },
+                {
+                    "start": 17.504,
+                    "end": 17.72,
+                    "text": "help"
+                },
+                {
+                    "start": 17.72,
+                    "end": 17.92,
+                    "text": "me"
+                },
+                {
+                    "start": 17.92,
+                    "end": 18.56,
+                    "text": "understand"
+                }
+            ]
+        },
+        {
+            "start": 19.616,
+            "end": 21.34,
+            "text": "Where does fire sleep at night,",
+            "words": [
+                {
+                    "start": 19.616,
+                    "end": 19.82,
+                    "text": "Where"
+                },
+                {
+                    "start": 19.82,
+                    "end": 20.06,
+                    "text": "does"
+                },
+                {
+                    "start": 20.128,
+                    "end": 20.42,
+                    "text": "fire"
+                },
+                {
+                    "start": 20.576,
+                    "end": 20.92,
+                    "text": "sleep"
+                },
+                {
+                    "start": 20.92,
+                    "end": 21.1,
+                    "text": "at"
+                },
+                {
+                    "start": 21.1,
+                    "end": 21.34,
+                    "text": "night,"
+                }
+            ]
+        },
+        {
+            "start": 21.46,
+            "end": 23.1,
+            "text": "where does it go to rest?",
+            "words": [
+                {
+                    "start": 21.46,
+                    "end": 21.6,
+                    "text": "where"
+                },
+                {
+                    "start": 21.6,
+                    "end": 21.92,
+                    "text": "does"
+                },
+                {
+                    "start": 21.92,
+                    "end": 22.08,
+                    "text": "it"
+                },
+                {
+                    "start": 22.08,
+                    "end": 22.34,
+                    "text": "go"
+                },
+                {
+                    "start": 22.34,
+                    "end": 22.56,
+                    "text": "to"
+                },
+                {
+                    "start": 22.56,
+                    "end": 23.1,
+                    "text": "rest?"
+                }
+            ]
+        },
+        {
+            "start": 23.68,
+            "end": 25.152,
+            "text": "Show me its cradle,",
+            "words": [
+                {
+                    "start": 23.68,
+                    "end": 24.02,
+                    "text": "Show"
+                },
+                {
+                    "start": 24.02,
+                    "end": 24.32,
+                    "text": "me"
+                },
+                {
+                    "start": 24.32,
+                    "end": 24.54,
+                    "text": "its"
+                },
+                {
+                    "start": 24.54,
+                    "end": 25.152,
+                    "text": "cradle,"
+                }
+            ]
+        },
+        {
+            "start": 25.856,
+            "end": 27.2,
+            "text": "show me its nest",
+            "words": [
+                {
+                    "start": 25.856,
+                    "end": 26.14,
+                    "text": "show"
+                },
+                {
+                    "start": 26.14,
+                    "end": 26.44,
+                    "text": "me"
+                },
+                {
+                    "start": 26.44,
+                    "end": 26.68,
+                    "text": "its"
+                },
+                {
+                    "start": 26.68,
+                    "end": 27.2,
+                    "text": "nest"
+                }
+            ]
+        },
+        {
+            "start": 28.32,
+            "end": 29.28,
+            "text": "The orange box,",
+            "words": [
+                {
+                    "start": 28.32,
+                    "end": 28.42,
+                    "text": "The"
+                },
+                {
+                    "start": 28.42,
+                    "end": 28.98,
+                    "text": "orange"
+                },
+                {
+                    "start": 28.98,
+                    "end": 29.28,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 30.4,
+            "end": 35.64,
+            "text": "the orange box The baby fire sleeps inside",
+            "words": [
+                {
+                    "start": 30.4,
+                    "end": 30.54,
+                    "text": "the"
+                },
+                {
+                    "start": 30.54,
+                    "end": 31.1,
+                    "text": "orange"
+                },
+                {
+                    "start": 31.1,
+                    "end": 31.6,
+                    "text": "box"
+                },
+                {
+                    "start": 31.6,
+                    "end": 33.1,
+                    "text": "The"
+                },
+                {
+                    "start": 33.1,
+                    "end": 33.6,
+                    "text": "baby"
+                },
+                {
+                    "start": 33.6,
+                    "end": 34.1,
+                    "text": "fire"
+                },
+                {
+                    "start": 34.1,
+                    "end": 34.8,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 34.8,
+                    "end": 35.64,
+                    "text": "inside"
+                }
+            ]
+        },
+        {
+            "start": 36.74,
+            "end": 37.92,
+            "text": "The orange box,",
+            "words": [
+                {
+                    "start": 36.74,
+                    "end": 36.86,
+                    "text": "The"
+                },
+                {
+                    "start": 36.896,
+                    "end": 37.42,
+                    "text": "orange"
+                },
+                {
+                    "start": 37.42,
+                    "end": 37.92,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 38.34,
+            "end": 42.54,
+            "text": "the orange box We'll run with it,",
+            "words": [
+                {
+                    "start": 38.34,
+                    "end": 38.98,
+                    "text": "the"
+                },
+                {
+                    "start": 38.98,
+                    "end": 39.54,
+                    "text": "orange"
+                },
+                {
+                    "start": 39.54,
+                    "end": 40.1,
+                    "text": "box"
+                },
+                {
+                    "start": 40.1,
+                    "end": 41.68,
+                    "text": "We'll"
+                },
+                {
+                    "start": 41.68,
+                    "end": 42.02,
+                    "text": "run"
+                },
+                {
+                    "start": 42.02,
+                    "end": 42.3,
+                    "text": "with"
+                },
+                {
+                    "start": 42.3,
+                    "end": 42.54,
+                    "text": "it,"
+                }
+            ]
+        },
+        {
+            "start": 42.84,
+            "end": 44.2,
+            "text": "we'll run with pride",
+            "words": [
+                {
+                    "start": 42.84,
+                    "end": 43.24,
+                    "text": "we'll"
+                },
+                {
+                    "start": 43.24,
+                    "end": 43.5,
+                    "text": "run"
+                },
+                {
+                    "start": 43.5,
+                    "end": 43.76,
+                    "text": "with"
+                },
+                {
+                    "start": 43.76,
+                    "end": 44.2,
+                    "text": "pride"
+                }
+            ]
+        },
+        {
+            "start": 45.46,
+            "end": 49.42,
+            "text": "I said the fire lives in here Curled up small and tight",
+            "words": [
+                {
+                    "start": 45.46,
+                    "end": 45.76,
+                    "text": "I"
+                },
+                {
+                    "start": 45.76,
+                    "end": 46.12,
+                    "text": "said"
+                },
+                {
+                    "start": 46.12,
+                    "end": 46.32,
+                    "text": "the"
+                },
+                {
+                    "start": 46.368,
+                    "end": 46.82,
+                    "text": "fire"
+                },
+                {
+                    "start": 46.82,
+                    "end": 47.26,
+                    "text": "lives"
+                },
+                {
+                    "start": 47.26,
+                    "end": 47.44,
+                    "text": "in"
+                },
+                {
+                    "start": 47.44,
+                    "end": 47.88,
+                    "text": "here"
+                },
+                {
+                    "start": 47.88,
+                    "end": 48.3,
+                    "text": "Curled"
+                },
+                {
+                    "start": 48.352,
+                    "end": 48.46,
+                    "text": "up"
+                },
+                {
+                    "start": 48.46,
+                    "end": 48.82,
+                    "text": "small"
+                },
+                {
+                    "start": 48.82,
+                    "end": 49.08,
+                    "text": "and"
+                },
+                {
+                    "start": 49.08,
+                    "end": 49.42,
+                    "text": "tight"
+                }
+            ]
+        },
+        {
+            "start": 49.56,
+            "end": 50.4,
+            "text": "When you go chomp,",
+            "words": [
+                {
+                    "start": 49.56,
+                    "end": 49.76,
+                    "text": "When"
+                },
+                {
+                    "start": 49.76,
+                    "end": 49.88,
+                    "text": "you"
+                },
+                {
+                    "start": 49.88,
+                    "end": 50.08,
+                    "text": "go"
+                },
+                {
+                    "start": 50.08,
+                    "end": 50.4,
+                    "text": "chomp,"
+                }
+            ]
+        },
+        {
+            "start": 50.54,
+            "end": 53.28,
+            "text": "chomp It wakes up burning bright",
+            "words": [
+                {
+                    "start": 50.54,
+                    "end": 50.76,
+                    "text": "chomp"
+                },
+                {
+                    "start": 50.76,
+                    "end": 51.1,
+                    "text": "It"
+                },
+                {
+                    "start": 51.1,
+                    "end": 51.56,
+                    "text": "wakes"
+                },
+                {
+                    "start": 51.56,
+                    "end": 51.88,
+                    "text": "up"
+                },
+                {
+                    "start": 51.88,
+                    "end": 52.82,
+                    "text": "burning"
+                },
+                {
+                    "start": 52.82,
+                    "end": 53.28,
+                    "text": "bright"
+                }
+            ]
+        },
+        {
+            "start": 54.08,
+            "end": 55.04,
+            "text": "You have to run,",
+            "words": [
+                {
+                    "start": 54.08,
+                    "end": 54.24,
+                    "text": "You"
+                },
+                {
+                    "start": 54.24,
+                    "end": 54.56,
+                    "text": "have"
+                },
+                {
+                    "start": 54.56,
+                    "end": 54.74,
+                    "text": "to"
+                },
+                {
+                    "start": 54.74,
+                    "end": 55.04,
+                    "text": "run,"
+                }
+            ]
+        },
+        {
+            "start": 55.14,
+            "end": 56.032,
+            "text": "you have to race,",
+            "words": [
+                {
+                    "start": 55.14,
+                    "end": 55.3,
+                    "text": "you"
+                },
+                {
+                    "start": 55.3,
+                    "end": 55.66,
+                    "text": "have"
+                },
+                {
+                    "start": 55.66,
+                    "end": 55.82,
+                    "text": "to"
+                },
+                {
+                    "start": 55.82,
+                    "end": 56.032,
+                    "text": "race,"
+                }
+            ]
+        },
+        {
+            "start": 56.512,
+            "end": 57.7,
+            "text": "carry it with care",
+            "words": [
+                {
+                    "start": 56.512,
+                    "end": 56.78,
+                    "text": "carry"
+                },
+                {
+                    "start": 56.92,
+                    "end": 57.02,
+                    "text": "it"
+                },
+                {
+                    "start": 57.056,
+                    "end": 57.22,
+                    "text": "with"
+                },
+                {
+                    "start": 57.22,
+                    "end": 57.7,
+                    "text": "care"
+                }
+            ]
+        },
+        {
+            "start": 58.02,
+            "end": 58.94,
+            "text": "To the new pile,",
+            "words": [
+                {
+                    "start": 58.02,
+                    "end": 58.14,
+                    "text": "To"
+                },
+                {
+                    "start": 58.176,
+                    "end": 58.28,
+                    "text": "the"
+                },
+                {
+                    "start": 58.28,
+                    "end": 58.52,
+                    "text": "new"
+                },
+                {
+                    "start": 58.52,
+                    "end": 58.94,
+                    "text": "pile,"
+                }
+            ]
+        },
+        {
+            "start": 59.1,
+            "end": 59.97,
+            "text": "to the new place,",
+            "words": [
+                {
+                    "start": 59.1,
+                    "end": 59.22,
+                    "text": "to"
+                },
+                {
+                    "start": 59.22,
+                    "end": 59.34,
+                    "text": "the"
+                },
+                {
+                    "start": 59.34,
+                    "end": 59.52,
+                    "text": "new"
+                },
+                {
+                    "start": 59.52,
+                    "end": 59.97,
+                    "text": "place,"
+                }
+            ]
+        },
+        {
+            "start": 60.448,
+            "end": 63.46,
+            "text": "before it disappears in air",
+            "words": [
+                {
+                    "start": 60.448,
+                    "end": 60.82,
+                    "text": "before"
+                },
+                {
+                    "start": 60.82,
+                    "end": 61.18,
+                    "text": "it"
+                },
+                {
+                    "start": 61.18,
+                    "end": 62.18,
+                    "text": "disappears"
+                },
+                {
+                    "start": 62.18,
+                    "end": 62.56,
+                    "text": "in"
+                },
+                {
+                    "start": 62.56,
+                    "end": 63.46,
+                    "text": "air"
+                }
+            ]
+        },
+        {
+            "start": 66.18,
+            "end": 67.22,
+            "text": "The orange box,",
+            "words": [
+                {
+                    "start": 66.18,
+                    "end": 66.34,
+                    "text": "The"
+                },
+                {
+                    "start": 66.34,
+                    "end": 66.9,
+                    "text": "orange"
+                },
+                {
+                    "start": 66.9,
+                    "end": 67.22,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 68.06,
+            "end": 69.5,
+            "text": "the orange box",
+            "words": [
+                {
+                    "start": 68.06,
+                    "end": 68.44,
+                    "text": "the"
+                },
+                {
+                    "start": 68.44,
+                    "end": 69.0,
+                    "text": "orange"
+                },
+                {
+                    "start": 69.0,
+                    "end": 69.5,
+                    "text": "box"
+                }
+            ]
+        },
+        {
+            "start": 70.32,
+            "end": 73.42,
+            "text": "The baby fire sleeps inside",
+            "words": [
+                {
+                    "start": 70.32,
+                    "end": 71.02,
+                    "text": "The"
+                },
+                {
+                    "start": 71.02,
+                    "end": 71.5,
+                    "text": "baby"
+                },
+                {
+                    "start": 71.5,
+                    "end": 72.02,
+                    "text": "fire"
+                },
+                {
+                    "start": 72.02,
+                    "end": 72.7,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 72.7,
+                    "end": 73.42,
+                    "text": "inside"
+                }
+            ]
+        },
+        {
+            "start": 74.5,
+            "end": 75.424,
+            "text": "The orange box,",
+            "words": [
+                {
+                    "start": 74.5,
+                    "end": 74.78,
+                    "text": "The"
+                },
+                {
+                    "start": 74.78,
+                    "end": 75.32,
+                    "text": "orange"
+                },
+                {
+                    "start": 75.32,
+                    "end": 75.424,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 76.46,
+            "end": 77.94,
+            "text": "the orange box",
+            "words": [
+                {
+                    "start": 76.46,
+                    "end": 76.88,
+                    "text": "the"
+                },
+                {
+                    "start": 76.88,
+                    "end": 77.42,
+                    "text": "orange"
+                },
+                {
+                    "start": 77.42,
+                    "end": 77.94,
+                    "text": "box"
+                }
+            ]
+        },
+        {
+            "start": 79.24,
+            "end": 82.08,
+            "text": "We'll run with it, we'll run with pride",
+            "words": [
+                {
+                    "start": 79.24,
+                    "end": 79.54,
+                    "text": "We'll"
+                },
+                {
+                    "start": 79.54,
+                    "end": 79.9,
+                    "text": "run"
+                },
+                {
+                    "start": 79.9,
+                    "end": 80.22,
+                    "text": "with"
+                },
+                {
+                    "start": 80.22,
+                    "end": 80.46,
+                    "text": "it,"
+                },
+                {
+                    "start": 80.86,
+                    "end": 81.14,
+                    "text": "we'll"
+                },
+                {
+                    "start": 81.14,
+                    "end": 81.4,
+                    "text": "run"
+                },
+                {
+                    "start": 81.4,
+                    "end": 81.66,
+                    "text": "with"
+                },
+                {
+                    "start": 81.66,
+                    "end": 82.08,
+                    "text": "pride"
+                }
+            ]
+        },
+        {
+            "start": 83.52,
+            "end": 86.3,
+            "text": "And that's how I became a God",
+            "words": [
+                {
+                    "start": 83.52,
+                    "end": 83.76,
+                    "text": "And"
+                },
+                {
+                    "start": 83.76,
+                    "end": 84.14,
+                    "text": "that's"
+                },
+                {
+                    "start": 84.16,
+                    "end": 84.36,
+                    "text": "how"
+                },
+                {
+                    "start": 84.54,
+                    "end": 84.64,
+                    "text": "I"
+                },
+                {
+                    "start": 84.64,
+                    "end": 85.38,
+                    "text": "became"
+                },
+                {
+                    "start": 85.38,
+                    "end": 85.7,
+                    "text": "a"
+                },
+                {
+                    "start": 85.7,
+                    "end": 86.3,
+                    "text": "God"
+                }
+            ]
+        },
+        {
+            "start": 87.52,
+            "end": 90.04,
+            "text": "With a plastic big cannon",
+            "words": [
+                {
+                    "start": 87.52,
+                    "end": 87.74,
+                    "text": "With"
+                },
+                {
+                    "start": 87.74,
+                    "end": 87.98,
+                    "text": "a"
+                },
+                {
+                    "start": 87.98,
+                    "end": 88.68,
+                    "text": "plastic"
+                },
+                {
+                    "start": 88.68,
+                    "end": 89.14,
+                    "text": "big"
+                },
+                {
+                    "start": 89.14,
+                    "end": 90.04,
+                    "text": "cannon"
+                }
+            ]
+        },
+        {
+            "start": 92.32,
+            "end": 93.72,
+            "text": "Twelve believers faithful,",
+            "words": [
+                {
+                    "start": 92.32,
+                    "end": 92.48,
+                    "text": "Twelve"
+                },
+                {
+                    "start": 92.64,
+                    "end": 93.16,
+                    "text": "believers"
+                },
+                {
+                    "start": 93.16,
+                    "end": 93.72,
+                    "text": "faithful,"
+                }
+            ]
+        },
+        {
+            "start": 94.9,
+            "end": 94.9,
+            "text": "true",
+            "words": [
+                {
+                    "start": 94.9,
+                    "end": 94.9,
+                    "text": "true"
+                }
+            ]
+        },
+        {
+            "start": 95.9,
+            "end": 96.6,
+            "text": "Grala said",
+            "words": [
+                {
+                    "start": 95.9,
+                    "end": 96.24,
+                    "text": "Grala"
+                },
+                {
+                    "start": 96.24,
+                    "end": 96.6,
+                    "text": "said"
+                }
+            ]
+        },
+        {
+            "start": 98.848,
+            "end": 100.672,
+            "text": "I'll translate for you",
+            "words": [
+                {
+                    "start": 98.848,
+                    "end": 99.16,
+                    "text": "I'll"
+                },
+                {
+                    "start": 99.16,
+                    "end": 99.82,
+                    "text": "translate"
+                },
+                {
+                    "start": 99.82,
+                    "end": 100.22,
+                    "text": "for"
+                },
+                {
+                    "start": 100.22,
+                    "end": 100.672,
+                    "text": "you"
+                }
+            ]
+        },
+        {
+            "start": 104.08,
+            "end": 107.42,
+            "text": "The orange box, the orange box",
+            "words": [
+                {
+                    "start": 104.08,
+                    "end": 104.24,
+                    "text": "The"
+                },
+                {
+                    "start": 104.24,
+                    "end": 104.78,
+                    "text": "orange"
+                },
+                {
+                    "start": 104.78,
+                    "end": 105.24,
+                    "text": "box,"
+                },
+                {
+                    "start": 105.64,
+                    "end": 106.34,
+                    "text": "the"
+                },
+                {
+                    "start": 106.34,
+                    "end": 106.88,
+                    "text": "orange"
+                },
+                {
+                    "start": 106.88,
+                    "end": 107.42,
+                    "text": "box"
+                }
+            ]
+        },
+        {
+            "start": 108.68,
+            "end": 111.28,
+            "text": "The baby fire sleeps inside",
+            "words": [
+                {
+                    "start": 108.68,
+                    "end": 108.92,
+                    "text": "The"
+                },
+                {
+                    "start": 108.92,
+                    "end": 109.4,
+                    "text": "baby"
+                },
+                {
+                    "start": 109.4,
+                    "end": 109.9,
+                    "text": "fire"
+                },
+                {
+                    "start": 109.9,
+                    "end": 110.6,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 110.6,
+                    "end": 111.28,
+                    "text": "inside"
+                }
+            ]
+        },
+        {
+            "start": 112.4,
+            "end": 113.344,
+            "text": "The orange box,",
+            "words": [
+                {
+                    "start": 112.4,
+                    "end": 112.62,
+                    "text": "The"
+                },
+                {
+                    "start": 112.96,
+                    "end": 113.2,
+                    "text": "orange"
+                },
+                {
+                    "start": 113.2,
+                    "end": 113.344,
+                    "text": "box,"
+                }
+            ]
+        },
+        {
+            "start": 114.12,
+            "end": 115.424,
+            "text": "the orange box",
+            "words": [
+                {
+                    "start": 114.12,
+                    "end": 114.76,
+                    "text": "the"
+                },
+                {
+                    "start": 114.784,
+                    "end": 115.3,
+                    "text": "orange"
+                },
+                {
+                    "start": 115.3,
+                    "end": 115.424,
+                    "text": "box"
+                }
+            ]
+        },
+        {
+            "start": 116.67,
+            "end": 119.98,
+            "text": "We'll run with it, we'll run with pride",
+            "words": [
+                {
+                    "start": 116.67,
+                    "end": 117.42,
+                    "text": "We'll"
+                },
+                {
+                    "start": 117.42,
+                    "end": 117.8,
+                    "text": "run"
+                },
+                {
+                    "start": 117.8,
+                    "end": 118.1,
+                    "text": "with"
+                },
+                {
+                    "start": 118.1,
+                    "end": 118.3,
+                    "text": "it,"
+                },
+                {
+                    "start": 118.78,
+                    "end": 119.04,
+                    "text": "we'll"
+                },
+                {
+                    "start": 119.04,
+                    "end": 119.3,
+                    "text": "run"
+                },
+                {
+                    "start": 119.3,
+                    "end": 119.56,
+                    "text": "with"
+                },
+                {
+                    "start": 119.56,
+                    "end": 119.98,
+                    "text": "pride"
+                }
+            ]
+        },
+        {
+            "start": 121.7,
+            "end": 123.28,
+            "text": "Run, run,",
+            "words": [
+                {
+                    "start": 121.7,
+                    "end": 122.42,
+                    "text": "Run,"
+                },
+                {
+                    "start": 122.56,
+                    "end": 123.28,
+                    "text": "run,"
+                }
+            ]
+        },
+        {
+            "start": 124.34,
+            "end": 124.88,
+            "text": "run",
+            "words": [
+                {
+                    "start": 124.34,
+                    "end": 124.88,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 126.32,
+            "end": 127.88,
+            "text": "Don't let it die",
+            "words": [
+                {
+                    "start": 126.32,
+                    "end": 126.96,
+                    "text": "Don't"
+                },
+                {
+                    "start": 126.96,
+                    "end": 127.26,
+                    "text": "let"
+                },
+                {
+                    "start": 127.26,
+                    "end": 127.46,
+                    "text": "it"
+                },
+                {
+                    "start": 127.46,
+                    "end": 127.88,
+                    "text": "die"
+                }
+            ]
+        },
+        {
+            "start": 129.84,
+            "end": 131.98,
+            "text": "Run, run,",
+            "words": [
+                {
+                    "start": 129.84,
+                    "end": 130.82,
+                    "text": "Run,"
+                },
+                {
+                    "start": 131.04,
+                    "end": 131.98,
+                    "text": "run,"
+                }
+            ]
+        },
+        {
+            "start": 133.02,
+            "end": 133.24,
+            "text": "run",
+            "words": [
+                {
+                    "start": 133.02,
+                    "end": 133.24,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 134.84,
+            "end": 136.28,
+            "text": "Don't let it die",
+            "words": [
+                {
+                    "start": 134.84,
+                    "end": 135.36,
+                    "text": "Don't"
+                },
+                {
+                    "start": 135.36,
+                    "end": 135.68,
+                    "text": "let"
+                },
+                {
+                    "start": 135.68,
+                    "end": 135.9,
+                    "text": "it"
+                },
+                {
+                    "start": 135.9,
+                    "end": 136.28,
+                    "text": "die"
+                }
+            ]
+        },
+        {
+            "start": 142.208,
+            "end": 143.76,
+            "text": "Sounds of running laughter, excitement.",
+            "words": [
+                {
+                    "start": 142.208,
+                    "end": 142.42,
+                    "text": "Sounds"
+                },
+                {
+                    "start": 142.42,
+                    "end": 142.62,
+                    "text": "of"
+                },
+                {
+                    "start": 142.62,
+                    "end": 142.84,
+                    "text": "running"
+                },
+                {
+                    "start": 142.84,
+                    "end": 143.22,
+                    "text": "laughter,"
+                },
+                {
+                    "start": 143.4,
+                    "end": 143.76,
+                    "text": "excitement."
+                }
+            ]
+        }
+    ]
+}

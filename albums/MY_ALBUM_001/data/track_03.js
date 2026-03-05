@@ -8,39 +8,39 @@ var track_03_data = {
             "start": 0.24,
             "end": 2.08,
             "lyric": "Next morning, Gralha lit the flame",
-            "real_meaning": "Monday morning, alarm rings — the daily ritual begins. Another day in the rat race.",
+            "real_meaning": "The daily ritual begins: The Monday morning alarm. The start of the perpetual sprint to serve the artificial system we've created.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0168.jpg",
-                    "query": "A vast, fiery sunrise bathes a prehistoric valley. Smoke from the fire in the foreground billows into the sky. The warm hues of the sun and the landscape contrast with the cold blu"
+                    "query": "Wide shot: Dawn breaks over the valley. The tribe is asleep in the cave. Gralha is already awake, standing over the dead fire pit."
                 },
                 {
                     "offset": 0.61,
                     "url": "media/c0169.jpg",
-                    "query": "Gralha, a strong silhouette, strides with a blazing torch. Tribal figures huddle in the background, watching the firelit action. Wind whips her hair and fur cloak."
+                    "query": "Medium shot: Gralha strikes the BIC lighter. The small flame illuminates his determined, soot-stained face."
                 },
                 {
                     "offset": 1.23,
                     "url": "media/c0170.jpg",
-                    "query": "Gralha's determined face as she touches the torch to the dying fire, her eyes filled with the fire's reflection and the wind blowing through her hair."
+                    "query": "Close-up: Gralha eagerly grabs a torched branch, touching it to the BIC flame until the branch catches fire."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0171.jpg",
-                    "query": "A sprawling cityscape at dawn, skyscrapers silhouetted against a cool blue sky, an alarm clock glowing on a nightstand in a high-rise apartment."
+                    "query": "Wide shot: 5:45 AM. A sprawling, bleak cityscape wrapped in the pre-dawn cold. A single high-rise apartment window suddenly lights up."
                 },
                 {
                     "offset": 0.61,
                     "url": "media/c0172.jpg",
-                    "query": "A harried professional in a crisp suit, rushing through a bustling subway station, phone pressed to ear, coffee cup in hand, reflecting the neon signs."
+                    "query": "Close-up: The harsh, red digital numbers of an alarm clock flashing 5:45."
                 },
                 {
                     "offset": 1.23,
                     "url": "media/c0173.jpg",
-                    "query": "A close-up of a tired eye, blinking open to a harsh morning sun as the alarm clock reads 5:30AM."
+                    "query": "Medium shot: The professional hits the alarm, immediately sitting up like a trained soldier responding to a drill."
                 }
             ],
             "words": [
@@ -81,39 +81,39 @@ var track_03_data = {
             "start": 2.08,
             "end": 3.98,
             "lyric": "Chak-chak, a tiny light",
-            "real_meaning": "The notification ping, the login screen — the small spark that starts the daily grind.",
+            "real_meaning": "The spark of the daily grind: The notification ping, the login screen. The tiny prompt that commands us to start running again.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0174.jpg",
-                    "query": "A vast prehistoric valley at dawn, a single flame flickers at the center, a warm glow against the cold, cinematic."
+                    "query": "Wide shot: Gralha sprints out of the cave entrance, holding the flaming torch high above his head."
                 },
                 {
                     "offset": 0.57,
                     "url": "media/c0175.jpg",
-                    "query": "Gralha, a rugged figure, runs with a torch through a cheering tribe. The crowd's faces, firelit, and warm tones."
+                    "query": "Medium tracking shot: Gralha running through the tall dew-soaked grass, the wind whipping his face, absolute focus in his eyes."
                 },
                 {
                     "offset": 1.01,
                     "url": "media/c0176.jpg",
-                    "query": "The close-up of Gralhaâ€™s face, eyes wide with determination, a flickering flame reflected in her gaze."
+                    "query": "Over-the-shoulder shot: Looking past Gralha's shoulder at the flaming torch as he runs toward the distant horizon."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0177.jpg",
-                    "query": "A vast metropolis awakens as the sun rises, skyscrapers and high-rise buildings are illuminated by cool morning light. A high-rise apartment window glows with an alarm clock."
+                    "query": "Wide tracking shot: The professional sprinting down the damp sidewalk, tie flapping carelessly, desperately racing toward the subway entrance."
                 },
                 {
                     "offset": 0.57,
                     "url": "media/c0178.jpg",
-                    "query": "A crowded city subway platform at rush hour. The protagonist is running to catch the train, briefcase in hand, coffee cup in the other."
+                    "query": "Medium shot: The subway doors begin to slide shut. The professional throws their briefcase in to block them, squeezing through."
                 },
                 {
                     "offset": 1.01,
                     "url": "media/c0179.jpg",
-                    "query": "A hand reaching for a smartphone on a cluttered desk, the screen glowing with notifications."
+                    "query": "Close-up: The professional gasping for breath against the subway door, checking their glowing smartwatch."
                 }
             ],
             "words": [
@@ -144,39 +144,39 @@ var track_03_data = {
             "start": 5.62,
             "end": 9.48,
             "lyric": "\"Now I run!\" he said, and came",
-            "real_meaning": "The commuter sprinting for the train, the entrepreneur chasing the deadline — voluntary slavery disguised as ambition.",
+            "real_meaning": "Voluntary slavery disguised as ambition: The worker sprints for the commute, fully convinced their exhaustion is a noble pursuit.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0180.jpg",
-                    "query": "A vast prehistoric valley at dawn, a lone flame flickers on a hilltop, warm hues spread across the landscape."
+                    "query": "Wide shot: The rest of the tribe emerges from the cave, watching Gralha run. They begin to cheer enthusiastically."
                 },
                 {
                     "offset": 0.74,
                     "url": "media/c0181.jpg",
-                    "query": "A tribesman ignites a torch, tribe members gather, faces aglow with anticipation."
+                    "query": "Medium shot: The tribe starts jogging after him, forming a messy procession of followers mesmerized by the running flame."
                 },
                 {
                     "offset": 2.11,
                     "url": "media/c0182.jpg",
-                    "query": "The tribesman's intense gaze, wind whips his hair, his expression is a mix of fear, exhilaration."
+                    "query": "Close-up: The Mage sits back on his throne, watching the pointless marathon begin with a look of mild amusement."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0183.jpg",
-                    "query": "Aerial view of a sprawling cityscape at dawn, skyscrapers reflecting neon lights.  A quiet, desolate view of an urban landscape. An alarm clock on a nightstand in a modern apartmen"
+                    "query": "Wide shot: The open-plan corporate office. Hundreds of screens glowing. The professional power-walks to their cubicle."
                 },
                 {
                     "offset": 0.74,
                     "url": "media/c0184.jpg",
-                    "query": "A packed subway car during rush hour, passengers with blank stares, holding smartphones,  coffee cups in hand, the cityâ€™s grid skyline visible through the windows."
+                    "query": "Medium shot: The professional aggressively typing, fueled by cold coffee and pure panic."
                 },
                 {
                     "offset": 2.11,
                     "url": "media/c0185.jpg",
-                    "query": "A determined individual running, briefcase in hand, chasing a departing train, the reflection of the city's lights in the window."
+                    "query": "Extreme close-up: The engagement metrics on a dashboard slowly ticking downward despite the frantic typing."
                 }
             ],
             "words": [
@@ -222,39 +222,39 @@ var track_03_data = {
             "start": 9.48,
             "end": 13.22,
             "lyric": "Running with all his might",
-            "real_meaning": "Giving 110% to a meaningless task — the cult of productivity, the worship of busy.",
+            "real_meaning": "The cult of productivity: Giving everything to a meaningless task. Sprinting frantically without ever questioning the destination.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0186.jpg",
-                    "query": "A vast prehistoric valley at sunrise, a lone flame flickers at the center, the first light of dawn reflects on the landscape. No sign of life."
+                    "query": "Medium tracking shot: Gralha breathing heavily, sweat pouring down his face, the torch beginning to flicker wildly in the wind."
                 },
                 {
                     "offset": 0.55,
                     "url": "media/c0187.jpg",
-                    "query": "A lone figure runs towards the horizon with a fiery torch, the tribe's silhouette in the background. Prehistoric landscape."
+                    "query": "Extreme close-up: The flame on the torch weakening, struggling against the strong dawn breeze."
                 },
                 {
                     "offset": 1.97,
                     "url": "media/c0188.jpg",
-                    "query": "A close-up of the runner's face, sweat dripping, eyes focused, wind blowing through their hair. Prehistoric."
+                    "query": "Close-up: Gralha's eyes widen in panic as he realizes the fire is dying. He pushes himself to run even faster."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0189.jpg",
-                    "query": "A bustling cityscape at dawn, neon lights flicker, rain-soaked streets reflect the skyscrapers."
+                    "query": "Medium shot: 3:00 PM. The professional slumps back in their ergonomic chair, completely burned out, staring blankly at the ceiling."
                 },
                 {
                     "offset": 0.55,
                     "url": "media/c0190.jpg",
-                    "query": "A hurried commuter, headphones in, coffee in hand, rushing through a crowded subway station."
+                    "query": "Close-up: A LinkedIn notification pops up on screen: 'Success requires running 100% of the time. Don't stop!'"
                 },
                 {
                     "offset": 1.97,
                     "url": "media/c0191.jpg",
-                    "query": "A weary businessman, eyes straining at the screen,  hands gripping his mouse and keyboard."
+                    "query": "Medium shot: The professional groans, forcing themselves back upright to type again."
                 }
             ],
             "words": [
@@ -290,39 +290,39 @@ var track_03_data = {
             "start": 13.22,
             "end": 15.92,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "The crowd cheering the hustler — LinkedIn motivational posts, 'rise and grind', the cheerleaders of the rat race.",
+            "real_meaning": "The cheerleaders of the rat race: The societal pressure, the motivational posts, the crowd that validates our exhaustion.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0192.jpg",
-                    "query": "A vast prehistoric valley at dawn. A lone flame flickers. A tribe gathers. Warm hues of a rising sun. A herd of horses grazes peacefully."
+                    "query": "Wide shot: Gralha reaches a pile of dry wood at the top of a hill. He desperately thrusts the dying torch into the pile."
                 },
                 {
                     "offset": 0.5,
                     "url": "media/c0193.jpg",
-                    "query": "Gralha bolts forward, torch ablaze. Wind whips hair. Tribe erupts in cheers. Warm light dances on faces."
+                    "query": "Medium shot: The torch hits the wood, but the flame is completely gone. Just a wisp of smoke rises from the charred wood."
                 },
                 {
                     "offset": 1.43,
                     "url": "media/c0194.jpg",
-                    "query": "Gralha's focused gaze. The torch's flame flickers in wind. The wind in the hair. Warm tones of the firelit face."
+                    "query": "Close-up: Gralha collapses to his knees, staring in devastation at the unlit pile of wood."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0195.jpg",
-                    "query": "City skyline at dawn, rain-soaked streets, alarm clock glows in windowed apartment."
+                    "query": "Medium shot: 5:00 PM. The professional stares at the clock, willing it to move faster, their screen full of unfinished tasks."
                 },
                 {
                     "offset": 0.5,
                     "url": "media/c0196.jpg",
-                    "query": "Overhead shot of crowded subway train, passengers staring at phones, 8:30 AM, tired faces."
+                    "query": "Close-up: A motivational poster on the office wall reads: \"Hustle Harder.\" The professional glares at it with dead eyes."
                 },
                 {
                     "offset": 1.43,
                     "url": "media/c0197.jpg",
-                    "query": "up of a young woman, smiling, exhausted, holding a motivational quote on her phone."
+                    "query": "Medium shot: The professional reaches for yet another energy drink, their third today, hands trembling from caffeine."
                 }
             ],
             "words": [
@@ -348,39 +348,39 @@ var track_03_data = {
             "start": 15.94,
             "end": 18.32,
             "lyric": "The baby fire mustn't die!",
-            "real_meaning": "Protect the quarterly earnings, save the engagement metrics — the flame that must never go out is profit.",
+            "real_meaning": "Protecting the profit margin: The flame that must never die is the quarterly earning, the engagement metric, the illusion of perpetual growth.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0198.jpg",
-                    "query": "A vast, prehistoric landscape at dawn, a single flame flickers, a tribe gathers, warm tones, cinematic."
+                    "query": "Wide shot: The tribe arrives at the top of the hill, panting and exhausted. They stare at the dead fire pit."
                 },
                 {
                     "offset": 0.59,
                     "url": "media/c0199.jpg",
-                    "query": "A prehistoric runner, torch alight, sprints through a valley. A crowd watches with bated breath. Dramatic, warm tones."
+                    "query": "Medium shot: Confusion sets in. A tribesman points at the sky. 'Only run at noon,' he gestures confidently."
                 },
                 {
                     "offset": 1.06,
                     "url": "media/c0200.jpg",
-                    "query": "A runner's face, wind whipping hair, eyes wide with determination as the flame flickers and dies."
+                    "query": "Close-up: Another tribesman violently shakes his head, pointing at the Orange Box in Gralha's hand. 'Warm the box!'"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0201.jpg",
-                    "query": "A sprawling cityscape at dawn, neon lights flicker, rain-soaked streets reflect the glow of towering skyscrapers."
+                    "query": "Medium shot: 11:00 PM. The professional is still at their desk, office empty, the cleaning crew vacuuming around them."
                 },
                 {
                     "offset": 0.59,
                     "url": "media/c0202.jpg",
-                    "query": "A young professional rushes through a bustling subway station, steaming coffee in hand, reflection in the glass of the train."
+                    "query": "Close-up: A fitness tracker notification: \"You have not moved in 6 hours.\" The professional dismisses it without looking."
                 },
                 {
                     "offset": 1.06,
                     "url": "media/c0203.jpg",
-                    "query": "A weary entrepreneur holds a glowing tablet, eyes reflecting a dashboard of graphs."
+                    "query": "Medium shot: The laptop screen reflected in the dark office window, the professional a ghost working for ghosts."
                 }
             ],
             "words": [
@@ -416,7 +416,7 @@ var track_03_data = {
             "start": 18.34,
             "end": 19.58,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "Keep going, don't stop, you'll miss the boat — the perpetual urgency of modern capitalism.",
+            "real_meaning": "The perpetual urgency of capitalism: Keep going, don't stop. The system uses fear of falling behind as the ultimate motivator.",
             "media": [
                 {
                     "offset": 0.0,
@@ -474,7 +474,7 @@ var track_03_data = {
             "start": 19.58,
             "end": 23.16,
             "lyric": "Reach the new pile, touch the sky!",
-            "real_meaning": "Reach the next milestone, the next promotion, the next level — always another pile, never the sky.",
+            "real_meaning": "The endless treadmill: Reach the next milestone, the promotion, the target—only to find another pile waiting. There is no sky.",
             "media": [
                 {
                     "offset": 0.0,
@@ -552,7 +552,7 @@ var track_03_data = {
             "start": 25.08,
             "end": 28.75,
             "lyric": "Two hundred meters, wind in face",
-            "real_meaning": "The daily commute, the morning rush, the headwind of reality against blind faith.",
+            "real_meaning": "The headwind of reality: The grinding, exhausting friction of the daily commute, pushing against our blind faith in the system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -625,7 +625,7 @@ var track_03_data = {
             "start": 30.86,
             "end": 32.96,
             "lyric": "The tribe behind, screaming \"Pace!\"",
-            "real_meaning": "Social pressure to keep up — 'you're falling behind', 'everyone else is doing it', peer pressure as fuel.",
+            "real_meaning": "Peer pressure as fuel: The society around us demands we keep the pace, terrified that if one stops running, the whole system collapses.",
             "media": [
                 {
                     "offset": 0.0,
@@ -693,7 +693,7 @@ var track_03_data = {
             "start": 33.0,
             "end": 34.6,
             "lyric": "He reached the end, he blew, he blew",
-            "real_meaning": "Burnout — reaching the goal only to find the flame already dead. The promotion that feels empty.",
+            "real_meaning": "Burnout: Reaching the arbitrary goal only to find the flame is already dead. The empty reward of a sprint that meant nothing.",
             "media": [
                 {
                     "offset": 0.0,
@@ -776,7 +776,7 @@ var track_03_data = {
             "start": 34.6,
             "end": 37.04,
             "lyric": "The flame was gone... what could he do?",
-            "real_meaning": "The crash — when the metrics drop, when the startup fails, when the hustle produces nothing.",
+            "real_meaning": "The crash: When the metrics drop, the startup fails, or the energy runs out. The realization of failure within the system's own rules.",
             "media": [
                 {
                     "offset": 0.0,
@@ -859,7 +859,7 @@ var track_03_data = {
             "start": 37.54,
             "end": 40.0,
             "lyric": "Some said: \"Only run at noon!\"",
-            "real_meaning": "The first dogma — arbitrary rules invented to explain failure. 'You just need the right strategy.'",
+            "real_meaning": "The first dogma of self-help: Inventing arbitrary reasons for failure instead of questioning the game. 'You just needed a better strategy.'",
             "media": [
                 {
                     "offset": 0.0,
@@ -932,7 +932,7 @@ var track_03_data = {
             "start": 40.84,
             "end": 44.1,
             "lyric": "Others: \"Warm the box beneath the moon!\"",
-            "real_meaning": "Counter-dogma — equally baseless, equally confident. Self-help gurus vs. hustle culture vs. wellness industry.",
+            "real_meaning": "The wellness counter-dogma: Competing gurus selling equally baseless, contradictory rules to fix the burnout caused by the system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1010,7 +1010,7 @@ var track_03_data = {
             "start": 44.1,
             "end": 47.1,
             "lyric": "Tronco prayed to the toothed wheel",
-            "real_meaning": "Worshipping the mechanism without understanding it — praying to the algorithm, trusting the process blindly.",
+            "real_meaning": "Tronco's futilty: Worshipping the mechanism blindly. Focusing on the aesthetics and superficial details (the toothed wheel) rather than the substance.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1083,7 +1083,7 @@ var track_03_data = {
             "start": 47.1,
             "end": 48.82,
             "lyric": "And I just sat there",
-            "real_meaning": "The creator watching his creation spiral — the tech founder seeing the monster he built but no longer controls.",
+            "real_meaning": "The horror of the creator: The tech founder or leader realizing the system they built has spiraled into an uncontrollable, irrational monster.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1184,7 +1184,7 @@ var track_03_data = {
             "start": 51.62,
             "end": 65.4,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "The system doesn't care about your crisis — the machine keeps demanding. Monday doesn't wait for burnout.",
+            "real_meaning": "The machine demands more: The system doesn't care about burnout or crisis. Monday morning arrives, and the machine demands you run again.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1242,7 +1242,7 @@ var track_03_data = {
             "start": 65.4,
             "end": 67.4,
             "lyric": "The baby fire mustn't die!",
-            "real_meaning": "Even after burnout, the system insists — keep the metrics alive, keep the engagement up, the show must go on.",
+            "real_meaning": "The show must go on: Even after collapse, the system insists on maintaining the illusion. The engagement metrics must remain high at all costs.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1310,7 +1310,7 @@ var track_03_data = {
             "start": 67.4,
             "end": 69.4,
             "lyric": "RUN, GRALHA, RUN!",
-            "real_meaning": "The chant becomes mechanical — no passion, just momentum. The machine runs itself.",
+            "real_meaning": "Mechanical momentum: The chant loses its passion and becomes an automated requirement. The rat race now runs itself purely on momentum.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1368,7 +1368,7 @@ var track_03_data = {
             "start": 69.4,
             "end": 71.4,
             "lyric": "Reach the new pile, touch the sky!",
-            "real_meaning": "The promise never changes — it's always the next pile. There is no sky. There is only the next pile.",
+            "real_meaning": "The unbreakable illusion: The promise remains the same—just one more sprint, one more pile. The horizon constantly recedes.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1446,7 +1446,7 @@ var track_03_data = {
             "start": 71.4,
             "end": 73.4,
             "lyric": "\"...again.\"",
-            "real_meaning": "The cycle repeats — tomorrow, same run, same failure, same denial. Sisyphus with a BIC lighter.",
+            "real_meaning": "The Sisyphean cycle: Tomorrow, the same run, the same failure, the same denial. Trapped in a loop, running with a dead BIC lighter.",
             "media": [
                 {
                     "offset": 0.0,

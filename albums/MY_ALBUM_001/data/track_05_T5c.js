@@ -8,39 +8,39 @@ var track_05_T5c_data = {
             "start": 30.0,
             "end": 31.424,
             "lyric": "Muda never said a word",
-            "real_meaning": "The quiet observer — the scientist, the philosopher, the one who watches instead of shouting.",
+            "real_meaning": "Muda, the first scientist: The silent, analytical observer who chooses to watch reality instead of shouting dogma.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0432.jpg",
-                    "query": "A vast, firelit prehistoric landscape at twilight. Muda, sits on a rocky outcrop, overlooking the world. Warm tones of sunset and fire."
+                    "query": "Wide shot: Away from the screaming factions, Muda sits alone in a quiet, shaded grove by the river."
                 },
                 {
                     "offset": 0.63,
                     "url": "media/c0433.jpg",
-                    "query": "Muda, crouched by a rock, strikes a stone. Sparks fly. Dramatic, warm tones, firelight illuminating Mudaâ€™s focused face."
+                    "query": "Medium shot: Muda isn't arguing. She is calmly watching a spark fly as two stones accidentally strike against each other in the current."
                 },
                 {
                     "offset": 0.0,
                     "url": "media/c0434.jpg",
-                    "query": "Close up of Mudaâ€™s determined eyes, reflecting the sparks. Silent, painterly."
+                    "query": "Close-up: Muda's eyes narrow in analytical realization. She reaches into the water and picks up two specific flint stones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0435.jpg",
-                    "query": "A vast cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop open, coding softly, the glowing screen reflects on the cityscape."
+                    "query": "Wide shot: A quiet, dusty community library at 8 PM. Away from the noise, a single student sits at a large wooden table."
                 },
                 {
                     "offset": 0.63,
                     "url": "media/c0436.jpg",
-                    "query": "A close-up of a young person in a repair cafe, hands working meticulously on a circuit board. The table is covered with tools, and the person is surrounded by a computer."
+                    "query": "Medium shot: The student isn't arguing online. They are quietly reading a heavily worn manual on Linux system architecture."
                 },
                 {
                     "offset": 0.0,
                     "url": "media/c0437.jpg",
-                    "query": "A quiet, focused face of a student, eyes studying code in the glow of a laptop screen. Soft, cool tones."
+                    "query": "Close-up: The student types 'Hello, World!' into a terminal. The crisp, clean execution of code."
                 }
             ],
             "words": [
@@ -76,39 +76,39 @@ var track_05_T5c_data = {
             "start": 36.556,
             "end": 44.22,
             "lyric": "Sat and watched, and saw, and heard",
-            "real_meaning": "First-principles thinking — actually looking at reality instead of repeating what others say.",
+            "real_meaning": "First-principles thinking: Actually looking at the physical mechanism instead of endlessly repeating what the crowd says.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0438.jpg",
-                    "query": "A vast, prehistoric valley at dusk, Muda sits on a hill, observing the world below, warm hues painting the sky."
+                    "query": "Medium shot: Muda sits cross-legged. She carefully strikes the two stones together. Tchak."
                 },
                 {
                     "offset": 0.67,
                     "url": "media/c0439.jpg",
-                    "query": "Muda, hands outstretched, holds a stone, eyes focused on the firelit ground, ready to strike.  Close-up, of the spark flying in slow motion, as the stone's edge meets the flint."
+                    "query": "Close-up: A bright shower of sparks falls onto a pile of dry river moss."
                 },
                 {
                     "offset": 3.71,
                     "url": "media/c0440.jpg",
-                    "query": "up, of Muda's face, eyes reflecting the fire, a mix of curiosity and determination."
+                    "query": "Extreme close-up: The moss catches. A tiny, natural, unbranded flame is born."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0441.jpg",
-                    "query": "A quiet student sits alone in a bustling city park, laptop open, code glows on the screen under the urban skyline."
+                    "query": "Wide shot: A local 'repair cafe'. People calmly fixing broken electronics instead of buying new ones. No brands, just open knowledge."
                 },
                 {
                     "offset": 0.67,
                     "url": "media/c0442.jpg",
-                    "query": "A repair cafe's interior, with Linux laptops and open source posters on the walls. People collaborate on various tech projects."
+                    "query": "Medium shot: The student patiently showing an elderly person how to solder a wire. Slow, deliberate, empowering."
                 },
                 {
                     "offset": 3.71,
                     "url": "media/c0443.jpg",
-                    "query": "up of a student's hands typing 'Hello World' on a laptop keyboard, fingers dancing on keys."
+                    "query": "Close-up: A powerful venture capitalist aggressively staring at an open-source github repo, confusedly asking an assistant 'how do we monetize this?'"
                 }
             ],
             "words": [
@@ -154,39 +154,39 @@ var track_05_T5c_data = {
             "start": 44.22,
             "end": 50.06,
             "lyric": "While they ran with flame and fear",
-            "real_meaning": "While everyone else panicked, hustled, and performed — she simply observed the mechanism.",
+            "real_meaning": "Choosing stillness over panic: While everyone else hustles, performs, and runs with dead flames, she simply sits and understands.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0444.jpg",
-                    "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hillside, watching a distant encampment with a stone in hand,  a warm orange glow on the horizon."
+                    "query": "Wide shot: Muda stands up, holding the burning moss. She walks back toward the arguing tribe."
                 },
                 {
                     "offset": 1.06,
                     "url": "media/c0445.jpg",
-                    "query": "A close up of Mudaâ€™s face in the dark, her eyes reflect the distant flickers of panic and fire. Her hand grips the stone tightly as she observes."
+                    "query": "Medium shot: The shouting stops instantly as Muda approaches carrying the fire. Both factions stare in stunned silence."
                 },
                 {
                     "offset": 3.47,
                     "url": "media/c0446.jpg",
-                    "query": "A tight shot of Muda's hand, stone held firmly, as sparks fly out, a moment of quiet triumph in the chaos."
+                    "query": "Close-up: Gralha drops the Orange Box into the dirt, his worldview completely shattered upon seeing a different fire."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0447.jpg",
-                    "query": "A wide, panoramic view of a bustling cityscape at night, with a quiet student seated in a dimly lit alley."
+                    "query": "Wide shot: A community garden where neighbors share seedlings and tools. No competition, no metrics, just growth."
                 },
                 {
                     "offset": 1.06,
                     "url": "media/c0448.jpg",
-                    "query": "Student at a laptop in a modern library, cool blue screen reflects on her focused face."
+                    "query": "Medium shot: A programmer contributes a patch to an open-source project, no payment expected, just the craft itself."
                 },
                 {
                     "offset": 3.47,
                     "url": "media/c0449.jpg",
-                    "query": "Student's eyes locked on the code, calm, while chaos reflected in the window behind her."
+                    "query": "Close-up: A VC investor frowns at a spreadsheet — this open-source thing has no monetization strategy. Dangerous."
                 }
             ],
             "words": [
@@ -232,7 +232,7 @@ var track_05_T5c_data = {
             "start": 63.36,
             "end": 68.12,
             "lyric": "Muda sat and observed from here",
-            "real_meaning": "Choosing stillness over action — meditation over medication, understanding over reaction.",
+            "real_meaning": "Meditation over reaction: Standing outside the frantic rat race to gain clarity on the absurdity of the system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -305,7 +305,7 @@ var track_05_T5c_data = {
             "start": 68.12,
             "end": 69.12,
             "lyric": "She picked a stone up from the ground",
-            "real_meaning": "The first act of genuine science — picking up what's freely available instead of worshipping what's sold.",
+            "real_meaning": "The first act of real science: Picking up what is freely available (the stone) instead of worshipping what is sold by the Mage.",
             "media": [
                 {
                     "offset": 0.0,
@@ -327,7 +327,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0459.jpg",
-                    "query": "A quiet student sits alone in a bustling urban cafÃ©, laptop open, coding, surrounded by neon signs and rain-slicked streets."
+                    "query": "A quiet student sits alone in a bustling urban café, laptop open, coding, surrounded by neon signs and rain-slicked streets."
                 },
                 {
                     "offset": 0.33,
@@ -337,7 +337,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.67,
                     "url": "media/c0461.jpg",
-                    "query": "A close-up of a young personâ€™s hands reaching out to pick up a discarded circuit board from the ground."
+                    "query": "A close-up of a young person’s hands reaching out to pick up a discarded circuit board from the ground."
                 }
             ],
             "words": [
@@ -388,7 +388,7 @@ var track_05_T5c_data = {
             "start": 69.12,
             "end": 72.28,
             "lyric": "Made a different kind of sound",
-            "real_meaning": "Innovation from first principles — not a louder version of the old noise, but something fundamentally new.",
+            "real_meaning": "Innovation from the ground up: Creating something fundamentally new, rather than just a louder version of the old noise.",
             "media": [
                 {
                     "offset": 0.0,
@@ -415,7 +415,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.52,
                     "url": "media/c0466.jpg",
-                    "query": "A busy repair cafÃ©, filled with people collaborating on open-source projects, and repairing tech."
+                    "query": "A busy repair café, filled with people collaborating on open-source projects, and repairing tech."
                 },
                 {
                     "offset": 1.7,
@@ -461,7 +461,7 @@ var track_05_T5c_data = {
             "start": 72.28,
             "end": 72.896,
             "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The real sound of discovery — unglamorous, repetitive, patient. No marketing, no fanfare. Just stone on stone.",
+            "real_meaning": "The unglamorous sound of discovery: Real progress is patient, repetitive, and lacks PR fanfare. Just stone on stone. Tchak, tchak.",
             "media": [
                 {
                     "offset": 0.0,
@@ -519,7 +519,7 @@ var track_05_T5c_data = {
             "start": 72.93,
             "end": 73.632,
             "lyric": "MUDA! MUDA! The stone ignites!",
-            "real_meaning": "The Enlightenment arrives — Galileo, Darwin, the open-source movement. Truth doesn't need a brand.",
+            "real_meaning": "The Enlightenment arrives: The moment empiricism defeats dogma. The open-source movement proving that truth doesn't need a brand.",
             "media": [
                 {
                     "offset": 0.0,
@@ -587,7 +587,7 @@ var track_05_T5c_data = {
             "start": 74.285,
             "end": 78.04,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion: 'The Emperor has no clothes.' The exact moment the spell of the Mage is hopelessly broken.",
             "media": [
                 {
                     "offset": 0.0,
@@ -609,7 +609,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0483.jpg",
-                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
                     "offset": 0.76,
@@ -660,7 +660,7 @@ var track_05_T5c_data = {
             "start": 78.04,
             "end": 80.096,
             "lyric": "MUDA! MUDA! No need to run!",
-            "real_meaning": "You don't need the rat race — the fire was never in the running, it was in the understanding.",
+            "real_meaning": "Exiting the rat race: You don't need to run. The fire was never in the frantic running; it was in the fundamental understanding.",
             "media": [
                 {
                     "offset": 0.0,
@@ -733,7 +733,7 @@ var track_05_T5c_data = {
             "start": 89.024,
             "end": 94.06,
             "lyric": "The fire's here, the fire's won!",
-            "real_meaning": "The solution was always at your feet — open knowledge, simple living, human connection without intermediaries.",
+            "real_meaning": "The solution was always at our feet: Open knowledge, simple living, and human power without the need for elite intermediaries.",
             "media": [
                 {
                     "offset": 0.0,
@@ -806,7 +806,7 @@ var track_05_T5c_data = {
             "start": 94.06,
             "end": 97.14,
             "lyric": "She stood up, the moss aglow",
-            "real_meaning": "Rising with quiet power — not the loud disruptor, but the calm demonstrator. Show, don't tell.",
+            "real_meaning": "Rising with quiet power: Not the loud, viral disruptor, but the calm demonstrator. Proving the truth through action, not argument.",
             "media": [
                 {
                     "offset": 0.0,
@@ -879,7 +879,7 @@ var track_05_T5c_data = {
             "start": 99.0,
             "end": 108.62,
             "lyric": "\"Look,\" she said, \"I'll show you slow",
-            "real_meaning": "Teaching patiently — the antithesis of viral content, the slow education that actually transforms.",
+            "real_meaning": "Teaching patiently: The antithesis of clickbait. Slow, deliberate education that genuinely empowers rather than creating dependence.",
             "media": [
                 {
                     "offset": 0.0,
@@ -957,7 +957,7 @@ var track_05_T5c_data = {
             "start": 108.62,
             "end": 109.58,
             "lyric": "Pots. Wheel. Stone. Fire.",
-            "real_meaning": "The building blocks were always free — pottery, engineering, tools, energy. No subscription required.",
+            "real_meaning": "The building blocks are free: Engineering, heat, tools—the foundations of progress don't require a subscription or a Mage.",
             "media": [
                 {
                     "offset": 0.0,
@@ -989,7 +989,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0515.jpg",
-                    "query": "A close-up of a studentâ€™s hands. They are holding a newly fired piece of pottery, the glaze still wet, with Linux code projected onto the surface."
+                    "query": "A close-up of a student’s hands. They are holding a newly fired piece of pottery, the glaze still wet, with Linux code projected onto the surface."
                 }
             ],
             "words": [
@@ -1020,7 +1020,7 @@ var track_05_T5c_data = {
             "start": 109.58,
             "end": 113.75,
             "lyric": "No need to run. No need to tire.\"",
-            "real_meaning": "The anti-hustle manifesto — sufficiency over excess, being over doing, presence over performance.",
+            "real_meaning": "The anti-hustle manifesto: Sufficiency over excess. Being over doing. Presence over the performative anxiety of the race.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1042,7 +1042,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0519.jpg",
-                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open to a code editor."
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open to a code editor."
                 },
                 {
                     "offset": 0.85,
@@ -1103,7 +1103,7 @@ var track_05_T5c_data = {
             "start": 113.75,
             "end": 114.516,
             "lyric": "Gralha's jaw fell to the floor",
-            "real_meaning": "The believer's world shattering — when the faithful see the truth, the grief is physical.",
+            "real_meaning": "The believer's world shatters: Gralha's physical grief as his entire identity, built on the Mage's lie, crumbles before his eyes.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1176,7 +1176,7 @@ var track_05_T5c_data = {
             "start": 114.516,
             "end": 117.916,
             "lyric": "The fire's here, the fire's won!",
-            "real_meaning": "The stone hasn't moved — the truth doesn't go anywhere. It was always available for anyone willing to look down.",
+            "real_meaning": "The truth is stationary: The stone hasn't moved. The fundamental reality was always available for anyone willing to stop and look down.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1198,7 +1198,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0567.jpg",
-                    "query": "A wide cityscape at dusk, a student seated alone in a bustling cafÃ©, laptop open, quiet focus."
+                    "query": "A wide cityscape at dusk, a student seated alone in a bustling café, laptop open, quiet focus."
                 },
                 {
                     "offset": 0.7,
@@ -1249,7 +1249,7 @@ var track_05_T5c_data = {
             "start": 117.916,
             "end": 117.92,
             "lyric": "Tronco whispered \"What's this for?\"",
-            "real_meaning": "The pragmatist who can't see value in what's free — 'if it's not monetizable, what's the point?'",
+            "real_meaning": "Tronco the pragmatist: Unable to see value in what's free. 'If the stone isn't a branded orange box, what's the point?'",
             "media": [
                 {
                     "offset": 0.0,
@@ -1281,7 +1281,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 3.31,
                     "url": "media/c0533.jpg",
-                    "query": "A close-up of a personâ€™s face, eyes reflecting the glow of a computer screen, expression doubtful and questioning."
+                    "query": "A close-up of a person’s face, eyes reflecting the glow of a computer screen, expression doubtful and questioning."
                 }
             ],
             "words": [
@@ -1317,7 +1317,7 @@ var track_05_T5c_data = {
             "start": 117.92,
             "end": 123.8,
             "lyric": "Tchak... tchak... tchak...",
-            "real_meaning": "The sound persists — truth doesn't need followers, it just keeps working. Stone on stone, always available.",
+            "real_meaning": "The persistence of truth: Real fire doesn't need followers or believers to work. It simply obeys the laws of nature.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1375,7 +1375,7 @@ var track_05_T5c_data = {
             "start": 123.89,
             "end": 125.959,
             "lyric": "The women cheered, the men looked scared",
-            "real_meaning": "Liberation terrifies those who built their identity on the old system — freedom is threatening to the invested.",
+            "real_meaning": "Liberation terrifies the invested: Freedom is inherently threatening to the men who built their power on the old, broken system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1453,7 +1453,7 @@ var track_05_T5c_data = {
             "start": 125.959,
             "end": 128.028,
             "lyric": "The first belief was declared",
-            "real_meaning": "But even liberation becomes dogma — Muda's truth is already being turned into the next ideology.",
+            "real_meaning": "The spark becomes ideology: Even liberation risks becoming dogma. Muda's simple truth is already being spun into the next rigid belief system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1480,7 +1480,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.33,
                     "url": "media/c0544.jpg",
-                    "query": "The student types furiously at a laptop, surrounded by a bustling repair cafÃ©, full of people and technology."
+                    "query": "The student types furiously at a laptop, surrounded by a bustling repair café, full of people and technology."
                 },
                 {
                     "offset": 0.67,
@@ -1521,7 +1521,7 @@ var track_05_T5c_data = {
             "start": 128.028,
             "end": 130.096,
             "lyric": "MUDA! MUDA! The stone ignites!",
-            "real_meaning": "The truth spreads — but now it's spreading through the same channels that spread the lie. The medium shapes the message.",
+            "real_meaning": "The truth spreads: The realization cascades, but it risks spreading through the exact same tribal channels that spread the lie.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1589,7 +1589,7 @@ var track_05_T5c_data = {
             "start": 130.096,
             "end": 132.165,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "The awakening spreads — more people seeing through the illusion, finding their own fire.",
+            "real_meaning": "The awakening: More people seeing through the illusion, dropping their empty plastic lighters, and finding their own fire.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1662,7 +1662,7 @@ var track_05_T5c_data = {
             "start": 132.165,
             "end": 137.204,
             "lyric": "MUDA! MUDA! She saw the light!",
-            "real_meaning": "Seeing through the illusion — 'the Emperor has no clothes', the moment the spell breaks.",
+            "real_meaning": "Seeing through the illusion: 'The Emperor has no clothes.' The exact moment the spell of the Mage is hopelessly broken.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1684,7 +1684,7 @@ var track_05_T5c_data = {
                 {
                     "offset": 0.0,
                     "url": "media/c0483.jpg",
-                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling cafÃ©, laptop open, amidst towering glass buildings and neon lights."
+                    "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
                     "offset": 1.07,
@@ -1735,7 +1735,7 @@ var track_05_T5c_data = {
             "start": 137.204,
             "end": 140.875,
             "lyric": "MUDA! MUDA! No need to run!",
-            "real_meaning": "Peace is possible — you can step off the treadmill and the world doesn't end.",
+            "real_meaning": "Peace requires no running: The realization that you can step off the treadmill, stop the hustle, and the world doesn't end.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1829,7 +1829,7 @@ var track_05_T5c_data = {
             "start": 158.976,
             "end": 160.976,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message: The power was never in the branded tool, the algorithm, or the elite. The fire was always ours.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1897,7 +1897,7 @@ var track_05_T5c_data = {
             "start": 160.976,
             "end": 162.976,
             "lyric": "\"The fire was always ours.\"",
-            "real_meaning": "The core message of the entire album — the power was never in the tool, it was always in us.",
+            "real_meaning": "The core message: The power was never in the branded tool, the algorithm, or the elite. The fire was always ours.",
             "media": [
                 {
                     "offset": 0.0,

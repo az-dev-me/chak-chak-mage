@@ -85,7 +85,7 @@
             "id": "line_10_occ_0",
             "line_index": 10,
             "occurrence_index": 0,
-            "start": 38.0,
+            "start": 37.98,
             "end": 41.006,
             "lyric": "TWO FIRES! TWO FIRES!"
         },
@@ -102,7 +102,7 @@
             "line_index": 12,
             "occurrence_index": 0,
             "start": 48.58,
-            "end": 57.22,
+            "end": 55.491,
             "lyric": "GRAL-HA! GRAL-HA!"
         },
         {
@@ -149,15 +149,15 @@
             "id": "line_18_occ_0",
             "line_index": 18,
             "occurrence_index": 0,
-            "start": 77.6,
-            "end": 94.58,
+            "start": 78.284,
+            "end": 94.5,
             "lyric": "TWO FIRES! TWO FIRES!"
         },
         {
             "id": "line_19_occ_0",
             "line_index": 19,
             "occurrence_index": 0,
-            "start": 94.688,
+            "start": 94.752,
             "end": 98.36,
             "lyric": "Burning in the same night!"
         },
@@ -166,15 +166,15 @@
             "line_index": 20,
             "occurrence_index": 0,
             "start": 98.36,
-            "end": 101.34,
+            "end": 99.42,
             "lyric": "TWO FIRES! TWO FIRES!"
         },
         {
             "id": "line_21_occ_0",
             "line_index": 21,
             "occurrence_index": 0,
-            "start": 101.34,
-            "end": 101.792,
+            "start": 99.56,
+            "end": 101.86,
             "lyric": "Which one is right?"
         },
         {
@@ -182,7 +182,7 @@
             "line_index": 22,
             "occurrence_index": 0,
             "start": 102.04,
-            "end": 122.432,
+            "end": 122.42,
             "lyric": "\"Where's the Mage gone?\""
         }
     ]

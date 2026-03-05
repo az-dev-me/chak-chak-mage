@@ -8,39 +8,39 @@ var track_04_data = {
             "start": 17.526,
             "end": 22.128,
             "lyric": "Soon the tribe began to split",
-            "real_meaning": "Political polarization — left vs right, iOS vs Android, vaxxers vs anti-vaxxers. Division as identity.",
+            "real_meaning": "The inevitable tribalization: When faith fractures, society splits into polarized echo chambers. Division becomes the new identity.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0294.jpg",
-                    "query": "A vast prehistoric valley, tribes divided, some in firelit shelters, others standing defiant,  The horizon is a deep red, the sky a stormy blue."
+                    "query": "Wide shot: The tribe is now physically divided. Two distinct camps sit on opposite sides of a small stream."
                 },
                 {
                     "offset": 0.8,
                     "url": "media/c0295.jpg",
-                    "query": "Two factions face off, a heated argument, spears clenched in hands, one's eyes glowing with passion."
+                    "query": "Medium shot: The Gralhistas sit on the left, methodically polishing the empty Orange Box."
                 },
                 {
                     "offset": 2.3,
                     "url": "media/c0296.jpg",
-                    "query": "A close up of the hands of one young man,  one hand clenched, and the other holding a small,  glowing stone."
+                    "query": "Close-up: A Gralhista tracing the brand logo on the plastic with reverent awe."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0297.jpg",
-                    "query": "A tense family dinner in a sleek, urban apartment.  Fists clench, mouths open, but no words are seen.  A split screen TV shows Fox News and MSNBC."
+                    "query": "Wide shot: Split screen. Two massive cable news anchors yelling silently from dozens of screens in an airport lounge."
                 },
                 {
                     "offset": 0.8,
                     "url": "media/c0298.jpg",
-                    "query": "A bustling, tech-savvy office.  A CEO stands in front of a compliance training video.  A young Gen-Z employee rolls their eyes.  They are all looking at their phones."
+                    "query": "Medium shot: A family dinner table. The father holding up a conspiratorial YouTube video on his phone, the daughter glaring back with absolute disdain."
                 },
                 {
                     "offset": 2.3,
                     "url": "media/c0299.jpg",
-                    "query": "A close-up of two angry faces.  One holds an iPhone, the other an Android.  Two opposing sides face off."
+                    "query": "Close-up: Fists clenched around silverware, knuckles white."
                 }
             ],
             "words": [
@@ -81,39 +81,39 @@ var track_04_data = {
             "start": 22.128,
             "end": 25.388,
             "lyric": "Arguments and holy writ",
-            "real_meaning": "Twitter threads, Reddit wars, cable news debates — arguing scripture nobody wrote but everyone quotes.",
+            "real_meaning": "The endless debate: Arguing sacred scripture that nobody wrote. Cable news debates and internet wars over arbitrary rules.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0300.jpg",
-                    "query": "A vast, prehistoric valley at dusk, two opposing groups of tribespeople, arguing and gesturing, separated by a river."
+                    "query": "Medium shot: On the right side, the opposing faction is aggressively rubbing sticks together, ignoring the box entirely but getting nowhere."
                 },
                 {
                     "offset": 0.67,
                     "url": "media/c0301.jpg",
-                    "query": "Two tribal leaders face off, firelight flickering on their stern faces, arguing intensely,  a scroll between them."
+                    "query": "Close-up: The aggressive friction of the sticks. Lots of smoke, no spark, maximum effort."
                 },
                 {
                     "offset": 1.7,
                     "url": "media/c0302.jpg",
-                    "query": "up of two hands, one gripping the other, a scroll torn between them, firelight and shadows,  the tension in the fingers."
+                    "query": "Medium shot: The two factions begin shouting at each other across the stream, wildly gesticulating."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0303.jpg",
-                    "query": "A dimly lit urban dining room, family members' faces illuminated by harsh fluorescent lights, frozen in heated argument."
+                    "query": "Wide shot: A corporate compliance seminar. Thirty employees sit in rows, staring dead-eyed at a PowerPoint presentation on 'Synergy'."
                 },
                 {
                     "offset": 0.67,
                     "url": "media/c0304.jpg",
-                    "query": "A split-screen of two televisions, one tuned to Fox News, the other to MSNBC, reflections on a sleek, black coffee table."
+                    "query": "Medium shot: A Gen-Z employee in the back row secretly scrolling TikTok, rolling their eyes at the corporate dogma."
                 },
                 {
                     "offset": 1.7,
                     "url": "media/c0305.jpg",
-                    "query": "A close-up of a person's hands, frantically typing on a smartphone, fingers glowing in the cool light of the screen."
+                    "query": "Close-up: The CEO on a private jet terminal monitor, completely removed from the culture war they are profiting from."
                 }
             ],
             "words": [
@@ -144,39 +144,39 @@ var track_04_data = {
             "start": 25.388,
             "end": 29.638,
             "lyric": "Some said \"Run at noon, that's right!\"",
-            "real_meaning": "One faction's absolute certainty — 'trust the science', 'follow the market', 'this is the way'.",
+            "real_meaning": "The arrogance of certainty: One faction claiming absolute authority over the 'correct' way to perform the absurd ritual.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0306.jpg",
-                    "query": "A vast prehistoric valley at sunset, divided tribes gathered around separate fire pits, smoke billowing into the twilight sky."
+                    "query": "Wide shot: A massive argument breaks out. Spears are raised. The hostility over the arbitrary rules reaches a fever pitch."
                 },
                 {
                     "offset": 0.94,
                     "url": "media/c0307.jpg",
-                    "query": "Elders from opposing factions locked in heated debate, flames casting dramatic shadows, younger tribe members watch from behind."
+                    "query": "Medium shot: Tronco stands in the middle of the stream. He ignores the fighting and stares intently at the Orange Box."
                 },
                 {
                     "offset": 2.43,
                     "url": "media/c0308.jpg",
-                    "query": "A defiant youth, fists clenched, eyes intense and resolute, standing alone at the edge of a roaring fire."
+                    "query": "Close-up: Tronco shouting over the din, pointing at the box: 'Why is it orange?!'"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0309.jpg",
-                    "query": "An urban dining room at sunset, a family argues heatedly at a set table, a cable news broadcast is playing on a TV on the wall."
+                    "query": "Medium tracking shot: Twitter/X feed rapidly scrolling. Endless anger, endless polarization, endless engagement."
                 },
                 {
                     "offset": 0.94,
                     "url": "media/c0310.jpg",
-                    "query": "A young professional in a corporate office, with modern architecture through a window, and a laptop showing split-screen cable news debates."
+                    "query": "Close-up: A thumb furiously typing a heavily capitalized, deeply angry tweet."
                 },
                 {
                     "offset": 2.43,
                     "url": "media/c0311.jpg",
-                    "query": "A close-up of a young face on the corporate office floor, with a screen in the background showing a compliance training presentation."
+                    "query": "Extreme close-up: The thumb hesitates, then hits 'Post'. The engagement ticker immediately spins."
                 }
             ],
             "words": [
@@ -222,7 +222,7 @@ var track_04_data = {
             "start": 29.708,
             "end": 34.728,
             "lyric": "Others \"Warm the box all night!\"",
-            "real_meaning": "The opposing faction, equally certain, equally wrong — echo chambers reinforcing baseless conviction.",
+            "real_meaning": "The opposing echo chamber: The other faction, equally certain, equally wrong. Reinforcing their own baseless convictions.",
             "media": [
                 {
                     "offset": 0.0,
@@ -295,7 +295,7 @@ var track_04_data = {
             "start": 34.952,
             "end": 38.113,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The bureaucracy of belief — compliance culture, corporate policies, religious rituals repeated without understanding.",
+            "real_meaning": "The bureaucracy of belief: Compliance culture, corporate policies, and rituals repeated endlessly without genuine understanding.",
             "media": [
                 {
                     "offset": 0.0,
@@ -368,7 +368,7 @@ var track_04_data = {
             "start": 38.168,
             "end": 42.748,
             "lyric": "Everybody's got the truth!",
-            "real_meaning": "Post-truth era — everyone has their 'facts', their 'research', their unshakable opinion.",
+            "real_meaning": "The post-truth era noise: Everyone has their own 'facts' and their unshakable, highly weaponized opinion.",
             "media": [
                 {
                     "offset": 0.0,
@@ -383,7 +383,7 @@ var track_04_data = {
                 {
                     "offset": 2.14,
                     "url": "media/c0326.jpg",
-                    "query": "An extreme close-up of a tribesmanâ€™s face, eyes ablaze with conviction and defiance."
+                    "query": "An extreme close-up of a tribesman’s face, eyes ablaze with conviction and defiance."
                 }
             ],
             "hidden_media": [
@@ -431,7 +431,7 @@ var track_04_data = {
             "start": 43.22,
             "end": 46.163,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The mantra of civilization — repeat the rules until they feel sacred, until questioning them feels like heresy.",
+            "real_meaning": "The mantra of civilization: Repeat the rules until they feel sacred. To question the ritual is to be labeled a heretic.",
             "media": [
                 {
                     "offset": 0.0,
@@ -502,9 +502,9 @@ var track_04_data = {
         {
             "id": "line_7_occ_0",
             "start": 46.248,
-            "end": 49.628,
+            "end": 49.448,
             "lyric": "Everyone except the youth!",
-            "real_meaning": "The young see through it first — 'OK Boomer' energy, each generation briefly clear-eyed before being absorbed.",
+            "real_meaning": "The brief clarity of youth: The new generation sees through the absurdity ('OK Boomer' energy) before eventually being absorbed into it.",
             "media": [
                 {
                     "offset": 0.0,
@@ -546,6 +546,11 @@ var track_04_data = {
                     "text": "youth!"
                 },
                 {
+                    "start": 48.62,
+                    "end": 49.62,
+                    "text": "Soon"
+                },
+                {
                     "start": 48.848,
                     "end": 49.168,
                     "text": "Tronco"
@@ -554,20 +559,15 @@ var track_04_data = {
                     "start": 49.168,
                     "end": 49.448,
                     "text": "prayed"
-                },
-                {
-                    "start": 49.448,
-                    "end": 49.628,
-                    "text": "to"
                 }
             ]
         },
         {
             "id": "line_8_occ_0",
-            "start": 49.628,
-            "end": 53.651,
+            "start": 49.448,
+            "end": 50.628,
             "lyric": "Tronco prayed to the toothed wheel",
-            "real_meaning": "Worshipping the mechanism — the stock market ticker, the social media algorithm, the system nobody built but everyone serves.",
+            "real_meaning": "Tronco's superficial worship: Worshipping the algorithm, the stock ticker, the empty aesthetics of the system instead of seeking true meaning.",
             "media": [
                 {
                     "offset": 0.0,
@@ -575,14 +575,14 @@ var track_04_data = {
                     "query": "A vast, prehistoric landscape at dusk, divided by a river. Two opposing factions clash on the shores. Warm tones."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 0.39,
                     "url": "media/c0343.jpg",
-                    "query": "up, dramatic.  A tribeâ€™s elder and young warrior arguing.  Two separate fires burn between them."
+                    "query": "up, dramatic.  A tribe’s elder and young warrior arguing.  Two separate fires burn between them."
                 },
                 {
-                    "offset": 2.2,
+                    "offset": 0.79,
                     "url": "media/c0344.jpg",
-                    "query": "Intimate, painterly.  A tribal shamanâ€™s hands clasped around a  wooden wheel with carved teeth."
+                    "query": "Intimate, painterly.  A tribal shaman’s hands clasped around a  wooden wheel with carved teeth."
                 }
             ],
             "hidden_media": [
@@ -592,21 +592,36 @@ var track_04_data = {
                     "query": "A sprawling cityscape at dusk, a family's silhouettes arguing around a dinner table in a high-rise apartment."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 0.39,
                     "url": "media/c0346.jpg",
                     "query": "A split-screen showing a heated debate on cable news, one person glued to each side of the argument."
                 },
                 {
-                    "offset": 2.2,
+                    "offset": 0.79,
                     "url": "media/c0347.jpg",
                     "query": "An individual's face illuminated by the glow of a smartphone, eyes fixed on the screen."
                 }
             ],
             "words": [
                 {
+                    "start": 49.448,
+                    "end": 49.628,
+                    "text": "to"
+                },
+                {
+                    "start": 49.62,
+                    "end": 49.74,
+                    "text": "the"
+                },
+                {
                     "start": 49.628,
                     "end": 49.748,
                     "text": "the"
+                },
+                {
+                    "start": 49.74,
+                    "end": 50.74,
+                    "text": "tribe"
                 },
                 {
                     "start": 49.748,
@@ -617,7 +632,50 @@ var track_04_data = {
                     "start": 50.148,
                     "end": 50.628,
                     "text": "wheel"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0",
+            "start": 50.628,
+            "end": 54.438,
+            "lyric": "Said \"The magic, I can feel!\"",
+            "real_meaning": "Confirmation bias: 'I can feel the magic'. The desperate psychological need to believe the system is working exactly as intended.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0348.jpg",
+                    "query": "wide cinematic shot of Tribe splits, prehistoric landscape, firelit, dramatic lighting, painterly"
                 },
+                {
+                    "offset": 0.69,
+                    "url": "media/c0349.jpg",
+                    "query": "medium shot of Said \"The magic, I can feel!\", warm tones, cave setting, cinematic"
+                },
+                {
+                    "offset": 2.2,
+                    "url": "media/c0350.jpg",
+                    "query": "close-up emotional Confirmation bias — 'I can feel, firelight on face, intimate portrait, painterly"
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0351.jpg",
+                    "query": "A sprawling cityscape at dusk, families in separate high-rise apartments arguing loudly, split-screen TVs displaying different news channels."
+                },
+                {
+                    "offset": 0.69,
+                    "url": "media/c0352.jpg",
+                    "query": "A tense office meeting, employees glued to their phones, arguing over Twitter feeds, cool blue lights reflecting on their faces."
+                },
+                {
+                    "offset": 2.2,
+                    "url": "media/c0353.jpg",
+                    "query": "A close-up of a hand gripping a phone, eyes wide with conviction, the reflection of a stock market graph and an astrology app on the screen."
+                }
+            ],
+            "words": [
                 {
                     "start": 50.628,
                     "end": 52.388,
@@ -632,52 +690,9 @@ var track_04_data = {
                     "start": 52.878,
                     "end": 53.651,
                     "text": "magic,"
-                }
-            ]
-        },
-        {
-            "id": "line_9_occ_0",
-            "start": 53.908,
-            "end": 57.103,
-            "lyric": "Said \"The magic, I can feel!\"",
-            "real_meaning": "Confirmation bias — 'I can feel the market turning', 'my horoscope was right', the desperate need to believe.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0348.jpg",
-                    "query": "wide cinematic shot of Tribe splits, prehistoric landscape, firelit, dramatic lighting, painterly"
                 },
                 {
-                    "offset": 0.91,
-                    "url": "media/c0349.jpg",
-                    "query": "medium shot of Said \"The magic, I can feel!\", warm tones, cave setting, cinematic"
-                },
-                {
-                    "offset": 1.91,
-                    "url": "media/c0350.jpg",
-                    "query": "close-up emotional Confirmation bias â€” 'I can feel, firelight on face, intimate portrait, painterly"
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0351.jpg",
-                    "query": "A sprawling cityscape at dusk, families in separate high-rise apartments arguing loudly, split-screen TVs displaying different news channels."
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0352.jpg",
-                    "query": "A tense office meeting, employees glued to their phones, arguing over Twitter feeds, cool blue lights reflecting on their faces."
-                },
-                {
-                    "offset": 1.91,
-                    "url": "media/c0353.jpg",
-                    "query": "A close-up of a hand gripping a phone, eyes wide with conviction, the reflection of a stock market graph and an astrology app on the screen."
-                }
-            ],
-            "words": [
-                {
-                    "start": 53.908,
+                    "start": 53.651,
                     "end": 54.088,
                     "text": "I"
                 },
@@ -690,7 +705,50 @@ var track_04_data = {
                     "start": 54.375,
                     "end": 54.438,
                     "text": "feel!\""
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0",
+            "start": 55.993,
+            "end": 57.98,
+            "lyric": "I just sat upon my throne",
+            "real_meaning": "The disconnected elite: The creator (CEO/Politician) sitting in their ivory tower, entirely removed from the chaos they engineered.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0354.jpg",
+                    "query": "A vast prehistoric landscape at dusk, divided into two camps. Smoldering fires glow against a backdrop of craggy mountains."
                 },
+                {
+                    "offset": 0.83,
+                    "url": "media/c0355.jpg",
+                    "query": "Two factions of tribespeople face off, tense, their bodies tense, firelight casting dramatic shadows, weapons raised."
+                },
+                {
+                    "offset": 1.34,
+                    "url": "media/c0356.jpg",
+                    "query": "A lone figure, the Mage, sits atop a stone throne. Their eyes are closed, detached from the chaos below, a look of melancholy."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0357.jpg",
+                    "query": "A tense family dinner in a sleek urban apartment, siblings arguing, parents trying to intervene. The reflection of a news broadcast on the glass table."
+                },
+                {
+                    "offset": 0.83,
+                    "url": "media/c0358.jpg",
+                    "query": "Split screen, two people glued to their phones, arguing, echo chambers reflected in their eyes, cool tones of city lights."
+                },
+                {
+                    "offset": 1.34,
+                    "url": "media/c0359.jpg",
+                    "query": "A CEO in a luxurious jet, looking down at the cityscape, the phone to his ear, a disconnecting, the world outside in a bubble."
+                }
+            ],
+            "words": [
                 {
                     "start": 55.993,
                     "end": 56.368,
@@ -705,50 +763,7 @@ var track_04_data = {
                     "start": 56.672,
                     "end": 57.103,
                     "text": "sat"
-                }
-            ]
-        },
-        {
-            "id": "line_10_occ_0",
-            "start": 57.165,
-            "end": 62.288,
-            "lyric": "I just sat upon my throne",
-            "real_meaning": "The creator disconnected from his creation — the CEO in the ivory tower, the politician in the mansion.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0354.jpg",
-                    "query": "A vast prehistoric landscape at dusk, divided into two camps. Smoldering fires glow against a backdrop of craggy mountains."
                 },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0355.jpg",
-                    "query": "Two factions of tribespeople face off, tense, their bodies tense, firelight casting dramatic shadows, weapons raised."
-                },
-                {
-                    "offset": 2.65,
-                    "url": "media/c0356.jpg",
-                    "query": "A lone figure, the Mage, sits atop a stone throne. Their eyes are closed, detached from the chaos below, a look of melancholy."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0357.jpg",
-                    "query": "A tense family dinner in a sleek urban apartment, siblings arguing, parents trying to intervene. The reflection of a news broadcast on the glass table."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0358.jpg",
-                    "query": "Split screen, two people glued to their phones, arguing, echo chambers reflected in their eyes, cool tones of city lights."
-                },
-                {
-                    "offset": 2.65,
-                    "url": "media/c0359.jpg",
-                    "query": "A CEO in a luxurious jet, looking down at the cityscape, the phone to his ear, a disconnecting, the world outside in a bubble."
-                }
-            ],
-            "words": [
                 {
                     "start": 57.165,
                     "end": 57.231,
@@ -763,7 +778,50 @@ var track_04_data = {
                     "start": 57.913,
                     "end": 57.98,
                     "text": "throne"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0",
+            "start": 59.556,
+            "end": 62.53,
+            "lyric": "Eating berries, all alone",
+            "real_meaning": "The loneliness of privilege: Enjoying the spoils of the lie in complete isolation. The emptiness of winning the wrong game.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0360.jpg",
+                    "query": "A vast, prehistoric valley split by a fiery river, tribal factions clash at the edge of the firelight, warm tones."
                 },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0361.jpg",
+                    "query": "The Mage, seated on a stone throne, observes the arguing factions below, detached, warm tones."
+                },
+                {
+                    "offset": 1.77,
+                    "url": "media/c0362.jpg",
+                    "query": "up of the Mage's hands, gently holding berries, eating alone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0363.jpg",
+                    "query": "A modern urban dining room, tense faces lit by flickering TVs, split screens show cable news, family members on edge."
+                },
+                {
+                    "offset": 0.75,
+                    "url": "media/c0364.jpg",
+                    "query": "A sleek corporate office, employees watching a compliance video, faces reflecting cold screens."
+                },
+                {
+                    "offset": 1.77,
+                    "url": "media/c0365.jpg",
+                    "query": "The CEO reclines in a luxurious private jet, empty champagne glass beside him, a coldly content expression."
+                }
+            ],
+            "words": [
                 {
                     "start": 59.556,
                     "end": 60.608,
@@ -778,78 +836,20 @@ var track_04_data = {
                     "start": 62.22,
                     "end": 62.288,
                     "text": "all"
-                }
-            ]
-        },
-        {
-            "id": "line_11_occ_0",
-            "start": 62.445,
-            "end": 64.74,
-            "lyric": "Eating berries, all alone",
-            "real_meaning": "Enjoying the fruits of the lie in solitude — the loneliness of privilege, the emptiness of winning the wrong game.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0360.jpg",
-                    "query": "A vast, prehistoric valley split by a fiery river, tribal factions clash at the edge of the firelight, warm tones."
                 },
-                {
-                    "offset": 0.88,
-                    "url": "media/c0361.jpg",
-                    "query": "The Mage, seated on a stone throne, observes the arguing factions below, detached, warm tones."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0362.jpg",
-                    "query": "up of the Mage's hands, gently holding berries, eating alone."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0363.jpg",
-                    "query": "A modern urban dining room, tense faces lit by flickering TVs, split screens show cable news, family members on edge."
-                },
-                {
-                    "offset": 0.88,
-                    "url": "media/c0364.jpg",
-                    "query": "A sleek corporate office, employees watching a compliance video, faces reflecting cold screens."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0365.jpg",
-                    "query": "The CEO reclines in a luxurious private jet, empty champagne glass beside him, a coldly content expression."
-                }
-            ],
-            "words": [
                 {
                     "start": 62.445,
                     "end": 62.53,
                     "text": "alone"
-                },
-                {
-                    "start": 63.128,
-                    "end": 64.768,
-                    "text": "The"
-                },
-                {
-                    "start": 63.44,
-                    "end": 64.44,
-                    "text": "Soon"
-                },
-                {
-                    "start": 64.44,
-                    "end": 64.76,
-                    "text": "the"
                 }
             ]
         },
         {
             "id": "line_12_occ_0",
-            "start": 64.74,
+            "start": 63.128,
             "end": 66.354,
             "lyric": "The box became a sacred thing",
-            "real_meaning": "The product became religion — Apple keynotes as worship services, brand loyalty as tribal identity.",
+            "real_meaning": "The product becomes religion: The artifact (the Box) sits at the top of the hierarchy, demanding absolute loyalty and worship.",
             "media": [
                 {
                     "offset": 0.0,
@@ -857,12 +857,12 @@ var track_04_data = {
                     "query": "A vast prehistoric valley at sunset. Two tribes argue, smoke billows from fires."
                 },
                 {
-                    "offset": 0.58,
+                    "offset": 0.7,
                     "url": "media/c0367.jpg",
                     "query": "The Mage stands on a cliff, observing a ritual below. Factions clash, spears meet."
                 },
                 {
-                    "offset": 1.09,
+                    "offset": 1.7,
                     "url": "media/c0368.jpg",
                     "query": "A close-up of the box in a tribesman's hands. Firelight reflects on his awestruck face."
                 }
@@ -874,21 +874,21 @@ var track_04_data = {
                     "query": "A bustling urban apartment with tense family at a dinner table. Angry expressions, phones in hand, cable news on TV."
                 },
                 {
-                    "offset": 0.58,
+                    "offset": 0.7,
                     "url": "media/c0370.jpg",
                     "query": "A modern office with Gen-Z employees on their phones. The screen shows a compliance training slide. Employees look unimpressed."
                 },
                 {
-                    "offset": 1.09,
+                    "offset": 1.7,
                     "url": "media/c0371.jpg",
                     "query": "Close up of a young man in a modern, urban apartment. He has a religious look on his face. He holds an Apple phone, and is wearing headphones. He's listening to the Apple keynote,"
                 }
             ],
             "words": [
                 {
-                    "start": 64.76,
-                    "end": 65.76,
-                    "text": "tribe"
+                    "start": 63.128,
+                    "end": 64.768,
+                    "text": "The"
                 },
                 {
                     "start": 64.896,
@@ -922,7 +922,7 @@ var track_04_data = {
             "start": 66.588,
             "end": 68.568,
             "lyric": "A totem, a god, a queen, a king",
-            "real_meaning": "The hierarchy of worship — the object at the top, then its priests, then the faithful. Power from plastic.",
+            "real_meaning": "The hierarchy of power: The object at the top, the priests below, and the faithful at the bottom. Power derived entirely from plastic.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1005,7 +1005,7 @@ var track_04_data = {
             "start": 68.568,
             "end": 70.453,
             "lyric": "I tried to say \"It's just a tool\"",
-            "real_meaning": "The creator's futile attempt at honesty — 'it's just a platform, just an app' — but the myth is already bigger than truth.",
+            "real_meaning": "The creator's futile honesty: The belated attempt to say 'it's just a tool/platform'—but the myth is already far larger than the truth.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1088,7 +1088,7 @@ var track_04_data = {
             "start": 70.548,
             "end": 77.248,
             "lyric": "But they wanted magic, they wanted fuel",
-            "real_meaning": "Humans prefer beautiful lies to ugly truths — we want the miracle, not the mechanism.",
+            "real_meaning": "The preference for beautiful lies: Humanity rejects the ugly, mundane truth. We actively want the miracle, not the underlying mechanism.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1164,9 +1164,9 @@ var track_04_data = {
         {
             "id": "line_16_occ_0",
             "start": 77.248,
-            "end": 82.448,
+            "end": 82.648,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "The system is self-perpetuating now — nobody remembers why we do it, we just do.",
+            "real_meaning": "The self-perpetuating system: Nobody remembers why the rituals exist, only that they must be enforced at all costs.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1204,42 +1204,42 @@ var track_04_data = {
             "words": [
                 {
                     "start": 77.248,
-                    "end": 78.115,
+                    "end": 77.328,
                     "text": "RULES"
                 },
                 {
-                    "start": 78.115,
-                    "end": 78.981,
+                    "start": 77.344,
+                    "end": 77.728,
                     "text": "AND"
                 },
                 {
-                    "start": 78.981,
-                    "end": 79.848,
+                    "start": 77.728,
+                    "end": 78.708,
                     "text": "RITUALS,"
                 },
                 {
-                    "start": 79.848,
-                    "end": 80.715,
+                    "start": 81.097,
+                    "end": 81.169,
                     "text": "RULES"
                 },
                 {
-                    "start": 80.715,
-                    "end": 81.581,
+                    "start": 81.69,
+                    "end": 81.748,
                     "text": "AND"
                 },
                 {
-                    "start": 81.581,
-                    "end": 82.448,
+                    "start": 82.592,
+                    "end": 82.648,
                     "text": "RITUALS"
                 }
             ]
         },
         {
             "id": "line_17_occ_0",
-            "start": 82.448,
+            "start": 82.648,
             "end": 84.688,
             "lyric": "Everybody's got the truth!",
-            "real_meaning": "The noise is deafening — every platform, every channel, every feed pushing conflicting certainties.",
+            "real_meaning": "The deafening noise of division: Every platform and feed pushes conflicting certainties, making genuine understanding impossible.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1247,12 +1247,12 @@ var track_04_data = {
                     "query": "A vast, prehistoric valley divided by a fiery chasm, two tribes arguing on either side, cinematic and dramatic."
                 },
                 {
-                    "offset": 0.87,
+                    "offset": 0.67,
                     "url": "media/c0397.jpg",
                     "query": "A group of tribal members arguing around a fire, with the mage sitting alone in the shadows"
                 },
                 {
-                    "offset": 1.38,
+                    "offset": 1.18,
                     "url": "media/c0398.jpg",
                     "query": "A close-up of a tribal member's intense, firelit face, filled with conviction."
                 }
@@ -1264,12 +1264,12 @@ var track_04_data = {
                     "query": "A sprawling cityscape at dusk, neon lights reflect on rain-soaked streets. A family dinner in an apartment window, voices raised, faces tense."
                 },
                 {
-                    "offset": 0.87,
+                    "offset": 0.67,
                     "url": "media/c0400.jpg",
                     "query": "A young woman in a dimly lit room, eyes glued to her laptop, cable news split screen on left, social media on right."
                 },
                 {
-                    "offset": 1.38,
+                    "offset": 1.18,
                     "url": "media/c0401.jpg",
                     "query": "A close-up of the young woman's face as she listens to the din, her eyes reflecting the harsh glow of her screens."
                 }
@@ -1300,9 +1300,9 @@ var track_04_data = {
         {
             "id": "line_18_occ_0",
             "start": 84.763,
-            "end": 88.408,
+            "end": 88.608,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
-            "real_meaning": "Even the rebellion becomes ritualized — protesting becomes a ritual, disruption becomes a brand.",
+            "real_meaning": "The ritualization of rebellion: Even protesting becomes a branded identity. Disruption is commodified into just another ritual.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1340,42 +1340,42 @@ var track_04_data = {
             "words": [
                 {
                     "start": 84.763,
-                    "end": 85.371,
+                    "end": 84.851,
                     "text": "RULES"
                 },
                 {
-                    "start": 85.371,
-                    "end": 85.978,
+                    "start": 85.468,
+                    "end": 85.637,
                     "text": "AND"
                 },
                 {
-                    "start": 85.978,
-                    "end": 86.585,
+                    "start": 86.405,
+                    "end": 86.496,
                     "text": "RITUALS,"
                 },
                 {
-                    "start": 86.585,
-                    "end": 87.193,
+                    "start": 87.157,
+                    "end": 87.228,
                     "text": "RULES"
                 },
                 {
-                    "start": 87.193,
-                    "end": 87.8,
+                    "start": 87.683,
+                    "end": 87.748,
                     "text": "AND"
                 },
                 {
-                    "start": 87.8,
-                    "end": 88.408,
+                    "start": 88.554,
+                    "end": 88.608,
                     "text": "RITUALS"
                 }
             ]
         },
         {
             "id": "line_19_occ_0",
-            "start": 88.408,
-            "end": 92.068,
+            "start": 88.608,
+            "end": 89.96,
             "lyric": "Everyone except the youth!",
-            "real_meaning": "But the young still see — briefly, before the system absorbs them. Each generation has a window of clarity.",
+            "real_meaning": "The fleeting window of sight: The young observe the madness with clear eyes, but the machine is always waiting to consume them.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1383,12 +1383,12 @@ var track_04_data = {
                     "query": "A vast prehistoric valley divided, smoke from fires rising. Two opposing tribes face each other. A deep chasm separating them, warm sunset hues."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 0.72,
                     "url": "media/c0409.jpg",
                     "query": "Close battle of the clans. The two factions, arguing. One is a woman wielding a spear, while a man of the other faction, grips a club."
                 },
                 {
-                    "offset": 1.92,
+                    "offset": 0.0,
                     "url": "media/c0410.jpg",
                     "query": "The young boy is in the center, looking over at the fighting. A look of shock and confusion."
                 }
@@ -1400,12 +1400,12 @@ var track_04_data = {
                     "query": "A tense family dinner in a modern, urban apartment. Multiple screens showing conflicting news channels."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 0.72,
                     "url": "media/c0412.jpg",
                     "query": "A divided office, with employees split into different groups. One group is wearing red, the other blue."
                 },
                 {
-                    "offset": 1.92,
+                    "offset": 0.0,
                     "url": "media/c0413.jpg",
                     "query": "A young person looking at their phone and smiling, while a corporate drone peers over their shoulder."
                 }
@@ -1418,27 +1418,27 @@ var track_04_data = {
                 },
                 {
                     "start": 88.668,
-                    "end": 89.204,
+                    "end": 89.264,
                     "text": "except"
                 },
                 {
-                    "start": 89.204,
-                    "end": 89.74,
+                    "start": 89.264,
+                    "end": 89.86,
                     "text": "the"
                 },
                 {
-                    "start": 89.74,
-                    "end": 92.068,
+                    "start": 89.86,
+                    "end": 89.96,
                     "text": "youth!"
                 }
             ]
         },
         {
             "id": "line_20_occ_0",
-            "start": 92.068,
+            "start": 91.868,
             "end": 94.464,
             "lyric": "\"...should be noon...\"",
-            "real_meaning": "The whispered dogma that never dies — stubborn beliefs that persist in the shadows even after being disproven.",
+            "real_meaning": "The whispered dogma: Stubborn, disproven beliefs that persist in the shadows, refusing to die even when exposed to the light.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1446,12 +1446,12 @@ var track_04_data = {
                     "query": "A vast prehistoric valley split by a river, two tribes argue. One side is covered in blue hues and the other in yellow hues, a cold mist, and a hot sun. Smoke rises. The sun is set"
                 },
                 {
-                    "offset": 0.74,
+                    "offset": 0.94,
                     "url": "media/c0415.jpg",
                     "query": "Two tribal leaders shout. One is pointing at the ground. The other is pointing up at the sky. The fire reflects on their faces. A dogma is being written."
                 },
                 {
-                    "offset": 1.18,
+                    "offset": 1.38,
                     "url": "media/c0416.jpg",
                     "query": "A close-up of a young man's face. He is looking at the argument. One half of his face is illuminated by the setting sun, one half is in shadow."
                 }
@@ -1463,12 +1463,12 @@ var track_04_data = {
                     "query": "A tense family dinner in a sleek urban loft, hands clenched, faces flushed with anger."
                 },
                 {
-                    "offset": 0.74,
+                    "offset": 0.94,
                     "url": "media/c0418.jpg",
                     "query": "A split-screen TV in a dimly-lit room, Fox News vs MSNBC in cool, harsh tones."
                 },
                 {
-                    "offset": 1.18,
+                    "offset": 1.38,
                     "url": "media/c0419.jpg",
                     "query": "A close up of an aging hand gripping a smartphone in a dimly-lit room, fingers trembling."
                 }
@@ -1496,7 +1496,7 @@ var track_04_data = {
             "start": 95.712,
             "end": 96.448,
             "lyric": "\"...night time...\"",
-            "real_meaning": "The counter-whisper — equally persistent, equally baseless. The argument never ends, it just gets quieter.",
+            "real_meaning": "The counter-whisper: The argument never truly resolves; it just mutates and gets quieter while the division remains.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1547,9 +1547,9 @@ var track_04_data = {
         {
             "id": "line_22_occ_0",
             "start": 97.628,
-            "end": 100.32,
+            "end": 98.547,
             "lyric": "\"...the wheel...\"",
-            "real_meaning": "And behind it all, the blind worship of the machine continues — the system keeps turning regardless of belief.",
+            "real_meaning": "The blind worship continues: Regardless of the endless arguing and schisms, the mechanical wheel of the system keeps crushing forward.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1557,12 +1557,12 @@ var track_04_data = {
                     "query": "A vast, prehistoric valley divided by a river, two tribes stand on opposite sides."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 0.31,
                     "url": "media/c0427.jpg",
                     "query": "The tribes meet at the river's edge, arguing fiercely, one faction points to a rock."
                 },
                 {
-                    "offset": 1.17,
+                    "offset": 0.61,
                     "url": "media/c0428.jpg",
                     "query": "A close up of the rock. A small wheel is carved into the rock."
                 }
@@ -1574,12 +1574,12 @@ var track_04_data = {
                     "query": "A sprawling cityscape at dusk.  A family dinner in mid-argument, a TV broadcasting a heated news debate in the background.  A tense moment frozen in time."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 0.31,
                     "url": "media/c0430.jpg",
                     "query": "A corporate boardroom.  Two executives face off on either side of a large glass table.  A large TV in the background shows a split-screen debate."
                 },
                 {
-                    "offset": 1.17,
+                    "offset": 0.61,
                     "url": "media/c0431.jpg",
                     "query": "A close-up of a man's face, eyes wide open in disbelief.  Reflected in his glasses is a blur of tweets and notifications."
                 }

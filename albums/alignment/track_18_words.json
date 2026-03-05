@@ -1,0 +1,766 @@
+{
+    "id": "track_18",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 0.16,
+            "text": "oh",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.16,
+                    "text": "oh"
+                }
+            ]
+        },
+        {
+            "start": 14.98,
+            "end": 18.68,
+            "text": "soon the tribe began to split",
+            "words": [
+                {
+                    "start": 14.98,
+                    "end": 15.2,
+                    "text": "soon"
+                },
+                {
+                    "start": 15.2,
+                    "end": 17.12,
+                    "text": "the"
+                },
+                {
+                    "start": 17.12,
+                    "end": 17.5,
+                    "text": "tribe"
+                },
+                {
+                    "start": 17.5,
+                    "end": 17.96,
+                    "text": "began"
+                },
+                {
+                    "start": 17.96,
+                    "end": 18.18,
+                    "text": "to"
+                },
+                {
+                    "start": 18.18,
+                    "end": 18.68,
+                    "text": "split"
+                }
+            ]
+        },
+        {
+            "start": 19.74,
+            "end": 22.68,
+            "text": "arguments and holy writ",
+            "words": [
+                {
+                    "start": 19.74,
+                    "end": 21.14,
+                    "text": "arguments"
+                },
+                {
+                    "start": 21.14,
+                    "end": 21.7,
+                    "text": "and"
+                },
+                {
+                    "start": 21.7,
+                    "end": 22.12,
+                    "text": "holy"
+                },
+                {
+                    "start": 22.12,
+                    "end": 22.68,
+                    "text": "writ"
+                }
+            ]
+        },
+        {
+            "start": 24.56,
+            "end": 26.72,
+            "text": "some say run at noon that's right",
+            "words": [
+                {
+                    "start": 24.56,
+                    "end": 24.9,
+                    "text": "some"
+                },
+                {
+                    "start": 24.9,
+                    "end": 25.18,
+                    "text": "say"
+                },
+                {
+                    "start": 25.18,
+                    "end": 25.4,
+                    "text": "run"
+                },
+                {
+                    "start": 25.4,
+                    "end": 25.6,
+                    "text": "at"
+                },
+                {
+                    "start": 25.6,
+                    "end": 25.9,
+                    "text": "noon"
+                },
+                {
+                    "start": 25.9,
+                    "end": 26.28,
+                    "text": "that's"
+                },
+                {
+                    "start": 26.28,
+                    "end": 26.72,
+                    "text": "right"
+                }
+            ]
+        },
+        {
+            "start": 28.24,
+            "end": 31.5,
+            "text": "Others warm the box all night",
+            "words": [
+                {
+                    "start": 28.24,
+                    "end": 28.6,
+                    "text": "Others"
+                },
+                {
+                    "start": 28.6,
+                    "end": 29.42,
+                    "text": "warm"
+                },
+                {
+                    "start": 29.42,
+                    "end": 29.7,
+                    "text": "the"
+                },
+                {
+                    "start": 29.7,
+                    "end": 30.22,
+                    "text": "box"
+                },
+                {
+                    "start": 30.22,
+                    "end": 30.66,
+                    "text": "all"
+                },
+                {
+                    "start": 30.66,
+                    "end": 31.5,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "start": 32.68,
+            "end": 36.32,
+            "text": "Rules and rituals, rules and rituals",
+            "words": [
+                {
+                    "start": 32.68,
+                    "end": 33.28,
+                    "text": "Rules"
+                },
+                {
+                    "start": 33.28,
+                    "end": 33.74,
+                    "text": "and"
+                },
+                {
+                    "start": 33.74,
+                    "end": 34.3,
+                    "text": "rituals,"
+                },
+                {
+                    "start": 34.74,
+                    "end": 35.08,
+                    "text": "rules"
+                },
+                {
+                    "start": 35.08,
+                    "end": 35.78,
+                    "text": "and"
+                },
+                {
+                    "start": 35.78,
+                    "end": 36.32,
+                    "text": "rituals"
+                }
+            ]
+        },
+        {
+            "start": 37.184,
+            "end": 38.66,
+            "text": "Everybody's got the truth",
+            "words": [
+                {
+                    "start": 37.184,
+                    "end": 37.72,
+                    "text": "Everybody's"
+                },
+                {
+                    "start": 37.72,
+                    "end": 37.94,
+                    "text": "got"
+                },
+                {
+                    "start": 37.94,
+                    "end": 38.16,
+                    "text": "the"
+                },
+                {
+                    "start": 38.16,
+                    "end": 38.66,
+                    "text": "truth"
+                }
+            ]
+        },
+        {
+            "start": 40.52,
+            "end": 44.26,
+            "text": "Rules and rituals, rules and rituals",
+            "words": [
+                {
+                    "start": 40.52,
+                    "end": 41.26,
+                    "text": "Rules"
+                },
+                {
+                    "start": 41.26,
+                    "end": 41.76,
+                    "text": "and"
+                },
+                {
+                    "start": 41.76,
+                    "end": 42.26,
+                    "text": "rituals,"
+                },
+                {
+                    "start": 42.76,
+                    "end": 43.06,
+                    "text": "rules"
+                },
+                {
+                    "start": 43.06,
+                    "end": 43.8,
+                    "text": "and"
+                },
+                {
+                    "start": 43.8,
+                    "end": 44.26,
+                    "text": "rituals"
+                }
+            ]
+        },
+        {
+            "start": 44.74,
+            "end": 47.56,
+            "text": "Everyone except the youth",
+            "words": [
+                {
+                    "start": 44.74,
+                    "end": 45.14,
+                    "text": "Everyone"
+                },
+                {
+                    "start": 45.14,
+                    "end": 45.94,
+                    "text": "except"
+                },
+                {
+                    "start": 45.94,
+                    "end": 46.22,
+                    "text": "the"
+                },
+                {
+                    "start": 46.22,
+                    "end": 47.56,
+                    "text": "youth"
+                }
+            ]
+        },
+        {
+            "start": 48.74,
+            "end": 50.64,
+            "text": "Tronco preach to the tooth and wheel",
+            "words": [
+                {
+                    "start": 48.74,
+                    "end": 49.18,
+                    "text": "Tronco"
+                },
+                {
+                    "start": 49.18,
+                    "end": 49.5,
+                    "text": "preach"
+                },
+                {
+                    "start": 49.5,
+                    "end": 49.64,
+                    "text": "to"
+                },
+                {
+                    "start": 49.64,
+                    "end": 49.76,
+                    "text": "the"
+                },
+                {
+                    "start": 49.76,
+                    "end": 50.0,
+                    "text": "tooth"
+                },
+                {
+                    "start": 50.0,
+                    "end": 50.22,
+                    "text": "and"
+                },
+                {
+                    "start": 50.22,
+                    "end": 50.64,
+                    "text": "wheel"
+                }
+            ]
+        },
+        {
+            "start": 50.94,
+            "end": 51.04,
+            "text": "Oh,",
+            "words": [
+                {
+                    "start": 50.94,
+                    "end": 51.04,
+                    "text": "Oh,"
+                }
+            ]
+        },
+        {
+            "start": 52.06,
+            "end": 54.9,
+            "text": "Said the magic I can feel",
+            "words": [
+                {
+                    "start": 52.06,
+                    "end": 52.42,
+                    "text": "Said"
+                },
+                {
+                    "start": 52.42,
+                    "end": 52.62,
+                    "text": "the"
+                },
+                {
+                    "start": 52.62,
+                    "end": 53.22,
+                    "text": "magic"
+                },
+                {
+                    "start": 53.22,
+                    "end": 53.9,
+                    "text": "I"
+                },
+                {
+                    "start": 53.9,
+                    "end": 54.18,
+                    "text": "can"
+                },
+                {
+                    "start": 54.18,
+                    "end": 54.9,
+                    "text": "feel"
+                }
+            ]
+        },
+        {
+            "start": 56.24,
+            "end": 58.59,
+            "text": "I just sat upon my throne",
+            "words": [
+                {
+                    "start": 56.24,
+                    "end": 56.36,
+                    "text": "I"
+                },
+                {
+                    "start": 56.36,
+                    "end": 56.66,
+                    "text": "just"
+                },
+                {
+                    "start": 56.66,
+                    "end": 57.0,
+                    "text": "sat"
+                },
+                {
+                    "start": 57.0,
+                    "end": 57.42,
+                    "text": "upon"
+                },
+                {
+                    "start": 57.42,
+                    "end": 57.74,
+                    "text": "my"
+                },
+                {
+                    "start": 57.74,
+                    "end": 58.59,
+                    "text": "throne"
+                }
+            ]
+        },
+        {
+            "start": 58.6,
+            "end": 59.82,
+            "text": "Oh-oh-oh",
+            "words": [
+                {
+                    "start": 58.6,
+                    "end": 58.96,
+                    "text": "Oh"
+                },
+                {
+                    "start": 58.96,
+                    "end": 59.52,
+                    "text": "-oh"
+                },
+                {
+                    "start": 59.52,
+                    "end": 59.82,
+                    "text": "-oh"
+                }
+            ]
+        },
+        {
+            "start": 60.02,
+            "end": 63.1,
+            "text": "Eating berries all alone",
+            "words": [
+                {
+                    "start": 60.02,
+                    "end": 60.6,
+                    "text": "Eating"
+                },
+                {
+                    "start": 60.6,
+                    "end": 61.36,
+                    "text": "berries"
+                },
+                {
+                    "start": 61.36,
+                    "end": 62.3,
+                    "text": "all"
+                },
+                {
+                    "start": 62.3,
+                    "end": 63.1,
+                    "text": "alone"
+                }
+            ]
+        },
+        {
+            "start": 63.52,
+            "end": 66.58,
+            "text": "The box became a sacred thing",
+            "words": [
+                {
+                    "start": 63.52,
+                    "end": 64.72,
+                    "text": "The"
+                },
+                {
+                    "start": 64.72,
+                    "end": 65.0,
+                    "text": "box"
+                },
+                {
+                    "start": 65.0,
+                    "end": 65.48,
+                    "text": "became"
+                },
+                {
+                    "start": 65.48,
+                    "end": 65.76,
+                    "text": "a"
+                },
+                {
+                    "start": 65.76,
+                    "end": 66.1,
+                    "text": "sacred"
+                },
+                {
+                    "start": 66.1,
+                    "end": 66.58,
+                    "text": "thing"
+                }
+            ]
+        },
+        {
+            "start": 66.58,
+            "end": 68.6,
+            "text": "A totem, a god, a queen, a king",
+            "words": [
+                {
+                    "start": 66.58,
+                    "end": 66.78,
+                    "text": "A"
+                },
+                {
+                    "start": 66.78,
+                    "end": 67.14,
+                    "text": "totem,"
+                },
+                {
+                    "start": 67.16,
+                    "end": 67.3,
+                    "text": "a"
+                },
+                {
+                    "start": 67.3,
+                    "end": 67.6,
+                    "text": "god,"
+                },
+                {
+                    "start": 67.68,
+                    "end": 67.78,
+                    "text": "a"
+                },
+                {
+                    "start": 67.78,
+                    "end": 68.02,
+                    "text": "queen,"
+                },
+                {
+                    "start": 68.06,
+                    "end": 68.26,
+                    "text": "a"
+                },
+                {
+                    "start": 68.26,
+                    "end": 68.6,
+                    "text": "king"
+                }
+            ]
+        },
+        {
+            "start": 68.64,
+            "end": 70.28,
+            "text": "I tried to say it's just a tool",
+            "words": [
+                {
+                    "start": 68.64,
+                    "end": 68.74,
+                    "text": "I"
+                },
+                {
+                    "start": 68.74,
+                    "end": 69.02,
+                    "text": "tried"
+                },
+                {
+                    "start": 69.12,
+                    "end": 69.22,
+                    "text": "to"
+                },
+                {
+                    "start": 69.22,
+                    "end": 69.52,
+                    "text": "say"
+                },
+                {
+                    "start": 69.52,
+                    "end": 69.72,
+                    "text": "it's"
+                },
+                {
+                    "start": 69.72,
+                    "end": 69.98,
+                    "text": "just"
+                },
+                {
+                    "start": 70.08,
+                    "end": 70.18,
+                    "text": "a"
+                },
+                {
+                    "start": 70.18,
+                    "end": 70.28,
+                    "text": "tool"
+                }
+            ]
+        },
+        {
+            "start": 70.5,
+            "end": 72.7,
+            "text": "But they wanted magic, they wanted fuel",
+            "words": [
+                {
+                    "start": 70.5,
+                    "end": 70.62,
+                    "text": "But"
+                },
+                {
+                    "start": 70.62,
+                    "end": 70.78,
+                    "text": "they"
+                },
+                {
+                    "start": 70.78,
+                    "end": 71.16,
+                    "text": "wanted"
+                },
+                {
+                    "start": 71.16,
+                    "end": 71.58,
+                    "text": "magic,"
+                },
+                {
+                    "start": 71.66,
+                    "end": 71.78,
+                    "text": "they"
+                },
+                {
+                    "start": 71.78,
+                    "end": 72.14,
+                    "text": "wanted"
+                },
+                {
+                    "start": 72.14,
+                    "end": 72.7,
+                    "text": "fuel"
+                }
+            ]
+        },
+        {
+            "start": 76.64,
+            "end": 78.6,
+            "text": "Bruise and let you roll",
+            "words": [
+                {
+                    "start": 76.64,
+                    "end": 77.3,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 77.3,
+                    "end": 77.74,
+                    "text": "and"
+                },
+                {
+                    "start": 77.74,
+                    "end": 78.0,
+                    "text": "let"
+                },
+                {
+                    "start": 78.0,
+                    "end": 78.22,
+                    "text": "you"
+                },
+                {
+                    "start": 78.22,
+                    "end": 78.6,
+                    "text": "roll"
+                }
+            ]
+        },
+        {
+            "start": 78.74,
+            "end": 80.52,
+            "text": "Bruise and let you roll",
+            "words": [
+                {
+                    "start": 78.74,
+                    "end": 79.3,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 79.3,
+                    "end": 79.78,
+                    "text": "and"
+                },
+                {
+                    "start": 79.78,
+                    "end": 79.98,
+                    "text": "let"
+                },
+                {
+                    "start": 79.98,
+                    "end": 80.24,
+                    "text": "you"
+                },
+                {
+                    "start": 80.24,
+                    "end": 80.52,
+                    "text": "roll"
+                }
+            ]
+        },
+        {
+            "start": 80.68,
+            "end": 82.56,
+            "text": "Bruise and let you roll",
+            "words": [
+                {
+                    "start": 80.68,
+                    "end": 81.3,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 81.3,
+                    "end": 81.76,
+                    "text": "and"
+                },
+                {
+                    "start": 81.76,
+                    "end": 81.98,
+                    "text": "let"
+                },
+                {
+                    "start": 81.98,
+                    "end": 82.24,
+                    "text": "you"
+                },
+                {
+                    "start": 82.24,
+                    "end": 82.56,
+                    "text": "roll"
+                }
+            ]
+        },
+        {
+            "start": 82.7,
+            "end": 84.52,
+            "text": "Bruise and let you roll",
+            "words": [
+                {
+                    "start": 82.7,
+                    "end": 83.08,
+                    "text": "Bruise"
+                },
+                {
+                    "start": 83.08,
+                    "end": 83.76,
+                    "text": "and"
+                },
+                {
+                    "start": 83.76,
+                    "end": 83.98,
+                    "text": "let"
+                },
+                {
+                    "start": 83.98,
+                    "end": 84.2,
+                    "text": "you"
+                },
+                {
+                    "start": 84.2,
+                    "end": 84.52,
+                    "text": "roll"
+                }
+            ]
+        }
+    ]
+}

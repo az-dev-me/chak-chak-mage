@@ -1,0 +1,982 @@
+{
+    "id": "track_20",
+    "segments": [
+        {
+            "start": 46.12,
+            "end": 46.34,
+            "text": "Chak,",
+            "words": [
+                {
+                    "start": 46.12,
+                    "end": 46.34,
+                    "text": "Chak,"
+                }
+            ]
+        },
+        {
+            "start": 46.42,
+            "end": 46.66,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 46.42,
+                    "end": 46.66,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 46.74,
+            "end": 46.98,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 46.74,
+                    "end": 46.98,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 47.02,
+            "end": 47.34,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 47.02,
+                    "end": 47.34,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 47.34,
+            "end": 47.84,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 47.34,
+                    "end": 47.84,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 47.84,
+            "end": 47.96,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 47.84,
+                    "end": 47.96,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 47.96,
+            "end": 48.3,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 47.96,
+                    "end": 48.3,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 48.3,
+            "end": 48.5,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 48.3,
+                    "end": 48.5,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 48.5,
+            "end": 48.72,
+            "text": "chak",
+            "words": [
+                {
+                    "start": 48.5,
+                    "end": 48.72,
+                    "text": "chak"
+                }
+            ]
+        },
+        {
+            "start": 48.86,
+            "end": 50.34,
+            "text": "Muda, muda",
+            "words": [
+                {
+                    "start": 48.86,
+                    "end": 49.44,
+                    "text": "Muda,"
+                },
+                {
+                    "start": 49.76,
+                    "end": 50.34,
+                    "text": "muda"
+                }
+            ]
+        },
+        {
+            "start": 50.36,
+            "end": 51.78,
+            "text": "The stone ignites",
+            "words": [
+                {
+                    "start": 50.36,
+                    "end": 50.56,
+                    "text": "The"
+                },
+                {
+                    "start": 50.56,
+                    "end": 50.98,
+                    "text": "stone"
+                },
+                {
+                    "start": 50.98,
+                    "end": 51.78,
+                    "text": "ignites"
+                }
+            ]
+        },
+        {
+            "start": 51.78,
+            "end": 52.6,
+            "text": "Muda, muda",
+            "words": [
+                {
+                    "start": 51.78,
+                    "end": 51.96,
+                    "text": "Muda,"
+                },
+                {
+                    "start": 52.18,
+                    "end": 52.6,
+                    "text": "muda"
+                }
+            ]
+        },
+        {
+            "start": 52.62,
+            "end": 53.94,
+            "text": "She saw the light",
+            "words": [
+                {
+                    "start": 52.62,
+                    "end": 52.86,
+                    "text": "She"
+                },
+                {
+                    "start": 52.86,
+                    "end": 53.3,
+                    "text": "saw"
+                },
+                {
+                    "start": 53.3,
+                    "end": 53.52,
+                    "text": "the"
+                },
+                {
+                    "start": 53.52,
+                    "end": 53.94,
+                    "text": "light"
+                }
+            ]
+        },
+        {
+            "start": 54.06,
+            "end": 55.14,
+            "text": "Muda, muda",
+            "words": [
+                {
+                    "start": 54.06,
+                    "end": 54.26,
+                    "text": "Muda,"
+                },
+                {
+                    "start": 54.6,
+                    "end": 55.14,
+                    "text": "muda"
+                }
+            ]
+        },
+        {
+            "start": 55.16,
+            "end": 56.44,
+            "text": "No need to run",
+            "words": [
+                {
+                    "start": 55.16,
+                    "end": 55.38,
+                    "text": "No"
+                },
+                {
+                    "start": 55.38,
+                    "end": 55.7,
+                    "text": "need"
+                },
+                {
+                    "start": 55.7,
+                    "end": 55.94,
+                    "text": "to"
+                },
+                {
+                    "start": 55.94,
+                    "end": 56.44,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "start": 56.92,
+            "end": 59.46,
+            "text": "The fire's here, the fire's won",
+            "words": [
+                {
+                    "start": 56.92,
+                    "end": 57.1,
+                    "text": "The"
+                },
+                {
+                    "start": 57.1,
+                    "end": 57.88,
+                    "text": "fire's"
+                },
+                {
+                    "start": 57.88,
+                    "end": 58.1,
+                    "text": "here,"
+                },
+                {
+                    "start": 58.18,
+                    "end": 58.34,
+                    "text": "the"
+                },
+                {
+                    "start": 58.34,
+                    "end": 59.08,
+                    "text": "fire's"
+                },
+                {
+                    "start": 59.08,
+                    "end": 59.46,
+                    "text": "won"
+                }
+            ]
+        },
+        {
+            "start": 63.04,
+            "end": 65.42,
+            "text": "She stood up, the moss aglow",
+            "words": [
+                {
+                    "start": 63.04,
+                    "end": 63.34,
+                    "text": "She"
+                },
+                {
+                    "start": 63.34,
+                    "end": 63.86,
+                    "text": "stood"
+                },
+                {
+                    "start": 63.86,
+                    "end": 64.14,
+                    "text": "up,"
+                },
+                {
+                    "start": 64.2,
+                    "end": 64.34,
+                    "text": "the"
+                },
+                {
+                    "start": 64.34,
+                    "end": 64.74,
+                    "text": "moss"
+                },
+                {
+                    "start": 64.74,
+                    "end": 65.42,
+                    "text": "aglow"
+                }
+            ]
+        },
+        {
+            "start": 67.94,
+            "end": 70.5,
+            "text": "Look, she said, I'll show you slow",
+            "words": [
+                {
+                    "start": 67.94,
+                    "end": 68.22,
+                    "text": "Look,"
+                },
+                {
+                    "start": 68.36,
+                    "end": 68.46,
+                    "text": "she"
+                },
+                {
+                    "start": 68.46,
+                    "end": 68.736,
+                    "text": "said,"
+                },
+                {
+                    "start": 68.98,
+                    "end": 69.18,
+                    "text": "I'll"
+                },
+                {
+                    "start": 69.18,
+                    "end": 69.58,
+                    "text": "show"
+                },
+                {
+                    "start": 69.58,
+                    "end": 69.9,
+                    "text": "you"
+                },
+                {
+                    "start": 69.9,
+                    "end": 70.5,
+                    "text": "slow"
+                }
+            ]
+        },
+        {
+            "start": 72.66,
+            "end": 75.18,
+            "text": "Pots, wheels, stone, fire",
+            "words": [
+                {
+                    "start": 72.66,
+                    "end": 73.36,
+                    "text": "Pots,"
+                },
+                {
+                    "start": 73.54,
+                    "end": 73.8,
+                    "text": "wheels,"
+                },
+                {
+                    "start": 74.02,
+                    "end": 74.46,
+                    "text": "stone,"
+                },
+                {
+                    "start": 74.62,
+                    "end": 75.18,
+                    "text": "fire"
+                }
+            ]
+        },
+        {
+            "start": 75.67,
+            "end": 78.02,
+            "text": "No need to run,",
+            "words": [
+                {
+                    "start": 75.67,
+                    "end": 76.92,
+                    "text": "No"
+                },
+                {
+                    "start": 76.92,
+                    "end": 77.28,
+                    "text": "need"
+                },
+                {
+                    "start": 77.28,
+                    "end": 77.52,
+                    "text": "to"
+                },
+                {
+                    "start": 77.52,
+                    "end": 78.02,
+                    "text": "run,"
+                }
+            ]
+        },
+        {
+            "start": 78.62,
+            "end": 80.56,
+            "text": "no need to tire",
+            "words": [
+                {
+                    "start": 78.62,
+                    "end": 79.32,
+                    "text": "no"
+                },
+                {
+                    "start": 79.32,
+                    "end": 79.72,
+                    "text": "need"
+                },
+                {
+                    "start": 79.72,
+                    "end": 79.88,
+                    "text": "to"
+                },
+                {
+                    "start": 79.88,
+                    "end": 80.56,
+                    "text": "tire"
+                }
+            ]
+        },
+        {
+            "start": 82.24,
+            "end": 84.7,
+            "text": "Grela's jaw fell to the floor",
+            "words": [
+                {
+                    "start": 82.24,
+                    "end": 82.9,
+                    "text": "Grela's"
+                },
+                {
+                    "start": 82.9,
+                    "end": 83.24,
+                    "text": "jaw"
+                },
+                {
+                    "start": 83.24,
+                    "end": 83.56,
+                    "text": "fell"
+                },
+                {
+                    "start": 83.744,
+                    "end": 83.88,
+                    "text": "to"
+                },
+                {
+                    "start": 83.936,
+                    "end": 84.2,
+                    "text": "the"
+                },
+                {
+                    "start": 84.2,
+                    "end": 84.7,
+                    "text": "floor"
+                }
+            ]
+        },
+        {
+            "start": 84.928,
+            "end": 87.02,
+            "text": "Tronko whispered, what's this for?",
+            "words": [
+                {
+                    "start": 84.928,
+                    "end": 85.3,
+                    "text": "Tronko"
+                },
+                {
+                    "start": 85.3,
+                    "end": 85.76,
+                    "text": "whispered,"
+                },
+                {
+                    "start": 86.1,
+                    "end": 86.4,
+                    "text": "what's"
+                },
+                {
+                    "start": 86.432,
+                    "end": 86.62,
+                    "text": "this"
+                },
+                {
+                    "start": 86.62,
+                    "end": 87.02,
+                    "text": "for?"
+                }
+            ]
+        },
+        {
+            "start": 87.12,
+            "end": 89.4,
+            "text": "The women cheered, the men looked scared",
+            "words": [
+                {
+                    "start": 87.12,
+                    "end": 87.26,
+                    "text": "The"
+                },
+                {
+                    "start": 87.26,
+                    "end": 87.54,
+                    "text": "women"
+                },
+                {
+                    "start": 87.54,
+                    "end": 88.2,
+                    "text": "cheered,"
+                },
+                {
+                    "start": 88.3,
+                    "end": 88.46,
+                    "text": "the"
+                },
+                {
+                    "start": 88.46,
+                    "end": 88.68,
+                    "text": "men"
+                },
+                {
+                    "start": 88.68,
+                    "end": 88.94,
+                    "text": "looked"
+                },
+                {
+                    "start": 88.94,
+                    "end": 89.4,
+                    "text": "scared"
+                }
+            ]
+        },
+        {
+            "start": 89.52,
+            "end": 91.88,
+            "text": "The first belief was declared",
+            "words": [
+                {
+                    "start": 89.52,
+                    "end": 89.64,
+                    "text": "The"
+                },
+                {
+                    "start": 89.64,
+                    "end": 89.96,
+                    "text": "first"
+                },
+                {
+                    "start": 89.96,
+                    "end": 90.58,
+                    "text": "belief"
+                },
+                {
+                    "start": 90.72,
+                    "end": 91.14,
+                    "text": "was"
+                },
+                {
+                    "start": 91.14,
+                    "end": 91.88,
+                    "text": "declared"
+                }
+            ]
+        },
+        {
+            "start": 92.1,
+            "end": 92.256,
+            "text": "Chak,",
+            "words": [
+                {
+                    "start": 92.1,
+                    "end": 92.256,
+                    "text": "Chak,"
+                }
+            ]
+        },
+        {
+            "start": 92.36,
+            "end": 92.48,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 92.36,
+                    "end": 92.48,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 92.68,
+            "end": 92.9,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 92.68,
+                    "end": 92.9,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 92.9,
+            "end": 93.46,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 92.9,
+                    "end": 93.46,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 93.46,
+            "end": 93.888,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 93.46,
+                    "end": 93.888,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 93.92,
+            "end": 94.28,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 93.92,
+                    "end": 94.28,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 94.28,
+            "end": 94.4,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 94.28,
+                    "end": 94.4,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 94.4,
+            "end": 94.98,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 94.4,
+                    "end": 94.98,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 94.98,
+            "end": 95.3,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 94.98,
+                    "end": 95.3,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 95.3,
+            "end": 95.58,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 95.3,
+                    "end": 95.58,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 95.58,
+            "end": 95.98,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 95.58,
+                    "end": 95.98,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 95.98,
+            "end": 96.192,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 95.98,
+                    "end": 96.192,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 96.3,
+            "end": 96.46,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 96.3,
+                    "end": 96.46,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 96.46,
+            "end": 96.6,
+            "text": "chak,",
+            "words": [
+                {
+                    "start": 96.46,
+                    "end": 96.6,
+                    "text": "chak,"
+                }
+            ]
+        },
+        {
+            "start": 96.6,
+            "end": 96.7,
+            "text": "chak",
+            "words": [
+                {
+                    "start": 96.6,
+                    "end": 96.7,
+                    "text": "chak"
+                }
+            ]
+        },
+        {
+            "start": 96.9,
+            "end": 99.1,
+            "text": "Muda, muda, the stone ignites",
+            "words": [
+                {
+                    "start": 96.9,
+                    "end": 97.44,
+                    "text": "Muda,"
+                },
+                {
+                    "start": 97.76,
+                    "end": 98.34,
+                    "text": "muda,"
+                },
+                {
+                    "start": 98.4,
+                    "end": 98.48,
+                    "text": "the"
+                },
+                {
+                    "start": 98.496,
+                    "end": 99.0,
+                    "text": "stone"
+                },
+                {
+                    "start": 99.0,
+                    "end": 99.1,
+                    "text": "ignites"
+                }
+            ]
+        },
+        {
+            "start": 99.72,
+            "end": 101.62,
+            "text": "Muda, muda, she saw the light",
+            "words": [
+                {
+                    "start": 99.72,
+                    "end": 99.96,
+                    "text": "Muda,"
+                },
+                {
+                    "start": 100.18,
+                    "end": 100.62,
+                    "text": "muda,"
+                },
+                {
+                    "start": 100.78,
+                    "end": 100.88,
+                    "text": "she"
+                },
+                {
+                    "start": 100.928,
+                    "end": 101.28,
+                    "text": "saw"
+                },
+                {
+                    "start": 101.28,
+                    "end": 101.5,
+                    "text": "the"
+                },
+                {
+                    "start": 101.5,
+                    "end": 101.62,
+                    "text": "light"
+                }
+            ]
+        },
+        {
+            "start": 102.08,
+            "end": 107.58,
+            "text": "No need to run, the fire's here, the fire's won",
+            "words": [
+                {
+                    "start": 102.08,
+                    "end": 102.18,
+                    "text": "No"
+                },
+                {
+                    "start": 102.18,
+                    "end": 103.68,
+                    "text": "need"
+                },
+                {
+                    "start": 103.68,
+                    "end": 103.92,
+                    "text": "to"
+                },
+                {
+                    "start": 103.92,
+                    "end": 104.4,
+                    "text": "run,"
+                },
+                {
+                    "start": 104.44,
+                    "end": 105.16,
+                    "text": "the"
+                },
+                {
+                    "start": 105.16,
+                    "end": 105.86,
+                    "text": "fire's"
+                },
+                {
+                    "start": 105.86,
+                    "end": 106.1,
+                    "text": "here,"
+                },
+                {
+                    "start": 106.18,
+                    "end": 106.34,
+                    "text": "the"
+                },
+                {
+                    "start": 106.34,
+                    "end": 107.08,
+                    "text": "fire's"
+                },
+                {
+                    "start": 107.08,
+                    "end": 107.58,
+                    "text": "won"
+                }
+            ]
+        },
+        {
+            "start": 113.62,
+            "end": 116.512,
+            "text": "The fire was always ours",
+            "words": [
+                {
+                    "start": 113.62,
+                    "end": 114.8,
+                    "text": "The"
+                },
+                {
+                    "start": 114.912,
+                    "end": 115.18,
+                    "text": "fire"
+                },
+                {
+                    "start": 115.296,
+                    "end": 115.4,
+                    "text": "was"
+                },
+                {
+                    "start": 115.4,
+                    "end": 116.04,
+                    "text": "always"
+                },
+                {
+                    "start": 116.04,
+                    "end": 116.512,
+                    "text": "ours"
+                }
+            ]
+        },
+        {
+            "start": 122.87,
+            "end": 126.176,
+            "text": "The fire was always ours",
+            "words": [
+                {
+                    "start": 122.87,
+                    "end": 124.26,
+                    "text": "The"
+                },
+                {
+                    "start": 124.32,
+                    "end": 124.7,
+                    "text": "fire"
+                },
+                {
+                    "start": 124.768,
+                    "end": 124.98,
+                    "text": "was"
+                },
+                {
+                    "start": 124.98,
+                    "end": 125.62,
+                    "text": "always"
+                },
+                {
+                    "start": 125.62,
+                    "end": 126.176,
+                    "text": "ours"
+                }
+            ]
+        },
+        {
+            "start": 132.92,
+            "end": 135.424,
+            "text": "The fire was always ours",
+            "words": [
+                {
+                    "start": 132.92,
+                    "end": 133.78,
+                    "text": "The"
+                },
+                {
+                    "start": 133.952,
+                    "end": 134.26,
+                    "text": "fire"
+                },
+                {
+                    "start": 134.46,
+                    "end": 134.56,
+                    "text": "was"
+                },
+                {
+                    "start": 134.56,
+                    "end": 135.08,
+                    "text": "always"
+                },
+                {
+                    "start": 135.08,
+                    "end": 135.424,
+                    "text": "ours"
+                }
+            ]
+        }
+    ]
+}

@@ -8,39 +8,39 @@ var track_07_data = {
             "start": 10.672,
             "end": 14.012,
             "lyric": "They were fighting when I slipped away",
-            "real_meaning": "The elite exiting the mess they created — the billionaire building a bunker, the politician retiring to a villa.",
+            "real_meaning": "The elite exit strategy: The billionaire retreats to the bunker, the CEO steps down with a golden parachute while the system burns.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0720.jpg",
-                    "query": "Wideshot of a prehistoric tribe gathering, firelit and warm,  with a figure quietly slipping away."
+                    "query": "Wide shot: The Mage quietly slips down from his rock while the tribe is completely distracted by their civil war."
                 },
                 {
                     "offset": 0.96,
                     "url": "media/c0721.jpg",
-                    "query": "Tribe members fighting over an empty lighter in a dramatic firelit struggle."
+                    "query": "Medium tracking shot: The Mage sneaks through the periphery of the camp, grabbing his belongings."
                 },
                 {
                     "offset": 1.61,
                     "url": "media/c0722.jpg",
-                    "query": "A lone figure's back, walking away, the dim firelight on their shoulders."
+                    "query": "Close-up: The Mage picks up the small, spiky hedgehog (Revolution) from the ground and tucks it under his arm."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0723.jpg",
-                    "query": "A sprawling cityscape at dusk, a lone box of belongings sits on a rooftop. A helicopter with a banner and a bunker being constructed are visible."
+                    "query": "Wide shot: The New York Stock Exchange floor at 4 PM. The closing bell rings, but the screens flash aggressive red numbers."
                 },
                 {
                     "offset": 0.96,
                     "url": "media/c0724.jpg",
-                    "query": "A sleek boardroom, CEO's chair empty.  A modern IPO bell with a dead screen. Empty glasses and half eaten pizza on the table."
+                    "query": "Medium shot: The tech CEO quietly exiting through the underground parking garage, surrounded by security."
                 },
                 {
                     "offset": 1.61,
                     "url": "media/c0725.jpg",
-                    "query": "A billionaire in a suit, holding a bunker blueprint. The sun setting behind him, casting long shadows. A helicopter in the background."
+                    "query": "Close-up: A retail investor staring in absolute horror at their stock portfolio collapsing on a cracked phone screen."
                 }
             ],
             "words": [
@@ -86,39 +86,39 @@ var track_07_data = {
             "start": 15.582,
             "end": 19.352,
             "lyric": "Grabbed my hedgehog, didn't stay",
-            "real_meaning": "Taking only what's real — the hedgehog (Revolution) represents the one authentic thing amid the artifice.",
+            "real_meaning": "Taking only what is real: The Mage grabs the hedgehog (Revolution)—the one authentic, natural element amidst the utter artifice.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0726.jpg",
-                    "query": "A vast prehistoric valley at dusk, a figure vanishes into the distance."
+                    "query": "Wide shot: A Gralhista spots the fleeing Mage. The tribe immediately stops fighting and rushes toward him."
                 },
                 {
                     "offset": 0.65,
                     "url": "media/c0727.jpg",
-                    "query": "A tribe in heated combat, firelight illuminating faces contorted with tension."
+                    "query": "Medium shot: The Mage panics. He turns and throws the Orange Box high into the air toward the charging crowd."
                 },
                 {
                     "offset": 1.95,
                     "url": "media/c0728.jpg",
-                    "query": "A hand gently scoops up a hedgehog, eyes filled with determination."
+                    "query": "Close-up: The Orange Box spinning in slow motion through the night sky."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0729.jpg",
-                    "query": "A sprawling cityscape at dusk, a lone figure stands amidst a chaotic urban landscape, holding a small box of belongings."
+                    "query": "Wide pan: A massive, apocalyptic e-waste dump located overseas. Mountains of obsolete, unfixable branded electronics rotting in the sun."
                 },
                 {
                     "offset": 0.65,
                     "url": "media/c0730.jpg",
-                    "query": "A sleek, modern office with flickering screens and a dimly lit corridor. A figure in a suit exits the room as the room begins to darken."
+                    "query": "Medium shot: The user slowly deleting social media apps off their home screen one by one."
                 },
                 {
                     "offset": 1.95,
                     "url": "media/c0731.jpg",
-                    "query": "A close-up of a hand cradling a small hedgehog, its eyes reflecting a dying screen."
+                    "query": "Close-up: Powering the phone down. The screen goes completely, beautifully black."
                 }
             ],
             "words": [
@@ -154,7 +154,7 @@ var track_07_data = {
             "start": 20.833,
             "end": 24.792,
             "lyric": "Just one look back to see the scene",
-            "real_meaning": "The backward glance — Lot's wife, the rearview mirror, the moment of regret before you drive away.",
+            "real_meaning": "The backward glance of regret: Lot's wife, the rearview mirror. The momentary guilt of leaving the chaos you personally engineered.",
             "media": [
                 {
                     "offset": 0.0,
@@ -237,7 +237,7 @@ var track_07_data = {
             "start": 25.413,
             "end": 29.932,
             "lyric": "The tribe all fighting, mean and keen",
-            "real_meaning": "Social media in 2024 — everyone fighting fiercely over things that don't matter, mean and enthusiastic.",
+            "real_meaning": "The modern social media landscape: Everyone fighting fiercely, enthusiastically, and viciously over things that fundamentally do not matter.",
             "media": [
                 {
                     "offset": 0.0,
@@ -315,7 +315,7 @@ var track_07_data = {
             "start": 31.468,
             "end": 35.272,
             "lyric": "I threw the lighter in the air",
-            "real_meaning": "Releasing the product into the wild — the IPO, the open-source release, letting go of what you created.",
+            "real_meaning": "Releasing the product into the wild: The IPO, the open-sourcing of the token, deliberately letting go of the empty gadget to secure escape.",
             "media": [
                 {
                     "offset": 0.0,
@@ -393,7 +393,7 @@ var track_07_data = {
             "start": 36.8,
             "end": 40.272,
             "lyric": "Gralha jumped to grab it there",
-            "real_meaning": "The consumer leaping for the product — launch day queues, Black Friday stampedes, desperate acquisition.",
+            "real_meaning": "The consumer leaps: Black Friday stampedes, desperate acquisition. The masses lunging for the shiny distraction.",
             "media": [
                 {
                     "offset": 0.0,
@@ -466,7 +466,7 @@ var track_07_data = {
             "start": 41.832,
             "end": 45.492,
             "lyric": "The tribe all followed, wild and thick",
-            "real_meaning": "The herd following — viral trends, stock market bubbles, mob mentality chasing the next shiny thing.",
+            "real_meaning": "The herd mentality: Bubble economics, viral trends. The mindless mob chasing the next bright, shiny, entirely hollow object.",
             "media": [
                 {
                     "offset": 0.0,
@@ -544,7 +544,7 @@ var track_07_data = {
             "start": 47.456,
             "end": 50.992,
             "lyric": "For an object that wouldn't click",
-            "real_meaning": "The empty product — the lighter without gas, the app without value, the status symbol without substance.",
+            "real_meaning": "The empty product: Exploring the metaverse, buying heavily inflated stock. A lighter that no longer sparks. Valueless.",
             "media": [
                 {
                     "offset": 0.0,
@@ -617,7 +617,7 @@ var track_07_data = {
             "start": 62.14,
             "end": 66.612,
             "lyric": "The gas was gone, they didn't know",
-            "real_meaning": "The bubble has burst but nobody realizes — the company is bankrupt but the stock price hasn't caught up.",
+            "real_meaning": "The bursting bubble: The company is bankrupt, the gas is gone, but the believers haven't realized the truth yet.",
             "media": [
                 {
                     "offset": 0.0,
@@ -695,7 +695,7 @@ var track_07_data = {
             "start": 68.252,
             "end": 72.232,
             "lyric": "The sacred thing had nothing to show",
-            "real_meaning": "The emperor's new clothes — the product is empty, the promise is void, the magic was always fake.",
+            "real_meaning": "The Emperor's new clothes: The sacred object has absolutely nothing left to offer. The promise was always a complete void.",
             "media": [
                 {
                     "offset": 0.0,
@@ -773,7 +773,7 @@ var track_07_data = {
             "start": 72.232,
             "end": 77.512,
             "lyric": "Empty plastic, hollow shell",
-            "real_meaning": "Consumer waste — landfills of dead smartphones, closets of fast fashion, the physical remains of fake meaning.",
+            "real_meaning": "The physical remains of fake meaning: Mountains of e-waste, landfills of fast fashion, the hollow plastic shells of our consumerism.",
             "media": [
                 {
                     "offset": 0.0,
@@ -836,7 +836,7 @@ var track_07_data = {
             "start": 78.832,
             "end": 82.772,
             "lyric": "I ran to my green time-travel cell",
-            "real_meaning": "Retreating to safety — logging off, going offline, escaping to nature, finding the exit before the building collapses.",
+            "real_meaning": "Retreating to the green cell: Logging off, going offline, retreating to nature. Finding the exit door before the civilization collapses.",
             "media": [
                 {
                     "offset": 0.0,
@@ -868,7 +868,7 @@ var track_07_data = {
                 {
                     "offset": 2.02,
                     "url": "media/c0791.jpg",
-                    "query": "A close-up of a personâ€™s hands pressing a power button on a sleek, modern laptop."
+                    "query": "A close-up of a person’s hands pressing a power button on a sleek, modern laptop."
                 }
             ],
             "words": [
@@ -914,7 +914,7 @@ var track_07_data = {
             "start": 83.738,
             "end": 88.16,
             "lyric": "Grabbed the hedgehog (just in case)",
-            "real_meaning": "Keeping the one real thing — the pet, the garden, the handwritten letter, the analog truth in a digital world.",
+            "real_meaning": "Preserving the analog: Keeping the pet, the garden, the tangible truth. Holding onto the real world 'just in case' the digital one dies.",
             "media": [
                 {
                     "offset": 0.0,
@@ -987,7 +987,7 @@ var track_07_data = {
             "start": 89.344,
             "end": 93.352,
             "lyric": "Saw the confusion on each face",
-            "real_meaning": "The moment the magic dies — the look in people's eyes when the influencer is exposed, the leader falls.",
+            "real_meaning": "The moment the magic dies: The collective realization of betrayal on the faces of the followers when the illusion finally breaks.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1060,7 +1060,7 @@ var track_07_data = {
             "start": 94.912,
             "end": 98.272,
             "lyric": "Closed the door and pressed return",
-            "real_meaning": "Pressing Ctrl+Z on civilization — the desire to undo, to go back, to start over knowing what we know.",
+            "real_meaning": "Pressing Ctrl+Z on civilization: The intense desire to undo the damage, to revert to a time before we traded our humanity for convenience.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1133,7 +1133,7 @@ var track_07_data = {
             "start": 100.52,
             "end": 103.81,
             "lyric": "Leaving them to crash and burn",
-            "real_meaning": "The guilt of the escapist — knowing you're leaving others in the system while you find peace. Survivor's guilt.",
+            "real_meaning": "Survivor's guilt: The heavy burden of the escapist, knowing you are leaving the rest of the tribe to crash and burn in your system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1206,7 +1206,7 @@ var track_07_data = {
             "start": 103.81,
             "end": 106.49,
             "lyric": "I threw the lighter in the air",
-            "real_meaning": "The second letting go — this time not strategic release but genuine surrender. Throwing it away for real.",
+            "real_meaning": "The final surrender: Truly throwing away the illusion. Not a strategic release, but a complete rejection of the false power.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1284,7 +1284,7 @@ var track_07_data = {
             "start": 106.492,
             "end": 114.859,
             "lyric": "Gralha jumped to grab it there",
-            "real_meaning": "Even now, someone will chase it — the cycle never fully breaks. New consumers, same desperation.",
+            "real_meaning": "The cycle never fully breaks: Even in the moment of collapse, a new Gralha will always jump to grab the shiny object. The desperation is infinite.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1357,7 +1357,7 @@ var track_07_data = {
             "start": 114.859,
             "end": 123.226,
             "lyric": "The tribe all followed, wild and thick",
-            "real_meaning": "The pattern repeats infinitely — new object, new tribe, same behavior. The lighter changes, the running doesn't.",
+            "real_meaning": "The pattern repeats endlessly: New object, new tribe, exact same behavior. The brand of the lighter changes, but the blind running never stops.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1435,7 +1435,7 @@ var track_07_data = {
             "start": 123.226,
             "end": 131.593,
             "lyric": "For an object that wouldn't click",
-            "real_meaning": "And the object is still empty — was always empty. The gas ran out ages ago. Nobody checks anymore.",
+            "real_meaning": "The hollowness is permanent: The object remains stubbornly empty. Nobody checks for gas anymore; they just violently defend the plastic.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1508,7 +1508,7 @@ var track_07_data = {
             "start": 131.593,
             "end": 139.96,
             "lyric": "\"Revolution... I'll call you Revolution.\"",
-            "real_meaning": "Naming the hedgehog Revolution — real change isn't grand, it's small, warm, and bites your shoes. It's personal.",
+            "real_meaning": "Naming the Revolution: Real change isn't a grand, sweeping keynote. It is small, prickly, grounds you in reality, and bites your shoes.",
             "media": [
                 {
                     "offset": 0.0,

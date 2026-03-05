@@ -1,0 +1,339 @@
+{
+    "id": "track_14",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 1.78,
+            "text": "Hey, what, what, what",
+            "words": [
+                {
+                    "start": 0.0,
+                    "end": 0.1,
+                    "text": "Hey,"
+                },
+                {
+                    "start": 0.5,
+                    "end": 0.74,
+                    "text": "what,"
+                },
+                {
+                    "start": 1.06,
+                    "end": 1.16,
+                    "text": "what,"
+                },
+                {
+                    "start": 1.52,
+                    "end": 1.78,
+                    "text": "what"
+                }
+            ]
+        },
+        {
+            "start": 2.1,
+            "end": 5.88,
+            "text": "\u266a",
+            "words": [
+                {
+                    "start": 2.1,
+                    "end": 5.88,
+                    "text": "\u266a"
+                }
+            ]
+        },
+        {
+            "start": 36.0,
+            "end": 38.08,
+            "text": "Where does fire sleep at night?",
+            "words": [
+                {
+                    "start": 36.0,
+                    "end": 36.52,
+                    "text": "Where"
+                },
+                {
+                    "start": 36.52,
+                    "end": 36.72,
+                    "text": "does"
+                },
+                {
+                    "start": 36.72,
+                    "end": 37.08,
+                    "text": "fire"
+                },
+                {
+                    "start": 37.08,
+                    "end": 37.5,
+                    "text": "sleep"
+                },
+                {
+                    "start": 37.5,
+                    "end": 37.72,
+                    "text": "at"
+                },
+                {
+                    "start": 37.72,
+                    "end": 38.08,
+                    "text": "night?"
+                }
+            ]
+        },
+        {
+            "start": 38.18,
+            "end": 39.9,
+            "text": "Where does it go to rest?",
+            "words": [
+                {
+                    "start": 38.18,
+                    "end": 38.3,
+                    "text": "Where"
+                },
+                {
+                    "start": 38.304,
+                    "end": 38.62,
+                    "text": "does"
+                },
+                {
+                    "start": 38.62,
+                    "end": 38.8,
+                    "text": "it"
+                },
+                {
+                    "start": 38.8,
+                    "end": 39.14,
+                    "text": "go"
+                },
+                {
+                    "start": 39.14,
+                    "end": 39.36,
+                    "text": "to"
+                },
+                {
+                    "start": 39.36,
+                    "end": 39.9,
+                    "text": "rest?"
+                }
+            ]
+        },
+        {
+            "start": 40.18,
+            "end": 43.68,
+            "text": "Show me its cradle, show me its nest",
+            "words": [
+                {
+                    "start": 40.18,
+                    "end": 40.42,
+                    "text": "Show"
+                },
+                {
+                    "start": 40.42,
+                    "end": 40.68,
+                    "text": "me"
+                },
+                {
+                    "start": 40.68,
+                    "end": 40.94,
+                    "text": "its"
+                },
+                {
+                    "start": 40.94,
+                    "end": 41.72,
+                    "text": "cradle,"
+                },
+                {
+                    "start": 42.14,
+                    "end": 42.56,
+                    "text": "show"
+                },
+                {
+                    "start": 42.56,
+                    "end": 42.84,
+                    "text": "me"
+                },
+                {
+                    "start": 42.84,
+                    "end": 43.12,
+                    "text": "its"
+                },
+                {
+                    "start": 43.12,
+                    "end": 43.68,
+                    "text": "nest"
+                }
+            ]
+        },
+        {
+            "start": 44.08,
+            "end": 45.06,
+            "text": "The orange ox,",
+            "words": [
+                {
+                    "start": 44.08,
+                    "end": 44.2,
+                    "text": "The"
+                },
+                {
+                    "start": 44.2,
+                    "end": 44.7,
+                    "text": "orange"
+                },
+                {
+                    "start": 44.7,
+                    "end": 45.06,
+                    "text": "ox,"
+                }
+            ]
+        },
+        {
+            "start": 45.16,
+            "end": 46.1,
+            "text": "the orange fox,",
+            "words": [
+                {
+                    "start": 45.16,
+                    "end": 45.32,
+                    "text": "the"
+                },
+                {
+                    "start": 45.32,
+                    "end": 45.74,
+                    "text": "orange"
+                },
+                {
+                    "start": 45.74,
+                    "end": 46.1,
+                    "text": "fox,"
+                }
+            ]
+        },
+        {
+            "start": 46.2,
+            "end": 48.2,
+            "text": "the baby fire sleeps inside",
+            "words": [
+                {
+                    "start": 46.2,
+                    "end": 46.34,
+                    "text": "the"
+                },
+                {
+                    "start": 46.34,
+                    "end": 46.66,
+                    "text": "baby"
+                },
+                {
+                    "start": 46.66,
+                    "end": 47.18,
+                    "text": "fire"
+                },
+                {
+                    "start": 47.18,
+                    "end": 47.58,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 47.58,
+                    "end": 48.2,
+                    "text": "inside"
+                }
+            ]
+        },
+        {
+            "start": 48.36,
+            "end": 49.24,
+            "text": "The orange fox,",
+            "words": [
+                {
+                    "start": 48.36,
+                    "end": 48.48,
+                    "text": "The"
+                },
+                {
+                    "start": 48.48,
+                    "end": 48.88,
+                    "text": "orange"
+                },
+                {
+                    "start": 48.88,
+                    "end": 49.24,
+                    "text": "fox,"
+                }
+            ]
+        },
+        {
+            "start": 49.36,
+            "end": 50.24,
+            "text": "the orange fox,",
+            "words": [
+                {
+                    "start": 49.36,
+                    "end": 49.52,
+                    "text": "the"
+                },
+                {
+                    "start": 49.52,
+                    "end": 49.94,
+                    "text": "orange"
+                },
+                {
+                    "start": 49.94,
+                    "end": 50.24,
+                    "text": "fox,"
+                }
+            ]
+        },
+        {
+            "start": 50.28,
+            "end": 51.18,
+            "text": "we'll run with it,",
+            "words": [
+                {
+                    "start": 50.28,
+                    "end": 50.5,
+                    "text": "we'll"
+                },
+                {
+                    "start": 50.5,
+                    "end": 50.76,
+                    "text": "run"
+                },
+                {
+                    "start": 50.76,
+                    "end": 50.96,
+                    "text": "with"
+                },
+                {
+                    "start": 50.96,
+                    "end": 51.18,
+                    "text": "it,"
+                }
+            ]
+        },
+        {
+            "start": 51.32,
+            "end": 52.9,
+            "text": "we'll run with pride",
+            "words": [
+                {
+                    "start": 51.32,
+                    "end": 51.56,
+                    "text": "we'll"
+                },
+                {
+                    "start": 51.56,
+                    "end": 51.88,
+                    "text": "run"
+                },
+                {
+                    "start": 51.88,
+                    "end": 52.26,
+                    "text": "with"
+                },
+                {
+                    "start": 52.26,
+                    "end": 52.9,
+                    "text": "pride"
+                }
+            ]
+        }
+    ]
+}

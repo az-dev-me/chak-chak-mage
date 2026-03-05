@@ -93,7 +93,7 @@
             "id": "line_11_occ_0",
             "line_index": 11,
             "occurrence_index": 0,
-            "start": 42.688,
+            "start": 43.36,
             "end": 44.486,
             "lyric": "Which one is right?"
         },
@@ -109,15 +109,15 @@
             "id": "line_13_occ_0",
             "line_index": 13,
             "occurrence_index": 0,
-            "start": 48.64,
-            "end": 51.32,
+            "start": 48.04,
+            "end": 51.74,
             "lyric": "MU-DA! MU-DA!"
         },
         {
             "id": "line_14_occ_0",
             "line_index": 14,
             "occurrence_index": 0,
-            "start": 52.18,
+            "start": 52.02,
             "end": 57.311,
             "lyric": "Tronco stepped between the two"
         },
@@ -173,16 +173,16 @@
             "id": "line_21_occ_0",
             "line_index": 21,
             "occurrence_index": 0,
-            "start": 80.84,
-            "end": 82.94,
+            "start": 80.768,
+            "end": 82.96,
             "lyric": "Which one is right?"
         },
         {
             "id": "line_22_occ_0",
             "line_index": 22,
             "occurrence_index": 0,
-            "start": 82.94,
-            "end": 101.6,
+            "start": 82.96,
+            "end": 101.62,
             "lyric": "\"Where's the Mage gone?\""
         }
     ]

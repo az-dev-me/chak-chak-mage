@@ -13,8 +13,10 @@ const TimingEngine = (() => {
     let lastTransitionIdx = 0;
     let lastBeatTime = 0;
     let currentSectionIdx = -1;
+    let beatCount = 0;
 
     const BEAT_DECAY = 0.08; // seconds for pulse decay
+    const BEATS_PER_BAR = 4; // assume 4/4 time
 
     const listeners = { beat: [], sectionChange: [], transitionPoint: [] };
 
@@ -34,14 +36,19 @@ const TimingEngine = (() => {
             section: null,
             sectionChanged: false,
             isTransitionPoint: false,
+            isDownbeat: false,
+            beatCount: 0,
         };
 
         // Beat detection — advance through beat_times
         while (lastBeatIdx < beatTimes.length && currentTime >= beatTimes[lastBeatIdx]) {
             lastBeatTime = beatTimes[lastBeatIdx];
             lastBeatIdx++;
+            beatCount++;
             for (const cb of listeners.beat) cb(lastBeatTime);
         }
+        result.beatCount = beatCount;
+        result.isDownbeat = (beatCount > 0 && beatCount % BEATS_PER_BAR === 1);
 
         // Beat pulse: exponential decay from last beat
         const timeSinceBeat = currentTime - lastBeatTime;
@@ -103,7 +110,10 @@ const TimingEngine = (() => {
         lastTransitionIdx = 0;
         lastBeatTime = 0;
         currentSectionIdx = -1;
+        beatCount = 0;
     }
 
-    return { load, tick, getEnergy, on, reset };
+    function getBpm() { return bpm; }
+
+    return { load, tick, getEnergy, getBpm, on, reset };
 })();

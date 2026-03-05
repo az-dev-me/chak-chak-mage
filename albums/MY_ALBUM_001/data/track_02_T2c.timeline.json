@@ -22,15 +22,15 @@
             "line_index": 2,
             "occurrence_index": 0,
             "start": 37.892,
-            "end": 42.56,
+            "end": 41.72,
             "lyric": "Where does fire sleep at night? Where does it go to rest?"
         },
         {
             "id": "line_3_occ_0",
             "line_index": 3,
             "occurrence_index": 0,
-            "start": 42.785,
-            "end": 44.74,
+            "start": 41.223,
+            "end": 44.22,
             "lyric": "Show me its cradle, show me its nest.\""
         },
         {
@@ -197,7 +197,7 @@
             "id": "line_24_occ_0",
             "line_index": 24,
             "occurrence_index": 0,
-            "start": 122.884,
+            "start": 122.48,
             "end": 156.576,
             "lyric": "Run, run, don't let it die!"
         }

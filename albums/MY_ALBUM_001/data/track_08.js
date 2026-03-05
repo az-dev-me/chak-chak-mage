@@ -8,19 +8,19 @@ var track_08_data = {
             "start": 14.88,
             "end": 16.589,
             "lyric": "I sat on the couch",
-            "real_meaning": "Back in the modern world — the post-adventure depression, the Sunday night existential dread.",
+            "real_meaning": "Back in the modern world: The post-adventure depression. The Sunday night existential dread when the screens turn off.",
             "media": [
                 {
                     "offset": 1.25,
                     "url": "media/c0847.jpg",
-                    "query": "A figure slumps on the couch, staring blankly into the firelit night, the dancing flames of a nearby campfire casting warm shadows on their face."
+                    "query": "Medium shot: The traveler (now back in modern clothes) slumps heavily onto their couch, staring blankly at the wall."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 1.25,
                     "url": "media/c0850.jpg",
-                    "query": "A man sits alone in a minimalist apartment, staring blankly at his glowing phone screen."
+                    "query": "Medium shot: The user sitting in traffic, looking over at the car next to them, seeing an identical exhausted face illuminated by a phone screen."
                 }
             ],
             "words": [
@@ -87,7 +87,7 @@ var track_08_data = {
             "start": 21.952,
             "end": 26.032,
             "lyric": "The hedgehog chewing on my shoe",
-            "real_meaning": "Revolution grounding you in reality — the pet destroying luxury goods, nature vs materialism.",
+            "real_meaning": "Revolution grounding you in reality: The primal, natural world (the hedgehog) gnawing at our manufactured luxury goods (the shoe).",
             "media": [
                 {
                     "offset": 0.0,
@@ -160,7 +160,7 @@ var track_08_data = {
             "start": 27.968,
             "end": 29.088,
             "lyric": "And I thought...",
-            "real_meaning": "The realization that human nature doesn't change — same patterns, same mistakes, different technology.",
+            "real_meaning": "The devastating realization: Human nature simply does not change. We repeat the exact same primal mistakes, just with sleeker technology.",
             "media": [
                 {
                     "offset": 0.0,
@@ -249,7 +249,7 @@ var track_08_data = {
             "start": 40.896,
             "end": 44.192,
             "lyric": "The lighter was just a lighter, true",
-            "real_meaning": "The smartphone is just a phone — the car is just transport, the job is just work. We add the sacred meaning.",
+            "real_meaning": "The smartphone is just a phone: The car is just transport, the job is just work. We are the ones who inject desperate, sacred meaning into tools.",
             "media": [
                 {
                     "offset": 0.0,
@@ -327,7 +327,7 @@ var track_08_data = {
             "start": 46.172,
             "end": 48.189,
             "lyric": "But they made it a totem",
-            "real_meaning": "We turned tools into gods — the salary into self-worth, the follower count into identity, the brand into belonging.",
+            "real_meaning": "Tools turned into gods: Elevating salary to self-worth, follower count to identity. We transformed the mundane into totems to pursue.",
             "media": [
                 {
                     "offset": 0.0,
@@ -421,7 +421,7 @@ var track_08_data = {
             "start": 53.28,
             "end": 55.86,
             "lyric": "And today, thousands of years ahead",
-            "real_meaning": "The mirror turns on us — this isn't ancient history, this is your morning commute.",
+            "real_meaning": "The mirror turns on the listener: This isn’t ancient history about cavemen; this is a direct reflection of your daily morning commute.",
             "media": [
                 {
                     "offset": 0.0,
@@ -494,7 +494,7 @@ var track_08_data = {
             "start": 57.282,
             "end": 60.272,
             "lyric": "What's changed? Nothing, it's all been said",
-            "real_meaning": "The devastating punchline — all our progress is technological, not psychological. The hardware hasn't changed.",
+            "real_meaning": "The punchline of progress: All of our advancement is strictly technological, not psychological. The human hardware is identical to the Paleolithic.",
             "media": [
                 {
                     "offset": 0.0,
@@ -572,7 +572,7 @@ var track_08_data = {
             "start": 60.272,
             "end": 62.674,
             "lyric": "WE'RE ALL RUNNING WITH THE DYING FLAME",
-            "real_meaning": "The morning commute, the career ladder, the Instagram hustle — running with flames we didn't light and can't sustain.",
+            "real_meaning": "The morning commute: The career ladder, the constant hustle. We are all running frantically with dying flames we didn't even light.",
             "media": [
                 {
                     "offset": 0.0,
@@ -650,7 +650,7 @@ var track_08_data = {
             "start": 62.892,
             "end": 66.512,
             "lyric": "CONVINCED WE'RE CARRYING FIRE, WHAT A SHAME",
-            "real_meaning": "We think we're building something meaningful — but we're just carrying someone else's dying ember.",
+            "real_meaning": "Carrying someone else's ember: The tragedy of believing we are building something deeply meaningful when we are just serving the machine.",
             "media": [
                 {
                     "offset": 0.0,
@@ -728,7 +728,7 @@ var track_08_data = {
             "start": 66.512,
             "end": 82.14,
             "lyric": "THE STONE IS THERE, UPON THE GROUND",
-            "real_meaning": "Simple solutions surround us — community, nature, craft, love. Free, available, ignored.",
+            "real_meaning": "Simple solutions surround us: Community, nature, craft, human connection. The stones are free, available, and entirely ignored.",
             "media": [
                 {
                     "offset": 0.0,
@@ -806,7 +806,7 @@ var track_08_data = {
             "start": 82.14,
             "end": 88.25,
             "lyric": "WAITING FOR A STRIKE, FOR A SOUND",
-            "real_meaning": "All it takes is one person to stop and look down — one Muda, one moment of clarity.",
+            "real_meaning": "Waiting for the strike: All it takes is one person to stop running, look down, and choose to interact with reality. One moment of clarity.",
             "media": [
                 {
                     "offset": 0.0,
@@ -884,7 +884,7 @@ var track_08_data = {
             "start": 88.252,
             "end": 129.53,
             "lyric": "The modern Gralha still shouts today:",
-            "real_meaning": "The believer hasn't changed — different clothes, same fear, same devotion to the brand.",
+            "real_meaning": "The believer hasn't changed: The modern commuter still shouts the same defensive slogans. Different clothes, exact same brand devotion.",
             "media": [
                 {
                     "offset": 0.0,
@@ -957,7 +957,7 @@ var track_08_data = {
             "start": 129.53,
             "end": 130.31,
             "lyric": "\"BUT THE MAGE SAID IT WAS TRANSPORT!\"",
-            "real_meaning": "'But the CEO said it would change the world!' — clinging to the original promise long after it's broken.",
+            "real_meaning": "Clinging to the broken promise: 'But the CEO said it would change the world!' Faith in the original authority persists long after betrayal.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1035,7 +1035,7 @@ var track_08_data = {
             "start": 130.31,
             "end": 131.09,
             "lyric": "And the modern Tronco has his say:",
-            "real_meaning": "The superficial critic — missing the point entirely, focused on aesthetics over substance.",
+            "real_meaning": "The superficial critic remains: The modern Tronco still misses the point, focusing entirely on aesthetics rather than the absolute lack of substance.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1113,7 +1113,7 @@ var track_08_data = {
             "start": 131.09,
             "end": 131.394,
             "lyric": "\"YEAH",
-            "real_meaning": "'But the original iPhone was better' — arguing about the color of the cage instead of the cage itself.",
+            "real_meaning": "Color wars over substance: 'I want a blue one!' Arguing over the aesthetics of the cage instead of realizing you are in a cage at all.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1225,7 +1225,7 @@ var track_08_data = {
             "start": 131.88,
             "end": 132.235,
             "lyric": "I WANT A BLUE ONE!",
-            "real_meaning": "Peak consumerism — not even wanting freedom, just wanting the same prison in a different color.",
+            "real_meaning": "Hope persists: The truth does not die. It doesn't need to trend or go viral. It simply waits on the ground for someone to pick it up.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1347,7 +1347,7 @@ var track_08_data = {
             "start": 132.66,
             "end": 133.24,
             "lyric": "The fire is still there...",
-            "real_meaning": "Hope persists — the truth doesn't die, it waits. The stone is still on the ground.",
+            "real_meaning": "Patience of the truth: The fundamental laws of nature and human connection remain constant, waiting out our frantic, temporary delusions.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1415,7 +1415,7 @@ var track_08_data = {
             "start": 133.24,
             "end": 133.44,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1463,7 +1463,7 @@ var track_08_data = {
             "start": 133.44,
             "end": 133.824,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1511,7 +1511,7 @@ var track_08_data = {
             "start": 136.237,
             "end": 139.209,
             "lyric": "Waiting...",
-            "real_meaning": "Patience of truth — it doesn't advertise, it doesn't trend, it doesn't go viral. It just waits.",
+            "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1559,7 +1559,7 @@ var track_08_data = {
             "start": 139.21,
             "end": 142.71,
             "lyric": "Waiting for someone to remember...",
-            "real_meaning": "Waiting for the next Muda — the next person brave enough to stop running and pick up the stone.",
+            "real_meaning": "The quiet power of reality: Knowing that whenever we are ready to drop the empty plastic, the real fire is still exactly where we left it.",
             "media": [
                 {
                     "offset": 0.0,

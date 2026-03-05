@@ -7,39 +7,39 @@
             "start": 0.18,
             "end": 2.937,
             "lyric": "The Mage said box! The box is law!",
-            "real_meaning": "The traditionalist's cry — 'the founder said so', 'it's in the constitution', appeal to authority over evidence.",
+            "real_meaning": "The traditionalist's desperate cry: Appealing to authority ('The founder said so!') rather than accepting undeniable empirical evidence.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0582.jpg",
-                    "query": "A vast, firelit prehistoric valley. Smoke rises from scattered camps.  In the distance, a towering box-shaped monolith, cast in warm tones. A storm brews in the sky."
+                    "query": "Wide shot: The tribe is in complete disarray. Some worship the box, some worship the stones."
                 },
                 {
                     "offset": 1.0,
                     "url": "media/c0583.jpg",
-                    "query": "Two tribes face off, firelight flickering.  Mudistas hold burning torches.  Gralhistas, standing before a frozen Tronco."
+                    "query": "Medium shot: The Gralhistas aggressively point at the Orange Box, refusing to acknowledge Muda's real fire."
                 },
                 {
                     "offset": 1.58,
                     "url": "media/c0584.jpg",
-                    "query": "Tronco's frightened face, a fire reflected in his tear-filled eyes. His expression is one of deep fear."
+                    "query": "Close-up: The Mudistas fiercely clashing stones together in a mocking, rhythmic chant toward the Gralhistas."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0585.jpg",
-                    "query": "A sprawling cityscape at dusk, neon signs reflect on rain-soaked streets. Dueling protests fill the frame."
+                    "query": "Wide shot: A massive, screaming protest outside a tech headquarters. Signs waving, police barricades in place."
                 },
                 {
                     "offset": 1.0,
                     "url": "media/c0586.jpg",
-                    "query": "A tense newsroom, two anchors debate fiercely, split-screen shows contrasting images of protests.  Intense expressions."
+                    "query": "Medium shot: Dueling megaphones. Two distinct factions violently chanting slogans at each other."
                 },
                 {
                     "offset": 1.58,
                     "url": "media/c0587.jpg",
-                    "query": "A close-up of a person's eyes, intense focus on a worn-out document. Fists clenched."
+                    "query": "Close-up: A frightened middle manager stuck in their car between the two screaming factions, doors locked, terrified of both."
                 }
             ],
             "words": [
@@ -90,39 +90,39 @@
             "start": 3.851,
             "end": 7.419,
             "lyric": "The box is everything we saw!",
-            "real_meaning": "Confirmation bias as faith — 'I saw it work, therefore the whole system is true.'",
+            "real_meaning": "Confirmation bias as faith: 'I saw the box make fire once, therefore the entire absurd system must be eternally true.'",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0588.jpg",
-                    "query": "A vast prehistoric valley bathed in warm sunlight, a towering stone box dominates the center, surrounded by huddled figures in awe."
+                    "query": "Wide panning shot: The camp is lit by competing fires. The tension is unbearable. Shadows dance violently on the cave walls."
                 },
                 {
                     "offset": 0.79,
                     "url": "media/c0589.jpg",
-                    "query": "Two figures locked in intense argument, one gesturing wildly at the box, the other defiantly pointing at a distant fire."
+                    "query": "Medium shot: Tronco sits in the absolute center, paralyzed by the conflicting ideologies, hugging his knees."
                 },
                 {
                     "offset": 1.75,
                     "url": "media/c0590.jpg",
-                    "query": "A close-up of a terrified figure, eyes wide with fear and doubt, as the box casts an eerie glow over their face."
+                    "query": "Close-up: Tronco whimpering in the firelight, terrified of the darkness beyond the camp."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0591.jpg",
-                    "query": "A sprawling cityscape at dusk, neon signs reflecting on rain-soaked streets, skyscrapers looming, a massive digital billboard flashing a constantly scrolling terms of service."
+                    "query": "Medium shot: The algorithm at work. Servers parsing the anger, converting the screaming into targeted advertising revenue."
                 },
                 {
                     "offset": 0.79,
                     "url": "media/c0592.jpg",
-                    "query": "A split-screen shot of two opposing crowds of protesters, one holding a banner, the other holding a tablet with a news feed.  A news van, and a lone figure stands between the two g"
+                    "query": "Close-up: The 'Terms of Service' update screen. The faceless bureaucracy quietly tightening control while everyone fights."
                 },
                 {
                     "offset": 1.75,
                     "url": "media/c0593.jpg",
-                    "query": "A close-up of a young protester's face, eyes wide with conviction, holding a smartphone, scrolling through social media."
+                    "query": "Wide panning shot: The culture war raging on the street, while the executive suites above remain perfectly calm and dark."
                 }
             ],
             "words": [
@@ -163,7 +163,7 @@
             "start": 7.604,
             "end": 11.2,
             "lyric": "Muda's wrong, she breaks the rules!",
-            "real_meaning": "The heretic label — anyone who questions the system is dangerous, must be cancelled, silenced, burned.",
+            "real_meaning": "The heretic label: Anyone who threatens the monopoly of truth must be cancelled, silenced, or destroyed by the establishment.",
             "media": [
                 {
                     "offset": 0.0,
@@ -236,7 +236,7 @@
             "start": 11.62,
             "end": 15.194,
             "lyric": "We are the faithful, we are the tools!",
-            "real_meaning": "Proud submission — wearing servitude as identity, 'I'm a company man', the tools calling themselves faithful.",
+            "real_meaning": "Proud submission: Wearing servitude as an identity. The Gralhistas proudly declaring themselves the faithful tools of the system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -319,7 +319,7 @@
             "start": 15.549,
             "end": 18.307,
             "lyric": "Look at the stone! Look at your hand!",
-            "real_meaning": "Muda's counter — empirical evidence, your own experience, trust your senses over their narrative.",
+            "real_meaning": "Muda's empirical counter: Look at the physical reality in your own hand. Trust your senses over their corporate narrative.",
             "media": [
                 {
                     "offset": 0.0,
@@ -402,7 +402,7 @@
             "start": 19.312,
             "end": 22.39,
             "lyric": "The fire rises when you understand!",
-            "real_meaning": "Knowledge is the real power — not belief, not brand loyalty, not tribal membership. Understanding.",
+            "real_meaning": "Knowledge is the real power: Not brand loyalty, not tribal membership, but the fundamental understanding of how the world works.",
             "media": [
                 {
                     "offset": 0.0,
@@ -475,7 +475,7 @@
             "start": 23.165,
             "end": 25.797,
             "lyric": "The Mage is just a guy with tricks!",
-            "real_meaning": "Demystifying power — the CEO is just a person, the guru is just a salesman, the wizard is just a man behind a curtain.",
+            "real_meaning": "Demystifying the elite: The CEO is just a person, the tech guru is just a salesman. The Mage is just a guy with a plastic trick.",
             "media": [
                 {
                     "offset": 0.0,
@@ -558,7 +558,7 @@
             "start": 26.956,
             "end": 30.224,
             "lyric": "The spark is yours, it's in the sticks!",
-            "real_meaning": "Open-source everything — the power is in the commons, in the public domain, in nature itself.",
+            "real_meaning": "Open-source empowerment: The spark belongs to the commons. Power resides in nature, in the sticks, in community.",
             "media": [
                 {
                     "offset": 0.0,
@@ -641,7 +641,7 @@
             "start": 31.36,
             "end": 34.009,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "The great schism — Democrat vs Republican, science vs faith, progress vs tradition. Same fire, different names.",
+            "real_meaning": "The culture war schism: Democrat vs Republican, Science vs Faith. The same exact fire (human insecurity), just different names.",
             "media": [
                 {
                     "offset": 0.0,
@@ -704,7 +704,7 @@
             "start": 36.0,
             "end": 37.63,
             "lyric": "Burning in the same night!",
-            "real_meaning": "Both sides burning the same fuel of human insecurity — the division is the point, not the difference.",
+            "real_meaning": "Burning the same fuel: The tragic irony that both sides are powered by the exact same human fear and need for belonging.",
             "media": [
                 {
                     "offset": 0.0,
@@ -714,12 +714,12 @@
                 {
                     "offset": 0.55,
                     "url": "media/c0637.jpg",
-                    "query": "Muda stands defiant, facing Gralha. Flames from a bonfire cast dramatic shadows. Warm tones,  muddaâ€™s eyes reflect the fire."
+                    "query": "Muda stands defiant, facing Gralha. Flames from a bonfire cast dramatic shadows. Warm tones,  mudda’s eyes reflect the fire."
                 },
                 {
                     "offset": 1.04,
                     "url": "media/c0638.jpg",
-                    "query": "up of Muda's and Gralhaâ€™s faces.  Flames flicker in their eyes.  Both are lit by the same fire."
+                    "query": "up of Muda's and Gralha’s faces.  Flames flicker in their eyes.  Both are lit by the same fire."
                 }
             ],
             "hidden_media": [
@@ -772,7 +772,7 @@
             "start": 38.68,
             "end": 41.006,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "The culture war anthem — endless debate that generates heat but no light, engagement over enlightenment.",
+            "real_meaning": "The anthem of polarization: Endless, deafening debate that generates massive heat but absolutely zero light. Engagement over enlightenment.",
             "media": [
                 {
                     "offset": 0.0,
@@ -835,7 +835,7 @@
             "start": 42.002,
             "end": 43.312,
             "lyric": "Which one is right?",
-            "real_meaning": "The question that keeps the division alive — the answer doesn't matter, the arguing does.",
+            "real_meaning": "The question that maintains the division: Asking 'which one is right' ensures the arguing continues, which is the point of the system.",
             "media": [
                 {
                     "offset": 0.0,
@@ -896,9 +896,9 @@
         {
             "id": "line_12_occ_0",
             "start": 50.48,
-            "end": 57.22,
+            "end": 55.49,
             "lyric": "GRAL-HA! GRAL-HA!",
-            "real_meaning": "Tribal chanting — sports teams, political rallies, brand loyalty. Identity through opposition.",
+            "real_meaning": "Tribal chanting (Gral-ha): Sports team mentality applied to survival. Identity formed entirely through opposition to the 'other'.",
             "media": [
                 {
                     "offset": 0.0,
@@ -911,7 +911,7 @@
                     "query": "Two rival tribes face off, firelight dancing on their faces.  One group, Gralhistas, stand united, eyes gleaming."
                 },
                 {
-                    "offset": 3.69,
+                    "offset": 2.74,
                     "url": "media/c0656.jpg",
                     "query": "A Gralhista warrior's intense expression.  Eyes closed, mouth open, shouting the sacred rallying chant, \"GRAL-HA!"
                 }
@@ -928,30 +928,30 @@
                     "query": "A tense city street corner, two opposing mobs face off, phones and cameras out. A lone figure stands between, arms raised in a call for peace."
                 },
                 {
-                    "offset": 3.69,
+                    "offset": 2.74,
                     "url": "media/c0659.jpg",
                     "query": "A defiant face, eyes focused, mouth open in a primal roar, a sea of similar faces behind them, fists pumped, a brand logo on their shirt."
                 }
             ],
             "words": [
                 {
-                    "start": 50.68,
-                    "end": 52.8,
+                    "start": 50.48,
+                    "end": 52.985,
                     "text": "GRAL-HA!"
                 },
                 {
-                    "start": 55.211,
-                    "end": 55.491,
+                    "start": 52.985,
+                    "end": 55.49,
                     "text": "GRAL-HA!"
                 }
             ]
         },
         {
             "id": "line_13_interp",
-            "start": 57.22,
+            "start": 55.49,
             "end": 63.18,
             "lyric": "MU-DA! MU-DA!",
-            "real_meaning": "The counter-chant — equally tribal, equally reductive. Both sides reduced to slogans.",
+            "real_meaning": "The counter-chant (Mu-da): The rebellion becomes equally tribal, equally reductive. Both sides devolve into mindless slogans.",
             "media": [
                 {
                     "offset": 0.0,
@@ -959,12 +959,12 @@
                     "query": "A vast prehistoric valley, fire pits dotting the landscape, tribal figures gathered around, a massive box towering over the scene."
                 },
                 {
-                    "offset": 0.76,
+                    "offset": 0.59,
                     "url": "media/c0661.jpg",
                     "query": "Two tribes face each other, one side in a heated discussion, the other chanting fiercely, a frozen Tronco in the middle."
                 },
                 {
-                    "offset": 3.15,
+                    "offset": 3.91,
                     "url": "media/c0662.jpg",
                     "query": "A close-up of a Gralhista's face, eyes ablaze with passion, mouth wide open in a defiant shout, warm tones."
                 }
@@ -976,24 +976,24 @@
                     "query": "Aerial view of a sprawling cityscape at dusk, neon lights reflect off rain-soaked streets, skyscrapers loom with digital billboards displaying terms of service."
                 },
                 {
-                    "offset": 0.76,
+                    "offset": 0.59,
                     "url": "media/c0664.jpg",
                     "query": "Dueling protests in a bustling urban plaza, one side clad in neon blue, the other in neon red, phones raised, faces obscured by glowing screens."
                 },
                 {
-                    "offset": 3.15,
+                    "offset": 3.91,
                     "url": "media/c0665.jpg",
                     "query": "up of a determined face, voice raised in a tribal chant, a reflection of a crowd of opposing voices on their smartphone screen."
                 }
             ],
             "words": [
                 {
-                    "start": 57.22,
-                    "end": 60.2,
+                    "start": 55.49,
+                    "end": 59.335,
                     "text": "MU-DA!"
                 },
                 {
-                    "start": 60.2,
+                    "start": 59.335,
                     "end": 63.18,
                     "text": "MU-DA!"
                 }
@@ -1004,7 +1004,7 @@
             "start": 63.184,
             "end": 65.022,
             "lyric": "Tronco stepped between the two",
-            "real_meaning": "The centrist, the moderate, the fence-sitter — paralyzed by choices, defined by indecision.",
+            "real_meaning": "Tronco, the paralyzed centrist: The moderate fence-sitter, defined by superficial indecision when caught between two raging extremes.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1019,7 +1019,7 @@
                 {
                     "offset": 1.0,
                     "url": "media/c0668.jpg",
-                    "query": "Troncoâ€™s face, eyes wide with fear, mouth open, as he hesitates, frozen between two raging fires."
+                    "query": "Tronco’s face, eyes wide with fear, mouth open, as he hesitates, frozen between two raging fires."
                 }
             ],
             "hidden_media": [
@@ -1072,7 +1072,7 @@
             "start": 65.224,
             "end": 68.964,
             "lyric": "\"Wait,\" he said, \"what should I do?",
-            "real_meaning": "The paralysis of the reasonable person — when both sides are loud, the thoughtful person freezes.",
+            "real_meaning": "The paralysis of reason: When both sides are screaming absolute certainties, the thoughtful, superficial person freezes in panic.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1150,7 +1150,7 @@
             "start": 69.144,
             "end": 72.844,
             "lyric": "He's got the box, she's got the spark",
-            "real_meaning": "Reducing complex truth to simple binary — team box vs team spark, left vs right, us vs them.",
+            "real_meaning": "Complex truth reduced to binary: Team Box vs Team Spark. The nuance of reality compressed into a forced 'us vs them' choice.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1233,7 +1233,7 @@
             "start": 72.844,
             "end": 76.704,
             "lyric": "I'm just scared of the dark...\"",
-            "real_meaning": "The real truth underneath all ideology — we're all just afraid. Fear is the engine of every -ism.",
+            "real_meaning": "The root of all ideology: 'I'm just scared of the dark.' Fear is the true engine driving every single -ism, tribe, and dogma.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1303,10 +1303,10 @@
         },
         {
             "id": "line_18_occ_0",
-            "start": 78.084,
-            "end": 94.58,
+            "start": 78.284,
+            "end": 94.5,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "The schism deepens — now it's not about truth, it's about identity. You ARE your fire.",
+            "real_meaning": "The schism becomes total identity: It ceases to be about the truth or the fire. You ARE your faction. The argument is the goal.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1314,12 +1314,12 @@
                     "query": "A vast prehistoric valley at dusk, two massive fires burning brightly, each side of the valley inhabited by different tribes, cinematic."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 0.64,
                     "url": "media/c0691.jpg",
                     "query": "A close, dramatic struggle between two tribes, warm tones, firelight casting shadows on their faces."
                 },
                 {
-                    "offset": 8.46,
+                    "offset": 8.26,
                     "url": "media/c0692.jpg",
                     "query": "The eyes of a warrior, one iris reflecting the orange firelight of their tribe, the other showing fear of the approaching dark."
                 }
@@ -1331,12 +1331,12 @@
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off rainy streets, skyscrapers towering above bustling crowds and mobile phones aglow."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 0.64,
                     "url": "media/c0694.jpg",
                     "query": "Dueling protests on the streets.  Crowds facing each other, one side in black, the other in red. Tribal chants echo between them."
                 },
                 {
-                    "offset": 8.46,
+                    "offset": 8.26,
                     "url": "media/c0695.jpg",
                     "query": "A close up of a young woman's face. Tearful eyes reflecting the flames of a burning building in the distance."
                 }
@@ -1348,28 +1348,28 @@
                     "text": "the"
                 },
                 {
-                    "start": 92.24,
-                    "end": 92.62,
+                    "start": 92.4,
+                    "end": 92.66,
                     "text": "TWO"
                 },
                 {
-                    "start": 92.62,
-                    "end": 93.38,
+                    "start": 92.66,
+                    "end": 93.22,
                     "text": "FIRES!"
                 },
                 {
-                    "start": 94.464,
-                    "end": 94.58,
+                    "start": 94.24,
+                    "end": 94.5,
                     "text": "TWO"
                 }
             ]
         },
         {
             "id": "line_19_occ_0",
-            "start": 94.688,
+            "start": 94.752,
             "end": 98.36,
             "lyric": "Burning in the same night!",
-            "real_meaning": "The tragic irony — enemies who are more alike than either would admit, sharing the same darkness.",
+            "real_meaning": "Enemies sharing the same darkness: The tragic realization that the opposing tribes are identical in their underlying terror.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1377,12 +1377,12 @@
                     "query": "A vast, prehistoric landscape at sunset, a massive stone box dominating the horizon, warm tones and fire lit."
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 0.84,
                     "url": "media/c0697.jpg",
                     "query": "Two rival tribes face off, fire pits ablaze, smoke billowing, intense expressions."
                 },
                 {
-                    "offset": 1.86,
+                    "offset": 1.8,
                     "url": "media/c0698.jpg",
                     "query": "Two faces, illuminated by firelight, eyes reflecting the dancing flames, fear and determination."
                 }
@@ -1394,39 +1394,39 @@
                     "query": "Cityscape at dusk, neon lights reflecting on rain-soaked streets, towering skyscrapers with digital billboards, 3D holographic advertisements"
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 0.84,
                     "url": "media/c0700.jpg",
                     "query": "A crowded urban street, protesters from opposing sides face off, separated by police in riot gear, cell phones in hands"
                 },
                 {
-                    "offset": 1.86,
+                    "offset": 1.8,
                     "url": "media/c0701.jpg",
                     "query": "A tear-streaked face, both anger and sorrow, the person looks at their cell phone, showing a dueling protest"
                 }
             ],
             "words": [
                 {
-                    "start": 94.688,
+                    "start": 94.752,
                     "end": 95.32,
                     "text": "FIRES!"
                 },
                 {
-                    "start": 96.608,
-                    "end": 97.34,
+                    "start": 96.64,
+                    "end": 97.36,
                     "text": "Burning"
                 },
                 {
-                    "start": 97.34,
+                    "start": 97.36,
                     "end": 97.78,
                     "text": "in"
                 },
                 {
                     "start": 97.78,
-                    "end": 97.98,
+                    "end": 97.96,
                     "text": "the"
                 },
                 {
-                    "start": 97.98,
+                    "start": 97.96,
                     "end": 98.36,
                     "text": "same"
                 }
@@ -1435,9 +1435,9 @@
         {
             "id": "line_20_occ_0",
             "start": 98.36,
-            "end": 101.34,
+            "end": 99.56,
             "lyric": "TWO FIRES! TWO FIRES!",
-            "real_meaning": "Exhaustion sets in — the fires are dying but nobody will admit it. The argument sustains itself on fumes.",
+            "real_meaning": "Exhaustion sets in: The fires of debate are burning out, but no one will admit it. The culture war sustains itself purely on fumes.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1450,9 +1450,9 @@
                     "query": "medium shot of TWO FIRES! TWO FIRES!, warm tones, cave setting, cinematic"
                 },
                 {
-                    "offset": 1.56,
+                    "offset": 0.0,
                     "url": "media/c0704.jpg",
-                    "query": "close-up emotional Exhaustion sets in â€” the fires, firelight on face, intimate portrait, painterly"
+                    "query": "close-up emotional Exhaustion sets in — the fires, firelight on face, intimate portrait, painterly"
                 }
             ],
             "hidden_media": [
@@ -1467,7 +1467,7 @@
                     "query": "A dimly lit, smoke-filled room, a crowd of people huddled around smartphones and laptops, faces illuminated by screens, their expressions a mix of concern and frustration."
                 },
                 {
-                    "offset": 1.56,
+                    "offset": 0.0,
                     "url": "media/c0707.jpg",
                     "query": "A close-up of a weary face, eyes reflecting the flickering glow of a TV screen, tears streaming down cheeks, a sense of resignation and exhaustion etched deeply into their features"
                 }
@@ -1475,32 +1475,32 @@
             "words": [
                 {
                     "start": 98.36,
-                    "end": 98.9,
-                    "text": "night!"
-                },
-                {
-                    "start": 100.0,
-                    "end": 100.32,
+                    "end": 98.66,
                     "text": "TWO"
                 },
                 {
-                    "start": 100.32,
-                    "end": 100.84,
+                    "start": 98.66,
+                    "end": 98.96,
                     "text": "FIRES!"
                 },
                 {
-                    "start": 101.1,
-                    "end": 101.34,
+                    "start": 98.96,
+                    "end": 99.26,
                     "text": "TWO"
+                },
+                {
+                    "start": 99.26,
+                    "end": 99.56,
+                    "text": "FIRES!"
                 }
             ]
         },
         {
             "id": "line_21_occ_0",
-            "start": 101.34,
+            "start": 99.56,
             "end": 102.04,
             "lyric": "Which one is right?",
-            "real_meaning": "The question echoes emptier now — does anyone still care about the answer, or just about winning?",
+            "real_meaning": "The empty echo of the question: Does anyone even care about the original truth anymore, or is it purely about tribal victory?",
             "media": [
                 {
                     "offset": 0.0,
@@ -1508,12 +1508,12 @@
                     "query": "A vast, prehistoric valley at dusk, fires burning in two distant camps, cold stone box at the center of a warm, firelit landscape."
                 },
                 {
-                    "offset": 0.23,
+                    "offset": 0.84,
                     "url": "media/c0709.jpg",
                     "query": "A heated argument between two tribes, one with torches held high and the other with dark, smoldering embers. A figure stands frozen between the two camps."
                 },
                 {
-                    "offset": 0.47,
+                    "offset": 1.31,
                     "url": "media/c0710.jpg",
                     "query": "Tronco's face, eyes wide with fear and uncertainty, a single tear glistening under the firelit sky."
                 }
@@ -1525,34 +1525,34 @@
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets, towering skyscrapers. Two sides of the street are lined with protesters."
                 },
                 {
-                    "offset": 0.23,
+                    "offset": 0.84,
                     "url": "media/c0712.jpg",
                     "query": "A tense face-off between two rival groups, one side dressed in corporate attire, the other in streetwear. Both hold up mobile phones, capturing the standoff."
                 },
                 {
-                    "offset": 0.47,
+                    "offset": 1.31,
                     "url": "media/c0713.jpg",
                     "query": "A close-up of a person's face as they look from one side of the fight to the other, showing a mix of confusion, fear, and doubt."
                 }
             ],
             "words": [
                 {
-                    "start": 101.34,
-                    "end": 101.515,
+                    "start": 99.56,
+                    "end": 100.18,
                     "text": "Which"
                 },
                 {
-                    "start": 101.515,
-                    "end": 101.69,
+                    "start": 100.18,
+                    "end": 100.8,
                     "text": "one"
                 },
                 {
-                    "start": 101.69,
-                    "end": 101.865,
+                    "start": 100.8,
+                    "end": 101.42,
                     "text": "is"
                 },
                 {
-                    "start": 101.865,
+                    "start": 101.42,
                     "end": 102.04,
                     "text": "right?"
                 }
@@ -1560,10 +1560,10 @@
         },
         {
             "id": "line_22_occ_0",
-            "start": 103.92,
-            "end": 122.432,
+            "start": 103.94,
+            "end": 122.42,
             "lyric": "\"Where's the Mage gone?\"",
-            "real_meaning": "The creator has left the building — God is dead, the founder stepped down, the wizard fled. Now what?",
+            "real_meaning": "The creator abandons the collapse: God is dead, the founder cashed out, the wizard fled. The elite leave the masses to clean up the mess.",
             "media": [
                 {
                     "offset": 0.0,
@@ -1571,12 +1571,12 @@
                     "query": "A vast, prehistoric valley under a starlit sky, a towering wooden structure stands. Firelight dances on the rugged landscape, casting warm tones. Box is law. Cinematic."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 0.71,
                     "url": "media/c0715.jpg",
                     "query": "Two rival tribes face off, a great chasm between them. Fire is the only source of light, illuminating their faces and weapons. Dramatic."
                 },
                 {
-                    "offset": 2.17,
+                    "offset": 2.15,
                     "url": "media/c0716.jpg",
                     "query": "Tronco frozen, paralyzed by fear. Warm tones and painterly style."
                 }
@@ -1588,29 +1588,29 @@
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off sleek skyscrapers, bustling with digital billboards."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 0.71,
                     "url": "media/c0718.jpg",
                     "query": "Dueling protests on city street, one side wearing red, the other blue, chanting tribal songs."
                 },
                 {
-                    "offset": 2.17,
+                    "offset": 2.15,
                     "url": "media/c0719.jpg",
                     "query": "A close-up of a person looking around, alone, in a corporate office, confused, with a look of abandonment."
                 }
             ],
             "words": [
                 {
-                    "start": 104.12,
-                    "end": 104.92,
+                    "start": 104.14,
+                    "end": 104.96,
                     "text": "right?"
                 },
                 {
-                    "start": 104.92,
-                    "end": 105.92,
+                    "start": 104.96,
+                    "end": 105.96,
                     "text": "\"Where's"
                 },
                 {
-                    "start": 107.64,
+                    "start": 107.66,
                     "end": 119.724,
                     "text": "Mage"
                 },
