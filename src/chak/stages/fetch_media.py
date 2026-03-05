@@ -104,7 +104,10 @@ def _fetch_local_gpu(
     seed = int(hashlib.md5(prompt.encode()).hexdigest()[:8], 16)
     generator = torch.Generator(device=config.gpu_device).manual_seed(seed)
 
-    enhanced_prompt = f"{prompt}, high quality, cinematic lighting, digital art"
+    enhanced_prompt = (
+        f"{prompt}. cinematic film still, dramatic lighting, "
+        "rich colors, detailed, 8k, professional photography"
+    )
     prompt_preview = prompt[:40]
 
     # Dimensions must be multiples of 8 for diffusers
@@ -116,7 +119,10 @@ def _fetch_local_gpu(
     try:
         result = pipe(
             prompt=enhanced_prompt,
-            negative_prompt="blurry, low quality, distorted, deformed, text, watermark",
+            negative_prompt=(
+                "blurry, low quality, distorted, deformed, text, watermark, "
+                "abstract, noisy, artifacts, oversaturated, monochrome, ugly"
+            ),
             width=width,
             height=height,
             num_inference_steps=config.num_inference_steps,

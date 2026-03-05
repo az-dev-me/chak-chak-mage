@@ -537,7 +537,7 @@
         },
         {
             "start": 45.14,
-            "end": 48.04,
+            "end": 47.82,
             "text": "GRAL-HA! GRAL-HA!",
             "words": [
                 {
@@ -555,16 +555,10 @@
             ]
         },
         {
-            "start": 48.04,
-            "end": 51.74,
+            "start": 48.64,
+            "end": 51.78,
             "text": "MU-DA! MU-DA!",
             "words": [
-                {
-                    "start": 48.04,
-                    "end": 48.24,
-                    "text": "muda,",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 48.64,
                     "end": 48.74,
@@ -578,40 +572,46 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 50.46,
+                    "start": 50.52,
                     "end": 50.656,
-                    "text": "Red,",
+                    "text": "Beth,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 51.1,
+                    "start": 51.06,
                     "end": 51.32,
-                    "text": "black,",
+                    "text": "Beth,",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 51.48,
-                    "end": 51.74,
-                    "text": "red,",
+                    "start": 51.54,
+                    "end": 51.78,
+                    "text": "Beth!",
                     "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 52.02,
+            "start": 52.18,
             "end": 57.311,
             "text": "Tronco stepped between the two",
             "words": [
                 {
-                    "start": 52.02,
-                    "end": 52.94,
-                    "text": "muda,",
+                    "start": 52.18,
+                    "end": 52.74,
+                    "text": "Muda!",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 53.4,
-                    "end": 53.5,
-                    "text": "muda",
+                    "start": 52.74,
+                    "end": 53.24,
+                    "text": "Muda!",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 53.24,
+                    "end": 53.44,
+                    "text": "Moolah!",
                     "source": "ad-lib"
                 },
                 {
@@ -894,17 +894,17 @@
         },
         {
             "start": 80.768,
-            "end": 82.96,
+            "end": 82.8,
             "text": "Which one is right?",
             "words": [
                 {
                     "start": 80.768,
-                    "end": 80.96,
+                    "end": 81.62,
                     "text": "Which",
                     "source": "canonical"
                 },
                 {
-                    "start": 80.96,
+                    "start": 81.632,
                     "end": 82.0,
                     "text": "one",
                     "source": "canonical"
@@ -917,19 +917,19 @@
                 },
                 {
                     "start": 82.38,
-                    "end": 82.96,
+                    "end": 82.8,
                     "text": "right?",
                     "source": "canonical"
                 }
             ]
         },
         {
-            "start": 82.96,
-            "end": 101.62,
+            "start": 82.8,
+            "end": 101.6,
             "text": "\"Where's the Mage gone?\"",
             "words": [
                 {
-                    "start": 82.96,
+                    "start": 82.8,
                     "end": 100.54,
                     "text": "\"Where's",
                     "source": "canonical"
@@ -948,7 +948,7 @@
                 },
                 {
                     "start": 101.2,
-                    "end": 101.62,
+                    "end": 101.6,
                     "text": "gone?\"",
                     "source": "canonical"
                 }

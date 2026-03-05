@@ -501,26 +501,23 @@ def build_media_array(
         max_hold = 15.0
         hold_duration = max_hold - avg_intensity * (max_hold - min_hold)
 
-        # Always use ALL provided queries — intensity controls offset spacing,
-        # not image count. Each line's 3 queries are a Kuleshov sequence
-        # (establish → develop → resolve) and must all be present.
-        n_images = len(media_queries)
+        # Limit images to what fits within the line at this hold pace.
+        # Short lines (2-3s) at high energy (hold ~3.5s) → 1 image held steady.
+        # Longer lines or calmer sections → 2-3 images with room to breathe.
+        max_fit = max(1, int(duration / hold_duration) + 1)
+        n_images = min(len(media_queries), max_fit)
 
-        # Check if this line contains a section boundary (transition point)
-        is_transition = any(
-            start <= tp <= end
-            for tp in structure.get("transition_points", [])
-        )
-
-        # Place image changes at nearest beats
-        if line_beats and n_images > 1:
-            # Pick beats that best distribute n_images-1 transitions
-            selected_beats = _pick_distributed_beats(line_beats, n_images - 1)
-            offsets = [0.0] + [round(b - start, 2) for b in selected_beats]
+        # Space images at hold_duration intervals, snapped to nearest beat
+        if n_images == 1:
+            offsets = [0.0]
+        elif line_beats and n_images > 1:
+            offsets = [0.0]
+            for k in range(1, n_images):
+                abs_target = start + hold_duration * k
+                nearest = min(line_beats, key=lambda b: abs(b - abs_target))
+                offsets.append(round(nearest - start, 2))
         else:
-            # Even distribution within the line
-            step = duration / n_images if n_images > 1 else 0.0
-            offsets = [round(step * i, 2) for i in range(n_images)]
+            offsets = [round(hold_duration * i, 2) for i in range(n_images)]
 
         selected_queries = media_queries[:n_images]
     elif line_beats:
@@ -944,6 +941,46 @@ def _resolve_overlaps(
     return timeline
 
 
+# ── Variant lyrics helpers ─────────────────────────────
+
+
+def _load_variant_lyrics(
+    project_root: Path, track_id: str, variant_id: str,
+) -> list[str] | None:
+    """Load variant-specific lyrics from shared/semantics/lyrics/."""
+    lyrics_dir = project_root / "shared" / "semantics" / "lyrics"
+    lyrics_file = lyrics_dir / f"{track_id}_{variant_id}.txt"
+    if not lyrics_file.exists():
+        return None
+    text = lyrics_file.read_text(encoding="utf-8").strip()
+    if not text:
+        return None
+    return [ln.strip() for ln in text.splitlines() if ln.strip()]
+
+
+def _build_variant_sem_lines(
+    variant_lyrics: list[str],
+    base_sem_lines: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Create synthetic semantic lines from variant lyrics.
+
+    Reuses the base track's images by cycling through them.
+    Variant lines get no ``real_meaning`` (no parallel narrative).
+    """
+    synthetic: list[dict[str, Any]] = []
+    n_base = len(base_sem_lines) if base_sem_lines else 1
+    for i, lyric in enumerate(variant_lyrics):
+        base_idx = i % n_base if base_sem_lines else 0
+        base = base_sem_lines[base_idx] if base_sem_lines else {}
+        synthetic.append({
+            "lyric": lyric,
+            "media_queries": base.get("media_queries", []),
+            "hidden_media_queries": base.get("hidden_media_queries", []),
+            "real_meaning": "",
+        })
+    return synthetic
+
+
 # ── Track object assembly ───────────────────────────────
 
 
@@ -978,7 +1015,19 @@ def build_track_object(
 
     base_timeline_data = load_timeline(album_dir, track_id, variant_id)
     base_timeline = base_timeline_data.get("timeline", [])
-    lines = sem_track.get("lines", [])
+    base_sem_lines = sem_track.get("lines", [])
+
+    # Check if variant has its own lyrics (different from semantic matrix)
+    lines = base_sem_lines
+    if variant_id:
+        variant_lyrics = _load_variant_lyrics(config.project_root, track_id, variant_id)
+        if variant_lyrics and len(variant_lyrics) != len(base_sem_lines):
+            logger.info(
+                "%s: Variant %s has %d lyrics lines vs %d semantic lines — "
+                "using variant lyrics with recycled images",
+                track_id, variant_id, len(variant_lyrics), len(base_sem_lines),
+            )
+            lines = _build_variant_sem_lines(variant_lyrics, base_sem_lines)
 
     # ── Step 0: Load Whisper word-level alignment (if available) ──
     alignment = load_alignment_for_track(album_dir, track_id, variant_id)
@@ -1010,6 +1059,14 @@ def build_track_object(
             len(track_structure.get("sections", [])),
             len(track_structure.get("transition_points", [])),
         )
+        # Prefer structure beat_times over standalone .beats.json (may be stale)
+        struct_beats = track_structure.get("beat_times", [])
+        if struct_beats:
+            logger.info(
+                "%s: using %d beats from structure (was %d from .beats.json)",
+                label, len(struct_beats), len(track_beats),
+            )
+            track_beats = struct_beats
 
     # ── Step 1: Index timeline entries by canonical line_index ──
     matched_timing: dict[int, list[dict[str, Any]]] = {}
@@ -1157,6 +1214,19 @@ def build_track_object(
         else:
             # Line has NO Whisper match — interpolate timing, synthetic words
             start, end = _interpolate_timing(li, len(lines), matched_timing)
+            duration = end - start
+            n_words = max(1, len(lyric_text.split()))
+            # Minimum: 0.15s per word, at least 0.8s total
+            min_required = max(0.8, n_words * 0.15)
+
+            if duration < min_required:
+                # Gap too small — this line wasn't sung, skip it
+                logger.info(
+                    "%s: Dropping unmatched line %d (%.2fs for %d words): %.60s",
+                    label, li, duration, n_words, lyric_text,
+                )
+                continue
+
             words = synthesize_words_from_lyric(lyric_text, start, end)
             media = build_media_array(media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
             hidden_media = build_media_array(hidden_media_queries, start, end, manifest, beats=track_beats, structure=track_structure)
@@ -1228,6 +1298,7 @@ def build_track_object(
     sections_out: list[dict] = []
     transition_points_out: list[float] = []
 
+    # track_beats already updated to structure beats in Step 0c
     if track_beats:
         beat_times_out = [round(b, 3) for b in track_beats]
     if track_structure:

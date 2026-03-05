@@ -14,16 +14,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0720.jpg",
                     "query": "Wide shot: The Mage quietly slips down from his rock while the tribe is completely distracted by their civil war."
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0721.jpg",
-                    "query": "Medium tracking shot: The Mage sneaks through the periphery of the camp, grabbing his belongings."
-                },
-                {
-                    "offset": 1.61,
-                    "url": "media/c0722.jpg",
-                    "query": "Close-up: The Mage picks up the small, spiky hedgehog (Revolution) from the ground and tucks it under his arm."
                 }
             ],
             "hidden_media": [
@@ -31,16 +21,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0723.jpg",
                     "query": "Wide shot: The New York Stock Exchange floor at 4 PM. The closing bell rings, but the screens flash aggressive red numbers."
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0724.jpg",
-                    "query": "Medium shot: The tech CEO quietly exiting through the underground parking garage, surrounded by security."
-                },
-                {
-                    "offset": 1.61,
-                    "url": "media/c0725.jpg",
-                    "query": "Close-up: A retail investor staring in absolute horror at their stock portfolio collapsing on a cracked phone screen."
                 }
             ],
             "words": [
@@ -92,16 +72,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0726.jpg",
                     "query": "Wide shot: A Gralhista spots the fleeing Mage. The tribe immediately stops fighting and rushes toward him."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0727.jpg",
-                    "query": "Medium shot: The Mage panics. He turns and throws the Orange Box high into the air toward the charging crowd."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0728.jpg",
-                    "query": "Close-up: The Orange Box spinning in slow motion through the night sky."
                 }
             ],
             "hidden_media": [
@@ -109,16 +79,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0729.jpg",
                     "query": "Wide pan: A massive, apocalyptic e-waste dump located overseas. Mountains of obsolete, unfixable branded electronics rotting in the sun."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0730.jpg",
-                    "query": "Medium shot: The user slowly deleting social media apps off their home screen one by one."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0731.jpg",
-                    "query": "Close-up: Powering the phone down. The screen goes completely, beautifully black."
                 }
             ],
             "words": [
@@ -160,16 +120,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0732.jpg",
                     "query": "A vast, firelit prehistoric valley at dusk. Smoke from a fire at the center of a distant camp. A fleeing figure runs to the edge of the frame. The green glow of a cell phone and a"
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0733.jpg",
-                    "query": "A figure throws a lighter into the air. A tribe fights over a glowing shell in the foreground. A glowing green rectangle glows on the right edge of the frame."
-                },
-                {
-                    "offset": 1.99,
-                    "url": "media/c0734.jpg",
-                    "query": "A figure glances back at the firelit tribe."
                 }
             ],
             "hidden_media": [
@@ -177,16 +127,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0735.jpg",
                     "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a bustling street corner. Concrete jungle, neon lights, cool tones, cinematic."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0736.jpg",
-                    "query": "An IPO celebration, a CEO rings a bell while a crowd cheers, a sea of smartphones captures the moment, cool tones, metallic."
-                },
-                {
-                    "offset": 1.99,
-                    "url": "media/c0737.jpg",
-                    "query": "A man's face in the rearview mirror of a sleek car, his eyes filled with regret, a cityscape of e-waste recedes in the distance, warm tones, black and white."
                 }
             ],
             "words": [
@@ -243,16 +183,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0738.jpg",
                     "query": "A vast, prehistoric landscape under a fiery sunset. The tribe is silhouetted against the flames of their campfire."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0739.jpg",
-                    "query": "The Mage, cloaked in shadows, throws a lighter. A tribe member lunges for it."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0740.jpg",
-                    "query": "Two tribal warriors grapple for the empty lighter, faces contorted with fierce determination."
                 }
             ],
             "hidden_media": [
@@ -260,16 +190,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0741.jpg",
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings on a busy street corner.  High-rise buildings and neon lights surround them."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0742.jpg",
-                    "query": "A chaotic trading floor, traders frantically gesturing, screens displaying volatile stock prices, and a defeated CEO exiting the frame."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0743.jpg",
-                    "query": "A tight close-up of a hand frantically swiping through a social media feed, surrounded by dark tones and shadows."
                 }
             ],
             "words": [
@@ -323,14 +243,9 @@ var track_07_data = {
                     "query": "A vast prehistoric landscape at dusk, a lone figure darting across the savannah."
                 },
                 {
-                    "offset": 0.6,
+                    "offset": 3.25,
                     "url": "media/c0745.jpg",
                     "query": "A tribe huddled around a dying fire, a mage throwing an empty lighter into the air."
-                },
-                {
-                    "offset": 1.92,
-                    "url": "media/c0746.jpg",
-                    "query": "A close-up of the mage's face, eyes wide with determination as he releases the lighter."
                 }
             ],
             "hidden_media": [
@@ -340,14 +255,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box into a high-rise building, the streets bustling with activity below."
                 },
                 {
-                    "offset": 0.6,
+                    "offset": 3.25,
                     "url": "media/c0748.jpg",
                     "query": "A dimly lit office, a CEO stands alone, the IPO bell in hand, and a crowd of anxious faces glows through the glass windows."
-                },
-                {
-                    "offset": 1.92,
-                    "url": "media/c0749.jpg",
-                    "query": "A hand reaches out, releasing a lighter into a vast, starry night sky, reflecting the CEO's decision to let go of his creation."
                 }
             ],
             "words": [
@@ -401,14 +311,9 @@ var track_07_data = {
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure running, smoke from the distance.  WIDE."
                 },
                 {
-                    "offset": 0.56,
+                    "offset": 2.54,
                     "url": "media/c0751.jpg",
                     "query": "A tribe, silhouetted, clashing over an empty plastic object."
-                },
-                {
-                    "offset": 1.86,
-                    "url": "media/c0752.jpg",
-                    "query": "A determined figure leaping, hands outstretched, eyes locked on a distant, tantalizing object."
                 }
             ],
             "hidden_media": [
@@ -418,14 +323,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings, skyscrapers loom in the background."
                 },
                 {
-                    "offset": 0.56,
+                    "offset": 2.54,
                     "url": "media/c0754.jpg",
                     "query": "The CEO's office; sleek, modern, devoid of life. An empty chair, a cold, dark screen."
-                },
-                {
-                    "offset": 1.86,
-                    "url": "media/c0755.jpg",
-                    "query": "A chaotic, crowded shopping scene. A consumer jumps over the railing to grab a device, desperate hands reaching out in the background."
                 }
             ],
             "words": [
@@ -474,14 +374,9 @@ var track_07_data = {
                     "query": "A vast prehistoric valley bathed in warm sunlight, a lone figure running toward the horizon, a tribal horde pursuing."
                 },
                 {
-                    "offset": 0.8,
+                    "offset": 2.77,
                     "url": "media/c0757.jpg",
                     "query": "A dramatic scene at the edge of a cliff. The Mage holds an empty lighter, tribe members fighting over it."
-                },
-                {
-                    "offset": 2.1,
-                    "url": "media/c0758.jpg",
-                    "query": "A close-up of the Mage's face, eyes wide with determination."
                 }
             ],
             "hidden_media": [
@@ -491,14 +386,9 @@ var track_07_data = {
                     "query": "A wide shot of a bustling cityscape at dusk, a lone box of belongings sits on the curb in front of a towering skyscraper."
                 },
                 {
-                    "offset": 0.8,
+                    "offset": 2.77,
                     "url": "media/c0760.jpg",
                     "query": "A crowded trading floor, faces lit by screens, hands gesturing frantically as people rush to buy more."
-                },
-                {
-                    "offset": 2.1,
-                    "url": "media/c0761.jpg",
-                    "query": "A close-up of a person's hand holding a phone, fingers scrolling frantically, face hidden in shadow."
                 }
             ],
             "words": [
@@ -552,14 +442,9 @@ var track_07_data = {
                     "query": "WIDE scene of a prehistoric landscape with a tribe around a fire. Warm hues."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 2.4,
                     "url": "media/c0763.jpg",
                     "query": "MEDIUM shot of a tribe member tossing a lighter into the center of the tribe."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0764.jpg",
-                    "query": "UP of hands grasping an empty lighter, trying to ignite."
                 }
             ],
             "hidden_media": [
@@ -569,14 +454,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lonely box of belongings sits on a curb, ready for disposal."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 2.4,
                     "url": "media/c0766.jpg",
                     "query": "A chaotic stock exchange floor, a CEO stands alone. Their phone screen is dark."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0767.jpg",
-                    "query": "A close-up of a sleek, unused smartphone. The screen reflects the lifeless glow of an empty office."
                 }
             ],
             "words": [
@@ -625,14 +505,9 @@ var track_07_data = {
                     "query": "A vast prehistoric landscape at sunset, a lone figure retreating, tribal silhouettes chasing."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.55,
                     "url": "media/c0769.jpg",
                     "query": "A chaotic struggle over an empty plastic lighter, tribal members fighting, fire lit weapons glinting."
-                },
-                {
-                    "offset": 2.25,
-                    "url": "media/c0770.jpg",
-                    "query": "A close-up of a tribesman's face, desperation and realization."
                 }
             ],
             "hidden_media": [
@@ -642,14 +517,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street; high-rise buildings loom above. Neon lights reflect on the damp pavement; cool tones. The camera"
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.55,
                     "url": "media/c0772.jpg",
                     "query": "A chaotic trading floor, people stare at screens. One man in a suit, turns from his terminal, looks at his phone, the screen is dead.  The camera is mid shot."
-                },
-                {
-                    "offset": 2.25,
-                    "url": "media/c0773.jpg",
-                    "query": "A close-up of a man's face, his eyes wide with shock, his phone screen flickers to black, and he is in a dark room. The camera is intimate."
                 }
             ],
             "words": [
@@ -701,16 +571,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0774.jpg",
                     "query": "A vast prehistoric landscape at sunset, a lone figure running from a distant firelit tribe."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0775.jpg",
-                    "query": "A dramatic struggle around an empty plastic shell, tribespeople fighting, firelight casting warm shadows."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0776.jpg",
-                    "query": "A close-up of a tribal leader, expression of shock and disbelief, holding an empty lighter."
                 }
             ],
             "hidden_media": [
@@ -718,16 +578,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0777.jpg",
                     "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, overlooking the urban jungle."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0778.jpg",
-                    "query": "An empty boardroom, a ticker screen flickers to a dead screen. The eerie silence of a broken promise."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0779.jpg",
-                    "query": "A close-up of a hand holding an empty phone case, the screen cracked, the magic gone. A symbol of the emperor's new clothes."
                 }
             ],
             "words": [
@@ -781,14 +631,9 @@ var track_07_data = {
                     "query": "A vast prehistoric valley at sunset, a lone figure dashes away from a distant firelit tribe. Smoke billows.  Cinematic."
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 4.02,
                     "url": "media/c0781.jpg",
                     "query": "The fleeing figure throws a small object, sparks fly. A fiery torch is dropped as a group of figures grapple.  Warm."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0782.jpg",
-                    "query": "up of a weathered hand clutching an empty, melted plastic container.  Emotional, painterly."
                 }
             ],
             "hidden_media": [
@@ -798,14 +643,9 @@ var track_07_data = {
                     "query": "A vast, urban landscape at dusk, a solitary figure stands by a towering pile of unopened boxes."
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 4.02,
                     "url": "media/c0784.jpg",
                     "query": "A bustling city street, neon lights reflecting off rain-soaked pavement, people rushing with shopping bags."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0785.jpg",
-                    "query": "A discarded pile of broken electronics and clothing in an alley, lit by a single streetlight."
                 }
             ],
             "words": [
@@ -844,14 +684,9 @@ var track_07_data = {
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure retreating into the distance."
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 3.34,
                     "url": "media/c0787.jpg",
                     "query": "A tribe clashes over a small, empty plastic lighter, flames reflecting on determined faces."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0788.jpg",
-                    "query": "A close up of the Mage, running towards a glowing green cell, their eyes wide with hope."
                 }
             ],
             "hidden_media": [
@@ -861,14 +696,9 @@ var track_07_data = {
                     "query": "Aerial view of a sprawling cityscape. A lone box of belongings sits on a rooftop."
                 },
                 {
-                    "offset": 0.7,
+                    "offset": 3.34,
                     "url": "media/c0790.jpg",
                     "query": "A sleek, modern boardroom, now empty. A broken IPO bell sits on a table. An e-waste dump is visible out the window."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0791.jpg",
-                    "query": "A close-up of a person’s hands pressing a power button on a sleek, modern laptop."
                 }
             ],
             "words": [
@@ -922,14 +752,9 @@ var track_07_data = {
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure slipping away from a distant tribe."
                 },
                 {
-                    "offset": 1.08,
+                    "offset": 3.06,
                     "url": "media/c0793.jpg",
                     "query": "A tribesman throwing a lighter, sparks flying, others rushing towards the empty plastic shell."
-                },
-                {
-                    "offset": 2.41,
-                    "url": "media/c0794.jpg",
-                    "query": "up of a hand gently grabbing a hedgehog, eyes filled with determination and warmth."
                 }
             ],
             "hidden_media": [
@@ -939,14 +764,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings."
                 },
                 {
-                    "offset": 1.08,
+                    "offset": 3.06,
                     "url": "media/c0796.jpg",
                     "query": "CEO walks out of skyscraper, mountains of e-waste in the background."
-                },
-                {
-                    "offset": 2.41,
-                    "url": "media/c0797.jpg",
-                    "query": "A hand gently petting a cat, candlelight flickers on an open journal."
                 }
             ],
             "words": [
@@ -995,14 +815,9 @@ var track_07_data = {
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure fleeing, tribe in pursuit."
                 },
                 {
-                    "offset": 0.75,
+                    "offset": 2.72,
                     "url": "media/c0799.jpg",
                     "query": "The figure throws a small, smoking object, tribe members lunge for it, warm hues."
-                },
-                {
-                    "offset": 2.07,
-                    "url": "media/c0800.jpg",
-                    "query": "A tribe member's face, eyes wide with confusion, lit by flickering fire."
                 }
             ],
             "hidden_media": [
@@ -1012,14 +827,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone box of belongings in the foreground, surrounded by towering skyscrapers and neon lights reflecting off rain-soaked streets."
                 },
                 {
-                    "offset": 0.75,
+                    "offset": 2.72,
                     "url": "media/c0802.jpg",
                     "query": "A chaotic Black Friday sale, shoppers rushing, empty boxes being carried, the scene is a flurry of cool tones, and the lights and screens around people are flickering."
-                },
-                {
-                    "offset": 2.07,
-                    "url": "media/c0803.jpg",
-                    "query": "A close-up of a person's face, eyes wide with shock and disillusionment, standing alone in a vast, empty warehouse filled with discarded electronics."
                 }
             ],
             "words": [
@@ -1068,14 +878,9 @@ var track_07_data = {
                     "query": "Vast prehistoric valley at sunset. Distant tribe circles flickering fire. Figure slips away into wilderness."
                 },
                 {
-                    "offset": 1.1,
+                    "offset": 2.4,
                     "url": "media/c0805.jpg",
                     "query": "Mage struggles with empty lighter. Tribe gathers, eyes fixed on the object. Warm firelight casts long shadows."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0806.jpg",
-                    "query": "Mage's expression of determination.  Holding lighter.  Firelight plays on their face."
                 }
             ],
             "hidden_media": [
@@ -1085,14 +890,9 @@ var track_07_data = {
                     "query": "A sprawling urban landscape at dusk, a lone figure stands amidst a sea of abandoned boxes, reflecting on their belongings, on a dark road."
                 },
                 {
-                    "offset": 1.1,
+                    "offset": 2.4,
                     "url": "media/c0808.jpg",
                     "query": "A sleek, modern office space, filled with empty chairs, dead screens, and the eerie glow of standby lights."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0809.jpg",
-                    "query": "A close-up of a hand pressing a button on a keyboard, the reflection of a dark screen in the foreground, fingers trembling with uncertainty."
                 }
             ],
             "words": [
@@ -1141,14 +941,9 @@ var track_07_data = {
                     "query": "A vast prehistoric landscape at dusk, a lone figure flees, firelight flickers behind in warm tones."
                 },
                 {
-                    "offset": 0.77,
+                    "offset": 2.74,
                     "url": "media/c0811.jpg",
                     "query": "The figure throws a small, empty, plastic shell. A tribe wrestles for it in a fiery, dramatic scene."
-                },
-                {
-                    "offset": 2.09,
-                    "url": "media/c0812.jpg",
-                    "query": "up of the figure's face. A mix of relief, fear, and guilt, illuminated by warm firelight."
                 }
             ],
             "hidden_media": [
@@ -1158,14 +953,9 @@ var track_07_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street, reflections of neon lights on the pavement."
                 },
                 {
-                    "offset": 0.77,
+                    "offset": 2.74,
                     "url": "media/c0814.jpg",
                     "query": "A chaotic office party, a CEO holds a champagne glass, a clock strikes midnight,  a ticker display of stock prices freezes."
-                },
-                {
-                    "offset": 2.09,
-                    "url": "media/c0815.jpg",
-                    "query": "A weary hand holds a journal, a flickering candle casts dancing shadows, a smartphone lies facedown on the table."
                 }
             ],
             "words": [
@@ -1212,16 +1002,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0816.jpg",
                     "query": "A vast, prehistoric landscape at dusk, with a lone figure slipping away from a tribe gathering around a dying fire."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0817.jpg",
-                    "query": "A close battle for a small, empty, shiny object, warm firelight flickering on the tribe's determined faces."
-                },
-                {
-                    "offset": 1.42,
-                    "url": "media/c0818.jpg",
-                    "query": "A hand releasing a small, empty lighter into the night sky, firelight casting a warm glow on the determined face."
                 }
             ],
             "hidden_media": [
@@ -1229,16 +1009,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0819.jpg",
                     "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, looking down at the urban jungle below."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0820.jpg",
-                    "query": "A grim office, a CEO standing alone at a blank, dark screen computer, the empty trading floor reflecting in the glass doors.  The desk is bare, all files gone.  The city lights in"
-                },
-                {
-                    "offset": 1.42,
-                    "url": "media/c0821.jpg",
-                    "query": "A close-up of a hand, releasing an old cell phone, letting it fall into a dumpster filled with e-waste, under a cold fluorescent bulb."
                 }
             ],
             "words": [
@@ -1292,12 +1062,12 @@ var track_07_data = {
                     "query": "A vast prehistoric landscape at dusk, smoke from fire rises.  Two figures running away from the flames.  A tribe gathers around the fire."
                 },
                 {
-                    "offset": 0.71,
+                    "offset": 2.69,
                     "url": "media/c0823.jpg",
                     "query": "A dramatic close-up of a lighter being thrown in front of a running figure.  The lighter falls on the ground and a tribe member reaches for it.  The tribe is running behind the lig"
                 },
                 {
-                    "offset": 3.99,
+                    "offset": 5.98,
                     "url": "media/c0824.jpg",
                     "query": "A close-up of a hand grabbing for a lighter.  The lighter is empty and the hand is covered in dirt and scratches."
                 }
@@ -1309,12 +1079,12 @@ var track_07_data = {
                     "query": "A wide shot of a bustling cityscape at night, a lonely cardboard box sits in the foreground under the cold glow of neon lights. A person is walking away."
                 },
                 {
-                    "offset": 0.71,
+                    "offset": 2.69,
                     "url": "media/c0826.jpg",
                     "query": "A medium shot of a chaotic Black Friday sales event inside a tech store, with shoppers frantically grasping for nothing, illuminated by harsh fluorescent lights."
                 },
                 {
-                    "offset": 3.99,
+                    "offset": 5.98,
                     "url": "media/c0827.jpg",
                     "query": "A close-up of a desperate hand reaching for a glistening new phone in an e-waste dump, surrounded by discarded tech."
                 }
@@ -1365,12 +1135,12 @@ var track_07_data = {
                     "query": "A vast prehistoric valley at dusk, a lone figure flees towards a distant cave. The warm hues of the setting sun illuminate the rugged terrain."
                 },
                 {
-                    "offset": 0.89,
+                    "offset": 4.19,
                     "url": "media/c0829.jpg",
                     "query": "A desperate tribe, lit by flickering firelight, fights for an empty lighter, hands outstretched, faces contorted in struggle."
                 },
                 {
-                    "offset": 4.19,
+                    "offset": 7.46,
                     "url": "media/c0830.jpg",
                     "query": "A tight close-up of the tribe's leader, eyes wide with primal intensity, teeth bared, wild hair whipping in the wind."
                 }
@@ -1382,12 +1152,12 @@ var track_07_data = {
                     "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a busy street corner. Cool, cinematic."
                 },
                 {
-                    "offset": 0.89,
+                    "offset": 4.19,
                     "url": "media/c0832.jpg",
                     "query": "A sleek office boardroom, a CEO sits alone amidst a sea of glowing screens, the room is dark. Cool tones, modern."
                 },
                 {
-                    "offset": 4.19,
+                    "offset": 7.46,
                     "url": "media/c0833.jpg",
                     "query": "A close-up of a hand, holding a flickering lighter in the dark, the lighter's flame reflecting on the hand. Intimate, photographic."
                 }
@@ -1443,14 +1213,9 @@ var track_07_data = {
                     "query": "A vast, fiery landscape, a lone figure sprinting away from a tribal encampment."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 5.0,
                     "url": "media/c0835.jpg",
                     "query": "A group of tribespeople, cloaked in furs, fiercely grappling over a glinting object."
-                },
-                {
-                    "offset": 4.32,
-                    "url": "media/c0836.jpg",
-                    "query": "A hand, calloused and worn, shaking as it attempts to spark an empty lighter."
                 }
             ],
             "hidden_media": [
@@ -1460,14 +1225,9 @@ var track_07_data = {
                     "query": "A vast, empty city street at dawn, a lone cardboard box sits on the pavement, a few belongings spilling out."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 5.0,
                     "url": "media/c0838.jpg",
                     "query": "A crowded trading floor, faces filled with tension, eyes glued to flickering screens displaying volatile numbers."
-                },
-                {
-                    "offset": 4.32,
-                    "url": "media/c0839.jpg",
-                    "query": "A close-up of a hand powering down a smart phone, the screen fading to black, the hand's owner lost in thought."
                 }
             ],
             "words": [
@@ -1514,16 +1274,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0840.jpg",
                     "query": "A vast prehistoric landscape under a fiery sunset. The lone figure of a woman running away, a tribe fighting over a small object."
-                },
-                {
-                    "offset": 2.79,
-                    "url": "media/c0841.jpg",
-                    "query": "The tribe huddled around a dying fire, arguing over a small, empty plastic object. The woman runs away, a hedgehog clutched to her chest."
-                },
-                {
-                    "offset": 5.58,
-                    "url": "media/c0842.jpg",
-                    "query": "The woman smiles, eyes lit with a warm glow as she gently cradles the hedgehog, her face etched with determination."
                 }
             ],
             "hidden_media": [
@@ -1531,16 +1281,6 @@ var track_07_data = {
                     "offset": 0.0,
                     "url": "media/c0843.jpg",
                     "query": "A sprawling cityscape at dusk, a lonely figure stands alone with a box of belongings, ready to move out of a modern, high-rise apartment building."
-                },
-                {
-                    "offset": 2.79,
-                    "url": "media/c0844.jpg",
-                    "query": "A crowded trading floor in a chaotic moment, a CEO with a grim expression, a ringing IPO bell and a 2023 tech gadget in his hand, the screen of a 2023 smartphone in a dead moment."
-                },
-                {
-                    "offset": 5.58,
-                    "url": "media/c0845.jpg",
-                    "query": "A close-up of a young woman's face, lit by candlelight, as she holds a journal, the warm glow reflecting in her eyes, with a small, hedgehog in her lap."
                 }
             ],
             "words": [

@@ -4,1028 +4,3120 @@ var track_01_data = {
     "album_id": "MY_ALBUM_001",
     "timeline": [
         {
-            "id": "line_0_occ_0_s0_s0_s0",
-            "start": 0.2,
-            "end": 1.749,
-            "lyric": "When I pressed play on the time machine",
-            "real_meaning": "The accidental genesis of power: Humans stumble into godhood and alter history not by grand design, but through chaos, improvisation, and mundane intentions.",
+            "id": "line_0_occ_0",
+            "start": 9.764,
+            "end": 12.484,
+            "lyric": "I pressed play on the green phone booth",
+            "real_meaning": "The accidental genesis: You don't choose to change the world. You stumble into a phone booth you painted green because it looked cool, press a button, and nothing is ever the same.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0000.jpg",
-                    "query": "Wide establishing shot: A dense, mist-filled paleolithic forest at twilight. In the center of a clearing stands a solitary, anachronistic green British phone booth."
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0001.jpg",
-                    "query": "Medium tracking shot: The heavy door of the green phone booth pushes open with a creak. A figure in a modern hoodie steps out, boots sinking into the untouched moss."
+                    "query": "Wide shot: A battered green British phone booth standing alone in a misty twilight clearing, surrounded by ancient ferns and towering prehistoric trees."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0003.jpg",
-                    "query": "Wide establishing shot: A cluttered, dark suburban attic filled with cardboard boxes and forgotten relics. Rain patters against a small skylight window."
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0004.jpg",
-                    "query": "Medium tracking shot: The camera slowly moves through the dust motes toward an old, closed laptop sitting on a wooden desk."
+                    "query": "Wide shot: A cluttered suburban bedroom at night, clothes on the floor, rain against the window. A bored teenager sits on the bed staring at the ceiling."
                 }
             ],
             "words": [
                 {
-                    "start": 0.2,
-                    "end": 0.3,
-                    "text": "When"
-                },
-                {
-                    "start": 0.3,
-                    "end": 0.358,
+                    "start": 9.764,
+                    "end": 9.804,
                     "text": "I"
                 },
                 {
-                    "start": 0.53,
-                    "end": 0.751,
+                    "start": 9.764,
+                    "end": 10.184,
                     "text": "pressed"
                 },
                 {
-                    "start": 0.825,
-                    "end": 0.889,
+                    "start": 10.279,
+                    "end": 10.34,
                     "text": "play"
                 },
                 {
-                    "start": 1.08,
-                    "end": 1.24,
+                    "start": 11.182,
+                    "end": 11.264,
                     "text": "on"
                 },
                 {
-                    "start": 1.24,
-                    "end": 1.36,
+                    "start": 11.264,
+                    "end": 11.404,
                     "text": "the"
                 },
                 {
-                    "start": 1.54,
-                    "end": 1.6,
-                    "text": "time"
+                    "start": 11.404,
+                    "end": 11.464,
+                    "text": "green"
                 },
                 {
-                    "start": 1.685,
-                    "end": 1.749,
-                    "text": "machine"
-                }
-            ]
-        },
-        {
-            "id": "line_0_occ_0_s0_s0_s1",
-            "start": 1.94,
-            "end": 4.78,
-            "lyric": "(which was actually a British phone booth painted",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 1.94,
-                    "end": 2.54,
-                    "text": "(which"
-                },
-                {
-                    "start": 2.882,
-                    "end": 2.98,
-                    "text": "was"
-                },
-                {
-                    "start": 3.382,
-                    "end": 3.44,
-                    "text": "actually"
-                },
-                {
-                    "start": 3.49,
-                    "end": 3.542,
-                    "text": "a"
-                },
-                {
-                    "start": 3.7,
-                    "end": 3.88,
-                    "text": "British"
-                },
-                {
-                    "start": 3.88,
-                    "end": 3.94,
+                    "start": 11.644,
+                    "end": 11.869,
                     "text": "phone"
                 },
                 {
-                    "start": 4.395,
-                    "end": 4.46,
+                    "start": 11.944,
+                    "end": 12.484,
                     "text": "booth"
-                },
-                {
-                    "start": 4.54,
-                    "end": 4.78,
-                    "text": "painted"
                 }
             ]
         },
         {
-            "id": "line_0_occ_0_s0_s0_s2",
-            "start": 4.78,
-            "end": 5.283,
-            "lyric": "green",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 4.78,
-                    "end": 5.283,
-                    "text": "green"
-                }
-            ]
-        },
-        {
-            "id": "line_0_occ_0_s0_s1",
-            "start": 5.826,
-            "end": 6.612,
-            "lyric": "don't ask)",
-            "real_meaning": "",
-            "media": [
-                {
-                    "offset": 6.25,
-                    "url": "media/c0002.jpg",
-                    "query": "Over-the-shoulder shot: The traveler looks past the trees. In the distance, the faint, warm flicker of a dying campfire illuminates the entrance to a rocky cave."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 6.25,
-                    "url": "media/c0005.jpg",
-                    "query": "Close-up: A teenager's hand reaches into frame, wiping away a thick layer of dust from the laptop's silver casing."
-                }
-            ],
-            "words": [
-                {
-                    "start": 5.826,
-                    "end": 5.877,
-                    "text": "don't"
-                },
-                {
-                    "start": 6.26,
-                    "end": 6.612,
-                    "text": "ask)"
-                }
-            ]
-        },
-        {
-            "id": "line_0_occ_0_s1_s0",
-            "start": 6.944,
-            "end": 9.064,
-            "lyric": "my only intention was to grab some cool",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 6.944,
-                    "end": 7.08,
-                    "text": "my"
-                },
-                {
-                    "start": 7.275,
-                    "end": 7.34,
-                    "text": "only"
-                },
-                {
-                    "start": 7.49,
-                    "end": 7.74,
-                    "text": "intention"
-                },
-                {
-                    "start": 7.995,
-                    "end": 8.08,
-                    "text": "was"
-                },
-                {
-                    "start": 8.08,
-                    "end": 8.24,
-                    "text": "to"
-                },
-                {
-                    "start": 8.24,
-                    "end": 8.48,
-                    "text": "grab"
-                },
-                {
-                    "start": 8.56,
-                    "end": 8.74,
-                    "text": "some"
-                },
-                {
-                    "start": 8.74,
-                    "end": 9.064,
-                    "text": "cool"
-                }
-            ]
-        },
-        {
-            "id": "line_0_occ_0_s1_s1",
-            "start": 9.258,
-            "end": 11.663,
-            "lyric": "rocks and see a dinosaur before dinner.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 9.258,
-                    "end": 9.52,
-                    "text": "rocks"
-                },
-                {
-                    "start": 9.975,
-                    "end": 10.04,
-                    "text": "and"
-                },
-                {
-                    "start": 10.04,
-                    "end": 10.22,
-                    "text": "see"
-                },
-                {
-                    "start": 10.22,
-                    "end": 10.4,
-                    "text": "a"
-                },
-                {
-                    "start": 10.538,
-                    "end": 10.833,
-                    "text": "dinosaur"
-                },
-                {
-                    "start": 11.13,
-                    "end": 11.24,
-                    "text": "before"
-                },
-                {
-                    "start": 11.405,
-                    "end": 11.663,
-                    "text": "dinner."
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s0_s0",
-            "start": 12.032,
-            "end": 14.04,
-            "lyric": "I landed in a valley of moss and",
-            "real_meaning": "Humanity's raw state: The primal, harsh reality of survival before technology and dogma insulated us, where actions had immediate, life-or-death consequences.",
+            "id": "line_1_occ_0",
+            "start": 12.484,
+            "end": 17.448,
+            "lyric": "Painted a British box, that's the truth",
+            "real_meaning": "We dress up the mundane as extraordinary. A phone booth becomes a time machine because we decided it should. Every product, every brand, every ideology is just a painted box.",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0006.jpg",
-                    "query": "Wide shot: The traveler approaches the cave cautiously. The air is thick with smoke. Near the dying embers, a single, rugged cave dweller is huddled in the cold."
+                    "query": "Medium shot: The phone booth exterior, clearly hand-painted green with dripping paint and brush strokes visible on the red British metal."
                 },
                 {
-                    "offset": 0.72,
+                    "offset": 4.35,
                     "url": "media/c0007.jpg",
-                    "query": "Medium shot: The cave dweller is desperately blowing on a tiny, smoking twig, his face painted with soot and desperate exhaustion."
+                    "query": "Close-up: A bucket of green paint and a roller leaning against the base of the phone booth, grass stained green around it."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0009.jpg",
-                    "query": "Medium shot: The teenager opens the lid of the laptop. The screen remains black for a tense second."
+                    "query": "Medium shot: The teenager sticks vinyl decal stickers onto the laptop lid, personalizing it with band logos and astronaut graphics."
                 },
                 {
-                    "offset": 0.72,
+                    "offset": 4.35,
                     "url": "media/c0010.jpg",
-                    "query": "Close-up: The power button. The teenager's finger presses it firmly."
+                    "query": "Close-up: The laptop screen shows a browser homepage with a colorful custom wallpaper, tabs already opening."
                 }
             ],
             "words": [
                 {
-                    "start": 12.032,
-                    "end": 12.16,
-                    "text": "I"
+                    "start": 12.484,
+                    "end": 14.006,
+                    "text": "Painted"
                 },
                 {
-                    "start": 12.25,
-                    "end": 12.503,
-                    "text": "landed"
-                },
-                {
-                    "start": 12.67,
-                    "end": 12.72,
-                    "text": "in"
-                },
-                {
-                    "start": 12.72,
-                    "end": 12.84,
+                    "start": 14.164,
+                    "end": 14.424,
                     "text": "a"
                 },
                 {
-                    "start": 12.9,
-                    "end": 12.968,
-                    "text": "valley"
+                    "start": 14.424,
+                    "end": 14.704,
+                    "text": "British"
                 },
                 {
-                    "start": 13.26,
-                    "end": 13.32,
-                    "text": "of"
+                    "start": 14.704,
+                    "end": 15.754,
+                    "text": "box,"
                 },
                 {
-                    "start": 13.59,
-                    "end": 13.68,
-                    "text": "moss"
+                    "start": 16.424,
+                    "end": 17.064,
+                    "text": "that's"
                 },
                 {
-                    "start": 13.95,
-                    "end": 14.04,
-                    "text": "and"
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s0_s1",
-            "start": 14.04,
-            "end": 14.592,
-            "lyric": "smoke.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 14.04,
-                    "end": 14.592,
-                    "text": "smoke."
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s1",
-            "start": 15.04,
-            "end": 17.295,
-            "lyric": "Smell of rain, fire in the air.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 15.04,
-                    "end": 15.272,
-                    "text": "Smell"
-                },
-                {
-                    "start": 15.35,
-                    "end": 15.5,
-                    "text": "of"
-                },
-                {
-                    "start": 15.5,
-                    "end": 15.763,
-                    "text": "rain,"
-                },
-                {
-                    "start": 16.402,
-                    "end": 16.502,
-                    "text": "fire"
-                },
-                {
-                    "start": 16.8,
-                    "end": 16.98,
-                    "text": "in"
-                },
-                {
-                    "start": 16.98,
-                    "end": 17.04,
+                    "start": 17.064,
+                    "end": 17.222,
                     "text": "the"
                 },
                 {
-                    "start": 17.239,
-                    "end": 17.295,
-                    "text": "air."
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s2",
-            "start": 18.368,
-            "end": 19.296,
-            "lyric": "And there he was:",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 18.368,
-                    "end": 18.48,
-                    "text": "And"
-                },
-                {
-                    "start": 18.48,
-                    "end": 18.66,
-                    "text": "there"
-                },
-                {
-                    "start": 18.66,
-                    "end": 18.82,
-                    "text": "he"
-                },
-                {
-                    "start": 18.82,
-                    "end": 19.296,
-                    "text": "was:"
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s3",
-            "start": 19.744,
-            "end": 21.536,
-            "lyric": "the first human I'd ever seen.",
-            "real_meaning": "",
-            "media": [
-                {
-                    "offset": 7.77,
-                    "url": "media/c0008.jpg",
-                    "query": "Close-up: The cave dweller's hollow, terrified eyes as the twig's ember finally fades to black, leaving him in darkness."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 7.77,
-                    "url": "media/c0011.jpg",
-                    "query": "Over-the-shoulder shot: The screen suddenly flashes bright white, illuminating the dark attic and casting a harsh glow on the teenager's face."
-                }
-            ],
-            "words": [
-                {
-                    "start": 19.744,
-                    "end": 19.86,
-                    "text": "the"
-                },
-                {
-                    "start": 19.945,
-                    "end": 20.026,
-                    "text": "first"
-                },
-                {
-                    "start": 20.27,
-                    "end": 20.339,
-                    "text": "human"
-                },
-                {
-                    "start": 20.545,
-                    "end": 20.618,
-                    "text": "I'd"
-                },
-                {
-                    "start": 20.95,
-                    "end": 21.02,
-                    "text": "ever"
-                },
-                {
-                    "start": 21.472,
-                    "end": 21.536,
-                    "text": "seen."
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s4_s0",
-            "start": 22.088,
-            "end": 23.754,
-            "lyric": "Crouched by a pile of stones",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 22.088,
-                    "end": 22.38,
-                    "text": "Crouched"
-                },
-                {
-                    "start": 22.38,
-                    "end": 22.56,
-                    "text": "by"
-                },
-                {
-                    "start": 22.62,
-                    "end": 22.68,
-                    "text": "a"
-                },
-                {
-                    "start": 22.96,
-                    "end": 23.02,
-                    "text": "pile"
-                },
-                {
-                    "start": 23.17,
-                    "end": 23.22,
-                    "text": "of"
-                },
-                {
-                    "start": 23.428,
-                    "end": 23.754,
-                    "text": "stones"
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s4_s1_s0",
-            "start": 24.0,
-            "end": 25.94,
-            "lyric": "blowing on a twig like his life depended",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 24.0,
-                    "end": 24.202,
-                    "text": "blowing"
-                },
-                {
-                    "start": 24.27,
-                    "end": 24.42,
-                    "text": "on"
-                },
-                {
-                    "start": 24.42,
-                    "end": 24.577,
-                    "text": "a"
-                },
-                {
-                    "start": 24.635,
-                    "end": 24.704,
-                    "text": "twig"
-                },
-                {
-                    "start": 24.91,
-                    "end": 25.06,
-                    "text": "like"
-                },
-                {
-                    "start": 25.06,
-                    "end": 25.22,
-                    "text": "his"
-                },
-                {
-                    "start": 25.22,
-                    "end": 25.482,
-                    "text": "life"
-                },
-                {
-                    "start": 25.885,
-                    "end": 25.94,
-                    "text": "depended"
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s4_s1_s1",
-            "start": 26.09,
-            "end": 26.59,
-            "lyric": "on it.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 26.09,
-                    "end": 26.34,
-                    "text": "on"
-                },
-                {
-                    "start": 26.34,
-                    "end": 26.59,
-                    "text": "it."
-                }
-            ]
-        },
-        {
-            "id": "line_1_occ_0_s5",
-            "start": 26.8,
-            "end": 27.106,
-            "lyric": "And it did.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 26.8,
-                    "end": 26.9,
-                    "text": "And"
-                },
-                {
-                    "start": 26.9,
-                    "end": 27.04,
-                    "text": "it"
-                },
-                {
-                    "start": 27.04,
-                    "end": 27.106,
-                    "text": "did."
+                    "start": 17.354,
+                    "end": 17.448,
+                    "text": "truth"
                 }
             ]
         },
         {
             "id": "line_2_occ_0",
-            "start": 27.807,
-            "end": 29.168,
-            "lyric": "Let's call him Gralha.",
-            "real_meaning": "The archetype of the naive believer (Gralha): The first human ready to surrender agency, trade wonder for submission, and follow blindly.",
+            "start": 18.785,
+            "end": 21.184,
+            "lyric": "Don't ask me why, I can't explain",
+            "real_meaning": "The honest confession: Most revolutions begin without a manifesto. We act, then invent the story later. 'Why did you do it?' 'I don't know. It seemed fun.'",
             "media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0012.jpg",
-                    "query": "Medium shot: The cave dweller (Gralha) slowly looks up, noticing the modern traveler standing over him."
-                },
-                {
-                    "offset": 0.66,
-                    "url": "media/c0013.jpg",
-                    "query": "Close-up: Gralha's expression shifts from despair to absolute shock as he registers the traveler's strange clothing."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0014.jpg",
-                    "query": "Point of view (Gralha): Looking up at the traveler, whose hand slowly reaches into their pocket, retrieving a bright orange plastic BIC lighter."
+                    "query": "Close-up: The traveler's face mid-teleportation, eyes wide, mouth open, streaks of light whipping past like a tunnel of stars."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
                     "url": "media/c0015.jpg",
-                    "query": "Close-up: The teenager's eyes, reflecting the loading screen of a vintage operating system."
-                },
-                {
-                    "offset": 0.66,
-                    "url": "media/c0016.jpg",
-                    "query": "Medium shot: The teenager smiles, captivated by the glow, completely isolated from the outside world visible in the rain-streaked window."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0017.jpg",
-                    "query": "Extreme close-up: A progress bar creeping across the glowing screen, the gateway to the digital world opening."
+                    "query": "Close-up: The teenager's face illuminated by rapidly scrolling search results, eyes darting left and right, mesmerized."
                 }
             ],
             "words": [
                 {
-                    "start": 27.807,
-                    "end": 27.896,
-                    "text": "Let's"
+                    "start": 18.785,
+                    "end": 18.844,
+                    "text": "Don't"
                 },
                 {
-                    "start": 28.165,
-                    "end": 28.23,
-                    "text": "call"
+                    "start": 19.254,
+                    "end": 19.412,
+                    "text": "ask"
                 },
                 {
-                    "start": 28.425,
-                    "end": 28.62,
-                    "text": "him"
+                    "start": 19.464,
+                    "end": 19.524,
+                    "text": "me"
                 },
                 {
-                    "start": 28.62,
-                    "end": 29.168,
-                    "text": "Gralha."
+                    "start": 19.804,
+                    "end": 20.104,
+                    "text": "why,"
+                },
+                {
+                    "start": 20.224,
+                    "end": 20.264,
+                    "text": "I"
+                },
+                {
+                    "start": 20.539,
+                    "end": 20.601,
+                    "text": "can't"
+                },
+                {
+                    "start": 21.004,
+                    "end": 21.184,
+                    "text": "explain"
+                }
+            ]
+        },
+        {
+            "id": "line_3_occ_0",
+            "start": 21.184,
+            "end": 23.924,
+            "lyric": "Just wanted cool rocks, maybe a saber-toothed mane",
+            "real_meaning": "The trivial spark: Every empire begins with someone wanting something stupid. Fire wasn't discovered for philosophy — it was discovered because someone was cold and hungry.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0018.jpg",
+                    "query": "Medium shot: The traveler's backpack open on the ground, revealing a geology hammer, sample bags, and a dog-eared dinosaur field guide."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0021.jpg",
+                    "query": "Medium shot: The teenager scrolling through YouTube thumbnails, each promising 'INSANE', 'YOU WON'T BELIEVE', 'GONE WRONG'."
+                }
+            ],
+            "words": [
+                {
+                    "start": 21.184,
+                    "end": 21.424,
+                    "text": "Just"
+                },
+                {
+                    "start": 21.504,
+                    "end": 21.804,
+                    "text": "wanted"
+                },
+                {
+                    "start": 21.804,
+                    "end": 22.144,
+                    "text": "cool"
+                },
+                {
+                    "start": 22.144,
+                    "end": 22.544,
+                    "text": "rocks,"
+                },
+                {
+                    "start": 22.544,
+                    "end": 22.728,
+                    "text": "maybe"
+                },
+                {
+                    "start": 22.789,
+                    "end": 22.984,
+                    "text": "a"
+                },
+                {
+                    "start": 22.984,
+                    "end": 23.492,
+                    "text": "saber-toothed"
+                },
+                {
+                    "start": 23.564,
+                    "end": 23.924,
+                    "text": "mane"
+                }
+            ]
+        },
+        {
+            "id": "line_4_occ_0",
+            "start": 23.924,
+            "end": 26.444,
+            "lyric": "See a dinosaur before my tea",
+            "real_meaning": "Casual tourism of the sacred: We reduce the extraordinary to convenience. 'I'll see a miracle before lunch, then get a latte.' This is how wonder dies.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0024.jpg",
+                    "query": "Wide shot: A massive brontosaurus silhouette moving through thick fog between enormous redwood-like trees in a primeval swamp."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0027.jpg",
+                    "query": "Wide shot: The teenager's room at night, face glowing blue, surrounded by empty snack wrappers, completely absorbed in the screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 23.924,
+                    "end": 24.424,
+                    "text": "See"
+                },
+                {
+                    "start": 24.424,
+                    "end": 24.604,
+                    "text": "a"
+                },
+                {
+                    "start": 24.784,
+                    "end": 25.084,
+                    "text": "dinosaur"
+                },
+                {
+                    "start": 25.084,
+                    "end": 25.744,
+                    "text": "before"
+                },
+                {
+                    "start": 25.909,
+                    "end": 26.115,
+                    "text": "my"
+                },
+                {
+                    "start": 26.184,
+                    "end": 26.444,
+                    "text": "tea"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0",
+            "start": 26.444,
+            "end": 28.972,
+            "lyric": "A triceratops staring at me",
+            "real_meaning": "The moment reality stares back: When what you thought was entertainment becomes dangerously real. The dinosaur doesn't care about your itinerary.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0030.jpg",
+                    "query": "Wide shot: An enormous triceratops standing ten meters away in a clearing, its three horns gleaming, staring directly at the traveler."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0033.jpg",
+                    "query": "Close-up: The teenager's screen showing a direct message notification from a stranger. The username is intimidating."
+                }
+            ],
+            "words": [
+                {
+                    "start": 26.444,
+                    "end": 26.944,
+                    "text": "A"
+                },
+                {
+                    "start": 26.944,
+                    "end": 27.022,
+                    "text": "triceratops"
+                },
+                {
+                    "start": 28.189,
+                    "end": 28.447,
+                    "text": "staring"
+                },
+                {
+                    "start": 28.674,
+                    "end": 28.744,
+                    "text": "at"
+                },
+                {
+                    "start": 28.894,
+                    "end": 28.972,
+                    "text": "me"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0_s0",
+            "start": 29.204,
+            "end": 31.049,
+            "lyric": "I landed in a valley of moss and",
+            "real_meaning": "The sensory shock of a new world: Every immigrant, every explorer, every refugee knows this moment, the smell, the air, the terrifying beauty of somewhere completely alien.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0036.jpg",
+                    "query": "Wide establishing shot: A vast prehistoric valley at dusk, thick green moss covering every surface, tendrils of smoke rising from distant volcanic vents."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0039.jpg",
+                    "query": "Wide shot: The teenager's first social media feed loading, a waterfall of images, videos, text, likes, colors flooding the screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 29.204,
+                    "end": 29.384,
+                    "text": "I"
+                },
+                {
+                    "start": 29.384,
+                    "end": 29.664,
+                    "text": "landed"
+                },
+                {
+                    "start": 29.859,
+                    "end": 29.924,
+                    "text": "in"
+                },
+                {
+                    "start": 29.924,
+                    "end": 30.024,
+                    "text": "a"
+                },
+                {
+                    "start": 30.089,
+                    "end": 30.284,
+                    "text": "valley"
+                },
+                {
+                    "start": 30.349,
+                    "end": 30.544,
+                    "text": "of"
+                },
+                {
+                    "start": 30.544,
+                    "end": 30.884,
+                    "text": "moss"
+                },
+                {
+                    "start": 30.884,
+                    "end": 31.049,
+                    "text": "and"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0_s1",
+            "start": 31.104,
+            "end": 31.404,
+            "lyric": "smoke",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 31.104,
+                    "end": 31.404,
+                    "text": "smoke"
+                }
+            ]
+        },
+        {
+            "id": "line_7_occ_0",
+            "start": 31.624,
+            "end": 33.746,
+            "lyric": "Smell of rain, the night awoke",
+            "real_meaning": "The primal immersion: Before language, before meaning, there is sensation. Rain on skin, smoke in lungs, darkness pressing in. This is the world before the filter.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0042.jpg",
+                    "query": "Close-up: Heavy raindrops splashing on broad prehistoric fern leaves, each drop lit by distant volcanic glow."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0045.jpg",
+                    "query": "Close-up: The teenager's phone buzzes on the nightstand. A notification. Then another. Then a cascade of vibrations."
+                }
+            ],
+            "words": [
+                {
+                    "start": 31.624,
+                    "end": 32.044,
+                    "text": "Smell"
+                },
+                {
+                    "start": 32.044,
+                    "end": 32.132,
+                    "text": "of"
+                },
+                {
+                    "start": 32.394,
+                    "end": 32.486,
+                    "text": "rain,"
+                },
+                {
+                    "start": 32.764,
+                    "end": 32.864,
+                    "text": "the"
+                },
+                {
+                    "start": 32.864,
+                    "end": 33.126,
+                    "text": "night"
+                },
+                {
+                    "start": 33.284,
+                    "end": 33.746,
+                    "text": "awoke"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0",
+            "start": 34.024,
+            "end": 36.285,
+            "lyric": "And there he was, the first human soul",
+            "real_meaning": "The encounter with raw humanity: Before branding, before resumes, before followers, a human being, desperate, real, unfiltered. We have forgotten what that looks like.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0048.jpg",
+                    "query": "Wide shot: Near a rocky cave mouth, a small dying fire barely illuminates a lone figure crouched on the ground, surrounded by darkness."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0051.jpg",
+                    "query": "Medium shot: A grainy webcam video playing on the teenager's screen, someone in a messy room talking earnestly to the camera."
+                }
+            ],
+            "words": [
+                {
+                    "start": 34.024,
+                    "end": 34.204,
+                    "text": "And"
+                },
+                {
+                    "start": 34.204,
+                    "end": 34.444,
+                    "text": "there"
+                },
+                {
+                    "start": 34.444,
+                    "end": 34.646,
+                    "text": "he"
+                },
+                {
+                    "start": 34.894,
+                    "end": 34.984,
+                    "text": "was,"
+                },
+                {
+                    "start": 35.034,
+                    "end": 35.203,
+                    "text": "the"
+                },
+                {
+                    "start": 35.424,
+                    "end": 35.504,
+                    "text": "first"
+                },
+                {
+                    "start": 35.504,
+                    "end": 35.804,
+                    "text": "human"
+                },
+                {
+                    "start": 36.004,
+                    "end": 36.285,
+                    "text": "soul"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0",
+            "start": 36.514,
+            "end": 38.17,
+            "lyric": "Blowing on a twig, losing control",
+            "real_meaning": "The desperation of the powerless: Before the lighter, fire was a daily battle. Imagine fighting for warmth every single night. That is life without tools, and without critical thought.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0054.jpg",
+                    "query": "Close-up: Gralha's cracked lips blowing desperately on a tiny smoking twig, sweat and soot on his forehead, eyes panicked."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0057.jpg",
+                    "query": "Close-up: A frustrated user's hand clicking 'forgot password' for the third time, screen showing 'invalid credentials'."
+                }
+            ],
+            "words": [
+                {
+                    "start": 36.514,
+                    "end": 36.864,
+                    "text": "Blowing"
+                },
+                {
+                    "start": 36.864,
+                    "end": 37.084,
+                    "text": "on"
+                },
+                {
+                    "start": 37.084,
+                    "end": 37.204,
+                    "text": "a"
+                },
+                {
+                    "start": 37.204,
+                    "end": 37.564,
+                    "text": "twig,"
+                },
+                {
+                    "start": 37.564,
+                    "end": 37.902,
+                    "text": "losing"
+                },
+                {
+                    "start": 38.119,
+                    "end": 38.17,
+                    "text": "control"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0",
+            "start": 38.527,
+            "end": 43.244,
+            "lyric": "I'm the Mage by accident",
+            "real_meaning": "The accidental authority: Every guru, every CEO, every influencer, most of them didn't plan it. They just had a lighter when everyone else had twigs.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0060.jpg",
+                    "query": "Medium shot: The traveler standing at the edge of the firelight, the orange BIC lighter in hand, realizing the weight of what is about to happen."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "media/c0061.jpg",
+                    "query": "Close-up: The traveler's thumb on the lighter's spark wheel, hesitating, the metal catching the last glint of dying embers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0063.jpg",
+                    "query": "Medium shot: The teenager posts a casual reply to the webcam creator's problem, a simple fix, three lines of text."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "media/c0064.jpg",
+                    "query": "Close-up: A notification pops up: 'Your comment received 47 likes.' The teenager stares, surprised."
+                }
+            ],
+            "words": [
+                {
+                    "start": 38.527,
+                    "end": 41.104,
+                    "text": "I'm"
+                },
+                {
+                    "start": 41.104,
+                    "end": 41.244,
+                    "text": "the"
+                },
+                {
+                    "start": 41.244,
+                    "end": 42.164,
+                    "text": "Mage"
+                },
+                {
+                    "start": 42.164,
+                    "end": 42.584,
+                    "text": "by"
+                },
+                {
+                    "start": 42.584,
+                    "end": 43.244,
+                    "text": "accident"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0",
+            "start": 43.244,
+            "end": 45.686,
+            "lyric": "Right guy, wrong time, no consent",
+            "real_meaning": "The unwilling prophet: Nobody asks to be deified. The lighter didn't come with instructions for godhood. Neither did your smartphone.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0066.jpg",
+                    "query": "Close-up: The traveler's conflicted face, eyes darting between Gralha's desperate gaze and the lighter, knowing this will change everything."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0069.jpg",
+                    "query": "Medium shot: The teenager's follower count jumping from 3 to 300 overnight, the phone buzzing relentlessly on the nightstand."
+                }
+            ],
+            "words": [
+                {
+                    "start": 43.244,
+                    "end": 43.704,
+                    "text": "Right"
+                },
+                {
+                    "start": 43.704,
+                    "end": 44.244,
+                    "text": "guy,"
+                },
+                {
+                    "start": 44.304,
+                    "end": 44.344,
+                    "text": "wrong"
+                },
+                {
+                    "start": 44.344,
+                    "end": 44.704,
+                    "text": "time,"
+                },
+                {
+                    "start": 44.704,
+                    "end": 45.408,
+                    "text": "no"
+                },
+                {
+                    "start": 45.408,
+                    "end": 45.686,
+                    "text": "consent"
+                }
+            ]
+        },
+        {
+            "id": "line_12_occ_0",
+            "start": 45.974,
+            "end": 48.224,
+            "lyric": "Came for some rocks, now I gotta run",
+            "real_meaning": "The point of no return: You came to browse, to scroll, to kill time. Now you are trapped in a narrative you didn't write. Welcome to the algorithm.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0072.jpg",
+                    "query": "Medium shot: The traveler glancing nervously at the geology hammer still in their backpack, the original innocent mission now irrelevant."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0075.jpg",
+                    "query": "Medium shot: The teenager tries to close the laptop but a new DM pops up: 'Can you help me too?' Then another. Then five more."
+                }
+            ],
+            "words": [
+                {
+                    "start": 45.974,
+                    "end": 46.424,
+                    "text": "Came"
+                },
+                {
+                    "start": 46.424,
+                    "end": 46.644,
+                    "text": "for"
+                },
+                {
+                    "start": 46.644,
+                    "end": 46.804,
+                    "text": "some"
+                },
+                {
+                    "start": 46.804,
+                    "end": 47.154,
+                    "text": "rocks,"
+                },
+                {
+                    "start": 47.204,
+                    "end": 47.264,
+                    "text": "now"
+                },
+                {
+                    "start": 47.264,
+                    "end": 47.424,
+                    "text": "I"
+                },
+                {
+                    "start": 47.424,
+                    "end": 47.644,
+                    "text": "gotta"
+                },
+                {
+                    "start": 47.862,
+                    "end": 48.224,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "id": "line_13_occ_0",
+            "start": 48.224,
+            "end": 49.572,
+            "lyric": "But the story's already begun",
+            "real_meaning": "Irreversibility: Once you light the fire, you can't unlight it. Once you post, you can't unpost. Once they have seen magic, you are the magician forever.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0078.jpg",
+                    "query": "Wide shot: Gralha on his feet now, moving toward the traveler with urgent primal determination, arms outstretched."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0081.jpg",
+                    "query": "Wide shot: The teenager's post screenshot appearing on a popular meme page with thousands of views already."
+                }
+            ],
+            "words": [
+                {
+                    "start": 48.224,
+                    "end": 48.424,
+                    "text": "But"
+                },
+                {
+                    "start": 48.424,
+                    "end": 48.544,
+                    "text": "the"
+                },
+                {
+                    "start": 48.694,
+                    "end": 48.788,
+                    "text": "story's"
+                },
+                {
+                    "start": 49.232,
+                    "end": 49.404,
+                    "text": "already"
+                },
+                {
+                    "start": 49.404,
+                    "end": 49.572,
+                    "text": "begun"
+                }
+            ]
+        },
+        {
+            "id": "line_14_occ_0",
+            "start": 50.744,
+            "end": 53.179,
+            "lyric": "Chak-chak, the flame lit bright",
+            "real_meaning": "The moment of ignition: Two syllables. One spark. Everything changes. This is the iPhone launch. The first Google search. The moment Prometheus stole fire.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0084.jpg",
+                    "query": "Extreme close-up: The lighter's spark wheel spinning, sparks flying in slow motion, igniting the butane with a bright orange flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0087.jpg",
+                    "query": "Extreme close-up: A finger tapping 'POST' on a glowing touchscreen, the button turning from blue to green."
+                }
+            ],
+            "words": [
+                {
+                    "start": 50.744,
+                    "end": 51.744,
+                    "text": "Chak-chak,"
+                },
+                {
+                    "start": 52.104,
+                    "end": 52.184,
+                    "text": "the"
+                },
+                {
+                    "start": 52.184,
+                    "end": 52.464,
+                    "text": "flame"
+                },
+                {
+                    "start": 52.464,
+                    "end": 52.659,
+                    "text": "lit"
+                },
+                {
+                    "start": 52.724,
+                    "end": 53.179,
+                    "text": "bright"
+                }
+            ]
+        },
+        {
+            "id": "line_15_occ_0",
+            "start": 53.244,
+            "end": 55.379,
+            "lyric": "And my whole life faded into night",
+            "real_meaning": "The sacrifice: To become the Mage, you surrender your old self. To become an influencer, you surrender your privacy. To become a leader, you surrender your freedom.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0090.jpg",
+                    "query": "Wide shot: The green phone booth in the far distance, barely visible, as the traveler turns away from it toward the cave and the firelight."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0093.jpg",
+                    "query": "Wide shot: The teenager's bedroom transforming, posters fading, toys disappearing, replaced by ring lights and a microphone setup."
+                }
+            ],
+            "words": [
+                {
+                    "start": 53.244,
+                    "end": 53.424,
+                    "text": "And"
+                },
+                {
+                    "start": 53.424,
+                    "end": 53.619,
+                    "text": "my"
+                },
+                {
+                    "start": 53.684,
+                    "end": 53.769,
+                    "text": "whole"
+                },
+                {
+                    "start": 54.024,
+                    "end": 54.204,
+                    "text": "life"
+                },
+                {
+                    "start": 54.264,
+                    "end": 54.544,
+                    "text": "faded"
+                },
+                {
+                    "start": 54.597,
+                    "end": 55.079,
+                    "text": "into"
+                },
+                {
+                    "start": 55.079,
+                    "end": 55.379,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "id": "line_16_occ_0",
+            "start": 60.384,
+            "end": 62.409,
+            "lyric": "Gralha looked at me, dropped his stick",
+            "real_meaning": "The first conversion: The moment the believer discards their own tools. Why use a stick when someone has a lighter? Why think when someone has the answers?",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0096.jpg",
+                    "query": "Medium shot: Gralha staring at the traveler with enormous eyes, his crude fire-starting stick slipping from his fingers and clattering to the ground."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0099.jpg",
+                    "query": "Medium shot: A person closing their physical notebook and pushing it aside, opening a tablet instead, transferring all trust to the screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 60.584,
+                    "end": 60.884,
+                    "text": "Gralha"
+                },
+                {
+                    "start": 60.884,
+                    "end": 61.084,
+                    "text": "looked"
+                },
+                {
+                    "start": 61.084,
+                    "end": 61.204,
+                    "text": "at"
+                },
+                {
+                    "start": 61.406,
+                    "end": 61.667,
+                    "text": "me,"
+                },
+                {
+                    "start": 61.824,
+                    "end": 62.084,
+                    "text": "dropped"
+                },
+                {
+                    "start": 62.144,
+                    "end": 62.324,
+                    "text": "his"
+                },
+                {
+                    "start": 62.324,
+                    "end": 62.409,
+                    "text": "stick"
+                }
+            ]
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 62.664,
+            "end": 64.839,
+            "lyric": "Saw my Super Bock sweater, thick",
+            "real_meaning": "Branding as divinity: Gralha doesn't understand the sweater, he worships the logo. We don't understand the iPhone, we worship the Apple. The symbol replaces the substance.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0102.jpg",
+                    "query": "Close-up: The traveler's chest showing a thick knitted sweater with a large Super Bock beer logo, alien and incomprehensible to Gralha."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0105.jpg",
+                    "query": "Close-up: A teenager's eyes locked on an influencer's branded merchandise, a hoodie with a bold logo, perfectly lit in a product photo."
+                }
+            ],
+            "words": [
+                {
+                    "start": 62.664,
+                    "end": 63.124,
+                    "text": "Saw"
+                },
+                {
+                    "start": 63.124,
+                    "end": 63.304,
+                    "text": "my"
+                },
+                {
+                    "start": 63.304,
+                    "end": 63.524,
+                    "text": "Super"
+                },
+                {
+                    "start": 63.524,
+                    "end": 63.844,
+                    "text": "Bock"
+                },
+                {
+                    "start": 63.844,
+                    "end": 64.604,
+                    "text": "sweater,"
+                },
+                {
+                    "start": 64.784,
+                    "end": 64.839,
+                    "text": "thick"
+                }
+            ]
+        },
+        {
+            "id": "line_18_occ_0",
+            "start": 65.004,
+            "end": 67.384,
+            "lyric": "Pointed at the lighter, went \"Uga boo\"",
+            "real_meaning": "The demand for magic: 'Show me the trick again.' The consumer doesn't want to understand, they want to be amazed. Repeat the miracle. Make fire. Again.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0108.jpg",
+                    "query": "Medium shot: Gralha pointing urgently at the orange BIC lighter in the traveler's hand, grunting excitedly, bouncing on his heels."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0111.jpg",
+                    "query": "Medium shot: A crowd at a tech keynote, phones raised, all recording, chanting the CEO's name before the product reveal."
+                }
+            ],
+            "words": [
+                {
+                    "start": 65.004,
+                    "end": 65.724,
+                    "text": "Pointed"
+                },
+                {
+                    "start": 65.724,
+                    "end": 65.884,
+                    "text": "at"
+                },
+                {
+                    "start": 65.884,
+                    "end": 66.024,
+                    "text": "the"
+                },
+                {
+                    "start": 66.024,
+                    "end": 66.284,
+                    "text": "lighter,"
+                },
+                {
+                    "start": 66.444,
+                    "end": 66.524,
+                    "text": "went"
+                },
+                {
+                    "start": 66.524,
+                    "end": 66.924,
+                    "text": "\"Uga"
+                },
+                {
+                    "start": 66.924,
+                    "end": 67.384,
+                    "text": "boo\""
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 67.384,
+            "end": 69.964,
+            "lyric": "I went chak-chak, he fell back, knew",
+            "real_meaning": "The product demo: Two clicks. That is all it takes. The crowd falls silent. The sale is made. The conversion is complete. Nobody asks how it works.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0114.jpg",
+                    "query": "Extreme close-up: The traveler's thumb flicking the lighter wheel, chak-chak, sparks flying, flame erupting bright orange."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0117.jpg",
+                    "query": "Extreme close-up: A finger swiping on a phone screen, unlocking it with a single fluid gesture, the home screen blooming open."
+                }
+            ],
+            "words": [
+                {
+                    "start": 67.384,
+                    "end": 67.504,
+                    "text": "I"
+                },
+                {
+                    "start": 67.559,
+                    "end": 67.724,
+                    "text": "went"
+                },
+                {
+                    "start": 67.724,
+                    "end": 68.724,
+                    "text": "chak-chak,"
+                },
+                {
+                    "start": 68.784,
+                    "end": 68.884,
+                    "text": "he"
+                },
+                {
+                    "start": 68.969,
+                    "end": 69.224,
+                    "text": "fell"
+                },
+                {
+                    "start": 69.224,
+                    "end": 69.624,
+                    "text": "back,"
+                },
+                {
+                    "start": 69.644,
+                    "end": 69.964,
+                    "text": "knew"
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 69.964,
+            "end": 72.844,
+            "lyric": "UUUUGA BOOGAH! TCHAN TCHAN!",
+            "real_meaning": "The primal viral moment: Before language had nuance, the scream was the share button. 'UUUGA BOOGAH' is the first retweet, the first 'OMG YOU HAVE TO SEE THIS'.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0120.jpg",
+                    "query": "Wide shot: Gralha scrambling to his feet, turning toward the dark forest, cupping his hands around his mouth, screaming into the night."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0121.jpg",
+                    "query": "Medium shot: Gralha's face contorted in a massive primal scream, veins in his neck bulging, sound waves visible in the smoky air."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0123.jpg",
+                    "query": "Close-up: A thumb frantically tapping the share button on a phone screen, the same post being sent to ten different group chats."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0124.jpg",
+                    "query": "Medium shot: A teenager shouting across a school hallway holding their phone up, others running over to look."
+                }
+            ],
+            "words": [
+                {
+                    "start": 69.964,
+                    "end": 71.184,
+                    "text": "UUUUGA"
+                },
+                {
+                    "start": 71.184,
+                    "end": 71.824,
+                    "text": "BOOGAH!"
+                },
+                {
+                    "start": 71.844,
+                    "end": 72.084,
+                    "text": "TCHAN"
+                },
+                {
+                    "start": 72.084,
+                    "end": 72.844,
+                    "text": "TCHAN!"
+                }
+            ]
+        },
+        {
+            "id": "line_21_occ_0",
+            "start": 72.864,
+            "end": 75.264,
+            "lyric": "Translation: \"Come see the madman!\"",
+            "real_meaning": "The framing of genius as madness: Every innovator is first called crazy. Every prophet is first called a madman. The translation is always wrong, but it doesn't matter, they come anyway.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0126.jpg",
+                    "query": "Medium shot: Gralha beckoning wildly toward the cave, gesturing for unseen others to come, his movements frantic and evangelical."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0129.jpg",
+                    "query": "Close-up: A clickbait headline on a news site: 'THIS KID'S HACK IS BREAKING THE INTERNET', sensationalized and misleading."
+                }
+            ],
+            "words": [
+                {
+                    "start": 72.864,
+                    "end": 73.764,
+                    "text": "Translation:"
+                },
+                {
+                    "start": 73.844,
+                    "end": 74.004,
+                    "text": "\"Come"
+                },
+                {
+                    "start": 74.059,
+                    "end": 74.224,
+                    "text": "see"
+                },
+                {
+                    "start": 74.224,
+                    "end": 74.384,
+                    "text": "the"
+                },
+                {
+                    "start": 74.384,
+                    "end": 75.264,
+                    "text": "madman!\""
+                }
+            ]
+        },
+        {
+            "id": "line_22_occ_0",
+            "start": 75.264,
+            "end": 77.224,
+            "lyric": "Five minutes, twelve creatures gathered round",
+            "real_meaning": "The speed of worship: Five minutes. That is how fast a religion forms. That is how fast a product goes viral. That is how fast a mob assembles.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0132.jpg",
+                    "query": "Wide shot: Twelve cave dwellers of various ages emerging from the forest, approaching the cave entrance cautiously, eyes reflecting firelight."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0135.jpg",
+                    "query": "Wide shot: A live stream viewer count climbing rapidly, 12, 120, 1200, each number a face glued to a screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 75.264,
+                    "end": 75.564,
+                    "text": "Five"
+                },
+                {
+                    "start": 75.564,
+                    "end": 75.914,
+                    "text": "minutes,"
+                },
+                {
+                    "start": 75.964,
+                    "end": 76.124,
+                    "text": "twelve"
+                },
+                {
+                    "start": 76.124,
+                    "end": 76.424,
+                    "text": "creatures"
+                },
+                {
+                    "start": 76.424,
+                    "end": 76.704,
+                    "text": "gathered"
+                },
+                {
+                    "start": 76.704,
+                    "end": 77.224,
+                    "text": "round"
+                }
+            ]
+        },
+        {
+            "id": "line_23_occ_0",
+            "start": 77.224,
+            "end": 80.008,
+            "lyric": "Mouths wide open, not a sound",
+            "real_meaning": "The silence of surrender: When the audience stops talking and starts consuming. The scroll. The binge. The sermon. Mouths open, brains off, credit cards ready.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0138.jpg",
+                    "query": "Close-up: A young cave dweller child, face smeared with dirt, mouth hanging open in pure wonder, eyes locked on the flame."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0141.jpg",
+                    "query": "Close-up: A person's face bathed in blue light, jaw slack, scrolling endlessly, pupils dilated, completely hypnotized."
+                }
+            ],
+            "words": [
+                {
+                    "start": 77.224,
+                    "end": 77.764,
+                    "text": "Mouths"
+                },
+                {
+                    "start": 77.824,
+                    "end": 78.004,
+                    "text": "wide"
+                },
+                {
+                    "start": 78.004,
+                    "end": 78.077,
+                    "text": "open,"
+                },
+                {
+                    "start": 78.584,
+                    "end": 78.864,
+                    "text": "not"
+                },
+                {
+                    "start": 78.864,
+                    "end": 79.024,
+                    "text": "a"
+                },
+                {
+                    "start": 79.024,
+                    "end": 80.008,
+                    "text": "sound"
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_0",
+            "start": 80.575,
+            "end": 83.87,
+            "lyric": "I'm the Mage by accident",
+            "real_meaning": "The trap deepens: You said it once and it was honest. Now you say it again and it is becoming your identity. The accident is becoming your destiny. The mask is fusing to your face.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0144.jpg",
+                    "query": "Medium shot: The traveler now seated on a flat stone like a throne, the cave dwellers arranged around them, the lighter still burning."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0147.jpg",
+                    "query": "Medium shot: The teenager at a desk with a proper ring light and camera setup, filming content instead of doing homework."
+                }
+            ],
+            "words": [
+                {
+                    "start": 80.575,
+                    "end": 81.671,
+                    "text": "I'm"
+                },
+                {
+                    "start": 81.924,
+                    "end": 82.064,
+                    "text": "the"
+                },
+                {
+                    "start": 82.064,
+                    "end": 82.964,
+                    "text": "Mage"
+                },
+                {
+                    "start": 82.964,
+                    "end": 83.489,
+                    "text": "by"
+                },
+                {
+                    "start": 83.612,
+                    "end": 83.87,
+                    "text": "accident"
+                }
+            ]
+        },
+        {
+            "id": "line_25_occ_0",
+            "start": 84.024,
+            "end": 86.384,
+            "lyric": "Right guy, wrong time, no consent",
+            "real_meaning": "The second chorus reality: This is not cute anymore. The lack of consent is real now. They need you. They demand you. The platform will not let you leave.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0150.jpg",
+                    "query": "Medium shot: Cave dwellers blocking the path back to the phone booth, not maliciously but needfully, their hands reaching toward the traveler."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0153.jpg",
+                    "query": "Medium shot: The teenager trying to log out but a popup appears: 'Your followers will miss you! Are you sure?'"
+                }
+            ],
+            "words": [
+                {
+                    "start": 84.024,
+                    "end": 84.504,
+                    "text": "Right"
+                },
+                {
+                    "start": 84.504,
+                    "end": 84.866,
+                    "text": "guy,"
+                },
+                {
+                    "start": 85.084,
+                    "end": 85.144,
+                    "text": "wrong"
+                },
+                {
+                    "start": 85.144,
+                    "end": 85.212,
+                    "text": "time,"
+                },
+                {
+                    "start": 85.212,
+                    "end": 85.784,
+                    "text": "no"
+                },
+                {
+                    "start": 85.784,
+                    "end": 86.384,
+                    "text": "consent"
+                }
+            ]
+        },
+        {
+            "id": "line_26_occ_0",
+            "start": 86.76,
+            "end": 88.934,
+            "lyric": "Came for some rocks, now I gotta run",
+            "real_meaning": "The obligation trap: The rocks are forgotten. The original purpose is dead. Now you serve the machine that you accidentally built. The creator becomes the servant.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0156.jpg",
+                    "query": "Close-up: The geology hammer buried under a pile of animal skins and crude offerings placed at the traveler's feet."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0159.jpg",
+                    "query": "Close-up: The teenager's original homework file, untouched for weeks, buried under folders named 'content_march' and 'thumbnails'."
+                }
+            ],
+            "words": [
+                {
+                    "start": 86.76,
+                    "end": 87.244,
+                    "text": "Came"
+                },
+                {
+                    "start": 87.244,
+                    "end": 87.424,
+                    "text": "for"
+                },
+                {
+                    "start": 87.424,
+                    "end": 87.604,
+                    "text": "some"
+                },
+                {
+                    "start": 87.604,
+                    "end": 87.854,
+                    "text": "rocks,"
+                },
+                {
+                    "start": 88.004,
+                    "end": 88.064,
+                    "text": "now"
+                },
+                {
+                    "start": 88.064,
+                    "end": 88.224,
+                    "text": "I"
+                },
+                {
+                    "start": 88.224,
+                    "end": 88.444,
+                    "text": "gotta"
+                },
+                {
+                    "start": 88.662,
+                    "end": 88.934,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "id": "line_27_occ_0",
+            "start": 89.024,
+            "end": 90.26,
+            "lyric": "But the story's already begun",
+            "real_meaning": "Escalated inevitability: The story has momentum now. Others are writing it for you. The comments, the expectations, the followers, they own the narrative.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0162.jpg",
+                    "query": "Wide shot: Cave dwellers drawing crude images on the cave wall, a figure holding fire, surrounded by a circle of worshippers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0165.jpg",
+                    "query": "Wide shot: Fan accounts appearing online, using the teenager's photos, creating memes, writing fan fiction about them."
+                }
+            ],
+            "words": [
+                {
+                    "start": 89.024,
+                    "end": 89.244,
+                    "text": "But"
+                },
+                {
+                    "start": 89.244,
+                    "end": 89.364,
+                    "text": "the"
+                },
+                {
+                    "start": 89.364,
+                    "end": 89.72,
+                    "text": "story's"
+                },
+                {
+                    "start": 90.032,
+                    "end": 90.204,
+                    "text": "already"
+                },
+                {
+                    "start": 90.204,
+                    "end": 90.26,
+                    "text": "begun"
+                }
+            ]
+        },
+        {
+            "id": "line_28_occ_0",
+            "start": 91.104,
+            "end": 92.36,
+            "lyric": "Chak-chak, the flame lit bright",
+            "real_meaning": "The ritual solidifies: What was spontaneous is now expected. The chak-chak is no longer a surprise, it is a performance. The lighter is a liturgy.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0168.jpg",
+                    "query": "Extreme close-up: The lighter wheel spinning again, but now surrounded by dozens of watching eyes, the performance ritualized."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0171.jpg",
+                    "query": "Extreme close-up: The teenager's finger hovering over 'GO LIVE', about to perform again, the spontaneity replaced by obligation."
+                }
+            ],
+            "words": [
+                {
+                    "start": 91.104,
+                    "end": 92.054,
+                    "text": "Chak-chak,"
+                },
+                {
+                    "start": 92.054,
+                    "end": 92.13,
+                    "text": "the"
+                },
+                {
+                    "start": 92.13,
+                    "end": 92.207,
+                    "text": "flame"
+                },
+                {
+                    "start": 92.207,
+                    "end": 92.284,
+                    "text": "lit"
+                },
+                {
+                    "start": 92.284,
+                    "end": 92.36,
+                    "text": "bright"
+                }
+            ]
+        },
+        {
+            "id": "line_29_occ_0",
+            "start": 93.864,
+            "end": 96.18,
+            "lyric": "And my whole life faded into night",
+            "real_meaning": "The final surrender: Your old identity is gone. You are The Mage now. You are the brand. The person behind the profile pic has ceased to exist.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0174.jpg",
+                    "query": "Wide shot: The traveler sitting alone on the stone throne at night, the tribe asleep around them, staring at the stars, profoundly alone."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0177.jpg",
+                    "query": "Wide shot: The teenager lying in bed in the fully equipped studio-bedroom, staring at the ceiling, phone face-down for the first time."
+                }
+            ],
+            "words": [
+                {
+                    "start": 94.064,
+                    "end": 94.224,
+                    "text": "And"
+                },
+                {
+                    "start": 94.224,
+                    "end": 94.294,
+                    "text": "my"
+                },
+                {
+                    "start": 94.504,
+                    "end": 94.755,
+                    "text": "whole"
+                },
+                {
+                    "start": 94.839,
+                    "end": 95.008,
+                    "text": "life"
+                },
+                {
+                    "start": 95.064,
+                    "end": 95.345,
+                    "text": "faded"
+                },
+                {
+                    "start": 95.514,
+                    "end": 95.764,
+                    "text": "into"
+                },
+                {
+                    "start": 95.76,
+                    "end": 96.18,
+                    "text": "night"
+                }
+            ]
+        },
+        {
+            "id": "line_30_occ_0",
+            "start": 102.3,
+            "end": 105.96,
+            "lyric": "Where the hell did I land?",
+            "real_meaning": "The devastating question: It is not about geography. It is about identity. Where am I? What have I become? Is this my life now? The question every human asks when they realize they have been sleepwalking into someone else's story.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0180.jpg",
+                    "query": "Wide shot: The traveler standing at the edge of a cliff at dawn, overlooking the vast prehistoric valley now dotted with fires and shelters."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0183.jpg",
+                    "query": "Wide shot: The teenager standing in the middle of their studio-bedroom, surrounded by equipment, merch boxes, and screens, looking lost."
+                }
+            ],
+            "words": [
+                {
+                    "start": 102.5,
+                    "end": 102.6,
+                    "text": "Where"
+                },
+                {
+                    "start": 102.6,
+                    "end": 102.92,
+                    "text": "the"
+                },
+                {
+                    "start": 102.92,
+                    "end": 103.44,
+                    "text": "hell"
+                },
+                {
+                    "start": 103.44,
+                    "end": 103.6,
+                    "text": "did"
+                },
+                {
+                    "start": 103.44,
+                    "end": 103.6,
+                    "text": "did"
+                },
+                {
+                    "start": 103.6,
+                    "end": 103.82,
+                    "text": "I"
                 }
             ]
         }
     ],
     "beat_times": [
-        0.255,
-        0.882,
-        1.393,
-        1.997,
-        2.601,
-        3.135,
-        3.692,
-        4.226,
-        4.783,
-        5.364,
-        5.921,
-        6.455,
-        7.012,
-        7.523,
-        8.034,
-        8.522,
-        9.009,
-        9.497,
-        9.985,
-        10.449,
-        11.029,
-        11.564,
-        12.098,
-        12.748,
-        13.351,
-        13.932,
-        14.512,
+        0.65,
+        1.231,
+        1.858,
+        2.438,
+        3.019,
+        3.622,
+        4.249,
+        4.853,
+        5.457,
+        6.037,
+        6.641,
+        7.245,
+        7.848,
+        8.429,
+        9.033,
+        9.613,
+        10.24,
+        10.844,
+        11.447,
+        12.051,
+        12.632,
+        13.212,
+        13.839,
+        14.443,
         15.047,
-        15.581,
-        16.115,
-        16.625,
-        17.183,
-        17.717,
-        18.251,
-        18.762,
-        19.273,
-        19.807,
-        20.341,
-        20.852,
-        21.409,
-        21.966,
-        22.523,
-        23.034,
-        23.522,
-        24.009,
-        24.59,
-        25.124,
-        25.635,
-        26.192,
-        26.796,
-        27.353,
-        27.887,
-        28.468
+        15.627,
+        16.231,
+        16.834,
+        17.438,
+        18.019,
+        18.646,
+        19.249,
+        19.853,
+        20.434,
+        21.037,
+        21.641,
+        22.245,
+        22.848,
+        23.452,
+        24.033,
+        24.636,
+        25.24,
+        25.844,
+        26.448,
+        27.051,
+        27.655,
+        28.259,
+        28.839,
+        29.443,
+        30.047,
+        30.65,
+        31.254,
+        31.858,
+        32.438,
+        33.042,
+        33.646,
+        34.249,
+        34.853,
+        35.457,
+        36.037,
+        36.641,
+        37.245,
+        37.825,
+        38.452,
+        39.056,
+        39.66,
+        40.24,
+        40.844,
+        41.448,
+        42.028,
+        42.632,
+        43.236,
+        43.839,
+        44.42,
+        45.047,
+        45.627,
+        46.231,
+        46.835,
+        47.462,
+        48.042,
+        48.646,
+        49.226,
+        49.853,
+        50.434,
+        51.037,
+        51.618,
+        52.268,
+        52.849,
+        53.452,
+        54.033,
+        54.637,
+        55.24,
+        55.844,
+        56.448,
+        57.051,
+        57.632,
+        58.259,
+        58.839,
+        59.443,
+        60.047,
+        60.651,
+        61.231,
+        61.835,
+        62.438,
+        63.042,
+        63.646,
+        64.25,
+        64.83,
+        65.457,
+        66.038,
+        66.641,
+        67.222,
+        67.825,
+        68.429,
+        69.056,
+        69.683,
+        70.264,
+        70.844,
+        71.448,
+        72.052,
+        72.655,
+        73.236,
+        73.839,
+        74.443,
+        75.047,
+        75.627,
+        76.231,
+        76.835,
+        77.439,
+        78.042,
+        78.669,
+        79.25,
+        79.853,
+        80.457,
+        81.061,
+        81.665,
+        82.245,
+        82.849,
+        83.453,
+        84.033,
+        84.637,
+        85.24,
+        85.844,
+        86.448,
+        87.028,
+        87.632,
+        88.259,
+        88.84,
+        89.443,
+        90.047,
+        90.651,
+        91.231,
+        91.835,
+        92.439,
+        93.042,
+        93.646,
+        94.25,
+        94.83,
+        95.457,
+        96.038,
+        96.641,
+        97.245,
+        97.849,
+        98.453,
+        99.056,
+        99.637,
+        100.241,
+        100.844,
+        101.425,
+        102.005,
+        102.586,
+        103.213,
+        103.816,
+        104.42,
+        105.024,
+        105.651,
+        106.255,
+        106.835,
+        107.439,
+        108.042,
+        108.646,
+        109.25,
+        109.83,
+        110.457,
+        111.038,
+        111.642,
+        112.222,
+        112.849,
+        113.429,
+        114.033,
+        114.637,
+        115.241,
+        115.844,
+        116.448,
+        117.052,
+        117.656,
+        118.236,
+        118.84,
+        119.443,
+        120.047,
+        120.628,
+        121.255,
+        121.835,
+        122.439,
+        123.043,
+        123.646,
+        124.227,
+        124.854,
+        125.434,
+        126.038,
+        126.642,
+        127.245,
+        127.826,
+        128.43,
+        129.01,
+        129.614,
+        130.218,
+        130.844
     ],
     "energy_curve": [
         [
             0.0,
-            0.81
+            0.485
         ],
         [
             0.49,
-            0.815
+            0.529
         ],
         [
             0.98,
-            0.826
+            0.578
         ],
         [
             1.46,
-            0.833
+            0.627
         ],
         [
             1.95,
-            0.695
+            0.654
         ],
         [
             2.44,
-            0.697
+            0.68
         ],
         [
             2.93,
-            0.791
+            0.717
         ],
         [
             3.41,
-            0.783
-        ],
-        [
-            3.9,
-            0.805
-        ],
-        [
-            4.39,
-            0.759
-        ],
-        [
-            4.88,
-            0.737
-        ],
-        [
-            5.36,
-            0.655
-        ],
-        [
-            5.85,
-            0.628
-        ],
-        [
-            6.34,
-            0.637
-        ],
-        [
-            6.83,
-            0.807
-        ],
-        [
-            7.31,
-            0.977
-        ],
-        [
-            7.8,
-            0.864
-        ],
-        [
-            8.29,
-            0.863
-        ],
-        [
-            8.78,
-            0.932
-        ],
-        [
-            9.26,
-            0.809
-        ],
-        [
-            9.75,
-            0.779
-        ],
-        [
-            10.24,
-            0.87
-        ],
-        [
-            10.73,
-            0.822
-        ],
-        [
-            11.22,
-            0.739
-        ],
-        [
-            11.7,
-            0.717
-        ],
-        [
-            12.19,
-            0.817
-        ],
-        [
-            12.68,
-            0.897
-        ],
-        [
-            13.17,
-            0.785
-        ],
-        [
-            13.65,
-            0.743
-        ],
-        [
-            14.14,
-            0.725
-        ],
-        [
-            14.63,
-            0.695
-        ],
-        [
-            15.12,
-            0.831
-        ],
-        [
-            15.6,
-            0.849
-        ],
-        [
-            16.09,
-            0.702
-        ],
-        [
-            16.58,
-            0.749
-        ],
-        [
-            17.07,
-            0.766
-        ],
-        [
-            17.55,
-            0.626
-        ],
-        [
-            18.04,
-            0.615
-        ],
-        [
-            18.53,
-            0.793
-        ],
-        [
-            19.02,
-            0.771
-        ],
-        [
-            19.5,
             0.683
         ],
         [
-            19.99,
-            0.831
+            3.9,
+            0.659
         ],
         [
-            20.48,
-            0.872
+            4.39,
+            0.636
         ],
         [
-            20.97,
-            0.799
-        ],
-        [
-            21.46,
-            0.681
-        ],
-        [
-            21.94,
-            0.699
-        ],
-        [
-            22.43,
-            0.832
-        ],
-        [
-            22.92,
-            0.836
-        ],
-        [
-            23.41,
-            0.783
-        ],
-        [
-            23.89,
-            0.877
-        ],
-        [
-            24.38,
-            0.932
-        ],
-        [
-            24.87,
-            0.823
-        ],
-        [
-            25.36,
-            0.791
-        ],
-        [
-            25.84,
-            0.717
-        ],
-        [
-            26.33,
+            4.88,
             0.635
         ],
         [
+            5.36,
+            0.745
+        ],
+        [
+            5.85,
+            0.754
+        ],
+        [
+            6.34,
+            0.73
+        ],
+        [
+            6.83,
+            0.742
+        ],
+        [
+            7.31,
+            0.728
+        ],
+        [
+            7.8,
+            0.766
+        ],
+        [
+            8.29,
+            0.777
+        ],
+        [
+            8.78,
+            0.756
+        ],
+        [
+            9.26,
+            0.693
+        ],
+        [
+            9.75,
+            0.714
+        ],
+        [
+            10.24,
+            0.806
+        ],
+        [
+            10.73,
+            0.815
+        ],
+        [
+            11.22,
+            0.831
+        ],
+        [
+            11.7,
+            0.857
+        ],
+        [
+            12.19,
+            0.836
+        ],
+        [
+            12.68,
+            0.775
+        ],
+        [
+            13.17,
+            0.756
+        ],
+        [
+            13.65,
+            0.789
+        ],
+        [
+            14.14,
+            0.805
+        ],
+        [
+            14.63,
+            0.847
+        ],
+        [
+            15.12,
+            0.803
+        ],
+        [
+            15.6,
+            0.749
+        ],
+        [
+            16.09,
+            0.83
+        ],
+        [
+            16.58,
+            0.82
+        ],
+        [
+            17.07,
+            0.826
+        ],
+        [
+            17.55,
+            0.794
+        ],
+        [
+            18.04,
+            0.699
+        ],
+        [
+            18.53,
+            0.782
+        ],
+        [
+            19.02,
+            0.841
+        ],
+        [
+            19.5,
+            0.872
+        ],
+        [
+            19.99,
+            0.838
+        ],
+        [
+            20.48,
+            0.784
+        ],
+        [
+            20.97,
+            0.838
+        ],
+        [
+            21.46,
+            0.854
+        ],
+        [
+            21.94,
+            0.879
+        ],
+        [
+            22.43,
+            0.875
+        ],
+        [
+            22.92,
+            0.814
+        ],
+        [
+            23.41,
+            0.829
+        ],
+        [
+            23.89,
+            0.82
+        ],
+        [
+            24.38,
+            0.824
+        ],
+        [
+            24.87,
+            0.849
+        ],
+        [
+            25.36,
+            0.827
+        ],
+        [
+            25.84,
+            0.831
+        ],
+        [
+            26.33,
+            0.807
+        ],
+        [
             26.82,
-            0.676
+            0.814
         ],
         [
             27.31,
-            0.631
+            0.852
         ],
         [
             27.79,
-            0.703
+            0.826
         ],
         [
             28.28,
-            0.818
+            0.839
         ],
         [
             28.77,
-            0.679
+            0.888
         ],
         [
             29.26,
-            0.454
+            0.889
+        ],
+        [
+            29.74,
+            0.879
+        ],
+        [
+            30.23,
+            0.897
+        ],
+        [
+            30.72,
+            0.87
+        ],
+        [
+            31.21,
+            0.868
+        ],
+        [
+            31.7,
+            0.919
+        ],
+        [
+            32.18,
+            0.887
+        ],
+        [
+            32.67,
+            0.89
+        ],
+        [
+            33.16,
+            0.911
+        ],
+        [
+            33.65,
+            0.908
+        ],
+        [
+            34.13,
+            0.917
+        ],
+        [
+            34.62,
+            0.899
+        ],
+        [
+            35.11,
+            0.881
+        ],
+        [
+            35.6,
+            0.858
+        ],
+        [
+            36.08,
+            0.851
+        ],
+        [
+            36.57,
+            0.91
+        ],
+        [
+            37.06,
+            0.868
+        ],
+        [
+            37.55,
+            0.811
+        ],
+        [
+            38.03,
+            0.863
+        ],
+        [
+            38.52,
+            0.918
+        ],
+        [
+            39.01,
+            0.929
+        ],
+        [
+            39.5,
+            0.899
+        ],
+        [
+            39.98,
+            0.858
+        ],
+        [
+            40.47,
+            0.739
+        ],
+        [
+            40.96,
+            0.744
+        ],
+        [
+            41.45,
+            0.882
+        ],
+        [
+            41.94,
+            0.905
+        ],
+        [
+            42.42,
+            0.901
+        ],
+        [
+            42.91,
+            0.892
+        ],
+        [
+            43.4,
+            0.912
+        ],
+        [
+            43.89,
+            0.927
+        ],
+        [
+            44.37,
+            0.923
+        ],
+        [
+            44.86,
+            0.956
+        ],
+        [
+            45.35,
+            0.915
+        ],
+        [
+            45.84,
+            0.876
+        ],
+        [
+            46.32,
+            0.878
+        ],
+        [
+            46.81,
+            0.877
+        ],
+        [
+            47.3,
+            0.916
+        ],
+        [
+            47.79,
+            0.92
+        ],
+        [
+            48.27,
+            0.923
+        ],
+        [
+            48.76,
+            0.935
+        ],
+        [
+            49.25,
+            0.89
+        ],
+        [
+            49.74,
+            0.942
+        ],
+        [
+            50.22,
+            0.992
+        ],
+        [
+            50.71,
+            0.939
+        ],
+        [
+            51.2,
+            0.836
+        ],
+        [
+            51.69,
+            0.735
+        ],
+        [
+            52.18,
+            0.773
+        ],
+        [
+            52.66,
+            0.843
+        ],
+        [
+            53.15,
+            0.915
+        ],
+        [
+            53.64,
+            0.942
+        ],
+        [
+            54.13,
+            0.903
+        ],
+        [
+            54.61,
+            0.897
+        ],
+        [
+            55.1,
+            0.926
+        ],
+        [
+            55.59,
+            0.948
+        ],
+        [
+            56.08,
+            0.916
+        ],
+        [
+            56.56,
+            0.885
+        ],
+        [
+            57.05,
+            0.883
+        ],
+        [
+            57.54,
+            0.893
+        ],
+        [
+            58.03,
+            0.893
+        ],
+        [
+            58.51,
+            0.88
+        ],
+        [
+            59.0,
+            0.892
+        ],
+        [
+            59.49,
+            0.889
+        ],
+        [
+            59.98,
+            0.876
+        ],
+        [
+            60.46,
+            0.902
+        ],
+        [
+            60.95,
+            0.893
+        ],
+        [
+            61.44,
+            0.852
+        ],
+        [
+            61.93,
+            0.833
+        ],
+        [
+            62.42,
+            0.851
+        ],
+        [
+            62.9,
+            0.917
+        ],
+        [
+            63.39,
+            0.899
+        ],
+        [
+            63.88,
+            0.847
+        ],
+        [
+            64.37,
+            0.85
+        ],
+        [
+            64.85,
+            0.863
+        ],
+        [
+            65.34,
+            0.909
+        ],
+        [
+            65.83,
+            0.921
+        ],
+        [
+            66.32,
+            0.897
+        ],
+        [
+            66.8,
+            0.888
+        ],
+        [
+            67.29,
+            0.897
+        ],
+        [
+            67.78,
+            0.863
+        ],
+        [
+            68.27,
+            0.846
+        ],
+        [
+            68.75,
+            0.836
+        ],
+        [
+            69.24,
+            0.826
+        ],
+        [
+            69.73,
+            0.902
+        ],
+        [
+            70.22,
+            0.98
+        ],
+        [
+            70.7,
+            0.957
+        ],
+        [
+            71.19,
+            0.906
+        ],
+        [
+            71.68,
+            0.854
+        ],
+        [
+            72.17,
+            0.882
+        ],
+        [
+            72.66,
+            0.895
+        ],
+        [
+            73.14,
+            0.875
+        ],
+        [
+            73.63,
+            0.87
+        ],
+        [
+            74.12,
+            0.841
+        ],
+        [
+            74.61,
+            0.881
+        ],
+        [
+            75.09,
+            0.875
+        ],
+        [
+            75.58,
+            0.87
+        ],
+        [
+            76.07,
+            0.901
+        ],
+        [
+            76.56,
+            0.876
+        ],
+        [
+            77.04,
+            0.907
+        ],
+        [
+            77.53,
+            0.895
+        ],
+        [
+            78.02,
+            0.831
+        ],
+        [
+            78.51,
+            0.805
+        ],
+        [
+            78.99,
+            0.785
+        ],
+        [
+            79.48,
+            0.807
+        ],
+        [
+            79.97,
+            0.848
+        ],
+        [
+            80.46,
+            0.832
+        ],
+        [
+            80.94,
+            0.772
+        ],
+        [
+            81.43,
+            0.752
+        ],
+        [
+            81.92,
+            0.836
+        ],
+        [
+            82.41,
+            0.882
+        ],
+        [
+            82.9,
+            0.887
+        ],
+        [
+            83.38,
+            0.897
+        ],
+        [
+            83.87,
+            0.908
+        ],
+        [
+            84.36,
+            0.929
+        ],
+        [
+            84.85,
+            0.928
+        ],
+        [
+            85.33,
+            0.904
+        ],
+        [
+            85.82,
+            0.914
+        ],
+        [
+            86.31,
+            0.917
+        ],
+        [
+            86.8,
+            0.918
+        ],
+        [
+            87.28,
+            0.914
+        ],
+        [
+            87.77,
+            0.906
+        ],
+        [
+            88.26,
+            0.898
+        ],
+        [
+            88.75,
+            0.907
+        ],
+        [
+            89.23,
+            0.932
+        ],
+        [
+            89.72,
+            0.925
+        ],
+        [
+            90.21,
+            0.925
+        ],
+        [
+            90.7,
+            0.933
+        ],
+        [
+            91.18,
+            0.923
+        ],
+        [
+            91.67,
+            0.907
+        ],
+        [
+            92.16,
+            0.868
+        ],
+        [
+            92.65,
+            0.807
+        ],
+        [
+            93.14,
+            0.799
+        ],
+        [
+            93.62,
+            0.823
+        ],
+        [
+            94.11,
+            0.888
+        ],
+        [
+            94.6,
+            0.924
+        ],
+        [
+            95.09,
+            0.92
+        ],
+        [
+            95.57,
+            0.93
+        ],
+        [
+            96.06,
+            0.945
+        ],
+        [
+            96.55,
+            0.957
+        ],
+        [
+            97.04,
+            0.92
+        ],
+        [
+            97.52,
+            0.885
+        ],
+        [
+            98.01,
+            0.884
+        ],
+        [
+            98.5,
+            0.869
+        ],
+        [
+            98.99,
+            0.908
+        ],
+        [
+            99.47,
+            0.951
+        ],
+        [
+            99.96,
+            0.95
+        ],
+        [
+            100.45,
+            0.947
+        ],
+        [
+            100.94,
+            0.868
+        ],
+        [
+            101.42,
+            0.668
+        ],
+        [
+            101.91,
+            0.506
+        ],
+        [
+            102.4,
+            0.662
+        ],
+        [
+            102.89,
+            0.817
+        ],
+        [
+            103.38,
+            0.782
+        ],
+        [
+            103.86,
+            0.732
+        ],
+        [
+            104.35,
+            0.677
+        ],
+        [
+            104.84,
+            0.647
+        ],
+        [
+            105.33,
+            0.661
+        ],
+        [
+            105.81,
+            0.711
+        ],
+        [
+            106.3,
+            0.753
+        ],
+        [
+            106.79,
+            0.723
+        ],
+        [
+            107.28,
+            0.708
+        ],
+        [
+            107.76,
+            0.777
+        ],
+        [
+            108.25,
+            0.886
+        ],
+        [
+            108.74,
+            0.928
+        ],
+        [
+            109.23,
+            0.918
+        ],
+        [
+            109.71,
+            0.922
+        ],
+        [
+            110.2,
+            0.937
+        ],
+        [
+            110.69,
+            0.914
+        ],
+        [
+            111.18,
+            0.876
+        ],
+        [
+            111.66,
+            0.856
+        ],
+        [
+            112.15,
+            0.866
+        ],
+        [
+            112.64,
+            0.891
+        ],
+        [
+            113.13,
+            0.877
+        ],
+        [
+            113.62,
+            0.856
+        ],
+        [
+            114.1,
+            0.836
+        ],
+        [
+            114.59,
+            0.852
+        ],
+        [
+            115.08,
+            0.915
+        ],
+        [
+            115.57,
+            0.874
+        ],
+        [
+            116.05,
+            0.844
+        ],
+        [
+            116.54,
+            0.869
+        ],
+        [
+            117.03,
+            0.875
+        ],
+        [
+            117.52,
+            0.92
+        ],
+        [
+            118.0,
+            0.901
+        ],
+        [
+            118.49,
+            0.86
+        ],
+        [
+            118.98,
+            0.875
+        ],
+        [
+            119.47,
+            0.927
+        ],
+        [
+            119.95,
+            0.984
+        ],
+        [
+            120.44,
+            0.925
+        ],
+        [
+            120.93,
+            0.861
+        ],
+        [
+            121.42,
+            0.899
+        ],
+        [
+            121.9,
+            0.946
+        ],
+        [
+            122.39,
+            0.957
+        ],
+        [
+            122.88,
+            0.916
+        ],
+        [
+            123.37,
+            0.874
+        ],
+        [
+            123.86,
+            0.89
+        ],
+        [
+            124.34,
+            0.943
+        ],
+        [
+            124.83,
+            0.928
+        ],
+        [
+            125.32,
+            0.886
+        ],
+        [
+            125.81,
+            0.893
+        ],
+        [
+            126.29,
+            0.91
+        ],
+        [
+            126.78,
+            0.936
+        ],
+        [
+            127.27,
+            0.865
+        ],
+        [
+            127.76,
+            0.77
+        ],
+        [
+            128.24,
+            0.714
+        ],
+        [
+            128.73,
+            0.69
+        ],
+        [
+            129.22,
+            0.705
+        ],
+        [
+            129.71,
+            0.677
+        ],
+        [
+            130.19,
+            0.679
+        ],
+        [
+            130.68,
+            0.617
+        ],
+        [
+            131.17,
+            0.429
+        ],
+        [
+            131.66,
+            0.325
         ]
     ],
-    "bpm": 112.3,
+    "bpm": 99.4,
     "sections": [
         {
             "start": 0.0,
-            "end": 0.49,
+            "end": 79.46,
             "energy": "high",
-            "intensity": 0.789
+            "intensity": 0.844
         },
         {
-            "start": 0.49,
-            "end": 17.44,
+            "start": 79.46,
+            "end": 80.2,
             "energy": "high",
-            "intensity": 0.782
+            "intensity": 0.838
         },
         {
-            "start": 17.44,
-            "end": 29.64,
+            "start": 80.2,
+            "end": 99.08,
             "energy": "high",
-            "intensity": 0.739
+            "intensity": 0.892
+        },
+        {
+            "start": 99.08,
+            "end": 101.38,
+            "energy": "high",
+            "intensity": 0.908
+        },
+        {
+            "start": 101.38,
+            "end": 124.99,
+            "energy": "high",
+            "intensity": 0.842
+        },
+        {
+            "start": 124.99,
+            "end": 131.88,
+            "energy": "high",
+            "intensity": 0.727
         }
     ],
     "transition_points": [
-        0.6,
-        3.92,
-        7.5,
-        11.91,
-        16.39,
-        20.11,
-        23.64,
-        28.51
+        0.16,
+        3.18,
+        6.43,
+        9.45,
+        12.91,
+        16.02,
+        19.37,
+        22.64,
+        26.26,
+        30.74,
+        34.04,
+        38.85,
+        42.42,
+        46.65,
+        50.13,
+        58.65,
+        61.95,
+        65.13,
+        68.55,
+        71.84,
+        75.44,
+        83.24,
+        87.45,
+        90.93,
+        97.36,
+        100.54,
+        103.63,
+        106.65,
+        109.97,
+        118.96,
+        122.23,
+        125.25,
+        128.55,
+        131.8
     ]
 };
 window.albumData = window.albumData || {};

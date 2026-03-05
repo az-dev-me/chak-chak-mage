@@ -59,9 +59,37 @@ def export_album_tracks(
     album_id: str,
     fused_tracks: list[FusedTrackData],
 ) -> None:
-    """Write JS + JSON files for all fused tracks in an album."""
+    """Write JS + JSON files for all fused tracks in an album.
+
+    For base tracks (id = bare track_id like 'track_01'), also writes a
+    variant-qualified copy (e.g. 'track_01_T1-2-3a') if the album config
+    specifies a default variant_id for that track.  This ensures the player
+    can load the file it expects without a separate process-variants run.
+    """
+    # Load album config to find default variant_id per track
+    config_path = album_dir / "album_config.json"
+    default_variants: dict[str, str] = {}
+    if config_path.exists():
+        cfg = load_json(config_path)
+        for t in cfg.get("tracks", []):
+            tid = t.get("track_id") or t.get("id", "")
+            vid = t.get("variant_id", "")
+            if tid and vid:
+                default_variants[tid] = vid
+
     for track_data in fused_tracks:
         write_track_files(album_dir, album_id, track_data)
+
+        # If this is a base track with a default variant, also write
+        # the variant-qualified file so the player can find it.
+        bare_id = track_data.id
+        if bare_id in default_variants:
+            variant_id = default_variants[bare_id]
+            qualified_id = f"{bare_id}_{variant_id}"
+            # Create a copy with the variant-qualified id
+            variant_data = track_data.model_copy(update={"id": qualified_id})
+            write_track_files(album_dir, album_id, variant_data)
+
     logger.info("Exported %d track files for album %s", len(fused_tracks), album_id)
 
 

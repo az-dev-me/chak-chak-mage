@@ -52,20 +52,8 @@ var track_09_data = {
             "end": 3.6,
             "lyric": "I sat on the couch and stared at",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 0.85,
-                    "url": "media/c0961.jpg",
-                    "query": "Medium shot: The traveler looks from the city back to the smartphone, shaking their head at the absurdity of it all."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 0.85,
-                    "url": "media/c0964.jpg",
-                    "query": "Medium shot: The phone sits face-down on a bookshelf, gathering dust. Not destroyed, just ignored."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 1.046,
@@ -115,20 +103,8 @@ var track_09_data = {
             "end": 4.224,
             "lyric": "the ceiling.",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 3.13,
-                    "url": "media/c0962.jpg",
-                    "query": "Close-up: The traveler purposefully turns the smartphone face down on the table, silencing it."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 3.13,
-                    "url": "media/c0965.jpg",
-                    "query": "Close-up: The user writing in a physical notebook with a pen. The scratch of ink on paper."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 3.6,
@@ -148,8 +124,20 @@ var track_09_data = {
             "end": 6.4,
             "lyric": "The hedgehog chewing on my shoes.",
             "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
+            "media": [
+                {
+                    "offset": 5.03,
+                    "url": "media/c0961.jpg",
+                    "query": "Medium shot: The traveler looks from the city back to the smartphone, shaking their head at the absurdity of it all."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 5.03,
+                    "url": "media/c0964.jpg",
+                    "query": "Medium shot: The phone sits face-down on a bookshelf, gathering dust. Not destroyed, just ignored."
+                }
+            ],
             "words": [
                 {
                     "start": 4.672,
@@ -194,11 +182,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0966.jpg",
                     "query": "A vast prehistoric landscape at sunset, a lone figure standing near a cave entrance, firelight flickering."
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c0967.jpg",
-                    "query": "The figure sits alone, tool in hand, staring intently into the darkness, a fire burning nearby."
                 }
             ],
             "hidden_media": [
@@ -206,11 +189,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0969.jpg",
                     "query": "A sprawling cityscape at dusk, a single smartphone lying untouched on a windowsill."
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c0970.jpg",
-                    "query": "A cluttered apartment with a child playing with a stone, phone laying on the coffee table."
                 }
             ],
             "words": [
@@ -294,11 +272,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0972.jpg",
                     "query": "A vast prehistoric valley at sunset, volcanoes smolder in the distance. Warm hues paint the sky. Cinematic."
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0973.jpg",
-                    "query": "Around a campfire, a group huddles, shadows dance on weathered faces. Tool in hand. Dramatic."
                 }
             ],
             "hidden_media": [
@@ -306,11 +279,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0975.jpg",
                     "query": "A sprawling cityscape at dusk, a single smartphone lies untouched on a windowsill, cool blue light reflected on the glass."
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0976.jpg",
-                    "query": "A hand reaches for a pocket, but hesitates, fingers brushing against the cool metal of a pocket lighter."
                 }
             ],
             "words": [
@@ -352,20 +320,8 @@ var track_09_data = {
             "end": 15.308,
             "lyric": "But they made it a totem.",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 3.49,
-                    "url": "media/c0974.jpg",
-                    "query": "A hand holds a stone tool, firelight reflects in the eyes. Intimate, painterly."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 3.49,
-                    "url": "media/c0977.jpg",
-                    "query": "Two hands clasped together, one holding a pocket lighter, the other a rock, cool tones, stark contrast, cinematic."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 13.909,
@@ -472,16 +428,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0978.jpg",
                     "query": "A vast prehistoric landscape at dusk, with a distant fire glowing in the twilight."
-                },
-                {
-                    "offset": 0.53,
-                    "url": "media/c0979.jpg",
-                    "query": "A cave dweller strikes flint against stone, sparking flames."
-                },
-                {
-                    "offset": 1.71,
-                    "url": "media/c0980.jpg",
-                    "query": "The man's eyes reflect the firelight, questioning."
                 }
             ],
             "hidden_media": [
@@ -489,16 +435,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0981.jpg",
                     "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a windowsill, cool blue light reflecting on the glass."
-                },
-                {
-                    "offset": 0.53,
-                    "url": "media/c0982.jpg",
-                    "query": "A cluttered apartment, a man sits on the couch, looking at his hands, with a stone on the table, a phone is on the coffee table."
-                },
-                {
-                    "offset": 1.71,
-                    "url": "media/c0983.jpg",
-                    "query": "Two hands meeting, fingers intertwining, a smooth stone rests on the ground, close up."
                 }
             ],
             "words": [
@@ -555,16 +491,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0984.jpg",
                     "query": "A vast prehistoric landscape at sunset. Volcanic peaks, a sprawling forest, and a herd of wild horses. A small cave at the edge of a cliff."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0985.jpg",
-                    "query": "A lone prehistoric man, his back to the viewer, stands with a lighter in his hand.  He looks at the cave's fire pit.  The shadows of the cave play on the walls."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0986.jpg",
-                    "query": "A tight close-up of the man's hand, holding a lighter, but unable to light it."
                 }
             ],
             "hidden_media": [
@@ -572,16 +498,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0987.jpg",
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets. A phone sits untouched on a windowsill."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0988.jpg",
-                    "query": "A cluttered apartment with a sleek, black phone on a wooden table, next to a dusty museum exhibit."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0989.jpg",
-                    "query": "A child's hands, smudged with dirt, clutching a smooth, gray stone from the beach."
                 }
             ],
             "words": [
@@ -603,11 +519,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0990.jpg",
                     "query": "A vast, prehistoric valley at dusk, with a lone figure standing beside a cave entrance, firelight flickering in the distance."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0991.jpg",
-                    "query": "The figure, hunched, holding a primitive stone tool, striking sparks into a pile of kindling, shadows dancing wildly."
                 }
             ],
             "hidden_media": [
@@ -615,11 +526,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0993.jpg",
                     "query": "Aerial view of a sprawling cityscape at dusk, a smartphone lies untouched on a balcony rail, cool blue hues reflecting off glass buildings."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0994.jpg",
-                    "query": "A teenager sits on a couch, eyes glued to a blank screen, hands frozen in mid-air, as a museum of old phones flickers behind him."
                 }
             ],
             "words": [
@@ -656,20 +562,8 @@ var track_09_data = {
             "end": 29.408,
             "lyric": "'But the Mage said it was transport!'",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 2.4,
-                    "url": "media/c0992.jpg",
-                    "query": "The figure's clenched jaw, eyes wide with frustration, a small cut on the index finger."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 2.4,
-                    "url": "media/c0995.jpg",
-                    "query": "A close-up of a person's face, tense and anxious,  eyes darting left to right, as they stare at a blank phone screen."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 27.54,
@@ -719,11 +613,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0996.jpg",
                     "query": "Widespread prehistoric valley at dusk, volcanic smoke, firepit glow, silhouette of a lone figure."
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c0997.jpg",
-                    "query": "Man holding a stone tool, looking at fire, modern lighter in the dirt, fire reflected in his eyes."
                 }
             ],
             "hidden_media": [
@@ -731,11 +620,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c0999.jpg",
                     "query": "A sprawling cityscape at dusk, a sleek smartphone lies untouched on a modern balcony."
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c1000.jpg",
-                    "query": "Two individuals in a minimalist apartment, arguing intensely, phones nowhere to be seen."
                 }
             ],
             "words": [
@@ -774,16 +658,16 @@ var track_09_data = {
             "real_meaning": "",
             "media": [
                 {
-                    "offset": 3.28,
-                    "url": "media/c0998.jpg",
-                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
+                    "offset": 4.88,
+                    "url": "media/c0997.jpg",
+                    "query": "Man holding a stone tool, looking at fire, modern lighter in the dirt, fire reflected in his eyes."
                 }
             ],
             "hidden_media": [
                 {
-                    "offset": 3.28,
-                    "url": "media/c1001.jpg",
-                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
+                    "offset": 4.88,
+                    "url": "media/c1000.jpg",
+                    "query": "Two individuals in a minimalist apartment, arguing intensely, phones nowhere to be seen."
                 }
             ],
             "words": [
@@ -800,20 +684,8 @@ var track_09_data = {
             "end": 35.6,
             "lyric": "but the Mage's lighter was orange and I",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 3.28,
-                    "url": "media/c0998.jpg",
-                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 3.28,
-                    "url": "media/c1001.jpg",
-                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 33.14,
@@ -863,20 +735,8 @@ var track_09_data = {
             "end": 36.577,
             "lyric": "want a blue one!'",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 3.28,
-                    "url": "media/c0998.jpg",
-                    "query": "up of the figure's hands, one holding the stone tool, the other the modern lighter."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 3.28,
-                    "url": "media/c1001.jpg",
-                    "query": "A close-up of hands gesturing, fingers splayed wide and tense, with a bright blue lighter."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 35.6,
@@ -911,16 +771,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c1002.jpg",
                     "query": "Vast prehistoric valley at dusk, fires burning, smoke rising."
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c1003.jpg",
-                    "query": "A figure stands motionless near a fire, the lighter still in hand."
-                },
-                {
-                    "offset": 1.03,
-                    "url": "media/c1004.jpg",
-                    "query": "up of the figure's eyes, reflecting the embers, awaiting action."
                 }
             ],
             "hidden_media": [
@@ -928,16 +778,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c1005.jpg",
                     "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a table in an apartment. Cool urban lights reflect off the screen."
-                },
-                {
-                    "offset": 0.52,
-                    "url": "media/c1006.jpg",
-                    "query": "A child on a beach, striking two stones together, sparks fly. The child is looking at the ocean."
-                },
-                {
-                    "offset": 1.03,
-                    "url": "media/c1007.jpg",
-                    "query": "Close up of a hand holding a stone, the stone has been used to strike another. The hand is at the beach."
                 }
             ],
             "words": [
@@ -984,16 +824,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c1008.jpg",
                     "query": "A vast prehistoric landscape at dawn, smoke from fires rising into the sky."
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c1009.jpg",
-                    "query": "A lone figure huddled by a dying fire, face illuminated by warm, flickering light."
-                },
-                {
-                    "offset": 1.13,
-                    "url": "media/c1010.jpg",
-                    "query": "A close-up of hands, calloused and worn, holding a stone ready to strike the stone to make fire."
                 }
             ],
             "hidden_media": [
@@ -1001,16 +831,6 @@ var track_09_data = {
                     "offset": 0.0,
                     "url": "media/c1011.jpg",
                     "query": "A bustling cityscape at dusk, a sleek smartphone sits untouched on a windowsill, cool blues and purples dominate the scene."
-                },
-                {
-                    "offset": 0.62,
-                    "url": "media/c1012.jpg",
-                    "query": "A modern apartment interior, a young person sits on a couch, eyes glued to a blank wall, a phone lies untouched on the coffee table."
-                },
-                {
-                    "offset": 1.13,
-                    "url": "media/c1013.jpg",
-                    "query": "A close-up of a hand, slowly reaching for a phone, then hesitates and turns to the ground. A stone is at the feet."
                 }
             ],
             "words": [

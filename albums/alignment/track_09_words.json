@@ -130,7 +130,7 @@
         },
         {
             "start": 7.2,
-            "end": 10.988,
+            "end": 11.744,
             "text": "And I thought... fuck. It's always the same shit.",
             "words": [
                 {
@@ -223,6 +223,24 @@
                     "end": 12.768,
                     "text": "a",
                     "source": "canonical"
+                },
+                {
+                    "start": 12.768,
+                    "end": 12.88,
+                    "text": "this",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 12.88,
+                    "end": 13.14,
+                    "text": "sweet",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 13.14,
+                    "end": 13.286,
+                    "text": "-like",
+                    "source": "ad-lib"
                 },
                 {
                     "start": 13.286,

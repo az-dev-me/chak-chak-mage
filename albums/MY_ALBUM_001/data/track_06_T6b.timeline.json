@@ -1,0 +1,189 @@
+{
+    "id": "track_06_T6b",
+    "timeline": [
+        {
+            "id": "line_0_occ_0",
+            "line_index": 0,
+            "occurrence_index": 0,
+            "start": 0.22,
+            "end": 3.168,
+            "lyric": "The Mage said box! The box is law!"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 3.978,
+            "end": 7.31,
+            "lyric": "The box is everything we saw!"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 7.621,
+            "end": 11.06,
+            "lyric": "Muda's wrong, she breaks the rules!"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 11.375,
+            "end": 13.929,
+            "lyric": "We are the faithful, we are the tools!"
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 15.263,
+            "end": 17.974,
+            "lyric": "Look at the stone! Look at your hand!"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 19.084,
+            "end": 22.452,
+            "lyric": "The fire rises when you understand!"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 22.886,
+            "end": 26.118,
+            "lyric": "The Mage is just a guy with tricks!"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 26.666,
+            "end": 29.98,
+            "lyric": "The spark is yours, it's in the sticks!"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 31.08,
+            "end": 33.394,
+            "lyric": "TWO FIRES! TWO FIRES!"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 35.32,
+            "end": 37.061,
+            "lyric": "Burning in the same night!"
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 38.317,
+            "end": 40.697,
+            "lyric": "TWO FIRES! TWO FIRES!"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 42.688,
+            "end": 44.486,
+            "lyric": "Which one is right?"
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 45.14,
+            "end": 47.82,
+            "lyric": "GRAL-HA! GRAL-HA!"
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 48.64,
+            "end": 51.32,
+            "lyric": "MU-DA! MU-DA!"
+        },
+        {
+            "id": "line_14_occ_0",
+            "line_index": 14,
+            "occurrence_index": 0,
+            "start": 52.18,
+            "end": 57.311,
+            "lyric": "Tronco stepped between the two"
+        },
+        {
+            "id": "line_15_occ_0",
+            "line_index": 15,
+            "occurrence_index": 0,
+            "start": 57.38,
+            "end": 61.24,
+            "lyric": "\"Wait,\" he said, \"what should I do?"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 61.546,
+            "end": 64.892,
+            "lyric": "He's got the box, she's got the spark"
+        },
+        {
+            "id": "line_17_occ_0",
+            "line_index": 17,
+            "occurrence_index": 0,
+            "start": 65.14,
+            "end": 68.16,
+            "lyric": "I'm just scared of the dark...\""
+        },
+        {
+            "id": "line_18_occ_0",
+            "line_index": 18,
+            "occurrence_index": 0,
+            "start": 69.16,
+            "end": 71.931,
+            "lyric": "TWO FIRES! TWO FIRES!"
+        },
+        {
+            "id": "line_19_occ_0",
+            "line_index": 19,
+            "occurrence_index": 0,
+            "start": 72.992,
+            "end": 75.264,
+            "lyric": "Burning in the same night!"
+        },
+        {
+            "id": "line_20_occ_0",
+            "line_index": 20,
+            "occurrence_index": 0,
+            "start": 76.512,
+            "end": 78.69,
+            "lyric": "TWO FIRES! TWO FIRES!"
+        },
+        {
+            "id": "line_21_occ_0",
+            "line_index": 21,
+            "occurrence_index": 0,
+            "start": 80.84,
+            "end": 82.94,
+            "lyric": "Which one is right?"
+        },
+        {
+            "id": "line_22_occ_0",
+            "line_index": 22,
+            "occurrence_index": 0,
+            "start": 82.94,
+            "end": 101.6,
+            "lyric": "\"Where's the Mage gone?\""
+        }
+    ]
+}

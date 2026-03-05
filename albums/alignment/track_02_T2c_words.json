@@ -131,7 +131,7 @@
         },
         {
             "start": 37.892,
-            "end": 41.223,
+            "end": 42.56,
             "text": "Where does fire sleep at night? Where does it go to rest?",
             "words": [
                 {
@@ -189,30 +189,11 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 40.72,
-                    "end": 41.22,
-                    "text": "Gralha",
-                    "source": "canonical"
-                },
-                {
                     "start": 40.765,
                     "end": 40.838,
                     "text": "its",
                     "source": "canonical"
                 },
-                {
-                    "start": 41.22,
-                    "end": 41.72,
-                    "text": "held",
-                    "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 41.223,
-            "end": 44.22,
-            "text": "Show me its cradle, show me its nest.\"",
-            "words": [
                 {
                     "start": 41.223,
                     "end": 41.305,
@@ -220,23 +201,18 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 41.72,
-                    "end": 42.52,
-                    "text": "the",
-                    "source": "canonical"
-                },
-                {
                     "start": 42.485,
                     "end": 42.56,
                     "text": "show",
                     "source": "canonical"
-                },
-                {
-                    "start": 42.52,
-                    "end": 44.58,
-                    "text": "orange",
-                    "source": "canonical"
-                },
+                }
+            ]
+        },
+        {
+            "start": 42.785,
+            "end": 44.22,
+            "text": "Show me its cradle, show me its nest.\"",
+            "words": [
                 {
                     "start": 42.785,
                     "end": 42.86,
@@ -251,13 +227,37 @@
                 },
                 {
                     "start": 43.12,
+                    "end": 43.62,
+                    "text": "Gralha",
+                    "source": "canonical"
+                },
+                {
+                    "start": 43.12,
                     "end": 44.043,
                     "text": "nest.\"",
                     "source": "canonical"
                 },
                 {
-                    "start": 44.043,
+                    "start": 43.62,
+                    "end": 44.12,
+                    "text": "held",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.12,
                     "end": 44.22,
+                    "text": "the",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.22,
+                    "end": 44.72,
+                    "text": "orange",
+                    "source": "canonical"
+                },
+                {
+                    "start": 44.72,
+                    "end": 44.76,
                     "text": "THE",
                     "source": "canonical"
                 }
@@ -275,7 +275,7 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 44.58,
+                    "start": 44.72,
                     "end": 44.864,
                     "text": "box,",
                     "source": "canonical"
@@ -453,13 +453,7 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 61.0,
-                    "end": 61.44,
-                    "text": "I",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 61.44,
+                    "start": 60.72,
                     "end": 61.804,
                     "text": "said",
                     "source": "canonical"
@@ -876,7 +870,7 @@
         },
         {
             "start": 86.164,
-            "end": 95.004,
+            "end": 92.8,
             "text": "We'll run with it, we'll run with pride!",
             "words": [
                 {
@@ -923,23 +917,23 @@
                 },
                 {
                     "start": 88.04,
-                    "end": 88.54,
-                    "text": "pride.",
+                    "end": 88.64,
+                    "text": "pride",
                     "source": "ad-lib"
-                },
-                {
-                    "start": 88.54,
-                    "end": 95.004,
-                    "text": "pride!",
-                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 95.004,
+            "start": 92.8,
             "end": 99.664,
             "text": "And that's how I became a god",
             "words": [
+                {
+                    "start": 92.8,
+                    "end": 93.46,
+                    "text": "And",
+                    "source": "ad-lib"
+                },
                 {
                     "start": 95.004,
                     "end": 96.724,
@@ -1232,7 +1226,7 @@
         },
         {
             "start": 119.744,
-            "end": 122.48,
+            "end": 122.376,
             "text": "We'll run with it, we'll run with pride!",
             "words": [
                 {
@@ -1286,16 +1280,10 @@
             ]
         },
         {
-            "start": 122.48,
+            "start": 122.884,
             "end": 156.576,
             "text": "Run, run, don't let it die!",
             "words": [
-                {
-                    "start": 122.48,
-                    "end": 122.58,
-                    "text": "Roll,",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 122.884,
                     "end": 122.984,
@@ -1310,15 +1298,9 @@
                 },
                 {
                     "start": 123.303,
-                    "end": 125.74,
+                    "end": 151.712,
                     "text": "don't",
                     "source": "canonical"
-                },
-                {
-                    "start": 125.74,
-                    "end": 128.1,
-                    "text": "roll,",
-                    "source": "ad-lib"
                 },
                 {
                     "start": 151.712,
@@ -1327,8 +1309,8 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 153.98,
-                    "end": 154.54,
+                    "start": 153.96,
+                    "end": 154.52,
                     "text": "laughter,",
                     "source": "ad-lib"
                 },

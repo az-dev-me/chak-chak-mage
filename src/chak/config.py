@@ -175,9 +175,8 @@ def load_config(config_path: str | Path | None = None) -> PipelineConfig:
 def derive_music_tracks(album_dir: Path) -> list[str]:
     """Auto-derive music track IDs from album_config.json.
 
-    Tracks whose default ``variant_id`` starts with ``TTS_`` are treated as
-    spoken-word (higher similarity threshold).  Everything else is music
-    (lower threshold).
+    A track is classified as music if it has ANY non-TTS variant.
+    Tracks that ONLY have TTS variants are spoken-word (higher threshold).
 
     Returns an empty list if album_config.json is missing.
     """
@@ -188,8 +187,22 @@ def derive_music_tracks(album_dir: Path) -> list[str]:
         return []
     with open(config_path, encoding="utf-8") as f:
         data = json.load(f)
-    return [
-        t.get("track_id") or t.get("id", "")
-        for t in data.get("tracks", [])
-        if not (t.get("variant_id", "") or "").upper().startswith("TTS_")
-    ]
+
+    music_ids: list[str] = []
+    for t in data.get("tracks", []):
+        tid = t.get("track_id") or t.get("id", "")
+        if not tid:
+            continue
+        default_vid = (t.get("variant_id", "") or "").upper()
+        if not default_vid.startswith("TTS_"):
+            # Default variant is non-TTS → music
+            music_ids.append(tid)
+            continue
+        # Default is TTS — check if any variant is non-TTS (music)
+        for v in t.get("variants", []):
+            vid = (v.get("id", "") or "").upper()
+            if not vid.startswith("TTS_"):
+                music_ids.append(tid)
+                break
+
+    return music_ids

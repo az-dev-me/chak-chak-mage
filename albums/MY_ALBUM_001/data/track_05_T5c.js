@@ -14,16 +14,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0432.jpg",
                     "query": "Wide shot: Away from the screaming factions, Muda sits alone in a quiet, shaded grove by the river."
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0433.jpg",
-                    "query": "Medium shot: Muda isn't arguing. She is calmly watching a spark fly as two stones accidentally strike against each other in the current."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0434.jpg",
-                    "query": "Close-up: Muda's eyes narrow in analytical realization. She reaches into the water and picks up two specific flint stones."
                 }
             ],
             "hidden_media": [
@@ -31,16 +21,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0435.jpg",
                     "query": "Wide shot: A quiet, dusty community library at 8 PM. Away from the noise, a single student sits at a large wooden table."
-                },
-                {
-                    "offset": 0.63,
-                    "url": "media/c0436.jpg",
-                    "query": "Medium shot: The student isn't arguing online. They are quietly reading a heavily worn manual on Linux system architecture."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0437.jpg",
-                    "query": "Close-up: The student types 'Hello, World!' into a terminal. The crisp, clean execution of code."
                 }
             ],
             "words": [
@@ -84,14 +64,9 @@ var track_05_T5c_data = {
                     "query": "Medium shot: Muda sits cross-legged. She carefully strikes the two stones together. Tchak."
                 },
                 {
-                    "offset": 0.67,
+                    "offset": 3.78,
                     "url": "media/c0439.jpg",
                     "query": "Close-up: A bright shower of sparks falls onto a pile of dry river moss."
-                },
-                {
-                    "offset": 3.71,
-                    "url": "media/c0440.jpg",
-                    "query": "Extreme close-up: The moss catches. A tiny, natural, unbranded flame is born."
                 }
             ],
             "hidden_media": [
@@ -101,14 +76,9 @@ var track_05_T5c_data = {
                     "query": "Wide shot: A local 'repair cafe'. People calmly fixing broken electronics instead of buying new ones. No brands, just open knowledge."
                 },
                 {
-                    "offset": 0.67,
+                    "offset": 3.78,
                     "url": "media/c0442.jpg",
                     "query": "Medium shot: The student patiently showing an elderly person how to solder a wire. Slow, deliberate, empowering."
-                },
-                {
-                    "offset": 3.71,
-                    "url": "media/c0443.jpg",
-                    "query": "Close-up: A powerful venture capitalist aggressively staring at an open-source github repo, confusedly asking an assistant 'how do we monetize this?'"
                 }
             ],
             "words": [
@@ -162,14 +132,9 @@ var track_05_T5c_data = {
                     "query": "Wide shot: Muda stands up, holding the burning moss. She walks back toward the arguing tribe."
                 },
                 {
-                    "offset": 1.06,
+                    "offset": 3.87,
                     "url": "media/c0445.jpg",
                     "query": "Medium shot: The shouting stops instantly as Muda approaches carrying the fire. Both factions stare in stunned silence."
-                },
-                {
-                    "offset": 3.47,
-                    "url": "media/c0446.jpg",
-                    "query": "Close-up: Gralha drops the Orange Box into the dirt, his worldview completely shattered upon seeing a different fire."
                 }
             ],
             "hidden_media": [
@@ -179,14 +144,9 @@ var track_05_T5c_data = {
                     "query": "Wide shot: A community garden where neighbors share seedlings and tools. No competition, no metrics, just growth."
                 },
                 {
-                    "offset": 1.06,
+                    "offset": 3.87,
                     "url": "media/c0448.jpg",
                     "query": "Medium shot: A programmer contributes a patch to an open-source project, no payment expected, just the craft itself."
-                },
-                {
-                    "offset": 3.47,
-                    "url": "media/c0449.jpg",
-                    "query": "Close-up: A VC investor frowns at a spreadsheet — this open-source thing has no monetization strategy. Dangerous."
                 }
             ],
             "words": [
@@ -240,14 +200,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley under a fiery sunset, a lone figure sits still, observing the world."
                 },
                 {
-                    "offset": 0.87,
+                    "offset": 3.37,
                     "url": "media/c0451.jpg",
                     "query": "Muda's hands cradle a stone, eyes focused, as he prepares to strike it."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0452.jpg",
-                    "query": "Muda's gaze, intense and calm, reflects the dance of distant flames."
                 }
             ],
             "hidden_media": [
@@ -257,14 +212,9 @@ var track_05_T5c_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling park, surrounded by towering skyscrapers and neon lights."
                 },
                 {
-                    "offset": 0.87,
+                    "offset": 3.37,
                     "url": "media/c0454.jpg",
                     "query": "A cluttered desk with dual monitors, one displaying lines of code, the other a Wikipedia edit page, surrounded by scattered papers and a laptop displaying GitHub."
-                },
-                {
-                    "offset": 2.68,
-                    "url": "media/c0455.jpg",
-                    "query": "A close-up of a hand holding a small, worn paperback, resting on a knee.  The hand is still, meditative, but the environment behind it is busy and full of activity."
                 }
             ],
             "words": [
@@ -311,16 +261,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0456.jpg",
                     "query": "A vast, prehistoric landscape at sunset. Muda stands alone, watching the world."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0457.jpg",
-                    "query": "Muda's hands reach out, picking up a stone. A close up of a hand holding the stone, a dramatic firelight casting shadows."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0458.jpg",
-                    "query": "Muda's hands, holding the stone, warm tones, the intimate moment of picking up a stone."
                 }
             ],
             "hidden_media": [
@@ -328,16 +268,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0459.jpg",
                     "query": "A quiet student sits alone in a bustling urban café, laptop open, coding, surrounded by neon signs and rain-slicked streets."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0460.jpg",
-                    "query": "up of a screen with a GitHub repository, cursor blinking, hands typing, a repair cafe poster in the background."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0461.jpg",
-                    "query": "A close-up of a young person’s hands reaching out to pick up a discarded circuit board from the ground."
                 }
             ],
             "words": [
@@ -396,14 +326,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at dusk, a lone figure stands atop a hill, watching the herd of grazing animals, fire in the distance."
                 },
                 {
-                    "offset": 0.52,
+                    "offset": 3.0,
                     "url": "media/c0463.jpg",
                     "query": "Muda kneels before a pile of stones.  Hands hover, ready to strike, eyes intense.  Spark against the stone."
-                },
-                {
-                    "offset": 1.7,
-                    "url": "media/c0464.jpg",
-                    "query": "Muda's hands, rough and calloused, hold a flint, sparks fly with a satisfying snap, warm glow of a newly lit flame."
                 }
             ],
             "hidden_media": [
@@ -413,14 +338,9 @@ var track_05_T5c_data = {
                     "query": "A quiet student in a bustling modern city, surrounded by skyscrapers and technology, contemplating a laptop."
                 },
                 {
-                    "offset": 0.52,
+                    "offset": 3.0,
                     "url": "media/c0466.jpg",
                     "query": "A busy repair café, filled with people collaborating on open-source projects, and repairing tech."
-                },
-                {
-                    "offset": 1.7,
-                    "url": "media/c0467.jpg",
-                    "query": "A close-up of the student's fingers on a keyboard, pressing a key to launch a new program."
                 }
             ],
             "words": [
@@ -467,16 +387,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0468.jpg",
                     "query": "A vast, firelit prehistoric valley at sunset, a lone figure watches."
-                },
-                {
-                    "offset": 0.21,
-                    "url": "media/c0469.jpg",
-                    "query": "Muda kneels, stone in hand, striking it against another, sparks fly."
-                },
-                {
-                    "offset": 0.41,
-                    "url": "media/c0470.jpg",
-                    "query": "Muda's determined face, stone held tight, sparks flying in slow motion."
                 }
             ],
             "hidden_media": [
@@ -484,16 +394,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0471.jpg",
                     "query": "A quiet student sits alone in a bustling city park, laptop open, coding in the dusk. Cool, modern tones."
-                },
-                {
-                    "offset": 0.21,
-                    "url": "media/c0472.jpg",
-                    "query": "A repair cafe filled with people working on gadgets. Cool tones."
-                },
-                {
-                    "offset": 0.41,
-                    "url": "media/c0473.jpg",
-                    "query": "A close-up of a student's hands typing on a keyboard, fingers dancing over the keys."
                 }
             ],
             "words": [
@@ -525,16 +425,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0474.jpg",
                     "query": "A vast prehistoric landscape at dusk. Muda sits on a hill, observing the world, a few small animals running around the bottom of the frame. Cinematic."
-                },
-                {
-                    "offset": 0.23,
-                    "url": "media/c0475.jpg",
-                    "query": "Muda, a pre-historic human, focuses intently on a stone, hands ready to strike a fire. Dramatic."
-                },
-                {
-                    "offset": 0.47,
-                    "url": "media/c0476.jpg",
-                    "query": "Muda's face, intense and concentrated, eyes fixed on the stone.  Sparks fly from the stone."
                 }
             ],
             "hidden_media": [
@@ -542,16 +432,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0477.jpg",
                     "query": "A sprawling cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop glowing in the cool tones of neon lights."
-                },
-                {
-                    "offset": 0.23,
-                    "url": "media/c0478.jpg",
-                    "query": "A close-up of a student in a repair cafe, hands working to fix a broken computer, surrounded by old and new electronics."
-                },
-                {
-                    "offset": 0.47,
-                    "url": "media/c0479.jpg",
-                    "query": "A close-up of the student's hands typing on a keyboard, the reflection of a screen on their glasses, showing the \"Hello, World!\" command."
                 }
             ],
             "words": [
@@ -595,14 +475,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
                 },
                 {
-                    "offset": 0.76,
+                    "offset": 3.22,
                     "url": "media/c0481.jpg",
                     "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0482.jpg",
-                    "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
                 }
             ],
             "hidden_media": [
@@ -612,14 +487,9 @@ var track_05_T5c_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
-                    "offset": 0.76,
+                    "offset": 3.22,
                     "url": "media/c0484.jpg",
                     "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0485.jpg",
-                    "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
                 }
             ],
             "words": [
@@ -666,16 +536,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0486.jpg",
                     "query": "A vast, prehistoric landscape at dusk, Muda sits silently on a hill, watching the world below. A cinematic wide shot."
-                },
-                {
-                    "offset": 0.58,
-                    "url": "media/c0487.jpg",
-                    "query": "Muda picks up a stone, firelight flickers in their eyes. Muda strikes the stone against a rock, sparks fly. A dramatic medium shot."
-                },
-                {
-                    "offset": 1.19,
-                    "url": "media/c0488.jpg",
-                    "query": "Muda's face glows with warmth and determination as they finally create fire. A close up of Muda's face."
                 }
             ],
             "hidden_media": [
@@ -683,16 +543,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0489.jpg",
                     "query": "A vast cityscape at dusk, a lone student in silhouette, a laptop aglow with code. Urban, cinematic."
-                },
-                {
-                    "offset": 0.58,
-                    "url": "media/c0490.jpg",
-                    "query": "A bustling repair cafe, tools and screens, a community around a computer. Contemporary, cool tones."
-                },
-                {
-                    "offset": 1.19,
-                    "url": "media/c0491.jpg",
-                    "query": "A close-up of eyes, reflecting a screen with endless lines of code, determination. Intimate, photographic."
                 }
             ],
             "words": [
@@ -741,14 +591,9 @@ var track_05_T5c_data = {
                     "query": "A vast, firelit prehistoric valley at dusk. Muda stands, observing."
                 },
                 {
-                    "offset": 0.56,
+                    "offset": 4.09,
                     "url": "media/c0493.jpg",
                     "query": "Muda crouches, striking a stone against another, sparks fly."
-                },
-                {
-                    "offset": 2.44,
-                    "url": "media/c0494.jpg",
-                    "query": "Muda's face, eyes wide with triumph. Warm, flickering light on skin."
                 }
             ],
             "hidden_media": [
@@ -758,14 +603,9 @@ var track_05_T5c_data = {
                     "query": "A quiet student sits alone in a bustling urban cafe, laptop open, neon signs reflecting on the glass window."
                 },
                 {
-                    "offset": 0.56,
+                    "offset": 4.09,
                     "url": "media/c0496.jpg",
                     "query": "A repair cafe in a modern warehouse, people tinkering with tech, a Linux sticker on a laptop visible."
-                },
-                {
-                    "offset": 2.44,
-                    "url": "media/c0497.jpg",
-                    "query": "A close-up of a hand typing \"Hello World\" on a keyboard, a warm smile on the student's face."
                 }
             ],
             "words": [
@@ -812,16 +652,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0498.jpg",
                     "query": "A vast, prehistoric valley at dusk, silhouetted figures gathered around a distant glow, a lone figure watches."
-                },
-                {
-                    "offset": 1.05,
-                    "url": "media/c0499.jpg",
-                    "query": "A figure stands, the glow of firelit moss reflecting on them, a stone in their hand."
-                },
-                {
-                    "offset": 1.65,
-                    "url": "media/c0500.jpg",
-                    "query": "A figure's face, strong, determined, the reflection of a glowing mossy rock beneath them."
                 }
             ],
             "hidden_media": [
@@ -829,16 +659,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0501.jpg",
                     "query": "A bustling cityscape at dusk, a lone figure sitting quietly in a cozy cafe, laptop open, surrounded by books, and glowing screens, 35mm lens."
-                },
-                {
-                    "offset": 1.05,
-                    "url": "media/c0502.jpg",
-                    "query": "A cluttered desk with a vintage laptop, surrounded by scattered papers, a steaming cup of coffee, and a half-eaten sandwich, 50mm lens."
-                },
-                {
-                    "offset": 1.65,
-                    "url": "media/c0503.jpg",
-                    "query": "up of a determined face, eyes fixed on the code, a soft smile playing at the corners of the mouth, 85mm lens."
                 }
             ],
             "words": [
@@ -887,12 +707,12 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric landscape at dusk, Muda stands silently, observing her tribe under a sky of warm hues."
                 },
                 {
-                    "offset": 0.82,
+                    "offset": 3.72,
                     "url": "media/c0505.jpg",
                     "query": "Muda crouches, stone in hand, sparks flying as she carefully strikes it against another."
                 },
                 {
-                    "offset": 5.44,
+                    "offset": 7.32,
                     "url": "media/c0506.jpg",
                     "query": "Muda's focused eyes reflect the growing flames, her expression calm and determined as she teaches."
                 }
@@ -904,12 +724,12 @@ var track_05_T5c_data = {
                     "query": "A wide cityscape at dusk with neon lights reflecting on wet streets. A lone figure sits at a table with a laptop in a quiet corner cafe."
                 },
                 {
-                    "offset": 0.82,
+                    "offset": 3.72,
                     "url": "media/c0508.jpg",
                     "query": "A close-up of hands typing on a keyboard, the glow of a laptop screen illuminating a face with a determined expression."
                 },
                 {
-                    "offset": 5.44,
+                    "offset": 7.32,
                     "url": "media/c0509.jpg",
                     "query": "A student's hands gently guiding a mentor's hands to type, with the soft glow of a monitor reflecting a \"Hello World\" code."
                 }
@@ -963,16 +783,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0510.jpg",
                     "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hill. Warm hues paint the sky, fire is seen in the distance. Muda looks out over his domain."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0511.jpg",
-                    "query": "Muda crouches, striking flint against stone, sparks fly, fire ignites.  Muda's eyes gleam in the warm glow."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0512.jpg",
-                    "query": "up of Muda's hands, calloused, gripping flint and stone, sparks fly, ignite the fire."
                 }
             ],
             "hidden_media": [
@@ -980,16 +790,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0513.jpg",
                     "query": "A wide shot of a bustling cityscape at night, with a quiet student sitting alone in a brightly lit cafe, laptop open to a coding window, reflecting the urban environment."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0514.jpg",
-                    "query": "A medium shot of a repair cafe. A student and an elder repairing a vintage radio, amidst a backdrop of open laptops and tools."
-                },
-                {
-                    "offset": 0.0,
-                    "url": "media/c0515.jpg",
-                    "query": "A close-up of a student’s hands. They are holding a newly fired piece of pottery, the glaze still wet, with Linux code projected onto the surface."
                 }
             ],
             "words": [
@@ -1028,14 +828,9 @@ var track_05_T5c_data = {
                     "query": "A sweeping vista of a prehistoric valley at dusk, a lone figure, Muda, stands, staring into the distance. The sun paints the sky with warm hues."
                 },
                 {
-                    "offset": 0.85,
+                    "offset": 3.36,
                     "url": "media/c0517.jpg",
                     "query": "Muda crouches, hand poised over a stone, eyes fixed on the task, a small fire pit, the light warm and inviting."
-                },
-                {
-                    "offset": 2.04,
-                    "url": "media/c0518.jpg",
-                    "query": "Muda's face, tranquil, eyes reflecting the growing fire, a quiet smile."
                 }
             ],
             "hidden_media": [
@@ -1045,14 +840,9 @@ var track_05_T5c_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open to a code editor."
                 },
                 {
-                    "offset": 0.85,
+                    "offset": 3.36,
                     "url": "media/c0520.jpg",
                     "query": "A cozy repair cafe, tools scattered, a group collaboratively tinkers with old electronics."
-                },
-                {
-                    "offset": 2.04,
-                    "url": "media/c0521.jpg",
-                    "query": "A close-up of a hand gently typing on a keyboard, a serene expression on the face of the person."
                 }
             ],
             "words": [
@@ -1111,14 +901,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at dusk, a lone figure sits on a cliff watching the horizon. Warm, painterly."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 3.37,
                     "url": "media/c0523.jpg",
                     "query": "Muda picks up a stone from the ground. The fire is a warm tone."
-                },
-                {
-                    "offset": 2.07,
-                    "url": "media/c0524.jpg",
-                    "query": "A close-up of the face as the jaw falls open, eyes widened in disbelief."
                 }
             ],
             "hidden_media": [
@@ -1128,14 +913,9 @@ var track_05_T5c_data = {
                     "query": "A vast urban landscape at dusk, a lone student sits quietly in a bustling city park, surrounded by skyscrapers and neon lights reflecting on wet pavement."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 3.37,
                     "url": "media/c0526.jpg",
                     "query": "A teenager sits in a dimly lit room, fingers dancing on a sleek laptop keyboard, code streaming across multiple screens, surrounded by stacks of books and open source manuals."
-                },
-                {
-                    "offset": 2.07,
-                    "url": "media/c0527.jpg",
-                    "query": "A close-up of a young woman's face, her eyes wide with shock, mouth agape, as she stares at a computer screen, her reflection in the glass showing the pain of a shattered belief."
                 }
             ],
             "words": [
@@ -1182,16 +962,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0564.jpg",
                     "query": "A vast prehistoric landscape at dusk, Muda sits silently, observing the world. Firelit, warm tones."
-                },
-                {
-                    "offset": 0.7,
-                    "url": "media/c0565.jpg",
-                    "query": "Muda's hands pick up a stone, strikes it against another. Fire sparks, cinematic."
-                },
-                {
-                    "offset": 1.91,
-                    "url": "media/c0566.jpg",
-                    "query": "Muda's face, eyes wide, breath misting in the cold, with the flames growing, glowing."
                 }
             ],
             "hidden_media": [
@@ -1199,16 +969,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0567.jpg",
                     "query": "A wide cityscape at dusk, a student seated alone in a bustling café, laptop open, quiet focus."
-                },
-                {
-                    "offset": 0.7,
-                    "url": "media/c0568.jpg",
-                    "query": "A student is editing code, surrounded by urban tech, coffee steaming."
-                },
-                {
-                    "offset": 1.91,
-                    "url": "media/c0569.jpg",
-                    "query": "up of the student's eyes, reflecting a screen, determined, focused."
                 }
             ],
             "words": [
@@ -1257,14 +1017,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at dusk, Muda sits on a ridge, overlooking the landscape, a single bird flying in the sky above them."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.94,
                     "url": "media/c0529.jpg",
                     "query": "Muda crouches, picks up a stone, striking it against another. Sparks fly, landing on kindling, warm tones fill the scene."
-                },
-                {
-                    "offset": 3.31,
-                    "url": "media/c0530.jpg",
-                    "query": "A close-up of Muda's face, their expression curious and focused."
                 }
             ],
             "hidden_media": [
@@ -1274,14 +1029,9 @@ var track_05_T5c_data = {
                     "query": "A wide, birds-eye view of a bustling city at night, a quiet student illuminated by a laptop screen in a crowded cafe."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.94,
                     "url": "media/c0532.jpg",
                     "query": "A modern library filled with people on laptops, bookshelves replaced by servers, one person looking confused and disinterested."
-                },
-                {
-                    "offset": 3.31,
-                    "url": "media/c0533.jpg",
-                    "query": "A close-up of a person’s face, eyes reflecting the glow of a computer screen, expression doubtful and questioning."
                 }
             ],
             "words": [
@@ -1325,14 +1075,9 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at sunset. Muda, a silent figure, watches the horizon."
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.94,
                     "url": "media/c0571.jpg",
                     "query": "Muda crouches, hand poised over a stone. Firelight dances."
-                },
-                {
-                    "offset": 3.31,
-                    "url": "media/c0572.jpg",
-                    "query": "Muda's hands, calloused and strong, strike stones. Sparks fly."
                 }
             ],
             "hidden_media": [
@@ -1342,14 +1087,9 @@ var track_05_T5c_data = {
                     "query": "A vast urban cityscape at night with a quiet student illuminated in a high-rise apartment window, typing code on their laptop. The city is a vast array of lights that reflect on th"
                 },
                 {
-                    "offset": 0.92,
+                    "offset": 3.94,
                     "url": "media/c0574.jpg",
                     "query": "A close-up of the student's hands, navigating through lines of code. The screen shows Wikipedia, and the code is being integrated into it. The keyboard is blue with bright cool-ton"
-                },
-                {
-                    "offset": 3.31,
-                    "url": "media/c0575.jpg",
-                    "query": "A close-up shot of a single key on the keyboard being pressed, a tiny hand pressing down a key.  The focus is the key, but the reflection of the student's face can be seen on the k"
                 }
             ],
             "words": [
@@ -1371,87 +1111,9 @@ var track_05_T5c_data = {
             ]
         },
         {
-            "id": "line_17_interp",
-            "start": 123.89,
-            "end": 125.959,
-            "lyric": "The women cheered, the men looked scared",
-            "real_meaning": "Liberation terrifies the invested: Freedom is inherently threatening to the men who built their power on the old, broken system.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0534.jpg",
-                    "query": "A vast prehistoric landscape under a starlit sky, Muda stands alone watching the horizon. Dark silhouettes of mammoths in the distance, smoke in the foreground."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0535.jpg",
-                    "query": "Muda bends down, picks up a stone, and strikes it against another. Sparks fly, highlighting their weathered face in warm tones."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0536.jpg",
-                    "query": "A circle of people around a newly lit fire. Women's faces glow with joy, men's with fear, all eyes on Muda."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0537.jpg",
-                    "query": "A wide shot of a bustling cityscape at dusk, a lone student sitting quietly on a bench in a techno park, with skyscrapers towering in the background."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0538.jpg",
-                    "query": "A medium shot of a modern cafe, patrons typing on laptops, servers humming quietly, and the glow of screens reflecting on their faces."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0539.jpg",
-                    "query": "A close-up of a man's face, his eyes wide with fear as he looks at the screen showing lines of code."
-                }
-            ],
-            "words": [
-                {
-                    "start": 123.89,
-                    "end": 124.186,
-                    "text": "The"
-                },
-                {
-                    "start": 124.186,
-                    "end": 124.481,
-                    "text": "women"
-                },
-                {
-                    "start": 124.481,
-                    "end": 124.777,
-                    "text": "cheered,"
-                },
-                {
-                    "start": 124.777,
-                    "end": 125.072,
-                    "text": "the"
-                },
-                {
-                    "start": 125.072,
-                    "end": 125.368,
-                    "text": "men"
-                },
-                {
-                    "start": 125.368,
-                    "end": 125.663,
-                    "text": "looked"
-                },
-                {
-                    "start": 125.663,
-                    "end": 125.959,
-                    "text": "scared"
-                }
-            ]
-        },
-        {
             "id": "line_18_interp",
-            "start": 125.959,
-            "end": 128.028,
+            "start": 123.89,
+            "end": 126.648,
             "lyric": "The first belief was declared",
             "real_meaning": "The spark becomes ideology: Even liberation risks becoming dogma. Muda's simple truth is already being spun into the next rigid belief system.",
             "media": [
@@ -1459,16 +1121,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0540.jpg",
                     "query": "A vast prehistoric valley at dusk, Muda sits silent on a hill, observing the world below, firelit hues painting the landscape."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0541.jpg",
-                    "query": "Muda's hands cradle a stone, striking it against another, sparks flying, warmth reflected in their eyes."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0542.jpg",
-                    "query": "Muda's eyes, intense and focused, the fire within, as the first belief was declared."
                 }
             ],
             "hidden_media": [
@@ -1476,50 +1128,40 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0543.jpg",
                     "query": "A quiet student sits alone in a vast, modern library, surrounded by glowing screens and towering bookshelves. Cool, urban atmosphere."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0544.jpg",
-                    "query": "The student types furiously at a laptop, surrounded by a bustling repair café, full of people and technology."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0545.jpg",
-                    "query": "The student's face lit up by the glow of their laptop, with a mix of determination and frustration."
                 }
             ],
             "words": [
                 {
-                    "start": 125.959,
-                    "end": 126.373,
+                    "start": 123.89,
+                    "end": 124.442,
                     "text": "The"
                 },
                 {
-                    "start": 126.373,
-                    "end": 126.787,
+                    "start": 124.442,
+                    "end": 124.993,
                     "text": "first"
                 },
                 {
-                    "start": 126.787,
-                    "end": 127.2,
+                    "start": 124.993,
+                    "end": 125.545,
                     "text": "belief"
                 },
                 {
-                    "start": 127.2,
-                    "end": 127.614,
+                    "start": 125.545,
+                    "end": 126.096,
                     "text": "was"
                 },
                 {
-                    "start": 127.614,
-                    "end": 128.028,
+                    "start": 126.096,
+                    "end": 126.648,
                     "text": "declared"
                 }
             ]
         },
         {
             "id": "line_19_interp",
-            "start": 128.028,
-            "end": 130.096,
+            "start": 126.648,
+            "end": 129.407,
             "lyric": "MUDA! MUDA! The stone ignites!",
             "real_meaning": "The truth spreads: The realization cascades, but it risks spreading through the exact same tribal channels that spread the lie.",
             "media": [
@@ -1527,16 +1169,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0546.jpg",
                     "query": "A vast prehistoric valley at dusk, silhouetted figures gather around a distant glow. Muda watches,  stone in hand."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0547.jpg",
-                    "query": "Muda strikes the stone against a rock, sparks fly towards a pile of dried leaves."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0548.jpg",
-                    "query": "Muda's focused eyes, sparks fly up, a small fire ignites, the first flames flicker."
                 }
             ],
             "hidden_media": [
@@ -1544,49 +1176,39 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0549.jpg",
                     "query": "A quiet student sits alone in a bustling city park, laptop open, fingers poised over the keyboard, ready to type \"Hello World\"."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0550.jpg",
-                    "query": "A repair cafe at dusk. Neon lights reflect off tools and tech, the space filled with people collaborating on open source projects."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0551.jpg",
-                    "query": "A close up of the student's face, eyes bright with determination as they type in code, the cityscape glistening behind them."
                 }
             ],
             "words": [
                 {
-                    "start": 128.028,
-                    "end": 128.442,
+                    "start": 126.648,
+                    "end": 127.2,
                     "text": "MUDA!"
                 },
                 {
-                    "start": 128.442,
-                    "end": 128.855,
+                    "start": 127.2,
+                    "end": 127.752,
                     "text": "MUDA!"
                 },
                 {
-                    "start": 128.855,
-                    "end": 129.269,
+                    "start": 127.752,
+                    "end": 128.303,
                     "text": "The"
                 },
                 {
-                    "start": 129.269,
-                    "end": 129.682,
+                    "start": 128.303,
+                    "end": 128.855,
                     "text": "stone"
                 },
                 {
-                    "start": 129.682,
-                    "end": 130.096,
+                    "start": 128.855,
+                    "end": 129.407,
                     "text": "ignites!"
                 }
             ]
         },
         {
             "id": "line_20_interp",
-            "start": 130.096,
+            "start": 129.407,
             "end": 132.165,
             "lyric": "MUDA! MUDA! She saw the light!",
             "real_meaning": "The awakening: More people seeing through the illusion, dropping their empty plastic lighters, and finding their own fire.",
@@ -1595,16 +1217,6 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0552.jpg",
                     "query": "A vast, prehistoric valley at dusk, a lone figure watches from a ridge. Shadows dance."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0553.jpg",
-                    "query": "Muda crouches, striking stone against stone. Sparks fly in slow motion."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0554.jpg",
-                    "query": "A close up of Muda's face, eyes wide with wonder, illuminated by first flames."
                 }
             ],
             "hidden_media": [
@@ -1612,46 +1224,36 @@ var track_05_T5c_data = {
                     "offset": 0.0,
                     "url": "media/c0555.jpg",
                     "query": "A wide urban street at dawn, a lone figure sitting on a bench, laptop aglow, surrounded by towering glass buildings."
-                },
-                {
-                    "offset": 0.33,
-                    "url": "media/c0556.jpg",
-                    "query": "A bustling repair cafe, neon lights reflecting off rain-wet streets, tech enthusiasts huddled around tables, tools, and laptops."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0557.jpg",
-                    "query": "A close-up of a hand hovering over a keyboard, fingers poised to type, eyes reflecting the glow of a screen."
                 }
             ],
             "words": [
                 {
-                    "start": 130.096,
-                    "end": 130.441,
+                    "start": 129.407,
+                    "end": 129.867,
                     "text": "MUDA!"
                 },
                 {
-                    "start": 130.441,
+                    "start": 129.867,
+                    "end": 130.326,
+                    "text": "MUDA!"
+                },
+                {
+                    "start": 130.326,
                     "end": 130.786,
-                    "text": "MUDA!"
-                },
-                {
-                    "start": 130.786,
-                    "end": 131.13,
                     "text": "She"
                 },
                 {
-                    "start": 131.13,
-                    "end": 131.475,
+                    "start": 130.786,
+                    "end": 131.246,
                     "text": "saw"
                 },
                 {
-                    "start": 131.475,
-                    "end": 131.82,
+                    "start": 131.246,
+                    "end": 131.705,
                     "text": "the"
                 },
                 {
-                    "start": 131.82,
+                    "start": 131.705,
                     "end": 132.165,
                     "text": "light!"
                 }
@@ -1670,12 +1272,12 @@ var track_05_T5c_data = {
                     "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 2.95,
                     "url": "media/c0481.jpg",
                     "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
                 },
                 {
-                    "offset": 0.0,
+                    "offset": 5.37,
                     "url": "media/c0482.jpg",
                     "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
                 }
@@ -1687,12 +1289,12 @@ var track_05_T5c_data = {
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
-                    "offset": 1.07,
+                    "offset": 2.95,
                     "url": "media/c0484.jpg",
                     "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
                 },
                 {
-                    "offset": 0.0,
+                    "offset": 5.37,
                     "url": "media/c0485.jpg",
                     "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
                 }
@@ -1743,14 +1345,9 @@ var track_05_T5c_data = {
                     "query": "A vast, prehistoric landscape at sunset, with Muda, a silent observer, standing atop a hill overlooking a herd of running, fleeing animals."
                 },
                 {
-                    "offset": 1.22,
+                    "offset": 2.72,
                     "url": "media/c0559.jpg",
                     "query": "Muda picks up a stone, crouches, striking it against another, sparks fly in the twilight, warm tones."
-                },
-                {
-                    "offset": 2.45,
-                    "url": "media/c0560.jpg",
-                    "query": "Muda's determined expression in close up as the sparks turn into a fire burning in the darkness."
                 }
             ],
             "hidden_media": [
@@ -1760,14 +1357,9 @@ var track_05_T5c_data = {
                     "query": "A vast cityscape at dusk, a lone student sitting quietly in a bustling urban plaza, surrounded by towering glass buildings. The student's laptop emits a soft glow, reflecting on th"
                 },
                 {
-                    "offset": 1.22,
+                    "offset": 2.72,
                     "url": "media/c0562.jpg",
                     "query": "A crowded repair cafe, tools and electronics scattered, a group of people collaboratively fixing devices, a sense of camaraderie and shared purpose."
-                },
-                {
-                    "offset": 2.45,
-                    "url": "media/c0563.jpg",
-                    "query": "A close-up of a hand gently touching a glowing screen, fingers hovering over a keyboard, the reflection of the screen illuminating the face of the person in quiet determination."
                 }
             ],
             "words": [
@@ -1837,14 +1429,9 @@ var track_05_T5c_data = {
                     "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
-                    "offset": 2.5,
+                    "offset": 4.93,
                     "url": "media/c0577.jpg",
                     "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
-                },
-                {
-                    "offset": 4.99,
-                    "url": "media/c0578.jpg",
-                    "query": "Close up of Muda's determined eyes."
                 }
             ],
             "hidden_media": [
@@ -1854,14 +1441,9 @@ var track_05_T5c_data = {
                     "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
                 },
                 {
-                    "offset": 2.5,
+                    "offset": 4.93,
                     "url": "media/c0580.jpg",
                     "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
-                },
-                {
-                    "offset": 4.99,
-                    "url": "media/c0581.jpg",
-                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
                 }
             ],
             "words": [
@@ -1905,14 +1487,9 @@ var track_05_T5c_data = {
                     "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
-                    "offset": 2.5,
+                    "offset": 4.93,
                     "url": "media/c0577.jpg",
                     "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
-                },
-                {
-                    "offset": 4.99,
-                    "url": "media/c0578.jpg",
-                    "query": "Close up of Muda's determined eyes."
                 }
             ],
             "hidden_media": [
@@ -1922,14 +1499,9 @@ var track_05_T5c_data = {
                     "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
                 },
                 {
-                    "offset": 2.5,
+                    "offset": 4.93,
                     "url": "media/c0580.jpg",
                     "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
-                },
-                {
-                    "offset": 4.99,
-                    "url": "media/c0581.jpg",
-                    "query": "A close-up of the student's determined face, eyes reflecting a screen with code, the power of knowledge. The fire was always ours."
                 }
             ],
             "words": [
@@ -1962,228 +1534,272 @@ var track_05_T5c_data = {
         }
     ],
     "beat_times": [
-        0.58,
-        1.231,
-        1.834,
-        2.415,
-        3.019,
-        3.622,
-        4.226,
-        4.83,
-        5.41,
-        6.037,
-        6.618,
-        7.221,
-        7.825,
-        8.429,
-        9.033,
-        9.636,
-        10.217,
-        10.844,
-        11.424,
-        12.028,
-        12.632,
-        13.235,
-        13.816,
-        14.42,
-        15.023,
-        15.627,
-        16.231,
-        16.834,
-        17.438,
-        18.019,
-        18.622,
-        19.226,
-        19.83,
-        20.434,
-        21.037,
-        21.641,
-        22.245,
-        22.825,
-        23.429,
-        24.033,
-        24.636,
-        25.24,
-        25.844,
-        26.448,
-        27.028,
-        27.632,
-        28.235,
-        28.839,
-        29.42,
-        30.047,
-        30.627,
-        31.231,
-        31.835,
-        32.438,
-        33.019,
-        33.622,
-        34.226,
-        34.83,
-        35.434,
-        36.037,
-        36.641,
-        37.222,
-        37.825,
-        38.429,
-        39.033,
-        39.59,
-        40.263,
-        40.89,
-        41.564,
-        42.214,
-        42.887,
-        43.491,
-        44.095,
-        44.698,
-        45.279,
-        45.929,
-        46.51,
-        47.113,
-        47.694,
-        48.321,
-        48.924,
-        49.528,
-        50.132,
-        50.712,
-        51.316,
-        51.827,
-        52.384,
+        4.923,
+        5.526,
+        6.13,
+        6.711,
+        7.314,
+        7.918,
+        8.522,
+        9.125,
+        9.729,
+        10.31,
+        10.913,
+        11.517,
+        12.121,
+        12.725,
+        13.328,
+        13.932,
+        14.536,
+        15.116,
+        15.72,
+        16.324,
+        16.927,
+        17.508,
+        18.135,
+        18.715,
+        19.319,
+        19.923,
+        20.526,
+        21.107,
+        21.711,
+        22.314,
+        22.918,
+        23.522,
+        24.126,
+        24.729,
+        25.31,
+        25.913,
+        26.517,
+        27.121,
+        27.725,
+        28.328,
+        28.932,
+        29.536,
+        30.14,
+        30.72,
+        31.324,
+        31.927,
+        32.531,
+        33.112,
+        33.739,
+        34.342,
+        34.946,
+        35.527,
+        36.13,
+        36.711,
+        37.314,
+        37.918,
+        38.522,
+        39.126,
+        39.729,
+        40.333,
+        40.937,
+        41.517,
+        42.121,
+        42.725,
+        43.328,
+        43.932,
+        44.536,
+        45.116,
+        45.72,
+        46.324,
+        46.928,
+        47.508,
+        48.089,
+        48.715,
+        49.319,
+        49.923,
+        50.527,
+        51.13,
+        51.711,
+        52.315,
         52.918,
-        53.452,
-        54.033,
-        54.637,
-        55.24,
-        55.821,
-        56.448,
-        57.028,
-        57.632,
-        58.236,
-        58.839,
+        53.499,
+        54.079,
+        54.729,
+        55.333,
+        55.867,
+        56.471,
+        57.075,
+        57.725,
+        58.259,
+        58.863,
         59.443,
-        60.024,
-        60.627,
-        61.231,
-        61.835,
-        62.438,
-        63.042,
-        63.623,
-        64.226,
-        64.83,
-        65.434,
-        66.038,
-        66.641,
-        67.222,
-        67.825,
-        68.429,
-        69.033,
-        69.637,
-        70.24,
-        70.821,
-        71.425,
-        72.028,
-        72.632,
-        73.236,
-        73.839,
-        74.443,
-        75.047,
-        75.627,
-        76.231,
-        76.835,
-        77.415,
-        78.042,
-        78.623,
-        79.226,
-        79.807,
-        80.434,
-        81.038,
-        81.641,
-        82.222,
-        82.895,
-        83.545,
-        84.196,
-        84.869,
-        85.449,
-        86.03,
-        86.61,
-        87.191,
-        87.748,
-        88.352,
+        60.116,
+        60.72,
+        61.324,
+        61.928,
+        62.531,
+        63.112,
+        63.716,
+        64.296,
+        64.923,
+        65.527,
+        66.13,
+        66.734,
+        67.315,
+        67.918,
+        68.522,
+        69.103,
+        69.706,
+        70.31,
+        70.937,
+        71.517,
+        72.121,
+        72.725,
+        73.329,
+        73.909,
+        74.513,
+        75.117,
+        75.72,
+        76.301,
+        76.928,
+        77.508,
+        78.135,
+        78.692,
+        79.319,
+        79.923,
+        80.527,
+        81.131,
+        81.734,
+        82.315,
+        82.918,
+        83.522,
+        84.126,
+        84.73,
+        85.31,
+        85.914,
+        86.518,
+        87.121,
+        87.725,
+        88.329,
         88.932,
-        89.583,
-        90.21,
-        90.836,
-        91.463,
-        92.09,
-        92.717,
-        93.321,
-        93.925,
-        94.505,
-        95.109,
-        95.713,
-        96.316,
-        96.92,
-        97.524,
-        98.128,
-        98.731,
-        99.312,
-        99.823,
-        100.38,
-        100.914,
-        101.448,
-        102.052,
-        102.632,
-        103.236,
-        103.84,
-        104.443,
-        105.024,
-        105.628,
-        106.231,
-        106.835,
-        107.439,
-        108.042,
-        108.623,
-        109.227,
-        109.83,
-        110.434,
-        111.038,
-        111.618,
-        112.176,
-        112.779,
-        113.429,
-        114.033,
-        114.59,
-        115.217,
-        115.821,
-        116.425,
-        117.029,
-        117.632,
-        118.236,
-        118.84,
-        119.42,
-        120.024,
-        120.628,
-        121.231,
-        121.835,
-        122.439,
-        123.043,
-        123.623,
-        124.204,
-        124.83,
-        125.434,
-        126.038,
-        126.642,
-        127.222,
-        127.826,
-        128.43,
-        129.033,
-        129.637,
-        130.241,
-        130.844,
-        131.425,
-        132.029,
-        132.632,
-        133.236
+        89.536,
+        90.117,
+        90.72,
+        91.324,
+        91.928,
+        92.508,
+        93.112,
+        93.716,
+        94.319,
+        94.923,
+        95.527,
+        96.131,
+        96.711,
+        97.315,
+        97.919,
+        98.522,
+        99.126,
+        99.73,
+        100.333,
+        100.937,
+        101.518,
+        102.121,
+        102.725,
+        103.329,
+        103.909,
+        104.513,
+        105.117,
+        105.72,
+        106.324,
+        106.928,
+        107.508,
+        108.112,
+        108.716,
+        109.32,
+        109.923,
+        110.527,
+        111.107,
+        111.711,
+        112.315,
+        112.942,
+        113.522,
+        114.126,
+        114.73,
+        115.334,
+        115.914,
+        116.518,
+        117.121,
+        117.725,
+        118.329,
+        118.933,
+        119.536,
+        120.117,
+        120.697,
+        121.301,
+        121.858,
+        122.508,
+        123.066,
+        123.693,
+        124.296,
+        124.923,
+        125.481,
+        126.084,
+        126.688,
+        127.315,
+        127.919,
+        128.522,
+        129.126,
+        129.73,
+        130.31,
+        130.914,
+        131.518,
+        132.122,
+        132.725,
+        133.329,
+        133.909,
+        134.513,
+        135.117,
+        135.721,
+        136.324,
+        136.905,
+        137.532,
+        138.112,
+        138.716,
+        139.32,
+        139.923,
+        140.527,
+        141.131,
+        141.711,
+        142.315,
+        142.919,
+        143.499,
+        144.126,
+        144.707,
+        145.334,
+        145.914,
+        146.518,
+        147.122,
+        147.725,
+        148.329,
+        148.91,
+        149.513,
+        150.117,
+        150.721,
+        151.324,
+        151.928,
+        152.509,
+        153.112,
+        153.716,
+        154.32,
+        154.924,
+        155.527,
+        156.108,
+        156.711,
+        157.315,
+        157.942,
+        158.523,
+        159.126,
+        159.73,
+        160.334,
+        160.938,
+        161.518,
+        162.122,
+        162.725,
+        163.329,
+        163.91
     ],
     "energy_curve": [
         [

@@ -6,8 +6,248 @@
             "line_index": 0,
             "occurrence_index": 0,
             "start": 7.78,
+            "end": 12.3,
+            "lyric": "I pressed play on the green phone booth"
+        },
+        {
+            "id": "line_1_occ_0",
+            "line_index": 1,
+            "occurrence_index": 0,
+            "start": 12.3,
+            "end": 14.439,
+            "lyric": "Painted a British box, that's the truth"
+        },
+        {
+            "id": "line_2_occ_0",
+            "line_index": 2,
+            "occurrence_index": 0,
+            "start": 14.828,
+            "end": 16.746,
+            "lyric": "Don't ask me why, I can't explain"
+        },
+        {
+            "id": "line_3_occ_0",
+            "line_index": 3,
+            "occurrence_index": 0,
+            "start": 17.13,
+            "end": 19.42,
+            "lyric": "Just wanted cool rocks, maybe a saber-toothed mane"
+        },
+        {
+            "id": "line_4_occ_0",
+            "line_index": 4,
+            "occurrence_index": 0,
+            "start": 19.42,
+            "end": 22.5,
+            "lyric": "See a dinosaur before my tea"
+        },
+        {
+            "id": "line_5_occ_0",
+            "line_index": 5,
+            "occurrence_index": 0,
+            "start": 24.48,
+            "end": 27.246,
+            "lyric": "A triceratops staring at me"
+        },
+        {
+            "id": "line_6_occ_0",
+            "line_index": 6,
+            "occurrence_index": 0,
+            "start": 29.28,
+            "end": 31.579,
+            "lyric": "I landed in a valley of moss and smoke"
+        },
+        {
+            "id": "line_7_occ_0",
+            "line_index": 7,
+            "occurrence_index": 0,
+            "start": 31.66,
+            "end": 33.525,
+            "lyric": "Smell of rain, the night awoke"
+        },
+        {
+            "id": "line_8_occ_0",
+            "line_index": 8,
+            "occurrence_index": 0,
+            "start": 33.96,
+            "end": 36.126,
+            "lyric": "And there he was, the first human soul"
+        },
+        {
+            "id": "line_9_occ_0",
+            "line_index": 9,
+            "occurrence_index": 0,
+            "start": 36.36,
+            "end": 39.01,
+            "lyric": "Blowing on a twig, losing control"
+        },
+        {
+            "id": "line_10_occ_0",
+            "line_index": 10,
+            "occurrence_index": 0,
+            "start": 42.248,
+            "end": 44.415,
+            "lyric": "I'm the Mage by accident"
+        },
+        {
+            "id": "line_11_occ_0",
+            "line_index": 11,
+            "occurrence_index": 0,
+            "start": 44.5,
+            "end": 46.958,
+            "lyric": "Right guy, wrong time, no consent"
+        },
+        {
+            "id": "line_12_occ_0",
+            "line_index": 12,
+            "occurrence_index": 0,
+            "start": 47.215,
+            "end": 49.436,
+            "lyric": "Came for some rocks, now I gotta run"
+        },
+        {
+            "id": "line_13_occ_0",
+            "line_index": 13,
+            "occurrence_index": 0,
+            "start": 49.5,
+            "end": 51.189,
+            "lyric": "But the story's already begun"
+        },
+        {
+            "id": "line_14_occ_0",
+            "line_index": 14,
+            "occurrence_index": 0,
+            "start": 51.54,
+            "end": 53.78,
+            "lyric": "Chak-chak, the flame lit bright"
+        },
+        {
+            "id": "line_15_occ_0",
+            "line_index": 15,
+            "occurrence_index": 0,
+            "start": 54.0,
+            "end": 58.73,
+            "lyric": "And my whole life faded into night"
+        },
+        {
+            "id": "line_16_occ_0",
+            "line_index": 16,
+            "occurrence_index": 0,
+            "start": 58.8,
+            "end": 63.2,
+            "lyric": "Gralha looked at me, dropped his stick"
+        },
+        {
+            "id": "line_17_occ_0",
+            "line_index": 17,
+            "occurrence_index": 0,
+            "start": 73.46,
+            "end": 75.24,
+            "lyric": "Saw my Super Bock sweater, thick"
+        },
+        {
+            "id": "line_18_occ_0",
+            "line_index": 18,
+            "occurrence_index": 0,
+            "start": 75.24,
+            "end": 77.76,
+            "lyric": "Pointed at the lighter, went \"Uga boo\""
+        },
+        {
+            "id": "line_19_occ_0",
+            "line_index": 19,
+            "occurrence_index": 0,
+            "start": 77.84,
+            "end": 80.34,
+            "lyric": "I went chak-chak, he fell back, knew"
+        },
+        {
+            "id": "line_20_occ_0",
+            "line_index": 20,
+            "occurrence_index": 0,
+            "start": 80.34,
+            "end": 82.78,
+            "lyric": "UUUUGA BOOGAH! TCHAN TCHAN!"
+        },
+        {
+            "id": "line_21_occ_0",
+            "line_index": 21,
+            "occurrence_index": 0,
+            "start": 82.78,
+            "end": 87.04,
+            "lyric": "Translation: \"Come see the madman!\""
+        },
+        {
+            "id": "line_22_occ_0",
+            "line_index": 22,
+            "occurrence_index": 0,
+            "start": 87.04,
+            "end": 90.562,
+            "lyric": "Five minutes, twelve creatures gathered round"
+        },
+        {
+            "id": "line_23_occ_0",
+            "line_index": 23,
+            "occurrence_index": 0,
+            "start": 90.75,
+            "end": 93.516,
+            "lyric": "Mouths wide open, not a sound"
+        },
+        {
+            "id": "line_24_occ_0",
+            "line_index": 24,
+            "occurrence_index": 0,
+            "start": 93.6,
+            "end": 99.02,
+            "lyric": "I'm the Mage by accident"
+        },
+        {
+            "id": "line_25_occ_0",
+            "line_index": 25,
+            "occurrence_index": 0,
+            "start": 99.04,
+            "end": 101.38,
+            "lyric": "Right guy, wrong time, no consent"
+        },
+        {
+            "id": "line_26_occ_0",
+            "line_index": 26,
+            "occurrence_index": 0,
+            "start": 101.38,
+            "end": 104.3,
+            "lyric": "Came for some rocks, now I gotta run"
+        },
+        {
+            "id": "line_27_occ_0",
+            "line_index": 27,
+            "occurrence_index": 0,
+            "start": 104.39,
+            "end": 105.62,
+            "lyric": "But the story's already begun"
+        },
+        {
+            "id": "line_28_occ_0",
+            "line_index": 28,
+            "occurrence_index": 0,
+            "start": 105.62,
+            "end": 108.22,
+            "lyric": "Chak-chak, the flame lit bright"
+        },
+        {
+            "id": "line_29_occ_0",
+            "line_index": 29,
+            "occurrence_index": 0,
+            "start": 109.18,
+            "end": 120.866,
+            "lyric": "And my whole life faded into night"
+        },
+        {
+            "id": "line_30_occ_0",
+            "line_index": 30,
+            "occurrence_index": 0,
+            "start": 121.804,
             "end": 135.072,
-            "lyric": "When I pressed play on the time machine (which was actually a British phone booth painted green, don't ask), my only intention was to grab some cool rocks and see a dinosaur before dinner."
+            "lyric": "Where the hell did I land?"
         }
     ]
 }

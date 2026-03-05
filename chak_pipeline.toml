@@ -56,8 +56,11 @@ api_key = ""
 # Local GPU generation settings (provider = "local_gpu")
 gpu_device = "cuda:1"
 model_id = "stabilityai/sdxl-turbo"
-num_inference_steps = 6
-guidance_scale = 2.0
+# SDXL-Turbo: optimal at 4 steps, guidance=0.0 (trained without CFG).
+# For higher quality, switch model_id to "ByteDance/SDXL-Lightning" with
+# guidance_scale=1.0 and num_inference_steps=8.
+num_inference_steps = 4
+guidance_scale = 0.0
 
 [frontend]
 display_max_words = 60

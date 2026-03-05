@@ -233,7 +233,7 @@ async function loadTrack(index) {
     const trackMeta = currentAlbumConfig.tracks[index];
     if (!trackMeta) return;
 
-    audio.src = `albums/${currentAlbumConfig.album_id}/${trackMeta.audioFile}`;
+    audio.src = `albums/${currentAlbumConfig.album_id}/${trackMeta.audio_path || trackMeta.audioFile}`;
     if (elTrackName) elTrackName.innerText = trackMeta.title || '';
 
     applyTrackTheme(trackMeta.id);
@@ -245,9 +245,21 @@ async function loadTrack(index) {
     currentVariantId = defaultVariantId;
     await fetchTrackData(trackMeta.id, defaultVariantId);
 
-    // Load timing data into TimingEngine
+    // Load timing data into TimingEngine + reset audio analyser
     if (loadedTrackData) {
         TimingEngine.load(loadedTrackData);
+        if (typeof AudioAnalyser !== 'undefined') AudioAnalyser.reset();
+
+        // Pre-compute downbeat times (every 4th beat) for stronger image transitions
+        if (loadedTrackData.beat_times && loadedTrackData.beat_times.length > 0) {
+            const downbeats = [];
+            for (let i = 0; i < loadedTrackData.beat_times.length; i += 4) {
+                downbeats.push(loadedTrackData.beat_times[i]);
+            }
+            loadedTrackData.downbeatTimes = downbeats;
+        } else {
+            loadedTrackData.downbeatTimes = [];
+        }
     }
 
     // Load structure data fallback
@@ -383,16 +395,28 @@ function buildWordSpans(words) {
 }
 
 // ── rAF Sync Loop (~60fps) ───────────────────────────────
-function syncTick() {
+let lastFrameTs = 0;
+
+function syncTick(frameTimestamp) {
     rafId = requestAnimationFrame(syncTick);
+
+    // Frame delta time (seconds) for frame-rate independent smoothing
+    const dt = lastFrameTs ? (frameTimestamp - lastFrameTs) / 1000 : 0.016;
+    lastFrameTs = frameTimestamp;
 
     if (!loadedTrackData || !loadedTrackData.timeline || loadedTrackData.timeline.length === 0) return;
     const timeline = loadedTrackData.timeline;
     const ct = audio.currentTime;
     const albumPath = `albums/${currentAlbumConfig.album_id}`;
 
-    // ── 1. Timing engine tick ──
+    // ── 1a. Timing engine tick (MACRO: sections, transitions, energy_curve) ──
     const timing = TimingEngine.tick(ct);
+
+    // ── 1b. Real-time audio analysis (MICRO: frequency bands, beat detection) ──
+    let audioState = null;
+    if (typeof AudioAnalyser !== 'undefined' && AudioAnalyser.isActive()) {
+        audioState = AudioAnalyser.analyse(dt, ct);
+    }
 
     // ── 2. Find current timeline entry ──
     let newTimelineIdx = -1;
@@ -520,20 +544,16 @@ function syncTick() {
     if (currentLyricIndex !== -1 && currentLyricIndex < timeline.length) {
         const activeLine = timeline[currentLyricIndex];
 
-        // Zone 1: literal story images inside phone frame (beat-aligned cutting)
-        Zone1Inner.updateMedia(activeLine, ct, albumPath, loadedTrackData.beat_times);
+        // Zone 1: literal story images inside phone frame
+        Zone1Inner.updateMedia(activeLine, ct, albumPath);
 
         // Zone 2: bars show current line's hidden narrative (gradient-masked edges)
         Zone2Outer.updateBars(activeLine, ct, albumPath);
-
-        // Zone 2: burst on high energy + beats
-        Zone2Outer.updateBurst(timing.energy, timing.beatPulse, albumPath, timeline, currentLyricIndex);
 
         // Zone 2: section change — refresh bars with nearest hidden images
         if (timing.sectionChanged && timing.section) {
             const secIdx = loadedTrackData.sections ? loadedTrackData.sections.indexOf(timing.section) : -1;
             Zone2Outer.onSectionChange(secIdx, timeline, ct, albumPath);
-            // Chorus pulse on high-energy section transitions
             if (timing.energy > 0.7) {
                 Zone2Outer.chorusPulse();
             }
@@ -553,20 +573,46 @@ function syncTick() {
         }
     }
 
-    // ── 6. Beat pulse (every frame) ──
-    Zone2Outer.applyBeatPulse(timing.beatPulse, timing.isDownbeat);
+    // ── 6. Audio-reactive visuals ──
+    // Use REAL-TIME audio analysis when available, fall back to pre-computed
+    const root = document.documentElement.style;
+    if (audioState) {
+        // Real-time: driven by actual frequency content of the playing audio
+        root.setProperty('--beat-pulse', audioState.beatPulse.toFixed(3));
+        root.setProperty('--bass-energy', audioState.bass.toFixed(3));
+        root.setProperty('--treble-energy', audioState.treble.toFixed(3));
+        root.setProperty('--audio-energy', audioState.overall.toFixed(3));
+
+        // Beat effects: real-time bass detection replaces pre-computed timestamps
+        Zone2Outer.applyBeatPulse(audioState.beatPulse, audioState.beatDetected);
+    } else {
+        // Fallback: pre-computed timing data (less accurate but still functional)
+        root.setProperty('--beat-pulse', timing.beatPulse.toFixed(3));
+        root.setProperty('--bass-energy', '0');
+        root.setProperty('--treble-energy', '0');
+        root.setProperty('--audio-energy', timing.energy.toFixed(3));
+
+        Zone2Outer.applyBeatPulse(timing.beatPulse, timing.isDownbeat);
+    }
 
     // ── 7. Energy-responsive effects (throttled ~15Hz) ──
     const now = performance.now();
     if (now - lastEnergyTick > 66) {
         lastEnergyTick = now;
-        Zone3Ambient.applyEnergy(timing.energy);
-        Zone2Outer.applyEnergy(timing.energy);
+        const energyVal = audioState ? audioState.overall : timing.energy;
+        Zone3Ambient.applyEnergy(energyVal);
+        Zone2Outer.applyEnergy(energyVal);
     }
 }
 
 function startSyncLoop() {
     if (rafId) return;
+    // Connect audio analyser (async — audio plays normally until it's ready).
+    // connect() awaits AudioContext.resume() before rerouting audio,
+    // so there's never a moment of silence.
+    if (typeof AudioAnalyser !== 'undefined' && !AudioAnalyser.isActive()) {
+        AudioAnalyser.connect(audio); // fire-and-forget async
+    }
     rafId = requestAnimationFrame(syncTick);
 }
 
@@ -740,52 +786,6 @@ if (albumProgressContainer) {
         }
     });
 }
-
-// ── Diagnostics (call window.diagImages() from browser console) ──
-window.diagImages = function() {
-    console.log('=== IMAGE DIAGNOSTIC ===');
-    console.log('Album ID:', currentAlbumId);
-    console.log('Track index:', currentTrackIndex);
-    console.log('Current lyric index:', currentLyricIndex);
-    console.log('Audio time:', audio.currentTime.toFixed(2));
-    console.log('Audio paused:', audio.paused);
-
-    if (!loadedTrackData || !loadedTrackData.timeline) {
-        console.error('NO TRACK DATA LOADED');
-        return;
-    }
-
-    const tl = loadedTrackData.timeline;
-    const withMedia = tl.filter(l => l.media && l.media.length > 0).length;
-    const withHidden = tl.filter(l => l.hidden_media && l.hidden_media.length > 0).length;
-    console.log(`Timeline: ${tl.length} entries, ${withMedia} with media, ${withHidden} with hidden_media`);
-
-    // Show what's currently displayed in each zone
-    const z1a = document.getElementById('inner-img-a');
-    const z1b = document.getElementById('inner-img-b');
-    console.log('Zone1 layer A:', z1a?.style.backgroundImage?.slice(0, 80));
-    console.log('Zone1 layer B:', z1b?.style.backgroundImage?.slice(0, 80));
-
-    const z3a = document.getElementById('ambient-layer-a');
-    const z3b = document.getElementById('ambient-layer-b');
-    console.log('Zone3 layer A:', z3a?.style.backgroundImage?.slice(0, 80));
-    console.log('Zone3 layer B:', z3b?.style.backgroundImage?.slice(0, 80));
-
-    // Test load a specific image
-    const albumPath = `albums/${currentAlbumConfig.album_id}`;
-    const testUrl = tl[0]?.media?.[0]?.url;
-    if (testUrl) {
-        const img = new Image();
-        img.onload = () => console.log(`TEST LOAD OK: ${albumPath}/${testUrl} (${img.width}x${img.height})`);
-        img.onerror = () => console.error(`TEST LOAD FAILED: ${albumPath}/${testUrl}`);
-        img.src = `${albumPath}/${testUrl}`;
-    }
-
-    console.log('Structure:', loadedTrackData.sections ? `${loadedTrackData.sections.length} sections` : 'NONE');
-    console.log('Beat times:', loadedTrackData.beat_times ? `${loadedTrackData.beat_times.length} beats` : 'NONE');
-    console.log('Energy curve:', loadedTrackData.energy_curve ? `${loadedTrackData.energy_curve.length} points` : 'NONE');
-    console.log('=== END DIAGNOSTIC ===');
-};
 
 // ── Init on Load ─────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {

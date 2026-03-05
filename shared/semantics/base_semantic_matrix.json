@@ -4,47 +4,467 @@
     "lines": [
       {
         "line_index": 0,
-        "lyric": "When I pressed play on the time machine (which was actually a British phone booth painted green, don't ask), my only intention was to grab some cool rocks and see a dinosaur before dinner.",
-        "real_meaning": "The accidental genesis of power: Humans stumble into godhood and alter history not by grand design, but through chaos, improvisation, and mundane intentions.",
+        "lyric": "I pressed play on the green phone booth",
+        "real_meaning": "The accidental genesis: You don't choose to change the world. You stumble into a phone booth you painted green because it looked cool, press a button, and nothing is ever the same.",
         "media_queries": [
-          "Wide establishing shot: A dense, mist-filled paleolithic forest at twilight. In the center of a clearing stands a solitary, anachronistic green British phone booth.",
-          "Medium tracking shot: The heavy door of the green phone booth pushes open with a creak. A figure in a modern hoodie steps out, boots sinking into the untouched moss.",
-          "Over-the-shoulder shot: The traveler looks past the trees. In the distance, the faint, warm flicker of a dying campfire illuminates the entrance to a rocky cave."
+          "Wide shot: A battered green British phone booth standing alone in a misty twilight clearing, surrounded by ancient ferns and towering prehistoric trees.",
+          "Medium shot: A hand reaches out and presses a large glowing button inside the green phone booth. Light pulses through the cracked glass panels.",
+          "Close-up: The phone booth door swings open violently, revealing a swirling vortex of golden light and fog pouring out into the forest."
         ],
         "hidden_media_queries": [
-          "Wide establishing shot: A cluttered, dark suburban attic filled with cardboard boxes and forgotten relics. Rain patters against a small skylight window.",
-          "Medium tracking shot: The camera slowly moves through the dust motes toward an old, closed laptop sitting on a wooden desk.",
-          "Close-up: A teenager's hand reaches into frame, wiping away a thick layer of dust from the laptop's silver casing."
+          "Wide shot: A cluttered suburban bedroom at night, clothes on the floor, rain against the window. A bored teenager sits on the bed staring at the ceiling.",
+          "Medium shot: The teenager spots a dusty old laptop under a pile of magazines on the desk. Pulls it out curiously.",
+          "Close-up: A finger presses the power button on the old silver laptop. The screen flickers to life with a pale blue glow."
         ]
       },
       {
         "line_index": 1,
-        "lyric": "I landed in a valley of moss and smoke. Smell of rain, fire in the air. And there he was: the first human I'd ever seen. Crouched by a pile of stones, blowing on a twig like his life depended on it. And it did.",
-        "real_meaning": "Humanity's raw state: The primal, harsh reality of survival before technology and dogma insulated us, where actions had immediate, life-or-death consequences.",
+        "lyric": "Painted a British box, that's the truth",
+        "real_meaning": "We dress up the mundane as extraordinary. A phone booth becomes a time machine because we decided it should. Every product, every brand, every ideology is just a painted box.",
         "media_queries": [
-          "Wide shot: The traveler approaches the cave cautiously. The air is thick with smoke. Near the dying embers, a single, rugged cave dweller is huddled in the cold.",
-          "Medium shot: The cave dweller is desperately blowing on a tiny, smoking twig, his face painted with soot and desperate exhaustion.",
-          "Close-up: The cave dweller's hollow, terrified eyes as the twig's ember finally fades to black, leaving him in darkness."
+          "Medium shot: The phone booth exterior, clearly hand-painted green with dripping paint and brush strokes visible on the red British metal.",
+          "Close-up: A bucket of green paint and a roller leaning against the base of the phone booth, grass stained green around it.",
+          "Wide shot: The traveler stands beside the freshly painted phone booth in a suburban garden, admiring the ridiculous work with a proud grin."
         ],
         "hidden_media_queries": [
-          "Medium shot: The teenager opens the lid of the laptop. The screen remains black for a tense second.",
-          "Close-up: The power button. The teenager's finger presses it firmly.",
-          "Over-the-shoulder shot: The screen suddenly flashes bright white, illuminating the dark attic and casting a harsh glow on the teenager's face."
+          "Medium shot: The teenager sticks vinyl decal stickers onto the laptop lid, personalizing it with band logos and astronaut graphics.",
+          "Close-up: The laptop screen shows a browser homepage with a colorful custom wallpaper, tabs already opening.",
+          "Over-the-shoulder: The teenager types a first search query into the browser bar, the cursor blinking with possibility."
         ]
       },
       {
         "line_index": 2,
-        "lyric": "Let's call him Gralha.",
-        "real_meaning": "The archetype of the naive believer (Gralha): The first human ready to surrender agency, trade wonder for submission, and follow blindly.",
+        "lyric": "Don't ask me why, I can't explain",
+        "real_meaning": "The honest confession: Most revolutions begin without a manifesto. We act, then invent the story later. 'Why did you do it?' 'I don't know. It seemed fun.'",
         "media_queries": [
-          "Medium shot: The cave dweller (Gralha) slowly looks up, noticing the modern traveler standing over him.",
-          "Close-up: Gralha's expression shifts from despair to absolute shock as he registers the traveler's strange clothing.",
-          "Point of view (Gralha): Looking up at the traveler, whose hand slowly reaches into their pocket, retrieving a bright orange plastic BIC lighter."
+          "Close-up: The traveler's face mid-teleportation, eyes wide, mouth open, streaks of light whipping past like a tunnel of stars.",
+          "Wide shot: The phone booth shaking violently in the clearing, lightning arcing from its antenna into the prehistoric sky.",
+          "Medium shot: The traveler gripping the phone booth's interior handles as the whole structure lurches and spins."
         ],
         "hidden_media_queries": [
-          "Close-up: The teenager's eyes, reflecting the loading screen of a vintage operating system.",
-          "Medium shot: The teenager smiles, captivated by the glow, completely isolated from the outside world visible in the rain-streaked window.",
-          "Extreme close-up: A progress bar creeping across the glowing screen, the gateway to the digital world opening."
+          "Close-up: The teenager's face illuminated by rapidly scrolling search results, eyes darting left and right, mesmerized.",
+          "Medium shot: The teenager clicks a random link, leaning forward with curiosity, headphones half on.",
+          "Over-the-shoulder: A webpage loads showing 'CREATE YOUR ACCOUNT' with a blinking cursor in the username field."
+        ]
+      },
+      {
+        "line_index": 3,
+        "lyric": "Just wanted cool rocks, maybe a saber-toothed mane",
+        "real_meaning": "The trivial spark: Every empire begins with someone wanting something stupid. Fire wasn't discovered for philosophy — it was discovered because someone was cold and hungry.",
+        "media_queries": [
+          "Medium shot: The traveler's backpack open on the ground, revealing a geology hammer, sample bags, and a dog-eared dinosaur field guide.",
+          "Close-up: A gloved hand picking up a glittering crystal from moss-covered stone, holding it up to fading twilight.",
+          "Wide shot: A distant silhouette of a saber-toothed cat on a ridge, backlit by a massive orange sunset over volcanic hills."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager scrolling through YouTube thumbnails, each promising 'INSANE', 'YOU WON'T BELIEVE', 'GONE WRONG'.",
+          "Close-up: The teenager's finger hovers over a clickbait video thumbnail showing a flashy tech review with fire emojis.",
+          "Over-the-shoulder: A video starts playing, a charismatic tech influencer holds up a shiny new gadget to the camera."
+        ]
+      },
+      {
+        "line_index": 4,
+        "lyric": "See a dinosaur before my tea",
+        "real_meaning": "Casual tourism of the sacred: We reduce the extraordinary to convenience. 'I'll see a miracle before lunch, then get a latte.' This is how wonder dies.",
+        "media_queries": [
+          "Wide shot: A massive brontosaurus silhouette moving through thick fog between enormous redwood-like trees in a primeval swamp.",
+          "Medium shot: The traveler crouching behind a fallen log, jaw dropped, watching the dinosaur's enormous feet splash through shallow water.",
+          "Close-up: The traveler's wristwatch showing 4:47 PM, a teacup emoji sticker on the watch band, reality still tethered to routine."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager's room at night, face glowing blue, surrounded by empty snack wrappers, completely absorbed in the screen.",
+          "Medium shot: A clock on the bedroom wall reads 2:00 AM, but the teenager doesn't notice, scrolling endlessly.",
+          "Close-up: The browser has twenty-seven tabs open, each one a rabbit hole deeper than the last."
+        ]
+      },
+      {
+        "line_index": 5,
+        "lyric": "A triceratops staring at me",
+        "real_meaning": "The moment reality stares back: When what you thought was entertainment becomes dangerously real. The dinosaur doesn't care about your itinerary.",
+        "media_queries": [
+          "Wide shot: An enormous triceratops standing ten meters away in a clearing, its three horns gleaming, staring directly at the traveler.",
+          "Close-up: The triceratops' ancient, reptilian eye, huge and unblinking, reflecting the tiny figure of the traveler.",
+          "Medium shot: The traveler frozen in place, arms up, breathing shallow, face-to-face with a creature that shouldn't exist."
+        ],
+        "hidden_media_queries": [
+          "Close-up: The teenager's screen showing a direct message notification from a stranger. The username is intimidating.",
+          "Medium shot: The teenager pulls back from the screen slightly, realizing the internet is not just content but real people watching.",
+          "Over-the-shoulder: A comment section full of aggressive replies to the teenager's first innocent post, reality biting back."
+        ]
+      },
+      {
+        "line_index": 6,
+        "lyric": "I landed in a valley of moss and smoke",
+        "real_meaning": "The sensory shock of a new world: Every immigrant, every explorer, every refugee knows this moment, the smell, the air, the terrifying beauty of somewhere completely alien.",
+        "media_queries": [
+          "Wide establishing shot: A vast prehistoric valley at dusk, thick green moss covering every surface, tendrils of smoke rising from distant volcanic vents.",
+          "Medium shot: The traveler stumbles out of the phone booth into ankle-deep moss, coughing from the sulfurous smoke in the heavy air.",
+          "Aerial shot: The green phone booth tiny in the center of the enormous valley, surrounded by primordial forest and smoking hills."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager's first social media feed loading, a waterfall of images, videos, text, likes, colors flooding the screen.",
+          "Medium shot: The teenager's eyes go wide, scrolling faster and faster through content that never ends, mouth slightly open.",
+          "Close-up: The screen reflection in the teenager's glasses, showing hundreds of tiny thumbnails cascading downward infinitely."
+        ]
+      },
+      {
+        "line_index": 7,
+        "lyric": "Smell of rain, the night awoke",
+        "real_meaning": "The primal immersion: Before language, before meaning, there is sensation. Rain on skin, smoke in lungs, darkness pressing in. This is the world before the filter.",
+        "media_queries": [
+          "Close-up: Heavy raindrops splashing on broad prehistoric fern leaves, each drop lit by distant volcanic glow.",
+          "Wide shot: The valley transitioning from dusk to night, the sky deepening to indigo, stars appearing between clouds of volcanic ash.",
+          "Medium shot: The traveler pulling their hoodie tight, looking up at the alien sky, rain streaking down their face."
+        ],
+        "hidden_media_queries": [
+          "Close-up: The teenager's phone buzzes on the nightstand. A notification. Then another. Then a cascade of vibrations.",
+          "Medium shot: The dark bedroom lit only by the phone's screen, shadows dancing on the walls with each new notification.",
+          "Wide shot: Outside the bedroom window, the real world with streetlights, rain, a quiet neighborhood, completely ignored."
+        ]
+      },
+      {
+        "line_index": 8,
+        "lyric": "And there he was, the first human soul",
+        "real_meaning": "The encounter with raw humanity: Before branding, before resumes, before followers, a human being, desperate, real, unfiltered. We have forgotten what that looks like.",
+        "media_queries": [
+          "Wide shot: Near a rocky cave mouth, a small dying fire barely illuminates a lone figure crouched on the ground, surrounded by darkness.",
+          "Medium shot: The cave dweller Gralha, filthy and exhausted, his face gaunt, ribs visible, desperately hunched over smoking stones.",
+          "Close-up: Gralha's trembling hands cupping a tiny ember on a dried leaf, blowing gently, his breath visible in the cold air."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: A grainy webcam video playing on the teenager's screen, someone in a messy room talking earnestly to the camera.",
+          "Close-up: The webcam creator's face, genuine and unpolished, no ring light, no editing, just raw honesty.",
+          "Over-the-shoulder: The teenager watches intently, leaning closer to the screen, captivated by something real in the noise."
+        ]
+      },
+      {
+        "line_index": 9,
+        "lyric": "Blowing on a twig, losing control",
+        "real_meaning": "The desperation of the powerless: Before the lighter, fire was a daily battle. Imagine fighting for warmth every single night. That is life without tools, and without critical thought.",
+        "media_queries": [
+          "Close-up: Gralha's cracked lips blowing desperately on a tiny smoking twig, sweat and soot on his forehead, eyes panicked.",
+          "Medium shot: The twig's ember glows red, flickers, then dies completely. Gralha's shoulders slump in defeat.",
+          "Wide shot: Gralha alone by the dead fire pit in near-total darkness, the cold forest pressing in around him."
+        ],
+        "hidden_media_queries": [
+          "Close-up: A frustrated user's hand clicking 'forgot password' for the third time, screen showing 'invalid credentials'.",
+          "Medium shot: The webcam creator on screen trying to fix a technical glitch, fumbling with cables, apologizing to viewers.",
+          "Over-the-shoulder: The teenager smirks at the screen, a thought forming, they know how to fix that problem."
+        ]
+      },
+      {
+        "line_index": 10,
+        "lyric": "I'm the Mage by accident",
+        "real_meaning": "The accidental authority: Every guru, every CEO, every influencer, most of them didn't plan it. They just had a lighter when everyone else had twigs.",
+        "media_queries": [
+          "Medium shot: The traveler standing at the edge of the firelight, the orange BIC lighter in hand, realizing the weight of what is about to happen.",
+          "Close-up: The traveler's thumb on the lighter's spark wheel, hesitating, the metal catching the last glint of dying embers.",
+          "Wide shot: Gralha on his knees looking up at the traveler, who stands backlit by faint moonlight, an accidental silhouette of power."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager posts a casual reply to the webcam creator's problem, a simple fix, three lines of text.",
+          "Close-up: A notification pops up: 'Your comment received 47 likes.' The teenager stares, surprised.",
+          "Over-the-shoulder: More notifications flooding in. People replying 'genius', 'how did you know that', 'follow this person'."
+        ]
+      },
+      {
+        "line_index": 11,
+        "lyric": "Right guy, wrong time, no consent",
+        "real_meaning": "The unwilling prophet: Nobody asks to be deified. The lighter didn't come with instructions for godhood. Neither did your smartphone.",
+        "media_queries": [
+          "Close-up: The traveler's conflicted face, eyes darting between Gralha's desperate gaze and the lighter, knowing this will change everything.",
+          "Medium shot: The traveler looking back toward the green phone booth in the distance, considering escape, but Gralha already reaching out.",
+          "Wide shot: The prehistoric valley at night, the traveler small between the cave and the phone booth, caught between two worlds."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager's follower count jumping from 3 to 300 overnight, the phone buzzing relentlessly on the nightstand.",
+          "Close-up: The teenager's alarm clock reads 6:30 AM for school, but the phone screen shows 43 unread messages.",
+          "Wide shot: The teenager sitting on the bed edge, phone in hand, looking overwhelmed, this was not the plan."
+        ]
+      },
+      {
+        "line_index": 12,
+        "lyric": "Came for some rocks, now I gotta run",
+        "real_meaning": "The point of no return: You came to browse, to scroll, to kill time. Now you are trapped in a narrative you didn't write. Welcome to the algorithm.",
+        "media_queries": [
+          "Medium shot: The traveler glancing nervously at the geology hammer still in their backpack, the original innocent mission now irrelevant.",
+          "Wide shot: Shadows moving in the forest behind the cave, more creatures watching from the treeline.",
+          "Close-up: The traveler's boots shifting in the moss, body language caught between fight and flight, the lighter still clutched tight."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager tries to close the laptop but a new DM pops up: 'Can you help me too?' Then another. Then five more.",
+          "Close-up: The teenager's original browser tab, a simple homework search, buried under thirty other tabs.",
+          "Over-the-shoulder: A trending notification appears, the teenager's comment is being shared across platforms they have never heard of."
+        ]
+      },
+      {
+        "line_index": 13,
+        "lyric": "But the story's already begun",
+        "real_meaning": "Irreversibility: Once you light the fire, you can't unlight it. Once you post, you can't unpost. Once they have seen magic, you are the magician forever.",
+        "media_queries": [
+          "Wide shot: Gralha on his feet now, moving toward the traveler with urgent primal determination, arms outstretched.",
+          "Medium shot: The cave's dead fire pit, cold black stones waiting, as if the universe itself is holding its breath.",
+          "Close-up: The traveler's eyes accepting fate, a deep breath, jaw set, fingers tightening on the lighter."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager's post screenshot appearing on a popular meme page with thousands of views already.",
+          "Medium shot: The teenager's real name and school showing up in a reply thread. Privacy evaporating in real time.",
+          "Close-up: The 'Delete Post' button on screen, but below it: '2,847 shares'. Too late."
+        ]
+      },
+      {
+        "line_index": 14,
+        "lyric": "Chak-chak, the flame lit bright",
+        "real_meaning": "The moment of ignition: Two syllables. One spark. Everything changes. This is the iPhone launch. The first Google search. The moment Prometheus stole fire.",
+        "media_queries": [
+          "Extreme close-up: The lighter's spark wheel spinning, sparks flying in slow motion, igniting the butane with a bright orange flame.",
+          "Medium shot: The flame erupts from the lighter, illuminating the entire cave entrance in warm golden light, shadows leaping on the walls.",
+          "Wide shot: The flame's glow spreading across the valley floor, Gralha stumbling backward, the traveler holding fire like a torch."
+        ],
+        "hidden_media_queries": [
+          "Extreme close-up: A finger tapping 'POST' on a glowing touchscreen, the button turning from blue to green.",
+          "Medium shot: The teenager's screen exploding with hearts, likes, retweets, the numbers spinning upward like a slot machine.",
+          "Wide shot: The dark bedroom now fully illuminated by the screen's frantic activity, the teenager's shadow large on the wall."
+        ]
+      },
+      {
+        "line_index": 15,
+        "lyric": "And my whole life faded into night",
+        "real_meaning": "The sacrifice: To become the Mage, you surrender your old self. To become an influencer, you surrender your privacy. To become a leader, you surrender your freedom.",
+        "media_queries": [
+          "Wide shot: The green phone booth in the far distance, barely visible, as the traveler turns away from it toward the cave and the firelight.",
+          "Medium shot: The traveler's hoodie now illuminated by the fire, their face half in light and half in shadow, the old life dissolving.",
+          "Close-up: The traveler's modern watch face going dark, as if time itself has stopped, the digital display flickering and dying."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager's bedroom transforming, posters fading, toys disappearing, replaced by ring lights and a microphone setup.",
+          "Medium shot: The teenager staring at their reflection in the dark phone screen, barely recognizing themselves.",
+          "Close-up: A photo from yesterday, smiling with friends at school, now feels like it belongs to another lifetime."
+        ]
+      },
+      {
+        "line_index": 16,
+        "lyric": "Gralha looked at me, dropped his stick",
+        "real_meaning": "The first conversion: The moment the believer discards their own tools. Why use a stick when someone has a lighter? Why think when someone has the answers?",
+        "media_queries": [
+          "Medium shot: Gralha staring at the traveler with enormous eyes, his crude fire-starting stick slipping from his fingers and clattering to the ground.",
+          "Close-up: The fallen stick on the cave floor, a primitive tool now obsolete, discarded without a second thought.",
+          "Over-the-shoulder from traveler: Gralha stepping forward, abandoning his old fire pit entirely, reaching toward the magic flame."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: A person closing their physical notebook and pushing it aside, opening a tablet instead, transferring all trust to the screen.",
+          "Close-up: A handwritten journal collecting dust beside a glowing smartphone, the old way of thinking abandoned.",
+          "Wide shot: A classroom where every student has a laptop open, the teacher's chalkboard empty and ignored behind them."
+        ]
+      },
+      {
+        "line_index": 17,
+        "lyric": "Saw my Super Bock sweater, thick",
+        "real_meaning": "Branding as divinity: Gralha doesn't understand the sweater, he worships the logo. We don't understand the iPhone, we worship the Apple. The symbol replaces the substance.",
+        "media_queries": [
+          "Close-up: The traveler's chest showing a thick knitted sweater with a large Super Bock beer logo, alien and incomprehensible to Gralha.",
+          "Medium shot: Gralha reaching out cautiously to touch the sweater's fabric, feeling the soft wool, his expression shifting from awe to reverence.",
+          "Close-up: Gralha's dirty fingers tracing the embroidered letters of the logo, treating each stitch like a sacred glyph."
+        ],
+        "hidden_media_queries": [
+          "Close-up: A teenager's eyes locked on an influencer's branded merchandise, a hoodie with a bold logo, perfectly lit in a product photo.",
+          "Medium shot: A shopping cart on screen filling up with branded items, the hoodie, the cap, the water bottle, all bearing the same logo.",
+          "Over-the-shoulder: The teenager wearing the newly arrived merch, posing in the mirror, becoming a walking advertisement."
+        ]
+      },
+      {
+        "line_index": 18,
+        "lyric": "Pointed at the lighter, went \"Uga boo\"",
+        "real_meaning": "The demand for magic: 'Show me the trick again.' The consumer doesn't want to understand, they want to be amazed. Repeat the miracle. Make fire. Again.",
+        "media_queries": [
+          "Medium shot: Gralha pointing urgently at the orange BIC lighter in the traveler's hand, grunting excitedly, bouncing on his heels.",
+          "Close-up: Gralha's mouth forming primal sounds, his face contorted with desperate curiosity, finger jabbing toward the lighter.",
+          "Over-the-shoulder from Gralha: The lighter gleaming in the traveler's palm, the most powerful object in this world."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: A crowd at a tech keynote, phones raised, all recording, chanting the CEO's name before the product reveal.",
+          "Close-up: Hundreds of identical phone screens in a dark auditorium, all showing the same live stream, waiting for the big moment.",
+          "Wide shot: The keynote stage with a single spotlight on a glass pedestal, the audience leaning forward as the cloth is about to be pulled."
+        ]
+      },
+      {
+        "line_index": 19,
+        "lyric": "I went chak-chak, he fell back, knew",
+        "real_meaning": "The product demo: Two clicks. That is all it takes. The crowd falls silent. The sale is made. The conversion is complete. Nobody asks how it works.",
+        "media_queries": [
+          "Extreme close-up: The traveler's thumb flicking the lighter wheel, chak-chak, sparks flying, flame erupting bright orange.",
+          "Medium shot: Gralha falling backward onto the ground in shock, arms splayed, mouth wide open, eyes reflecting the impossible flame.",
+          "Wide shot: The cave entrance illuminated by the steady lighter flame, Gralha sprawled on the ground, the traveler standing over him."
+        ],
+        "hidden_media_queries": [
+          "Extreme close-up: A finger swiping on a phone screen, unlocking it with a single fluid gesture, the home screen blooming open.",
+          "Medium shot: The keynote audience gasping collectively, some standing up, phones recording the new product demo.",
+          "Wide shot: The product demo on a massive stage screen, the audience bathed in the glow, hands raised, worshipping the demonstration."
+        ]
+      },
+      {
+        "line_index": 20,
+        "lyric": "UUUUGA BOOGAH! TCHAN TCHAN!",
+        "real_meaning": "The primal viral moment: Before language had nuance, the scream was the share button. 'UUUGA BOOGAH' is the first retweet, the first 'OMG YOU HAVE TO SEE THIS'.",
+        "media_queries": [
+          "Wide shot: Gralha scrambling to his feet, turning toward the dark forest, cupping his hands around his mouth, screaming into the night.",
+          "Medium shot: Gralha's face contorted in a massive primal scream, veins in his neck bulging, sound waves visible in the smoky air.",
+          "Wide shot: The scream echoing across the valley, birds scattering from treetops, distant shadows stirring in the darkness."
+        ],
+        "hidden_media_queries": [
+          "Close-up: A thumb frantically tapping the share button on a phone screen, the same post being sent to ten different group chats.",
+          "Medium shot: A teenager shouting across a school hallway holding their phone up, others running over to look.",
+          "Wide shot: A notification avalanche on a computer screen, shares multiplying exponentially, the counter climbing from hundreds to thousands."
+        ]
+      },
+      {
+        "line_index": 21,
+        "lyric": "Translation: \"Come see the madman!\"",
+        "real_meaning": "The framing of genius as madness: Every innovator is first called crazy. Every prophet is first called a madman. The translation is always wrong, but it doesn't matter, they come anyway.",
+        "media_queries": [
+          "Medium shot: Gralha beckoning wildly toward the cave, gesturing for unseen others to come, his movements frantic and evangelical.",
+          "Close-up: Gralha's hand pointing back at the traveler with the lighter, his expression a mix of terror and worship.",
+          "Wide shot: Movement in the treeline, shapes emerging from the darkness, drawn by the screaming, curious shadows approaching."
+        ],
+        "hidden_media_queries": [
+          "Close-up: A clickbait headline on a news site: 'THIS KID'S HACK IS BREAKING THE INTERNET', sensationalized and misleading.",
+          "Medium shot: The teenager's post being featured on a trending page, surrounded by flashy graphics and exaggerated captions.",
+          "Over-the-shoulder: The teenager reading comments: 'this kid is insane', 'absolute madman', 'genius or crazy', fame arriving uninvited."
+        ]
+      },
+      {
+        "line_index": 22,
+        "lyric": "Five minutes, twelve creatures gathered round",
+        "real_meaning": "The speed of worship: Five minutes. That is how fast a religion forms. That is how fast a product goes viral. That is how fast a mob assembles.",
+        "media_queries": [
+          "Wide shot: Twelve cave dwellers of various ages emerging from the forest, approaching the cave entrance cautiously, eyes reflecting firelight.",
+          "Medium shot: The group forming a rough semicircle around the traveler, some crouching, some standing, all staring at the lighter flame.",
+          "Close-up: Multiple pairs of wide, unblinking prehistoric eyes in the darkness, each reflecting the tiny orange flame."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: A live stream viewer count climbing rapidly, 12, 120, 1200, each number a face glued to a screen.",
+          "Medium shot: A grid of video call faces all staring at the same shared screen, mouths slightly open, completely silent.",
+          "Close-up: A follower counter spinning upward on a social media profile, each tick representing a person surrendering their attention."
+        ]
+      },
+      {
+        "line_index": 23,
+        "lyric": "Mouths wide open, not a sound",
+        "real_meaning": "The silence of surrender: When the audience stops talking and starts consuming. The scroll. The binge. The sermon. Mouths open, brains off, credit cards ready.",
+        "media_queries": [
+          "Close-up: A young cave dweller child, face smeared with dirt, mouth hanging open in pure wonder, eyes locked on the flame.",
+          "Medium shot: The entire group frozen in absolute silence, the only sound the crackling of the lighter's flame in the still night air.",
+          "Wide shot: The circle of mesmerized cave dwellers, the traveler at the center holding the lighter aloft, an accidental altar forming."
+        ],
+        "hidden_media_queries": [
+          "Close-up: A person's face bathed in blue light, jaw slack, scrolling endlessly, pupils dilated, completely hypnotized.",
+          "Medium shot: A subway car full of commuters, every single one looking down at their phone, mouths slightly open, zero conversation.",
+          "Wide shot: A conference audience in complete silence, all filming the same thing on their phones, hundreds of identical rectangles of light."
+        ]
+      },
+      {
+        "line_index": 24,
+        "lyric": "I'm the Mage by accident",
+        "real_meaning": "The trap deepens: You said it once and it was honest. Now you say it again and it is becoming your identity. The accident is becoming your destiny. The mask is fusing to your face.",
+        "media_queries": [
+          "Medium shot: The traveler now seated on a flat stone like a throne, the cave dwellers arranged around them, the lighter still burning.",
+          "Close-up: The traveler's face, the initial shock replaced by weary resignation, the flame reflecting in their tired eyes.",
+          "Wide shot: The cave now warm and bright from the lighter's glow, the green phone booth invisible in the far distance darkness."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager at a desk with a proper ring light and camera setup, filming content instead of doing homework.",
+          "Close-up: The teenager's face in the ring light glow, the candid expressions replaced by a practiced camera smile.",
+          "Over-the-shoulder: A dashboard showing analytics, subscribers, watch time, the teenager now managing metrics instead of living life."
+        ]
+      },
+      {
+        "line_index": 25,
+        "lyric": "Right guy, wrong time, no consent",
+        "real_meaning": "The second chorus reality: This is not cute anymore. The lack of consent is real now. They need you. They demand you. The platform will not let you leave.",
+        "media_queries": [
+          "Medium shot: Cave dwellers blocking the path back to the phone booth, not maliciously but needfully, their hands reaching toward the traveler.",
+          "Close-up: The traveler looking over their shoulder toward the phone booth, now completely swallowed by the dark prehistoric forest.",
+          "Wide shot: The cave has become a camp, makeshift shelters forming around the traveler's stone seat, a settlement building overnight."
+        ],
+        "hidden_media_queries": [
+          "Medium shot: The teenager trying to log out but a popup appears: 'Your followers will miss you! Are you sure?'",
+          "Close-up: The 'Deactivate Account' page with partnership offers, brand deals, a verified badge waiting for approval below it.",
+          "Wide shot: The teenager's room now a full studio with lights, backdrop, microphone, the bedroom gone, replaced by a production set."
+        ]
+      },
+      {
+        "line_index": 26,
+        "lyric": "Came for some rocks, now I gotta run",
+        "real_meaning": "The obligation trap: The rocks are forgotten. The original purpose is dead. Now you serve the machine that you accidentally built. The creator becomes the servant.",
+        "media_queries": [
+          "Close-up: The geology hammer buried under a pile of animal skins and crude offerings placed at the traveler's feet.",
+          "Medium shot: The traveler standing, looking for an exit route, but cave dwellers surround every direction with expectant faces.",
+          "Wide shot: The growing settlement at dawn, crude structures and fire pits being built, all centered around the traveler's stone seat."
+        ],
+        "hidden_media_queries": [
+          "Close-up: The teenager's original homework file, untouched for weeks, buried under folders named 'content_march' and 'thumbnails'.",
+          "Medium shot: The teenager on a video call with a talent manager explaining a content schedule, the teenager looking overwhelmed.",
+          "Wide shot: A calendar on screen, every day blocked with 'POST', 'STREAM', 'COLLAB', 'EDIT', no free time visible anywhere."
+        ]
+      },
+      {
+        "line_index": 27,
+        "lyric": "But the story's already begun",
+        "real_meaning": "Escalated inevitability: The story has momentum now. Others are writing it for you. The comments, the expectations, the followers, they own the narrative.",
+        "media_queries": [
+          "Wide shot: Cave dwellers drawing crude images on the cave wall, a figure holding fire, surrounded by a circle of worshippers.",
+          "Close-up: A cave painting being drawn with ochre, the traveler depicted as a giant, the lighter depicted as a sun in their hand.",
+          "Medium shot: Young cave dwellers reenacting the chak-chak moment, one pretending to be the Mage, others falling back in practiced awe."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: Fan accounts appearing online, using the teenager's photos, creating memes, writing fan fiction about them.",
+          "Close-up: A Wikipedia article being created with the teenager's name and origin story, a biographical narrative they didn't write.",
+          "Medium shot: The teenager scrolling through their own tag on social media, seeing strangers define who they are, powerless to correct it."
+        ]
+      },
+      {
+        "line_index": 28,
+        "lyric": "Chak-chak, the flame lit bright",
+        "real_meaning": "The ritual solidifies: What was spontaneous is now expected. The chak-chak is no longer a surprise, it is a performance. The lighter is a liturgy.",
+        "media_queries": [
+          "Extreme close-up: The lighter wheel spinning again, but now surrounded by dozens of watching eyes, the performance ritualized.",
+          "Wide shot: The traveler performing the chak-chak for the gathered tribe, the flame erupting as the crowd sways in unison.",
+          "Medium shot: The cave dwellers bowing as the flame appears, hands raised, a ceremony forming around a piece of disposable plastic."
+        ],
+        "hidden_media_queries": [
+          "Extreme close-up: The teenager's finger hovering over 'GO LIVE', about to perform again, the spontaneity replaced by obligation.",
+          "Wide shot: A live stream in progress, the teenager performing on camera, chat scrolling with demands for the signature move.",
+          "Medium shot: The teenager finishing the stream, slumping back in the chair exhausted, the ring light still blazing."
+        ]
+      },
+      {
+        "line_index": 29,
+        "lyric": "And my whole life faded into night",
+        "real_meaning": "The final surrender: Your old identity is gone. You are The Mage now. You are the brand. The person behind the profile pic has ceased to exist.",
+        "media_queries": [
+          "Wide shot: The traveler sitting alone on the stone throne at night, the tribe asleep around them, staring at the stars, profoundly alone.",
+          "Close-up: The traveler's face in the dying firelight, eyes hollow, the weight of accidental godhood pressing down visibly.",
+          "Medium shot: The green phone booth now barely a speck of faded green paint in the far distance, overgrown with prehistoric vines."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager lying in bed in the fully equipped studio-bedroom, staring at the ceiling, phone face-down for the first time.",
+          "Close-up: The teenager's real face, no filter, no ring light, dark circles under the eyes, a person behind the persona.",
+          "Medium shot: An old framed photo on the desk showing the teenager laughing with friends outdoors, a ghost from before the screen."
+        ]
+      },
+      {
+        "line_index": 30,
+        "lyric": "Where the hell did I land?",
+        "real_meaning": "The devastating question: It is not about geography. It is about identity. Where am I? What have I become? Is this my life now? The question every human asks when they realize they have been sleepwalking into someone else's story.",
+        "media_queries": [
+          "Wide shot: The traveler standing at the edge of a cliff at dawn, overlooking the vast prehistoric valley now dotted with fires and shelters.",
+          "Medium shot: The traveler looking down at the lighter in their hand, then out at the world they have accidentally reshaped, bewildered.",
+          "Close-up: The traveler's eyes, equal parts wonder and terror, reflecting the enormous untamed world stretching to the horizon."
+        ],
+        "hidden_media_queries": [
+          "Wide shot: The teenager standing in the middle of their studio-bedroom, surrounded by equipment, merch boxes, and screens, looking lost.",
+          "Medium shot: The teenager holding their phone at arm's length, looking at their own profile, a stranger's face smiling back.",
+          "Close-up: The teenager's eyes reflecting the phone screen, a single tear catching the glow, the devastating question on their face."
         ]
       }
     ]

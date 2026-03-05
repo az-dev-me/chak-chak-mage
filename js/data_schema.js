@@ -44,7 +44,7 @@ function normalizeAlbumConfig(config) {
         const trackId = t.track_id || t.id;
         if (!trackId) return t;
         const slot = t.slot != null ? t.slot : parseInt(trackId.replace("track_", ""), 10);
-        const audioFile = t.audio_file || t.audioFile || `${String(slot).padStart(2, "0")} - ${trackId}.mp3`;
+        const audioFile = t.audio_path || t.audio_file || t.audioFile || `${String(slot).padStart(2, "0")} - ${trackId}.mp3`;
         const num = trackId.replace("track_", "");
         return {
             id: trackId,
@@ -95,7 +95,7 @@ function loadAlbumTrackScript(albumId, trackId, variantId) {
 
     trackLoadPromises[key] = new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = `albums/${albumId}/data/${dataKey}.js`;
+        script.src = `albums/${albumId}/data/${dataKey}.js?v=${Date.now()}`;
         script.onload = () => resolve();
         script.onerror = (e) => reject(e);
         document.head.appendChild(script);

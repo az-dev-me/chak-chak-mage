@@ -130,28 +130,36 @@ const Zone2Outer = (() => {
         return;
     }
 
-    // Beat pulse: CSS custom properties for text glow, strip border, bar brightness, downbeat flash
-    function applyBeatPulse(beatPulse, isDownbeat) {
-        // Text glow: every beat
+    // Beat pulse: driven by real-time audio analysis.
+    // beatPulse = bass energy with decay (0-1), proportional to actual hit strength.
+    // beatDetected = true on the frame a kick/bass transient was detected.
+    function applyBeatPulse(beatPulse, beatDetected) {
+        // Text glow: proportional to beat pulse (kick strength)
         document.documentElement.style.setProperty('--beat-text-glow', beatPulse.toFixed(3));
 
-        // Meaning strip border: every beat (gold shimmer)
+        // Meaning strip border: gold shimmer tracks beat
         const borderAlpha = 0.12 + beatPulse * 0.35;
         document.documentElement.style.setProperty('--beat-strip-border', borderAlpha.toFixed(3));
 
-        // Bar brightness: every beat
-        const brightness = beatPulse * 0.03;
+        // Bar brightness: tracks beat pulse
+        const brightness = beatPulse * 0.06;
         document.documentElement.style.setProperty('--beat-brightness', brightness.toFixed(4));
 
-        // Downbeat flash: stronger brightness on measure start (every 4th beat)
-        if (isDownbeat && beatPulse > 0.5) {
-            document.documentElement.style.setProperty('--beat-bg-flash', (beatPulse * 0.8).toFixed(3));
+        // Background flash: on detected kicks, proportional to strength
+        if (beatDetected) {
+            document.documentElement.style.setProperty(
+                '--beat-bg-flash', beatPulse.toFixed(3)
+            );
         } else {
-            // Fast decay
+            // Smooth decay
             const current = parseFloat(
                 document.documentElement.style.getPropertyValue('--beat-bg-flash') || '0'
             );
-            document.documentElement.style.setProperty('--beat-bg-flash', (current * 0.85).toFixed(3));
+            if (current > 0.005) {
+                document.documentElement.style.setProperty(
+                    '--beat-bg-flash', (current * 0.88).toFixed(3)
+                );
+            }
         }
     }
 
@@ -176,41 +184,9 @@ const Zone2Outer = (() => {
         }
     }
 
-    // Burst: rapid image flash on high-energy + beat moments
-    function updateBurst(energy, beatPulse, albumPath, timeline, lineIdx) {
-        if (!burstContainer || !timeline) return;
-
-        if (energy > 0.85 && !burstActive) {
-            burstContainer.classList.add('burst-on');
-            burstContainer.classList.remove('burst-off');
-            burstActive = true;
-        } else if (energy <= 0.75 && burstActive) {
-            burstContainer.classList.remove('burst-on');
-            burstContainer.classList.add('burst-off');
-            burstActive = false;
-            burstPanels.forEach(p => p.classList.remove('flash'));
-        }
-
-        if (burstActive && beatPulse > 0.7 && burstPanels.length > 0) {
-            const pool = [];
-            for (let d = -2; d <= 2; d++) {
-                const idx = lineIdx + d;
-                if (idx >= 0 && idx < timeline.length) {
-                    const hm = timeline[idx].hidden_media;
-                    if (hm) hm.forEach(m => { if (m && m.url) pool.push(m.url); });
-                }
-            }
-            if (pool.length === 0) return;
-
-            const bust = typeof IMAGE_CACHE_BUSTER !== 'undefined' ? IMAGE_CACHE_BUSTER : '';
-            burstPanels.forEach((panel, i) => {
-                const imgIdx = (lastBurstImageIdx + i) % pool.length;
-                panel.style.backgroundImage = `url('${albumPath}/${pool[imgIdx]}${bust}')`;
-                panel.classList.add('flash');
-                setTimeout(() => panel.classList.remove('flash'), 120);
-            });
-            lastBurstImageIdx = (lastBurstImageIdx + burstPanels.length) % Math.max(pool.length, 1);
-        }
+    // Burst: disabled — was firing 5x per beat creating visual chaos
+    function updateBurst() {
+        return;
     }
 
     // Section change

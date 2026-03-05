@@ -14,9 +14,20 @@ window.albumRegistry = [
                 {
                     "slot": 1,
                     "track_id": "track_01",
-                    "variant_id": "TTS_Prologue",
-                    "audio_path": "01 - track_01.mp3",
-                    "variants": []
+                    "variant_id": "T1-2-3a",
+                    "audio_path": "T1-2-3a.mp3",
+                    "variants": [
+                        {
+                            "id": "T1-2-3a",
+                            "label": "Medley A",
+                            "audio": "T1-2-3a.mp3"
+                        },
+                        {
+                            "id": "T1-2-3b",
+                            "label": "Medley B",
+                            "audio": "T1-2-3b.mp3"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -56,11 +67,6 @@ window.albumRegistry = [
                             "id": "T3b",
                             "label": "Version B",
                             "audio": "T3b.mp3"
-                        },
-                        {
-                            "id": "T1-2-3a",
-                            "label": "Medley A",
-                            "audio": "T1-2-3a.mp3"
                         }
                     ]
                 },
@@ -120,11 +126,6 @@ window.albumRegistry = [
                             "id": "T6b",
                             "label": "Version B",
                             "audio": "T6b.mp3"
-                        },
-                        {
-                            "id": "T1-2-3b",
-                            "label": "Medley B",
-                            "audio": "T1-2-3b.mp3"
                         }
                     ]
                 },

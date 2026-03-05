@@ -32,9 +32,31 @@ def load_canonical_lines(
     semantic: dict[str, Any],
     track_id: str,
     lyrics_root: Path | None = None,
+    variant_id: str | None = None,
+    project_root: Path | None = None,
 ) -> list[str]:
-    """Get canonical lyrics from semantic matrix (preferred) or text files."""
-    # Try text file first
+    """Get canonical lyrics from variant file, semantic matrix, or text files.
+
+    Priority:
+    1. Variant-specific lyrics: ``shared/semantics/lyrics/{track_id}_{variant_id}.txt``
+    2. Text file: ``lyrics/canonical_{track_id}.txt``
+    3. Semantic matrix lines
+    """
+    # Check variant-specific lyrics file first
+    if variant_id and project_root:
+        lyrics_dir = project_root / "shared" / "semantics" / "lyrics"
+        variant_file = lyrics_dir / f"{track_id}_{variant_id}.txt"
+        if variant_file.exists():
+            with open(variant_file, "r", encoding="utf-8") as f:
+                lines = [ln.strip() for ln in f.readlines() if ln.strip()]
+            if lines:
+                logger.info(
+                    "%s/%s: Using variant-specific lyrics (%d lines) from %s",
+                    track_id, variant_id, len(lines), variant_file.name,
+                )
+                return lines
+
+    # Try text file
     if lyrics_root and lyrics_root.is_dir():
         txt_path = lyrics_root / f"canonical_{track_id}.txt"
         if txt_path.exists():
@@ -204,8 +226,12 @@ def build_timeline_for_track(
 
     alignment = load_alignment(alignment_dir, track_id, variant_id)
     segments = alignment.get("segments", [])
-    # Canonical lyrics always keyed by bare track_id (same across variants)
-    canonical_lines = load_canonical_lines(semantic, track_id, lyrics_root)
+    # Use variant-specific lyrics if available, else bare track_id semantics
+    canonical_lines = load_canonical_lines(
+        semantic, track_id, lyrics_root,
+        variant_id=variant_id,
+        project_root=config.project_root,
+    )
 
     # Determine threshold: lower for music tracks
     is_music_track = track_id in config.timeline.music_tracks

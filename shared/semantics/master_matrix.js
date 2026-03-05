@@ -16,7 +16,7 @@ const masterMatrix = {
             "literal_arc": "Green phone booth → prehistoric valley → meeting Gralha → the chak-chak moment → instant worship",
             "hidden_arc": "Dusty laptop in attic → first screen glow → tech influencer profile → Apple keynote → product as prayer",
             "covers_tracks": ["track_01", "track_02"],
-            "line_counts": { "track_01": 3, "track_02": 25 }
+            "line_counts": { "track_01": 31, "track_02": 25 }
         },
         {
             "id": "phase_2_the_fire_run",

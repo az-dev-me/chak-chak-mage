@@ -1305,7 +1305,7 @@
         },
         {
             "start": 120.104,
-            "end": 126.304,
+            "end": 126.16,
             "text": "Run, run, don't let it die!",
             "words": [
                 {
@@ -1345,9 +1345,21 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 124.68,
-                    "end": 126.304,
-                    "text": "Oooooooohs",
+                    "start": 124.9,
+                    "end": 124.98,
+                    "text": "oh,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 125.56,
+                    "end": 125.9,
+                    "text": "oh,",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 125.9,
+                    "end": 126.16,
+                    "text": "oh,",
                     "source": "ad-lib"
                 }
             ]

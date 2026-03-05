@@ -286,19 +286,13 @@
         },
         {
             "start": 46.248,
-            "end": 49.448,
+            "end": 49.628,
             "text": "Everyone except the youth!",
             "words": [
                 {
                     "start": 46.248,
                     "end": 47.401,
                     "text": "youth!",
-                    "source": "canonical"
-                },
-                {
-                    "start": 48.62,
-                    "end": 49.62,
-                    "text": "Soon",
                     "source": "canonical"
                 },
                 {
@@ -312,36 +306,24 @@
                     "end": 49.448,
                     "text": "prayed",
                     "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 49.448,
-            "end": 50.628,
-            "text": "Tronco prayed to the toothed wheel",
-            "words": [
+                },
                 {
                     "start": 49.448,
                     "end": 49.628,
                     "text": "to",
                     "source": "canonical"
-                },
-                {
-                    "start": 49.62,
-                    "end": 49.74,
-                    "text": "the",
-                    "source": "canonical"
-                },
+                }
+            ]
+        },
+        {
+            "start": 49.628,
+            "end": 53.651,
+            "text": "Tronco prayed to the toothed wheel",
+            "words": [
                 {
                     "start": 49.628,
                     "end": 49.748,
                     "text": "the",
-                    "source": "canonical"
-                },
-                {
-                    "start": 49.74,
-                    "end": 50.74,
-                    "text": "tribe",
                     "source": "canonical"
                 },
                 {
@@ -355,14 +337,7 @@
                     "end": 50.628,
                     "text": "wheel",
                     "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 50.628,
-            "end": 54.438,
-            "text": "Said \"The magic, I can feel!\"",
-            "words": [
+                },
                 {
                     "start": 50.628,
                     "end": 52.388,
@@ -380,9 +355,16 @@
                     "end": 53.651,
                     "text": "magic,",
                     "source": "canonical"
-                },
+                }
+            ]
+        },
+        {
+            "start": 53.908,
+            "end": 57.103,
+            "text": "Said \"The magic, I can feel!\"",
+            "words": [
                 {
-                    "start": 53.651,
+                    "start": 53.908,
                     "end": 54.088,
                     "text": "I",
                     "source": "canonical"
@@ -398,14 +380,7 @@
                     "end": 54.438,
                     "text": "feel!\"",
                     "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 55.993,
-            "end": 57.98,
-            "text": "I just sat upon my throne",
-            "words": [
+                },
                 {
                     "start": 55.993,
                     "end": 56.368,
@@ -423,7 +398,14 @@
                     "end": 57.103,
                     "text": "sat",
                     "source": "canonical"
-                },
+                }
+            ]
+        },
+        {
+            "start": 57.165,
+            "end": 62.288,
+            "text": "I just sat upon my throne",
+            "words": [
                 {
                     "start": 57.165,
                     "end": 57.231,
@@ -441,14 +423,7 @@
                     "end": 57.98,
                     "text": "throne",
                     "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 59.556,
-            "end": 62.53,
-            "text": "Eating berries, all alone",
-            "words": [
+                },
                 {
                     "start": 59.556,
                     "end": 60.608,
@@ -466,24 +441,49 @@
                     "end": 62.288,
                     "text": "all",
                     "source": "canonical"
-                },
+                }
+            ]
+        },
+        {
+            "start": 62.445,
+            "end": 64.74,
+            "text": "Eating berries, all alone",
+            "words": [
                 {
                     "start": 62.445,
                     "end": 62.53,
                     "text": "alone",
                     "source": "canonical"
-                }
-            ]
-        },
-        {
-            "start": 63.128,
-            "end": 66.354,
-            "text": "The box became a sacred thing",
-            "words": [
+                },
                 {
                     "start": 63.128,
                     "end": 64.768,
                     "text": "The",
+                    "source": "canonical"
+                },
+                {
+                    "start": 63.38,
+                    "end": 64.38,
+                    "text": "Soon",
+                    "source": "canonical"
+                },
+                {
+                    "start": 64.38,
+                    "end": 64.74,
+                    "text": "the",
+                    "source": "canonical"
+                }
+            ]
+        },
+        {
+            "start": 64.74,
+            "end": 66.354,
+            "text": "The box became a sacred thing",
+            "words": [
+                {
+                    "start": 64.74,
+                    "end": 65.74,
+                    "text": "tribe",
                     "source": "canonical"
                 },
                 {
@@ -796,7 +796,7 @@
         },
         {
             "start": 88.608,
-            "end": 89.96,
+            "end": 92.068,
             "text": "Everyone except the youth!",
             "words": [
                 {
@@ -807,35 +807,29 @@
                 },
                 {
                     "start": 88.668,
-                    "end": 89.264,
+                    "end": 89.808,
                     "text": "except",
                     "source": "canonical"
                 },
                 {
-                    "start": 89.264,
-                    "end": 89.86,
+                    "start": 89.808,
+                    "end": 90.948,
                     "text": "the",
                     "source": "canonical"
                 },
                 {
-                    "start": 89.86,
-                    "end": 89.96,
-                    "text": "the",
-                    "source": "ad-lib"
+                    "start": 90.948,
+                    "end": 92.068,
+                    "text": "youth!",
+                    "source": "canonical"
                 }
             ]
         },
         {
-            "start": 89.96,
+            "start": 92.068,
             "end": 94.464,
             "text": "\"...should be noon...\"",
             "words": [
-                {
-                    "start": 89.96,
-                    "end": 90.56,
-                    "text": "Jewel",
-                    "source": "ad-lib"
-                },
                 {
                     "start": 92.068,
                     "end": 93.448,

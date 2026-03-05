@@ -236,7 +236,7 @@
         },
         {
             "start": 41.44,
-            "end": 43.706,
+            "end": 43.94,
             "text": "Made a different kind of sound",
             "words": [
                 {
@@ -279,7 +279,7 @@
         },
         {
             "start": 43.94,
-            "end": 47.72,
+            "end": 45.9,
             "text": "Tchak... tchak... tchak...",
             "words": [
                 {
@@ -295,18 +295,48 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 47.633,
-                    "end": 47.72,
-                    "text": "tchak...",
-                    "source": "canonical"
+                    "start": 45.44,
+                    "end": 45.9,
+                    "text": "chuk",
+                    "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 47.812,
+            "start": 45.9,
             "end": 51.92,
             "text": "MUDA! MUDA! The stone ignites!",
             "words": [
+                {
+                    "start": 45.9,
+                    "end": 46.3,
+                    "text": "chuk",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 46.3,
+                    "end": 46.52,
+                    "text": "chuk",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 46.52,
+                    "end": 46.84,
+                    "text": "chuk",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 46.84,
+                    "end": 47.12,
+                    "text": "chuk",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 47.12,
+                    "end": 47.4,
+                    "text": "chuk",
+                    "source": "ad-lib"
+                },
                 {
                     "start": 47.812,
                     "end": 48.973,
@@ -572,6 +602,12 @@
                     "source": "canonical"
                 },
                 {
+                    "start": 72.31,
+                    "end": 73.36,
+                    "text": "Pots,",
+                    "source": "ad-lib"
+                },
+                {
                     "start": 73.54,
                     "end": 73.96,
                     "text": "Wheel.",
@@ -777,7 +813,7 @@
         },
         {
             "start": 89.4,
-            "end": 93.48,
+            "end": 93.56,
             "text": "The first belief was declared",
             "words": [
                 {
@@ -811,70 +847,76 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 92.14,
-                    "end": 92.28,
-                    "text": "Chak,",
+                    "start": 91.88,
+                    "end": 92.2,
+                    "text": "Check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.32,
-                    "end": 92.54,
-                    "text": "chak,",
+                    "start": 92.2,
+                    "end": 92.48,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.68,
-                    "end": 92.9,
-                    "text": "chak,",
+                    "start": 92.48,
+                    "end": 92.94,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 92.9,
-                    "end": 93.48,
-                    "text": "chak,",
+                    "start": 92.94,
+                    "end": 93.26,
+                    "text": "check",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 93.26,
+                    "end": 93.56,
+                    "text": "check",
                     "source": "ad-lib"
                 }
             ]
         },
         {
-            "start": 94.96,
+            "start": 94.8,
             "end": 100.057,
             "text": "MUDA! MUDA! The stone ignites!",
             "words": [
                 {
-                    "start": 94.96,
-                    "end": 95.24,
-                    "text": "chak,",
-                    "source": "ad-lib"
-                },
-                {
-                    "start": 95.24,
+                    "start": 94.8,
                     "end": 95.58,
-                    "text": "chak,",
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
                     "start": 95.58,
-                    "end": 96.0,
-                    "text": "chak,",
+                    "end": 95.7,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 96.0,
-                    "end": 96.32,
-                    "text": "chak,",
+                    "start": 95.7,
+                    "end": 96.04,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 96.32,
-                    "end": 96.5,
-                    "text": "chak,",
+                    "start": 96.04,
+                    "end": 96.4,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {
-                    "start": 96.5,
-                    "end": 96.72,
-                    "text": "chak,",
+                    "start": 96.4,
+                    "end": 96.48,
+                    "text": "check",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 96.48,
+                    "end": 96.68,
+                    "text": "check",
                     "source": "ad-lib"
                 },
                 {

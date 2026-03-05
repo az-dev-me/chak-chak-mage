@@ -15,7 +15,7 @@ const TimingEngine = (() => {
     let currentSectionIdx = -1;
     let beatCount = 0;
 
-    const BEAT_DECAY = 0.08; // seconds for pulse decay
+    const BEAT_DECAY = 0.25; // seconds for smooth pulse decay
     const BEATS_PER_BAR = 4; // assume 4/4 time
 
     const listeners = { beat: [], sectionChange: [], transitionPoint: [] };

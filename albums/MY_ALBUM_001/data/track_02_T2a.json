@@ -1,0 +1,3391 @@
+{
+    "id": "track_02_T2a",
+    "album_id": "MY_ALBUM_001",
+    "timeline": [
+        {
+            "id": "line_0_occ_0_s0",
+            "start": 11.392,
+            "end": 13.312,
+            "lyric": "Gralha held the orange box",
+            "real_meaning": "The birth of the artifact: The mundane BIC lighter becomes the first sacred object. We revere the sleek plastic shell instead of understanding the mechanism.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0018.jpg",
+                    "query": "Medium shot: The traveler extends their hand, offering the smooth, transparent orange BIC lighter. Gralha reaches out with trembling, soot-stained fingers."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0021.jpg",
+                    "query": "Wide shot: A time jump. A sleek, modern minimalist bedroom. A young adult (Gralha modern) sits on the edge of the bed staring at an unopened smartphone box."
+                }
+            ],
+            "words": [
+                {
+                    "start": 11.392,
+                    "end": 11.612,
+                    "text": "Gralha"
+                },
+                {
+                    "start": 11.68,
+                    "end": 11.972,
+                    "text": "held"
+                },
+                {
+                    "start": 12.042,
+                    "end": 12.121,
+                    "text": "the"
+                },
+                {
+                    "start": 12.424,
+                    "end": 12.694,
+                    "text": "orange"
+                },
+                {
+                    "start": 13.087,
+                    "end": 13.312,
+                    "text": "box"
+                }
+            ]
+        },
+        {
+            "id": "line_0_occ_0_s1",
+            "start": 13.312,
+            "end": 14.572,
+            "lyric": "turned it in his hand",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 13.312,
+                    "end": 13.552,
+                    "text": "turned"
+                },
+                {
+                    "start": 13.552,
+                    "end": 13.732,
+                    "text": "it"
+                },
+                {
+                    "start": 13.732,
+                    "end": 13.892,
+                    "text": "in"
+                },
+                {
+                    "start": 13.892,
+                    "end": 13.96,
+                    "text": "his"
+                },
+                {
+                    "start": 14.51,
+                    "end": 14.572,
+                    "text": "hand"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s0",
+            "start": 14.572,
+            "end": 16.272,
+            "lyric": "\"Mage,\" he said",
+            "real_meaning": "The surrender of critical thought: The consumer begs the 'expert' for meaning, voluntarily giving up their own intellect to the monopoly of the Clergy/Elite.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0024.jpg",
+                    "query": "Medium shot: Gralha looks from the lighter to the traveler, his posture submissive, eyes wide with desperate questions."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0027.jpg",
+                    "query": "Medium tracking shot: The young adult powers on the phone. The screen illuminates, demanding setup. They look frustrated, tapping eagerly."
+                }
+            ],
+            "words": [
+                {
+                    "start": 14.572,
+                    "end": 15.832,
+                    "text": "\"Mage,\""
+                },
+                {
+                    "start": 15.832,
+                    "end": 16.22,
+                    "text": "he"
+                },
+                {
+                    "start": 16.22,
+                    "end": 16.272,
+                    "text": "said"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s1",
+            "start": 16.71,
+            "end": 17.46,
+            "lyric": "\"explain to me",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 16.71,
+                    "end": 16.772,
+                    "text": "\"explain"
+                },
+                {
+                    "start": 16.772,
+                    "end": 16.952,
+                    "text": "to"
+                },
+                {
+                    "start": 16.952,
+                    "end": 17.46,
+                    "text": "me"
+                }
+            ]
+        },
+        {
+            "id": "line_1_occ_0_s2",
+            "start": 17.532,
+            "end": 18.232,
+            "lyric": "help me understand",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 17.532,
+                    "end": 17.712,
+                    "text": "help"
+                },
+                {
+                    "start": 17.877,
+                    "end": 17.932,
+                    "text": "me"
+                },
+                {
+                    "start": 18.18,
+                    "end": 18.232,
+                    "text": "understand"
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s0",
+            "start": 18.592,
+            "end": 21.432,
+            "lyric": "Where does fire sleep at night?",
+            "real_meaning": "The mysticism of the unknown: When faced with ignorance, the human mind invents magical explanations for mechanical realities.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0030.jpg",
+                    "query": "Wide shot: The traveler stands tall over the kneeling caveman. Other members of the tribe begin to slowly emerge from the cave, drawn by the commotion."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0033.jpg",
+                    "query": "Medium shot: The young adult watches the influencer intently, taking notes, hanging on every word about the new device's secret features."
+                }
+            ],
+            "words": [
+                {
+                    "start": 18.592,
+                    "end": 19.732,
+                    "text": "Where"
+                },
+                {
+                    "start": 19.732,
+                    "end": 20.072,
+                    "text": "does"
+                },
+                {
+                    "start": 20.072,
+                    "end": 20.327,
+                    "text": "fire"
+                },
+                {
+                    "start": 20.412,
+                    "end": 20.912,
+                    "text": "sleep"
+                },
+                {
+                    "start": 20.912,
+                    "end": 21.092,
+                    "text": "at"
+                },
+                {
+                    "start": 21.177,
+                    "end": 21.432,
+                    "text": "night?"
+                }
+            ]
+        },
+        {
+            "id": "line_2_occ_0_s1",
+            "start": 21.512,
+            "end": 23.152,
+            "lyric": "Where does it go to rest?",
+            "real_meaning": "",
+            "media": [
+                {
+                    "offset": 3.56,
+                    "url": "media/c0031.jpg",
+                    "query": "Medium shot: The tribe watches in awe from the shadows as the traveler points cryptically at the small plastic casing of the lighter."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.56,
+                    "url": "media/c0034.jpg",
+                    "query": "Close-up: The influencer's face on the screen, energetic, artificially lit, exuding absolute confidence and authority."
+                }
+            ],
+            "words": [
+                {
+                    "start": 21.512,
+                    "end": 21.612,
+                    "text": "Where"
+                },
+                {
+                    "start": 21.692,
+                    "end": 21.872,
+                    "text": "does"
+                },
+                {
+                    "start": 21.932,
+                    "end": 21.982,
+                    "text": "it"
+                },
+                {
+                    "start": 22.132,
+                    "end": 22.312,
+                    "text": "go"
+                },
+                {
+                    "start": 22.372,
+                    "end": 22.44,
+                    "text": "to"
+                },
+                {
+                    "start": 23.077,
+                    "end": 23.152,
+                    "text": "rest?"
+                }
+            ]
+        },
+        {
+            "id": "line_3_occ_0",
+            "start": 23.972,
+            "end": 27.426,
+            "lyric": "Show me its cradle, show me its nest.\"",
+            "real_meaning": "The desire for physical proof of the magical narrative. We want a temple for our tools, a cradle for our false gods.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0036.jpg",
+                    "query": "Medium tracking shot: The other cave dwellers creep closer, forming a tight circle around the traveler and Gralha, their eyes fixed solely on the orange box."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0039.jpg",
+                    "query": "Wide shot: A massive, darkened auditorium. Thousands of people sit in silence, their faces lit by the glow of a colossal stage screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 23.972,
+                    "end": 24.032,
+                    "text": "Show"
+                },
+                {
+                    "start": 24.242,
+                    "end": 24.312,
+                    "text": "me"
+                },
+                {
+                    "start": 24.477,
+                    "end": 24.532,
+                    "text": "its"
+                },
+                {
+                    "start": 24.794,
+                    "end": 25.04,
+                    "text": "cradle,"
+                },
+                {
+                    "start": 26.034,
+                    "end": 26.132,
+                    "text": "show"
+                },
+                {
+                    "start": 26.372,
+                    "end": 26.452,
+                    "text": "me"
+                },
+                {
+                    "start": 26.617,
+                    "end": 26.672,
+                    "text": "its"
+                },
+                {
+                    "start": 26.746,
+                    "end": 27.426,
+                    "text": "nest.\""
+                }
+            ]
+        },
+        {
+            "id": "line_4_occ_0",
+            "start": 28.256,
+            "end": 31.581,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "The first religious chant: Branding is born. The aesthetic of the object (the Orange Box) becomes the focus of worship, eclipsing its actual utility.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0042.jpg",
+                    "query": "Wide shot: The traveler strikes the wheel. Chak-chak. A perfect, steady, tear-shaped flame abruptly illuminating the dark clearing."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0045.jpg",
+                    "query": "Wide shot: The audience erupts into thunderous applause, a wave of standing ovations rolling through the auditorium."
+                }
+            ],
+            "words": [
+                {
+                    "start": 28.256,
+                    "end": 28.432,
+                    "text": "THE"
+                },
+                {
+                    "start": 28.504,
+                    "end": 28.599,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 29.442,
+                    "end": 29.504,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 30.412,
+                    "end": 30.512,
+                    "text": "THE"
+                },
+                {
+                    "start": 30.752,
+                    "end": 30.827,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 31.502,
+                    "end": 31.581,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_5_occ_0",
+            "start": 33.032,
+            "end": 36.492,
+            "lyric": "The baby fire sleeps inside!",
+            "real_meaning": "The foundational lie: The belief that power resides exclusively within the object, creating the illusion that we are powerless without it.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0048.jpg",
+                    "query": "Medium shot: The traveler holds the flame high. The golden light paints the awestruck faces of the tribe."
+                },
+                {
+                    "offset": 2.96,
+                    "url": "media/c0049.jpg",
+                    "query": "Close-up: Gralha's face, bathed in the warm light, absolute pure faith and worship replacing his earlier terror."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0051.jpg",
+                    "query": "Medium tracking shot: A line of hundreds of people wrapped around a city block in the freezing rain, waiting outside a glass retail store."
+                },
+                {
+                    "offset": 2.96,
+                    "url": "media/c0052.jpg",
+                    "query": "Close-up: A freezing, exhausted customer clutching a thermos, staring longingly at the glowing logo inside the store."
+                }
+            ],
+            "words": [
+                {
+                    "start": 33.032,
+                    "end": 33.132,
+                    "text": "The"
+                },
+                {
+                    "start": 33.305,
+                    "end": 33.592,
+                    "text": "baby"
+                },
+                {
+                    "start": 33.592,
+                    "end": 34.112,
+                    "text": "fire"
+                },
+                {
+                    "start": 34.112,
+                    "end": 34.549,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 34.812,
+                    "end": 36.492,
+                    "text": "inside!"
+                }
+            ]
+        },
+        {
+            "id": "line_6_occ_0",
+            "start": 36.809,
+            "end": 40.172,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "Dogmatic repetition: Slogans and chants cement belief. Say it enough, and the arbitrary nature of the object becomes unquestionable truth.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0054.jpg",
+                    "query": "Wide shot: The tribe collectively falls to their knees around the traveler, swaying, hands raised toward the flickering BIC flame in the darkness."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0057.jpg",
+                    "query": "Wide shot: A brightly lit Apple Store on launch day. Customers swarm wooden tables, desperately grabbing at pristine display devices."
+                }
+            ],
+            "words": [
+                {
+                    "start": 36.809,
+                    "end": 36.872,
+                    "text": "THE"
+                },
+                {
+                    "start": 37.247,
+                    "end": 37.331,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 38.032,
+                    "end": 38.112,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 38.848,
+                    "end": 38.972,
+                    "text": "THE"
+                },
+                {
+                    "start": 39.197,
+                    "end": 39.267,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 40.097,
+                    "end": 40.172,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_7_occ_0",
+            "start": 41.512,
+            "end": 44.649,
+            "lyric": "We'll run with it, we'll run with pride!",
+            "real_meaning": "The institutionalization of the hustle: The primal instinct to survive is hijacked into a perpetual race to serve the artifact. The rat race disguised as sacred duty.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0060.jpg",
+                    "query": "Wide tracking shot: Three cave dwellers sprint through the dark forest carrying a lit torch between them, embers trailing like orange stars."
+                },
+                {
+                    "offset": 2.37,
+                    "url": "media/c0061.jpg",
+                    "query": "Medium shot: A cave dweller stumbles, nearly dropping the torch. Gralha catches the flame, cradling it, running harder."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0063.jpg",
+                    "query": "Wide shot: A crowded subway car. Every passenger stares down at the same glowing rectangle in their hands, faces lit blue-white."
+                },
+                {
+                    "offset": 2.37,
+                    "url": "media/c0064.jpg",
+                    "query": "Medium shot: A teenager sprints down a city sidewalk, phone held high, chasing a GPS signal for a mobile game."
+                }
+            ],
+            "words": [
+                {
+                    "start": 41.512,
+                    "end": 41.672,
+                    "text": "We'll"
+                },
+                {
+                    "start": 41.672,
+                    "end": 42.012,
+                    "text": "run"
+                },
+                {
+                    "start": 42.016,
+                    "end": 42.292,
+                    "text": "with"
+                },
+                {
+                    "start": 42.292,
+                    "end": 42.366,
+                    "text": "it,"
+                },
+                {
+                    "start": 43.152,
+                    "end": 43.232,
+                    "text": "we'll"
+                },
+                {
+                    "start": 43.442,
+                    "end": 43.512,
+                    "text": "run"
+                },
+                {
+                    "start": 43.567,
+                    "end": 43.732,
+                    "text": "with"
+                },
+                {
+                    "start": 43.732,
+                    "end": 44.649,
+                    "text": "pride!"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0_s0",
+            "start": 45.712,
+            "end": 47.992,
+            "lyric": "I said \"The fire lives in here",
+            "real_meaning": "The deliberate creation of caste exclusivity: The Mage invents a false constraint (the fire sleeps inside) to maintain the monopoly of truth.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0066.jpg",
+                    "query": "Medium shot: The traveler holds the BIC lighter up to the tribe, pointing at the translucent orange casing. Inside, the butane liquid sloshes faintly."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0069.jpg",
+                    "query": "Medium shot: A tech guru on stage at a keynote, gesturing reverently at a giant screen showing the phone's internal chipset diagram."
+                }
+            ],
+            "words": [
+                {
+                    "start": 45.712,
+                    "end": 45.752,
+                    "text": "I"
+                },
+                {
+                    "start": 45.752,
+                    "end": 46.112,
+                    "text": "said"
+                },
+                {
+                    "start": 46.112,
+                    "end": 46.312,
+                    "text": "\"The"
+                },
+                {
+                    "start": 46.37,
+                    "end": 46.734,
+                    "text": "fire"
+                },
+                {
+                    "start": 46.952,
+                    "end": 47.177,
+                    "text": "lives"
+                },
+                {
+                    "start": 47.252,
+                    "end": 47.432,
+                    "text": "in"
+                },
+                {
+                    "start": 47.432,
+                    "end": 47.992,
+                    "text": "here"
+                }
+            ]
+        },
+        {
+            "id": "line_8_occ_0_s1",
+            "start": 48.012,
+            "end": 49.327,
+            "lyric": "curled up small and tight",
+            "real_meaning": "",
+            "media": [
+                {
+                    "offset": 2.91,
+                    "url": "media/c0067.jpg",
+                    "query": "Close-up: The lighter's transparent body backlit by moonlight. The liquid fuel glows amber, a tiny sleeping dragon curled inside plastic."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 2.91,
+                    "url": "media/c0070.jpg",
+                    "query": "Close-up: The polished glass back of a smartphone, reflecting studio lights like a black mirror."
+                }
+            ],
+            "words": [
+                {
+                    "start": 48.012,
+                    "end": 48.292,
+                    "text": "curled"
+                },
+                {
+                    "start": 48.292,
+                    "end": 48.452,
+                    "text": "up"
+                },
+                {
+                    "start": 48.452,
+                    "end": 48.837,
+                    "text": "small"
+                },
+                {
+                    "start": 48.892,
+                    "end": 49.072,
+                    "text": "and"
+                },
+                {
+                    "start": 49.072,
+                    "end": 49.327,
+                    "text": "tight"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0_s0",
+            "start": 49.412,
+            "end": 50.772,
+            "lyric": "When you go chak-chak",
+            "real_meaning": "The activation ritual: The simple, addictive gesture (chak-chak) that reinforces the illusion of the Mage's divine control over the tool.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0072.jpg",
+                    "query": "Close-up: The traveler's thumb strikes the BIC wheel. CHAK-CHAK. Sparks fly. The tiny flame erupts, painting every face in warm orange."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0075.jpg",
+                    "query": "Close-up: A finger swipes across a phone screen. The display ignites with color — apps, notifications, a whole universe awakening."
+                }
+            ],
+            "words": [
+                {
+                    "start": 49.412,
+                    "end": 49.732,
+                    "text": "When"
+                },
+                {
+                    "start": 49.732,
+                    "end": 49.872,
+                    "text": "you"
+                },
+                {
+                    "start": 49.872,
+                    "end": 49.922,
+                    "text": "go"
+                },
+                {
+                    "start": 50.072,
+                    "end": 50.772,
+                    "text": "chak-chak"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0_s1",
+            "start": 51.032,
+            "end": 52.13,
+            "lyric": "it wakes up",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 51.032,
+                    "end": 51.092,
+                    "text": "it"
+                },
+                {
+                    "start": 51.257,
+                    "end": 51.532,
+                    "text": "wakes"
+                },
+                {
+                    "start": 51.532,
+                    "end": 52.13,
+                    "text": "up"
+                }
+            ]
+        },
+        {
+            "id": "line_9_occ_0_s2",
+            "start": 52.216,
+            "end": 53.106,
+            "lyric": "burning bright",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 52.216,
+                    "end": 52.872,
+                    "text": "burning"
+                },
+                {
+                    "start": 53.037,
+                    "end": 53.106,
+                    "text": "bright"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0_s0",
+            "start": 53.312,
+            "end": 55.014,
+            "lyric": "You have to run",
+            "real_meaning": "The urgency economy: Inventing false scarcity and arbitrary rules (you must run) to keep the followers busy, anxious, and compliant.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0078.jpg",
+                    "query": "Wide tracking shot: A cave dweller runs through rain with a burning branch, shielding it with their body. Behind them, the old fire pit dies."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0081.jpg",
+                    "query": "Wide shot: A student rushes across a university campus, phone at 2% battery, searching frantically for a charging outlet."
+                }
+            ],
+            "words": [
+                {
+                    "start": 53.312,
+                    "end": 54.232,
+                    "text": "You"
+                },
+                {
+                    "start": 54.232,
+                    "end": 54.502,
+                    "text": "have"
+                },
+                {
+                    "start": 54.592,
+                    "end": 54.752,
+                    "text": "to"
+                },
+                {
+                    "start": 54.752,
+                    "end": 55.014,
+                    "text": "run"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0_s1",
+            "start": 55.172,
+            "end": 56.2,
+            "lyric": "you have to race",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 55.172,
+                    "end": 55.33,
+                    "text": "you"
+                },
+                {
+                    "start": 55.567,
+                    "end": 55.652,
+                    "text": "have"
+                },
+                {
+                    "start": 55.652,
+                    "end": 55.812,
+                    "text": "to"
+                },
+                {
+                    "start": 55.812,
+                    "end": 56.2,
+                    "text": "race"
+                }
+            ]
+        },
+        {
+            "id": "line_10_occ_0_s2",
+            "start": 56.432,
+            "end": 57.27,
+            "lyric": "carry it with care",
+            "real_meaning": "",
+            "media": [
+                {
+                    "offset": 3.21,
+                    "url": "media/c0079.jpg",
+                    "query": "Medium shot: The runner's hands cup around the fragile flame as wind threatens to extinguish it. Desperation on their face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.21,
+                    "url": "media/c0082.jpg",
+                    "query": "Medium shot: The student finds a wall socket, plugs in with trembling hands, watches the battery icon appear — relief floods their face."
+                }
+            ],
+            "words": [
+                {
+                    "start": 56.432,
+                    "end": 56.691,
+                    "text": "carry"
+                },
+                {
+                    "start": 56.847,
+                    "end": 57.012,
+                    "text": "it"
+                },
+                {
+                    "start": 57.012,
+                    "end": 57.062,
+                    "text": "with"
+                },
+                {
+                    "start": 57.212,
+                    "end": 57.27,
+                    "text": "care"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0_s0",
+            "start": 57.672,
+            "end": 58.882,
+            "lyric": "To the new pile",
+            "real_meaning": "The perpetual motion of blind faith: Move fast, chase the trend, sprint to the next pile before the illusion of meaning evaporates.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0084.jpg",
+                    "query": "Wide shot: The cave dweller reaches the new fire pit just in time, touching the dying ember to dry kindling. It catches. A new fire blooms."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0087.jpg",
+                    "query": "Wide shot: A data center at night, rows of servers blinking, the eternal fire of the internet humming in air-conditioned darkness."
+                }
+            ],
+            "words": [
+                {
+                    "start": 57.672,
+                    "end": 58.132,
+                    "text": "To"
+                },
+                {
+                    "start": 58.132,
+                    "end": 58.292,
+                    "text": "the"
+                },
+                {
+                    "start": 58.292,
+                    "end": 58.352,
+                    "text": "new"
+                },
+                {
+                    "start": 58.532,
+                    "end": 58.882,
+                    "text": "pile"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0_s1",
+            "start": 59.092,
+            "end": 59.964,
+            "lyric": "to the new place",
+            "real_meaning": "",
+            "media": [],
+            "hidden_media": [],
+            "words": [
+                {
+                    "start": 59.092,
+                    "end": 59.212,
+                    "text": "to"
+                },
+                {
+                    "start": 59.212,
+                    "end": 59.352,
+                    "text": "the"
+                },
+                {
+                    "start": 59.352,
+                    "end": 59.555,
+                    "text": "new"
+                },
+                {
+                    "start": 59.701,
+                    "end": 59.964,
+                    "text": "place"
+                }
+            ]
+        },
+        {
+            "id": "line_11_occ_0_s2",
+            "start": 60.44,
+            "end": 65.152,
+            "lyric": "before it disappears in air\"",
+            "real_meaning": "",
+            "media": [
+                {
+                    "offset": 3.56,
+                    "url": "media/c0085.jpg",
+                    "query": "Medium shot: The tribe erupts in celebration around the new fire. Dancing shadows on cave walls. The cycle of fire continues."
+                },
+                {
+                    "offset": 6.74,
+                    "url": "media/c0086.jpg",
+                    "query": "Close-up: New flames licking upward from fresh wood, the ancient relay complete, warmth returning to cold faces."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.56,
+                    "url": "media/c0088.jpg",
+                    "query": "Medium shot: A cloud backup completing on a phone screen — '100% synced'. The data fire transferred to its new pile."
+                },
+                {
+                    "offset": 6.74,
+                    "url": "media/c0089.jpg",
+                    "query": "Close-up: A loading bar reaching completion, the digital relay finished, information preserved in silicon forever."
+                }
+            ],
+            "words": [
+                {
+                    "start": 60.44,
+                    "end": 60.751,
+                    "text": "before"
+                },
+                {
+                    "start": 60.937,
+                    "end": 61.001,
+                    "text": "it"
+                },
+                {
+                    "start": 61.192,
+                    "end": 62.203,
+                    "text": "disappears"
+                },
+                {
+                    "start": 63.32,
+                    "end": 64.782,
+                    "text": "in"
+                },
+                {
+                    "start": 64.782,
+                    "end": 65.152,
+                    "text": "air\""
+                }
+            ]
+        },
+        {
+            "id": "line_12_occ_0",
+            "start": 66.182,
+            "end": 69.562,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "The brand loyalty hardens into tribal identity. To question the Orange Box is to become an outcast of the tribe.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0090.jpg",
+                    "query": "Wide shot: A massive bonfire now roars at the center of the camp. Thirty tribe members circle it, chanting, arms raised in synchronized worship."
+                },
+                {
+                    "offset": 2.43,
+                    "url": "media/c0091.jpg",
+                    "query": "Medium shot: Gralha stands on a raised rock, leading the chant, face painted with ceremonial ash. Behind him, the traveler watches uneasily."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0093.jpg",
+                    "query": "Wide shot: A packed convention center. Thousands in matching branded t-shirts, holding phones up, recording a keynote speech."
+                },
+                {
+                    "offset": 2.43,
+                    "url": "media/c0094.jpg",
+                    "query": "Medium shot: A massive LED screen shows a new product reveal. The crowd erupts, tears streaming, as if witnessing a miracle."
+                }
+            ],
+            "words": [
+                {
+                    "start": 66.182,
+                    "end": 66.342,
+                    "text": "THE"
+                },
+                {
+                    "start": 66.342,
+                    "end": 66.4,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 67.345,
+                    "end": 68.241,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 68.322,
+                    "end": 68.422,
+                    "text": "THE"
+                },
+                {
+                    "start": 68.662,
+                    "end": 68.737,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 69.508,
+                    "end": 69.562,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_13_occ_0",
+            "start": 70.922,
+            "end": 73.856,
+            "lyric": "The baby fire sleeps inside!",
+            "real_meaning": "The myth internalizes: The product is no longer just a tool; it is perceived as a living, breathing necessity that demands our constant attention.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0096.jpg",
+                    "query": "Close-up: A child cave dweller holds a BIC lighter reverently, pressing it to their ear, listening for the sleeping fire's breath."
+                },
+                {
+                    "offset": 2.43,
+                    "url": "media/c0097.jpg",
+                    "query": "Medium shot: An elder cave dweller cradles the orange box, rocking it gently like an infant, singing a lullaby to the flame spirit."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0099.jpg",
+                    "query": "Close-up: A toddler's small hands gripping a tablet, watching a colorful animation, already indoctrinated into the screen ritual."
+                },
+                {
+                    "offset": 2.43,
+                    "url": "media/c0100.jpg",
+                    "query": "Medium shot: A parent hands their crying child a phone. The child instantly stops crying, mesmerized by the glowing screen."
+                }
+            ],
+            "words": [
+                {
+                    "start": 70.922,
+                    "end": 71.002,
+                    "text": "The"
+                },
+                {
+                    "start": 71.008,
+                    "end": 71.482,
+                    "text": "baby"
+                },
+                {
+                    "start": 71.482,
+                    "end": 72.178,
+                    "text": "fire"
+                },
+                {
+                    "start": 72.277,
+                    "end": 72.835,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 73.135,
+                    "end": 73.856,
+                    "text": "inside!"
+                }
+            ]
+        },
+        {
+            "id": "line_14_occ_0",
+            "start": 74.642,
+            "end": 78.124,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "The viral loop of dogma: Shared delusion becomes societal law. The chant ensures that no one stops to question the absurdity of the race.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0102.jpg",
+                    "query": "Wide shot: Three separate bonfires now burn across the valley. The tribe has expanded. Drums beat. Smoke columns rise into the starlit sky."
+                },
+                {
+                    "offset": 2.4,
+                    "url": "media/c0103.jpg",
+                    "query": "Medium shot: A procession of cave dwellers marches between the fires, carrying torches. Gralha leads them with the orange box held overhead."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0105.jpg",
+                    "query": "Wide shot: A sprawling tech campus at dusk, glass buildings glowing from within. Employees walk in synchronized streams toward the main hall."
+                },
+                {
+                    "offset": 2.4,
+                    "url": "media/c0106.jpg",
+                    "query": "Medium shot: A CEO walks on stage, silhouetted against a giant glowing logo. The audience rises to their feet before a word is spoken."
+                }
+            ],
+            "words": [
+                {
+                    "start": 74.642,
+                    "end": 74.742,
+                    "text": "THE"
+                },
+                {
+                    "start": 74.742,
+                    "end": 74.827,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 75.42,
+                    "end": 76.191,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 76.762,
+                    "end": 76.862,
+                    "text": "THE"
+                },
+                {
+                    "start": 77.087,
+                    "end": 77.157,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 77.67,
+                    "end": 78.124,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_15_occ_0",
+            "start": 79.328,
+            "end": 82.233,
+            "lyric": "We'll run with it, we'll run with pride!",
+            "real_meaning": "Pride in servitude: Exhaustion is rebranded as virtue. Wearing the endless hustle as a badge of honor to prove one's devotion.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0108.jpg",
+                    "query": "Wide tracking shot: A relay of six runners now, passing the torch through the valley. Each hand-off is performed with ritual precision."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0109.jpg",
+                    "query": "Medium shot: A young cave dweller sprints with the fire, face lit with ecstatic pride. They believe they are carrying a god."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0111.jpg",
+                    "query": "Wide shot: A viral trend spreading — split-screen of dozens doing the same dance, same filter, same music, passed from phone to phone."
+                },
+                {
+                    "offset": 1.92,
+                    "url": "media/c0112.jpg",
+                    "query": "Medium shot: A teenager films themselves with the phone, adding to the chain, their individuality dissolved into the collective ritual."
+                }
+            ],
+            "words": [
+                {
+                    "start": 79.328,
+                    "end": 79.488,
+                    "text": "We'll"
+                },
+                {
+                    "start": 79.542,
+                    "end": 79.902,
+                    "text": "run"
+                },
+                {
+                    "start": 79.968,
+                    "end": 80.222,
+                    "text": "with"
+                },
+                {
+                    "start": 80.222,
+                    "end": 80.687,
+                    "text": "it,"
+                },
+                {
+                    "start": 81.042,
+                    "end": 81.122,
+                    "text": "we'll"
+                },
+                {
+                    "start": 81.332,
+                    "end": 81.402,
+                    "text": "run"
+                },
+                {
+                    "start": 81.402,
+                    "end": 81.462,
+                    "text": "with"
+                },
+                {
+                    "start": 81.642,
+                    "end": 82.233,
+                    "text": "pride!"
+                }
+            ]
+        },
+        {
+            "id": "line_16_occ_0",
+            "start": 83.648,
+            "end": 86.402,
+            "lyric": "And that's how I became a god",
+            "real_meaning": "The tech billionaire moment: Earning godhood not through wisdom, but through holding the monopoly on a simple, misunderstood technology.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0114.jpg",
+                    "query": "Wide shot: The traveler sits on a throne of stacked stones, tribe members bowing before them. Animal pelts draped as royal garments."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0117.jpg",
+                    "query": "Wide shot: A tech billionaire's penthouse apartment, floor-to-ceiling windows overlooking a city that runs on their platform."
+                }
+            ],
+            "words": [
+                {
+                    "start": 83.648,
+                    "end": 83.802,
+                    "text": "And"
+                },
+                {
+                    "start": 83.802,
+                    "end": 83.865,
+                    "text": "that's"
+                },
+                {
+                    "start": 84.307,
+                    "end": 84.362,
+                    "text": "how"
+                },
+                {
+                    "start": 84.572,
+                    "end": 84.642,
+                    "text": "I"
+                },
+                {
+                    "start": 85.117,
+                    "end": 85.207,
+                    "text": "became"
+                },
+                {
+                    "start": 85.477,
+                    "end": 85.533,
+                    "text": "a"
+                },
+                {
+                    "start": 85.702,
+                    "end": 86.402,
+                    "text": "god"
+                }
+            ]
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 86.402,
+            "end": 90.562,
+            "lyric": "With a plastic BIC and a nod",
+            "real_meaning": "The absurdity of modern godhood: The tools of power are mundane and cheap (a plastic BIC), but elevated by human gullibility.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0120.jpg",
+                    "query": "Close-up: The BIC lighter sits on the stone altar, surrounded by offerings of fruit, bones, and flowers. A plastic god among organic tributes."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0123.jpg",
+                    "query": "Close-up: A brand logo etched into glass, backlit, perfect — the corporate altar where consumers leave their money as offerings."
+                }
+            ],
+            "words": [
+                {
+                    "start": 86.402,
+                    "end": 87.722,
+                    "text": "With"
+                },
+                {
+                    "start": 87.787,
+                    "end": 87.86,
+                    "text": "a"
+                },
+                {
+                    "start": 88.237,
+                    "end": 88.396,
+                    "text": "plastic"
+                },
+                {
+                    "start": 88.662,
+                    "end": 89.362,
+                    "text": "BIC"
+                },
+                {
+                    "start": 89.673,
+                    "end": 89.882,
+                    "text": "and"
+                },
+                {
+                    "start": 89.882,
+                    "end": 89.937,
+                    "text": "a"
+                },
+                {
+                    "start": 90.102,
+                    "end": 90.562,
+                    "text": "nod"
+                }
+            ]
+        },
+        {
+            "id": "line_18_occ_0",
+            "start": 92.288,
+            "end": 94.363,
+            "lyric": "Twelve believers, faithful, true",
+            "real_meaning": "The early adopters: Every cult and speculative bubble starts with a small, devoted group willing to suspend their disbelief.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0126.jpg",
+                    "query": "Wide shot: Twelve cave dwellers sit in a circle around the fire, cross-legged, faces solemn. The first congregation."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0129.jpg",
+                    "query": "Wide shot: Twelve founding employees in a garage, laptops open, coding the platform that will reshape human connection."
+                }
+            ],
+            "words": [
+                {
+                    "start": 92.288,
+                    "end": 92.522,
+                    "text": "Twelve"
+                },
+                {
+                    "start": 92.778,
+                    "end": 93.571,
+                    "text": "believers,"
+                },
+                {
+                    "start": 93.802,
+                    "end": 94.062,
+                    "text": "faithful,"
+                },
+                {
+                    "start": 94.082,
+                    "end": 94.363,
+                    "text": "true"
+                }
+            ]
+        },
+        {
+            "id": "line_19_occ_0",
+            "start": 94.882,
+            "end": 102.762,
+            "lyric": "Gralha said \"I'll translate for you\"",
+            "real_meaning": "The first middle-man: Gralha becomes the PR department, the priest who monetizes access to the Mage's 'truth' by interpreting it for the masses.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0132.jpg",
+                    "query": "Medium shot: Gralha stands between the traveler and the tribe, arms wide, interpreting the 'divine message' with dramatic gestures."
+                },
+                {
+                    "offset": 3.2,
+                    "url": "media/c0133.jpg",
+                    "query": "Close-up: Gralha's face as he speaks to the tribe — adding his own embellishments, twisting the traveler's simple words into prophecy."
+                },
+                {
+                    "offset": 6.89,
+                    "url": "media/c0134.jpg",
+                    "query": "Over-the-shoulder shot: Watching Gralha preach to the tribe, realizing the message has already been corrupted in translation."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0135.jpg",
+                    "query": "Medium shot: A tech journalist at a press conference, rephrasing the CEO's announcement into sensational headlines for clicks."
+                },
+                {
+                    "offset": 3.2,
+                    "url": "media/c0136.jpg",
+                    "query": "Close-up: A blog post being written: 'Why This Changes Everything' — the modern Gralha translating tech into religion."
+                },
+                {
+                    "offset": 6.89,
+                    "url": "media/c0137.jpg",
+                    "query": "Over-the-shoulder shot: A social media manager scheduling posts, packaging corporate jargon into emotional narratives."
+                }
+            ],
+            "words": [
+                {
+                    "start": 94.882,
+                    "end": 96.262,
+                    "text": "Gralha"
+                },
+                {
+                    "start": 96.262,
+                    "end": 96.524,
+                    "text": "said"
+                },
+                {
+                    "start": 96.682,
+                    "end": 98.898,
+                    "text": "\"I'll"
+                },
+                {
+                    "start": 99.41,
+                    "end": 99.766,
+                    "text": "translate"
+                },
+                {
+                    "start": 99.98,
+                    "end": 100.275,
+                    "text": "for"
+                },
+                {
+                    "start": 100.382,
+                    "end": 102.762,
+                    "text": "you\""
+                }
+            ]
+        },
+        {
+            "id": "line_20_occ_0",
+            "start": 102.762,
+            "end": 107.356,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "Market saturation: The cult becomes culture. The chant is inescapable, and non-participation is no longer an option.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0138.jpg",
+                    "query": "Wide shot: The entire valley ablaze with dozens of bonfires. Hundreds of cave dwellers dance in frenzy. The sky glows orange with smoke and flame."
+                },
+                {
+                    "offset": 2.7,
+                    "url": "media/c0139.jpg",
+                    "query": "Medium shot: Gralha, wearing a necklace of orange-painted stones, leads a war dance around the central fire, spear raised."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0141.jpg",
+                    "query": "Wide shot: Times Square at night, every surface a glowing screen, thousands walking while staring at phones, illuminated zombies."
+                },
+                {
+                    "offset": 2.7,
+                    "url": "media/c0142.jpg",
+                    "query": "Medium shot: A teenager surrounded by five screens — phone, tablet, laptop, monitor, TV — all showing different content simultaneously."
+                }
+            ],
+            "words": [
+                {
+                    "start": 102.762,
+                    "end": 104.222,
+                    "text": "THE"
+                },
+                {
+                    "start": 104.256,
+                    "end": 104.313,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 105.724,
+                    "end": 105.782,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 105.782,
+                    "end": 106.38,
+                    "text": "THE"
+                },
+                {
+                    "start": 106.38,
+                    "end": 106.431,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 107.272,
+                    "end": 107.356,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_21_occ_0",
+            "start": 108.802,
+            "end": 111.863,
+            "lyric": "The baby fire sleeps inside!",
+            "real_meaning": "The mythology solidifies: Cultivating the fear that without our constant, frantic participation, the 'magic' of civilization will die.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0144.jpg",
+                    "query": "Close-up: Dozens of hand-carved stone replicas of the BIC lighter, each cradled by a tribe member. The first mass-produced religious icons."
+                },
+                {
+                    "offset": 2.44,
+                    "url": "media/c0145.jpg",
+                    "query": "Medium shot: A mother teaches her child the CHAK-CHAK motion with two stones, passing down the sacred gesture to the next generation."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0147.jpg",
+                    "query": "Close-up: A box of old phones in a drawer — each once worshipped, now discarded, replaced by the newer model."
+                },
+                {
+                    "offset": 2.44,
+                    "url": "media/c0148.jpg",
+                    "query": "Medium shot: An e-waste recycling facility, mountains of dead phones and tablets, the graveyard of yesterday's gods."
+                }
+            ],
+            "words": [
+                {
+                    "start": 108.802,
+                    "end": 108.902,
+                    "text": "The"
+                },
+                {
+                    "start": 108.96,
+                    "end": 109.382,
+                    "text": "baby"
+                },
+                {
+                    "start": 109.382,
+                    "end": 109.902,
+                    "text": "fire"
+                },
+                {
+                    "start": 110.048,
+                    "end": 110.883,
+                    "text": "sleeps"
+                },
+                {
+                    "start": 111.007,
+                    "end": 111.863,
+                    "text": "inside!"
+                }
+            ]
+        },
+        {
+            "id": "line_22_occ_0",
+            "start": 112.542,
+            "end": 115.337,
+            "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
+            "real_meaning": "The echo chamber of the faithful: The collective chanting drowns out any individual skepticism. The tribe is united by shared hallucination.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0150.jpg",
+                    "query": "Wide shot: A stone temple stands where the first fire was lit. Carved pillars depict the lighter. The tribe has become a civilization."
+                },
+                {
+                    "offset": 1.86,
+                    "url": "media/c0151.jpg",
+                    "query": "Medium shot: Inside the temple, priests in orange-dyed robes perform the CHAK-CHAK ritual over a stone altar, the lighter long gone but the ritual eternal."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0153.jpg",
+                    "query": "Wide shot: A gleaming corporate headquarters shaped like a ring, a temple to the digital fire built by millions of believers."
+                },
+                {
+                    "offset": 1.86,
+                    "url": "media/c0154.jpg",
+                    "query": "Medium shot: Inside the HQ, a museum displays every product generation behind glass, sacred relics of innovation."
+                }
+            ],
+            "words": [
+                {
+                    "start": 112.542,
+                    "end": 112.642,
+                    "text": "THE"
+                },
+                {
+                    "start": 113.167,
+                    "end": 113.242,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 113.82,
+                    "end": 113.902,
+                    "text": "BOX!"
+                },
+                {
+                    "start": 114.642,
+                    "end": 114.742,
+                    "text": "THE"
+                },
+                {
+                    "start": 114.967,
+                    "end": 115.037,
+                    "text": "ORANGE"
+                },
+                {
+                    "start": 115.037,
+                    "end": 115.337,
+                    "text": "BOX!"
+                }
+            ]
+        },
+        {
+            "id": "line_23_occ_0",
+            "start": 117.048,
+            "end": 120.315,
+            "lyric": "We'll run with it, we'll run with pride!",
+            "real_meaning": "The institutional hustle: It's no longer passion, it's infrastructure. The 'run' is now the entire basis of the economy and social standing.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0156.jpg",
+                    "query": "Wide tracking shot: An army of torch-bearers floods the valley, hundreds of flames creating a river of fire across the dark landscape."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0157.jpg",
+                    "query": "Medium shot: The traveler watches from a hilltop, overwhelmed. What started as a single CHAK-CHAK has become an unstoppable wildfire of belief."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0159.jpg",
+                    "query": "Wide shot: A satellite image of Earth at night, every continent traced in electric light. The fire relay went global."
+                },
+                {
+                    "offset": 2.09,
+                    "url": "media/c0160.jpg",
+                    "query": "Medium shot: A child in a developing nation holds a cracked smartphone, connecting to the same internet. The last fire pit reached."
+                }
+            ],
+            "words": [
+                {
+                    "start": 117.248,
+                    "end": 117.402,
+                    "text": "We'll"
+                },
+                {
+                    "start": 117.452,
+                    "end": 117.824,
+                    "text": "run"
+                },
+                {
+                    "start": 117.877,
+                    "end": 118.046,
+                    "text": "with"
+                },
+                {
+                    "start": 118.102,
+                    "end": 118.661,
+                    "text": "it,"
+                },
+                {
+                    "start": 118.942,
+                    "end": 119.022,
+                    "text": "we'll"
+                },
+                {
+                    "start": 119.217,
+                    "end": 119.282,
+                    "text": "run"
+                },
+                {
+                    "start": 119.282,
+                    "end": 119.347,
+                    "text": "with"
+                },
+                {
+                    "start": 119.542,
+                    "end": 120.315,
+                    "text": "pride!"
+                }
+            ]
+        },
+        {
+            "id": "line_24_occ_0",
+            "start": 122.162,
+            "end": 127.546,
+            "lyric": "Run, run, don't let it die!",
+            "real_meaning": "The imperative of the rat race: Keep moving, keep consuming, keep running. To stop is to let the illusion die, exposing the emptiness.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0162.jpg",
+                    "query": "Wide shot: Dawn breaks over the valley of fires. The traveler stands at the edge of the green phone booth, hand on the door, looking back."
+                },
+                {
+                    "offset": 1.72,
+                    "url": "media/c0163.jpg",
+                    "query": "Medium shot: Gralha runs toward the traveler, reaching out, desperate. But the door is closing. The god is leaving."
+                },
+                {
+                    "offset": 3.83,
+                    "url": "media/c0164.jpg",
+                    "query": "Close-up: The phone booth door shuts. Through the green glass, the traveler's face — relief and loss. The fire will burn without them."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "media/c0165.jpg",
+                    "query": "Wide shot: A server farm humming in the arctic, autonomous, self-sustaining. The digital fire no longer needs its creator."
+                },
+                {
+                    "offset": 1.72,
+                    "url": "media/c0166.jpg",
+                    "query": "Medium shot: The original garage where it all started, now empty, a 'For Lease' sign on the door. The founders have moved on."
+                },
+                {
+                    "offset": 3.83,
+                    "url": "media/c0167.jpg",
+                    "query": "Close-up: A phone screen showing 'Update Available.' The fire never stops. Run, run, don't let it die."
+                }
+            ],
+            "words": [
+                {
+                    "start": 122.162,
+                    "end": 122.482,
+                    "text": "Run,"
+                },
+                {
+                    "start": 123.282,
+                    "end": 125.12,
+                    "text": "run,"
+                },
+                {
+                    "start": 126.722,
+                    "end": 126.794,
+                    "text": "don't"
+                },
+                {
+                    "start": 127.012,
+                    "end": 127.08,
+                    "text": "let"
+                },
+                {
+                    "start": 127.282,
+                    "end": 127.462,
+                    "text": "it"
+                },
+                {
+                    "start": 127.462,
+                    "end": 127.546,
+                    "text": "die!"
+                }
+            ]
+        }
+    ],
+    "beat_times": [
+        2.81,
+        3.367,
+        3.878,
+        4.412,
+        4.923,
+        5.457,
+        5.968,
+        6.502,
+        7.036,
+        7.57,
+        8.081,
+        8.615,
+        9.149,
+        9.66,
+        10.194,
+        10.704,
+        11.238,
+        11.796,
+        12.307,
+        12.841,
+        13.351,
+        13.909,
+        14.42,
+        14.93,
+        15.441,
+        15.999,
+        16.509,
+        17.043,
+        17.578,
+        18.112,
+        18.622,
+        19.133,
+        19.644,
+        20.178,
+        20.643,
+        21.13,
+        21.641,
+        22.152,
+        22.663,
+        23.197,
+        23.731,
+        24.265,
+        24.799,
+        25.333,
+        25.821,
+        26.378,
+        27.028,
+        27.562,
+        28.096,
+        28.63,
+        29.141,
+        29.675,
+        30.209,
+        30.72,
+        31.254,
+        31.788,
+        32.299,
+        32.833,
+        33.367,
+        33.878,
+        34.412,
+        34.946,
+        35.457,
+        35.991,
+        36.502,
+        37.036,
+        37.57,
+        38.104,
+        38.615,
+        39.149,
+        39.66,
+        40.194,
+        40.728,
+        41.262,
+        41.773,
+        42.307,
+        42.818,
+        43.352,
+        43.886,
+        44.42,
+        44.931,
+        45.465,
+        45.999,
+        46.51,
+        47.044,
+        47.578,
+        48.089,
+        48.623,
+        49.133,
+        49.667,
+        50.178,
+        50.712,
+        51.246,
+        51.78,
+        52.291,
+        52.825,
+        53.359,
+        53.87,
+        54.404,
+        54.938,
+        55.472,
+        55.983,
+        56.517,
+        57.051,
+        57.562,
+        58.073,
+        58.607,
+        59.141,
+        59.675,
+        60.209,
+        60.72,
+        61.231,
+        61.765,
+        62.299,
+        62.833,
+        63.367,
+        63.878,
+        64.412,
+        64.946,
+        65.457,
+        65.991,
+        66.525,
+        67.036,
+        67.57,
+        68.104,
+        68.615,
+        69.149,
+        69.683,
+        70.194,
+        70.728,
+        71.262,
+        71.773,
+        72.307,
+        72.841,
+        73.352,
+        73.886,
+        74.397,
+        74.931,
+        75.465,
+        75.999,
+        76.51,
+        77.044,
+        77.555,
+        78.089,
+        78.623,
+        79.157,
+        79.668,
+        80.202,
+        80.736,
+        81.247,
+        81.781,
+        82.315,
+        82.826,
+        83.36,
+        83.87,
+        84.381,
+        84.892,
+        85.449,
+        85.983,
+        86.518,
+        87.052,
+        87.562,
+        88.027,
+        88.514,
+        89.025,
+        89.536,
+        90.07,
+        90.604,
+        91.138,
+        91.649,
+        92.206,
+        92.833,
+        93.367,
+        93.878,
+        94.412,
+        94.946,
+        95.457,
+        95.991,
+        96.525,
+        97.036,
+        97.57,
+        98.081,
+        98.615,
+        99.149,
+        99.683,
+        100.194,
+        100.728,
+        101.262,
+        101.773,
+        102.307,
+        102.841,
+        103.352,
+        103.886,
+        104.42,
+        104.931,
+        105.465,
+        105.999,
+        106.51,
+        107.044,
+        107.578,
+        108.089,
+        108.623,
+        109.157,
+        109.668,
+        110.202,
+        110.736,
+        111.247,
+        111.781,
+        112.315,
+        112.826,
+        113.36,
+        113.894,
+        114.405,
+        114.939,
+        115.45,
+        115.984,
+        116.518,
+        117.052,
+        117.563,
+        118.097,
+        118.608,
+        119.142,
+        119.676,
+        120.21,
+        120.721,
+        121.255,
+        121.789,
+        122.3,
+        122.834,
+        123.368,
+        123.878,
+        124.413,
+        124.947,
+        125.457,
+        125.991,
+        126.526,
+        127.036,
+        127.57,
+        128.104,
+        128.615,
+        129.149,
+        129.683,
+        130.194,
+        130.728,
+        131.262,
+        131.773,
+        132.307,
+        132.841,
+        133.352,
+        133.886,
+        134.42,
+        134.931,
+        135.465,
+        135.976,
+        136.51,
+        137.044,
+        137.555,
+        138.089,
+        138.623,
+        139.157,
+        139.691,
+        140.202,
+        140.713,
+        141.27,
+        141.827,
+        142.385,
+        142.919,
+        143.453,
+        144.01
+    ],
+    "energy_curve": [
+        [
+            0.0,
+            0.196
+        ],
+        [
+            0.49,
+            0.249
+        ],
+        [
+            0.98,
+            0.337
+        ],
+        [
+            1.46,
+            0.413
+        ],
+        [
+            1.95,
+            0.455
+        ],
+        [
+            2.44,
+            0.52
+        ],
+        [
+            2.93,
+            0.56
+        ],
+        [
+            3.41,
+            0.572
+        ],
+        [
+            3.9,
+            0.619
+        ],
+        [
+            4.39,
+            0.673
+        ],
+        [
+            4.88,
+            0.714
+        ],
+        [
+            5.36,
+            0.724
+        ],
+        [
+            5.85,
+            0.723
+        ],
+        [
+            6.34,
+            0.735
+        ],
+        [
+            6.83,
+            0.798
+        ],
+        [
+            7.31,
+            0.79
+        ],
+        [
+            7.8,
+            0.716
+        ],
+        [
+            8.29,
+            0.716
+        ],
+        [
+            8.78,
+            0.729
+        ],
+        [
+            9.26,
+            0.726
+        ],
+        [
+            9.75,
+            0.745
+        ],
+        [
+            10.24,
+            0.76
+        ],
+        [
+            10.73,
+            0.779
+        ],
+        [
+            11.22,
+            0.875
+        ],
+        [
+            11.7,
+            0.902
+        ],
+        [
+            12.19,
+            0.873
+        ],
+        [
+            12.68,
+            0.841
+        ],
+        [
+            13.17,
+            0.817
+        ],
+        [
+            13.65,
+            0.832
+        ],
+        [
+            14.14,
+            0.829
+        ],
+        [
+            14.63,
+            0.766
+        ],
+        [
+            15.12,
+            0.76
+        ],
+        [
+            15.6,
+            0.838
+        ],
+        [
+            16.09,
+            0.839
+        ],
+        [
+            16.58,
+            0.842
+        ],
+        [
+            17.07,
+            0.792
+        ],
+        [
+            17.55,
+            0.78
+        ],
+        [
+            18.04,
+            0.813
+        ],
+        [
+            18.53,
+            0.776
+        ],
+        [
+            19.02,
+            0.766
+        ],
+        [
+            19.5,
+            0.863
+        ],
+        [
+            19.99,
+            0.924
+        ],
+        [
+            20.48,
+            0.871
+        ],
+        [
+            20.97,
+            0.882
+        ],
+        [
+            21.46,
+            0.902
+        ],
+        [
+            21.94,
+            0.858
+        ],
+        [
+            22.43,
+            0.848
+        ],
+        [
+            22.92,
+            0.758
+        ],
+        [
+            23.41,
+            0.716
+        ],
+        [
+            23.89,
+            0.834
+        ],
+        [
+            24.38,
+            0.848
+        ],
+        [
+            24.87,
+            0.735
+        ],
+        [
+            25.36,
+            0.695
+        ],
+        [
+            25.84,
+            0.759
+        ],
+        [
+            26.33,
+            0.82
+        ],
+        [
+            26.82,
+            0.76
+        ],
+        [
+            27.31,
+            0.711
+        ],
+        [
+            27.79,
+            0.746
+        ],
+        [
+            28.28,
+            0.799
+        ],
+        [
+            28.77,
+            0.809
+        ],
+        [
+            29.26,
+            0.825
+        ],
+        [
+            29.74,
+            0.849
+        ],
+        [
+            30.23,
+            0.852
+        ],
+        [
+            30.72,
+            0.85
+        ],
+        [
+            31.21,
+            0.876
+        ],
+        [
+            31.7,
+            0.878
+        ],
+        [
+            32.18,
+            0.816
+        ],
+        [
+            32.67,
+            0.815
+        ],
+        [
+            33.16,
+            0.88
+        ],
+        [
+            33.65,
+            0.914
+        ],
+        [
+            34.13,
+            0.9
+        ],
+        [
+            34.62,
+            0.872
+        ],
+        [
+            35.11,
+            0.882
+        ],
+        [
+            35.6,
+            0.878
+        ],
+        [
+            36.08,
+            0.835
+        ],
+        [
+            36.57,
+            0.833
+        ],
+        [
+            37.06,
+            0.856
+        ],
+        [
+            37.55,
+            0.87
+        ],
+        [
+            38.03,
+            0.84
+        ],
+        [
+            38.52,
+            0.831
+        ],
+        [
+            39.01,
+            0.868
+        ],
+        [
+            39.5,
+            0.874
+        ],
+        [
+            39.98,
+            0.857
+        ],
+        [
+            40.47,
+            0.823
+        ],
+        [
+            40.96,
+            0.803
+        ],
+        [
+            41.45,
+            0.863
+        ],
+        [
+            41.94,
+            0.916
+        ],
+        [
+            42.42,
+            0.89
+        ],
+        [
+            42.91,
+            0.894
+        ],
+        [
+            43.4,
+            0.888
+        ],
+        [
+            43.89,
+            0.862
+        ],
+        [
+            44.37,
+            0.835
+        ],
+        [
+            44.86,
+            0.794
+        ],
+        [
+            45.35,
+            0.811
+        ],
+        [
+            45.84,
+            0.839
+        ],
+        [
+            46.32,
+            0.873
+        ],
+        [
+            46.81,
+            0.879
+        ],
+        [
+            47.3,
+            0.86
+        ],
+        [
+            47.79,
+            0.85
+        ],
+        [
+            48.27,
+            0.843
+        ],
+        [
+            48.76,
+            0.858
+        ],
+        [
+            49.25,
+            0.836
+        ],
+        [
+            49.74,
+            0.815
+        ],
+        [
+            50.22,
+            0.851
+        ],
+        [
+            50.71,
+            0.848
+        ],
+        [
+            51.2,
+            0.805
+        ],
+        [
+            51.69,
+            0.78
+        ],
+        [
+            52.18,
+            0.834
+        ],
+        [
+            52.66,
+            0.903
+        ],
+        [
+            53.15,
+            0.87
+        ],
+        [
+            53.64,
+            0.824
+        ],
+        [
+            54.13,
+            0.831
+        ],
+        [
+            54.61,
+            0.868
+        ],
+        [
+            55.1,
+            0.87
+        ],
+        [
+            55.59,
+            0.871
+        ],
+        [
+            56.08,
+            0.839
+        ],
+        [
+            56.56,
+            0.861
+        ],
+        [
+            57.05,
+            0.885
+        ],
+        [
+            57.54,
+            0.863
+        ],
+        [
+            58.03,
+            0.872
+        ],
+        [
+            58.51,
+            0.875
+        ],
+        [
+            59.0,
+            0.874
+        ],
+        [
+            59.49,
+            0.828
+        ],
+        [
+            59.98,
+            0.789
+        ],
+        [
+            60.46,
+            0.819
+        ],
+        [
+            60.95,
+            0.878
+        ],
+        [
+            61.44,
+            0.886
+        ],
+        [
+            61.93,
+            0.862
+        ],
+        [
+            62.42,
+            0.861
+        ],
+        [
+            62.9,
+            0.864
+        ],
+        [
+            63.39,
+            0.871
+        ],
+        [
+            63.88,
+            0.868
+        ],
+        [
+            64.37,
+            0.884
+        ],
+        [
+            64.85,
+            0.904
+        ],
+        [
+            65.34,
+            0.904
+        ],
+        [
+            65.83,
+            0.899
+        ],
+        [
+            66.32,
+            0.906
+        ],
+        [
+            66.8,
+            0.929
+        ],
+        [
+            67.29,
+            0.933
+        ],
+        [
+            67.78,
+            0.924
+        ],
+        [
+            68.27,
+            0.93
+        ],
+        [
+            68.75,
+            0.936
+        ],
+        [
+            69.24,
+            0.949
+        ],
+        [
+            69.73,
+            0.936
+        ],
+        [
+            70.22,
+            0.878
+        ],
+        [
+            70.7,
+            0.879
+        ],
+        [
+            71.19,
+            0.935
+        ],
+        [
+            71.68,
+            0.963
+        ],
+        [
+            72.17,
+            0.941
+        ],
+        [
+            72.66,
+            0.919
+        ],
+        [
+            73.14,
+            0.925
+        ],
+        [
+            73.63,
+            0.927
+        ],
+        [
+            74.12,
+            0.908
+        ],
+        [
+            74.61,
+            0.919
+        ],
+        [
+            75.09,
+            0.934
+        ],
+        [
+            75.58,
+            0.933
+        ],
+        [
+            76.07,
+            0.915
+        ],
+        [
+            76.56,
+            0.91
+        ],
+        [
+            77.04,
+            0.91
+        ],
+        [
+            77.53,
+            0.935
+        ],
+        [
+            78.02,
+            0.931
+        ],
+        [
+            78.51,
+            0.865
+        ],
+        [
+            78.99,
+            0.864
+        ],
+        [
+            79.48,
+            0.934
+        ],
+        [
+            79.97,
+            0.963
+        ],
+        [
+            80.46,
+            0.945
+        ],
+        [
+            80.94,
+            0.94
+        ],
+        [
+            81.43,
+            0.925
+        ],
+        [
+            81.92,
+            0.926
+        ],
+        [
+            82.41,
+            0.92
+        ],
+        [
+            82.9,
+            0.896
+        ],
+        [
+            83.38,
+            0.899
+        ],
+        [
+            83.87,
+            0.876
+        ],
+        [
+            84.36,
+            0.804
+        ],
+        [
+            84.85,
+            0.771
+        ],
+        [
+            85.33,
+            0.769
+        ],
+        [
+            85.82,
+            0.746
+        ],
+        [
+            86.31,
+            0.687
+        ],
+        [
+            86.8,
+            0.655
+        ],
+        [
+            87.28,
+            0.727
+        ],
+        [
+            87.77,
+            0.772
+        ],
+        [
+            88.26,
+            0.746
+        ],
+        [
+            88.75,
+            0.734
+        ],
+        [
+            89.23,
+            0.748
+        ],
+        [
+            89.72,
+            0.788
+        ],
+        [
+            90.21,
+            0.777
+        ],
+        [
+            90.7,
+            0.7
+        ],
+        [
+            91.18,
+            0.665
+        ],
+        [
+            91.67,
+            0.649
+        ],
+        [
+            92.16,
+            0.711
+        ],
+        [
+            92.65,
+            0.798
+        ],
+        [
+            93.14,
+            0.796
+        ],
+        [
+            93.62,
+            0.78
+        ],
+        [
+            94.11,
+            0.824
+        ],
+        [
+            94.6,
+            0.859
+        ],
+        [
+            95.09,
+            0.863
+        ],
+        [
+            95.57,
+            0.863
+        ],
+        [
+            96.06,
+            0.857
+        ],
+        [
+            96.55,
+            0.837
+        ],
+        [
+            97.04,
+            0.79
+        ],
+        [
+            97.52,
+            0.796
+        ],
+        [
+            98.01,
+            0.809
+        ],
+        [
+            98.5,
+            0.844
+        ],
+        [
+            98.99,
+            0.89
+        ],
+        [
+            99.47,
+            0.861
+        ],
+        [
+            99.96,
+            0.851
+        ],
+        [
+            100.45,
+            0.892
+        ],
+        [
+            100.94,
+            0.9
+        ],
+        [
+            101.42,
+            0.914
+        ],
+        [
+            101.91,
+            0.917
+        ],
+        [
+            102.4,
+            0.887
+        ],
+        [
+            102.89,
+            0.868
+        ],
+        [
+            103.38,
+            0.877
+        ],
+        [
+            103.86,
+            0.902
+        ],
+        [
+            104.35,
+            0.913
+        ],
+        [
+            104.84,
+            0.931
+        ],
+        [
+            105.33,
+            0.938
+        ],
+        [
+            105.81,
+            0.932
+        ],
+        [
+            106.3,
+            0.929
+        ],
+        [
+            106.79,
+            0.943
+        ],
+        [
+            107.28,
+            0.951
+        ],
+        [
+            107.76,
+            0.919
+        ],
+        [
+            108.25,
+            0.885
+        ],
+        [
+            108.74,
+            0.888
+        ],
+        [
+            109.23,
+            0.925
+        ],
+        [
+            109.71,
+            0.938
+        ],
+        [
+            110.2,
+            0.917
+        ],
+        [
+            110.69,
+            0.905
+        ],
+        [
+            111.18,
+            0.915
+        ],
+        [
+            111.66,
+            0.922
+        ],
+        [
+            112.15,
+            0.905
+        ],
+        [
+            112.64,
+            0.911
+        ],
+        [
+            113.13,
+            0.925
+        ],
+        [
+            113.62,
+            0.917
+        ],
+        [
+            114.1,
+            0.908
+        ],
+        [
+            114.59,
+            0.925
+        ],
+        [
+            115.08,
+            0.941
+        ],
+        [
+            115.57,
+            0.94
+        ],
+        [
+            116.05,
+            0.916
+        ],
+        [
+            116.54,
+            0.873
+        ],
+        [
+            117.03,
+            0.883
+        ],
+        [
+            117.52,
+            0.942
+        ],
+        [
+            118.0,
+            0.957
+        ],
+        [
+            118.49,
+            0.936
+        ],
+        [
+            118.98,
+            0.935
+        ],
+        [
+            119.47,
+            0.947
+        ],
+        [
+            119.95,
+            0.956
+        ],
+        [
+            120.44,
+            0.94
+        ],
+        [
+            120.93,
+            0.913
+        ],
+        [
+            121.42,
+            0.921
+        ],
+        [
+            121.9,
+            0.962
+        ],
+        [
+            122.39,
+            0.968
+        ],
+        [
+            122.88,
+            0.966
+        ],
+        [
+            123.37,
+            0.964
+        ],
+        [
+            123.86,
+            0.99
+        ],
+        [
+            124.34,
+            0.997
+        ],
+        [
+            124.83,
+            0.974
+        ],
+        [
+            125.32,
+            0.98
+        ],
+        [
+            125.81,
+            0.984
+        ],
+        [
+            126.29,
+            0.983
+        ],
+        [
+            126.78,
+            0.982
+        ],
+        [
+            127.27,
+            0.96
+        ],
+        [
+            127.76,
+            0.942
+        ],
+        [
+            128.24,
+            0.958
+        ],
+        [
+            128.73,
+            0.935
+        ],
+        [
+            129.22,
+            0.902
+        ],
+        [
+            129.71,
+            0.91
+        ],
+        [
+            130.19,
+            0.965
+        ],
+        [
+            130.68,
+            0.987
+        ],
+        [
+            131.17,
+            0.969
+        ],
+        [
+            131.66,
+            0.968
+        ],
+        [
+            132.14,
+            0.985
+        ],
+        [
+            132.63,
+            0.995
+        ],
+        [
+            133.12,
+            0.981
+        ],
+        [
+            133.61,
+            0.975
+        ],
+        [
+            134.1,
+            0.979
+        ],
+        [
+            134.58,
+            0.988
+        ],
+        [
+            135.07,
+            0.995
+        ],
+        [
+            135.56,
+            0.966
+        ],
+        [
+            136.05,
+            0.927
+        ],
+        [
+            136.53,
+            0.958
+        ],
+        [
+            137.02,
+            0.96
+        ],
+        [
+            137.51,
+            0.908
+        ],
+        [
+            138.0,
+            0.893
+        ],
+        [
+            138.48,
+            0.844
+        ],
+        [
+            138.97,
+            0.709
+        ],
+        [
+            139.46,
+            0.598
+        ],
+        [
+            139.95,
+            0.593
+        ],
+        [
+            140.43,
+            0.67
+        ],
+        [
+            140.92,
+            0.665
+        ],
+        [
+            141.41,
+            0.55
+        ],
+        [
+            141.9,
+            0.571
+        ],
+        [
+            142.38,
+            0.655
+        ],
+        [
+            142.87,
+            0.67
+        ],
+        [
+            143.36,
+            0.617
+        ],
+        [
+            143.85,
+            0.504
+        ]
+    ],
+    "bpm": 112.3,
+    "sections": [
+        {
+            "start": 0.0,
+            "end": 28.72,
+            "energy": "high",
+            "intensity": 0.742
+        },
+        {
+            "start": 28.72,
+            "end": 56.54,
+            "energy": "high",
+            "intensity": 0.853
+        },
+        {
+            "start": 56.54,
+            "end": 66.73,
+            "energy": "high",
+            "intensity": 0.871
+        },
+        {
+            "start": 66.73,
+            "end": 90.05,
+            "energy": "high",
+            "intensity": 0.876
+        },
+        {
+            "start": 90.05,
+            "end": 92.21,
+            "energy": "high",
+            "intensity": 0.697
+        },
+        {
+            "start": 92.21,
+            "end": 104.63,
+            "energy": "high",
+            "intensity": 0.853
+        },
+        {
+            "start": 104.63,
+            "end": 144.12,
+            "energy": "high",
+            "intensity": 0.898
+        }
+    ],
+    "transition_points": [
+        0.79,
+        3.97,
+        7.13,
+        11.1,
+        14.51,
+        17.62,
+        21.48,
+        24.78,
+        27.93,
+        31.07,
+        34.25,
+        37.66,
+        40.82,
+        44.4,
+        47.55,
+        50.83,
+        53.99,
+        57.14,
+        60.3,
+        67.94,
+        72.14,
+        76.63,
+        80.57,
+        83.73,
+        86.91,
+        90.05,
+        93.46,
+        96.62,
+        99.78,
+        105.84,
+        109.78,
+        114.24,
+        118.07,
+        126.5,
+        134.51,
+        138.72,
+        142.01
+    ]
+}

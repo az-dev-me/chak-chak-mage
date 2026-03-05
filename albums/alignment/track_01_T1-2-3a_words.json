@@ -1334,24 +1334,24 @@
             ]
         },
         {
-            "start": 102.52,
+            "start": 102.56,
             "end": 105.96,
             "text": "Where the hell did I land?",
             "words": [
                 {
-                    "start": 102.52,
-                    "end": 102.62,
+                    "start": 102.56,
+                    "end": 102.66,
                     "text": "Where",
                     "source": "canonical"
                 },
                 {
-                    "start": 102.62,
-                    "end": 102.96,
+                    "start": 102.66,
+                    "end": 102.92,
                     "text": "the",
                     "source": "canonical"
                 },
                 {
-                    "start": 102.96,
+                    "start": 102.92,
                     "end": 103.4,
                     "text": "hell",
                     "source": "canonical"
@@ -1377,7 +1377,7 @@
                 {
                     "start": 105.6,
                     "end": 105.96,
-                    "text": "sound",
+                    "text": "Sound",
                     "source": "ad-lib"
                 }
             ]

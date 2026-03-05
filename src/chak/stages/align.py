@@ -1228,25 +1228,34 @@ def align_album_tracks(
         results.append(result)
 
     elif track_id:
-        # Align single track (default variant)
-        mp3_files = sorted(
-            f for f in os.listdir(album_dir)
-            if f.lower().endswith(".mp3")
-        )
-        if not mp3_files:
-            raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+        # Align single track (default variant) — prefer album_config audio_path
+        mp3_file = None
+        config_path = album_dir / "album_config.json"
+        if config_path.exists():
+            album_cfg = load_json(config_path)
+            for t in album_cfg.get("tracks", []):
+                if (t.get("track_id") or t.get("id", "")) == track_id:
+                    mp3_file = t.get("audio_path", "")
+                    break
 
-        try:
-            track_num = int(track_id.split("_")[1])
-        except (IndexError, ValueError) as exc:
-            raise ValueError(f"Invalid track_id format: {track_id}") from exc
-
-        if not (1 <= track_num <= len(mp3_files)):
-            raise ValueError(
-                f"track_id {track_id} out of range (found {len(mp3_files)} mp3s)"
+        if not mp3_file:
+            # Fallback: scan directory by track number
+            mp3_files = sorted(
+                f for f in os.listdir(album_dir)
+                if f.lower().endswith(".mp3")
             )
+            if not mp3_files:
+                raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+            try:
+                track_num = int(track_id.split("_")[1])
+            except (IndexError, ValueError) as exc:
+                raise ValueError(f"Invalid track_id format: {track_id}") from exc
+            if not (1 <= track_num <= len(mp3_files)):
+                raise ValueError(
+                    f"track_id {track_id} out of range (found {len(mp3_files)} mp3s)"
+                )
+            mp3_file = mp3_files[track_num - 1]
 
-        mp3_file = mp3_files[track_num - 1]
         audio_path = album_dir / mp3_file
         out_path = alignment_dir / f"{track_id}_words.json"
 
@@ -1261,16 +1270,32 @@ def align_album_tracks(
         )
         results.append(result)
     else:
-        # Align all tracks
-        mp3_files = sorted(
-            f for f in os.listdir(album_dir)
-            if f.lower().endswith(".mp3")
-        )
-        if not mp3_files:
-            raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+        # Align all base tracks using audio_path from album_config
+        # (variant audio is processed separately via process_all_variants)
+        album_config = load_json(album_dir / "album_config.json")
+        base_tracks = []
+        for t in album_config.get("tracks", []):
+            tid = t.get("track_id") or t.get("id", "")
+            ap = t.get("audio_path", "")
+            if tid and ap:
+                base_tracks.append((tid, ap))
 
-        for idx, mp3_file in enumerate(mp3_files):
-            tid = f"track_{idx + 1:02d}"
+        if not base_tracks:
+            # Fallback: scan directory for NN - track_NN.mp3 files
+            mp3_files = sorted(
+                f for f in os.listdir(album_dir)
+                if f.lower().endswith(".mp3")
+            )
+            if not mp3_files:
+                raise FileNotFoundError(f"No .mp3 files found in {album_dir}")
+            base_tracks = [
+                (f"track_{i + 1:02d}", f)
+                for i, f in enumerate(mp3_files)
+            ]
+
+        logger.info("Aligning %d base tracks", len(base_tracks))
+
+        for tid, mp3_file in base_tracks:
             audio_path = album_dir / mp3_file
             out_path = alignment_dir / f"{tid}_words.json"
 

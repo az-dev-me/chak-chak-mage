@@ -14,16 +14,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0168.jpg",
                     "query": "Wide shot: Dawn breaks over the valley. The tribe is asleep in the cave. Gralha is already awake, standing over the dead fire pit."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0169.jpg",
-                    "query": "Medium shot: Gralha strikes the BIC lighter. The small flame illuminates his determined, soot-stained face."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0170.jpg",
-                    "query": "Close-up: Gralha eagerly grabs a torched branch, touching it to the BIC flame until the branch catches fire."
                 }
             ],
             "hidden_media": [
@@ -31,16 +21,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0171.jpg",
                     "query": "Wide shot: 5:45 AM. A sprawling, bleak cityscape wrapped in the pre-dawn cold. A single high-rise apartment window suddenly lights up."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0172.jpg",
-                    "query": "Close-up: The harsh, red digital numbers of an alarm clock flashing 5:45."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0173.jpg",
-                    "query": "Medium shot: The professional hits the alarm, immediately sitting up like a trained soldier responding to a drill."
                 }
             ],
             "words": [
@@ -87,16 +67,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0174.jpg",
                     "query": "Wide shot: Gralha sprints out of the cave entrance, holding the flaming torch high above his head."
-                },
-                {
-                    "offset": 0.57,
-                    "url": "media/c0175.jpg",
-                    "query": "Medium tracking shot: Gralha running through the tall dew-soaked grass, the wind whipping his face, absolute focus in his eyes."
-                },
-                {
-                    "offset": 1.01,
-                    "url": "media/c0176.jpg",
-                    "query": "Over-the-shoulder shot: Looking past Gralha's shoulder at the flaming torch as he runs toward the distant horizon."
                 }
             ],
             "hidden_media": [
@@ -104,16 +74,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0177.jpg",
                     "query": "Wide tracking shot: The professional sprinting down the damp sidewalk, tie flapping carelessly, desperately racing toward the subway entrance."
-                },
-                {
-                    "offset": 0.57,
-                    "url": "media/c0178.jpg",
-                    "query": "Medium shot: The subway doors begin to slide shut. The professional throws their briefcase in to block them, squeezing through."
-                },
-                {
-                    "offset": 1.01,
-                    "url": "media/c0179.jpg",
-                    "query": "Close-up: The professional gasping for breath against the subway door, checking their glowing smartwatch."
                 }
             ],
             "words": [
@@ -150,16 +110,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0180.jpg",
                     "query": "Wide shot: The rest of the tribe emerges from the cave, watching Gralha run. They begin to cheer enthusiastically."
-                },
-                {
-                    "offset": 0.74,
-                    "url": "media/c0181.jpg",
-                    "query": "Medium shot: The tribe starts jogging after him, forming a messy procession of followers mesmerized by the running flame."
-                },
-                {
-                    "offset": 2.11,
-                    "url": "media/c0182.jpg",
-                    "query": "Close-up: The Mage sits back on his throne, watching the pointless marathon begin with a look of mild amusement."
                 }
             ],
             "hidden_media": [
@@ -167,16 +117,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0183.jpg",
                     "query": "Wide shot: The open-plan corporate office. Hundreds of screens glowing. The professional power-walks to their cubicle."
-                },
-                {
-                    "offset": 0.74,
-                    "url": "media/c0184.jpg",
-                    "query": "Medium shot: The professional aggressively typing, fueled by cold coffee and pure panic."
-                },
-                {
-                    "offset": 2.11,
-                    "url": "media/c0185.jpg",
-                    "query": "Extreme close-up: The engagement metrics on a dashboard slowly ticking downward despite the frantic typing."
                 }
             ],
             "words": [
@@ -228,16 +168,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0186.jpg",
                     "query": "Medium tracking shot: Gralha breathing heavily, sweat pouring down his face, the torch beginning to flicker wildly in the wind."
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0187.jpg",
-                    "query": "Extreme close-up: The flame on the torch weakening, struggling against the strong dawn breeze."
-                },
-                {
-                    "offset": 1.97,
-                    "url": "media/c0188.jpg",
-                    "query": "Close-up: Gralha's eyes widen in panic as he realizes the fire is dying. He pushes himself to run even faster."
                 }
             ],
             "hidden_media": [
@@ -245,16 +175,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0189.jpg",
                     "query": "Medium shot: 3:00 PM. The professional slumps back in their ergonomic chair, completely burned out, staring blankly at the ceiling."
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0190.jpg",
-                    "query": "Close-up: A LinkedIn notification pops up on screen: 'Success requires running 100% of the time. Don't stop!'"
-                },
-                {
-                    "offset": 1.97,
-                    "url": "media/c0191.jpg",
-                    "query": "Medium shot: The professional groans, forcing themselves back upright to type again."
                 }
             ],
             "words": [
@@ -296,16 +216,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0192.jpg",
                     "query": "Wide shot: Gralha reaches a pile of dry wood at the top of a hill. He desperately thrusts the dying torch into the pile."
-                },
-                {
-                    "offset": 0.5,
-                    "url": "media/c0193.jpg",
-                    "query": "Medium shot: The torch hits the wood, but the flame is completely gone. Just a wisp of smoke rises from the charred wood."
-                },
-                {
-                    "offset": 1.43,
-                    "url": "media/c0194.jpg",
-                    "query": "Close-up: Gralha collapses to his knees, staring in devastation at the unlit pile of wood."
                 }
             ],
             "hidden_media": [
@@ -313,16 +223,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0195.jpg",
                     "query": "Medium shot: 5:00 PM. The professional stares at the clock, willing it to move faster, their screen full of unfinished tasks."
-                },
-                {
-                    "offset": 0.5,
-                    "url": "media/c0196.jpg",
-                    "query": "Close-up: A motivational poster on the office wall reads: \"Hustle Harder.\" The professional glares at it with dead eyes."
-                },
-                {
-                    "offset": 1.43,
-                    "url": "media/c0197.jpg",
-                    "query": "Medium shot: The professional reaches for yet another energy drink, their third today, hands trembling from caffeine."
                 }
             ],
             "words": [
@@ -354,16 +254,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0198.jpg",
                     "query": "Wide shot: The tribe arrives at the top of the hill, panting and exhausted. They stare at the dead fire pit."
-                },
-                {
-                    "offset": 0.59,
-                    "url": "media/c0199.jpg",
-                    "query": "Medium shot: Confusion sets in. A tribesman points at the sky. 'Only run at noon,' he gestures confidently."
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0200.jpg",
-                    "query": "Close-up: Another tribesman violently shakes his head, pointing at the Orange Box in Gralha's hand. 'Warm the box!'"
                 }
             ],
             "hidden_media": [
@@ -371,16 +261,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0201.jpg",
                     "query": "Medium shot: 11:00 PM. The professional is still at their desk, office empty, the cleaning crew vacuuming around them."
-                },
-                {
-                    "offset": 0.59,
-                    "url": "media/c0202.jpg",
-                    "query": "Close-up: A fitness tracker notification: \"You have not moved in 6 hours.\" The professional dismisses it without looking."
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0203.jpg",
-                    "query": "Medium shot: The laptop screen reflected in the dark office window, the professional a ghost working for ghosts."
                 }
             ],
             "words": [
@@ -422,16 +302,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0204.jpg",
                     "query": "Dawn breaks over a vast, prehistoric valley. Smoke curls from a central fire. Tribal silhouettes gather. Warm, painterly hues paint the sky."
-                },
-                {
-                    "offset": 0.41,
-                    "url": "media/c0205.jpg",
-                    "query": "Gralha, a muscular hunter, seizes a flaming branch. He sprints towards the distant horizon, torch held high. Wind whips his hair."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0206.jpg",
-                    "query": "Gralha's determined expression, eyes locked forward. Flame reflects in his pupils. Wind pulls his hair."
                 }
             ],
             "hidden_media": [
@@ -439,16 +309,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0207.jpg",
                     "query": "wide shot of Monday alarm, modern urban setting, cool tones, photographic, cinematic"
-                },
-                {
-                    "offset": 0.41,
-                    "url": "media/c0208.jpg",
-                    "query": "medium shot of Keep going, don't stop, you'll miss the boat, contemporary scene, blue light, cinematic"
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0209.jpg",
-                    "query": "close-up detail of Keep going, don't stop, you'll miss the boat, emotional, modern, intimate photography"
                 }
             ],
             "words": [
@@ -480,16 +340,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0210.jpg",
                     "query": "Dawn breaks over a vast prehistoric landscape, a lone flame flickers at the edge of a cliff."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0211.jpg",
-                    "query": "A determined figure, wrapped in furs, runs holding a fiery torch, wind whipping their hair."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0212.jpg",
-                    "query": "A face filled with resolve and exertion, wind whipping hair, eyes fixed on the goal of reaching a new pile of stone."
                 }
             ],
             "hidden_media": [
@@ -497,16 +347,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0213.jpg",
                     "query": "Aerial view of sprawling cityscape at dawn, neon lights flickering, skyscrapers towering, subway lines glistening."
-                },
-                {
-                    "offset": 0.65,
-                    "url": "media/c0214.jpg",
-                    "query": "Young professional rushing through bustling subway station. The commuters are a sea of grey, black, and white."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0215.jpg",
-                    "query": "up of a determined face, eyes reflecting the glow of a laptop, fingers typing furiously, brow furrowed."
                 }
             ],
             "words": [
@@ -560,14 +400,9 @@ var track_03_data = {
                     "query": "A vast, prehistoric landscape at dawn, fire flickers in the distance, smoke rising, the sun begins to break through."
                 },
                 {
-                    "offset": 0.65,
+                    "offset": 2.95,
                     "url": "media/c0217.jpg",
                     "query": "Gralha runs with a flaming torch, tribe members cheer, silhouetted against the warm, fiery glow of the setting sun."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0218.jpg",
-                    "query": "A close-up of Gralha's face, wind whipping hair, eyes determined, torch flame flickering in the breeze, face lit by the firelight."
                 }
             ],
             "hidden_media": [
@@ -577,14 +412,9 @@ var track_03_data = {
                     "query": "A bird's-eye view of a sprawling cityscape at dawn, skyscrapers bathed in cool blue hues, streetlights flickering off."
                 },
                 {
-                    "offset": 0.65,
+                    "offset": 2.95,
                     "url": "media/c0220.jpg",
                     "query": "A crowded subway platform at rush hour, commuters rushing, faces obscured by facemasks, tech in hand."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0221.jpg",
-                    "query": "A weary businessperson racing to the subway. Wind whips at their coat, and the headwind of the tunnel."
                 }
             ],
             "words": [
@@ -631,16 +461,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0222.jpg",
                     "query": "Dawn breaks over a vast prehistoric valley. A single flame flickers at the edge of a cliff. Warm hues illuminate the rugged landscape."
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0223.jpg",
-                    "query": "Gralha sprints through tall grass with a torch ablaze. The wind whips against her back, her determined eyes fixed on the horizon. The fire casts warm shadows."
-                },
-                {
-                    "offset": 1.35,
-                    "url": "media/c0224.jpg",
-                    "query": "Gralha's face, the wind whips her hair.  The flames dance in her eyes, her gaze resolute."
                 }
             ],
             "hidden_media": [
@@ -648,16 +468,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0225.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flickering as skyscrapers loom over a bustling street."
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0226.jpg",
-                    "query": "A harried commuter rushing through a crowded subway, phone in hand, eyes on screen."
-                },
-                {
-                    "offset": 1.35,
-                    "url": "media/c0227.jpg",
-                    "query": "A close up shot of a young man's face, his jaw clenched, eyes darting anxiously, as he looks at his phone."
                 }
             ],
             "words": [
@@ -699,16 +509,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0228.jpg",
                     "query": "A vast prehistoric valley at dawn, a single flame flickers in the center, a tribe gathers."
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0229.jpg",
-                    "query": "A lone runner, torch ablaze, sprints through the windswept terrain, tribe's cheers echo."
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0230.jpg",
-                    "query": "A closeup of the runner's face, eyes wide, wind whipping hair. Flame extinguished."
                 }
             ],
             "hidden_media": [
@@ -716,16 +516,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0231.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flicker, rain-soaked streets reflect skyscrapers, a lone figure rushes towards the subway."
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0232.jpg",
-                    "query": "A crowded subway car, commuters glued to screens, steam from coffee cups, a man holds his suit jacket."
-                },
-                {
-                    "offset": 1.06,
-                    "url": "media/c0233.jpg",
-                    "query": "up of tired eyes staring at a promotion plaque, dead flowers on a desk."
                 }
             ],
             "words": [
@@ -782,16 +572,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0234.jpg",
                     "query": "The sun rises over a vast, prehistoric landscape. A lone figure stands by a flickering flame, the tribe's village in the distance."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0235.jpg",
-                    "query": "A determined woman runs with a blazing torch, wind whipping her hair. The tribe cheers behind her."
-                },
-                {
-                    "offset": 1.3,
-                    "url": "media/c0236.jpg",
-                    "query": "A man's face, grimacing as he stares at the extinguished torch."
                 }
             ],
             "hidden_media": [
@@ -799,16 +579,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0237.jpg",
                     "query": "A sprawling cityscape at dawn, skyscrapers reflected in puddles, an alarm clock's harsh glow in a high-rise window."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0238.jpg",
-                    "query": "A weary commuter rushing through a bustling subway station, surrounded by the glow of technological devices."
-                },
-                {
-                    "offset": 1.3,
-                    "url": "media/c0239.jpg",
-                    "query": "A close-up of a shattered smartphone screen, its reflection showing a startup's declining metrics."
                 }
             ],
             "words": [
@@ -865,16 +635,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0240.jpg",
                     "query": "A vast prehistoric landscape at dawn, a small flame flickers in the distance. The sun is just starting to rise."
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0241.jpg",
-                    "query": "A lone figure holding a burning torch, running across a vast field of tall grass. Warm tones."
-                },
-                {
-                    "offset": 1.14,
-                    "url": "media/c0242.jpg",
-                    "query": "Wind whips across the landscape, a close-up view of the flame, dying and flickering."
                 }
             ],
             "hidden_media": [
@@ -882,16 +642,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0243.jpg",
                     "query": "A sprawling cityscape at dawn, rain-soaked streets reflect harsh neon lights as alarm clocks blare inside countless windows."
-                },
-                {
-                    "offset": 0.68,
-                    "url": "media/c0244.jpg",
-                    "query": "A crowded subway car, faces illuminated by phone screens, exhaustion etched on passengers' faces."
-                },
-                {
-                    "offset": 1.14,
-                    "url": "media/c0245.jpg",
-                    "query": "A close-up of a hand holding a self-help book, fingers tracing a highlighted phrase, eyes filled with determination and doubt."
                 }
             ],
             "words": [
@@ -938,16 +688,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0246.jpg",
                     "query": "Prehistoric dawn, smoke billows from first flame, silhouettes of tribe members gathering."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0247.jpg",
-                    "query": "Gralha's face, fierce concentration, running with torch as wind whips flames."
-                },
-                {
-                    "offset": 1.54,
-                    "url": "media/c0248.jpg",
-                    "query": "The tribe's faces, exultant, lit by firelight, eyes wide, mouths agape in cheers."
                 }
             ],
             "hidden_media": [
@@ -955,16 +695,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0249.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flickering off rain-slicked streets, a lone figure rushing towards the subway, alarm clock's glow visible on their phone."
-                },
-                {
-                    "offset": 0.61,
-                    "url": "media/c0250.jpg",
-                    "query": "An overflowing coffee cup on a cluttered desk, laptop screen aglow with endless notifications, a blurry reflection of a person working late."
-                },
-                {
-                    "offset": 1.54,
-                    "url": "media/c0251.jpg",
-                    "query": "A face in the soft glow of a smartphone, eyes darting between a self-help video and a work deadline, tension visible in their furrowed brow."
                 }
             ],
             "words": [
@@ -1018,14 +748,9 @@ var track_03_data = {
                     "query": "A vast prehistoric landscape at dawn, a lone flame flickers in the distant horizon. A wide shot, warm tones."
                 },
                 {
-                    "offset": 0.57,
+                    "offset": 2.43,
                     "url": "media/c0253.jpg",
                     "query": "Gralha runs with a blazing torch through a dense forest, wind whipping his hair.  The tribe cheers from the outskirts of the forest in the background, dramatic."
-                },
-                {
-                    "offset": 1.5,
-                    "url": "media/c0254.jpg",
-                    "query": "Close up of Tronco's hands, clasped around an abstract mechanism, head bowed."
                 }
             ],
             "hidden_media": [
@@ -1035,14 +760,9 @@ var track_03_data = {
                     "query": "Aerial view of a sprawling cityscape at dawn, neon lights flickering.  High-rise buildings with windows lit up.  A distant subway station bustling with silhouettes."
                 },
                 {
-                    "offset": 0.57,
+                    "offset": 2.43,
                     "url": "media/c0256.jpg",
                     "query": "A harried commuter, coffee in hand, rushing through a bustling subway station.  Cool tones of blue and grey."
-                },
-                {
-                    "offset": 1.5,
-                    "url": "media/c0257.jpg",
-                    "query": "A frustrated tech worker staring at a screen full of data.  The monitor is a kaleidoscope of numbers and equations."
                 }
             ],
             "words": [
@@ -1089,11 +809,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0258.jpg",
                     "query": "A vast prehistoric valley bathed in the golden hues of dawn, a lone fire burns brightly in the center."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0259.jpg",
-                    "query": "A lone figure, Gralha, holds a torch aloft, running through the shadows of the stone ruins, the glow of the fire reflected in his eyes"
                 }
             ],
             "hidden_media": [
@@ -1101,11 +816,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0261.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flicker, silhouettes rush towards the subway."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0262.jpg",
-                    "query": "A cluttered desk, multiple screens glow, a figure slumps in a chair."
                 }
             ],
             "words": [
@@ -1145,15 +855,15 @@ var track_03_data = {
             "media": [
                 {
                     "offset": 2.2,
-                    "url": "media/c0260.jpg",
-                    "query": "An expression of bewilderment on the creator's face as he watches the scene unfold."
+                    "url": "media/c0259.jpg",
+                    "query": "A lone figure, Gralha, holds a torch aloft, running through the shadows of the stone ruins, the glow of the fire reflected in his eyes"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 2.2,
-                    "url": "media/c0263.jpg",
-                    "query": "A weary face, reflected on a dark screen, a towering skyscraper looms behind them."
+                    "url": "media/c0262.jpg",
+                    "query": "A cluttered desk, multiple screens glow, a figure slumps in a chair."
                 }
             ],
             "words": [
@@ -1192,12 +902,12 @@ var track_03_data = {
                     "query": "A vast prehistoric valley at dawn, a lone flame flickers at the horizon. Warm tones. Cinematic."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 3.99,
                     "url": "media/c0265.jpg",
                     "query": "A determined woman, Gralha, runs through a cheering tribe holding a fiery torch."
                 },
                 {
-                    "offset": 6.43,
+                    "offset": 8.29,
                     "url": "media/c0266.jpg",
                     "query": "Gralha's face lit by fire, wind whipping her hair, eyes fierce. Painterly."
                 }
@@ -1209,12 +919,12 @@ var track_03_data = {
                     "query": "A sprawling cityscape at dawn, neon lights flicker as alarm clocks blare in countless skyscraper windows."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 3.99,
                     "url": "media/c0268.jpg",
                     "query": "A harried professional races through a bustling subway station, reflection in rain-soaked windows."
                 },
                 {
-                    "offset": 6.43,
+                    "offset": 8.29,
                     "url": "media/c0269.jpg",
                     "query": "A tired commuter's face, eyes reflecting the cold glow of a smartphone, mouth tense and jaw clenched."
                 }
@@ -1248,16 +958,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0270.jpg",
                     "query": "Prehistoric sunrise, flames crackle from a stone circle, silhouette of a lone figure emerging from the mist."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0271.jpg",
-                    "query": "A woman runs with a flaming torch through a cheering tribe, wind whips her hair, firelight dances."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0272.jpg",
-                    "query": "Hands cradling a dying flame, desperate eyes reflecting the flickering embers, a tear rolls down a cheek."
                 }
             ],
             "hidden_media": [
@@ -1265,16 +965,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0273.jpg",
                     "query": "Aerial view of a sprawling cityscape at dawn, skyscrapers illuminated by the early sun."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0274.jpg",
-                    "query": "A weary commuter rushing through a bustling subway station, reflection of the busy world in the glass."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0275.jpg",
-                    "query": "A exhausted worker at a cluttered desk, staring at multiple screens with a blank expression."
                 }
             ],
             "words": [
@@ -1316,16 +1006,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0276.jpg",
                     "query": "A vast, prehistoric landscape at dawn, a single flame flickers in the center, a sense of anticipation fills the air."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0277.jpg",
-                    "query": "A woman runs with a torch, the wind blowing through her hair, a crowd of people behind her, holding sticks and cheering."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0278.jpg",
-                    "query": "A close up of the woman's face, eyes focused, determination etched, wind whipping her hair, as she pushes herself further."
                 }
             ],
             "hidden_media": [
@@ -1333,16 +1013,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0279.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flickering, skyscrapers towering, an alarm clock's glow visible through a high-rise apartment window."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0280.jpg",
-                    "query": "A harried individual rushing through a bustling subway station, reflected in the polished surfaces of the urban environment."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0281.jpg",
-                    "query": "A tired and weary face, eyes half-closed, mouth half-opened, staring blankly at the screen of a laptop."
                 }
             ],
             "words": [
@@ -1374,16 +1044,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0282.jpg",
                     "query": "A vast prehistoric landscape at dawn, a single flame flickers in the center."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0283.jpg",
-                    "query": "Gralha runs with a torch, wind whipping around her, tribe cheering in the background."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0284.jpg",
-                    "query": "Close up of Gralha's face, determined, flame reflecting in her eyes."
                 }
             ],
             "hidden_media": [
@@ -1391,16 +1051,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0285.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flickering as an alarm clock glows in a high-rise apartment."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0286.jpg",
-                    "query": "A harried professional rushing through a bustling subway station, coffee in hand, phone glued to ear."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0287.jpg",
-                    "query": "A weary face reflected in a glossy computer screen, eyes distant, shoulders slumped at the desk."
                 }
             ],
             "words": [
@@ -1452,16 +1102,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0288.jpg",
                     "query": "A vast, prehistoric valley bathed in the warm glow of dawn, a lone figure stands with a blazing torch.  The fire casts long, dancing shadows.  The horizon is a painting of firelit"
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0289.jpg",
-                    "query": "A determined figure races through a firelit forest, torch held high, wind whipping their hair.  The tribe cheers, faces glowing with excitement.  The flames flicker wildly."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0290.jpg",
-                    "query": "The runners face, eyes fixed on the distant horizon, jaw set.  The wind bites into their eyes, but they refuse to blink.  Their skin is painted with glowing, warm hues."
                 }
             ],
             "hidden_media": [
@@ -1469,16 +1109,6 @@ var track_03_data = {
                     "offset": 0.0,
                     "url": "media/c0291.jpg",
                     "query": "A sprawling cityscape at dawn, neon lights flicker, rain-soaked streets reflect the urban jungle, a lone figure stands against a skyscraper, a clock face with 5:30am prominent."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0292.jpg",
-                    "query": "A crowded subway car, commuters with tired eyes, reflected in the window, an empty coffee cup in the foreground, a smartphone showing a Slack feed."
-                },
-                {
-                    "offset": 1.33,
-                    "url": "media/c0293.jpg",
-                    "query": "A close-up of a hand holding a BIC lighter, flickering flame reflected in weary eyes, the background is blurred out."
                 }
             ],
             "words": [

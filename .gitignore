@@ -20,6 +20,9 @@ venv/
 Thumbs.db
 .DS_Store
 
+# Backups
+*.bak
+
 # Album binary data (large files — tracked separately)
 albums/MY_ALBUM_001/media/*.jpg
 albums/MY_ALBUM_001/media/*.png

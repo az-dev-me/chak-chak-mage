@@ -989,9 +989,9 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 152.84,
+                    "start": 152.74,
                     "end": 153.888,
-                    "text": "ooooh",
+                    "text": "Ooooooo",
                     "source": "ad-lib"
                 },
                 {
@@ -1004,7 +1004,7 @@
         },
         {
             "start": 156.296,
-            "end": 157.64,
+            "end": 157.68,
             "text": "Tchak... tchak... tchak...",
             "words": [
                 {
@@ -1022,14 +1022,20 @@
             ]
         },
         {
-            "start": 157.64,
+            "start": 157.68,
             "end": 166.464,
             "text": "\"The fire was always ours.\"",
             "words": [
                 {
-                    "start": 157.64,
+                    "start": 157.68,
                     "end": 158.18,
                     "text": "check",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 158.66,
+                    "end": 159.0,
+                    "text": "Check,",
                     "source": "ad-lib"
                 },
                 {

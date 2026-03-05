@@ -13,11 +13,6 @@
                     "offset": 0.0,
                     "url": "media/c0018.jpg",
                     "query": "Medium shot: The traveler extends their hand, offering the smooth, transparent orange BIC lighter. Gralha reaches out with trembling, soot-stained fingers."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0019.jpg",
-                    "query": "Close-up: Gralha's filthy hands awkwardly grasp the pristine plastic lighter. He holds it up to the faint moonlight."
                 }
             ],
             "hidden_media": [
@@ -25,11 +20,6 @@
                     "offset": 0.0,
                     "url": "media/c0021.jpg",
                     "query": "Wide shot: A time jump. A sleek, modern minimalist bedroom. A young adult (Gralha modern) sits on the edge of the bed staring at an unopened smartphone box."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0022.jpg",
-                    "query": "Medium shot: The young adult slowly, reverently lifts the lid off the perfectly designed white box."
                 }
             ],
             "words": [
@@ -66,20 +56,8 @@
             "end": 11.99,
             "lyric": "turned it in his hand",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 1.6,
-                    "url": "media/c0020.jpg",
-                    "query": "Extreme close-up: The metal wheel and flint of the lighter, an alien mechanical perfection against the rugged, dirty skin of the caveman."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 1.6,
-                    "url": "media/c0023.jpg",
-                    "query": "Close-up: The pristine, black glass of the new flagship smartphone resting perfectly in its molded cradle."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 10.562,
@@ -119,11 +97,6 @@
                     "offset": 0.0,
                     "url": "media/c0024.jpg",
                     "query": "Medium shot: Gralha looks from the lighter to the traveler, his posture submissive, eyes wide with desperate questions."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0025.jpg",
-                    "query": "Close-up: Gralha's mouth moves in urgent, silent grunts, gesturing frantically between the dying fire pit and the orange plastic."
                 }
             ],
             "hidden_media": [
@@ -131,11 +104,6 @@
                     "offset": 0.0,
                     "url": "media/c0027.jpg",
                     "query": "Medium tracking shot: The young adult powers on the phone. The screen illuminates, demanding setup. They look frustrated, tapping eagerly."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0028.jpg",
-                    "query": "Over-the-shoulder shot: The phone screen shows a setup error. The user immediately opens their laptop to search for a solution."
                 }
             ],
             "words": [
@@ -162,20 +130,8 @@
             "end": 14.744,
             "lyric": "\"explain to me",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 1.83,
-                    "url": "media/c0026.jpg",
-                    "query": "Over-the-shoulder (traveler): Looking down at Gralha, who is now kneeling, holding the lighter up like a sacred offering, begging for the secret."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 1.83,
-                    "url": "media/c0029.jpg",
-                    "query": "Close-up: A YouTube video loading on the laptop—a charismatic tech influencer promising to 'fix everything and optimize your life'."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 13.644,
@@ -231,16 +187,6 @@
                     "offset": 0.0,
                     "url": "media/c0030.jpg",
                     "query": "Wide shot: The traveler stands tall over the kneeling caveman. Other members of the tribe begin to slowly emerge from the cave, drawn by the commotion."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0031.jpg",
-                    "query": "Medium shot: The tribe watches in awe from the shadows as the traveler points cryptically at the small plastic casing of the lighter."
-                },
-                {
-                    "offset": 2.14,
-                    "url": "media/c0032.jpg",
-                    "query": "Close-up: The translucent orange plastic casing of the BIC lighter, catching a glint of moonlight, holding the mysterious 'sleeping' fire."
                 }
             ],
             "hidden_media": [
@@ -248,16 +194,6 @@
                     "offset": 0.0,
                     "url": "media/c0033.jpg",
                     "query": "Medium shot: The young adult watches the influencer intently, taking notes, hanging on every word about the new device's secret features."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0034.jpg",
-                    "query": "Close-up: The influencer's face on the screen, energetic, artificially lit, exuding absolute confidence and authority."
-                },
-                {
-                    "offset": 2.14,
-                    "url": "media/c0035.jpg",
-                    "query": "Extreme close-up: The young adult's eyes, wide, completely absorbed, accepting the influencer's word as gospel."
                 }
             ],
             "words": [
@@ -345,16 +281,6 @@
                     "offset": 0.0,
                     "url": "media/c0036.jpg",
                     "query": "Medium tracking shot: The other cave dwellers creep closer, forming a tight circle around the traveler and Gralha, their eyes fixed solely on the orange box."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0037.jpg",
-                    "query": "Close-up: A female cave dweller (Muda) watches silently from the back of the crowd, her eyes analytical rather than worshipful."
-                },
-                {
-                    "offset": 1.79,
-                    "url": "media/c0038.jpg",
-                    "query": "Close-up: The traveler's thumb confidently rests on the metal wheel of the lighter, preparing to strike."
                 }
             ],
             "hidden_media": [
@@ -362,16 +288,6 @@
                     "offset": 0.0,
                     "url": "media/c0039.jpg",
                     "query": "Wide shot: A massive, darkened auditorium. Thousands of people sit in silence, their faces lit by the glow of a colossal stage screen."
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0040.jpg",
-                    "query": "Medium shot: A charismatic CEO paces the stage in a black turtleneck, holding up the newest, thinnest smartphone."
-                },
-                {
-                    "offset": 1.79,
-                    "url": "media/c0041.jpg",
-                    "query": "Close-up: The CEO's hand holding the device towards the audience, as if presenting a religious artifact."
                 }
             ],
             "words": [
@@ -430,14 +346,9 @@
                     "query": "Wide shot: The traveler strikes the wheel. Chak-chak. A perfect, steady, tear-shaped flame abruptly illuminating the dark clearing."
                 },
                 {
-                    "offset": 0.64,
+                    "offset": 2.82,
                     "url": "media/c0043.jpg",
                     "query": "Medium shot: The sudden burst of light. The entire tribe gasps together, recoiling slightly, then leaning in, completely mesmerized."
-                },
-                {
-                    "offset": 1.84,
-                    "url": "media/c0044.jpg",
-                    "query": "Close-up: The perfect, unnatural stillness of the butane flame, wildly contrasting with the chaotic, messy world of the cave."
                 }
             ],
             "hidden_media": [
@@ -447,14 +358,9 @@
                     "query": "Wide shot: The audience erupts into thunderous applause, a wave of standing ovations rolling through the auditorium."
                 },
                 {
-                    "offset": 0.64,
+                    "offset": 2.82,
                     "url": "media/c0046.jpg",
                     "query": "Medium shot: People in the crowd are crying, cheering, holding their hands to their faces in overwhelming awe."
-                },
-                {
-                    "offset": 1.84,
-                    "url": "media/c0047.jpg",
-                    "query": "Close-up: The giant screen behind the CEO flashes the product name in a pristine, minimalist font."
                 }
             ],
             "words": [
@@ -503,14 +409,9 @@
                     "query": "Medium shot: The traveler holds the flame high. The golden light paints the awestruck faces of the tribe."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 2.41,
                     "url": "media/c0049.jpg",
                     "query": "Close-up: Gralha's face, bathed in the warm light, absolute pure faith and worship replacing his earlier terror."
-                },
-                {
-                    "offset": 1.97,
-                    "url": "media/c0050.jpg",
-                    "query": "Extreme close-up: The reflection of the steady flame dancing in Gralha's wide, tear-filled eye."
                 }
             ],
             "hidden_media": [
@@ -520,14 +421,9 @@
                     "query": "Medium tracking shot: A line of hundreds of people wrapped around a city block in the freezing rain, waiting outside a glass retail store."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 2.41,
                     "url": "media/c0052.jpg",
                     "query": "Close-up: A freezing, exhausted customer clutching a thermos, staring longingly at the glowing logo inside the store."
-                },
-                {
-                    "offset": 1.97,
-                    "url": "media/c0053.jpg",
-                    "query": "Extreme close-up: The glowing white logo of the brand above the store entrance, a beacon for the faithful."
                 }
             ],
             "words": [
@@ -571,14 +467,9 @@
                     "query": "Wide shot: The tribe collectively falls to their knees around the traveler, swaying, hands raised toward the flickering BIC flame in the darkness."
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 2.93,
                     "url": "media/c0055.jpg",
                     "query": "Medium shot: Gralha chants and points reverently at the orange plastic body of the lighter, worshipping the shell, not the mechanism inside."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0056.jpg",
-                    "query": "Close-up: The traveler's face, a smug accidental god, realizing the immense power they've just stumbled into."
                 }
             ],
             "hidden_media": [
@@ -588,14 +479,9 @@
                     "query": "Wide shot: A brightly lit Apple Store on launch day. Customers swarm wooden tables, desperately grabbing at pristine display devices."
                 },
                 {
-                    "offset": 0.91,
+                    "offset": 2.93,
                     "url": "media/c0058.jpg",
                     "query": "Medium shot: A young customer clutches a freshly purchased white box against their chest like a sacred artifact."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0059.jpg",
-                    "query": "Close-up: The customer exits triumphantly, holding the box aloft while the crowd outside cheers."
                 }
             ],
             "words": [
@@ -644,14 +530,9 @@
                     "query": "Wide tracking shot: Three cave dwellers sprint through the dark forest carrying a lit torch between them, embers trailing like orange stars."
                 },
                 {
-                    "offset": 1.01,
+                    "offset": 3.05,
                     "url": "media/c0061.jpg",
                     "query": "Medium shot: A cave dweller stumbles, nearly dropping the torch. Gralha catches the flame, cradling it, running harder."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0062.jpg",
-                    "query": "Close-up: Bare feet pounding ancient earth, the torch's reflection dancing in puddles of rainwater."
                 }
             ],
             "hidden_media": [
@@ -661,14 +542,9 @@
                     "query": "Wide shot: A crowded subway car. Every passenger stares down at the same glowing rectangle in their hands, faces lit blue-white."
                 },
                 {
-                    "offset": 1.01,
+                    "offset": 3.05,
                     "url": "media/c0064.jpg",
                     "query": "Medium shot: A teenager sprints down a city sidewalk, phone held high, chasing a GPS signal for a mobile game."
-                },
-                {
-                    "offset": 2.06,
-                    "url": "media/c0065.jpg",
-                    "query": "Close-up: A cracked phone screen still glowing, still being used, its owner refusing to let go despite the damage."
                 }
             ],
             "words": [
@@ -727,12 +603,12 @@
                     "query": "Medium shot: The traveler holds the BIC lighter up to the tribe, pointing at the translucent orange casing. Inside, the butane liquid sloshes faintly."
                 },
                 {
-                    "offset": 0.82,
+                    "offset": 3.89,
                     "url": "media/c0067.jpg",
                     "query": "Close-up: The lighter's transparent body backlit by moonlight. The liquid fuel glows amber, a tiny sleeping dragon curled inside plastic."
                 },
                 {
-                    "offset": 6.6,
+                    "offset": 8.11,
                     "url": "media/c0068.jpg",
                     "query": "Extreme close-up: The metal wheel and flint mechanism of the lighter, an alien machine to the cave dwellers who stare in reverent silence."
                 }
@@ -744,12 +620,12 @@
                     "query": "Medium shot: A tech guru on stage at a keynote, gesturing reverently at a giant screen showing the phone's internal chipset diagram."
                 },
                 {
-                    "offset": 0.82,
+                    "offset": 3.89,
                     "url": "media/c0070.jpg",
                     "query": "Close-up: The polished glass back of a smartphone, reflecting studio lights like a black mirror."
                 },
                 {
-                    "offset": 6.6,
+                    "offset": 8.11,
                     "url": "media/c0071.jpg",
                     "query": "Extreme close-up: A circuit board under magnification, golden traces and silicon — the sleeping fire inside the modern box."
                 }
@@ -839,11 +715,6 @@
                     "offset": 0.0,
                     "url": "media/c0072.jpg",
                     "query": "Close-up: The traveler's thumb strikes the BIC wheel. CHAK-CHAK. Sparks fly. The tiny flame erupts, painting every face in warm orange."
-                },
-                {
-                    "offset": 0.87,
-                    "url": "media/c0073.jpg",
-                    "query": "Wide shot: The entire tribe gasps and recoils as the flame appears from nothing. Children cling to their mothers. Warriors grip their spears."
                 }
             ],
             "hidden_media": [
@@ -851,11 +722,6 @@
                     "offset": 0.0,
                     "url": "media/c0075.jpg",
                     "query": "Close-up: A finger swipes across a phone screen. The display ignites with color — apps, notifications, a whole universe awakening."
-                },
-                {
-                    "offset": 0.87,
-                    "url": "media/c0076.jpg",
-                    "query": "Wide shot: A dark bedroom. A teenager's face is suddenly illuminated by the phone screen's cold blue glow, the only light."
                 }
             ],
             "words": [
@@ -887,20 +753,8 @@
             "end": 56.893,
             "lyric": "it wakes up",
             "real_meaning": "",
-            "media": [
-                {
-                    "offset": 2.45,
-                    "url": "media/c0074.jpg",
-                    "query": "Medium shot: Gralha reaches toward the flame with trembling fingers, mesmerized, his pupils reflecting twin points of fire."
-                }
-            ],
-            "hidden_media": [
-                {
-                    "offset": 2.45,
-                    "url": "media/c0077.jpg",
-                    "query": "Medium shot: The teenager scrolls hypnotically, dopamine-drunk, unable to look away from the cascading feed of content."
-                }
-            ],
+            "media": [],
+            "hidden_media": [],
             "words": [
                 {
                     "start": 55.334,
@@ -925,8 +779,20 @@
             "end": 58.244,
             "lyric": "burning bright",
             "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
+            "media": [
+                {
+                    "offset": 3.43,
+                    "url": "media/c0073.jpg",
+                    "query": "Wide shot: The entire tribe gasps and recoils as the flame appears from nothing. Children cling to their mothers. Warriors grip their spears."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.43,
+                    "url": "media/c0076.jpg",
+                    "query": "Wide shot: A dark bedroom. A teenager's face is suddenly illuminated by the phone screen's cold blue glow, the only light."
+                }
+            ],
             "words": [
                 {
                     "start": 56.893,
@@ -951,11 +817,6 @@
                     "offset": 0.0,
                     "url": "media/c0078.jpg",
                     "query": "Wide tracking shot: A cave dweller runs through rain with a burning branch, shielding it with their body. Behind them, the old fire pit dies."
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0079.jpg",
-                    "query": "Medium shot: The runner's hands cup around the fragile flame as wind threatens to extinguish it. Desperation on their face."
                 }
             ],
             "hidden_media": [
@@ -963,11 +824,6 @@
                     "offset": 0.0,
                     "url": "media/c0081.jpg",
                     "query": "Wide shot: A student rushes across a university campus, phone at 2% battery, searching frantically for a charging outlet."
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0082.jpg",
-                    "query": "Medium shot: The student finds a wall socket, plugs in with trembling hands, watches the battery icon appear — relief floods their face."
                 }
             ],
             "words": [
@@ -1030,8 +886,20 @@
             "end": 62.183,
             "lyric": "carry it with care",
             "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
+            "media": [
+                {
+                    "offset": 2.28,
+                    "url": "media/c0079.jpg",
+                    "query": "Medium shot: The runner's hands cup around the fragile flame as wind threatens to extinguish it. Desperation on their face."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 2.28,
+                    "url": "media/c0082.jpg",
+                    "query": "Medium shot: The student finds a wall socket, plugs in with trembling hands, watches the battery icon appear — relief floods their face."
+                }
+            ],
             "words": [
                 {
                     "start": 61.124,
@@ -1066,11 +934,6 @@
                     "offset": 0.0,
                     "url": "media/c0084.jpg",
                     "query": "Wide shot: The cave dweller reaches the new fire pit just in time, touching the dying ember to dry kindling. It catches. A new fire blooms."
-                },
-                {
-                    "offset": 0.59,
-                    "url": "media/c0085.jpg",
-                    "query": "Medium shot: The tribe erupts in celebration around the new fire. Dancing shadows on cave walls. The cycle of fire continues."
                 }
             ],
             "hidden_media": [
@@ -1078,11 +941,6 @@
                     "offset": 0.0,
                     "url": "media/c0087.jpg",
                     "query": "Wide shot: A data center at night, rows of servers blinking, the eternal fire of the internet humming in air-conditioned darkness."
-                },
-                {
-                    "offset": 0.59,
-                    "url": "media/c0088.jpg",
-                    "query": "Medium shot: A cloud backup completing on a phone screen — '100% synced'. The data fire transferred to its new pile."
                 }
             ],
             "words": [
@@ -1145,8 +1003,20 @@
             "end": 67.104,
             "lyric": "before it disappears in air\"",
             "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
+            "media": [
+                {
+                    "offset": 3.65,
+                    "url": "media/c0085.jpg",
+                    "query": "Medium shot: The tribe erupts in celebration around the new fire. Dancing shadows on cave walls. The cycle of fire continues."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 3.65,
+                    "url": "media/c0088.jpg",
+                    "query": "Medium shot: A cloud backup completing on a phone screen — '100% synced'. The data fire transferred to its new pile."
+                }
+            ],
             "words": [
                 {
                     "start": 64.966,
@@ -1188,14 +1058,9 @@
                     "query": "Wide shot: A massive bonfire now roars at the center of the camp. Thirty tribe members circle it, chanting, arms raised in synchronized worship."
                 },
                 {
-                    "offset": 1.0,
+                    "offset": 3.0,
                     "url": "media/c0091.jpg",
                     "query": "Medium shot: Gralha stands on a raised rock, leading the chant, face painted with ceremonial ash. Behind him, the traveler watches uneasily."
-                },
-                {
-                    "offset": 2.05,
-                    "url": "media/c0092.jpg",
-                    "query": "Close-up: Multiple BIC lighters laid out on a flat stone like sacred relics on an altar, each one a sleeping god."
                 }
             ],
             "hidden_media": [
@@ -1205,14 +1070,9 @@
                     "query": "Wide shot: A packed convention center. Thousands in matching branded t-shirts, holding phones up, recording a keynote speech."
                 },
                 {
-                    "offset": 1.0,
+                    "offset": 3.0,
                     "url": "media/c0094.jpg",
                     "query": "Medium shot: A massive LED screen shows a new product reveal. The crowd erupts, tears streaming, as if witnessing a miracle."
-                },
-                {
-                    "offset": 2.05,
-                    "url": "media/c0095.jpg",
-                    "query": "Close-up: Hundreds of phone screens in the crowd, all displaying the same livestream — a hall of mirrors reflecting worship."
                 }
             ],
             "words": [
@@ -1261,14 +1121,9 @@
                     "query": "Close-up: A child cave dweller holds a BIC lighter reverently, pressing it to their ear, listening for the sleeping fire's breath."
                 },
                 {
-                    "offset": 0.9,
+                    "offset": 2.92,
                     "url": "media/c0097.jpg",
                     "query": "Medium shot: An elder cave dweller cradles the orange box, rocking it gently like an infant, singing a lullaby to the flame spirit."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0098.jpg",
-                    "query": "Extreme close-up: The BIC lighter's transparent body, butane sloshing inside — a tiny ocean of potential fire, dormant and waiting."
                 }
             ],
             "hidden_media": [
@@ -1278,14 +1133,9 @@
                     "query": "Close-up: A toddler's small hands gripping a tablet, watching a colorful animation, already indoctrinated into the screen ritual."
                 },
                 {
-                    "offset": 0.9,
+                    "offset": 2.92,
                     "url": "media/c0100.jpg",
                     "query": "Medium shot: A parent hands their crying child a phone. The child instantly stops crying, mesmerized by the glowing screen."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0101.jpg",
-                    "query": "Extreme close-up: A child's wide pupils reflecting cartoon colors from the tablet, the next generation of believers already converted."
                 }
             ],
             "words": [
@@ -1329,14 +1179,9 @@
                     "query": "Wide shot: Three separate bonfires now burn across the valley. The tribe has expanded. Drums beat. Smoke columns rise into the starlit sky."
                 },
                 {
-                    "offset": 0.77,
+                    "offset": 2.28,
                     "url": "media/c0103.jpg",
                     "query": "Medium shot: A procession of cave dwellers marches between the fires, carrying torches. Gralha leads them with the orange box held overhead."
-                },
-                {
-                    "offset": 1.81,
-                    "url": "media/c0104.jpg",
-                    "query": "Close-up: The traveler sits alone on a rock, watching the growing cult they accidentally created, horror dawning in their eyes."
                 }
             ],
             "hidden_media": [
@@ -1346,14 +1191,9 @@
                     "query": "Wide shot: A sprawling tech campus at dusk, glass buildings glowing from within. Employees walk in synchronized streams toward the main hall."
                 },
                 {
-                    "offset": 0.77,
+                    "offset": 2.28,
                     "url": "media/c0106.jpg",
                     "query": "Medium shot: A CEO walks on stage, silhouetted against a giant glowing logo. The audience rises to their feet before a word is spoken."
-                },
-                {
-                    "offset": 1.81,
-                    "url": "media/c0107.jpg",
-                    "query": "Close-up: The CEO's face, calm, messianic, perfectly lit — a modern prophet delivering scripture to the faithful."
                 }
             ],
             "words": [
@@ -1402,14 +1242,9 @@
                     "query": "Wide tracking shot: A relay of six runners now, passing the torch through the valley. Each hand-off is performed with ritual precision."
                 },
                 {
-                    "offset": 0.66,
+                    "offset": 2.68,
                     "url": "media/c0109.jpg",
                     "query": "Medium shot: A young cave dweller sprints with the fire, face lit with ecstatic pride. They believe they are carrying a god."
-                },
-                {
-                    "offset": 1.7,
-                    "url": "media/c0110.jpg",
-                    "query": "Close-up: The torch flame reflected in a river's surface as the runner leaps across stepping stones, fire above water."
                 }
             ],
             "hidden_media": [
@@ -1419,14 +1254,9 @@
                     "query": "Wide shot: A viral trend spreading — split-screen of dozens doing the same dance, same filter, same music, passed from phone to phone."
                 },
                 {
-                    "offset": 0.66,
+                    "offset": 2.68,
                     "url": "media/c0112.jpg",
                     "query": "Medium shot: A teenager films themselves with the phone, adding to the chain, their individuality dissolved into the collective ritual."
-                },
-                {
-                    "offset": 1.7,
-                    "url": "media/c0113.jpg",
-                    "query": "Close-up: A 'share' button being pressed. The digital fire relay — one tap, a million new flames."
                 }
             ],
             "words": [
@@ -1483,16 +1313,6 @@
                     "offset": 0.0,
                     "url": "media/c0114.jpg",
                     "query": "Wide shot: The traveler sits on a throne of stacked stones, tribe members bowing before them. Animal pelts draped as royal garments."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0115.jpg",
-                    "query": "Medium shot: Gralha places a crown of antlers and feathers on the traveler's head. The traveler looks bewildered, trapped in divinity."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0116.jpg",
-                    "query": "Close-up: The traveler's eyes — a mix of terror and intoxication, realizing there is no going back from godhood."
                 }
             ],
             "hidden_media": [
@@ -1500,16 +1320,6 @@
                     "offset": 0.0,
                     "url": "media/c0117.jpg",
                     "query": "Wide shot: A tech billionaire's penthouse apartment, floor-to-ceiling windows overlooking a city that runs on their platform."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0118.jpg",
-                    "query": "Medium shot: The billionaire sits in a minimalist chair, scrolling through their own trending mentions, a faint smile of power."
-                },
-                {
-                    "offset": 1.22,
-                    "url": "media/c0119.jpg",
-                    "query": "Close-up: A Forbes magazine cover with the billionaire's face. Accidental deity."
                 }
             ],
             "words": [
@@ -1561,16 +1371,6 @@
                     "offset": 0.0,
                     "url": "media/c0120.jpg",
                     "query": "Close-up: The BIC lighter sits on the stone altar, surrounded by offerings of fruit, bones, and flowers. A plastic god among organic tributes."
-                },
-                {
-                    "offset": 0.78,
-                    "url": "media/c0121.jpg",
-                    "query": "Medium shot: The traveler demonstrates the lighter again — CHAK-CHAK — and the tribe erupts anew. The nod confirms the miracle."
-                },
-                {
-                    "offset": 1.29,
-                    "url": "media/c0122.jpg",
-                    "query": "Extreme close-up: The traveler's slight, knowing nod after sparking the lighter. A gesture so small, yet it founded a religion."
                 }
             ],
             "hidden_media": [
@@ -1578,16 +1378,6 @@
                     "offset": 0.0,
                     "url": "media/c0123.jpg",
                     "query": "Close-up: A brand logo etched into glass, backlit, perfect — the corporate altar where consumers leave their money as offerings."
-                },
-                {
-                    "offset": 0.78,
-                    "url": "media/c0124.jpg",
-                    "query": "Medium shot: A product designer nods approval at a prototype. That nod will determine what billions carry in their pockets."
-                },
-                {
-                    "offset": 1.29,
-                    "url": "media/c0125.jpg",
-                    "query": "Extreme close-up: A 'Terms and Conditions' accept button. The modern nod of consent — unread, unquestioned, absolute."
                 }
             ],
             "words": [
@@ -1639,16 +1429,6 @@
                     "offset": 0.0,
                     "url": "media/c0126.jpg",
                     "query": "Wide shot: Twelve cave dwellers sit in a circle around the fire, cross-legged, faces solemn. The first congregation."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0127.jpg",
-                    "query": "Medium shot: Each of the twelve holds a small stone painted orange. Their first sacred tokens, made in the image of the lighter."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0128.jpg",
-                    "query": "Close-up: Twelve pairs of eyes reflecting firelight, unblinking, converted, willing to die for the orange box."
                 }
             ],
             "hidden_media": [
@@ -1656,16 +1436,6 @@
                     "offset": 0.0,
                     "url": "media/c0129.jpg",
                     "query": "Wide shot: Twelve founding employees in a garage, laptops open, coding the platform that will reshape human connection."
-                },
-                {
-                    "offset": 0.56,
-                    "url": "media/c0130.jpg",
-                    "query": "Medium shot: A whiteboard in the garage showing 'Mission: Connect the World.' Twelve true believers writing the digital gospel."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0131.jpg",
-                    "query": "Close-up: Twelve coffee cups on a table, each person committed to the vision, pulling all-nighters to build the church."
                 }
             ],
             "words": [
@@ -1704,14 +1474,9 @@
                     "query": "Medium shot: Gralha stands between the traveler and the tribe, arms wide, interpreting the 'divine message' with dramatic gestures."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 4.0,
                     "url": "media/c0133.jpg",
                     "query": "Close-up: Gralha's face as he speaks to the tribe — adding his own embellishments, twisting the traveler's simple words into prophecy."
-                },
-                {
-                    "offset": 3.02,
-                    "url": "media/c0134.jpg",
-                    "query": "Over-the-shoulder shot: Watching Gralha preach to the tribe, realizing the message has already been corrupted in translation."
                 }
             ],
             "hidden_media": [
@@ -1721,14 +1486,9 @@
                     "query": "Medium shot: A tech journalist at a press conference, rephrasing the CEO's announcement into sensational headlines for clicks."
                 },
                 {
-                    "offset": 0.93,
+                    "offset": 4.0,
                     "url": "media/c0136.jpg",
                     "query": "Close-up: A blog post being written: 'Why This Changes Everything' — the modern Gralha translating tech into religion."
-                },
-                {
-                    "offset": 3.02,
-                    "url": "media/c0137.jpg",
-                    "query": "Over-the-shoulder shot: A social media manager scheduling posts, packaging corporate jargon into emotional narratives."
                 }
             ],
             "words": [
@@ -1777,14 +1537,9 @@
                     "query": "Wide shot: The entire valley ablaze with dozens of bonfires. Hundreds of cave dwellers dance in frenzy. The sky glows orange with smoke and flame."
                 },
                 {
-                    "offset": 0.57,
+                    "offset": 2.59,
                     "url": "media/c0139.jpg",
                     "query": "Medium shot: Gralha, wearing a necklace of orange-painted stones, leads a war dance around the central fire, spear raised."
-                },
-                {
-                    "offset": 2.15,
-                    "url": "media/c0140.jpg",
-                    "query": "Close-up: The original BIC lighter sits on the stone altar, almost invisible among the chaos it created. The seed of an empire."
                 }
             ],
             "hidden_media": [
@@ -1794,14 +1549,9 @@
                     "query": "Wide shot: Times Square at night, every surface a glowing screen, thousands walking while staring at phones, illuminated zombies."
                 },
                 {
-                    "offset": 0.57,
+                    "offset": 2.59,
                     "url": "media/c0142.jpg",
                     "query": "Medium shot: A teenager surrounded by five screens — phone, tablet, laptop, monitor, TV — all showing different content simultaneously."
-                },
-                {
-                    "offset": 2.15,
-                    "url": "media/c0143.jpg",
-                    "query": "Close-up: Bloodshot eyes reflected in a phone screen at 3 AM, unable to stop scrolling, the digital bonfire consuming all sleep."
                 }
             ],
             "words": [
@@ -1850,14 +1600,9 @@
                     "query": "Close-up: Dozens of hand-carved stone replicas of the BIC lighter, each cradled by a tribe member. The first mass-produced religious icons."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 1.82,
                     "url": "media/c0145.jpg",
                     "query": "Medium shot: A mother teaches her child the CHAK-CHAK motion with two stones, passing down the sacred gesture to the next generation."
-                },
-                {
-                    "offset": 2.42,
-                    "url": "media/c0146.jpg",
-                    "query": "Extreme close-up: A cave painting being drawn on the wall — a crude rectangle with a flame on top. The lighter, immortalized in art."
                 }
             ],
             "hidden_media": [
@@ -1867,14 +1612,9 @@
                     "query": "Close-up: A box of old phones in a drawer — each once worshipped, now discarded, replaced by the newer model."
                 },
                 {
-                    "offset": 0.84,
+                    "offset": 1.82,
                     "url": "media/c0148.jpg",
                     "query": "Medium shot: An e-waste recycling facility, mountains of dead phones and tablets, the graveyard of yesterday's gods."
-                },
-                {
-                    "offset": 2.42,
-                    "url": "media/c0149.jpg",
-                    "query": "Extreme close-up: A cracked, dead phone screen in the garbage. A faint reflection of the sky — the fire has moved on."
                 }
             ],
             "words": [
@@ -1918,14 +1658,9 @@
                     "query": "Wide shot: A stone temple stands where the first fire was lit. Carved pillars depict the lighter. The tribe has become a civilization."
                 },
                 {
-                    "offset": 0.89,
+                    "offset": 2.38,
                     "url": "media/c0151.jpg",
                     "query": "Medium shot: Inside the temple, priests in orange-dyed robes perform the CHAK-CHAK ritual over a stone altar, the lighter long gone but the ritual eternal."
-                },
-                {
-                    "offset": 1.94,
-                    "url": "media/c0152.jpg",
-                    "query": "Close-up: An ancient cave painting on the temple wall showing the traveler arriving from the green phone booth. History becoming mythology."
                 }
             ],
             "hidden_media": [
@@ -1935,14 +1670,9 @@
                     "query": "Wide shot: A gleaming corporate headquarters shaped like a ring, a temple to the digital fire built by millions of believers."
                 },
                 {
-                    "offset": 0.89,
+                    "offset": 2.38,
                     "url": "media/c0154.jpg",
                     "query": "Medium shot: Inside the HQ, a museum displays every product generation behind glass, sacred relics of innovation."
-                },
-                {
-                    "offset": 1.94,
-                    "url": "media/c0155.jpg",
-                    "query": "Close-up: A bronze statue of the founder in the lobby, hands clasped, gazing forward. The accidental mage, immortalized in metal."
                 }
             ],
             "words": [
@@ -1991,14 +1721,9 @@
                     "query": "Wide tracking shot: An army of torch-bearers floods the valley, hundreds of flames creating a river of fire across the dark landscape."
                 },
                 {
-                    "offset": 0.9,
+                    "offset": 2.41,
                     "url": "media/c0157.jpg",
                     "query": "Medium shot: The traveler watches from a hilltop, overwhelmed. What started as a single CHAK-CHAK has become an unstoppable wildfire of belief."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0158.jpg",
-                    "query": "Close-up: A single tear rolls down the traveler's face, reflecting all the fires below. Pride, guilt, and terror in one drop."
                 }
             ],
             "hidden_media": [
@@ -2008,14 +1733,9 @@
                     "query": "Wide shot: A satellite image of Earth at night, every continent traced in electric light. The fire relay went global."
                 },
                 {
-                    "offset": 0.9,
+                    "offset": 2.41,
                     "url": "media/c0160.jpg",
                     "query": "Medium shot: A child in a developing nation holds a cracked smartphone, connecting to the same internet. The last fire pit reached."
-                },
-                {
-                    "offset": 1.95,
-                    "url": "media/c0161.jpg",
-                    "query": "Close-up: A notification counter on a phone showing '7 billion connected.' The modern fire relay, complete."
                 }
             ],
             "words": [
@@ -2064,7 +1784,7 @@
         {
             "id": "line_24_occ_0",
             "start": 120.104,
-            "end": 126.304,
+            "end": 126.16,
             "lyric": "Run, run, don't let it die!",
             "real_meaning": "The imperative of the rat race: Keep moving, keep consuming, keep running. To stop is to let the illusion die, exposing the emptiness.",
             "media": [
@@ -2074,14 +1794,9 @@
                     "query": "Wide shot: Dawn breaks over the valley of fires. The traveler stands at the edge of the green phone booth, hand on the door, looking back."
                 },
                 {
-                    "offset": 0.62,
+                    "offset": 3.19,
                     "url": "media/c0163.jpg",
                     "query": "Medium shot: Gralha runs toward the traveler, reaching out, desperate. But the door is closing. The god is leaving."
-                },
-                {
-                    "offset": 3.26,
-                    "url": "media/c0164.jpg",
-                    "query": "Close-up: The phone booth door shuts. Through the green glass, the traveler's face — relief and loss. The fire will burn without them."
                 }
             ],
             "hidden_media": [
@@ -2091,14 +1806,9 @@
                     "query": "Wide shot: A server farm humming in the arctic, autonomous, self-sustaining. The digital fire no longer needs its creator."
                 },
                 {
-                    "offset": 0.62,
+                    "offset": 3.19,
                     "url": "media/c0166.jpg",
                     "query": "Medium shot: The original garage where it all started, now empty, a 'For Lease' sign on the door. The founders have moved on."
-                },
-                {
-                    "offset": 3.26,
-                    "url": "media/c0167.jpg",
-                    "query": "Close-up: A phone screen showing 'Update Available.' The fire never stops. Run, run, don't let it die."
                 }
             ],
             "words": [
@@ -2136,275 +1846,283 @@
         }
     ],
     "beat_times": [
-        2.81,
-        3.367,
-        3.878,
-        4.412,
-        4.923,
-        5.457,
-        5.968,
-        6.502,
-        7.036,
-        7.57,
-        8.081,
-        8.615,
-        9.149,
-        9.66,
-        10.194,
-        10.704,
-        11.238,
-        11.796,
-        12.307,
-        12.841,
-        13.351,
-        13.909,
-        14.42,
-        14.93,
-        15.441,
-        15.999,
-        16.509,
-        17.043,
-        17.578,
-        18.112,
-        18.622,
-        19.133,
-        19.644,
-        20.178,
+        0.093,
+        0.65,
+        1.161,
+        1.695,
+        2.229,
+        2.763,
+        3.274,
+        3.785,
+        4.319,
+        4.853,
+        5.387,
+        5.898,
+        6.432,
+        6.966,
+        7.477,
+        8.011,
+        8.522,
+        9.056,
+        9.59,
+        10.124,
+        10.635,
+        11.169,
+        11.703,
+        12.214,
+        12.748,
+        13.282,
+        13.816,
+        14.35,
+        14.861,
+        15.395,
+        15.906,
+        16.44,
+        16.951,
+        17.485,
+        18.019,
+        18.53,
+        19.064,
+        19.598,
+        20.132,
         20.643,
-        21.13,
-        21.641,
-        22.152,
-        22.663,
-        23.197,
-        23.731,
-        24.265,
-        24.799,
-        25.333,
-        25.821,
-        26.378,
-        27.028,
-        27.562,
-        28.096,
-        28.63,
-        29.141,
-        29.675,
-        30.209,
-        30.72,
-        31.254,
-        31.788,
-        32.299,
-        32.833,
-        33.367,
-        33.878,
-        34.412,
-        34.946,
-        35.457,
-        35.991,
-        36.502,
-        37.036,
-        37.57,
-        38.104,
-        38.615,
-        39.149,
-        39.66,
-        40.194,
-        40.728,
-        41.262,
-        41.773,
-        42.307,
-        42.818,
-        43.352,
-        43.886,
-        44.42,
-        44.931,
-        45.465,
-        45.999,
-        46.51,
-        47.044,
-        47.578,
-        48.089,
-        48.623,
-        49.133,
-        49.667,
-        50.178,
-        50.712,
-        51.246,
-        51.78,
-        52.291,
-        52.825,
-        53.359,
-        53.87,
-        54.404,
-        54.938,
-        55.472,
-        55.983,
-        56.517,
-        57.051,
-        57.562,
-        58.073,
-        58.607,
-        59.141,
-        59.675,
-        60.209,
-        60.72,
-        61.231,
-        61.765,
-        62.299,
-        62.833,
-        63.367,
-        63.878,
-        64.412,
-        64.946,
-        65.457,
-        65.991,
-        66.525,
-        67.036,
-        67.57,
-        68.104,
-        68.615,
-        69.149,
-        69.683,
-        70.194,
-        70.728,
-        71.262,
-        71.773,
-        72.307,
-        72.841,
-        73.352,
-        73.886,
-        74.397,
-        74.931,
-        75.465,
-        75.999,
-        76.51,
-        77.044,
-        77.555,
-        78.089,
-        78.623,
-        79.157,
-        79.668,
-        80.202,
-        80.736,
-        81.247,
-        81.781,
-        82.315,
-        82.826,
-        83.36,
-        83.87,
-        84.381,
-        84.892,
-        85.449,
-        85.983,
-        86.518,
-        87.052,
-        87.562,
-        88.027,
-        88.514,
-        89.025,
-        89.536,
-        90.07,
-        90.604,
-        91.138,
-        91.649,
-        92.206,
-        92.833,
-        93.367,
-        93.878,
-        94.412,
-        94.946,
-        95.457,
-        95.991,
-        96.525,
-        97.036,
-        97.57,
-        98.081,
-        98.615,
-        99.149,
-        99.683,
-        100.194,
-        100.728,
-        101.262,
-        101.773,
-        102.307,
-        102.841,
-        103.352,
-        103.886,
-        104.42,
-        104.931,
-        105.465,
-        105.999,
-        106.51,
-        107.044,
-        107.578,
-        108.089,
-        108.623,
-        109.157,
-        109.668,
-        110.202,
-        110.736,
-        111.247,
-        111.781,
-        112.315,
-        112.826,
-        113.36,
-        113.894,
-        114.405,
-        114.939,
-        115.45,
-        115.984,
-        116.518,
-        117.052,
-        117.563,
-        118.097,
-        118.608,
-        119.142,
-        119.676,
-        120.21,
-        120.721,
-        121.255,
-        121.789,
-        122.3,
-        122.834,
-        123.368,
-        123.878,
-        124.413,
-        124.947,
-        125.457,
-        125.991,
-        126.526,
-        127.036,
-        127.57,
-        128.104,
-        128.615,
-        129.149,
-        129.683,
-        130.194,
-        130.728,
-        131.262,
-        131.773,
-        132.307,
-        132.841,
-        133.352,
-        133.886,
-        134.42,
-        134.931,
-        135.465,
-        135.976,
-        136.51,
-        137.044,
-        137.555,
-        138.089,
-        138.623,
-        139.157,
-        139.691,
-        140.202,
-        140.713,
-        141.27,
-        141.827,
-        142.385,
-        142.919,
-        143.453,
-        144.01
+        21.177,
+        21.687,
+        22.245,
+        22.756,
+        23.266,
+        23.824,
+        24.335,
+        24.822,
+        25.379,
+        25.913,
+        26.448,
+        26.958,
+        27.492,
+        28.003,
+        28.537,
+        29.071,
+        29.605,
+        30.116,
+        30.65,
+        31.184,
+        31.695,
+        32.229,
+        32.763,
+        33.274,
+        33.808,
+        34.319,
+        34.853,
+        35.387,
+        35.921,
+        36.432,
+        36.966,
+        37.5,
+        38.011,
+        38.545,
+        39.079,
+        39.59,
+        40.124,
+        40.658,
+        41.192,
+        41.703,
+        42.214,
+        42.748,
+        43.282,
+        43.816,
+        44.327,
+        44.861,
+        45.372,
+        45.906,
+        46.44,
+        46.974,
+        47.485,
+        48.019,
+        48.53,
+        49.064,
+        49.598,
+        50.132,
+        50.643,
+        51.177,
+        51.711,
+        52.222,
+        52.756,
+        53.29,
+        53.801,
+        54.335,
+        54.846,
+        55.38,
+        55.914,
+        56.424,
+        56.959,
+        57.493,
+        58.003,
+        58.538,
+        59.072,
+        59.606,
+        60.14,
+        60.651,
+        61.161,
+        61.695,
+        62.229,
+        62.74,
+        63.274,
+        63.808,
+        64.342,
+        64.853,
+        65.387,
+        65.921,
+        66.432,
+        66.966,
+        67.5,
+        68.011,
+        68.545,
+        69.079,
+        69.59,
+        70.101,
+        70.635,
+        71.169,
+        71.703,
+        72.214,
+        72.748,
+        73.282,
+        73.816,
+        74.327,
+        74.861,
+        75.395,
+        75.906,
+        76.417,
+        76.951,
+        77.485,
+        78.019,
+        78.53,
+        79.064,
+        79.598,
+        80.132,
+        80.643,
+        81.177,
+        81.711,
+        82.222,
+        82.756,
+        83.29,
+        83.801,
+        84.335,
+        84.869,
+        85.38,
+        85.867,
+        86.425,
+        86.959,
+        87.493,
+        88.004,
+        88.538,
+        89.072,
+        89.583,
+        90.117,
+        90.651,
+        91.162,
+        91.696,
+        92.16,
+        92.74,
+        93.275,
+        93.809,
+        94.343,
+        94.854,
+        95.388,
+        95.898,
+        96.432,
+        96.967,
+        97.501,
+        98.011,
+        98.545,
+        99.056,
+        99.567,
+        100.101,
+        100.659,
+        101.193,
+        101.727,
+        102.237,
+        102.772,
+        103.282,
+        103.793,
+        104.327,
+        104.861,
+        105.395,
+        105.906,
+        106.44,
+        106.974,
+        107.485,
+        108.019,
+        108.553,
+        109.064,
+        109.598,
+        110.132,
+        110.643,
+        111.177,
+        111.711,
+        112.222,
+        112.756,
+        113.29,
+        113.801,
+        114.312,
+        114.846,
+        115.38,
+        115.914,
+        116.448,
+        116.959,
+        117.493,
+        118.027,
+        118.561,
+        119.072,
+        119.606,
+        120.14,
+        120.674,
+        121.185,
+        121.719,
+        122.23,
+        122.764,
+        123.298,
+        123.809,
+        124.343,
+        124.877,
+        125.388,
+        125.922,
+        126.433,
+        126.967,
+        127.501,
+        128.012,
+        128.546,
+        129.08,
+        129.591,
+        130.125,
+        130.659,
+        131.17,
+        131.704,
+        132.238,
+        132.748,
+        133.283,
+        133.817,
+        134.327,
+        134.861,
+        135.396,
+        135.906,
+        136.44,
+        136.975,
+        137.485,
+        138.019,
+        138.553,
+        139.064,
+        139.598,
+        140.109,
+        140.643,
+        141.131,
+        141.688,
+        142.222,
+        142.71,
+        143.29,
+        143.824,
+        144.358,
+        144.869,
+        145.357
     ],
     "energy_curve": [
         [

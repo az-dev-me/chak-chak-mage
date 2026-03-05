@@ -272,9 +272,10 @@ def analyze_album_tracks(album_dir: Path) -> dict[str, dict]:
         track_id = track.get("track_id") or track.get("id", "")
         slot = track.get("slot", 0)
 
-        # Find audio file
+        # Find audio file — prefer audio_path from album_config
         audio_path = None
         candidates = [
+            album_dir / track.get("audio_path", ""),
             album_dir / f"{slot:02d} - {track_id}.mp3",
             album_dir / track.get("audioFile", ""),
         ]

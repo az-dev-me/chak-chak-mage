@@ -769,9 +769,9 @@
                     "source": "canonical"
                 },
                 {
-                    "start": 59.08,
+                    "start": 59.02,
                     "end": 59.64,
-                    "text": "lichens,",
+                    "text": "Lituur,",
                     "source": "ad-lib"
                 },
                 {
@@ -858,7 +858,7 @@
         },
         {
             "start": 68.352,
-            "end": 69.088,
+            "end": 69.66,
             "text": "\"...night time...\"",
             "words": [
                 {
@@ -877,7 +877,7 @@
         },
         {
             "start": 69.66,
-            "end": 70.08,
+            "end": 72.24,
             "text": "\"...the wheel...\"",
             "words": [
                 {
@@ -891,6 +891,36 @@
                     "end": 70.08,
                     "text": "wheel...\"",
                     "source": "canonical"
+                },
+                {
+                    "start": 70.08,
+                    "end": 70.82,
+                    "text": "Ho",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 70.82,
+                    "end": 71.18,
+                    "text": "-ho",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 71.18,
+                    "end": 71.54,
+                    "text": "-ho",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 71.54,
+                    "end": 71.82,
+                    "text": "-ho",
+                    "source": "ad-lib"
+                },
+                {
+                    "start": 71.82,
+                    "end": 72.24,
+                    "text": "-ho",
+                    "source": "ad-lib"
                 }
             ]
         }

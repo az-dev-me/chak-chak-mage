@@ -14,16 +14,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0582.jpg",
                     "query": "Wide shot: The tribe is in complete disarray. Some worship the box, some worship the stones."
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0583.jpg",
-                    "query": "Medium shot: The Gralhistas aggressively point at the Orange Box, refusing to acknowledge Muda's real fire."
-                },
-                {
-                    "offset": 1.54,
-                    "url": "media/c0584.jpg",
-                    "query": "Close-up: The Mudistas fiercely clashing stones together in a mocking, rhythmic chant toward the Gralhistas."
                 }
             ],
             "hidden_media": [
@@ -31,16 +21,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0585.jpg",
                     "query": "Wide shot: A massive, screaming protest outside a tech headquarters. Signs waving, police barricades in place."
-                },
-                {
-                    "offset": 0.96,
-                    "url": "media/c0586.jpg",
-                    "query": "Medium shot: Dueling megaphones. Two distinct factions violently chanting slogans at each other."
-                },
-                {
-                    "offset": 1.54,
-                    "url": "media/c0587.jpg",
-                    "query": "Close-up: A frightened middle manager stuck in their car between the two screaming factions, doors locked, terrified of both."
                 }
             ],
             "words": [
@@ -97,16 +77,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0588.jpg",
                     "query": "Wide panning shot: The camp is lit by competing fires. The tension is unbearable. Shadows dance violently on the cave walls."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0589.jpg",
-                    "query": "Medium shot: Tronco sits in the absolute center, paralyzed by the conflicting ideologies, hugging his knees."
-                },
-                {
-                    "offset": 1.62,
-                    "url": "media/c0590.jpg",
-                    "query": "Close-up: Tronco whimpering in the firelight, terrified of the darkness beyond the camp."
                 }
             ],
             "hidden_media": [
@@ -114,16 +84,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0591.jpg",
                     "query": "Medium shot: The algorithm at work. Servers parsing the anger, converting the screaming into targeted advertising revenue."
-                },
-                {
-                    "offset": 0.67,
-                    "url": "media/c0592.jpg",
-                    "query": "Close-up: The 'Terms of Service' update screen. The faceless bureaucracy quietly tightening control while everyone fights."
-                },
-                {
-                    "offset": 1.62,
-                    "url": "media/c0593.jpg",
-                    "query": "Wide panning shot: The culture war raging on the street, while the executive suites above remain perfectly calm and dark."
                 }
             ],
             "words": [
@@ -170,16 +130,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0594.jpg",
                     "query": "A vast, firelit prehistoric valley. Towering rocks form a colossal box structure, casting long shadows."
-                },
-                {
-                    "offset": 0.85,
-                    "url": "media/c0595.jpg",
-                    "query": "A tense standoff around a dying campfire. Two tribes face off, one side with glowing hot embers in their eyes and the other with cold, steely gazes."
-                },
-                {
-                    "offset": 1.81,
-                    "url": "media/c0596.jpg",
-                    "query": "A close-up of a Mudista woman, eyes wide with defiance, as she is surrounded by Gralhistas, their faces twisted with rage."
                 }
             ],
             "hidden_media": [
@@ -187,16 +137,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0597.jpg",
                     "query": "A sprawling cityscape at night, neon lights reflect on rain-soaked streets, people rush home from work, with a huge digital billboard displaying the phrase \"Terms of Service\" in bo"
-                },
-                {
-                    "offset": 0.85,
-                    "url": "media/c0598.jpg",
-                    "query": "A protestor, wearing a mask and holding a flag, stands in the center of a crowded street, while on the opposite side another protestor stands. The two are separated by a line of ri"
-                },
-                {
-                    "offset": 1.81,
-                    "url": "media/c0599.jpg",
-                    "query": "A close-up of the face of a protestor, eyes wide with determination, a tear-streaked cheek, and a raised fist."
                 }
             ],
             "words": [
@@ -243,16 +183,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0600.jpg",
                     "query": "A vast prehistoric landscape at dusk, a towering wooden box center frame, smoke rising from distant fires."
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0601.jpg",
-                    "query": "Two tribes face off, one holding torches, the other ice crystals, dramatic firelight on their faces."
-                },
-                {
-                    "offset": 1.37,
-                    "url": "media/c0602.jpg",
-                    "query": "A close-up of a man's face, eyes reflecting the dance of two fires, his expression of fierce loyalty."
                 }
             ],
             "hidden_media": [
@@ -260,16 +190,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0603.jpg",
                     "query": "A sprawling cityscape at dusk, neon lights reflect off rain-soaked streets, skyscrapers cast long shadows, a lone figure stands in the center of the frame, holding a glowing tablet"
-                },
-                {
-                    "offset": 0.91,
-                    "url": "media/c0604.jpg",
-                    "query": "A crowded urban plaza, divided protesters face off, one side in corporate uniforms, the other in casual attire, both sides chanting silently, phones raised high."
-                },
-                {
-                    "offset": 1.37,
-                    "url": "media/c0605.jpg",
-                    "query": "A close-up of a young person, eyes gleaming with pride, wearing a corporate uniform, clutching a glowing device, a sense of duty and belonging etched on their face."
                 }
             ],
             "words": [
@@ -326,16 +246,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0606.jpg",
                     "query": "A vast prehistoric landscape at dusk. Firelit huts scattered, smoke rising. Giant box monument looms."
-                },
-                {
-                    "offset": 0.81,
-                    "url": "media/c0607.jpg",
-                    "query": "Muda defies Gral-ha, a tense standoff. Two separate fires glow behind each leader, one in each camp."
-                },
-                {
-                    "offset": 1.29,
-                    "url": "media/c0608.jpg",
-                    "query": "Muda's hand touches the stone. Warm tones, firelight reflects on his face. Empowered, determined."
                 }
             ],
             "hidden_media": [
@@ -343,16 +253,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0609.jpg",
                     "query": "A sprawling cityscape at dusk, skyscrapers reflected in a dark river, a large screen displaying a scrolling Terms of Service agreement."
-                },
-                {
-                    "offset": 0.81,
-                    "url": "media/c0610.jpg",
-                    "query": "Crowds clashing at a protest in a narrow city alley, smartphones raised, cool neon lights reflecting off their faces."
-                },
-                {
-                    "offset": 1.29,
-                    "url": "media/c0611.jpg",
-                    "query": "A close-up of a hand gripping a stone, the hand shaking, the stone in focus, the face of the hand's owner partially visible."
                 }
             ],
             "words": [
@@ -409,16 +309,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0612.jpg",
                     "query": "A vast prehistoric valley, a towering wooden Box at the center, smoke billowing, warm firelight illuminating the stone structures. A single figure at the Box, back to the camera."
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0613.jpg",
-                    "query": "Two figures face each other, fire burning in a pit between them, one figure raising a torch, the other looking on."
-                },
-                {
-                    "offset": 1.77,
-                    "url": "media/c0614.jpg",
-                    "query": "A close up of a face, eyes wide with realization, flames reflected in their pupils, a single spark dancing off the face."
                 }
             ],
             "hidden_media": [
@@ -426,16 +316,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0615.jpg",
                     "query": "A sprawling cityscape at dusk, neon lights reflect on wet streets, massive screens display scrolling terms of service, people walking by looking at phones."
-                },
-                {
-                    "offset": 0.79,
-                    "url": "media/c0616.jpg",
-                    "query": "A tense city park, two separate groups protesting, one holding tech brand flags, the other with placards of cancel symbols, a fire barrel in the middle."
-                },
-                {
-                    "offset": 1.77,
-                    "url": "media/c0617.jpg",
-                    "query": "A close-up of a person's face, eyes wide with realization, as they watch a video on their phone revealing the truth behind a viral story, the fire behind them."
                 }
             ],
             "words": [
@@ -482,16 +362,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0618.jpg",
                     "query": "A vast prehistoric valley under a fiery sunset, smoke from distant fires swirling,  the Box looms large at the center.  A dark figure stands atop, looking out."
-                },
-                {
-                    "offset": 0.8,
-                    "url": "media/c0619.jpg",
-                    "query": "Two rival tribes stand off, each surrounding a roaring fire, one led by a man with a wooden staff, the other by a woman wielding a stone axe. One fire burns bright while the other"
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0620.jpg",
-                    "query": "A close-up of a man's face,  eyes wide with fear and awe as he watches a trickster perform a sleight of hand, the trickster's eyes glinting in the firelight."
                 }
             ],
             "hidden_media": [
@@ -499,16 +369,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0621.jpg",
                     "query": "A sprawling cityscape at dusk, neon lights reflect off rain-soaked streets, a corporate tower looms in the center."
-                },
-                {
-                    "offset": 0.8,
-                    "url": "media/c0622.jpg",
-                    "query": "A protester and a CEO meet face-to-face. The protester is in a hoodie, holding a smartphone. The CEO is in a suit, with a neutral expression, standing in a busy street."
-                },
-                {
-                    "offset": 1.75,
-                    "url": "media/c0623.jpg",
-                    "query": "A close-up of a hand reaching out, pulling aside a curtain, revealing a man in a suit."
                 }
             ],
             "words": [
@@ -565,16 +425,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0624.jpg",
                     "query": "A vast prehistoric landscape, a massive stone box sits center, firelit, casting a warm glow."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0625.jpg",
-                    "query": "Two tribes face off, one in a box-like formation, the other around a blazing fire."
-                },
-                {
-                    "offset": 1.8,
-                    "url": "media/c0626.jpg",
-                    "query": "A close-up of a figure holding a spark, a single ember in a dark, earthen night."
                 }
             ],
             "hidden_media": [
@@ -582,16 +432,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0627.jpg",
                     "query": "Dystopian cityscape. Corporate skyscrapers. Ominous grey clouds."
-                },
-                {
-                    "offset": 0.83,
-                    "url": "media/c0628.jpg",
-                    "query": "Crowd split. One side: tech gadgets, trendy clothes. Other side: protest signs, determined faces."
-                },
-                {
-                    "offset": 1.8,
-                    "url": "media/c0629.jpg",
-                    "query": "Hands outstretched. Smartphones. Touching. Green park."
                 }
             ],
             "words": [
@@ -648,16 +488,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0630.jpg",
                     "query": "A vast prehistoric valley at dusk, a massive tree at the center, surrounded by primitive dwellings, firelight flickers, shadows dance on the landscape."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0631.jpg",
-                    "query": "A tense stand-off, two tribes face each other, one side wielding primitive tools, the other armed with stones, eyes aglow with the light of the fires burning in front of them."
-                },
-                {
-                    "offset": 1.2,
-                    "url": "media/c0632.jpg",
-                    "query": "A close-up of a figure, eyes wide with fear and determination, hands outstretched, flames licking at fingers, the firelight illuminates the figure's face, capturing the raw emotion"
                 }
             ],
             "hidden_media": [
@@ -665,16 +495,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0633.jpg",
                     "query": "A vast cityscape at dusk, neon lights reflecting off rain-soaked streets, skyscrapers towering with digital billboards displaying conflicting news headlines."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0634.jpg",
-                    "query": "Dueling protests face off at a city intersection, one side with vibrant, futuristic placards, the other with traditional symbols, both sides locked in passionate tribal chanting."
-                },
-                {
-                    "offset": 1.2,
-                    "url": "media/c0635.jpg",
-                    "query": "A close-up of two hands, one clutching a smartphone displaying a heated argument, the other holding a worn-out book, both hands reaching towards each other."
                 }
             ],
             "words": [
@@ -711,16 +531,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0636.jpg",
                     "query": "A vast, prehistoric landscape at dusk, a towering, box-shaped structure dominates the horizon. Firelit settlements sprawl beneath a vast sky."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0637.jpg",
-                    "query": "Muda stands defiant, facing Gralha. Flames from a bonfire cast dramatic shadows. Warm tones,  mudda’s eyes reflect the fire."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0638.jpg",
-                    "query": "up of Muda's and Gralha’s faces.  Flames flicker in their eyes.  Both are lit by the same fire."
                 }
             ],
             "hidden_media": [
@@ -728,16 +538,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0639.jpg",
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets, skyscrapers towering, digital billboards flashing."
-                },
-                {
-                    "offset": 0.76,
-                    "url": "media/c0640.jpg",
-                    "query": "A divided crowd at a protest, smartphones raised, faces illuminated by screens, both sides facing off."
-                },
-                {
-                    "offset": 1.23,
-                    "url": "media/c0641.jpg",
-                    "query": "A close-up of two opposing protestors, both with clenched fists and fiery eyes."
                 }
             ],
             "words": [
@@ -779,16 +579,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0642.jpg",
                     "query": "A vast prehistoric valley under a fiery sunset. Smoke billows from a distant cave, center of a primitive settlement."
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0643.jpg",
-                    "query": "Two opposing tribes face off, one side with crude, boxlike structures, the other with round, warmly glowing structures. The tension is palpable."
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0644.jpg",
-                    "query": "A close-up of a mudista's face, eyes wide with fervor, mouth open in a silent shout, flames reflecting in their eyes."
                 }
             ],
             "hidden_media": [
@@ -796,16 +586,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0645.jpg",
                     "query": "Aerial view of a sprawling cityscape at dusk. Skyscrapers reflect cool neon lights. Protruding screens show live feeds of dueling protests. Smoke rises from street-level fires. Two"
-                },
-                {
-                    "offset": 0.6,
-                    "url": "media/c0646.jpg",
-                    "query": "Dueling protests on a busy city street. One side holds signs with corporate logos, the other with tribal symbols. Faces are blurred, emotions intense. Smoke fills the air. Two fire"
-                },
-                {
-                    "offset": 1.09,
-                    "url": "media/c0647.jpg",
-                    "query": "A close-up of two fists raised into the air in a fistfight, one hand holds a glowing phone. Flames from a nearby fire cast flickering shadows.  One hand is a fist. The other is ope"
                 }
             ],
             "words": [
@@ -842,16 +622,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0648.jpg",
                     "query": "Vast prehistoric valley, two towering rocks frame a bonfire. Warm tones, cinematic. Prehistoric landscape, Box is law."
-                },
-                {
-                    "offset": 0.38,
-                    "url": "media/c0649.jpg",
-                    "query": "Two rival groups, Gralhistas and Mudistas, stand in firelit confrontation, both pointing to their fire. Mudistas huddle around their fire, Gralhistas stand around another fire. Pre"
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0650.jpg",
-                    "query": "A close-up of Tronco, eyes wide, frozen, paralyzed, questioning, firelight reflecting in his eyes."
                 }
             ],
             "hidden_media": [
@@ -859,16 +629,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0651.jpg",
                     "query": "Aerial view of cityscape at night, neon lights reflecting on rain-soaked streets. Towering skyscrapers loom, the cityscape's skyline illuminated by the glow of technology. A split-"
-                },
-                {
-                    "offset": 0.38,
-                    "url": "media/c0652.jpg",
-                    "query": "Dueling protest crowds in a bustling city plaza, each side wearing distinct colors and tribal markings. Banners are raised and chants are heard, but the scene is calm. Fear of viol"
-                },
-                {
-                    "offset": 0.75,
-                    "url": "media/c0653.jpg",
-                    "query": "A close-up of the tense gaze between two protesters from opposing sides. The fear of the other is mirrored in their eyes."
                 }
             ],
             "words": [
@@ -905,16 +665,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0654.jpg",
                     "query": "A vast, prehistoric valley at dusk.  Firelight from scattered campfires illuminate the landscape and the imposing Box structure."
-                },
-                {
-                    "offset": 0.93,
-                    "url": "media/c0655.jpg",
-                    "query": "Two rival tribes face off, firelight dancing on their faces.  One group, Gralhistas, stand united, eyes gleaming."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0656.jpg",
-                    "query": "A Gralhista warrior's intense expression.  Eyes closed, mouth open, shouting the sacred rallying chant, \"GRAL-HA!"
                 }
             ],
             "hidden_media": [
@@ -922,16 +672,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0657.jpg",
                     "query": "A bustling cityscape at dusk, skyscrapers reflecting cool blue hues, neon lights flickering. A protest and counter-protest on a street, flags and banners everywhere."
-                },
-                {
-                    "offset": 0.93,
-                    "url": "media/c0658.jpg",
-                    "query": "A tense city street corner, two opposing mobs face off, phones and cameras out. A lone figure stands between, arms raised in a call for peace."
-                },
-                {
-                    "offset": 1.39,
-                    "url": "media/c0659.jpg",
-                    "query": "A defiant face, eyes focused, mouth open in a primal roar, a sea of similar faces behind them, fists pumped, a brand logo on their shirt."
                 }
             ],
             "words": [
@@ -949,8 +689,8 @@ var track_06_data = {
         },
         {
             "id": "line_13_occ_0",
-            "start": 48.44,
-            "end": 51.74,
+            "start": 48.64,
+            "end": 51.78,
             "lyric": "MU-DA! MU-DA!",
             "real_meaning": "The counter-chant (Mu-da): The rebellion becomes equally tribal, equally reductive. Both sides devolve into mindless slogans.",
             "media": [
@@ -958,16 +698,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0660.jpg",
                     "query": "A vast prehistoric valley, fire pits dotting the landscape, tribal figures gathered around, a massive box towering over the scene."
-                },
-                {
-                    "offset": 0.97,
-                    "url": "media/c0661.jpg",
-                    "query": "Two tribes face each other, one side in a heated discussion, the other chanting fiercely, a frozen Tronco in the middle."
-                },
-                {
-                    "offset": 1.92,
-                    "url": "media/c0662.jpg",
-                    "query": "A close-up of a Gralhista's face, eyes ablaze with passion, mouth wide open in a defiant shout, warm tones."
                 }
             ],
             "hidden_media": [
@@ -975,16 +705,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0663.jpg",
                     "query": "Aerial view of a sprawling cityscape at dusk, neon lights reflect off rain-soaked streets, skyscrapers loom with digital billboards displaying terms of service."
-                },
-                {
-                    "offset": 0.97,
-                    "url": "media/c0664.jpg",
-                    "query": "Dueling protests in a bustling urban plaza, one side clad in neon blue, the other in neon red, phones raised, faces obscured by glowing screens."
-                },
-                {
-                    "offset": 1.92,
-                    "url": "media/c0665.jpg",
-                    "query": "up of a determined face, voice raised in a tribal chant, a reflection of a crowd of opposing voices on their smartphone screen."
                 }
             ],
             "words": [
@@ -1013,14 +733,9 @@ var track_06_data = {
                     "query": "A vast prehistoric valley, two tribes camped apart, one by a towering rock formation, the other by a vast lake. Firelight casts long shadows under a starry sky."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 2.13,
                     "url": "media/c0667.jpg",
                     "query": "Tronco stands between two warriors, one with a spear, the other a club, flames reflected in their eyes, tense, ready to strike."
-                },
-                {
-                    "offset": 1.64,
-                    "url": "media/c0668.jpg",
-                    "query": "Tronco’s face, eyes wide with fear, mouth open, as he hesitates, frozen between two raging fires."
                 }
             ],
             "hidden_media": [
@@ -1030,14 +745,9 @@ var track_06_data = {
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off sleek skyscrapers, and protestors with megaphones and signs gathering in the streets."
                 },
                 {
-                    "offset": 0.69,
+                    "offset": 2.13,
                     "url": "media/c0670.jpg",
                     "query": "A split-screen view of two opposing protests, one side with neon green glow sticks, the other neon red glow sticks, in the heart of a bustling city."
-                },
-                {
-                    "offset": 1.64,
-                    "url": "media/c0671.jpg",
-                    "query": "A close-up of a person's face, eyes wide with indecision, standing at the center of the two opposing sides of a crowd, with each hand raised and palm outstretched to each side."
                 }
             ],
             "words": [
@@ -1081,14 +791,9 @@ var track_06_data = {
                     "query": "A vast prehistoric landscape bathed in warm, firelit hues.  A towering stone box dominates the scene, while two fires rage in the distance. Cinematic painterly."
                 },
                 {
-                    "offset": 0.6,
+                    "offset": 2.99,
                     "url": "media/c0673.jpg",
                     "query": "Two tribes clash under a fiery sky, one wielding stone weapons, the other a burning torch. Mudistas attack Gralhistas at a stone box."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0674.jpg",
-                    "query": "A man frozen in fear. His eyes dart between the two raging fires, hands trembling, unsure of which way to go."
                 }
             ],
             "hidden_media": [
@@ -1098,14 +803,9 @@ var track_06_data = {
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off rain-soaked streets, skyscrapers looming, a sense of urban isolation and modern digital contracts."
                 },
                 {
-                    "offset": 0.6,
+                    "offset": 2.99,
                     "url": "media/c0676.jpg",
                     "query": "A divided city square, protesters on both sides, flags waving, faces tense and angry.  Cool-toned and modern."
-                },
-                {
-                    "offset": 2.02,
-                    "url": "media/c0677.jpg",
-                    "query": "A lone figure standing frozen in a crowd, hands in pockets, face a neutral expression, eyes filled with uncertainty and fear.  Photographic."
                 }
             ],
             "words": [
@@ -1159,14 +859,9 @@ var track_06_data = {
                     "query": "A vast prehistoric plain stretches under a stormy sky. The silhouette of a towering rock formation looms in the distance. A single fire burns at the base."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 2.15,
                     "url": "media/c0679.jpg",
                     "query": "Two figures stand in the firelight. A tall man holds a wooden box. A woman holds a glowing ember."
-                },
-                {
-                    "offset": 1.68,
-                    "url": "media/c0680.jpg",
-                    "query": "The woman's eyes dance with defiance. The man's grip tightens around the box."
                 }
             ],
             "hidden_media": [
@@ -1176,14 +871,9 @@ var track_06_data = {
                     "query": "A sprawling cityscape at dusk, neon lights reflecting on rain-soaked streets, towers of glass and steel looming. Protesters with smartphones clashing."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 2.15,
                     "url": "media/c0682.jpg",
                     "query": "A divided room, one side in red, the other in blue, separated by a wall of TV screens broadcasting opposing news channels."
-                },
-                {
-                    "offset": 1.68,
-                    "url": "media/c0683.jpg",
-                    "query": "A close-up of two fists clenching, one holding a glowing spark, the other gripping a cold, dark box, hands shaking."
                 }
             ],
             "words": [
@@ -1240,16 +930,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0684.jpg",
                     "query": "A vast prehistoric landscape at dusk, a colossal stone box dominates the horizon, fire pits dot the scene, the warmth of the flames painting the sky in hues of orange and red."
-                },
-                {
-                    "offset": 0.94,
-                    "url": "media/c0685.jpg",
-                    "query": "A tense standoff between two tribes, one gathered around a roaring fire, the other huddled around an extinguished one, faces illuminated by the flickering flames, eyes fixed on eac"
-                },
-                {
-                    "offset": 1.9,
-                    "url": "media/c0686.jpg",
-                    "query": "A close-up of a trembling hand reaching out towards the dying embers, fingers clutching at the remnants of warmth and light, the rest of the body obscured by shadows."
                 }
             ],
             "hidden_media": [
@@ -1257,16 +937,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0687.jpg",
                     "query": "A sprawling cityscape at dusk, neon lights reflecting on rain-soaked streets, crowds protesting with banners, smart phones. Split screens of news broadcasts on digital billboards."
-                },
-                {
-                    "offset": 0.94,
-                    "url": "media/c0688.jpg",
-                    "query": "A tense stand-off at a city intersection, two opposing protest groups, faces obscured by masks, holding smartphones, displaying tribal symbols."
-                },
-                {
-                    "offset": 1.9,
-                    "url": "media/c0689.jpg",
-                    "query": "A close-up of a protester's eyes, wide with fear, tears streaming down their cheek, holding a smartphone with a news alert."
                 }
             ],
             "words": [
@@ -1313,16 +983,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0690.jpg",
                     "query": "A vast prehistoric valley at dusk, two massive fires burning brightly, each side of the valley inhabited by different tribes, cinematic."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0691.jpg",
-                    "query": "A close, dramatic struggle between two tribes, warm tones, firelight casting shadows on their faces."
-                },
-                {
-                    "offset": 1.66,
-                    "url": "media/c0692.jpg",
-                    "query": "The eyes of a warrior, one iris reflecting the orange firelight of their tribe, the other showing fear of the approaching dark."
                 }
             ],
             "hidden_media": [
@@ -1330,16 +990,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0693.jpg",
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off rainy streets, skyscrapers towering above bustling crowds and mobile phones aglow."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0694.jpg",
-                    "query": "Dueling protests on the streets.  Crowds facing each other, one side in black, the other in red. Tribal chants echo between them."
-                },
-                {
-                    "offset": 1.66,
-                    "url": "media/c0695.jpg",
-                    "query": "A close up of a young woman's face. Tearful eyes reflecting the flames of a burning building in the distance."
                 }
             ],
             "words": [
@@ -1376,16 +1026,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0696.jpg",
                     "query": "A vast, prehistoric landscape at sunset, a massive stone box dominating the horizon, warm tones and fire lit."
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0697.jpg",
-                    "query": "Two rival tribes face off, fire pits ablaze, smoke billowing, intense expressions."
-                },
-                {
-                    "offset": 1.17,
-                    "url": "media/c0698.jpg",
-                    "query": "Two faces, illuminated by firelight, eyes reflecting the dancing flames, fear and determination."
                 }
             ],
             "hidden_media": [
@@ -1393,16 +1033,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0699.jpg",
                     "query": "Cityscape at dusk, neon lights reflecting on rain-soaked streets, towering skyscrapers with digital billboards, 3D holographic advertisements"
-                },
-                {
-                    "offset": 0.71,
-                    "url": "media/c0700.jpg",
-                    "query": "A crowded urban street, protesters from opposing sides face off, separated by police in riot gear, cell phones in hands"
-                },
-                {
-                    "offset": 1.17,
-                    "url": "media/c0701.jpg",
-                    "query": "A tear-streaked face, both anger and sorrow, the person looks at their cell phone, showing a dueling protest"
                 }
             ],
             "words": [
@@ -1444,16 +1074,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0702.jpg",
                     "query": "wide cinematic shot of Box is law, prehistoric landscape, firelit, dramatic lighting, painterly"
-                },
-                {
-                    "offset": 0.51,
-                    "url": "media/c0703.jpg",
-                    "query": "medium shot of TWO FIRES! TWO FIRES!, warm tones, cave setting, cinematic"
-                },
-                {
-                    "offset": 1.0,
-                    "url": "media/c0704.jpg",
-                    "query": "close-up emotional Exhaustion sets in — the fires, firelight on face, intimate portrait, painterly"
                 }
             ],
             "hidden_media": [
@@ -1461,16 +1081,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0705.jpg",
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets, skyscrapers casting long shadows, a lone figure standing at the edge of a rooftop."
-                },
-                {
-                    "offset": 0.51,
-                    "url": "media/c0706.jpg",
-                    "query": "A dimly lit, smoke-filled room, a crowd of people huddled around smartphones and laptops, faces illuminated by screens, their expressions a mix of concern and frustration."
-                },
-                {
-                    "offset": 1.0,
-                    "url": "media/c0707.jpg",
-                    "query": "A close-up of a weary face, eyes reflecting the flickering glow of a TV screen, tears streaming down cheeks, a sense of resignation and exhaustion etched deeply into their features"
                 }
             ],
             "words": [
@@ -1499,7 +1109,7 @@ var track_06_data = {
         {
             "id": "line_21_occ_0",
             "start": 80.768,
-            "end": 82.96,
+            "end": 82.8,
             "lyric": "Which one is right?",
             "real_meaning": "The empty echo of the question: Does anyone even care about the original truth anymore, or is it purely about tribal victory?",
             "media": [
@@ -1507,16 +1117,6 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0708.jpg",
                     "query": "A vast, prehistoric valley at dusk, fires burning in two distant camps, cold stone box at the center of a warm, firelit landscape."
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0709.jpg",
-                    "query": "A heated argument between two tribes, one with torches held high and the other with dark, smoldering embers. A figure stands frozen between the two camps."
-                },
-                {
-                    "offset": 1.04,
-                    "url": "media/c0710.jpg",
-                    "query": "Tronco's face, eyes wide with fear and uncertainty, a single tear glistening under the firelit sky."
                 }
             ],
             "hidden_media": [
@@ -1524,26 +1124,16 @@ var track_06_data = {
                     "offset": 0.0,
                     "url": "media/c0711.jpg",
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets, towering skyscrapers. Two sides of the street are lined with protesters."
-                },
-                {
-                    "offset": 0.55,
-                    "url": "media/c0712.jpg",
-                    "query": "A tense face-off between two rival groups, one side dressed in corporate attire, the other in streetwear. Both hold up mobile phones, capturing the standoff."
-                },
-                {
-                    "offset": 1.04,
-                    "url": "media/c0713.jpg",
-                    "query": "A close-up of a person's face as they look from one side of the fight to the other, showing a mix of confusion, fear, and doubt."
                 }
             ],
             "words": [
                 {
                     "start": 80.768,
-                    "end": 80.96,
+                    "end": 81.62,
                     "text": "Which"
                 },
                 {
-                    "start": 80.96,
+                    "start": 81.632,
                     "end": 82.0,
                     "text": "one"
                 },
@@ -1554,15 +1144,15 @@ var track_06_data = {
                 },
                 {
                     "start": 82.38,
-                    "end": 82.96,
+                    "end": 82.8,
                     "text": "right?"
                 }
             ]
         },
         {
             "id": "line_22_occ_0",
-            "start": 82.96,
-            "end": 101.62,
+            "start": 82.8,
+            "end": 101.6,
             "lyric": "\"Where's the Mage gone?\"",
             "real_meaning": "The creator abandons the collapse: God is dead, the founder cashed out, the wizard fled. The elite leave the masses to clean up the mess.",
             "media": [
@@ -1572,12 +1162,12 @@ var track_06_data = {
                     "query": "A vast, prehistoric valley under a starlit sky, a towering wooden structure stands. Firelight dances on the rugged landscape, casting warm tones. Box is law. Cinematic."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 2.81,
                     "url": "media/c0715.jpg",
                     "query": "Two rival tribes face off, a great chasm between them. Fire is the only source of light, illuminating their faces and weapons. Dramatic."
                 },
                 {
-                    "offset": 9.32,
+                    "offset": 5.64,
                     "url": "media/c0716.jpg",
                     "query": "Tronco frozen, paralyzed by fear. Warm tones and painterly style."
                 }
@@ -1589,19 +1179,19 @@ var track_06_data = {
                     "query": "A sprawling cityscape at dusk, neon lights reflecting off sleek skyscrapers, bustling with digital billboards."
                 },
                 {
-                    "offset": 0.73,
+                    "offset": 2.81,
                     "url": "media/c0718.jpg",
                     "query": "Dueling protests on city street, one side wearing red, the other blue, chanting tribal songs."
                 },
                 {
-                    "offset": 9.32,
+                    "offset": 5.64,
                     "url": "media/c0719.jpg",
                     "query": "A close-up of a person looking around, alone, in a corporate office, confused, with a look of abandonment."
                 }
             ],
             "words": [
                 {
-                    "start": 82.96,
+                    "start": 82.8,
                     "end": 100.54,
                     "text": "\"Where's"
                 },
@@ -1617,7 +1207,7 @@ var track_06_data = {
                 },
                 {
                     "start": 101.2,
-                    "end": 101.62,
+                    "end": 101.6,
                     "text": "gone?\""
                 }
             ]
