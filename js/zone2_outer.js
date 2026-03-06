@@ -109,19 +109,19 @@ const Zone2Outer = (() => {
         if (triggered.length === 0) return;
 
         // Distribute across bars — different images per direction
-        // Top/bottom = first triggered (WIDE establishing shot)
-        // Left/right = last triggered (latest offset = SCENE or MOMENT)
+        // With multiple triggered: spread them across bars and panels
         const wideUrl = triggered[0];
         const sceneUrl = triggered.length > 1 ? triggered[triggered.length - 1] : triggered[0];
+        const midUrl = triggered.length > 2 ? triggered[Math.floor(triggered.length / 2)] : null;
 
         setBarImage('top', wideUrl);
-        setBarImage('bottom', wideUrl);
-        setBarImage('left', sceneUrl);
-        setBarImage('right', sceneUrl);
+        setBarImage('bottom', sceneUrl);
+        setBarImage('left', midUrl || wideUrl);
+        setBarImage('right', midUrl || sceneUrl);
 
-        // Side panels: left = WIDE establishing, right = latest (SCENE/MOMENT)
+        // Side panels: left = WIDE/establishing, right = different image (mid or scene)
         setSidePanelImage('left', wideUrl);
-        setSidePanelImage('right', sceneUrl);
+        setSidePanelImage('right', midUrl || sceneUrl);
     }
 
     // Meaning overlay — now handled inside phone frame by player.js
@@ -218,7 +218,7 @@ const Zone2Outer = (() => {
     let lastFlashTime = 0;
     function flashPanels() {
         const now = performance.now();
-        if (now - lastFlashTime < 400) return; // debounce 400ms
+        if (now - lastFlashTime < 1200) return; // debounce 1.2s — was 400ms, too aggressive
         lastFlashTime = now;
         ['left', 'right'].forEach(side => {
             const el = document.getElementById(`side-panel-${side}`);

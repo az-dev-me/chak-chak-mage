@@ -60,7 +60,7 @@ This project was built by a human and an AI, using tools made by many.
 | Lyrics | [DeepSeek](https://deepseek.com) |
 | Image generation | SDXL-Turbo (local GPU) |
 | Code + architecture | [Claude](https://claude.ai) (Anthropic) via [Cursor](https://cursor.com) |
-| Semantic matrix | [Antigravity IDE](https://antigravity.dev) + Gemini 3.1 |
+| Semantic matrix | [Antigravity](https://antigravity.google/) + Gemini 3.1 |
 | Semantic prompts | [Mistral](https://mistral.ai) via Ollama |
 | Audio alignment | [stable-ts](https://github.com/jianfch/stable-ts) + [Whisper](https://github.com/openai/whisper) |
 | Vocal isolation | [Demucs](https://github.com/facebookresearch/demucs) |

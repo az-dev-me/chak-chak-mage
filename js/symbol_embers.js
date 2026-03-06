@@ -87,7 +87,7 @@ const SymbolEmbers = (function () {
         }
     };
 
-    const MAX_PARTICLES = 25;
+    const MAX_PARTICLES = 30;
     let canvas = null;
     let ctx = null;
     let particles = [];
@@ -95,7 +95,9 @@ const SymbolEmbers = (function () {
     let phoneW = 0;
     let phoneH = 0;
     let dpr = 1;
-    let pendingSpawn = null; // for staggered second symbol
+    let pendingSpawns = []; // queue for staggered spawns
+    let lastTrackId = '';
+    let lastLineIndex = -1;
 
     function init(phoneFrame) {
         if (!phoneFrame) return;
@@ -125,33 +127,50 @@ const SymbolEmbers = (function () {
         const emojis = trackMap[lineIndex];
         if (!emojis || emojis.length === 0) return;
 
+        lastTrackId = trackId;
+        lastLineIndex = lineIndex;
+
         // Spawn first symbol immediately
         addParticle(emojis[0]);
 
-        // Stagger second symbol by ~30 frames (~0.5s)
-        if (emojis.length > 1) {
-            pendingSpawn = { emoji: emojis[1], delay: 30 };
+        // Stagger remaining symbols
+        for (let i = 1; i < emojis.length; i++) {
+            pendingSpawns.push({ emoji: emojis[i], delay: 25 + i * 20 });
         }
     }
 
     function addParticle(emoji) {
+        // Curved path: each particle gets a unique horizontal sine wave
+        const waveAmp = 0.6 + Math.random() * 1.2;   // amplitude of horizontal curve
+        const waveFreq = 0.012 + Math.random() * 0.01; // frequency of curve
+        const wavePhase = Math.random() * Math.PI * 2;  // starting phase
+
         const p = {
             emoji: emoji,
-            x: 0.15 * phoneW + Math.random() * 0.7 * phoneW,
-            y: phoneH + 10,
-            vy: -(0.25 + Math.random() * 0.5),
-            vx: (Math.random() - 0.5) * 0.15,
-            opacity: 0.35,
-            size: 20 + Math.random() * 14,
-            rotation: (Math.random() - 0.5) * 0.4,
-            rotSpeed: (Math.random() - 0.5) * 0.003,
+            x: 0.1 * phoneW + Math.random() * 0.8 * phoneW,
+            y: phoneH + 20,
+            baseX: 0, // set after x is known
+            vy: -(0.35 + Math.random() * 0.55),
+            opacity: 0.30 + Math.random() * 0.12,
+            size: 18 + Math.random() * 16,
+            sizeBase: 0, // set below
+            rotation: (Math.random() - 0.5) * 0.6,
+            rotSpeed: (Math.random() - 0.5) * 0.012, // much faster rotation
             life: 0,
-            maxLife: 1.0,
-            seed: Math.random() * 100
+            maxLife: 0.85 + Math.random() * 0.3,
+            // Curve params
+            waveAmp: waveAmp,
+            waveFreq: waveFreq,
+            wavePhase: wavePhase,
+            // Size pulsing
+            sizePulseSpeed: 0.03 + Math.random() * 0.02,
+            sizePulseAmp: 0.12 + Math.random() * 0.1,
+            seed: Math.random() * 1000
         };
+        p.baseX = p.x;
+        p.sizeBase = p.size;
 
         if (particles.length >= MAX_PARTICLES) {
-            // Recycle oldest
             let oldest = 0;
             for (let i = 1; i < particles.length; i++) {
                 if (particles[i].life > particles[oldest].life) oldest = i;
@@ -164,45 +183,55 @@ const SymbolEmbers = (function () {
 
     function tick(beatPulse) {
         if (!ctx || !canvas) return;
-        if (particles.length === 0 && !pendingSpawn) return;
+        if (particles.length === 0 && pendingSpawns.length === 0) return;
 
         frame++;
+        const bp = beatPulse || 0;
 
-        // Handle staggered spawn
-        if (pendingSpawn) {
-            pendingSpawn.delay--;
-            if (pendingSpawn.delay <= 0) {
-                addParticle(pendingSpawn.emoji);
-                pendingSpawn = null;
+        // Handle staggered spawns
+        for (let i = pendingSpawns.length - 1; i >= 0; i--) {
+            pendingSpawns[i].delay--;
+            if (pendingSpawns[i].delay <= 0) {
+                addParticle(pendingSpawns[i].emoji);
+                pendingSpawns.splice(i, 1);
             }
         }
 
         // Clear
         ctx.clearRect(0, 0, phoneW, phoneH);
 
-        // Update & render particles
-        const bp = beatPulse || 0;
-        let alive = 0;
-
         for (let i = particles.length - 1; i >= 0; i--) {
             const p = particles[i];
-            p.life += 0.003;
+            p.life += 0.0025;
 
             if (p.life >= p.maxLife) {
                 particles.splice(i, 1);
                 continue;
             }
 
-            alive++;
-
-            // Movement
-            p.x += p.vx + Math.sin(frame * 0.008 + p.seed) * 0.12;
-            p.y += p.vy - bp * 0.3; // beat makes them rise slightly faster
-            p.rotation += p.rotSpeed;
-
-            // Fade: starts at opacity, fades to 0
             const lifePct = p.life / p.maxLife;
-            const alpha = p.opacity * (1 - lifePct);
+
+            // Curved path: sinusoidal horizontal drift
+            p.y += p.vy - bp * 0.25;
+            p.baseX += Math.sin(frame * 0.003 + p.seed) * 0.05; // very slow global drift
+            p.x = p.baseX + Math.sin(frame * p.waveFreq + p.wavePhase) * p.waveAmp * phoneW * 0.06;
+
+            // Rotation: accelerates slightly as it rises, with beat bump
+            p.rotation += p.rotSpeed + bp * 0.02 * Math.sign(p.rotSpeed);
+
+            // Size pulsing: breathes in and out
+            const sizePulse = 1 + Math.sin(frame * p.sizePulseSpeed + p.seed) * p.sizePulseAmp;
+            const currentSize = p.sizeBase * sizePulse * (1 + bp * 0.08);
+
+            // Fade: smooth ease-in at start, ease-out at end
+            let alpha;
+            if (lifePct < 0.1) {
+                alpha = p.opacity * (lifePct / 0.1); // fade in over first 10%
+            } else if (lifePct > 0.7) {
+                alpha = p.opacity * (1 - (lifePct - 0.7) / 0.3); // fade out over last 30%
+            } else {
+                alpha = p.opacity;
+            }
 
             if (alpha < 0.005) continue;
 
@@ -212,7 +241,7 @@ const SymbolEmbers = (function () {
             ctx.globalAlpha = alpha;
             ctx.translate(p.x, p.y);
             ctx.rotate(p.rotation);
-            ctx.font = p.size + 'px serif';
+            ctx.font = Math.round(currentSize) + 'px serif';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
             ctx.fillText(p.emoji, 0, 0);
@@ -222,8 +251,10 @@ const SymbolEmbers = (function () {
 
     function clear() {
         particles = [];
-        pendingSpawn = null;
+        pendingSpawns = [];
         frame = 0;
+        lastTrackId = '';
+        lastLineIndex = -1;
         if (ctx && canvas) ctx.clearRect(0, 0, phoneW, phoneH);
     }
 

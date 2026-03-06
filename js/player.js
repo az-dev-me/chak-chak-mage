@@ -725,7 +725,7 @@ function syncTick(frameTimestamp) {
                     span.style.textShadow = '';
                 } else if (ct >= cs && ct < ce) {
                     if (span.className !== 'meaning-core-active') {
-                        if (typeof Zone2Outer !== 'undefined') Zone2Outer.flashPanels();
+                        // Flash removed here — too frequent. Only flash on line change (section 3).
                     }
                     span.className = 'meaning-core-active';
                     const scale = 1.0 + bp * 0.12;
@@ -1116,32 +1116,32 @@ function showEndScreen() {
                     <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:12px;">${msg.creditsLabel}</p>
                     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;">
                         <a href="https://deevid.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(255,170,0,0.5)" stroke-width="1.5"/><path d="M9 8v8l7-4z" fill="rgba(255,170,0,0.5)"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="rgba(255,170,0,0.15)" stroke="rgba(255,170,0,0.5)" stroke-width="1.2"/><path d="M10 8.5v7l5.5-3.5z" fill="rgba(255,170,0,0.6)"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeeVid</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">music</span>
                         </a>
-                        <a href="https://deepseek.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(100,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(100,180,255,0.5)" stroke-width="1.5"/><path d="M12 6v12M8 10l4-4 4 4" stroke="rgba(100,180,255,0.5)" stroke-width="1.5" fill="none"/></svg>
+                        <a href="https://deepseek.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(70,130,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="rgba(70,130,255,0.12)" stroke="rgba(70,130,255,0.5)" stroke-width="1.2"/><path d="M12 7v5l3 3" stroke="rgba(70,130,255,0.6)" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="1.5" fill="rgba(70,130,255,0.6)"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeepSeek</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">lyrics</span>
                         </a>
-                        <a href="https://claude.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(200,160,100,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/><path d="M8 12h8M12 8v8" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/></svg>
+                        <a href="https://claude.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(217,169,109,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z" fill="rgba(217,169,109,0.12)" stroke="rgba(217,169,109,0.5)" stroke-width="1.2"/><path d="M15.5 9.5L12 16l-3.5-6.5" stroke="rgba(217,169,109,0.6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="8" r="1" fill="rgba(217,169,109,0.6)"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Claude</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">build</span>
                         </a>
-                        <a href="https://cursor.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(180,120,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="rgba(180,120,255,0.5)" stroke-width="1.5"/><path d="M8 8l8 8M16 8l-8 8" stroke="rgba(180,120,255,0.5)" stroke-width="1.5"/></svg>
+                        <a href="https://cursor.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(140,100,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" fill="rgba(140,100,255,0.12)" stroke="rgba(140,100,255,0.5)" stroke-width="1.2"/><path d="M7 12l4 4 6-8" stroke="rgba(140,100,255,0.6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Cursor</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">IDE</span>
                         </a>
-                        <a href="https://antigravity.dev" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(100,220,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(100,220,255,0.5)" stroke-width="1.5"/><path d="M12 6v4l3 2" stroke="rgba(100,220,255,0.5)" stroke-width="1.5" fill="none"/></svg>
+                        <a href="https://antigravity.google/" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(66,133,244,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3v7l6-3.5" stroke="rgba(66,133,244,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 10v7l-6-3.5" stroke="rgba(234,67,53,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 10l6 3.5-6 3.5" stroke="rgba(251,188,4,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 3l-6 3.5 6 3.5" stroke="rgba(52,168,83,0.6)" stroke-width="1.5" stroke-linecap="round"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Antigravity</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">semantics</span>
                         </a>
                         <span style="display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/><path d="M8 12h8" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="2" fill="rgba(100,220,160,0.1)" stroke="rgba(100,220,160,0.5)" stroke-width="1.2"/><path d="M7 12h10M12 9v6" stroke="rgba(100,220,160,0.5)" stroke-width="1.2" stroke-linecap="round"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">SDXL-Turbo</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">images</span>
                         </span>
