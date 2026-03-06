@@ -12,14 +12,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0000.jpg",
+                    "url": "media/c0000.webp",
                     "query": "Wide shot: A battered green British phone booth standing alone in a misty twilight clearing, surrounded by ancient ferns and towering prehistoric trees."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0003.jpg",
+                    "url": "media/c0003.webp",
                     "query": "Wide shot: A cluttered suburban bedroom at night, clothes on the floor, rain against the window. A bored teenager sits on the bed staring at the ceiling."
                 }
             ],
@@ -64,7 +64,11 @@ var track_01_T1_2_3b_data = {
                     "end": 12.3,
                     "text": "booth"
                 }
-            ]
+            ],
+            "core": "You stumble into power.",
+            "line_index": 0,
+            "core_pt": "Você tropeça no poder.",
+            "real_meaning_pt": "A gênese acidental: Você não escolhe mudar o mundo. Você tropeça em uma cabine telefônica que pintou de verde porque parecia legal, aperta um botão e nada nunca mais é o mesmo."
         },
         {
             "id": "line_1_occ_0",
@@ -75,14 +79,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0006.jpg",
+                    "url": "media/c0006.webp",
                     "query": "Medium shot: The phone booth exterior, clearly hand-painted green with dripping paint and brush strokes visible on the red British metal."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0009.jpg",
+                    "url": "media/c0009.webp",
                     "query": "Medium shot: The teenager sticks vinyl decal stickers onto the laptop lid, personalizing it with band logos and astronaut graphics."
                 }
             ],
@@ -122,7 +126,11 @@ var track_01_T1_2_3b_data = {
                     "end": 14.439,
                     "text": "truth"
                 }
-            ]
+            ],
+            "core": "Every brand is a painted box.",
+            "line_index": 1,
+            "core_pt": "Cada marca é uma caixa pintada.",
+            "real_meaning_pt": "Vestimos o cotidiano como extraordinário. Uma cabine telefônica se torna uma máquina do tempo porque decidimos que deveria. Todo produto, toda marca, toda ideologia é apenas uma caixa pintada."
         },
         {
             "id": "line_2_occ_0",
@@ -133,14 +141,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0012.jpg",
+                    "url": "media/c0012.webp",
                     "query": "Close-up: The traveler's face mid-teleportation, eyes wide, mouth open, streaks of light whipping past like a tunnel of stars."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0015.jpg",
+                    "url": "media/c0015.webp",
                     "query": "Close-up: The teenager's face illuminated by rapidly scrolling search results, eyes darting left and right, mesmerized."
                 }
             ],
@@ -180,7 +188,11 @@ var track_01_T1_2_3b_data = {
                     "end": 16.746,
                     "text": "explain"
                 }
-            ]
+            ],
+            "core": "We act first, explain never.",
+            "line_index": 2,
+            "core_pt": "Nós agimos primeiro, explicamos nunca.",
+            "real_meaning_pt": "A confissão honesta: A maioria das revoluções começa sem um manifesto. Agimos e depois inventamos a história mais tarde. 'Por que você fez isso?' 'Não sei. Pareceu divertido."
         },
         {
             "id": "line_3_occ_0",
@@ -191,14 +203,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0018.jpg",
+                    "url": "media/c0018.webp",
                     "query": "Medium shot: The traveler's backpack open on the ground, revealing a geology hammer, sample bags, and a dog-eared dinosaur field guide."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
+                    "url": "media/c0021.webp",
                     "query": "Medium shot: The teenager scrolling through YouTube thumbnails, each promising 'INSANE', 'YOU WON'T BELIEVE', 'GONE WRONG'."
                 }
             ],
@@ -243,7 +255,11 @@ var track_01_T1_2_3b_data = {
                     "end": 19.42,
                     "text": "mane"
                 }
-            ]
+            ],
+            "core": "Every empire starts with something stupid.",
+            "line_index": 3,
+            "core_pt": "Todo império começa com algo idiota.",
+            "real_meaning_pt": "A faísca trivial: Todo império começa com alguém querendo algo bobo. O fogo não foi descoberto pela filosofia — foi descoberto porque alguém estava com frio e com fome."
         },
         {
             "id": "line_4_occ_0",
@@ -254,14 +270,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
+                    "url": "media/c0024.webp",
                     "query": "Wide shot: A massive brontosaurus silhouette moving through thick fog between enormous redwood-like trees in a primeval swamp."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
+                    "url": "media/c0027.webp",
                     "query": "Wide shot: The teenager's room at night, face glowing blue, surrounded by empty snack wrappers, completely absorbed in the screen."
                 }
             ],
@@ -296,7 +312,11 @@ var track_01_T1_2_3b_data = {
                     "end": 22.5,
                     "text": "tea"
                 }
-            ]
+            ],
+            "core": "Wonder dies at convenience.",
+            "line_index": 4,
+            "core_pt": "O espanto morre na conveniência.",
+            "real_meaning_pt": "Turismo casual do sagrado: reduzimos o extraordinário à conveniência. 'Verei um milagre antes do almoço, depois tomarei um latte.' Assim, a maravilha morre."
         },
         {
             "id": "line_5_occ_0",
@@ -307,14 +327,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
+                    "url": "media/c0030.webp",
                     "query": "Wide shot: An enormous triceratops standing ten meters away in a clearing, its three horns gleaming, staring directly at the traveler."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0033.jpg",
+                    "url": "media/c0033.webp",
                     "query": "Close-up: The teenager's screen showing a direct message notification from a stranger. The username is intimidating."
                 }
             ],
@@ -344,7 +364,11 @@ var track_01_T1_2_3b_data = {
                     "end": 27.246,
                     "text": "me"
                 }
-            ]
+            ],
+            "core": "When entertainment becomes real.",
+            "line_index": 5,
+            "core_pt": "Quando o entretenimento se torna real.",
+            "real_meaning_pt": "O momento em que a realidade olha de volta: Quando o que você achava que era entretenimento se torna perigosamente real. O dinossauro não se importa com seu itinerário."
         },
         {
             "id": "line_6_occ_0_s0",
@@ -355,14 +379,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0036.jpg",
+                    "url": "media/c0036.webp",
                     "query": "Wide establishing shot: A vast prehistoric valley at dusk, thick green moss covering every surface, tendrils of smoke rising from distant volcanic vents."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0039.jpg",
+                    "url": "media/c0039.webp",
                     "query": "Wide shot: The teenager's first social media feed loading, a waterfall of images, videos, text, likes, colors flooding the screen."
                 }
             ],
@@ -407,76 +431,65 @@ var track_01_T1_2_3b_data = {
                     "end": 31.161,
                     "text": "and"
                 }
-            ]
-        },
-        {
-            "id": "line_6_occ_0_s1",
-            "start": 31.335,
-            "end": 31.635,
-            "lyric": "smoke",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 31.335,
-                    "end": 31.635,
-                    "text": "smoke"
-                }
-            ]
+            ],
+            "line_index": 6
         },
         {
             "id": "line_7_occ_0",
-            "start": 31.66,
+            "start": 31.335,
             "end": 33.525,
             "lyric": "Smell of rain, the night awoke",
             "real_meaning": "The primal immersion: Before language, before meaning, there is sensation. Rain on skin, smoke in lungs, darkness pressing in. This is the world before the filter.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0042.jpg",
+                    "url": "media/c0042.webp",
                     "query": "Close-up: Heavy raindrops splashing on broad prehistoric fern leaves, each drop lit by distant volcanic glow."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0045.jpg",
+                    "url": "media/c0045.webp",
                     "query": "Close-up: The teenager's phone buzzes on the nightstand. A notification. Then another. Then a cascade of vibrations."
                 }
             ],
             "words": [
                 {
-                    "start": 31.66,
-                    "end": 32.08,
-                    "text": "Smell"
+                    "text": "Smell",
+                    "start": 31.335,
+                    "end": 31.7
                 },
                 {
-                    "start": 32.08,
-                    "end": 32.14,
-                    "text": "of"
+                    "text": "of",
+                    "start": 31.7,
+                    "end": 32.065
                 },
                 {
-                    "start": 32.32,
-                    "end": 32.553,
-                    "text": "rain,"
+                    "text": "rain,",
+                    "start": 32.065,
+                    "end": 32.43
                 },
                 {
-                    "start": 32.94,
-                    "end": 33.04,
-                    "text": "the"
+                    "text": "the",
+                    "start": 32.43,
+                    "end": 32.795
                 },
                 {
-                    "start": 33.295,
-                    "end": 33.38,
-                    "text": "night"
+                    "text": "night",
+                    "start": 32.795,
+                    "end": 33.16
                 },
                 {
-                    "start": 33.38,
-                    "end": 33.525,
-                    "text": "awoke"
+                    "text": "awoke",
+                    "start": 33.16,
+                    "end": 33.525
                 }
-            ]
+            ],
+            "core": "The world before the filter.",
+            "line_index": 7,
+            "core_pt": "O mundo antes do filtro.",
+            "real_meaning_pt": "A imersão primordial: Antes da linguagem, antes do significado, há a sensação. Chuva na pele, fumaça nos pulmões, escuridão pressionando. Este é o mundo antes do filtro."
         },
         {
             "id": "line_8_occ_0",
@@ -487,14 +500,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0048.jpg",
+                    "url": "media/c0048.webp",
                     "query": "Wide shot: Near a rocky cave mouth, a small dying fire barely illuminates a lone figure crouched on the ground, surrounded by darkness."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0051.jpg",
+                    "url": "media/c0051.webp",
                     "query": "Medium shot: A grainy webcam video playing on the teenager's screen, someone in a messy room talking earnestly to the camera."
                 }
             ],
@@ -539,7 +552,11 @@ var track_01_T1_2_3b_data = {
                     "end": 36.126,
                     "text": "soul"
                 }
-            ]
+            ],
+            "core": "Raw humanity. No followers.",
+            "line_index": 8,
+            "core_pt": "Humanidade bruta. Sem seguidores.",
+            "real_meaning_pt": "O encontro com a humanidade crua: Antes do branding, antes dos currículos, antes dos seguidores, um ser humano, desesperado, real, sem filtros. Esquecemos como é isso."
         },
         {
             "id": "line_9_occ_0",
@@ -550,14 +567,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0054.jpg",
+                    "url": "media/c0054.webp",
                     "query": "Close-up: Gralha's cracked lips blowing desperately on a tiny smoking twig, sweat and soot on his forehead, eyes panicked."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0057.jpg",
+                    "url": "media/c0057.webp",
                     "query": "Close-up: A frustrated user's hand clicking 'forgot password' for the third time, screen showing 'invalid credentials'."
                 }
             ],
@@ -592,7 +609,11 @@ var track_01_T1_2_3b_data = {
                     "end": 39.01,
                     "text": "control"
                 }
-            ]
+            ],
+            "core": "Life without tools or thought.",
+            "line_index": 9,
+            "core_pt": "Vida sem ferramentas ou pensamento.",
+            "real_meaning_pt": "O desespero dos impotentes: Antes do isqueiro, o fogo era uma batalha diária. Imagine lutar pelo calor todas as noites. Essa é a vida sem ferramentas e sem pensamento crítico."
         },
         {
             "id": "line_10_occ_0",
@@ -603,14 +624,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0060.jpg",
+                    "url": "media/c0060.webp",
                     "query": "Medium shot: The traveler standing at the edge of the firelight, the orange BIC lighter in hand, realizing the weight of what is about to happen."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0063.jpg",
+                    "url": "media/c0063.webp",
                     "query": "Medium shot: The teenager posts a casual reply to the webcam creator's problem, a simple fix, three lines of text."
                 }
             ],
@@ -640,7 +661,11 @@ var track_01_T1_2_3b_data = {
                     "end": 44.415,
                     "text": "accident"
                 }
-            ]
+            ],
+            "core": "The mask fuses to your face.",
+            "line_index": 10,
+            "core_pt": "A máscara funde ao seu rosto.",
+            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto."
         },
         {
             "id": "line_11_occ_0",
@@ -651,14 +676,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0066.jpg",
+                    "url": "media/c0066.webp",
                     "query": "Close-up: The traveler's conflicted face, eyes darting between Gralha's desperate gaze and the lighter, knowing this will change everything."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0069.jpg",
+                    "url": "media/c0069.webp",
                     "query": "Medium shot: The teenager's follower count jumping from 3 to 300 overnight, the phone buzzing relentlessly on the nightstand."
                 }
             ],
@@ -693,7 +718,11 @@ var track_01_T1_2_3b_data = {
                     "end": 46.958,
                     "text": "consent"
                 }
-            ]
+            ],
+            "core": "The platform won't let you leave.",
+            "line_index": 11,
+            "core_pt": "A plataforma não deixa você sair.",
+            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair."
         },
         {
             "id": "line_12_occ_0",
@@ -704,14 +733,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0072.jpg",
+                    "url": "media/c0072.webp",
                     "query": "Medium shot: The traveler glancing nervously at the geology hammer still in their backpack, the original innocent mission now irrelevant."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0075.jpg",
+                    "url": "media/c0075.webp",
                     "query": "Medium shot: The teenager tries to close the laptop but a new DM pops up: 'Can you help me too?' Then another. Then five more."
                 }
             ],
@@ -756,7 +785,11 @@ var track_01_T1_2_3b_data = {
                     "end": 49.436,
                     "text": "run"
                 }
-            ]
+            ],
+            "core": "The creator becomes the servant.",
+            "line_index": 12,
+            "core_pt": "O criador se torna o servo.",
+            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo."
         },
         {
             "id": "line_13_occ_0",
@@ -767,14 +800,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0078.jpg",
+                    "url": "media/c0078.webp",
                     "query": "Wide shot: Gralha on his feet now, moving toward the traveler with urgent primal determination, arms outstretched."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0081.jpg",
+                    "url": "media/c0081.webp",
                     "query": "Wide shot: The teenager's post screenshot appearing on a popular meme page with thousands of views already."
                 }
             ],
@@ -804,7 +837,11 @@ var track_01_T1_2_3b_data = {
                     "end": 51.189,
                     "text": "begun"
                 }
-            ]
+            ],
+            "core": "Others own your narrative now.",
+            "line_index": 13,
+            "core_pt": "Agora, outros possuem sua narrativa.",
+            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa."
         },
         {
             "id": "line_14_occ_0",
@@ -815,14 +852,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0084.jpg",
+                    "url": "media/c0084.webp",
                     "query": "Extreme close-up: The lighter's spark wheel spinning, sparks flying in slow motion, igniting the butane with a bright orange flame."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0087.jpg",
+                    "url": "media/c0087.webp",
                     "query": "Extreme close-up: A finger tapping 'POST' on a glowing touchscreen, the button turning from blue to green."
                 }
             ],
@@ -852,7 +889,11 @@ var track_01_T1_2_3b_data = {
                     "end": 54.0,
                     "text": "bright"
                 }
-            ]
+            ],
+            "core": "Spontaneity becomes obligation.",
+            "line_index": 14,
+            "core_pt": "Espontaneidade se torna obrigação.",
+            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia."
         },
         {
             "id": "line_15_occ_0",
@@ -863,14 +904,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0090.jpg",
+                    "url": "media/c0090.webp",
                     "query": "Wide shot: The green phone booth in the far distance, barely visible, as the traveler turns away from it toward the cave and the firelight."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0093.jpg",
+                    "url": "media/c0093.webp",
                     "query": "Wide shot: The teenager's bedroom transforming, posters fading, toys disappearing, replaced by ring lights and a microphone setup."
                 }
             ],
@@ -910,7 +951,11 @@ var track_01_T1_2_3b_data = {
                     "end": 58.73,
                     "text": "life"
                 }
-            ]
+            ],
+            "core": "The person behind the profile is gone.",
+            "line_index": 15,
+            "core_pt": "A pessoa por trás do perfil se foi.",
+            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir."
         },
         {
             "id": "line_16_occ_0",
@@ -921,24 +966,24 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0096.jpg",
+                    "url": "media/c0096.webp",
                     "query": "Medium shot: Gralha staring at the traveler with enormous eyes, his crude fire-starting stick slipping from his fingers and clattering to the ground."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0097.jpg",
+                    "url": "media/c0097.webp",
                     "query": "Close-up: The fallen stick on the cave floor, a primitive tool now obsolete, discarded without a second thought."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0099.jpg",
+                    "url": "media/c0099.webp",
                     "query": "Medium shot: A person closing their physical notebook and pushing it aside, opening a tablet instead, transferring all trust to the screen."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0100.jpg",
+                    "url": "media/c0100.webp",
                     "query": "Close-up: A handwritten journal collecting dust beside a glowing smartphone, the old way of thinking abandoned."
                 }
             ],
@@ -978,7 +1023,11 @@ var track_01_T1_2_3b_data = {
                     "end": 63.5,
                     "text": "stick"
                 }
-            ]
+            ],
+            "core": "Why think when someone has answers?",
+            "line_index": 16,
+            "core_pt": "Por que pensar quando alguém tem respostas?",
+            "real_meaning_pt": "A primeira conversão: O momento em que o crente descarta suas próprias ferramentas. Por que usar um graveto quando alguém tem um isqueiro? Por que pensar quando alguém tem as respostas?"
         },
         {
             "id": "line_17_occ_0",
@@ -989,14 +1038,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0102.jpg",
+                    "url": "media/c0102.webp",
                     "query": "Close-up: The traveler's chest showing a thick knitted sweater with a large Super Bock beer logo, alien and incomprehensible to Gralha."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0105.jpg",
+                    "url": "media/c0105.webp",
                     "query": "Close-up: A teenager's eyes locked on an influencer's branded merchandise, a hoodie with a bold logo, perfectly lit in a product photo."
                 }
             ],
@@ -1031,7 +1080,11 @@ var track_01_T1_2_3b_data = {
                     "end": 75.24,
                     "text": "Super"
                 }
-            ]
+            ],
+            "core": "We worship the logo, not the thing.",
+            "line_index": 17,
+            "core_pt": "Nós adoramos o logotipo, não a coisa.",
+            "real_meaning_pt": "Marca como divindade: Gralha não entende o suéter, ele adora o logo. Não entendemos o iPhone, adoramos a Apple. O símbolo substitui a substância."
         },
         {
             "id": "line_18_occ_0",
@@ -1042,14 +1095,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0108.jpg",
+                    "url": "media/c0108.webp",
                     "query": "Medium shot: Gralha pointing urgently at the orange BIC lighter in the traveler's hand, grunting excitedly, bouncing on his heels."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0111.jpg",
+                    "url": "media/c0111.webp",
                     "query": "Medium shot: A crowd at a tech keynote, phones raised, all recording, chanting the CEO's name before the product reveal."
                 }
             ],
@@ -1089,7 +1142,11 @@ var track_01_T1_2_3b_data = {
                     "end": 77.76,
                     "text": "lighter,"
                 }
-            ]
+            ],
+            "core": "Show me the trick again.",
+            "line_index": 18,
+            "core_pt": "Mostre o truque novamente.",
+            "real_meaning_pt": "A demanda por magia: 'Mostre o truque novamente.' O consumidor não quer entender, ele quer se maravilhar. Repita o milagre. Faça fogo. De novo."
         },
         {
             "id": "line_19_occ_0",
@@ -1100,14 +1157,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0114.jpg",
+                    "url": "media/c0114.webp",
                     "query": "Extreme close-up: The traveler's thumb flicking the lighter wheel, chak-chak, sparks flying, flame erupting bright orange."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0117.jpg",
+                    "url": "media/c0117.webp",
                     "query": "Extreme close-up: A finger swiping on a phone screen, unlocking it with a single fluid gesture, the home screen blooming open."
                 }
             ],
@@ -1147,7 +1204,11 @@ var track_01_T1_2_3b_data = {
                     "end": 80.34,
                     "text": "he"
                 }
-            ]
+            ],
+            "core": "Two clicks. Sale made.",
+            "line_index": 19,
+            "core_pt": "Dois cliques. Venda realizada.",
+            "real_meaning_pt": "A demonstração do produto: dois cliques. É só isso. A multidão fica em silêncio. A venda é fechada. A conversão é completa. Ninguém pergunta como funciona."
         },
         {
             "id": "line_20_occ_0",
@@ -1158,14 +1219,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0120.jpg",
+                    "url": "media/c0120.webp",
                     "query": "Wide shot: Gralha scrambling to his feet, turning toward the dark forest, cupping his hands around his mouth, screaming into the night."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0123.jpg",
+                    "url": "media/c0123.webp",
                     "query": "Close-up: A thumb frantically tapping the share button on a phone screen, the same post being sent to ten different group chats."
                 }
             ],
@@ -1190,7 +1251,11 @@ var track_01_T1_2_3b_data = {
                     "end": 82.78,
                     "text": "UUUUGA"
                 }
-            ]
+            ],
+            "core": "The first retweet.",
+            "line_index": 20,
+            "core_pt": "O primeiro retweet.",
+            "real_meaning_pt": "O momento viral primordial: Antes que a linguagem tivesse nuances, o grito era o botão de compartilhar. 'UUUGA BOOGAH' é o primeiro retweet, o primeiro 'NÃO ACREDITO, VOCÊ TEM QUE VER ISSO'."
         },
         {
             "id": "line_21_occ_0",
@@ -1201,24 +1266,24 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0126.jpg",
+                    "url": "media/c0126.webp",
                     "query": "Medium shot: Gralha beckoning wildly toward the cave, gesturing for unseen others to come, his movements frantic and evangelical."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0127.jpg",
+                    "url": "media/c0127.webp",
                     "query": "Close-up: Gralha's hand pointing back at the traveler with the lighter, his expression a mix of terror and worship."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0129.jpg",
+                    "url": "media/c0129.webp",
                     "query": "Close-up: A clickbait headline on a news site: 'THIS KID'S HACK IS BREAKING THE INTERNET', sensationalized and misleading."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0130.jpg",
+                    "url": "media/c0130.webp",
                     "query": "Medium shot: The teenager's post being featured on a trending page, surrounded by flashy graphics and exaggerated captions."
                 }
             ],
@@ -1248,7 +1313,11 @@ var track_01_T1_2_3b_data = {
                     "end": 87.04,
                     "text": "\"Come"
                 }
-            ]
+            ],
+            "core": "Every genius is first called crazy.",
+            "line_index": 21,
+            "core_pt": "Todo gênio é primeiro chamado de louco.",
+            "real_meaning_pt": "O enquadramento do gênio como loucura: Todo inovador é primeiro chamado de louco. Todo profeta é primeiro chamado de louco. A tradução está sempre errada, mas não importa, eles vêm de qualquer maneira."
         },
         {
             "id": "line_22_occ_0",
@@ -1259,24 +1328,24 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0132.jpg",
+                    "url": "media/c0132.webp",
                     "query": "Wide shot: Twelve cave dwellers of various ages emerging from the forest, approaching the cave entrance cautiously, eyes reflecting firelight."
                 },
                 {
                     "offset": 2.45,
-                    "url": "media/c0133.jpg",
+                    "url": "media/c0133.webp",
                     "query": "Medium shot: The group forming a rough semicircle around the traveler, some crouching, some standing, all staring at the lighter flame."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0135.jpg",
+                    "url": "media/c0135.webp",
                     "query": "Wide shot: A live stream viewer count climbing rapidly, 12, 120, 1200, each number a face glued to a screen."
                 },
                 {
                     "offset": 2.45,
-                    "url": "media/c0136.jpg",
+                    "url": "media/c0136.webp",
                     "query": "Medium shot: A grid of video call faces all staring at the same shared screen, mouths slightly open, completely silent."
                 }
             ],
@@ -1311,7 +1380,11 @@ var track_01_T1_2_3b_data = {
                     "end": 90.562,
                     "text": "twelve"
                 }
-            ]
+            ],
+            "core": "Five minutes to form a religion.",
+            "line_index": 22,
+            "core_pt": "Cinco minutos para formar uma religião.",
+            "real_meaning_pt": "A velocidade da adoração: cinco minutos. É assim de rápido que uma religião se forma. É assim de rápido que um produto viraliza. É assim de rápido que uma multidão se reúne."
         },
         {
             "id": "line_23_occ_0",
@@ -1322,14 +1395,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0138.jpg",
+                    "url": "media/c0138.webp",
                     "query": "Close-up: A young cave dweller child, face smeared with dirt, mouth hanging open in pure wonder, eyes locked on the flame."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0141.jpg",
+                    "url": "media/c0141.webp",
                     "query": "Close-up: A person's face bathed in blue light, jaw slack, scrolling endlessly, pupils dilated, completely hypnotized."
                 }
             ],
@@ -1364,7 +1437,11 @@ var track_01_T1_2_3b_data = {
                     "end": 93.516,
                     "text": "open,"
                 }
-            ]
+            ],
+            "core": "Mouths open, brains off.",
+            "line_index": 23,
+            "core_pt": "Bocas abertas, cérebros desligados.",
+            "real_meaning_pt": "O silêncio da rendição: Quando o público para de falar e começa a consumir. O rolar. A maratona. O sermão. Bocas abertas, cérebros desligados, cartões de crédito prontos."
         },
         {
             "id": "line_24_occ_0",
@@ -1375,24 +1452,24 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0144.jpg",
+                    "url": "media/c0144.webp",
                     "query": "Medium shot: The traveler now seated on a flat stone like a throne, the cave dwellers arranged around them, the lighter still burning."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0145.jpg",
+                    "url": "media/c0145.webp",
                     "query": "Close-up: The traveler's face, the initial shock replaced by weary resignation, the flame reflecting in their tired eyes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0147.jpg",
+                    "url": "media/c0147.webp",
                     "query": "Medium shot: The teenager at a desk with a proper ring light and camera setup, filming content instead of doing homework."
                 },
                 {
                     "offset": 3.69,
-                    "url": "media/c0148.jpg",
+                    "url": "media/c0148.webp",
                     "query": "Close-up: The teenager's face in the ring light glow, the candid expressions replaced by a practiced camera smile."
                 }
             ],
@@ -1422,7 +1499,11 @@ var track_01_T1_2_3b_data = {
                     "end": 99.02,
                     "text": "the"
                 }
-            ]
+            ],
+            "core": "The mask fuses to your face.",
+            "line_index": 24,
+            "core_pt": "A máscara funde ao seu rosto.",
+            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto."
         },
         {
             "id": "line_25_occ_0",
@@ -1433,14 +1514,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0150.jpg",
+                    "url": "media/c0150.webp",
                     "query": "Medium shot: Cave dwellers blocking the path back to the phone booth, not maliciously but needfully, their hands reaching toward the traveler."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0153.jpg",
+                    "url": "media/c0153.webp",
                     "query": "Medium shot: The teenager trying to log out but a popup appears: 'Your followers will miss you! Are you sure?'"
                 }
             ],
@@ -1475,7 +1556,11 @@ var track_01_T1_2_3b_data = {
                     "end": 101.38,
                     "text": "wrong"
                 }
-            ]
+            ],
+            "core": "The platform won't let you leave.",
+            "line_index": 25,
+            "core_pt": "A plataforma não deixa você sair.",
+            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair."
         },
         {
             "id": "line_26_occ_0",
@@ -1486,14 +1571,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0156.jpg",
+                    "url": "media/c0156.webp",
                     "query": "Close-up: The geology hammer buried under a pile of animal skins and crude offerings placed at the traveler's feet."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0159.jpg",
+                    "url": "media/c0159.webp",
                     "query": "Close-up: The teenager's original homework file, untouched for weeks, buried under folders named 'content_march' and 'thumbnails'."
                 }
             ],
@@ -1538,7 +1623,11 @@ var track_01_T1_2_3b_data = {
                     "end": 104.3,
                     "text": "now"
                 }
-            ]
+            ],
+            "core": "The creator becomes the servant.",
+            "line_index": 26,
+            "core_pt": "O criador se torna o servo.",
+            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo."
         },
         {
             "id": "line_27_occ_0",
@@ -1549,14 +1638,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0162.jpg",
+                    "url": "media/c0162.webp",
                     "query": "Wide shot: Cave dwellers drawing crude images on the cave wall, a figure holding fire, surrounded by a circle of worshippers."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0165.jpg",
+                    "url": "media/c0165.webp",
                     "query": "Wide shot: Fan accounts appearing online, using the teenager's photos, creating memes, writing fan fiction about them."
                 }
             ],
@@ -1586,7 +1675,11 @@ var track_01_T1_2_3b_data = {
                     "end": 105.62,
                     "text": "the"
                 }
-            ]
+            ],
+            "core": "Others own your narrative now.",
+            "line_index": 27,
+            "core_pt": "Agora, outros possuem sua narrativa.",
+            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa."
         },
         {
             "id": "line_28_occ_0",
@@ -1597,14 +1690,14 @@ var track_01_T1_2_3b_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0168.jpg",
+                    "url": "media/c0168.webp",
                     "query": "Extreme close-up: The lighter wheel spinning again, but now surrounded by dozens of watching eyes, the performance ritualized."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0171.jpg",
+                    "url": "media/c0171.webp",
                     "query": "Extreme close-up: The teenager's finger hovering over 'GO LIVE', about to perform again, the spontaneity replaced by obligation."
                 }
             ],
@@ -1634,158 +1727,170 @@ var track_01_T1_2_3b_data = {
                     "end": 108.52,
                     "text": "bright"
                 }
-            ]
+            ],
+            "core": "Spontaneity becomes obligation.",
+            "line_index": 28,
+            "core_pt": "Espontaneidade se torna obrigação.",
+            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia."
         },
         {
             "id": "line_29_occ_0",
             "start": 110.2,
-            "end": 120.866,
+            "end": 115.2,
             "lyric": "And my whole life faded into night",
             "real_meaning": "The final surrender: Your old identity is gone. You are The Mage now. You are the brand. The person behind the profile pic has ceased to exist.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0174.jpg",
+                    "url": "media/c0174.webp",
                     "query": "Wide shot: The traveler sitting alone on the stone throne at night, the tribe asleep around them, staring at the stars, profoundly alone."
                 },
                 {
                     "offset": 2.69,
-                    "url": "media/c0175.jpg",
+                    "url": "media/c0175.webp",
                     "query": "Close-up: The traveler's face in the dying firelight, eyes hollow, the weight of accidental godhood pressing down visibly."
                 },
                 {
                     "offset": 5.69,
-                    "url": "media/c0176.jpg",
+                    "url": "media/c0176.webp",
                     "query": "Medium shot: The green phone booth now barely a speck of faded green paint in the far distance, overgrown with prehistoric vines."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0177.jpg",
+                    "url": "media/c0177.webp",
                     "query": "Wide shot: The teenager lying in bed in the fully equipped studio-bedroom, staring at the ceiling, phone face-down for the first time."
                 },
                 {
                     "offset": 2.69,
-                    "url": "media/c0178.jpg",
+                    "url": "media/c0178.webp",
                     "query": "Close-up: The teenager's real face, no filter, no ring light, dark circles under the eyes, a person behind the persona."
                 },
                 {
                     "offset": 5.69,
-                    "url": "media/c0179.jpg",
+                    "url": "media/c0179.webp",
                     "query": "Medium shot: An old framed photo on the desk showing the teenager laughing with friends outdoors, a ghost from before the screen."
                 }
             ],
             "words": [
                 {
-                    "start": 110.4,
-                    "end": 110.72,
-                    "text": "flame"
+                    "text": "And",
+                    "start": 110.2,
+                    "end": 110.914
                 },
                 {
-                    "start": 110.72,
-                    "end": 110.99,
-                    "text": "lit"
+                    "text": "my",
+                    "start": 110.914,
+                    "end": 111.629
                 },
                 {
-                    "start": 111.11,
-                    "end": 111.171,
-                    "text": "bright"
+                    "text": "whole",
+                    "start": 111.629,
+                    "end": 112.343
                 },
                 {
-                    "start": 118.579,
-                    "end": 118.748,
-                    "text": "life"
+                    "text": "life",
+                    "start": 112.343,
+                    "end": 113.057
                 },
                 {
-                    "start": 118.804,
-                    "end": 119.395,
-                    "text": "faded"
+                    "text": "faded",
+                    "start": 113.057,
+                    "end": 113.771
                 },
                 {
-                    "start": 119.479,
-                    "end": 119.804,
-                    "text": "into"
+                    "text": "into",
+                    "start": 113.771,
+                    "end": 114.486
                 },
                 {
-                    "start": 119.804,
-                    "end": 120.866,
-                    "text": "night"
+                    "text": "night",
+                    "start": 114.486,
+                    "end": 115.2
                 }
-            ]
+            ],
+            "core": "The person behind the profile is gone.",
+            "line_index": 29,
+            "core_pt": "A pessoa por trás do perfil se foi.",
+            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir."
         },
         {
             "id": "line_30_occ_0",
             "start": 121.804,
-            "end": 135.072,
+            "end": 126.804,
             "lyric": "Where the hell did I land?",
             "real_meaning": "The devastating question: It is not about geography. It is about identity. Where am I? What have I become? Is this my life now? The question every human asks when they realize they have been sleepwalking into someone else's story.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0180.jpg",
+                    "url": "media/c0180.webp",
                     "query": "Wide shot: The traveler standing at the edge of a cliff at dawn, overlooking the vast prehistoric valley now dotted with fires and shelters."
                 },
                 {
                     "offset": 3.68,
-                    "url": "media/c0181.jpg",
+                    "url": "media/c0181.webp",
                     "query": "Medium shot: The traveler looking down at the lighter in their hand, then out at the world they have accidentally reshaped, bewildered."
                 },
                 {
                     "offset": 7.28,
-                    "url": "media/c0182.jpg",
+                    "url": "media/c0182.webp",
                     "query": "Close-up: The traveler's eyes, equal parts wonder and terror, reflecting the enormous untamed world stretching to the horizon."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0183.jpg",
+                    "url": "media/c0183.webp",
                     "query": "Wide shot: The teenager standing in the middle of their studio-bedroom, surrounded by equipment, merch boxes, and screens, looking lost."
                 },
                 {
                     "offset": 3.68,
-                    "url": "media/c0184.jpg",
+                    "url": "media/c0184.webp",
                     "query": "Medium shot: The teenager holding their phone at arm's length, looking at their own profile, a stranger's face smiling back."
                 },
                 {
                     "offset": 7.28,
-                    "url": "media/c0185.jpg",
+                    "url": "media/c0185.webp",
                     "query": "Close-up: The teenager's eyes reflecting the phone screen, a single tear catching the glow, the devastating question on their face."
                 }
             ],
             "words": [
                 {
+                    "text": "Where",
                     "start": 121.804,
-                    "end": 125.724,
-                    "text": "Where"
+                    "end": 122.637
                 },
                 {
-                    "start": 126.605,
-                    "end": 126.664,
-                    "text": "the"
+                    "text": "the",
+                    "start": 122.637,
+                    "end": 123.471
                 },
                 {
-                    "start": 126.874,
-                    "end": 126.944,
-                    "text": "hell"
+                    "text": "hell",
+                    "start": 123.471,
+                    "end": 124.304
                 },
                 {
-                    "start": 126.994,
-                    "end": 127.163,
-                    "text": "did"
+                    "text": "did",
+                    "start": 124.304,
+                    "end": 125.137
                 },
                 {
-                    "start": 133.564,
-                    "end": 134.944,
-                    "text": "I"
+                    "text": "I",
+                    "start": 125.137,
+                    "end": 125.971
                 },
                 {
-                    "start": 134.944,
-                    "end": 135.072,
-                    "text": "land?"
+                    "text": "land?",
+                    "start": 125.971,
+                    "end": 126.804
                 }
-            ]
+            ],
+            "core": "What have I become?",
+            "line_index": 30,
+            "core_pt": "O que eu me tornei?",
+            "real_meaning_pt": "A devastadora pergunta: Não se trata de geografia. Trata-se de identidade. Onde estou? O que me tornei? É esta a minha vida agora? A pergunta que todo ser humano faz quando percebe que tem andado sonâmbulo na história de outra pessoa."
         }
     ],
     "beat_times": [

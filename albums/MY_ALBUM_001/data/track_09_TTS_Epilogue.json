@@ -7,18 +7,19 @@
             "start": 0.4,
             "end": 1.046,
             "lyric": "When I got home",
-            "real_meaning": "Coming full circle: Back where we started, but now armed with the heavy understanding of the pattern. The Revolution still bites the shoes.",
+            "real_meaning": "Full circle: We return to the beginning, but now armed with the heavy understanding of the pattern. The same cycle of blind obedience — the Revolution still bites the shoes.",
+            "core": "Back where we started. Now we understand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0960.jpg",
+                    "url": "media/c0960.webp",
                     "query": "Wide shot: The traveler stands up and walks to the window, looking out over the sprawling, glowing city."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0963.jpg",
+                    "url": "media/c0963.webp",
                     "query": "Wide shot: The user's apartment. Stripped of excess screens. Quiet, analog, calm."
                 }
             ],
@@ -43,7 +44,8 @@
                     "end": 1.046,
                     "text": "home"
                 }
-            ]
+            ],
+            "line_index": 0
         },
         {
             "id": "line_0_occ_0_s0_s1_s0",
@@ -51,6 +53,7 @@
             "end": 3.6,
             "lyric": "I sat on the couch and stared at",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -94,7 +97,8 @@
                     "end": 3.6,
                     "text": "at"
                 }
-            ]
+            ],
+            "line_index": 1
         },
         {
             "id": "line_0_occ_0_s0_s1_s1",
@@ -102,6 +106,7 @@
             "end": 4.224,
             "lyric": "the ceiling.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -115,7 +120,8 @@
                     "end": 4.224,
                     "text": "ceiling."
                 }
-            ]
+            ],
+            "line_index": 2
         },
         {
             "id": "line_0_occ_0_s1",
@@ -123,17 +129,18 @@
             "end": 6.4,
             "lyric": "The hedgehog chewing on my shoes.",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 5.03,
-                    "url": "media/c0961.jpg",
+                    "url": "media/c0961.webp",
                     "query": "Medium shot: The traveler looks from the city back to the smartphone, shaking their head at the absurdity of it all."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 5.03,
-                    "url": "media/c0964.jpg",
+                    "url": "media/c0964.webp",
                     "query": "Medium shot: The phone sits face-down on a bookshelf, gathering dust. Not destroyed, just ignored."
                 }
             ],
@@ -168,25 +175,27 @@
                     "end": 6.4,
                     "text": "shoes."
                 }
-            ]
+            ],
+            "line_index": 3
         },
         {
             "id": "line_1_occ_0_s0",
             "start": 7.2,
             "end": 7.988,
             "lyric": "And I thought...",
-            "real_meaning": "The blunt epiphany: Stripped of all grand poetry, the truth is horribly profane: we just never learn. It's always the same shit.",
+            "real_meaning": "The blunt epiphany: Stripped of all grand poetry, the truth is profane. We just never learn. Different tools, different centuries, same blind faith. Always the same.",
+            "core": "We just never learn.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0966.jpg",
+                    "url": "media/c0966.webp",
                     "query": "A vast prehistoric landscape at sunset, a lone figure standing near a cave entrance, firelight flickering."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0969.jpg",
+                    "url": "media/c0969.webp",
                     "query": "A sprawling cityscape at dusk, a single smartphone lying untouched on a windowsill."
                 }
             ],
@@ -206,7 +215,8 @@
                     "end": 7.988,
                     "text": "thought..."
                 }
-            ]
+            ],
+            "line_index": 4
         },
         {
             "id": "line_1_occ_0_s1",
@@ -214,6 +224,7 @@
             "end": 8.832,
             "lyric": "fuck.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -222,7 +233,8 @@
                     "end": 8.832,
                     "text": "fuck."
                 }
-            ]
+            ],
+            "line_index": 5
         },
         {
             "id": "line_1_occ_0_s2",
@@ -230,6 +242,7 @@
             "end": 10.988,
             "lyric": "It's always the same shit.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -258,25 +271,27 @@
                     "end": 10.988,
                     "text": "shit."
                 }
-            ]
+            ],
+            "line_index": 6
         },
         {
             "id": "line_2_occ_0_s0",
             "start": 11.744,
             "end": 13.344,
             "lyric": "The lighter was just a lighter.",
-            "real_meaning": "The complete arc of civilization: The tool becomes a symbol, becomes a totem, becomes a weapon. Money and ideology are just lighters without gas.",
+            "real_meaning": "The arc of civilization in six words: The tool becomes a symbol, becomes a totem, becomes a weapon. Money and ideology are just lighters without gas.",
+            "core": "Tool becomes totem becomes weapon.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0972.jpg",
+                    "url": "media/c0972.webp",
                     "query": "A vast prehistoric valley at sunset, volcanoes smolder in the distance. Warm hues paint the sky. Cinematic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0975.jpg",
+                    "url": "media/c0975.webp",
                     "query": "A sprawling cityscape at dusk, a single smartphone lies untouched on a windowsill, cool blue light reflected on the glass."
                 }
             ],
@@ -311,7 +326,8 @@
                     "end": 13.344,
                     "text": "lighter."
                 }
-            ]
+            ],
+            "line_index": 7
         },
         {
             "id": "line_2_occ_0_s1",
@@ -319,6 +335,7 @@
             "end": 15.308,
             "lyric": "But they made it a totem.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -352,7 +369,8 @@
                     "end": 15.308,
                     "text": "totem."
                 }
-            ]
+            ],
+            "line_index": 8
         },
         {
             "id": "line_2_occ_0_s2",
@@ -360,6 +378,7 @@
             "end": 16.76,
             "lyric": "A symbol of power.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -383,7 +402,8 @@
                     "end": 16.76,
                     "text": "power."
                 }
-            ]
+            ],
+            "line_index": 9
         },
         {
             "id": "line_2_occ_0_s3",
@@ -391,6 +411,7 @@
             "end": 18.586,
             "lyric": "A reason for war.",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -414,25 +435,27 @@
                     "end": 18.586,
                     "text": "war."
                 }
-            ]
+            ],
+            "line_index": 10
         },
         {
             "id": "line_3_occ_0",
             "start": 19.534,
             "end": 23.31,
             "lyric": "And today, thousands of years later, what's changed?",
-            "real_meaning": "The question that echoes through time: Despite all our skyscrapers and servers, what has fundamentally changed about the human condition?",
+            "real_meaning": "The question that echoes through time: Despite all our skyscrapers, servers, and algorithms, what has fundamentally changed about the human condition?",
+            "core": "What has fundamentally changed?",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0978.jpg",
+                    "url": "media/c0978.webp",
                     "query": "A vast prehistoric landscape at dusk, with a distant fire glowing in the twilight."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0981.jpg",
+                    "url": "media/c0981.webp",
                     "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a windowsill, cool blue light reflecting on the glass."
                 }
             ],
@@ -477,25 +500,29 @@
                     "end": 23.31,
                     "text": "changed?"
                 }
-            ]
+            ],
+            "line_index": 11,
+            "core_pt": "O que mudou fundamentalmente?",
+            "real_meaning_pt": "A pergunta que ecoa pelo tempo: Apesar de todos os nossos arranha-céus, servidores e algoritmos, o que mudou fundamentalmente na condição humana?"
         },
         {
             "id": "line_4_interp",
             "start": 23.31,
             "end": 25.18,
             "lyric": "Nothing.",
-            "real_meaning": "The single-word verdict: 'Nothing.' We are technological giants, but psychological infants. The paleolithic brain rules the silicon world.",
+            "real_meaning": "The single-word verdict, updated: Nothing. We are technological giants but psychological infants. The paleolithic brain now rules through silicon instead of stone. Same masters, new masks.",
+            "core": "Nothing. Same blind faith. New screens.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0984.jpg",
+                    "url": "media/c0984.webp",
                     "query": "A vast prehistoric landscape at sunset. Volcanic peaks, a sprawling forest, and a herd of wild horses. A small cave at the edge of a cliff."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0987.jpg",
+                    "url": "media/c0987.webp",
                     "query": "A sprawling cityscape at night, neon lights reflecting on rain-soaked streets. A phone sits untouched on a windowsill."
                 }
             ],
@@ -505,25 +532,29 @@
                     "end": 25.18,
                     "text": "Nothing."
                 }
-            ]
+            ],
+            "line_index": 12,
+            "core_pt": "Nada. A mesma fé cega. Novas telas.",
+            "real_meaning_pt": "O veredicto de uma palavra, atualizado: Nada. Somos gigantes tecnológicos, mas infantes psicológicos. O cérebro paleolítico agora reina através do silício em vez de pedra. Os mesmos mestres, novas máscaras."
         },
         {
             "id": "line_5_occ_0_s0",
             "start": 25.184,
             "end": 27.04,
             "lyric": "The modern Gralha still shouts:",
-            "real_meaning": "Still defending the lie: 'But the app said', 'but the market demands'. Our blind faith in abstract authority is identical to worshipping the Mage.",
+            "real_meaning": "This time is different: The lighter has become an AI that learns, adapts, and replaces. And the ones who own it aren't sharing the fire — they're selling you back your own sparks.",
+            "core": "But now the tool thinks. And it's not yours.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0990.jpg",
+                    "url": "media/c0990.webp",
                     "query": "A vast, prehistoric valley at dusk, with a lone figure standing beside a cave entrance, firelight flickering in the distance."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0993.jpg",
+                    "url": "media/c0993.webp",
                     "query": "Aerial view of a sprawling cityscape at dusk, a smartphone lies untouched on a balcony rail, cool blue hues reflecting off glass buildings."
                 }
             ],
@@ -553,7 +584,8 @@
                     "end": 27.04,
                     "text": "shouts:"
                 }
-            ]
+            ],
+            "line_index": 13
         },
         {
             "id": "line_5_occ_0_s1",
@@ -561,6 +593,7 @@
             "end": 29.408,
             "lyric": "'But the Mage said it was transport!'",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -599,25 +632,27 @@
                     "end": 29.408,
                     "text": "transport!'"
                 }
-            ]
+            ],
+            "line_index": 14
         },
         {
             "id": "line_6_occ_0_s0",
             "start": 29.88,
             "end": 31.68,
             "lyric": "And the modern Tronco replies:",
-            "real_meaning": "Peak futility: The ultimate absurdity of arguing fiercely about the color of the plastic while the lighter has been out of gas for years.",
+            "real_meaning": "The clearest truth of our time: It should be you and your AI working for the company — not you toiling alongside the company's AI, which was built to replace you. Know the difference. It's everything.",
+            "core": "You and YOUR AI. Not you and THEIR AI.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0996.jpg",
+                    "url": "media/c0996.webp",
                     "query": "Widespread prehistoric valley at dusk, volcanic smoke, firepit glow, silhouette of a lone figure."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0999.jpg",
+                    "url": "media/c0999.webp",
                     "query": "A sprawling cityscape at dusk, a sleek smartphone lies untouched on a modern balcony."
                 }
             ],
@@ -647,7 +682,8 @@
                     "end": 31.68,
                     "text": "replies:"
                 }
-            ]
+            ],
+            "line_index": 15
         },
         {
             "id": "line_6_occ_0_s1_s0",
@@ -655,17 +691,18 @@
             "end": 32.58,
             "lyric": "'Yeah",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 4.88,
-                    "url": "media/c0997.jpg",
+                    "url": "media/c0997.webp",
                     "query": "Man holding a stone tool, looking at fire, modern lighter in the dirt, fire reflected in his eyes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 4.88,
-                    "url": "media/c1000.jpg",
+                    "url": "media/c1000.webp",
                     "query": "Two individuals in a minimalist apartment, arguing intensely, phones nowhere to be seen."
                 }
             ],
@@ -675,7 +712,8 @@
                     "end": 32.58,
                     "text": "'Yeah"
                 }
-            ]
+            ],
+            "line_index": 16
         },
         {
             "id": "line_6_occ_0_s1_s1_s0",
@@ -683,6 +721,7 @@
             "end": 35.6,
             "lyric": "but the Mage's lighter was orange and I",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -726,7 +765,8 @@
                     "end": 35.6,
                     "text": "I"
                 }
-            ]
+            ],
+            "line_index": 17
         },
         {
             "id": "line_6_occ_0_s1_s1_s1",
@@ -734,6 +774,7 @@
             "end": 36.577,
             "lyric": "want a blue one!'",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -757,25 +798,27 @@
                     "end": 36.577,
                     "text": "one!'"
                 }
-            ]
+            ],
+            "line_index": 18
         },
         {
             "id": "line_7_occ_0",
             "start": 36.96,
             "end": 39.244,
             "lyric": "The fire is still there. Waiting.",
-            "real_meaning": "The final hope: The stone hasn't moved. The truth hasn't expired. Genuine meaning is completely free for anyone who simply stops running.",
+            "real_meaning": "The call to action: Take control. Build with AI on your terms — partner with it, don't serve it. The tool is just a tool, like the flint stone. But if you keep sleepwalking, the tech overlords will consume us whole.",
+            "core": "Own your fire. Wake up. Or they eat us whole.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c1002.jpg",
+                    "url": "media/c1002.webp",
                     "query": "Vast prehistoric valley at dusk, fires burning, smoke rising."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c1005.jpg",
+                    "url": "media/c1005.webp",
                     "query": "A sprawling cityscape at dusk, a smartphone sits untouched on a table in an apartment. Cool urban lights reflect off the screen."
                 }
             ],
@@ -810,86 +853,82 @@
                     "end": 39.244,
                     "text": "Waiting."
                 }
-            ]
+            ],
+            "line_index": 19,
+            "core_pt": "Aproveite seu fogo. Acorde. Ou eles nos devoram inteiros.",
+            "real_meaning_pt": "O chamado à ação: Tome o controle. Construa com IA nos seus termos — faça parceria com ela, não a sirva. A ferramenta é apenas uma ferramenta, como a pedra lascada. Mas se você continuar andando sonâmbulo, os senhores da tecnologia nos consumirão por completo."
         },
         {
             "id": "line_8_occ_0_s0",
             "start": 39.972,
-            "end": 41.92,
-            "lyric": "Waiting for someone to remember to strike the",
-            "real_meaning": "The album's ultimate message: Stop. Look down. The answer was never in the frantic running; it was always right at your feet. Chak-chak.",
+            "end": 42.37,
+            "lyric": "Waiting for someone to remember to strike the stone.",
+            "real_meaning": "The album's final truth: Stop running their race. Look down at what's already in your hands. Strike your own fire. The answer was never in the cloud — it was always at your feet. Chak-chak.",
+            "core": "Stop. Look down. Strike. Chak-chak.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c1008.jpg",
+                    "url": "media/c1008.webp",
                     "query": "A vast prehistoric landscape at dawn, smoke from fires rising into the sky."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c1011.jpg",
+                    "url": "media/c1011.webp",
                     "query": "A bustling cityscape at dusk, a sleek smartphone sits untouched on a windowsill, cool blues and purples dominate the scene."
                 }
             ],
             "words": [
                 {
+                    "text": "Waiting",
                     "start": 39.972,
-                    "end": 40.199,
-                    "text": "Waiting"
+                    "end": 40.238
                 },
                 {
-                    "start": 40.275,
-                    "end": 40.337,
-                    "text": "for"
+                    "text": "for",
+                    "start": 40.238,
+                    "end": 40.505
                 },
                 {
-                    "start": 40.635,
-                    "end": 40.7,
-                    "text": "someone"
+                    "text": "someone",
+                    "start": 40.505,
+                    "end": 40.771
                 },
                 {
-                    "start": 40.85,
-                    "end": 40.9,
-                    "text": "to"
+                    "text": "to",
+                    "start": 40.771,
+                    "end": 41.038
                 },
                 {
-                    "start": 41.14,
-                    "end": 41.22,
-                    "text": "remember"
+                    "text": "remember",
+                    "start": 41.038,
+                    "end": 41.304
                 },
                 {
-                    "start": 41.285,
-                    "end": 41.358,
-                    "text": "to"
+                    "text": "to",
+                    "start": 41.304,
+                    "end": 41.571
                 },
                 {
-                    "start": 41.66,
-                    "end": 41.72,
-                    "text": "strike"
+                    "text": "strike",
+                    "start": 41.571,
+                    "end": 41.837
                 },
                 {
-                    "start": 41.77,
-                    "end": 41.92,
-                    "text": "the"
+                    "text": "the",
+                    "start": 41.837,
+                    "end": 42.104
+                },
+                {
+                    "text": "stone.",
+                    "start": 42.104,
+                    "end": 42.37
                 }
-            ]
-        },
-        {
-            "id": "line_8_occ_0_s1",
-            "start": 41.92,
-            "end": 42.37,
-            "lyric": "stone.",
-            "real_meaning": "",
-            "media": [],
-            "hidden_media": [],
-            "words": [
-                {
-                    "start": 41.92,
-                    "end": 42.37,
-                    "text": "stone."
-                }
-            ]
+            ],
+            "line_index": 20,
+            "core_pt": "Pare. Olhe para baixo. Ataque. Chak-chak.",
+            "real_meaning_pt": "O verdadeiro final do álbum: Pare de correr a corrida deles. Olhe para baixo para o que já está em suas mãos. Acenda seu próprio fogo. A resposta nunca estava na nuvem — sempre esteve aos seus pés. Chak-chak."
         }
     ],
     "beat_times": [

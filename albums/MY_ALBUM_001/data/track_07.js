@@ -9,17 +9,18 @@ var track_07_data = {
             "end": 14.012,
             "lyric": "They were fighting when I slipped away",
             "real_meaning": "The elite exit strategy: The billionaire retreats to the bunker, the CEO steps down with a golden parachute while the system burns.",
+            "core": "The billionaire retreats to the bunker.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0720.jpg",
+                    "url": "media/c0720.webp",
                     "query": "Wide shot: The Mage quietly slips down from his rock while the tribe is completely distracted by their civil war."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0723.jpg",
+                    "url": "media/c0723.webp",
                     "query": "Wide shot: The New York Stock Exchange floor at 4 PM. The closing bell rings, but the screens flash aggressive red numbers."
                 }
             ],
@@ -59,7 +60,10 @@ var track_07_data = {
                     "end": 14.012,
                     "text": "away"
                 }
-            ]
+            ],
+            "line_index": 0,
+            "core_pt": "O bilionário se retira para o bunker.",
+            "real_meaning_pt": "A estratégia de saída da elite: o bilionário se retira para o bunker, o CEO se aposenta com um paraquedas dourado enquanto o sistema queima."
         },
         {
             "id": "line_1_occ_0",
@@ -67,17 +71,18 @@ var track_07_data = {
             "end": 19.352,
             "lyric": "Grabbed my hedgehog, didn't stay",
             "real_meaning": "Taking only what is real: The Mage grabs the hedgehog (Revolution)—the one authentic, natural element amidst the utter artifice.",
+            "core": "Take only what is real.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0726.jpg",
+                    "url": "media/c0726.webp",
                     "query": "Wide shot: A Gralhista spots the fleeing Mage. The tribe immediately stops fighting and rushes toward him."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0729.jpg",
+                    "url": "media/c0729.webp",
                     "query": "Wide pan: A massive, apocalyptic e-waste dump located overseas. Mountains of obsolete, unfixable branded electronics rotting in the sun."
                 }
             ],
@@ -107,7 +112,10 @@ var track_07_data = {
                     "end": 19.352,
                     "text": "stay"
                 }
-            ]
+            ],
+            "line_index": 1,
+            "core_pt": "Leve apenas o que é real.",
+            "real_meaning_pt": "Tomando apenas o que é real: O Mago pega o ouriço (Revolução)—o único elemento autêntico e natural em meio à total artifício."
         },
         {
             "id": "line_2_occ_0",
@@ -115,17 +123,18 @@ var track_07_data = {
             "end": 24.792,
             "lyric": "Just one look back to see the scene",
             "real_meaning": "The backward glance of regret: Lot's wife, the rearview mirror. The momentary guilt of leaving the chaos you personally engineered.",
+            "core": "The guilt of leaving the chaos.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0732.jpg",
+                    "url": "media/c0732.webp",
                     "query": "A vast, firelit prehistoric valley at dusk. Smoke from a fire at the center of a distant camp. A fleeing figure runs to the edge of the frame. The green glow of a cell phone and a"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0735.jpg",
+                    "url": "media/c0735.webp",
                     "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a bustling street corner. Concrete jungle, neon lights, cool tones, cinematic."
                 }
             ],
@@ -170,7 +179,10 @@ var track_07_data = {
                     "end": 24.792,
                     "text": "scene"
                 }
-            ]
+            ],
+            "line_index": 2,
+            "core_pt": "A culpa de deixar o caos.",
+            "real_meaning_pt": "O olhar para trás do arrependimento: a mulher de Ló, o retrovisor. A culpa momentânea de deixar o caos que você pessoalmente engenhou."
         },
         {
             "id": "line_3_occ_0",
@@ -178,17 +190,18 @@ var track_07_data = {
             "end": 29.932,
             "lyric": "The tribe all fighting, mean and keen",
             "real_meaning": "The modern social media landscape: Everyone fighting fiercely, enthusiastically, and viciously over things that fundamentally do not matter.",
+            "core": "Everyone fighting over nothing.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0738.jpg",
+                    "url": "media/c0738.webp",
                     "query": "A vast, prehistoric landscape under a fiery sunset. The tribe is silhouetted against the flames of their campfire."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0741.jpg",
+                    "url": "media/c0741.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings on a busy street corner.  High-rise buildings and neon lights surround them."
                 }
             ],
@@ -228,7 +241,10 @@ var track_07_data = {
                     "end": 29.932,
                     "text": "keen"
                 }
-            ]
+            ],
+            "line_index": 3,
+            "core_pt": "Todo mundo brigando por nada.",
+            "real_meaning_pt": "O cenário moderno das redes sociais: Todo mundo lutando ferozmente, entusiasticamente e viciosamente por coisas que, fundamentalmente, não importam."
         },
         {
             "id": "line_4_occ_0",
@@ -236,27 +252,28 @@ var track_07_data = {
             "end": 35.272,
             "lyric": "I threw the lighter in the air",
             "real_meaning": "Releasing the product into the wild: The IPO, the open-sourcing of the token, deliberately letting go of the empty gadget to secure escape.",
+            "core": "Releasing the product into the wild.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0744.jpg",
+                    "url": "media/c0744.webp",
                     "query": "A vast prehistoric landscape at dusk, a lone figure darting across the savannah."
                 },
                 {
                     "offset": 3.25,
-                    "url": "media/c0745.jpg",
+                    "url": "media/c0745.webp",
                     "query": "A tribe huddled around a dying fire, a mage throwing an empty lighter into the air."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0747.jpg",
+                    "url": "media/c0747.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box into a high-rise building, the streets bustling with activity below."
                 },
                 {
                     "offset": 3.25,
-                    "url": "media/c0748.jpg",
+                    "url": "media/c0748.webp",
                     "query": "A dimly lit office, a CEO stands alone, the IPO bell in hand, and a crowd of anxious faces glows through the glass windows."
                 }
             ],
@@ -296,7 +313,10 @@ var track_07_data = {
                     "end": 35.272,
                     "text": "air"
                 }
-            ]
+            ],
+            "line_index": 4,
+            "core_pt": "Realmente jogando fora a ilusão.",
+            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso."
         },
         {
             "id": "line_5_occ_0",
@@ -304,27 +324,28 @@ var track_07_data = {
             "end": 40.272,
             "lyric": "Gralha jumped to grab it there",
             "real_meaning": "The consumer leaps: Black Friday stampedes, desperate acquisition. The masses lunging for the shiny distraction.",
+            "core": "Black Friday stampede for emptiness.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0750.jpg",
+                    "url": "media/c0750.webp",
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure running, smoke from the distance.  WIDE."
                 },
                 {
                     "offset": 2.54,
-                    "url": "media/c0751.jpg",
+                    "url": "media/c0751.webp",
                     "query": "A tribe, silhouetted, clashing over an empty plastic object."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0753.jpg",
+                    "url": "media/c0753.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings, skyscrapers loom in the background."
                 },
                 {
                     "offset": 2.54,
-                    "url": "media/c0754.jpg",
+                    "url": "media/c0754.webp",
                     "query": "The CEO's office; sleek, modern, devoid of life. An empty chair, a cold, dark screen."
                 }
             ],
@@ -359,7 +380,10 @@ var track_07_data = {
                     "end": 40.272,
                     "text": "there"
                 }
-            ]
+            ],
+            "line_index": 5,
+            "core_pt": "Uma nova Gralha sempre pega o objeto brilhante.",
+            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita."
         },
         {
             "id": "line_6_occ_0",
@@ -367,27 +391,28 @@ var track_07_data = {
             "end": 45.492,
             "lyric": "The tribe all followed, wild and thick",
             "real_meaning": "The herd mentality: Bubble economics, viral trends. The mindless mob chasing the next bright, shiny, entirely hollow object.",
+            "core": "The herd chases the next shiny thing.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0756.jpg",
+                    "url": "media/c0756.webp",
                     "query": "A vast prehistoric valley bathed in warm sunlight, a lone figure running toward the horizon, a tribal horde pursuing."
                 },
                 {
                     "offset": 2.77,
-                    "url": "media/c0757.jpg",
+                    "url": "media/c0757.webp",
                     "query": "A dramatic scene at the edge of a cliff. The Mage holds an empty lighter, tribe members fighting over it."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0759.jpg",
+                    "url": "media/c0759.webp",
                     "query": "A wide shot of a bustling cityscape at dusk, a lone box of belongings sits on the curb in front of a towering skyscraper."
                 },
                 {
                     "offset": 2.77,
-                    "url": "media/c0760.jpg",
+                    "url": "media/c0760.webp",
                     "query": "A crowded trading floor, faces lit by screens, hands gesturing frantically as people rush to buy more."
                 }
             ],
@@ -427,7 +452,10 @@ var track_07_data = {
                     "end": 45.492,
                     "text": "thick"
                 }
-            ]
+            ],
+            "line_index": 6,
+            "core_pt": "Nova marca, mesmo comportamento.",
+            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para."
         },
         {
             "id": "line_7_occ_0",
@@ -435,27 +463,28 @@ var track_07_data = {
             "end": 50.992,
             "lyric": "For an object that wouldn't click",
             "real_meaning": "The empty product: Exploring the metaverse, buying heavily inflated stock. A lighter that no longer sparks. Valueless.",
+            "core": "A lighter that no longer sparks.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0762.jpg",
+                    "url": "media/c0762.webp",
                     "query": "WIDE scene of a prehistoric landscape with a tribe around a fire. Warm hues."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0763.jpg",
+                    "url": "media/c0763.webp",
                     "query": "MEDIUM shot of a tribe member tossing a lighter into the center of the tribe."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0765.jpg",
+                    "url": "media/c0765.webp",
                     "query": "A sprawling cityscape at dusk, a lonely box of belongings sits on a curb, ready for disposal."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0766.jpg",
+                    "url": "media/c0766.webp",
                     "query": "A chaotic stock exchange floor, a CEO stands alone. Their phone screen is dark."
                 }
             ],
@@ -490,7 +519,10 @@ var track_07_data = {
                     "end": 50.992,
                     "text": "click"
                 }
-            ]
+            ],
+            "line_index": 7,
+            "core_pt": "Ninguém verifica mais o gás.",
+            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico."
         },
         {
             "id": "line_8_occ_0",
@@ -498,27 +530,28 @@ var track_07_data = {
             "end": 66.612,
             "lyric": "The gas was gone, they didn't know",
             "real_meaning": "The bursting bubble: The company is bankrupt, the gas is gone, but the believers haven't realized the truth yet.",
+            "core": "The bubble burst. Nobody noticed.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0768.jpg",
+                    "url": "media/c0768.webp",
                     "query": "A vast prehistoric landscape at sunset, a lone figure retreating, tribal silhouettes chasing."
                 },
                 {
                     "offset": 3.55,
-                    "url": "media/c0769.jpg",
+                    "url": "media/c0769.webp",
                     "query": "A chaotic struggle over an empty plastic lighter, tribal members fighting, fire lit weapons glinting."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0771.jpg",
+                    "url": "media/c0771.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street; high-rise buildings loom above. Neon lights reflect on the damp pavement; cool tones. The camera"
                 },
                 {
                     "offset": 3.55,
-                    "url": "media/c0772.jpg",
+                    "url": "media/c0772.webp",
                     "query": "A chaotic trading floor, people stare at screens. One man in a suit, turns from his terminal, looks at his phone, the screen is dead.  The camera is mid shot."
                 }
             ],
@@ -558,7 +591,10 @@ var track_07_data = {
                     "end": 66.612,
                     "text": "know"
                 }
-            ]
+            ],
+            "line_index": 8,
+            "core_pt": "A bolha estourou. Ninguém percebeu.",
+            "real_meaning_pt": "A bolha estourou: A empresa está falida, o gás acabou, mas os fiéis ainda não perceberam a verdade."
         },
         {
             "id": "line_9_occ_0",
@@ -566,17 +602,18 @@ var track_07_data = {
             "end": 72.232,
             "lyric": "The sacred thing had nothing to show",
             "real_meaning": "The Emperor's new clothes: The sacred object has absolutely nothing left to offer. The promise was always a complete void.",
+            "core": "The sacred object has nothing left.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0774.jpg",
+                    "url": "media/c0774.webp",
                     "query": "A vast prehistoric landscape at sunset, a lone figure running from a distant firelit tribe."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0777.jpg",
+                    "url": "media/c0777.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, overlooking the urban jungle."
                 }
             ],
@@ -616,7 +653,10 @@ var track_07_data = {
                     "end": 72.232,
                     "text": "show"
                 }
-            ]
+            ],
+            "line_index": 9,
+            "core_pt": "O objeto sagrado não tem mais nada.",
+            "real_meaning_pt": "O novo traje do imperador: o objeto sagrado não tem mais nada a oferecer. A promessa sempre foi um vazio completo."
         },
         {
             "id": "line_10_occ_0",
@@ -624,27 +664,28 @@ var track_07_data = {
             "end": 77.512,
             "lyric": "Empty plastic, hollow shell",
             "real_meaning": "The physical remains of fake meaning: Mountains of e-waste, landfills of fast fashion, the hollow plastic shells of our consumerism.",
+            "core": "Mountains of e-waste. Hollow shells.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0780.jpg",
+                    "url": "media/c0780.webp",
                     "query": "A vast prehistoric valley at sunset, a lone figure dashes away from a distant firelit tribe. Smoke billows.  Cinematic."
                 },
                 {
                     "offset": 4.02,
-                    "url": "media/c0781.jpg",
+                    "url": "media/c0781.webp",
                     "query": "The fleeing figure throws a small object, sparks fly. A fiery torch is dropped as a group of figures grapple.  Warm."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0783.jpg",
+                    "url": "media/c0783.webp",
                     "query": "A vast, urban landscape at dusk, a solitary figure stands by a towering pile of unopened boxes."
                 },
                 {
                     "offset": 4.02,
-                    "url": "media/c0784.jpg",
+                    "url": "media/c0784.webp",
                     "query": "A bustling city street, neon lights reflecting off rain-soaked pavement, people rushing with shopping bags."
                 }
             ],
@@ -669,7 +710,10 @@ var track_07_data = {
                     "end": 77.512,
                     "text": "shell"
                 }
-            ]
+            ],
+            "line_index": 10,
+            "core_pt": "Montanhas de lixo eletrônico. Cascas vazias.",
+            "real_meaning_pt": "Os restos físicos de um significado falso: Montanhas de lixo eletrônico, lixões de moda rápida, as conchas plásticas vazias do nosso consumismo."
         },
         {
             "id": "line_11_occ_0",
@@ -677,27 +721,28 @@ var track_07_data = {
             "end": 82.772,
             "lyric": "I ran to my green time-travel cell",
             "real_meaning": "Retreating to the green cell: Logging off, going offline, retreating to nature. Finding the exit door before the civilization collapses.",
+            "core": "Log off. Go outside. Find the exit.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0786.jpg",
+                    "url": "media/c0786.webp",
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure retreating into the distance."
                 },
                 {
                     "offset": 3.34,
-                    "url": "media/c0787.jpg",
+                    "url": "media/c0787.webp",
                     "query": "A tribe clashes over a small, empty plastic lighter, flames reflecting on determined faces."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0789.jpg",
+                    "url": "media/c0789.webp",
                     "query": "Aerial view of a sprawling cityscape. A lone box of belongings sits on a rooftop."
                 },
                 {
                     "offset": 3.34,
-                    "url": "media/c0790.jpg",
+                    "url": "media/c0790.webp",
                     "query": "A sleek, modern boardroom, now empty. A broken IPO bell sits on a table. An e-waste dump is visible out the window."
                 }
             ],
@@ -737,7 +782,10 @@ var track_07_data = {
                     "end": 82.772,
                     "text": "cell"
                 }
-            ]
+            ],
+            "line_index": 11,
+            "core_pt": "Desconecte-se. Saia. Encontre a saída.",
+            "real_meaning_pt": "Recuar para a cela verde: Desconectando, saindo da rede, recuando para a natureza. Encontrando a porta de saída antes que a civilização desmorone."
         },
         {
             "id": "line_12_occ_0",
@@ -745,27 +793,28 @@ var track_07_data = {
             "end": 88.16,
             "lyric": "Grabbed the hedgehog (just in case)",
             "real_meaning": "Preserving the analog: Keeping the pet, the garden, the tangible truth. Holding onto the real world 'just in case' the digital one dies.",
+            "core": "Hold onto the real world.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0792.jpg",
+                    "url": "media/c0792.webp",
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure slipping away from a distant tribe."
                 },
                 {
                     "offset": 3.06,
-                    "url": "media/c0793.jpg",
+                    "url": "media/c0793.webp",
                     "query": "A tribesman throwing a lighter, sparks flying, others rushing towards the empty plastic shell."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0795.jpg",
+                    "url": "media/c0795.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure stands beside a box of belongings."
                 },
                 {
                     "offset": 3.06,
-                    "url": "media/c0796.jpg",
+                    "url": "media/c0796.webp",
                     "query": "CEO walks out of skyscraper, mountains of e-waste in the background."
                 }
             ],
@@ -800,7 +849,10 @@ var track_07_data = {
                     "end": 88.16,
                     "text": "case)"
                 }
-            ]
+            ],
+            "line_index": 12,
+            "core_pt": "Segure-se no mundo real.",
+            "real_meaning_pt": "Preservando o analógico: mantendo o bicho de estimação, o jardim, a verdade tangível. Segurando-se ao mundo real 'só por garantia' caso o digital morra."
         },
         {
             "id": "line_13_occ_0",
@@ -808,27 +860,28 @@ var track_07_data = {
             "end": 93.352,
             "lyric": "Saw the confusion on each face",
             "real_meaning": "The moment the magic dies: The collective realization of betrayal on the faces of the followers when the illusion finally breaks.",
+            "core": "The moment the magic dies.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0798.jpg",
+                    "url": "media/c0798.webp",
                     "query": "A vast, firelit prehistoric valley at dusk, a lone figure fleeing, tribe in pursuit."
                 },
                 {
                     "offset": 2.72,
-                    "url": "media/c0799.jpg",
+                    "url": "media/c0799.webp",
                     "query": "The figure throws a small, smoking object, tribe members lunge for it, warm hues."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0801.jpg",
+                    "url": "media/c0801.webp",
                     "query": "A sprawling cityscape at dusk, a lone box of belongings in the foreground, surrounded by towering skyscrapers and neon lights reflecting off rain-soaked streets."
                 },
                 {
                     "offset": 2.72,
-                    "url": "media/c0802.jpg",
+                    "url": "media/c0802.webp",
                     "query": "A chaotic Black Friday sale, shoppers rushing, empty boxes being carried, the scene is a flurry of cool tones, and the lights and screens around people are flickering."
                 }
             ],
@@ -863,7 +916,10 @@ var track_07_data = {
                     "end": 93.352,
                     "text": "face"
                 }
-            ]
+            ],
+            "line_index": 13,
+            "core_pt": "O momento em que a magia morre.",
+            "real_meaning_pt": "O momento em que a magia morre: a realização coletiva da traição nos rostos dos seguidores quando a ilusão finalmente se quebra."
         },
         {
             "id": "line_14_occ_0",
@@ -871,27 +927,28 @@ var track_07_data = {
             "end": 98.272,
             "lyric": "Closed the door and pressed return",
             "real_meaning": "Pressing Ctrl+Z on civilization: The intense desire to undo the damage, to revert to a time before we traded our humanity for convenience.",
+            "core": "The desire to undo all the damage.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0804.jpg",
+                    "url": "media/c0804.webp",
                     "query": "Vast prehistoric valley at sunset. Distant tribe circles flickering fire. Figure slips away into wilderness."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0805.jpg",
+                    "url": "media/c0805.webp",
                     "query": "Mage struggles with empty lighter. Tribe gathers, eyes fixed on the object. Warm firelight casts long shadows."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0807.jpg",
+                    "url": "media/c0807.webp",
                     "query": "A sprawling urban landscape at dusk, a lone figure stands amidst a sea of abandoned boxes, reflecting on their belongings, on a dark road."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0808.jpg",
+                    "url": "media/c0808.webp",
                     "query": "A sleek, modern office space, filled with empty chairs, dead screens, and the eerie glow of standby lights."
                 }
             ],
@@ -926,7 +983,10 @@ var track_07_data = {
                     "end": 98.272,
                     "text": "return"
                 }
-            ]
+            ],
+            "line_index": 14,
+            "core_pt": "O desejo de desfazer todo o dano.",
+            "real_meaning_pt": "Aperte Ctrl+Z na civilização: O intenso desejo de desfazer o dano, de voltar a um tempo em que não trocamos nossa humanidade pela conveniência."
         },
         {
             "id": "line_15_occ_0",
@@ -934,27 +994,28 @@ var track_07_data = {
             "end": 103.81,
             "lyric": "Leaving them to crash and burn",
             "real_meaning": "Survivor's guilt: The heavy burden of the escapist, knowing you are leaving the rest of the tribe to crash and burn in your system.",
+            "core": "Leaving them to crash and burn.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0810.jpg",
+                    "url": "media/c0810.webp",
                     "query": "A vast prehistoric landscape at dusk, a lone figure flees, firelight flickers behind in warm tones."
                 },
                 {
                     "offset": 2.74,
-                    "url": "media/c0811.jpg",
+                    "url": "media/c0811.webp",
                     "query": "The figure throws a small, empty, plastic shell. A tribe wrestles for it in a fiery, dramatic scene."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0813.jpg",
+                    "url": "media/c0813.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure carries a box down a bustling street, reflections of neon lights on the pavement."
                 },
                 {
                     "offset": 2.74,
-                    "url": "media/c0814.jpg",
+                    "url": "media/c0814.webp",
                     "query": "A chaotic office party, a CEO holds a champagne glass, a clock strikes midnight,  a ticker display of stock prices freezes."
                 }
             ],
@@ -989,7 +1050,10 @@ var track_07_data = {
                     "end": 103.81,
                     "text": "burn"
                 }
-            ]
+            ],
+            "line_index": 15,
+            "core_pt": "Deixando-os falharem e se queimarem.",
+            "real_meaning_pt": "Culpa do sobrevivente: o pesado fardo do escapista, sabendo que está deixando o resto da tribo para se destruir no seu sistema."
         },
         {
             "id": "line_16_interp",
@@ -997,57 +1061,61 @@ var track_07_data = {
             "end": 106.49,
             "lyric": "I threw the lighter in the air",
             "real_meaning": "The final surrender: Truly throwing away the illusion. Not a strategic release, but a complete rejection of the false power.",
+            "core": "Truly throwing away the illusion.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0816.jpg",
+                    "url": "media/c0816.webp",
                     "query": "A vast, prehistoric landscape at dusk, with a lone figure slipping away from a tribe gathering around a dying fire."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0819.jpg",
+                    "url": "media/c0819.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure stands on a balcony, holding a box of belongings, looking down at the urban jungle below."
                 }
             ],
             "words": [
                 {
+                    "text": "I",
                     "start": 103.81,
-                    "end": 104.193,
-                    "text": "I"
+                    "end": 104.193
                 },
                 {
+                    "text": "threw",
                     "start": 104.193,
-                    "end": 104.576,
-                    "text": "threw"
+                    "end": 104.576
                 },
                 {
+                    "text": "the",
                     "start": 104.576,
-                    "end": 104.959,
-                    "text": "the"
+                    "end": 104.959
                 },
                 {
+                    "text": "lighter",
                     "start": 104.959,
-                    "end": 105.341,
-                    "text": "lighter"
+                    "end": 105.341
                 },
                 {
+                    "text": "in",
                     "start": 105.341,
-                    "end": 105.724,
-                    "text": "in"
+                    "end": 105.724
                 },
                 {
+                    "text": "the",
                     "start": 105.724,
-                    "end": 106.107,
-                    "text": "the"
+                    "end": 106.107
                 },
                 {
+                    "text": "air",
                     "start": 106.107,
-                    "end": 106.49,
-                    "text": "air"
+                    "end": 106.49
                 }
-            ]
+            ],
+            "line_index": 16,
+            "core_pt": "Realmente jogando fora a ilusão.",
+            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso."
         },
         {
             "id": "line_17_occ_0",
@@ -1055,72 +1123,76 @@ var track_07_data = {
             "end": 114.859,
             "lyric": "Gralha jumped to grab it there",
             "real_meaning": "The cycle never fully breaks: Even in the moment of collapse, a new Gralha will always jump to grab the shiny object. The desperation is infinite.",
+            "core": "A new Gralha always grabs the shiny object.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0822.jpg",
+                    "url": "media/c0822.webp",
                     "query": "A vast prehistoric landscape at dusk, smoke from fire rises.  Two figures running away from the flames.  A tribe gathers around the fire."
                 },
                 {
                     "offset": 2.69,
-                    "url": "media/c0823.jpg",
+                    "url": "media/c0823.webp",
                     "query": "A dramatic close-up of a lighter being thrown in front of a running figure.  The lighter falls on the ground and a tribe member reaches for it.  The tribe is running behind the lig"
                 },
                 {
                     "offset": 5.98,
-                    "url": "media/c0824.jpg",
+                    "url": "media/c0824.webp",
                     "query": "A close-up of a hand grabbing for a lighter.  The lighter is empty and the hand is covered in dirt and scratches."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0825.jpg",
+                    "url": "media/c0825.webp",
                     "query": "A wide shot of a bustling cityscape at night, a lonely cardboard box sits in the foreground under the cold glow of neon lights. A person is walking away."
                 },
                 {
                     "offset": 2.69,
-                    "url": "media/c0826.jpg",
+                    "url": "media/c0826.webp",
                     "query": "A medium shot of a chaotic Black Friday sales event inside a tech store, with shoppers frantically grasping for nothing, illuminated by harsh fluorescent lights."
                 },
                 {
                     "offset": 5.98,
-                    "url": "media/c0827.jpg",
+                    "url": "media/c0827.webp",
                     "query": "A close-up of a desperate hand reaching for a glistening new phone in an e-waste dump, surrounded by discarded tech."
                 }
             ],
             "words": [
                 {
+                    "text": "Gralha",
                     "start": 106.492,
-                    "end": 107.886,
-                    "text": "air"
+                    "end": 107.886
                 },
                 {
+                    "text": "jumped",
                     "start": 107.886,
-                    "end": 109.281,
-                    "text": "Gralha"
+                    "end": 109.281
                 },
                 {
+                    "text": "to",
                     "start": 109.281,
-                    "end": 110.675,
-                    "text": "jumped"
+                    "end": 110.675
                 },
                 {
+                    "text": "grab",
                     "start": 110.675,
-                    "end": 112.07,
-                    "text": "to"
+                    "end": 112.07
                 },
                 {
+                    "text": "it",
                     "start": 112.07,
-                    "end": 113.465,
-                    "text": "grab"
+                    "end": 113.465
                 },
                 {
+                    "text": "there",
                     "start": 113.465,
-                    "end": 114.859,
-                    "text": "it"
+                    "end": 114.859
                 }
-            ]
+            ],
+            "line_index": 17,
+            "core_pt": "Uma nova Gralha sempre pega o objeto brilhante.",
+            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita."
         },
         {
             "id": "line_18_occ_0",
@@ -1128,77 +1200,81 @@ var track_07_data = {
             "end": 123.226,
             "lyric": "The tribe all followed, wild and thick",
             "real_meaning": "The pattern repeats endlessly: New object, new tribe, exact same behavior. The brand of the lighter changes, but the blind running never stops.",
+            "core": "New brand, same behavior.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0828.jpg",
+                    "url": "media/c0828.webp",
                     "query": "A vast prehistoric valley at dusk, a lone figure flees towards a distant cave. The warm hues of the setting sun illuminate the rugged terrain."
                 },
                 {
                     "offset": 4.19,
-                    "url": "media/c0829.jpg",
+                    "url": "media/c0829.webp",
                     "query": "A desperate tribe, lit by flickering firelight, fights for an empty lighter, hands outstretched, faces contorted in struggle."
                 },
                 {
                     "offset": 7.46,
-                    "url": "media/c0830.jpg",
+                    "url": "media/c0830.webp",
                     "query": "A tight close-up of the tribe's leader, eyes wide with primal intensity, teeth bared, wild hair whipping in the wind."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0831.jpg",
+                    "url": "media/c0831.webp",
                     "query": "A sprawling urban landscape at dusk, a lone figure stands beside a box of belongings on a busy street corner. Cool, cinematic."
                 },
                 {
                     "offset": 4.19,
-                    "url": "media/c0832.jpg",
+                    "url": "media/c0832.webp",
                     "query": "A sleek office boardroom, a CEO sits alone amidst a sea of glowing screens, the room is dark. Cool tones, modern."
                 },
                 {
                     "offset": 7.46,
-                    "url": "media/c0833.jpg",
+                    "url": "media/c0833.webp",
                     "query": "A close-up of a hand, holding a flickering lighter in the dark, the lighter's flame reflecting on the hand. Intimate, photographic."
                 }
             ],
             "words": [
                 {
+                    "text": "The",
                     "start": 114.859,
-                    "end": 116.054,
-                    "text": "there"
+                    "end": 116.054
                 },
                 {
+                    "text": "tribe",
                     "start": 116.054,
-                    "end": 117.25,
-                    "text": "The"
+                    "end": 117.25
                 },
                 {
+                    "text": "all",
                     "start": 117.25,
-                    "end": 118.445,
-                    "text": "tribe"
+                    "end": 118.445
                 },
                 {
+                    "text": "followed,",
                     "start": 118.445,
-                    "end": 119.64,
-                    "text": "all"
+                    "end": 119.64
                 },
                 {
+                    "text": "wild",
                     "start": 119.64,
-                    "end": 120.835,
-                    "text": "followed,"
+                    "end": 120.835
                 },
                 {
+                    "text": "and",
                     "start": 120.835,
-                    "end": 122.031,
-                    "text": "wild"
+                    "end": 122.031
                 },
                 {
+                    "text": "thick",
                     "start": 122.031,
-                    "end": 123.226,
-                    "text": "and"
+                    "end": 123.226
                 }
-            ]
+            ],
+            "line_index": 18,
+            "core_pt": "Nova marca, mesmo comportamento.",
+            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para."
         },
         {
             "id": "line_19_occ_0",
@@ -1206,62 +1282,66 @@ var track_07_data = {
             "end": 131.593,
             "lyric": "For an object that wouldn't click",
             "real_meaning": "The hollowness is permanent: The object remains stubbornly empty. Nobody checks for gas anymore; they just violently defend the plastic.",
+            "core": "Nobody checks for gas anymore.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0834.jpg",
+                    "url": "media/c0834.webp",
                     "query": "A vast, fiery landscape, a lone figure sprinting away from a tribal encampment."
                 },
                 {
                     "offset": 5.0,
-                    "url": "media/c0835.jpg",
+                    "url": "media/c0835.webp",
                     "query": "A group of tribespeople, cloaked in furs, fiercely grappling over a glinting object."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0837.jpg",
+                    "url": "media/c0837.webp",
                     "query": "A vast, empty city street at dawn, a lone cardboard box sits on the pavement, a few belongings spilling out."
                 },
                 {
                     "offset": 5.0,
-                    "url": "media/c0838.jpg",
+                    "url": "media/c0838.webp",
                     "query": "A crowded trading floor, faces filled with tension, eyes glued to flickering screens displaying volatile numbers."
                 }
             ],
             "words": [
                 {
+                    "text": "For",
                     "start": 123.226,
-                    "end": 124.62,
-                    "text": "thick"
+                    "end": 124.62
                 },
                 {
+                    "text": "an",
                     "start": 124.62,
-                    "end": 126.015,
-                    "text": "For"
+                    "end": 126.015
                 },
                 {
+                    "text": "object",
                     "start": 126.015,
-                    "end": 127.409,
-                    "text": "an"
+                    "end": 127.409
                 },
                 {
+                    "text": "that",
                     "start": 127.409,
-                    "end": 128.804,
-                    "text": "object"
+                    "end": 128.804
                 },
                 {
+                    "text": "wouldn't",
                     "start": 128.804,
-                    "end": 130.198,
-                    "text": "that"
+                    "end": 130.198
                 },
                 {
+                    "text": "click",
                     "start": 130.198,
-                    "end": 131.593,
-                    "text": "wouldn't"
+                    "end": 131.593
                 }
-            ]
+            ],
+            "line_index": 19,
+            "core_pt": "Ninguém verifica mais o gás.",
+            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico."
         },
         {
             "id": "line_20_occ_0",
@@ -1269,47 +1349,51 @@ var track_07_data = {
             "end": 139.96,
             "lyric": "\"Revolution... I'll call you Revolution.\"",
             "real_meaning": "Naming the Revolution: Real change isn't a grand, sweeping keynote. It is small, prickly, grounds you in reality, and bites your shoes.",
+            "core": "Real change is small and prickly.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0840.jpg",
+                    "url": "media/c0840.webp",
                     "query": "A vast prehistoric landscape under a fiery sunset. The lone figure of a woman running away, a tribe fighting over a small object."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0843.jpg",
+                    "url": "media/c0843.webp",
                     "query": "A sprawling cityscape at dusk, a lonely figure stands alone with a box of belongings, ready to move out of a modern, high-rise apartment building."
                 }
             ],
             "words": [
                 {
+                    "text": "\"Revolution...",
                     "start": 131.593,
-                    "end": 133.266,
-                    "text": "click"
+                    "end": 133.266
                 },
                 {
+                    "text": "I'll",
                     "start": 133.266,
-                    "end": 134.94,
-                    "text": "\"Revolution..."
+                    "end": 134.94
                 },
                 {
+                    "text": "call",
                     "start": 134.94,
-                    "end": 136.613,
-                    "text": "I'll"
+                    "end": 136.613
                 },
                 {
+                    "text": "you",
                     "start": 136.613,
-                    "end": 138.287,
-                    "text": "call"
+                    "end": 138.287
                 },
                 {
+                    "text": "Revolution.\"",
                     "start": 138.287,
-                    "end": 139.96,
-                    "text": "you"
+                    "end": 139.96
                 }
-            ]
+            ],
+            "line_index": 20,
+            "core_pt": "A verdadeira mudança é pequena e espinhosa.",
+            "real_meaning_pt": "Nomeando a Revolução: A verdadeira mudança não é um grande discurso de abertura. É pequeno, espinhoso, te mantém com os pés no chão e morde seus sapatos."
         }
     ],
     "beat_times": [

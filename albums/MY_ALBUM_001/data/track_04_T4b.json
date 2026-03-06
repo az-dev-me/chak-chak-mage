@@ -8,27 +8,28 @@
             "end": 22.128,
             "lyric": "Soon the tribe began to split",
             "real_meaning": "The inevitable tribalization: When faith fractures, society splits into polarized echo chambers. Division becomes the new identity.",
+            "core": "Faith fractures into echo chambers.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0294.jpg",
+                    "url": "media/c0294.webp",
                     "query": "Wide shot: The tribe is now physically divided. Two distinct camps sit on opposite sides of a small stream."
                 },
                 {
                     "offset": 3.79,
-                    "url": "media/c0295.jpg",
+                    "url": "media/c0295.webp",
                     "query": "Medium shot: The Gralhistas sit on the left, methodically polishing the empty Orange Box."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0297.jpg",
+                    "url": "media/c0297.webp",
                     "query": "Wide shot: Split screen. Two massive cable news anchors yelling silently from dozens of screens in an airport lounge."
                 },
                 {
                     "offset": 3.79,
-                    "url": "media/c0298.jpg",
+                    "url": "media/c0298.webp",
                     "query": "Medium shot: A family dinner table. The father holding up a conspiratorial YouTube video on his phone, the daughter glaring back with absolute disdain."
                 }
             ],
@@ -63,7 +64,9 @@
                     "end": 22.128,
                     "text": "holy"
                 }
-            ]
+            ],
+            "core_pt": "A fé se fragmenta em câmaras de eco.",
+            "real_meaning_pt": "A inevitável tribalização: Quando a fé se quebra, a sociedade se divide em câmaras de eco polarizadas. A divisão se torna a nova identidade."
         },
         {
             "id": "line_1_occ_0",
@@ -71,17 +74,18 @@
             "end": 25.388,
             "lyric": "Arguments and holy writ",
             "real_meaning": "The endless debate: Arguing sacred scripture that nobody wrote. Cable news debates and internet wars over arbitrary rules.",
+            "core": "Arguing scripture nobody wrote.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0300.jpg",
+                    "url": "media/c0300.webp",
                     "query": "Medium shot: On the right side, the opposing faction is aggressively rubbing sticks together, ignoring the box entirely but getting nowhere."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0303.jpg",
+                    "url": "media/c0303.webp",
                     "query": "Wide shot: A corporate compliance seminar. Thirty employees sit in rows, staring dead-eyed at a PowerPoint presentation on 'Synergy'."
                 }
             ],
@@ -106,7 +110,9 @@
                     "end": 25.388,
                     "text": "\"Run"
                 }
-            ]
+            ],
+            "core_pt": "Discutindo uma escritura que ninguém escreveu.",
+            "real_meaning_pt": "O debate interminável: Discutindo escrituras sagradas que ninguém escreveu. Debates de notícias a cabo e guerras na internet sobre regras arbitrárias."
         },
         {
             "id": "line_2_occ_0",
@@ -114,27 +120,28 @@
             "end": 29.638,
             "lyric": "Some said \"Run at noon, that's right!\"",
             "real_meaning": "The arrogance of certainty: One faction claiming absolute authority over the 'correct' way to perform the absurd ritual.",
+            "core": "One faction claims absolute authority.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0306.jpg",
+                    "url": "media/c0306.webp",
                     "query": "Wide shot: A massive argument breaks out. Spears are raised. The hostility over the arbitrary rules reaches a fever pitch."
                 },
                 {
                     "offset": 3.43,
-                    "url": "media/c0307.jpg",
+                    "url": "media/c0307.webp",
                     "query": "Medium shot: Tronco stands in the middle of the stream. He ignores the fighting and stares intently at the Orange Box."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0309.jpg",
+                    "url": "media/c0309.webp",
                     "query": "Medium tracking shot: Twitter/X feed rapidly scrolling. Endless anger, endless polarization, endless engagement."
                 },
                 {
                     "offset": 3.43,
-                    "url": "media/c0310.jpg",
+                    "url": "media/c0310.webp",
                     "query": "Close-up: A thumb furiously typing a heavily capitalized, deeply angry tweet."
                 }
             ],
@@ -174,7 +181,9 @@
                     "end": 29.638,
                     "text": "the"
                 }
-            ]
+            ],
+            "core_pt": "Uma facção alega autoridade absoluta.",
+            "real_meaning_pt": "A arrogância da certeza: uma facção reivindicando autoridade absoluta sobre a maneira 'correta' de realizar o ritual absurdo."
         },
         {
             "id": "line_3_occ_0",
@@ -182,27 +191,28 @@
             "end": 34.728,
             "lyric": "Others \"Warm the box all night!\"",
             "real_meaning": "The opposing echo chamber: The other faction, equally certain, equally wrong. Reinforcing their own baseless convictions.",
+            "core": "The other faction, equally certain, equally wrong.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0312.jpg",
+                    "url": "media/c0312.webp",
                     "query": "A vast prehistoric valley divided by a fiery river, two tribes argue from opposite sides."
                 },
                 {
                     "offset": 4.1,
-                    "url": "media/c0313.jpg",
+                    "url": "media/c0313.webp",
                     "query": "Two factions of the tribes, circling each other, spears raised in the flickering firelight."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0315.jpg",
+                    "url": "media/c0315.webp",
                     "query": "A sprawling cityscape at dusk, a family argues around a dinner table.  Family members tense, phones on table, a fight. Urban diners and neon signs in the background."
                 },
                 {
                     "offset": 4.1,
-                    "url": "media/c0316.jpg",
+                    "url": "media/c0316.webp",
                     "query": "A split-screen showing a young person on a tablet and a fox news channel in a modern apartment, the person looks at the tablet with a look of disgust."
                 }
             ],
@@ -237,7 +247,9 @@
                     "end": 34.728,
                     "text": "RITUALS,"
                 }
-            ]
+            ],
+            "core_pt": "A outra facção, igualmente certa, igualmente errada.",
+            "real_meaning_pt": "O eco de câmera oposto: A outra facção, igualmente certa, igualmente errada. Reforçando suas próprias convicções sem fundamento."
         },
         {
             "id": "line_4_occ_0",
@@ -245,17 +257,18 @@
             "end": 38.113,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
             "real_meaning": "The bureaucracy of belief: Compliance culture, corporate policies, and rituals repeated endlessly without genuine understanding.",
+            "core": "Compliance culture. Rituals without understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0318.jpg",
+                    "url": "media/c0318.webp",
                     "query": "A vast prehistoric valley, split by a river. Two rival tribes on opposite shores, their fires casting warm hues at dusk. A storm brews."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0321.jpg",
+                    "url": "media/c0321.webp",
                     "query": "A dimly lit, modern kitchen at dusk. A family sits at a table, faces tense, raised voices echoing, silverware clattering, smartphones on the table, each glowing with notifications."
                 }
             ],
@@ -290,7 +303,9 @@
                     "end": 38.113,
                     "text": "the"
                 }
-            ]
+            ],
+            "core_pt": "Até a rebelião se torna uma marca.",
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
         },
         {
             "id": "line_5_occ_0",
@@ -298,27 +313,28 @@
             "end": 42.748,
             "lyric": "Everybody's got the truth!",
             "real_meaning": "The post-truth era noise: Everyone has their own 'facts' and their unshakable, highly weaponized opinion.",
+            "core": "Everyone has their own facts.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0324.jpg",
+                    "url": "media/c0324.webp",
                     "query": "A vast prehistoric valley divided by a fiery chasm, with tribes on either side, a darkening sky above.  A group of people on either side of the chasm, staring in anger."
                 },
                 {
                     "offset": 3.65,
-                    "url": "media/c0325.jpg",
+                    "url": "media/c0325.webp",
                     "query": "Two tribesmen, one on each side of the firelit chasm, gesturing wildly, faces contorted in heated debate."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0327.jpg",
+                    "url": "media/c0327.webp",
                     "query": "A sprawling cityscape at dusk, a family dinner table visible through a high-rise apartment window, tense faces arguing."
                 },
                 {
                     "offset": 3.65,
-                    "url": "media/c0328.jpg",
+                    "url": "media/c0328.webp",
                     "query": "A split-screen TV displaying heated debates on Fox and MSNBC, a young person on a couch watching, a cellphone in hand, a laptop on their lap."
                 }
             ],
@@ -343,7 +359,9 @@
                     "end": 42.748,
                     "text": "RITUALS,"
                 }
-            ]
+            ],
+            "core_pt": "Certos conflitos. Zero entendimento.",
+            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
         },
         {
             "id": "line_6_occ_0",
@@ -351,17 +369,18 @@
             "end": 46.163,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
             "real_meaning": "The mantra of civilization: Repeat the rules until they feel sacred. To question the ritual is to be labeled a heretic.",
+            "core": "Question the ritual, become a heretic.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0330.jpg",
+                    "url": "media/c0330.webp",
                     "query": "A vast prehistoric landscape at dusk, tribes gathered around separate bonfires, arguing."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0333.jpg",
+                    "url": "media/c0333.webp",
                     "query": "A tense family dinner in a sleek, modern kitchen. Urban skyline visible through floor-to-ceiling windows. A young Gen-Z person is at the table looking angry and defiant."
                 }
             ],
@@ -396,7 +415,9 @@
                     "end": 46.163,
                     "text": "the"
                 }
-            ]
+            ],
+            "core_pt": "Até a rebelião se torna uma marca.",
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
         },
         {
             "id": "line_7_occ_0",
@@ -404,17 +425,18 @@
             "end": 49.628,
             "lyric": "Everyone except the youth!",
             "real_meaning": "The brief clarity of youth: The new generation sees through the absurdity ('OK Boomer' energy) before eventually being absorbed into it.",
+            "core": "The youth sees through the absurdity.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0336.jpg",
+                    "url": "media/c0336.webp",
                     "query": "A vast prehistoric valley at dusk, tribe fragments scatter, fire pits dot landscape."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0339.jpg",
+                    "url": "media/c0339.webp",
                     "query": "A bustling urban dining room, family members arguing, devices scattered, cityscape visible through window."
                 }
             ],
@@ -439,7 +461,9 @@
                     "end": 49.628,
                     "text": "to"
                 }
-            ]
+            ],
+            "core_pt": "Olhos claros não durarão muito.",
+            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los."
         },
         {
             "id": "line_8_occ_0",
@@ -447,27 +471,28 @@
             "end": 53.651,
             "lyric": "Tronco prayed to the toothed wheel",
             "real_meaning": "Tronco's superficial worship: Worshipping the algorithm, the stock ticker, the empty aesthetics of the system instead of seeking true meaning.",
+            "core": "Worshipping the algorithm.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0342.jpg",
+                    "url": "media/c0342.webp",
                     "query": "A vast, prehistoric landscape at dusk, divided by a river. Two opposing factions clash on the shores. Warm tones."
                 },
                 {
                     "offset": 3.2,
-                    "url": "media/c0343.jpg",
+                    "url": "media/c0343.webp",
                     "query": "up, dramatic.  A tribe’s elder and young warrior arguing.  Two separate fires burn between them."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0345.jpg",
+                    "url": "media/c0345.webp",
                     "query": "A sprawling cityscape at dusk, a family's silhouettes arguing around a dinner table in a high-rise apartment."
                 },
                 {
                     "offset": 3.2,
-                    "url": "media/c0346.jpg",
+                    "url": "media/c0346.webp",
                     "query": "A split-screen showing a heated debate on cable news, one person glued to each side of the argument."
                 }
             ],
@@ -502,7 +527,9 @@
                     "end": 53.651,
                     "text": "magic,"
                 }
-            ]
+            ],
+            "core_pt": "Adorando o algoritmo.",
+            "real_meaning_pt": "Culto superficial do tronco: Adorar o algoritmo, a cotação da bolsa, a estética vazia do sistema em vez de buscar um verdadeiro significado."
         },
         {
             "id": "line_9_occ_0",
@@ -510,17 +537,18 @@
             "end": 57.103,
             "lyric": "Said \"The magic, I can feel!\"",
             "real_meaning": "Confirmation bias: 'I can feel the magic'. The desperate psychological need to believe the system is working exactly as intended.",
+            "core": "Confirmation bias feels like magic.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0348.jpg",
+                    "url": "media/c0348.webp",
                     "query": "wide cinematic shot of Tribe splits, prehistoric landscape, firelit, dramatic lighting, painterly"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0351.jpg",
+                    "url": "media/c0351.webp",
                     "query": "A sprawling cityscape at dusk, families in separate high-rise apartments arguing loudly, split-screen TVs displaying different news channels."
                 }
             ],
@@ -555,7 +583,9 @@
                     "end": 57.103,
                     "text": "sat"
                 }
-            ]
+            ],
+            "core_pt": "O viés de confirmação parece mágica.",
+            "real_meaning_pt": "Viés de confirmação: 'Eu posso sentir a magia'. A necessidade psicológica desesperada de acreditar que o sistema está funcionando exatamente como pretendido."
         },
         {
             "id": "line_10_occ_0",
@@ -563,27 +593,28 @@
             "end": 62.288,
             "lyric": "I just sat upon my throne",
             "real_meaning": "The disconnected elite: The creator (CEO/Politician) sitting in their ivory tower, entirely removed from the chaos they engineered.",
+            "core": "The elite, entirely removed from the chaos.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0354.jpg",
+                    "url": "media/c0354.webp",
                     "query": "A vast prehistoric landscape at dusk, divided into two camps. Smoldering fires glow against a backdrop of craggy mountains."
                 },
                 {
                     "offset": 3.65,
-                    "url": "media/c0355.jpg",
+                    "url": "media/c0355.webp",
                     "query": "Two factions of tribespeople face off, tense, their bodies tense, firelight casting dramatic shadows, weapons raised."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0357.jpg",
+                    "url": "media/c0357.webp",
                     "query": "A tense family dinner in a sleek urban apartment, siblings arguing, parents trying to intervene. The reflection of a news broadcast on the glass table."
                 },
                 {
                     "offset": 3.65,
-                    "url": "media/c0358.jpg",
+                    "url": "media/c0358.webp",
                     "query": "Split screen, two people glued to their phones, arguing, echo chambers reflected in their eyes, cool tones of city lights."
                 }
             ],
@@ -618,7 +649,9 @@
                     "end": 62.288,
                     "text": "all"
                 }
-            ]
+            ],
+            "core_pt": "A elite, completamente afastada do caos.",
+            "real_meaning_pt": "A elite desligada: O criador (CEO/Politico) sentado em sua torre de marfim, completamente desligado do caos que eles engenharam."
         },
         {
             "id": "line_11_occ_0",
@@ -626,17 +659,18 @@
             "end": 64.74,
             "lyric": "Eating berries, all alone",
             "real_meaning": "The loneliness of privilege: Enjoying the spoils of the lie in complete isolation. The emptiness of winning the wrong game.",
+            "core": "The loneliness of privilege.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0360.jpg",
+                    "url": "media/c0360.webp",
                     "query": "A vast, prehistoric valley split by a fiery river, tribal factions clash at the edge of the firelight, warm tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0363.jpg",
+                    "url": "media/c0363.webp",
                     "query": "A modern urban dining room, tense faces lit by flickering TVs, split screens show cable news, family members on edge."
                 }
             ],
@@ -661,7 +695,9 @@
                     "end": 64.74,
                     "text": "the"
                 }
-            ]
+            ],
+            "core_pt": "O isolamento do privilégio.",
+            "real_meaning_pt": "O isolamento do privilégio: Desfrutar dos despojos da mentira em completa solidão. O vazio de vencer o jogo errado."
         },
         {
             "id": "line_12_occ_0",
@@ -669,17 +705,18 @@
             "end": 66.354,
             "lyric": "The box became a sacred thing",
             "real_meaning": "The product becomes religion: The artifact (the Box) sits at the top of the hierarchy, demanding absolute loyalty and worship.",
+            "core": "The product becomes religion.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0366.jpg",
+                    "url": "media/c0366.webp",
                     "query": "A vast prehistoric valley at sunset. Two tribes argue, smoke billows from fires."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0369.jpg",
+                    "url": "media/c0369.webp",
                     "query": "A bustling urban apartment with tense family at a dinner table. Angry expressions, phones in hand, cable news on TV."
                 }
             ],
@@ -714,7 +751,9 @@
                     "end": 66.354,
                     "text": "thing"
                 }
-            ]
+            ],
+            "core_pt": "O produto se torna religião.",
+            "real_meaning_pt": "O produto se torna religião: a artefato (a Caixa) está no topo da hierarquia, exigindo lealdade absoluta e adoração."
         },
         {
             "id": "line_13_occ_0",
@@ -722,17 +761,18 @@
             "end": 68.568,
             "lyric": "A totem, a god, a queen, a king",
             "real_meaning": "The hierarchy of power: The object at the top, the priests below, and the faithful at the bottom. Power derived entirely from plastic.",
+            "core": "Power derived from a painted box.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0372.jpg",
+                    "url": "media/c0372.webp",
                     "query": "A vast prehistoric valley at dusk, split by a river of fire. Dueling factions face off on the horizon, shadows dancing. Warm, earthy tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0375.jpg",
+                    "url": "media/c0375.webp",
                     "query": "A bustling cityscape at dusk, a family dinner table visible through a high-rise apartment window, tense body language, raised voices."
                 }
             ],
@@ -777,7 +817,9 @@
                     "end": 68.568,
                     "text": "king"
                 }
-            ]
+            ],
+            "core_pt": "Poder derivado de uma caixa pintada.",
+            "real_meaning_pt": "A hierarquia do poder: o objeto no topo, os sacerdotes abaixo e os fiéis na base. Poder derivado inteiramente do plástico."
         },
         {
             "id": "line_14_occ_0",
@@ -785,17 +827,18 @@
             "end": 70.453,
             "lyric": "I tried to say \"It's just a tool\"",
             "real_meaning": "The creator's futile honesty: The belated attempt to say 'it's just a tool/platform'—but the myth is already far larger than the truth.",
+            "core": "It's just a tool. Nobody listens.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0378.jpg",
+                    "url": "media/c0378.webp",
                     "query": "A vast prehistoric valley at dusk, two distinct tribes arguing, a glowing fire between them, 500 people"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0381.jpg",
+                    "url": "media/c0381.webp",
                     "query": "A tense family dinner in a sleek, modern kitchen. A city skyline is visible through the window. The family is arguing, with a split-screen TV showing a heated debate between cable"
                 }
             ],
@@ -840,7 +883,9 @@
                     "end": 70.453,
                     "text": "tool\""
                 }
-            ]
+            ],
+            "core_pt": "É apenas uma ferramenta. Ninguém ouve.",
+            "real_meaning_pt": "O futil honestidade do criador: A tentativa tardia de dizer 'é apenas uma ferramenta/plataforma'—mas o mito já é muito maior que a verdade."
         },
         {
             "id": "line_15_occ_0",
@@ -848,27 +893,28 @@
             "end": 77.248,
             "lyric": "But they wanted magic, they wanted fuel",
             "real_meaning": "The preference for beautiful lies: Humanity rejects the ugly, mundane truth. We actively want the miracle, not the underlying mechanism.",
+            "core": "We want the miracle, not the truth.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0384.jpg",
+                    "url": "media/c0384.webp",
                     "query": "A sprawling prehistoric valley, split by a river. Factions of tribes clash. Firelit silhouettes clash against a painted sunset."
                 },
                 {
                     "offset": 3.78,
-                    "url": "media/c0385.jpg",
+                    "url": "media/c0385.webp",
                     "query": "The Mage, detached, sits on a throne. The box is held between two arguing figures, warmly lit by the surrounding fires. The tension is palpable."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0387.jpg",
+                    "url": "media/c0387.webp",
                     "query": "A sprawling cityscape at dusk, a family dinner table visible through a high-rise window, tension palpable."
                 },
                 {
                     "offset": 3.78,
-                    "url": "media/c0388.jpg",
+                    "url": "media/c0388.webp",
                     "query": "Split-screen close-ups: 2 people arguing with each other, one holding a smartphone with cable news on it, the other a laptop with compliance training on it."
                 }
             ],
@@ -908,7 +954,9 @@
                     "end": 77.248,
                     "text": "fuel"
                 }
-            ]
+            ],
+            "core_pt": "Queremos o milagre, não a verdade.",
+            "real_meaning_pt": "A preferência por belas mentiras: A humanidade rejeita a verdade feia e mundana. Queremos ativamente o milagre, não o mecanismo subjacente."
         },
         {
             "id": "line_16_occ_0",
@@ -916,27 +964,28 @@
             "end": 82.648,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
             "real_meaning": "The self-perpetuating system: Nobody remembers why the rituals exist, only that they must be enforced at all costs.",
+            "core": "Nobody remembers why the rituals exist.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0390.jpg",
+                    "url": "media/c0390.webp",
                     "query": "A vast prehistoric valley at dusk, divided by flickering firelit camps. Shadowy figures argue amidst the warm, painted hues of fire."
                 },
                 {
                     "offset": 3.07,
-                    "url": "media/c0391.jpg",
+                    "url": "media/c0391.webp",
                     "query": "Two factions, faces contorted, hands gesturing wildly. The firelight dances across their forms as they debate."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0393.jpg",
+                    "url": "media/c0393.webp",
                     "query": "A tense family dinner in a sleek, modern kitchen. Urban skyline visible through the window. A man, woman and two teenagers are arguing. One teen is on a smart phone."
                 },
                 {
                     "offset": 3.07,
-                    "url": "media/c0394.jpg",
+                    "url": "media/c0394.webp",
                     "query": "A bustling corporate office. Employees in suits are watching multiple TVs. They are split between two news networks. 2 groups of people are arguing with each other."
                 }
             ],
@@ -971,7 +1020,9 @@
                     "end": 82.648,
                     "text": "RITUALS"
                 }
-            ]
+            ],
+            "core_pt": "Até a rebelião se torna uma marca.",
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
         },
         {
             "id": "line_17_occ_0",
@@ -979,17 +1030,18 @@
             "end": 84.688,
             "lyric": "Everybody's got the truth!",
             "real_meaning": "The deafening noise of division: Every platform and feed pushes conflicting certainties, making genuine understanding impossible.",
+            "core": "Conflicting certainties. Zero understanding.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0396.jpg",
+                    "url": "media/c0396.webp",
                     "query": "A vast, prehistoric valley divided by a fiery chasm, two tribes arguing on either side, cinematic and dramatic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0399.jpg",
+                    "url": "media/c0399.webp",
                     "query": "A sprawling cityscape at dusk, neon lights reflect on rain-soaked streets. A family dinner in an apartment window, voices raised, faces tense."
                 }
             ],
@@ -1014,7 +1066,9 @@
                     "end": 84.688,
                     "text": "truth!"
                 }
-            ]
+            ],
+            "core_pt": "Certos conflitos. Zero entendimento.",
+            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
         },
         {
             "id": "line_18_occ_0",
@@ -1022,27 +1076,28 @@
             "end": 88.608,
             "lyric": "RULES AND RITUALS, RULES AND RITUALS",
             "real_meaning": "The ritualization of rebellion: Even protesting becomes a branded identity. Disruption is commodified into just another ritual.",
+            "core": "Even rebellion becomes a brand.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0402.jpg",
+                    "url": "media/c0402.webp",
                     "query": "A vast prehistoric valley split by a river, two tribes argue on opposite banks, fire pits aglow under the vast sky."
                 },
                 {
                     "offset": 2.57,
-                    "url": "media/c0403.jpg",
+                    "url": "media/c0403.webp",
                     "query": "The tribes' leaders clash, their bodies tensed, weapons raised, and firelight flickering on their faces."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0405.jpg",
+                    "url": "media/c0405.webp",
                     "query": "A modern cityscape at dusk. Family silhouettes arguing around a dimly lit dining table, reflections of a nearby TV news broadcast on the window."
                 },
                 {
                     "offset": 2.57,
-                    "url": "media/c0406.jpg",
+                    "url": "media/c0406.webp",
                     "query": "Split-screen TVs displaying Fox News and MSNBC in an empty, modern office lobby. A lone compliance training manual lies open on the floor."
                 }
             ],
@@ -1077,7 +1132,9 @@
                     "end": 88.608,
                     "text": "RITUALS"
                 }
-            ]
+            ],
+            "core_pt": "Até a rebelião se torna uma marca.",
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
         },
         {
             "id": "line_19_occ_0",
@@ -1085,27 +1142,28 @@
             "end": 92.068,
             "lyric": "Everyone except the youth!",
             "real_meaning": "The fleeting window of sight: The young observe the madness with clear eyes, but the machine is always waiting to consume them.",
+            "core": "Clear eyes won't last long.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0408.jpg",
+                    "url": "media/c0408.webp",
                     "query": "A vast prehistoric valley divided, smoke from fires rising. Two opposing tribes face each other. A deep chasm separating them, warm sunset hues."
                 },
                 {
                     "offset": 2.2,
-                    "url": "media/c0409.jpg",
+                    "url": "media/c0409.webp",
                     "query": "Close battle of the clans. The two factions, arguing. One is a woman wielding a spear, while a man of the other faction, grips a club."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0411.jpg",
+                    "url": "media/c0411.webp",
                     "query": "A tense family dinner in a modern, urban apartment. Multiple screens showing conflicting news channels."
                 },
                 {
                     "offset": 2.2,
-                    "url": "media/c0412.jpg",
+                    "url": "media/c0412.webp",
                     "query": "A divided office, with employees split into different groups. One group is wearing red, the other blue."
                 }
             ],
@@ -1130,7 +1188,9 @@
                     "end": 92.068,
                     "text": "youth!"
                 }
-            ]
+            ],
+            "core_pt": "Olhos claros não durarão muito.",
+            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los."
         },
         {
             "id": "line_20_occ_0",
@@ -1138,17 +1198,18 @@
             "end": 94.464,
             "lyric": "\"...should be noon...\"",
             "real_meaning": "The whispered dogma: Stubborn, disproven beliefs that persist in the shadows, refusing to die even when exposed to the light.",
+            "core": "Stubborn beliefs refuse to die.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0414.jpg",
+                    "url": "media/c0414.webp",
                     "query": "A vast prehistoric valley split by a river, two tribes argue. One side is covered in blue hues and the other in yellow hues, a cold mist, and a hot sun. Smoke rises. The sun is set"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0417.jpg",
+                    "url": "media/c0417.webp",
                     "query": "A tense family dinner in a sleek urban loft, hands clenched, faces flushed with anger."
                 }
             ],
@@ -1168,7 +1229,9 @@
                     "end": 94.464,
                     "text": "noon...\""
                 }
-            ]
+            ],
+            "core_pt": "Crenças teimosas se recusam a morrer.",
+            "real_meaning_pt": "O dogma sussurrado: crenças teimosas e desprovadas que persistem nas sombras, recusando-se a morrer mesmo quando expostas à luz."
         },
         {
             "id": "line_21_occ_0",
@@ -1176,17 +1239,18 @@
             "end": 96.448,
             "lyric": "\"...night time...\"",
             "real_meaning": "The counter-whisper: The argument never truly resolves; it just mutates and gets quieter while the division remains.",
+            "core": "The argument mutates, never resolves.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0420.jpg",
+                    "url": "media/c0420.webp",
                     "query": "A vast, prehistoric valley split by a fiery river, tribes face off on either side, the setting sun casting warm hues."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0423.jpg",
+                    "url": "media/c0423.webp",
                     "query": "A bustling urban skyline at dusk, two families in a modern apartment, their faces flushed, arguing animatedly.  A modern  dining room, a TV on a wall behind them, muted, showing a"
                 }
             ],
@@ -1201,7 +1265,9 @@
                     "end": 96.448,
                     "text": "time...\""
                 }
-            ]
+            ],
+            "core_pt": "O argumento muta, nunca se resolve.",
+            "real_meaning_pt": "O contra-sussurro: o argumento nunca realmente se resolve; ele apenas muta e fica mais silencioso enquanto a divisão permanece."
         },
         {
             "id": "line_22_occ_0",
@@ -1209,17 +1275,18 @@
             "end": 98.547,
             "lyric": "\"...the wheel...\"",
             "real_meaning": "The blind worship continues: Regardless of the endless arguing and schisms, the mechanical wheel of the system keeps crushing forward.",
+            "core": "The wheel keeps turning regardless.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0426.jpg",
+                    "url": "media/c0426.webp",
                     "query": "A vast, prehistoric valley divided by a river, two tribes stand on opposite sides."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0429.jpg",
+                    "url": "media/c0429.webp",
                     "query": "A sprawling cityscape at dusk.  A family dinner in mid-argument, a TV broadcasting a heated news debate in the background.  A tense moment frozen in time."
                 }
             ],
@@ -1234,7 +1301,9 @@
                     "end": 98.547,
                     "text": "wheel...\""
                 }
-            ]
+            ],
+            "core_pt": "A roda continua girando, independentemente.",
+            "real_meaning_pt": "A adoração cega continua: Independentemente das intermináveis discussões e cisões, a roda mecânica do sistema continua esmagando seu caminho à frente."
         }
     ],
     "beat_times": [

@@ -151,7 +151,7 @@ html {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 420px;
+    width: min(580px, 94vw);
     padding: 12px 0;
     display: flex;
     align-items: stretch;
@@ -182,13 +182,18 @@ html {
     background-size: cover;
     background-position: center;
     opacity: 0;
-    transition: opacity 1.2s ease-in-out;
+    transition: opacity var(--crossfade-speed, 1.2s) ease-in-out;
     will-change: opacity;
 }
 
 .inner-img-layer.active {
     opacity: 1;
     filter: brightness(calc(1.0 + var(--beat-bg-flash) * 0.15));
+}
+
+/* Scene caption — brief visual context for storytelling clarity */
+#scene-caption {
+    display: none !important;
 }
 
 /* Content overlay — gradient scrim for readability */
@@ -200,11 +205,11 @@ html {
     flex-direction: column;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.65) 0%,
-        rgba(0, 0, 0, 0.10) 15%,
+        rgba(0, 0, 0, 0.50) 0%,
+        rgba(0, 0, 0, 0.08) 12%,
         rgba(0, 0, 0, 0.05) 50%,
-        rgba(0, 0, 0, 0.10) 75%,
-        rgba(0, 0, 0, 0.70) 100%
+        rgba(0, 0, 0, 0.08) 80%,
+        rgba(0, 0, 0, 0.55) 100%
     );
 }
 
@@ -233,7 +238,7 @@ header h1 {
     font-family: 'Cinzel', serif;
     letter-spacing: 3px;
     text-shadow: var(--text-glow);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 header p {
@@ -273,12 +278,12 @@ header p {
 
 .track-pill {
     flex-shrink: 0;
-    padding: 2px 7px;
+    padding: 3px 9px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.12);
     background: rgba(0, 0, 0, 0.35);
     color: rgba(255, 255, 255, 0.55);
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: all 0.45s cubic-bezier(0.4, 0, 0.2, 1);
@@ -337,12 +342,12 @@ header p {
 }
 
 #track-list.track-nav-dim:hover .track-pill {
-    padding: 2px 7px;
+    padding: 3px 9px;
     width: auto;
     height: auto;
     min-width: auto;
     border-radius: 10px;
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     color: rgba(255, 255, 255, 0.55);
     animation: none;
 }
@@ -386,7 +391,7 @@ header p {
     overflow-x: hidden;
     word-wrap: break-word;
     min-height: 0;
-    padding: 0 24px;
+    padding: 0 24px 15%;
 }
 
 .lyric-line {
@@ -396,15 +401,15 @@ header p {
 
 #lyric-prev,
 #lyric-next {
-    font-size: 0.75rem;
-    opacity: 0.2;
+    font-size: 0.9rem;
+    opacity: 0.3;
     transition: opacity 0.4s ease;
     overflow-wrap: break-word;
     word-break: keep-all;
 }
 
 #lyric-curr {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: var(--accent);
     text-shadow: 0 0 calc(8px + var(--beat-text-glow) * 18px) var(--accent-glow),
@@ -432,9 +437,9 @@ header p {
 }
 
 /* Responsive lyric sizing */
-#lyric-curr.lyric-short { font-size: 1.5rem; }
-#lyric-curr.lyric-medium { font-size: 1.2rem; }
-#lyric-curr.lyric-long { font-size: 0.95rem; line-height: 1.4; }
+#lyric-curr.lyric-short { font-size: 1.7rem; }
+#lyric-curr.lyric-medium { font-size: 1.4rem; }
+#lyric-curr.lyric-long { font-size: 1.1rem; line-height: 1.4; }
 
 /* ═══════════════════════════════════════════════════════════════
    PROGRESSIVE KARAOKE WORD HIGHLIGHTING
@@ -465,20 +470,20 @@ header p {
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   MEANING PANEL (inside phone frame)
-   Always visible — dims to 0.3 opacity when no text for current line
+   MEANING PANEL (inside phone frame, top position)
+   Core line (bold) + full real_meaning below. No label, no ticker.
    ═══════════════════════════════════════════════════════════════ */
 #meaning-panel {
-    width: 92%;
+    width: 94%;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.55);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 170, 0, var(--beat-strip-border, 0.12));
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 170, 0, var(--beat-strip-border, 0.18));
     border-radius: 8px;
-    padding: 6px 14px;
+    padding: 8px 14px;
     flex-shrink: 0;
-    min-height: 52px;
+    min-height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -486,28 +491,60 @@ header p {
 }
 
 #meaning-panel.meaning-hidden {
-    opacity: 0.3;
+    opacity: 0.15;
 }
 
 #meaning-panel.meaning-visible {
     opacity: 1;
 }
 
-.meaning-label {
-    display: block;
-    font-size: 0.5rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: var(--accent);
-    margin-bottom: 2px;
-    text-transform: uppercase;
-}
-
 #meaning-text {
-    font-size: 0.75rem;
-    font-style: italic;
+    font-size: 0.85rem;
     color: #ccc;
     line-height: 1.4;
+    margin: 0;
+}
+
+/* Core line: bold accent, beat-reactive */
+.meaning-core {
+    display: block;
+    font-weight: 700;
+    font-size: 1.0rem;
+    color: var(--accent, #ffaa00);
+    margin-bottom: 4px;
+    transition: text-shadow 0.06s ease-out, transform 0.06s ease-out;
+    transform-origin: center bottom;
+}
+
+/* Per-word karaoke states inside .meaning-core */
+.meaning-core-future {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 600;
+    transition: color 0.15s ease, opacity 0.15s ease, transform 0.06s ease-out, text-shadow 0.06s ease-out;
+}
+.meaning-core-active {
+    display: inline-block;
+    color: var(--accent, #ffaa00);
+    font-weight: 700;
+    text-shadow: 0 0 12px var(--accent-glow, rgba(255,170,0,0.6)), 0 0 4px var(--accent-glow, rgba(255,170,0,0.3));
+    transition: color 0.1s ease, transform 0.06s ease-out, text-shadow 0.06s ease-out;
+}
+.meaning-core-sung {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.4s ease, text-shadow 0.15s ease-out;
+}
+
+/* Full real_meaning text below core */
+.meaning-full {
+    display: block;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: rgba(230, 230, 230, 0.85);
+    line-height: 1.35;
+    transition: opacity 0.3s ease;
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -531,7 +568,7 @@ header p {
     text-align: center;
     margin-bottom: 4px;
     font-family: 'Cinzel', serif;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
     max-height: 30px;
     overflow: hidden;
@@ -553,12 +590,12 @@ header p {
 }
 
 .variant-btn {
-    padding: 1px 8px;
+    padding: 2px 10px;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     background: rgba(0, 0, 0, 0.35);
     color: rgba(255, 255, 255, 0.55);
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -580,7 +617,7 @@ header p {
 #timeline-container {
     position: relative;
     width: 100%;
-    height: 6px;
+    height: 10px;
     cursor: pointer;
 }
 
@@ -640,8 +677,8 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.55rem;
-    opacity: 0.45;
+    font-size: 0.7rem;
+    opacity: 0.5;
     margin-top: 3px;
     padding: 0 2px;
     transition: opacity 0.4s ease, max-height 0.4s ease, margin 0.4s ease;
@@ -650,7 +687,7 @@ header p {
 }
 
 #time-mode-label {
-    font-size: 0.4rem;
+    font-size: 0.55rem;
     opacity: 0.5;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -790,7 +827,7 @@ header p {
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1199px) {
     #zone-container {
-        width: 380px;
+        width: min(520px, 92vw);
     }
 }
 
@@ -799,6 +836,13 @@ header p {
     .bar-layer {
         filter: blur(3px) saturate(0.85) brightness(calc(var(--bar-brightness, 0.35) + var(--beat-brightness, 0)));
     }
+}
+
+/* Meaning panel at top — truth hovering above the story */
+#meaning-panel {
+    order: -1;
+    min-height: auto;
+    padding: 6px 14px;
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -812,6 +856,16 @@ header p {
    SIDE PANELS — fixed left/right panels showing hidden narrative
    These show the modern-parallel images alongside the phone frame
    ═══════════════════════════════════════════════════════════════ */
+
+/* Flash when core word materializes */
+.side-panel-flash {
+    animation: panel-flash 0.35s ease-out;
+}
+
+@keyframes panel-flash {
+    0%   { filter: brightness(1.8) saturate(1.3); transform: scale(1.02); }
+    100% { filter: brightness(1.0) saturate(1.0); transform: scale(1.0); }
+}
 #side-panels-container {
     position: fixed;
     inset: 0;

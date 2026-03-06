@@ -1,3 +1,13 @@
+# Pipeline code (not needed for frontend deployment)
+src/
+tests/
+tools/
+_archive/
+_inject_cores.py
+chak_pipeline.toml
+pyproject.toml
+serve.bat
+
 # Python
 __pycache__/
 *.py[cod]
@@ -5,10 +15,11 @@ __pycache__/
 dist/
 build/
 .eggs/
-
-# Virtual environments
 .venv/
 venv/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # IDE
 .vscode/
@@ -19,19 +30,15 @@ venv/
 # OS
 Thumbs.db
 .DS_Store
+desktop.ini
 
 # Backups
 *.bak
 
-# Album binary data (large files — tracked separately)
-albums/MY_ALBUM_001/media/*.jpg
-albums/MY_ALBUM_001/media/*.png
-albums/MY_ALBUM_001/*.mp3
+# Old image formats (replaced by webp)
+albums/*/media/*.jpg
+albums/*/media/*.png
 
-# Archive (old pipeline code, kept locally)
-_archive/
-
-# Pytest
-.pytest_cache/
-.coverage
-htmlcov/
+# Unused flag source
+img/flag_pt.svg
+img/flag_pt_wrapper.svg

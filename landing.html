@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chak Chak Mage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #060606;
+            color: #e0e0e0;
+            font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Ambient background */
+        .bg-glow {
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 50% 35%, rgba(255, 120, 0, 0.07) 0%, transparent 65%),
+                radial-gradient(ellipse 50% 70% at 25% 70%, rgba(200, 60, 0, 0.05) 0%, transparent 55%),
+                radial-gradient(ellipse 40% 50% at 75% 60%, rgba(255, 160, 0, 0.04) 0%, transparent 50%);
+            z-index: 0;
+            animation: glow-pulse 8s ease-in-out infinite alternate;
+        }
+        @keyframes glow-pulse {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        /* Floating ember particles */
+        .embers {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .ember {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: rgba(255, 140, 0, 0.6);
+            border-radius: 50%;
+            animation: float-up linear infinite;
+            opacity: 0;
+        }
+        @keyframes float-up {
+            0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+            10%  { opacity: 0.8; }
+            90%  { opacity: 0.3; }
+            100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+        }
+
+        .landing-container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 700px;
+            padding: 40px 24px;
+        }
+
+        /* Title */
+        .title {
+            font-family: 'Cinzel', serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: #fff;
+            text-shadow: 0 0 60px rgba(255, 120, 0, 0.25), 0 2px 20px rgba(0,0,0,0.5);
+            margin-bottom: 12px;
+            line-height: 1.1;
+        }
+        .subtitle {
+            font-size: 0.85rem;
+            color: rgba(255, 170, 0, 0.5);
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            margin-bottom: 48px;
+        }
+
+        /* Divider line */
+        .divider {
+            width: 80px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,140,0,0.4), transparent);
+            margin: 0 auto 40px;
+        }
+
+        /* Language selector */
+        .lang-section {
+            margin-bottom: 40px;
+        }
+        .lang-label {
+            font-size: 0.65rem;
+            color: rgba(255,255,255,0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            margin-bottom: 24px;
+        }
+        .lang-buttons {
+            display: flex;
+            gap: 28px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Flag-only buttons — big flags, no text labels */
+        .lang-btn {
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.08);
+            padding: 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.35s ease;
+            overflow: hidden;
+            display: block;
+            line-height: 0;
+        }
+        .lang-flag {
+            display: block;
+            width: 160px;
+            height: 107px;
+            overflow: hidden;
+            opacity: 0.65;
+            transition: opacity 0.3s ease, filter 0.3s ease;
+            filter: brightness(0.85);
+            background: #111;
+        }
+        .lang-flag img { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+        .lang-btn:hover {
+            border-color: rgba(255, 140, 0, 0.4);
+            transform: translateY(-4px) scale(1.03);
+            box-shadow: 0 12px 40px rgba(255, 120, 0, 0.15), 0 0 0 1px rgba(255,140,0,0.15);
+        }
+        .lang-btn:hover .lang-flag {
+            opacity: 1;
+            filter: brightness(1);
+        }
+        .lang-btn.selected {
+            border-color: rgba(255, 140, 0, 0.6);
+            box-shadow: 0 0 40px rgba(255, 140, 0, 0.15), 0 0 0 1px rgba(255,140,0,0.25);
+        }
+        .lang-btn.selected .lang-flag {
+            opacity: 1;
+            filter: brightness(1.1);
+        }
+
+        /* Enter button */
+        .enter-btn {
+            display: none;
+            background: linear-gradient(135deg, rgba(200,100,0,0.9), rgba(255,140,0,0.9));
+            border: 1px solid rgba(255,180,0,0.3);
+            color: #000;
+            padding: 16px 56px;
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: 'Inter', sans-serif;
+            border-radius: 10px;
+            cursor: pointer;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 24px rgba(255, 140, 0, 0.25);
+        }
+        .enter-btn.visible {
+            display: inline-block;
+            animation: btn-appear 0.5s ease-out;
+        }
+        @keyframes btn-appear {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .enter-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 44px rgba(255, 140, 0, 0.4);
+        }
+
+        /* Loading state */
+        .loading-section {
+            display: none;
+            width: 100%;
+            max-width: 340px;
+            margin: 0 auto;
+        }
+        .loading-section.active { display: block; }
+
+        .progress-track {
+            width: 100%;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 1px;
+            overflow: hidden;
+            margin-bottom: 14px;
+        }
+        .progress-fill {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, #cc7700, #ffaa00);
+            border-radius: 1px;
+            transition: width 0.4s ease;
+            box-shadow: 0 0 8px rgba(255, 140, 0, 0.4);
+        }
+        .loading-text {
+            font-size: 0.72rem;
+            color: rgba(255, 255, 255, 0.3);
+            letter-spacing: 0.12em;
+        }
+
+        /* Tagline at bottom */
+        .tagline {
+            position: fixed;
+            bottom: 28px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.6rem;
+            color: rgba(255, 255, 255, 0.12);
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            z-index: 1;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Stone animation hint */
+        .stone-hint {
+            margin-top: 32px;
+            font-size: 0.78rem;
+            color: rgba(255, 170, 0, 0.25);
+            font-style: italic;
+            opacity: 0;
+            animation: fade-in 2.5s ease 1.5s forwards;
+        }
+        @keyframes fade-in {
+            to { opacity: 1; }
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .title { font-size: 2.2rem; }
+            .lang-flag { width: 120px; height: 80px; }
+            .lang-buttons { gap: 20px; }
+            .enter-btn { padding: 14px 40px; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="embers" id="embers"></div>
+
+    <div class="landing-container">
+        <h1 class="title">THE CHAK CHAK MAGE</h1>
+        <p class="subtitle">Interactive Album Experience</p>
+        <div class="divider"></div>
+
+        <div class="lang-section" id="lang-section">
+            <p class="lang-label" id="lang-label">Choose your language</p>
+            <div class="lang-buttons">
+                <button class="lang-btn" data-lang="en" onclick="selectLang('en')">
+                    <span class="lang-flag"><img src="img/flag_en.svg" alt="English"></span>
+                </button>
+
+                <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
+                    <span class="lang-flag"><img src="img/flag_pt_bw.svg" alt="Portugues"></span>
+                </button>
+            </div>
+        </div>
+
+        <button class="enter-btn" id="enter-btn" onclick="enterExperience()">
+            Enter Experience
+        </button>
+
+        <div class="loading-section" id="loading-section">
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="loading-text" id="loading-text">Loading experience...</p>
+        </div>
+
+        <p class="stone-hint" id="stone-hint">The fire was always yours.</p>
+    </div>
+
+    <p class="tagline">Strike the stone. Chak-chak.</p>
+
+    <script>
+        // Generate floating ember particles
+        (function() {
+            const container = document.getElementById('embers');
+            for (let i = 0; i < 25; i++) {
+                const ember = document.createElement('div');
+                ember.className = 'ember';
+                ember.style.left = Math.random() * 100 + '%';
+                ember.style.animationDuration = (6 + Math.random() * 8) + 's';
+                ember.style.animationDelay = (Math.random() * 10) + 's';
+                ember.style.width = (2 + Math.random() * 2) + 'px';
+                ember.style.height = ember.style.width;
+                container.appendChild(ember);
+            }
+        })();
+
+        let selectedLang = null;
+
+        const labels = {
+            en: {
+                langLabel: 'Choose your language',
+                enter: 'Enter Experience',
+                loading: 'Loading experience...',
+                hint: 'The fire was always yours.',
+                tagline: 'Strike the stone. Chak-chak.',
+                loaded: 'Ready'
+            },
+            pt: {
+                langLabel: 'Escolha seu idioma',
+                enter: 'Entrar na Experi\u00eancia',
+                loading: 'Carregando experi\u00eancia...',
+                hint: 'O fogo sempre foi seu.',
+                tagline: 'Bata a pedra. Chak-chak.',
+                loaded: 'Pronto'
+            }
+        };
+
+        function selectLang(lang) {
+            selectedLang = lang;
+            localStorage.setItem('chak_lang', lang);
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('selected', btn.dataset.lang === lang);
+            });
+            document.getElementById('enter-btn').classList.add('visible');
+
+            const t = labels[lang];
+            document.getElementById('lang-label').textContent = t.langLabel;
+            document.getElementById('enter-btn').textContent = t.enter;
+            document.getElementById('stone-hint').textContent = t.hint;
+            document.querySelector('.tagline').textContent = t.tagline;
+        }
+
+        function enterExperience() {
+            if (!selectedLang) return;
+
+            document.getElementById('enter-btn').style.display = 'none';
+            document.getElementById('lang-section').style.display = 'none';
+            const loadingSection = document.getElementById('loading-section');
+            loadingSection.classList.add('active');
+
+            const fill = document.getElementById('progress-fill');
+            const loadingText = document.getElementById('loading-text');
+            const t = labels[selectedLang];
+
+            const steps = [
+                { pct: 15, text: selectedLang === 'pt' ? 'Carregando interface...' : 'Loading interface...' },
+                { pct: 40, text: selectedLang === 'pt' ? 'Preparando \u00e1udio...' : 'Preparing audio...' },
+                { pct: 65, text: selectedLang === 'pt' ? 'Carregando imagens...' : 'Loading images...' },
+                { pct: 85, text: selectedLang === 'pt' ? 'Quase pronto...' : 'Almost ready...' },
+                { pct: 100, text: t.loaded }
+            ];
+
+            let stepIdx = 0;
+            const tick = setInterval(() => {
+                if (stepIdx >= steps.length) {
+                    clearInterval(tick);
+                    window.location.href = `index.html?lang=${selectedLang}`;
+                    return;
+                }
+                const step = steps[stepIdx];
+                fill.style.width = step.pct + '%';
+                loadingText.textContent = step.text;
+                stepIdx++;
+            }, 600);
+        }
+
+        // Auto-select if returning user
+        const saved = localStorage.getItem('chak_lang');
+        if (saved) {
+            selectLang(saved);
+        }
+    </script>
+</body>
+</html>

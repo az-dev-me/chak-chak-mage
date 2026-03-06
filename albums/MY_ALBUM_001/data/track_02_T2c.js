@@ -12,14 +12,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0018.jpg",
+                    "url": "media/c0018.webp",
                     "query": "Medium shot: The traveler extends their hand, offering the smooth, transparent orange BIC lighter. Gralha reaches out with trembling, soot-stained fingers."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
+                    "url": "media/c0021.webp",
                     "query": "Wide shot: A time jump. A sleek, modern minimalist bedroom. A young adult (Gralha modern) sits on the edge of the bed staring at an unopened smartphone box."
                 }
             ],
@@ -49,7 +49,9 @@ var track_02_T2c_data = {
                     "end": 31.44,
                     "text": "box"
                 }
-            ]
+            ],
+            "core": "Revere the shell, ignore the mechanism.",
+            "line_index": 0
         },
         {
             "id": "line_0_occ_0_s1",
@@ -60,14 +62,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 2.45,
-                    "url": "media/c0019.jpg",
+                    "url": "media/c0019.webp",
                     "query": "Close-up: Gralha's filthy hands awkwardly grasp the pristine plastic lighter. He holds it up to the faint moonlight."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 2.45,
-                    "url": "media/c0022.jpg",
+                    "url": "media/c0022.webp",
                     "query": "Medium shot: The young adult slowly, reverently lifts the lid off the perfectly designed white box."
                 }
             ],
@@ -97,7 +99,8 @@ var track_02_T2c_data = {
                     "end": 33.561,
                     "text": "hand"
                 }
-            ]
+            ],
+            "line_index": 1
         },
         {
             "id": "line_1_occ_0_s0",
@@ -108,14 +111,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
+                    "url": "media/c0024.webp",
                     "query": "Medium shot: Gralha looks from the lighter to the traveler, his posture submissive, eyes wide with desperate questions."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
+                    "url": "media/c0027.webp",
                     "query": "Medium tracking shot: The young adult powers on the phone. The screen illuminates, demanding setup. They look frustrated, tapping eagerly."
                 }
             ],
@@ -135,7 +138,9 @@ var track_02_T2c_data = {
                     "end": 34.7,
                     "text": "said"
                 }
-            ]
+            ],
+            "core": "Surrender your intellect to the expert.",
+            "line_index": 2
         },
         {
             "id": "line_1_occ_0_s1",
@@ -161,7 +166,8 @@ var track_02_T2c_data = {
                     "end": 36.78,
                     "text": "me"
                 }
-            ]
+            ],
+            "line_index": 3
         },
         {
             "id": "line_1_occ_0_s2",
@@ -172,14 +178,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 3.18,
-                    "url": "media/c0025.jpg",
+                    "url": "media/c0025.webp",
                     "query": "Close-up: Gralha's mouth moves in urgent, silent grunts, gesturing frantically between the dying fire pit and the orange plastic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.18,
-                    "url": "media/c0028.jpg",
+                    "url": "media/c0028.webp",
                     "query": "Over-the-shoulder shot: The phone screen shows a setup error. The user immediately opens their laptop to search for a solution."
                 }
             ],
@@ -199,7 +205,8 @@ var track_02_T2c_data = {
                     "end": 37.617,
                     "text": "understand"
                 }
-            ]
+            ],
+            "line_index": 4
         },
         {
             "id": "line_2_occ_0_s0",
@@ -210,14 +217,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
+                    "url": "media/c0030.webp",
                     "query": "Wide shot: The traveler stands tall over the kneeling caveman. Other members of the tribe begin to slowly emerge from the cave, drawn by the commotion."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0033.jpg",
+                    "url": "media/c0033.webp",
                     "query": "Medium shot: The young adult watches the influencer intently, taking notes, hanging on every word about the new device's secret features."
                 }
             ],
@@ -252,7 +259,9 @@ var track_02_T2c_data = {
                     "end": 39.277,
                     "text": "night?"
                 }
-            ]
+            ],
+            "core": "Magical explanations for mechanical truths.",
+            "line_index": 5
         },
         {
             "id": "line_2_occ_0_s1",
@@ -263,14 +272,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 3.21,
-                    "url": "media/c0031.jpg",
+                    "url": "media/c0031.webp",
                     "query": "Medium shot: The tribe watches in awe from the shadows as the traveler points cryptically at the small plastic casing of the lighter."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.21,
-                    "url": "media/c0034.jpg",
+                    "url": "media/c0034.webp",
                     "query": "Close-up: The influencer's face on the screen, energetic, artificially lit, exuding absolute confidence and authority."
                 }
             ],
@@ -305,7 +314,8 @@ var track_02_T2c_data = {
                     "end": 42.56,
                     "text": "rest?"
                 }
-            ]
+            ],
+            "line_index": 6
         },
         {
             "id": "line_3_occ_0",
@@ -316,14 +326,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0036.jpg",
+                    "url": "media/c0036.webp",
                     "query": "Medium tracking shot: The other cave dwellers creep closer, forming a tight circle around the traveler and Gralha, their eyes fixed solely on the orange box."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0039.jpg",
+                    "url": "media/c0039.webp",
                     "query": "Wide shot: A massive, darkened auditorium. Thousands of people sit in silence, their faces lit by the glow of a colossal stage screen."
                 }
             ],
@@ -368,7 +378,11 @@ var track_02_T2c_data = {
                     "end": 44.422,
                     "text": "nest.\""
                 }
-            ]
+            ],
+            "core": "A temple for our false gods.",
+            "line_index": 7,
+            "core_pt": "Um templo para nossos deuses falsos.",
+            "real_meaning_pt": "O desejo de prova física da narrativa mágica. Queremos um templo para nossas ferramentas, um berço para nossos deuses falsos."
         },
         {
             "id": "line_4_occ_0",
@@ -379,14 +393,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0042.jpg",
+                    "url": "media/c0042.webp",
                     "query": "Wide shot: The traveler strikes the wheel. Chak-chak. A perfect, steady, tear-shaped flame abruptly illuminating the dark clearing."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0045.jpg",
+                    "url": "media/c0045.webp",
                     "query": "Wide shot: The audience erupts into thunderous applause, a wave of standing ovations rolling through the auditorium."
                 }
             ],
@@ -421,7 +435,11 @@ var track_02_T2c_data = {
                     "end": 46.12,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 8,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_5_occ_0",
@@ -432,14 +450,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0048.jpg",
+                    "url": "media/c0048.webp",
                     "query": "Medium shot: The traveler holds the flame high. The golden light paints the awestruck faces of the tribe."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0051.jpg",
+                    "url": "media/c0051.webp",
                     "query": "Medium tracking shot: A line of hundreds of people wrapped around a city block in the freezing rain, waiting outside a glass retail store."
                 }
             ],
@@ -469,7 +487,11 @@ var track_02_T2c_data = {
                     "end": 48.35,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core": "Without us, the magic dies.",
+            "line_index": 9,
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_6_occ_0",
@@ -480,14 +502,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0054.jpg",
+                    "url": "media/c0054.webp",
                     "query": "Wide shot: The tribe collectively falls to their knees around the traveler, swaying, hands raised toward the flickering BIC flame in the darkness."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0057.jpg",
+                    "url": "media/c0057.webp",
                     "query": "Wide shot: A brightly lit Apple Store on launch day. Customers swarm wooden tables, desperately grabbing at pristine display devices."
                 }
             ],
@@ -522,7 +544,11 @@ var track_02_T2c_data = {
                     "end": 50.24,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 10,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_7_occ_0",
@@ -533,14 +559,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0060.jpg",
+                    "url": "media/c0060.webp",
                     "query": "Wide tracking shot: Three cave dwellers sprint through the dark forest carrying a lit torch between them, embers trailing like orange stars."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0063.jpg",
+                    "url": "media/c0063.webp",
                     "query": "Wide shot: A crowded subway car. Every passenger stares down at the same glowing rectangle in their hands, faces lit blue-white."
                 }
             ],
@@ -585,7 +611,11 @@ var track_02_T2c_data = {
                     "end": 52.242,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core": "Infrastructure now, not passion.",
+            "line_index": 11,
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_8_occ_0_s0",
@@ -596,24 +626,24 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 2.64,
-                    "url": "media/c0067.jpg",
+                    "url": "media/c0067.webp",
                     "query": "Close-up: The lighter's transparent body backlit by moonlight. The liquid fuel glows amber, a tiny sleeping dragon curled inside plastic."
                 },
                 {
                     "offset": 5.8,
-                    "url": "media/c0068.jpg",
+                    "url": "media/c0068.webp",
                     "query": "Extreme close-up: The metal wheel and flint mechanism of the lighter, an alien machine to the cave dwellers who stare in reverent silence."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 2.64,
-                    "url": "media/c0070.jpg",
+                    "url": "media/c0070.webp",
                     "query": "Close-up: The polished glass back of a smartphone, reflecting studio lights like a black mirror."
                 },
                 {
                     "offset": 5.8,
-                    "url": "media/c0071.jpg",
+                    "url": "media/c0071.webp",
                     "query": "Extreme close-up: A circuit board under magnification, golden traces and silicon — the sleeping fire inside the modern box."
                 }
             ],
@@ -653,7 +683,9 @@ var track_02_T2c_data = {
                     "end": 63.644,
                     "text": "here"
                 }
-            ]
+            ],
+            "core": "False constraints maintain the monopoly.",
+            "line_index": 12
         },
         {
             "id": "line_8_occ_0_s1",
@@ -662,7 +694,13 @@ var track_02_T2c_data = {
             "lyric": "curled up small and tight",
             "real_meaning": "",
             "media": [],
-            "hidden_media": [],
+            "hidden_media": [
+                {
+                    "offset": 2.91,
+                    "url": "media/c0070.webp",
+                    "query": "Close-up: The polished glass back of a smartphone, reflecting studio lights like a black mirror."
+                }
+            ],
             "words": [
                 {
                     "start": 63.844,
@@ -689,7 +727,8 @@ var track_02_T2c_data = {
                     "end": 64.994,
                     "text": "tight"
                 }
-            ]
+            ],
+            "line_index": 13
         },
         {
             "id": "line_9_occ_0_s0",
@@ -700,14 +739,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0072.jpg",
+                    "url": "media/c0072.webp",
                     "query": "Close-up: The traveler's thumb strikes the BIC wheel. CHAK-CHAK. Sparks fly. The tiny flame erupts, painting every face in warm orange."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0075.jpg",
+                    "url": "media/c0075.webp",
                     "query": "Close-up: A finger swipes across a phone screen. The display ignites with color — apps, notifications, a whole universe awakening."
                 }
             ],
@@ -732,7 +771,9 @@ var track_02_T2c_data = {
                     "end": 67.22,
                     "text": "chak-chak"
                 }
-            ]
+            ],
+            "core": "The addictive ritual of activation.",
+            "line_index": 14
         },
         {
             "id": "line_9_occ_0_s1",
@@ -758,7 +799,8 @@ var track_02_T2c_data = {
                     "end": 68.406,
                     "text": "up"
                 }
-            ]
+            ],
+            "line_index": 15
         },
         {
             "id": "line_9_occ_0_s2",
@@ -769,14 +811,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 3.39,
-                    "url": "media/c0073.jpg",
+                    "url": "media/c0073.webp",
                     "query": "Wide shot: The entire tribe gasps and recoils as the flame appears from nothing. Children cling to their mothers. Warriors grip their spears."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.39,
-                    "url": "media/c0076.jpg",
+                    "url": "media/c0076.webp",
                     "query": "Wide shot: A dark bedroom. A teenager's face is suddenly illuminated by the phone screen's cold blue glow, the only light."
                 }
             ],
@@ -791,7 +833,8 @@ var track_02_T2c_data = {
                     "end": 69.464,
                     "text": "bright"
                 }
-            ]
+            ],
+            "line_index": 16
         },
         {
             "id": "line_10_occ_0_s0",
@@ -802,14 +845,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0078.jpg",
+                    "url": "media/c0078.webp",
                     "query": "Wide tracking shot: A cave dweller runs through rain with a burning branch, shielding it with their body. Behind them, the old fire pit dies."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0081.jpg",
+                    "url": "media/c0081.webp",
                     "query": "Wide shot: A student rushes across a university campus, phone at 2% battery, searching frantically for a charging outlet."
                 }
             ],
@@ -834,7 +877,9 @@ var track_02_T2c_data = {
                     "end": 70.795,
                     "text": "run"
                 }
-            ]
+            ],
+            "core": "False scarcity keeps you running.",
+            "line_index": 17
         },
         {
             "id": "line_10_occ_0_s1",
@@ -865,7 +910,8 @@ var track_02_T2c_data = {
                     "end": 71.896,
                     "text": "race"
                 }
-            ]
+            ],
+            "line_index": 18
         },
         {
             "id": "line_10_occ_0_s2",
@@ -876,14 +922,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 3.24,
-                    "url": "media/c0079.jpg",
+                    "url": "media/c0079.webp",
                     "query": "Medium shot: The runner's hands cup around the fragile flame as wind threatens to extinguish it. Desperation on their face."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.24,
-                    "url": "media/c0082.jpg",
+                    "url": "media/c0082.webp",
                     "query": "Medium shot: The student finds a wall socket, plugs in with trembling hands, watches the battery icon appear — relief floods their face."
                 }
             ],
@@ -908,7 +954,8 @@ var track_02_T2c_data = {
                     "end": 73.298,
                     "text": "care"
                 }
-            ]
+            ],
+            "line_index": 19
         },
         {
             "id": "line_11_occ_0_s0",
@@ -919,14 +966,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0084.jpg",
+                    "url": "media/c0084.webp",
                     "query": "Wide shot: The cave dweller reaches the new fire pit just in time, touching the dying ember to dry kindling. It catches. A new fire blooms."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0087.jpg",
+                    "url": "media/c0087.webp",
                     "query": "Wide shot: A data center at night, rows of servers blinking, the eternal fire of the internet humming in air-conditioned darkness."
                 }
             ],
@@ -951,7 +998,9 @@ var track_02_T2c_data = {
                     "end": 74.794,
                     "text": "pile"
                 }
-            ]
+            ],
+            "core": "Sprint to the next trend.",
+            "line_index": 20
         },
         {
             "id": "line_11_occ_0_s1",
@@ -982,7 +1031,8 @@ var track_02_T2c_data = {
                     "end": 75.528,
                     "text": "place"
                 }
-            ]
+            ],
+            "line_index": 21
         },
         {
             "id": "line_11_occ_0_s2",
@@ -993,14 +1043,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 3.41,
-                    "url": "media/c0085.jpg",
+                    "url": "media/c0085.webp",
                     "query": "Medium shot: The tribe erupts in celebration around the new fire. Dancing shadows on cave walls. The cycle of fire continues."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.41,
-                    "url": "media/c0088.jpg",
+                    "url": "media/c0088.webp",
                     "query": "Medium shot: A cloud backup completing on a phone screen — '100% synced'. The data fire transferred to its new pile."
                 }
             ],
@@ -1030,7 +1080,8 @@ var track_02_T2c_data = {
                     "end": 78.569,
                     "text": "air\""
                 }
-            ]
+            ],
+            "line_index": 22
         },
         {
             "id": "line_12_occ_0",
@@ -1041,14 +1092,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0090.jpg",
+                    "url": "media/c0090.webp",
                     "query": "Wide shot: A massive bonfire now roars at the center of the camp. Thirty tribe members circle it, chanting, arms raised in synchronized worship."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0093.jpg",
+                    "url": "media/c0093.webp",
                     "query": "Wide shot: A packed convention center. Thousands in matching branded t-shirts, holding phones up, recording a keynote speech."
                 }
             ],
@@ -1083,7 +1134,11 @@ var track_02_T2c_data = {
                     "end": 81.884,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 23,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_13_occ_0",
@@ -1094,14 +1149,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0096.jpg",
+                    "url": "media/c0096.webp",
                     "query": "Close-up: A child cave dweller holds a BIC lighter reverently, pressing it to their ear, listening for the sleeping fire's breath."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0099.jpg",
+                    "url": "media/c0099.webp",
                     "query": "Close-up: A toddler's small hands gripping a tablet, watching a colorful animation, already indoctrinated into the screen ritual."
                 }
             ],
@@ -1131,7 +1186,11 @@ var track_02_T2c_data = {
                     "end": 83.904,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core": "Without us, the magic dies.",
+            "line_index": 24,
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_14_occ_0",
@@ -1142,14 +1201,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0102.jpg",
+                    "url": "media/c0102.webp",
                     "query": "Wide shot: Three separate bonfires now burn across the valley. The tribe has expanded. Drums beat. Smoke columns rise into the starlit sky."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0105.jpg",
+                    "url": "media/c0105.webp",
                     "query": "Wide shot: A sprawling tech campus at dusk, glass buildings glowing from within. Employees walk in synchronized streams toward the main hall."
                 }
             ],
@@ -1184,7 +1243,11 @@ var track_02_T2c_data = {
                     "end": 86.044,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 25,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_15_occ_0",
@@ -1195,14 +1258,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0108.jpg",
+                    "url": "media/c0108.webp",
                     "query": "Wide tracking shot: A relay of six runners now, passing the torch through the valley. Each hand-off is performed with ritual precision."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0111.jpg",
+                    "url": "media/c0111.webp",
                     "query": "Wide shot: A viral trend spreading — split-screen of dozens doing the same dance, same filter, same music, passed from phone to phone."
                 }
             ],
@@ -1247,7 +1310,11 @@ var track_02_T2c_data = {
                     "end": 88.64,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core": "Infrastructure now, not passion.",
+            "line_index": 26,
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_16_occ_0",
@@ -1258,24 +1325,24 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0114.jpg",
+                    "url": "media/c0114.webp",
                     "query": "Wide shot: The traveler sits on a throne of stacked stones, tribe members bowing before them. Animal pelts draped as royal garments."
                 },
                 {
                     "offset": 3.16,
-                    "url": "media/c0115.jpg",
+                    "url": "media/c0115.webp",
                     "query": "Medium shot: Gralha places a crown of antlers and feathers on the traveler's head. The traveler looks bewildered, trapped in divinity."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0117.jpg",
+                    "url": "media/c0117.webp",
                     "query": "Wide shot: A tech billionaire's penthouse apartment, floor-to-ceiling windows overlooking a city that runs on their platform."
                 },
                 {
                     "offset": 3.16,
-                    "url": "media/c0118.jpg",
+                    "url": "media/c0118.webp",
                     "query": "Medium shot: The billionaire sits in a minimalist chair, scrolling through their own trending mentions, a faint smile of power."
                 }
             ],
@@ -1315,7 +1382,11 @@ var track_02_T2c_data = {
                     "end": 99.664,
                     "text": "god"
                 }
-            ]
+            ],
+            "core": "Godhood through monopoly, not wisdom.",
+            "line_index": 27,
+            "core_pt": "Deusidade através de monopólio, não sabedoria.",
+            "real_meaning_pt": "O momento do bilionário da tecnologia: Conquistando a divindade não através da sabedoria, mas através do monopólio sobre uma tecnologia simples e mal compreendida."
         },
         {
             "id": "line_17_occ_0",
@@ -1326,14 +1397,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0120.jpg",
+                    "url": "media/c0120.webp",
                     "query": "Close-up: The BIC lighter sits on the stone altar, surrounded by offerings of fruit, bones, and flowers. A plastic god among organic tributes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0123.jpg",
+                    "url": "media/c0123.webp",
                     "query": "Close-up: A brand logo etched into glass, backlit, perfect — the corporate altar where consumers leave their money as offerings."
                 }
             ],
@@ -1373,7 +1444,11 @@ var track_02_T2c_data = {
                     "end": 103.964,
                     "text": "nod"
                 }
-            ]
+            ],
+            "core": "A plastic god among offerings.",
+            "line_index": 28,
+            "core_pt": "Um deus de plástico entre oferendas.",
+            "real_meaning_pt": "A absurdidade da divindade moderna: As ferramentas do poder são mundanas e baratas (uma caneta BIC de plástico), mas elevadas pela ingenuidade humana."
         },
         {
             "id": "line_18_occ_0",
@@ -1384,14 +1459,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0126.jpg",
+                    "url": "media/c0126.webp",
                     "query": "Wide shot: Twelve cave dwellers sit in a circle around the fire, cross-legged, faces solemn. The first congregation."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0129.jpg",
+                    "url": "media/c0129.webp",
                     "query": "Wide shot: Twelve founding employees in a garage, laptops open, coding the platform that will reshape human connection."
                 }
             ],
@@ -1416,7 +1491,11 @@ var track_02_T2c_data = {
                     "end": 107.532,
                     "text": "true"
                 }
-            ]
+            ],
+            "core": "Every cult starts with twelve believers.",
+            "line_index": 29,
+            "core_pt": "Todo culto começa com doze crentes.",
+            "real_meaning_pt": "Os primeiros adotantes: Toda seita e bolha especulativa começa com um pequeno grupo devotado disposto a suspender sua descrença."
         },
         {
             "id": "line_19_occ_0",
@@ -1427,14 +1506,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0132.jpg",
+                    "url": "media/c0132.webp",
                     "query": "Medium shot: Gralha stands between the traveler and the tribe, arms wide, interpreting the 'divine message' with dramatic gestures."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0135.jpg",
+                    "url": "media/c0135.webp",
                     "query": "Medium shot: A tech journalist at a press conference, rephrasing the CEO's announcement into sensational headlines for clicks."
                 }
             ],
@@ -1469,7 +1548,11 @@ var track_02_T2c_data = {
                     "end": 111.852,
                     "text": "you\""
                 }
-            ]
+            ],
+            "core": "The first middleman monetizes access.",
+            "line_index": 30,
+            "core_pt": "O primeiro intermediário monetiza o acesso.",
+            "real_meaning_pt": "O primeiro intermediário: Gralha se torna o departamento de relações públicas, o sacerdote que monetiza o acesso à 'verdade' do Mago, interpretando-a para as massas."
         },
         {
             "id": "line_20_occ_0",
@@ -1480,14 +1563,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0138.jpg",
+                    "url": "media/c0138.webp",
                     "query": "Wide shot: The entire valley ablaze with dozens of bonfires. Hundreds of cave dwellers dance in frenzy. The sky glows orange with smoke and flame."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0141.jpg",
+                    "url": "media/c0141.webp",
                     "query": "Wide shot: Times Square at night, every surface a glowing screen, thousands walking while staring at phones, illuminated zombies."
                 }
             ],
@@ -1522,7 +1605,11 @@ var track_02_T2c_data = {
                     "end": 115.488,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 31,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_21_occ_0",
@@ -1533,14 +1620,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0144.jpg",
+                    "url": "media/c0144.webp",
                     "query": "Close-up: Dozens of hand-carved stone replicas of the BIC lighter, each cradled by a tribe member. The first mass-produced religious icons."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0147.jpg",
+                    "url": "media/c0147.webp",
                     "query": "Close-up: A box of old phones in a drawer — each once worshipped, now discarded, replaced by the newer model."
                 }
             ],
@@ -1570,7 +1657,11 @@ var track_02_T2c_data = {
                     "end": 117.804,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core": "Without us, the magic dies.",
+            "line_index": 32,
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_22_occ_0",
@@ -1581,14 +1672,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0150.jpg",
+                    "url": "media/c0150.webp",
                     "query": "Wide shot: A stone temple stands where the first fire was lit. Carved pillars depict the lighter. The tribe has become a civilization."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0153.jpg",
+                    "url": "media/c0153.webp",
                     "query": "Wide shot: A gleaming corporate headquarters shaped like a ring, a temple to the digital fire built by millions of believers."
                 }
             ],
@@ -1623,7 +1714,11 @@ var track_02_T2c_data = {
                     "end": 119.684,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core": "Echo chamber drowns all skepticism.",
+            "line_index": 33,
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_23_occ_0",
@@ -1634,14 +1729,14 @@ var track_02_T2c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0156.jpg",
+                    "url": "media/c0156.webp",
                     "query": "Wide tracking shot: An army of torch-bearers floods the valley, hundreds of flames creating a river of fire across the dark landscape."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0159.jpg",
+                    "url": "media/c0159.webp",
                     "query": "Wide shot: A satellite image of Earth at night, every continent traced in electric light. The fire relay went global."
                 }
             ],
@@ -1686,80 +1781,88 @@ var track_02_T2c_data = {
                     "end": 122.376,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core": "Infrastructure now, not passion.",
+            "line_index": 34,
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_24_occ_0",
             "start": 122.884,
-            "end": 156.576,
+            "end": 127.884,
             "lyric": "Run, run, don't let it die!",
             "real_meaning": "The imperative of the rat race: Keep moving, keep consuming, keep running. To stop is to let the illusion die, exposing the emptiness.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0162.jpg",
+                    "url": "media/c0162.webp",
                     "query": "Wide shot: Dawn breaks over the valley of fires. The traveler stands at the edge of the green phone booth, hand on the door, looking back."
                 },
                 {
                     "offset": 2.97,
-                    "url": "media/c0163.jpg",
+                    "url": "media/c0163.webp",
                     "query": "Medium shot: Gralha runs toward the traveler, reaching out, desperate. But the door is closing. The god is leaving."
                 },
                 {
                     "offset": 6.13,
-                    "url": "media/c0164.jpg",
+                    "url": "media/c0164.webp",
                     "query": "Close-up: The phone booth door shuts. Through the green glass, the traveler's face — relief and loss. The fire will burn without them."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0165.jpg",
+                    "url": "media/c0165.webp",
                     "query": "Wide shot: A server farm humming in the arctic, autonomous, self-sustaining. The digital fire no longer needs its creator."
                 },
                 {
                     "offset": 2.97,
-                    "url": "media/c0166.jpg",
+                    "url": "media/c0166.webp",
                     "query": "Medium shot: The original garage where it all started, now empty, a 'For Lease' sign on the door. The founders have moved on."
                 },
                 {
                     "offset": 6.13,
-                    "url": "media/c0167.jpg",
+                    "url": "media/c0167.webp",
                     "query": "Close-up: A phone screen showing 'Update Available.' The fire never stops. Run, run, don't let it die."
                 }
             ],
             "words": [
                 {
+                    "text": "Run,",
                     "start": 122.884,
-                    "end": 122.984,
-                    "text": "Run,"
+                    "end": 123.717
                 },
                 {
-                    "start": 123.249,
-                    "end": 123.303,
-                    "text": "run,"
+                    "text": "run,",
+                    "start": 123.717,
+                    "end": 124.551
                 },
                 {
-                    "start": 123.303,
-                    "end": 151.712,
-                    "text": "don't"
+                    "text": "don't",
+                    "start": 124.551,
+                    "end": 125.384
                 },
                 {
-                    "start": 151.712,
-                    "end": 153.292,
-                    "text": "let"
+                    "text": "let",
+                    "start": 125.384,
+                    "end": 126.217
                 },
                 {
-                    "start": 155.072,
-                    "end": 155.752,
-                    "text": "it"
+                    "text": "it",
+                    "start": 126.217,
+                    "end": 127.051
                 },
                 {
-                    "start": 155.752,
-                    "end": 156.576,
-                    "text": "die!"
+                    "text": "die!",
+                    "start": 127.051,
+                    "end": 127.884
                 }
-            ]
+            ],
+            "core": "Keep consuming or the illusion dies.",
+            "line_index": 35,
+            "core_pt": "Continue consumindo ou a ilusão morre.",
+            "real_meaning_pt": "O imperativo da corrida dos ratos: Continue se movendo, continue consumindo, continue correndo. Parar é deixar a ilusão morrer, expondo o vazio."
         }
     ],
     "beat_times": [

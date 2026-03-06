@@ -11,14 +11,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0168.jpg",
+                    "url": "media/c0168.webp",
                     "query": "Wide shot: Dawn breaks over the valley. The tribe is asleep in the cave. Gralha is already awake, standing over the dead fire pit."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0171.jpg",
+                    "url": "media/c0171.webp",
                     "query": "Wide shot: 5:45 AM. A sprawling, bleak cityscape wrapped in the pre-dawn cold. A single high-rise apartment window suddenly lights up."
                 }
             ],
@@ -53,7 +53,11 @@
                     "end": 3.64,
                     "text": "flame"
                 }
-            ]
+            ],
+            "core": "The Monday morning alarm.",
+            "line_index": 0,
+            "core_pt": "O alarme da manhã de segunda-feira.",
+            "real_meaning_pt": "O ritual diário começa: o alarme de segunda-feira de manhã. O início da corrida perpétua para servir o sistema artificial que criamos."
         },
         {
             "id": "line_1_occ_0",
@@ -64,14 +68,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0174.jpg",
+                    "url": "media/c0174.webp",
                     "query": "Wide shot: Gralha sprints out of the cave entrance, holding the flaming torch high above his head."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0177.jpg",
+                    "url": "media/c0177.webp",
                     "query": "Wide tracking shot: The professional sprinting down the damp sidewalk, tie flapping carelessly, desperately racing toward the subway entrance."
                 }
             ],
@@ -96,7 +100,11 @@
                     "end": 6.62,
                     "text": "light"
                 }
-            ]
+            ],
+            "core": "The notification commands: start running.",
+            "line_index": 1,
+            "core_pt": "A notificação ordena: comece a correr.",
+            "real_meaning_pt": "O estalo da rotina diária: o som de notificação, a tela de login. O pequeno prompt que nos manda começar a correr novamente."
         },
         {
             "id": "line_2_occ_0",
@@ -107,14 +115,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0180.jpg",
+                    "url": "media/c0180.webp",
                     "query": "Wide shot: The rest of the tribe emerges from the cave, watching Gralha run. They begin to cheer enthusiastically."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0183.jpg",
+                    "url": "media/c0183.webp",
                     "query": "Wide shot: The open-plan corporate office. Hundreds of screens glowing. The professional power-walks to their cubicle."
                 }
             ],
@@ -154,7 +162,11 @@
                     "end": 10.681,
                     "text": "came"
                 }
-            ]
+            ],
+            "core": "Voluntary slavery disguised as ambition.",
+            "line_index": 2,
+            "core_pt": "Escravidão voluntária disfarçada de ambição.",
+            "real_meaning_pt": "Escravidão voluntária disfarçada de ambição: O trabalhador corre para o trajeto, completamente convencido de que seu esgotamento é uma busca nobre."
         },
         {
             "id": "line_3_occ_0",
@@ -165,14 +177,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0186.jpg",
+                    "url": "media/c0186.webp",
                     "query": "Medium tracking shot: Gralha breathing heavily, sweat pouring down his face, the torch beginning to flicker wildly in the wind."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0189.jpg",
+                    "url": "media/c0189.webp",
                     "query": "Medium shot: 3:00 PM. The professional slumps back in their ergonomic chair, completely burned out, staring blankly at the ceiling."
                 }
             ],
@@ -202,7 +214,11 @@
                     "end": 13.368,
                     "text": "might"
                 }
-            ]
+            ],
+            "core": "Sprinting without questioning the destination.",
+            "line_index": 3,
+            "core_pt": "Correndo sem questionar o destino.",
+            "real_meaning_pt": "O culto da produtividade: Dar tudo a uma tarefa sem sentido. Correr freneticamente sem nunca questionar o destino."
         },
         {
             "id": "line_4_occ_0",
@@ -213,14 +229,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0192.jpg",
+                    "url": "media/c0192.webp",
                     "query": "Wide shot: Gralha reaches a pile of dry wood at the top of a hill. He desperately thrusts the dying torch into the pile."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0195.jpg",
+                    "url": "media/c0195.webp",
                     "query": "Medium shot: 5:00 PM. The professional stares at the clock, willing it to move faster, their screen full of unfinished tasks."
                 }
             ],
@@ -240,7 +256,11 @@
                     "end": 16.985,
                     "text": "RUN!"
                 }
-            ]
+            ],
+            "core": "The rat race runs itself now.",
+            "line_index": 4,
+            "core_pt": "A corrida dos ratos agora se move sozinha.",
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
         },
         {
             "id": "line_5_occ_0",
@@ -251,14 +271,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0198.jpg",
+                    "url": "media/c0198.webp",
                     "query": "Wide shot: The tribe arrives at the top of the hill, panting and exhausted. They stare at the dead fire pit."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0201.jpg",
+                    "url": "media/c0201.webp",
                     "query": "Medium shot: 11:00 PM. The professional is still at their desk, office empty, the cleaning crew vacuuming around them."
                 }
             ],
@@ -288,7 +308,11 @@
                     "end": 19.78,
                     "text": "die!"
                 }
-            ]
+            ],
+            "core": "The show must go on.",
+            "line_index": 5,
+            "core_pt": "O show deve continuar.",
+            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo."
         },
         {
             "id": "line_6_occ_0",
@@ -299,14 +323,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0204.jpg",
+                    "url": "media/c0204.webp",
                     "query": "Dawn breaks over a vast, prehistoric valley. Smoke curls from a central fire. Tribal silhouettes gather. Warm, painterly hues paint the sky."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0207.jpg",
+                    "url": "media/c0207.webp",
                     "query": "wide shot of Monday alarm, modern urban setting, cool tones, photographic, cinematic"
                 }
             ],
@@ -326,7 +350,11 @@
                     "end": 21.22,
                     "text": "die!"
                 }
-            ]
+            ],
+            "core": "The rat race runs itself now.",
+            "line_index": 6,
+            "core_pt": "A corrida dos ratos agora se move sozinha.",
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
         },
         {
             "id": "line_7_occ_0",
@@ -337,24 +365,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0210.jpg",
+                    "url": "media/c0210.webp",
                     "query": "Dawn breaks over a vast prehistoric landscape, a lone flame flickers at the edge of a cliff."
                 },
                 {
                     "offset": 4.23,
-                    "url": "media/c0211.jpg",
+                    "url": "media/c0211.webp",
                     "query": "A determined figure, wrapped in furs, runs holding a fiery torch, wind whipping their hair."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0213.jpg",
+                    "url": "media/c0213.webp",
                     "query": "Aerial view of sprawling cityscape at dawn, neon lights flickering, skyscrapers towering, subway lines glistening."
                 },
                 {
                     "offset": 4.23,
-                    "url": "media/c0214.jpg",
+                    "url": "media/c0214.webp",
                     "query": "Young professional rushing through bustling subway station. The commuters are a sea of grey, black, and white."
                 }
             ],
@@ -394,7 +422,11 @@
                     "end": 26.075,
                     "text": "new"
                 }
-            ]
+            ],
+            "core": "One more sprint. Same broken promise.",
+            "line_index": 7,
+            "core_pt": "Mais um sprint. Mesma promessa quebrada.",
+            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente."
         },
         {
             "id": "line_8_occ_0",
@@ -405,24 +437,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0216.jpg",
+                    "url": "media/c0216.webp",
                     "query": "A vast, prehistoric landscape at dawn, fire flickers in the distance, smoke rising, the sun begins to break through."
                 },
                 {
                     "offset": 4.55,
-                    "url": "media/c0217.jpg",
+                    "url": "media/c0217.webp",
                     "query": "Gralha runs with a flaming torch, tribe members cheer, silhouetted against the warm, fiery glow of the setting sun."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0219.jpg",
+                    "url": "media/c0219.webp",
                     "query": "A bird's-eye view of a sprawling cityscape at dawn, skyscrapers bathed in cool blue hues, streetlights flickering off."
                 },
                 {
                     "offset": 4.55,
-                    "url": "media/c0220.jpg",
+                    "url": "media/c0220.webp",
                     "query": "A crowded subway platform at rush hour, commuters rushing, faces obscured by facemasks, tech in hand."
                 }
             ],
@@ -457,7 +489,11 @@
                     "end": 31.492,
                     "text": "hundred"
                 }
-            ]
+            ],
+            "core": "The grinding friction of the commute.",
+            "line_index": 8,
+            "core_pt": "O atrito esmagador do deslocamento.",
+            "real_meaning_pt": "O vento contrário da realidade: A fricção desgastante e exaustiva do deslocamento diário, empurrando contra nossa fé cega no sistema."
         },
         {
             "id": "line_9_occ_0",
@@ -468,14 +504,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0222.jpg",
+                    "url": "media/c0222.webp",
                     "query": "Dawn breaks over a vast prehistoric valley. A single flame flickers at the edge of a cliff. Warm hues illuminate the rugged landscape."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0225.jpg",
+                    "url": "media/c0225.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flickering as skyscrapers loom over a bustling street."
                 }
             ],
@@ -505,7 +541,11 @@
                     "end": 34.62,
                     "text": "The"
                 }
-            ]
+            ],
+            "core": "Peer pressure as fuel.",
+            "line_index": 9,
+            "core_pt": "Pressão dos colegas como combustível.",
+            "real_meaning_pt": "Pressão dos pares como combustível: A sociedade ao nosso redor exige que mantenhamos o ritmo, aterrorizada com a ideia de que, se alguém parar de correr, todo o sistema desmorona."
         },
         {
             "id": "line_10_occ_0",
@@ -516,24 +556,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0228.jpg",
+                    "url": "media/c0228.webp",
                     "query": "A vast prehistoric valley at dawn, a single flame flickers in the center, a tribe gathers."
                 },
                 {
                     "offset": 2.83,
-                    "url": "media/c0229.jpg",
+                    "url": "media/c0229.webp",
                     "query": "A lone runner, torch ablaze, sprints through the windswept terrain, tribe's cheers echo."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0231.jpg",
+                    "url": "media/c0231.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flicker, rain-soaked streets reflect skyscrapers, a lone figure rushes towards the subway."
                 },
                 {
                     "offset": 2.83,
-                    "url": "media/c0232.jpg",
+                    "url": "media/c0232.webp",
                     "query": "A crowded subway car, commuters glued to screens, steam from coffee cups, a man holds his suit jacket."
                 }
             ],
@@ -578,7 +618,11 @@
                     "end": 39.16,
                     "text": "end,"
                 }
-            ]
+            ],
+            "core": "Burnout. The flame was already dead.",
+            "line_index": 10,
+            "core_pt": "Queima de energia. A chama já estava morta.",
+            "real_meaning_pt": "Burnout: Alcancar a meta arbitrária apenas para descobrir que a chama já está morta. A recompensa vazia de um sprint que não significou nada."
         },
         {
             "id": "line_11_occ_0",
@@ -589,24 +633,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0234.jpg",
+                    "url": "media/c0234.webp",
                     "query": "The sun rises over a vast, prehistoric landscape. A lone figure stands by a flickering flame, the tribe's village in the distance."
                 },
                 {
                     "offset": 2.67,
-                    "url": "media/c0235.jpg",
+                    "url": "media/c0235.webp",
                     "query": "A determined woman runs with a blazing torch, wind whipping her hair. The tribe cheers behind her."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0237.jpg",
+                    "url": "media/c0237.webp",
                     "query": "A sprawling cityscape at dawn, skyscrapers reflected in puddles, an alarm clock's harsh glow in a high-rise window."
                 },
                 {
                     "offset": 2.67,
-                    "url": "media/c0238.jpg",
+                    "url": "media/c0238.webp",
                     "query": "A weary commuter rushing through a bustling subway station, surrounded by the glow of technological devices."
                 }
             ],
@@ -651,7 +695,11 @@
                     "end": 42.72,
                     "text": "gone..."
                 }
-            ]
+            ],
+            "core": "The metrics dropped. Now what?",
+            "line_index": 11,
+            "core_pt": "As métricas caíram. E agora?",
+            "real_meaning_pt": "O acidente: Quando as métricas caem, a startup falha ou a energia acaba. A realização do fracasso dentro das próprias regras do sistema."
         },
         {
             "id": "line_12_occ_0",
@@ -662,24 +710,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0240.jpg",
+                    "url": "media/c0240.webp",
                     "query": "A vast prehistoric landscape at dawn, a small flame flickers in the distance. The sun is just starting to rise."
                 },
                 {
                     "offset": 2.3,
-                    "url": "media/c0241.jpg",
+                    "url": "media/c0241.webp",
                     "query": "A lone figure holding a burning torch, running across a vast field of tall grass. Warm tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0243.jpg",
+                    "url": "media/c0243.webp",
                     "query": "A sprawling cityscape at dawn, rain-soaked streets reflect harsh neon lights as alarm clocks blare inside countless windows."
                 },
                 {
                     "offset": 2.3,
-                    "url": "media/c0244.jpg",
+                    "url": "media/c0244.webp",
                     "query": "A crowded subway car, faces illuminated by phone screens, exhaustion etched on passengers' faces."
                 }
             ],
@@ -714,7 +762,11 @@
                     "end": 45.9,
                     "text": "said:"
                 }
-            ]
+            ],
+            "core": "Inventing rules instead of questioning the game.",
+            "line_index": 12,
+            "core_pt": "Inventar regras em vez de questionar o jogo.",
+            "real_meaning_pt": "O primeiro dogma do autoajuda: inventar razões arbitrárias para o fracasso em vez de questionar o jogo. 'Você só precisava de uma estratégia melhor."
         },
         {
             "id": "line_13_occ_0",
@@ -725,24 +777,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0246.jpg",
+                    "url": "media/c0246.webp",
                     "query": "Prehistoric dawn, smoke billows from first flame, silhouettes of tribe members gathering."
                 },
                 {
                     "offset": 2.89,
-                    "url": "media/c0247.jpg",
+                    "url": "media/c0247.webp",
                     "query": "Gralha's face, fierce concentration, running with torch as wind whips flames."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0249.jpg",
+                    "url": "media/c0249.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flickering off rain-slicked streets, a lone figure rushing towards the subway, alarm clock's glow visible on their phone."
                 },
                 {
                     "offset": 2.89,
-                    "url": "media/c0250.jpg",
+                    "url": "media/c0250.webp",
                     "query": "An overflowing coffee cup on a cluttered desk, laptop screen aglow with endless notifications, a blurry reflection of a person working late."
                 }
             ],
@@ -782,7 +834,11 @@
                     "end": 49.86,
                     "text": "the"
                 }
-            ]
+            ],
+            "core": "Competing gurus, equally baseless.",
+            "line_index": 13,
+            "core_pt": "Gurus concorrentes, igualmente sem fundamento.",
+            "real_meaning_pt": "O contra-dogma do bem-estar: Gurus concorrentes vendendo regras igualmente sem fundamento e contraditórias para consertar o esgotamento causado pelo sistema."
         },
         {
             "id": "line_14_occ_0",
@@ -793,24 +849,24 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0252.jpg",
+                    "url": "media/c0252.webp",
                     "query": "A vast prehistoric landscape at dawn, a lone flame flickers in the distant horizon. A wide shot, warm tones."
                 },
                 {
                     "offset": 2.97,
-                    "url": "media/c0253.jpg",
+                    "url": "media/c0253.webp",
                     "query": "Gralha runs with a blazing torch through a dense forest, wind whipping his hair.  The tribe cheers from the outskirts of the forest in the background, dramatic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0255.jpg",
+                    "url": "media/c0255.webp",
                     "query": "Aerial view of a sprawling cityscape at dawn, neon lights flickering.  High-rise buildings with windows lit up.  A distant subway station bustling with silhouettes."
                 },
                 {
                     "offset": 2.97,
-                    "url": "media/c0256.jpg",
+                    "url": "media/c0256.webp",
                     "query": "A harried commuter, coffee in hand, rushing through a bustling subway station.  Cool tones of blue and grey."
                 }
             ],
@@ -845,7 +901,11 @@
                     "end": 52.82,
                     "text": "wheel"
                 }
-            ]
+            ],
+            "core": "Worshipping the mechanism blindly.",
+            "line_index": 14,
+            "core_pt": "Adorando o mecanismo cegamente.",
+            "real_meaning_pt": "A futilidade do tronco: Adorar o mecanismo cegamente. Focar na estética e nos detalhes superficiais (a roda dentada) em vez da substância."
         },
         {
             "id": "line_15_occ_0_s0",
@@ -856,14 +916,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0258.jpg",
+                    "url": "media/c0258.webp",
                     "query": "A vast prehistoric valley bathed in the golden hues of dawn, a lone fire burns brightly in the center."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0261.jpg",
+                    "url": "media/c0261.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flicker, silhouettes rush towards the subway."
                 }
             ],
@@ -893,7 +953,9 @@
                     "end": 53.84,
                     "text": "there"
                 }
-            ]
+            ],
+            "core": "The creator watches the madness spiral.",
+            "line_index": 15
         },
         {
             "id": "line_15_occ_0_s1",
@@ -904,14 +966,14 @@
             "media": [
                 {
                     "offset": 2.42,
-                    "url": "media/c0259.jpg",
+                    "url": "media/c0259.webp",
                     "query": "A lone figure, Gralha, holds a torch aloft, running through the shadows of the stone ruins, the glow of the fire reflected in his eyes"
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 2.42,
-                    "url": "media/c0262.jpg",
+                    "url": "media/c0262.webp",
                     "query": "A cluttered desk, multiple screens glow, a figure slumps in a chair."
                 }
             ],
@@ -936,7 +998,8 @@
                     "end": 55.862,
                     "text": "surreal\""
                 }
-            ]
+            ],
+            "line_index": 16
         },
         {
             "id": "line_16_occ_0",
@@ -947,14 +1010,14 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0264.jpg",
+                    "url": "media/c0264.webp",
                     "query": "A vast prehistoric valley at dawn, a lone flame flickers at the horizon. Warm tones. Cinematic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0267.jpg",
+                    "url": "media/c0267.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flicker as alarm clocks blare in countless skyscraper windows."
                 }
             ],
@@ -974,75 +1037,83 @@
                     "end": 57.302,
                     "text": "there,"
                 }
-            ]
+            ],
+            "core": "The rat race runs itself now.",
+            "line_index": 17,
+            "core_pt": "A corrida dos ratos agora se move sozinha.",
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
         },
         {
             "id": "line_17_occ_0",
             "start": 57.42,
-            "end": 70.016,
+            "end": 62.42,
             "lyric": "The baby fire mustn't die!",
             "real_meaning": "The show must go on: Even after collapse, the system insists on maintaining the illusion. The engagement metrics must remain high at all costs.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0270.jpg",
+                    "url": "media/c0270.webp",
                     "query": "Prehistoric sunrise, flames crackle from a stone circle, silhouette of a lone figure emerging from the mist."
                 },
                 {
                     "offset": 4.55,
-                    "url": "media/c0271.jpg",
+                    "url": "media/c0271.webp",
                     "query": "A woman runs with a flaming torch through a cheering tribe, wind whips her hair, firelight dances."
                 },
                 {
                     "offset": 9.36,
-                    "url": "media/c0272.jpg",
+                    "url": "media/c0272.webp",
                     "query": "Hands cradling a dying flame, desperate eyes reflecting the flickering embers, a tear rolls down a cheek."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0273.jpg",
+                    "url": "media/c0273.webp",
                     "query": "Aerial view of a sprawling cityscape at dawn, skyscrapers illuminated by the early sun."
                 },
                 {
                     "offset": 4.55,
-                    "url": "media/c0274.jpg",
+                    "url": "media/c0274.webp",
                     "query": "A weary commuter rushing through a bustling subway station, reflection of the busy world in the glass."
                 },
                 {
                     "offset": 9.36,
-                    "url": "media/c0275.jpg",
+                    "url": "media/c0275.webp",
                     "query": "A exhausted worker at a cluttered desk, staring at multiple screens with a blank expression."
                 }
             ],
             "words": [
                 {
+                    "text": "The",
                     "start": 57.42,
-                    "end": 57.695,
-                    "text": "thinking"
+                    "end": 58.42
                 },
                 {
-                    "start": 57.86,
-                    "end": 58.62,
-                    "text": "\"this"
+                    "text": "baby",
+                    "start": 58.42,
+                    "end": 59.42
                 },
                 {
-                    "start": 58.62,
-                    "end": 58.672,
-                    "text": "is"
+                    "text": "fire",
+                    "start": 59.42,
+                    "end": 60.42
                 },
                 {
-                    "start": 66.06,
-                    "end": 67.64,
-                    "text": "surreal\""
+                    "text": "mustn't",
+                    "start": 60.42,
+                    "end": 61.42
                 },
                 {
-                    "start": 67.66,
-                    "end": 70.016,
-                    "text": "RUN,"
+                    "text": "die!",
+                    "start": 61.42,
+                    "end": 62.42
                 }
-            ]
+            ],
+            "core": "The show must go on.",
+            "line_index": 18,
+            "core_pt": "O show deve continuar.",
+            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo."
         },
         {
             "id": "line_18_occ_0",
@@ -1053,34 +1124,34 @@
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0276.jpg",
+                    "url": "media/c0276.webp",
                     "query": "A vast, prehistoric landscape at dawn, a single flame flickers in the center, a sense of anticipation fills the air."
                 },
                 {
                     "offset": 2.5,
-                    "url": "media/c0277.jpg",
+                    "url": "media/c0277.webp",
                     "query": "A woman runs with a torch, the wind blowing through her hair, a crowd of people behind her, holding sticks and cheering."
                 },
                 {
                     "offset": 4.73,
-                    "url": "media/c0278.jpg",
+                    "url": "media/c0278.webp",
                     "query": "A close up of the woman's face, eyes focused, determination etched, wind whipping her hair, as she pushes herself further."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0279.jpg",
+                    "url": "media/c0279.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flickering, skyscrapers towering, an alarm clock's glow visible through a high-rise apartment window."
                 },
                 {
                     "offset": 2.5,
-                    "url": "media/c0280.jpg",
+                    "url": "media/c0280.webp",
                     "query": "A harried individual rushing through a bustling subway station, reflected in the polished surfaces of the urban environment."
                 },
                 {
                     "offset": 4.73,
-                    "url": "media/c0281.jpg",
+                    "url": "media/c0281.webp",
                     "query": "A tired and weary face, eyes half-closed, mouth half-opened, staring blankly at the screen of a laptop."
                 }
             ],
@@ -1100,113 +1171,93 @@
                     "end": 75.7,
                     "text": "The"
                 }
-            ]
+            ],
+            "core": "The rat race runs itself now.",
+            "line_index": 19,
+            "core_pt": "A corrida dos ratos agora se move sozinha.",
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
         },
         {
             "id": "line_19_occ_0",
             "start": 75.7,
-            "end": 84.08,
+            "end": 90.0,
             "lyric": "Reach the new pile, touch the sky!",
             "real_meaning": "The unbreakable illusion: The promise remains the same—just one more sprint, one more pile. The horizon constantly recedes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0282.jpg",
+                    "url": "media/c0282.webp",
                     "query": "A vast prehistoric landscape at dawn, a single flame flickers in the center."
                 },
                 {
                     "offset": 2.2,
-                    "url": "media/c0283.jpg",
+                    "url": "media/c0283.webp",
                     "query": "Gralha runs with a torch, wind whipping around her, tribe cheering in the background."
                 },
                 {
                     "offset": 4.43,
-                    "url": "media/c0284.jpg",
+                    "url": "media/c0284.webp",
                     "query": "Close up of Gralha's face, determined, flame reflecting in her eyes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0285.jpg",
+                    "url": "media/c0285.webp",
                     "query": "A sprawling cityscape at dawn, neon lights flickering as an alarm clock glows in a high-rise apartment."
                 },
                 {
                     "offset": 2.2,
-                    "url": "media/c0286.jpg",
+                    "url": "media/c0286.webp",
                     "query": "A harried professional rushing through a bustling subway station, coffee in hand, phone glued to ear."
                 },
                 {
                     "offset": 4.43,
-                    "url": "media/c0287.jpg",
+                    "url": "media/c0287.webp",
                     "query": "A weary face reflected in a glossy computer screen, eyes distant, shoulders slumped at the desk."
                 }
             ],
             "words": [
                 {
+                    "text": "Reach",
                     "start": 75.7,
-                    "end": 75.9,
-                    "text": "baby"
+                    "end": 77.743
                 },
                 {
-                    "start": 79.305,
-                    "end": 79.38,
-                    "text": "GRALHA,"
+                    "text": "the",
+                    "start": 77.743,
+                    "end": 79.786
                 },
                 {
-                    "start": 81.361,
-                    "end": 81.44,
-                    "text": "RUN!"
+                    "text": "new",
+                    "start": 79.786,
+                    "end": 81.829
                 },
                 {
-                    "start": 81.44,
-                    "end": 82.54,
-                    "text": "Reach"
+                    "text": "pile,",
+                    "start": 81.829,
+                    "end": 83.871
                 },
                 {
-                    "start": 82.54,
-                    "end": 82.6,
-                    "text": "the"
+                    "text": "touch",
+                    "start": 83.871,
+                    "end": 85.914
                 },
                 {
-                    "start": 82.6,
-                    "end": 82.64,
-                    "text": "new"
+                    "text": "the",
+                    "start": 85.914,
+                    "end": 87.957
                 },
                 {
-                    "start": 82.6,
-                    "end": 84.08,
-                    "text": "pile,"
-                }
-            ]
-        },
-        {
-            "id": "line_20_occ_0",
-            "start": 89.7,
-            "end": 90.0,
-            "lyric": "\"...again.\"",
-            "real_meaning": "The Sisyphean cycle: Tomorrow, the same run, the same failure, the same denial. Trapped in a loop, running with a dead BIC lighter.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0288.jpg",
-                    "query": "A vast, prehistoric valley bathed in the warm glow of dawn, a lone figure stands with a blazing torch.  The fire casts long, dancing shadows.  The horizon is a painting of firelit"
+                    "text": "sky!",
+                    "start": 87.957,
+                    "end": 90.0
                 }
             ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0291.jpg",
-                    "query": "A sprawling cityscape at dawn, neon lights flicker, rain-soaked streets reflect the urban jungle, a lone figure stands against a skyscraper, a clock face with 5:30am prominent."
-                }
-            ],
-            "words": [
-                {
-                    "start": 89.7,
-                    "end": 90.0,
-                    "text": "\"...again.\""
-                }
-            ]
+            "core": "One more sprint. Same broken promise.",
+            "line_index": 20,
+            "core_pt": "Mais um sprint. Mesma promessa quebrada.",
+            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente."
         }
     ],
     "beat_times": [

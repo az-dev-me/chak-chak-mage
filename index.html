@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Chak Chak Mage - Interactive Studio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20260306k">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap"
         rel="stylesheet">
+    <script>
+        // Redirect to landing if no language selected
+        (function() {
+            var lang = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('chak_lang');
+            if (!lang) { window.location.replace('landing.html'); }
+        })();
+    </script>
 </head>
 
 <body>
@@ -57,6 +64,9 @@
             <div id="inner-img-a" class="inner-img-layer active"></div>
             <div id="inner-img-b" class="inner-img-layer"></div>
 
+            <!-- Scene caption — brief image description for narrative clarity -->
+            <div id="scene-caption"></div>
+
             <!-- Content overlay on top of images -->
             <div id="inner-content">
                 <header>
@@ -77,7 +87,6 @@
                     </div>
 
                     <div id="meaning-panel" class="meaning-hidden">
-                        <span class="meaning-label">THE MODERN PARALLEL</span>
                         <p id="meaning-text"></p>
                     </div>
 
@@ -134,8 +143,8 @@
     <script src="js/audio_analyser.js"></script>
     <script src="js/zone3_ambient.js"></script>
     <script src="js/zone1_inner.js"></script>
-    <script src="js/zone2_outer.js"></script>
-    <script src="js/player.js"></script>
+    <script src="js/zone2_outer.js?v=20260306k"></script>
+    <script src="js/player.js?v=20260306m"></script>
 </body>
 
 </html>

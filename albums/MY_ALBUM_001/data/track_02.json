@@ -8,17 +8,18 @@
             "end": 13.312,
             "lyric": "Gralha held the orange box",
             "real_meaning": "The birth of the artifact: The mundane BIC lighter becomes the first sacred object. We revere the sleek plastic shell instead of understanding the mechanism.",
+            "core": "Revere the shell, ignore the mechanism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0018.jpg",
+                    "url": "media/c0018.webp",
                     "query": "Medium shot: The traveler extends their hand, offering the smooth, transparent orange BIC lighter. Gralha reaches out with trembling, soot-stained fingers."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0021.jpg",
+                    "url": "media/c0021.webp",
                     "query": "Wide shot: A time jump. A sleek, modern minimalist bedroom. A young adult (Gralha modern) sits on the edge of the bed staring at an unopened smartphone box."
                 }
             ],
@@ -56,6 +57,7 @@
             "end": 14.572,
             "lyric": "turned it in his hand",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -92,17 +94,18 @@
             "end": 16.272,
             "lyric": "\"Mage,\" he said",
             "real_meaning": "The surrender of critical thought: The consumer begs the 'expert' for meaning, voluntarily giving up their own intellect to the monopoly of the Clergy/Elite.",
+            "core": "Surrender your intellect to the expert.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0024.jpg",
+                    "url": "media/c0024.webp",
                     "query": "Medium shot: Gralha looks from the lighter to the traveler, his posture submissive, eyes wide with desperate questions."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0027.jpg",
+                    "url": "media/c0027.webp",
                     "query": "Medium tracking shot: The young adult powers on the phone. The screen illuminates, demanding setup. They look frustrated, tapping eagerly."
                 }
             ],
@@ -130,6 +133,7 @@
             "end": 17.46,
             "lyric": "\"explain to me",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -156,6 +160,7 @@
             "end": 18.232,
             "lyric": "help me understand",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -182,17 +187,18 @@
             "end": 21.432,
             "lyric": "Where does fire sleep at night?",
             "real_meaning": "The mysticism of the unknown: When faced with ignorance, the human mind invents magical explanations for mechanical realities.",
+            "core": "Magical explanations for mechanical truths.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0030.jpg",
+                    "url": "media/c0030.webp",
                     "query": "Wide shot: The traveler stands tall over the kneeling caveman. Other members of the tribe begin to slowly emerge from the cave, drawn by the commotion."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0033.jpg",
+                    "url": "media/c0033.webp",
                     "query": "Medium shot: The young adult watches the influencer intently, taking notes, hanging on every word about the new device's secret features."
                 }
             ],
@@ -235,17 +241,18 @@
             "end": 23.152,
             "lyric": "Where does it go to rest?",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 3.56,
-                    "url": "media/c0031.jpg",
+                    "url": "media/c0031.webp",
                     "query": "Medium shot: The tribe watches in awe from the shadows as the traveler points cryptically at the small plastic casing of the lighter."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.56,
-                    "url": "media/c0034.jpg",
+                    "url": "media/c0034.webp",
                     "query": "Close-up: The influencer's face on the screen, energetic, artificially lit, exuding absolute confidence and authority."
                 }
             ],
@@ -288,17 +295,18 @@
             "end": 27.426,
             "lyric": "Show me its cradle, show me its nest.\"",
             "real_meaning": "The desire for physical proof of the magical narrative. We want a temple for our tools, a cradle for our false gods.",
+            "core": "A temple for our false gods.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0036.jpg",
+                    "url": "media/c0036.webp",
                     "query": "Medium tracking shot: The other cave dwellers creep closer, forming a tight circle around the traveler and Gralha, their eyes fixed solely on the orange box."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0039.jpg",
+                    "url": "media/c0039.webp",
                     "query": "Wide shot: A massive, darkened auditorium. Thousands of people sit in silence, their faces lit by the glow of a colossal stage screen."
                 }
             ],
@@ -343,7 +351,9 @@
                     "end": 27.426,
                     "text": "nest.\""
                 }
-            ]
+            ],
+            "core_pt": "Um templo para nossos deuses falsos.",
+            "real_meaning_pt": "O desejo de prova física da narrativa mágica. Queremos um templo para nossas ferramentas, um berço para nossos deuses falsos."
         },
         {
             "id": "line_4_occ_0",
@@ -351,17 +361,18 @@
             "end": 31.581,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "The first religious chant: Branding is born. The aesthetic of the object (the Orange Box) becomes the focus of worship, eclipsing its actual utility.",
+            "core": "Branding is worship.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0042.jpg",
+                    "url": "media/c0042.webp",
                     "query": "Wide shot: The traveler strikes the wheel. Chak-chak. A perfect, steady, tear-shaped flame abruptly illuminating the dark clearing."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0045.jpg",
+                    "url": "media/c0045.webp",
                     "query": "Wide shot: The audience erupts into thunderous applause, a wave of standing ovations rolling through the auditorium."
                 }
             ],
@@ -396,7 +407,9 @@
                     "end": 31.581,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_5_occ_0",
@@ -404,27 +417,28 @@
             "end": 36.492,
             "lyric": "The baby fire sleeps inside!",
             "real_meaning": "The foundational lie: The belief that power resides exclusively within the object, creating the illusion that we are powerless without it.",
+            "core": "Powerless without the product.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0048.jpg",
+                    "url": "media/c0048.webp",
                     "query": "Medium shot: The traveler holds the flame high. The golden light paints the awestruck faces of the tribe."
                 },
                 {
                     "offset": 2.96,
-                    "url": "media/c0049.jpg",
+                    "url": "media/c0049.webp",
                     "query": "Close-up: Gralha's face, bathed in the warm light, absolute pure faith and worship replacing his earlier terror."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0051.jpg",
+                    "url": "media/c0051.webp",
                     "query": "Medium tracking shot: A line of hundreds of people wrapped around a city block in the freezing rain, waiting outside a glass retail store."
                 },
                 {
                     "offset": 2.96,
-                    "url": "media/c0052.jpg",
+                    "url": "media/c0052.webp",
                     "query": "Close-up: A freezing, exhausted customer clutching a thermos, staring longingly at the glowing logo inside the store."
                 }
             ],
@@ -454,7 +468,9 @@
                     "end": 36.492,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_6_occ_0",
@@ -462,17 +478,18 @@
             "end": 40.172,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "Dogmatic repetition: Slogans and chants cement belief. Say it enough, and the arbitrary nature of the object becomes unquestionable truth.",
+            "core": "Repeat until truth is unquestionable.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0054.jpg",
+                    "url": "media/c0054.webp",
                     "query": "Wide shot: The tribe collectively falls to their knees around the traveler, swaying, hands raised toward the flickering BIC flame in the darkness."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0057.jpg",
+                    "url": "media/c0057.webp",
                     "query": "Wide shot: A brightly lit Apple Store on launch day. Customers swarm wooden tables, desperately grabbing at pristine display devices."
                 }
             ],
@@ -507,7 +524,9 @@
                     "end": 40.172,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_7_occ_0",
@@ -515,27 +534,28 @@
             "end": 44.649,
             "lyric": "We'll run with it, we'll run with pride!",
             "real_meaning": "The institutionalization of the hustle: The primal instinct to survive is hijacked into a perpetual race to serve the artifact. The rat race disguised as sacred duty.",
+            "core": "The rat race disguised as sacred duty.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0060.jpg",
+                    "url": "media/c0060.webp",
                     "query": "Wide tracking shot: Three cave dwellers sprint through the dark forest carrying a lit torch between them, embers trailing like orange stars."
                 },
                 {
                     "offset": 2.37,
-                    "url": "media/c0061.jpg",
+                    "url": "media/c0061.webp",
                     "query": "Medium shot: A cave dweller stumbles, nearly dropping the torch. Gralha catches the flame, cradling it, running harder."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0063.jpg",
+                    "url": "media/c0063.webp",
                     "query": "Wide shot: A crowded subway car. Every passenger stares down at the same glowing rectangle in their hands, faces lit blue-white."
                 },
                 {
                     "offset": 2.37,
-                    "url": "media/c0064.jpg",
+                    "url": "media/c0064.webp",
                     "query": "Medium shot: A teenager sprints down a city sidewalk, phone held high, chasing a GPS signal for a mobile game."
                 }
             ],
@@ -580,7 +600,9 @@
                     "end": 44.649,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_8_occ_0_s0",
@@ -588,17 +610,18 @@
             "end": 47.992,
             "lyric": "I said \"The fire lives in here",
             "real_meaning": "The deliberate creation of caste exclusivity: The Mage invents a false constraint (the fire sleeps inside) to maintain the monopoly of truth.",
+            "core": "False constraints maintain the monopoly.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0066.jpg",
+                    "url": "media/c0066.webp",
                     "query": "Medium shot: The traveler holds the BIC lighter up to the tribe, pointing at the translucent orange casing. Inside, the butane liquid sloshes faintly."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0069.jpg",
+                    "url": "media/c0069.webp",
                     "query": "Medium shot: A tech guru on stage at a keynote, gesturing reverently at a giant screen showing the phone's internal chipset diagram."
                 }
             ],
@@ -646,17 +669,18 @@
             "end": 49.327,
             "lyric": "curled up small and tight",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 2.91,
-                    "url": "media/c0067.jpg",
+                    "url": "media/c0067.webp",
                     "query": "Close-up: The lighter's transparent body backlit by moonlight. The liquid fuel glows amber, a tiny sleeping dragon curled inside plastic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 2.91,
-                    "url": "media/c0070.jpg",
+                    "url": "media/c0070.webp",
                     "query": "Close-up: The polished glass back of a smartphone, reflecting studio lights like a black mirror."
                 }
             ],
@@ -694,17 +718,18 @@
             "end": 50.772,
             "lyric": "When you go chak-chak",
             "real_meaning": "The activation ritual: The simple, addictive gesture (chak-chak) that reinforces the illusion of the Mage's divine control over the tool.",
+            "core": "The addictive ritual of activation.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0072.jpg",
+                    "url": "media/c0072.webp",
                     "query": "Close-up: The traveler's thumb strikes the BIC wheel. CHAK-CHAK. Sparks fly. The tiny flame erupts, painting every face in warm orange."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0075.jpg",
+                    "url": "media/c0075.webp",
                     "query": "Close-up: A finger swipes across a phone screen. The display ignites with color — apps, notifications, a whole universe awakening."
                 }
             ],
@@ -737,6 +762,7 @@
             "end": 52.13,
             "lyric": "it wakes up",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -763,6 +789,7 @@
             "end": 53.106,
             "lyric": "burning bright",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -784,17 +811,18 @@
             "end": 55.014,
             "lyric": "You have to run",
             "real_meaning": "The urgency economy: Inventing false scarcity and arbitrary rules (you must run) to keep the followers busy, anxious, and compliant.",
+            "core": "False scarcity keeps you running.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0078.jpg",
+                    "url": "media/c0078.webp",
                     "query": "Wide tracking shot: A cave dweller runs through rain with a burning branch, shielding it with their body. Behind them, the old fire pit dies."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0081.jpg",
+                    "url": "media/c0081.webp",
                     "query": "Wide shot: A student rushes across a university campus, phone at 2% battery, searching frantically for a charging outlet."
                 }
             ],
@@ -827,6 +855,7 @@
             "end": 56.2,
             "lyric": "you have to race",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -858,17 +887,18 @@
             "end": 57.27,
             "lyric": "carry it with care",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 3.21,
-                    "url": "media/c0079.jpg",
+                    "url": "media/c0079.webp",
                     "query": "Medium shot: The runner's hands cup around the fragile flame as wind threatens to extinguish it. Desperation on their face."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.21,
-                    "url": "media/c0082.jpg",
+                    "url": "media/c0082.webp",
                     "query": "Medium shot: The student finds a wall socket, plugs in with trembling hands, watches the battery icon appear — relief floods their face."
                 }
             ],
@@ -901,17 +931,18 @@
             "end": 58.882,
             "lyric": "To the new pile",
             "real_meaning": "The perpetual motion of blind faith: Move fast, chase the trend, sprint to the next pile before the illusion of meaning evaporates.",
+            "core": "Sprint to the next trend.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0084.jpg",
+                    "url": "media/c0084.webp",
                     "query": "Wide shot: The cave dweller reaches the new fire pit just in time, touching the dying ember to dry kindling. It catches. A new fire blooms."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0087.jpg",
+                    "url": "media/c0087.webp",
                     "query": "Wide shot: A data center at night, rows of servers blinking, the eternal fire of the internet humming in air-conditioned darkness."
                 }
             ],
@@ -944,6 +975,7 @@
             "end": 59.964,
             "lyric": "to the new place",
             "real_meaning": "",
+            "core": "",
             "media": [],
             "hidden_media": [],
             "words": [
@@ -975,27 +1007,28 @@
             "end": 65.152,
             "lyric": "before it disappears in air\"",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 3.56,
-                    "url": "media/c0085.jpg",
+                    "url": "media/c0085.webp",
                     "query": "Medium shot: The tribe erupts in celebration around the new fire. Dancing shadows on cave walls. The cycle of fire continues."
                 },
                 {
                     "offset": 6.74,
-                    "url": "media/c0086.jpg",
+                    "url": "media/c0086.webp",
                     "query": "Close-up: New flames licking upward from fresh wood, the ancient relay complete, warmth returning to cold faces."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.56,
-                    "url": "media/c0088.jpg",
+                    "url": "media/c0088.webp",
                     "query": "Medium shot: A cloud backup completing on a phone screen — '100% synced'. The data fire transferred to its new pile."
                 },
                 {
                     "offset": 6.74,
-                    "url": "media/c0089.jpg",
+                    "url": "media/c0089.webp",
                     "query": "Close-up: A loading bar reaching completion, the digital relay finished, information preserved in silicon forever."
                 }
             ],
@@ -1033,27 +1066,28 @@
             "end": 69.562,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "The brand loyalty hardens into tribal identity. To question the Orange Box is to become an outcast of the tribe.",
+            "core": "Question the brand, become outcast.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0090.jpg",
+                    "url": "media/c0090.webp",
                     "query": "Wide shot: A massive bonfire now roars at the center of the camp. Thirty tribe members circle it, chanting, arms raised in synchronized worship."
                 },
                 {
                     "offset": 2.43,
-                    "url": "media/c0091.jpg",
+                    "url": "media/c0091.webp",
                     "query": "Medium shot: Gralha stands on a raised rock, leading the chant, face painted with ceremonial ash. Behind him, the traveler watches uneasily."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0093.jpg",
+                    "url": "media/c0093.webp",
                     "query": "Wide shot: A packed convention center. Thousands in matching branded t-shirts, holding phones up, recording a keynote speech."
                 },
                 {
                     "offset": 2.43,
-                    "url": "media/c0094.jpg",
+                    "url": "media/c0094.webp",
                     "query": "Medium shot: A massive LED screen shows a new product reveal. The crowd erupts, tears streaming, as if witnessing a miracle."
                 }
             ],
@@ -1088,7 +1122,9 @@
                     "end": 69.562,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_13_occ_0",
@@ -1096,27 +1132,28 @@
             "end": 73.856,
             "lyric": "The baby fire sleeps inside!",
             "real_meaning": "The myth internalizes: The product is no longer just a tool; it is perceived as a living, breathing necessity that demands our constant attention.",
+            "core": "The product demands constant attention.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0096.jpg",
+                    "url": "media/c0096.webp",
                     "query": "Close-up: A child cave dweller holds a BIC lighter reverently, pressing it to their ear, listening for the sleeping fire's breath."
                 },
                 {
                     "offset": 2.43,
-                    "url": "media/c0097.jpg",
+                    "url": "media/c0097.webp",
                     "query": "Medium shot: An elder cave dweller cradles the orange box, rocking it gently like an infant, singing a lullaby to the flame spirit."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0099.jpg",
+                    "url": "media/c0099.webp",
                     "query": "Close-up: A toddler's small hands gripping a tablet, watching a colorful animation, already indoctrinated into the screen ritual."
                 },
                 {
                     "offset": 2.43,
-                    "url": "media/c0100.jpg",
+                    "url": "media/c0100.webp",
                     "query": "Medium shot: A parent hands their crying child a phone. The child instantly stops crying, mesmerized by the glowing screen."
                 }
             ],
@@ -1146,7 +1183,9 @@
                     "end": 73.856,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_14_occ_0",
@@ -1154,27 +1193,28 @@
             "end": 78.124,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "The viral loop of dogma: Shared delusion becomes societal law. The chant ensures that no one stops to question the absurdity of the race.",
+            "core": "Shared delusion becomes law.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0102.jpg",
+                    "url": "media/c0102.webp",
                     "query": "Wide shot: Three separate bonfires now burn across the valley. The tribe has expanded. Drums beat. Smoke columns rise into the starlit sky."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0103.jpg",
+                    "url": "media/c0103.webp",
                     "query": "Medium shot: A procession of cave dwellers marches between the fires, carrying torches. Gralha leads them with the orange box held overhead."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0105.jpg",
+                    "url": "media/c0105.webp",
                     "query": "Wide shot: A sprawling tech campus at dusk, glass buildings glowing from within. Employees walk in synchronized streams toward the main hall."
                 },
                 {
                     "offset": 2.4,
-                    "url": "media/c0106.jpg",
+                    "url": "media/c0106.webp",
                     "query": "Medium shot: A CEO walks on stage, silhouetted against a giant glowing logo. The audience rises to their feet before a word is spoken."
                 }
             ],
@@ -1209,7 +1249,9 @@
                     "end": 78.124,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_15_occ_0",
@@ -1217,27 +1259,28 @@
             "end": 82.233,
             "lyric": "We'll run with it, we'll run with pride!",
             "real_meaning": "Pride in servitude: Exhaustion is rebranded as virtue. Wearing the endless hustle as a badge of honor to prove one's devotion.",
+            "core": "Exhaustion rebranded as virtue.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0108.jpg",
+                    "url": "media/c0108.webp",
                     "query": "Wide tracking shot: A relay of six runners now, passing the torch through the valley. Each hand-off is performed with ritual precision."
                 },
                 {
                     "offset": 1.92,
-                    "url": "media/c0109.jpg",
+                    "url": "media/c0109.webp",
                     "query": "Medium shot: A young cave dweller sprints with the fire, face lit with ecstatic pride. They believe they are carrying a god."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0111.jpg",
+                    "url": "media/c0111.webp",
                     "query": "Wide shot: A viral trend spreading — split-screen of dozens doing the same dance, same filter, same music, passed from phone to phone."
                 },
                 {
                     "offset": 1.92,
-                    "url": "media/c0112.jpg",
+                    "url": "media/c0112.webp",
                     "query": "Medium shot: A teenager films themselves with the phone, adding to the chain, their individuality dissolved into the collective ritual."
                 }
             ],
@@ -1282,7 +1325,9 @@
                     "end": 82.233,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_16_occ_0",
@@ -1290,17 +1335,18 @@
             "end": 86.402,
             "lyric": "And that's how I became a god",
             "real_meaning": "The tech billionaire moment: Earning godhood not through wisdom, but through holding the monopoly on a simple, misunderstood technology.",
+            "core": "Godhood through monopoly, not wisdom.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0114.jpg",
+                    "url": "media/c0114.webp",
                     "query": "Wide shot: The traveler sits on a throne of stacked stones, tribe members bowing before them. Animal pelts draped as royal garments."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0117.jpg",
+                    "url": "media/c0117.webp",
                     "query": "Wide shot: A tech billionaire's penthouse apartment, floor-to-ceiling windows overlooking a city that runs on their platform."
                 }
             ],
@@ -1340,7 +1386,9 @@
                     "end": 86.402,
                     "text": "god"
                 }
-            ]
+            ],
+            "core_pt": "Deusidade através de monopólio, não sabedoria.",
+            "real_meaning_pt": "O momento do bilionário da tecnologia: Conquistando a divindade não através da sabedoria, mas através do monopólio sobre uma tecnologia simples e mal compreendida."
         },
         {
             "id": "line_17_occ_0",
@@ -1348,17 +1396,18 @@
             "end": 90.562,
             "lyric": "With a plastic BIC and a nod",
             "real_meaning": "The absurdity of modern godhood: The tools of power are mundane and cheap (a plastic BIC), but elevated by human gullibility.",
+            "core": "A plastic god among offerings.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0120.jpg",
+                    "url": "media/c0120.webp",
                     "query": "Close-up: The BIC lighter sits on the stone altar, surrounded by offerings of fruit, bones, and flowers. A plastic god among organic tributes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0123.jpg",
+                    "url": "media/c0123.webp",
                     "query": "Close-up: A brand logo etched into glass, backlit, perfect — the corporate altar where consumers leave their money as offerings."
                 }
             ],
@@ -1398,7 +1447,9 @@
                     "end": 90.562,
                     "text": "nod"
                 }
-            ]
+            ],
+            "core_pt": "Um deus de plástico entre oferendas.",
+            "real_meaning_pt": "A absurdidade da divindade moderna: As ferramentas do poder são mundanas e baratas (uma caneta BIC de plástico), mas elevadas pela ingenuidade humana."
         },
         {
             "id": "line_18_occ_0",
@@ -1406,17 +1457,18 @@
             "end": 94.363,
             "lyric": "Twelve believers, faithful, true",
             "real_meaning": "The early adopters: Every cult and speculative bubble starts with a small, devoted group willing to suspend their disbelief.",
+            "core": "Every cult starts with twelve believers.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0126.jpg",
+                    "url": "media/c0126.webp",
                     "query": "Wide shot: Twelve cave dwellers sit in a circle around the fire, cross-legged, faces solemn. The first congregation."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0129.jpg",
+                    "url": "media/c0129.webp",
                     "query": "Wide shot: Twelve founding employees in a garage, laptops open, coding the platform that will reshape human connection."
                 }
             ],
@@ -1441,7 +1493,9 @@
                     "end": 94.363,
                     "text": "true"
                 }
-            ]
+            ],
+            "core_pt": "Todo culto começa com doze crentes.",
+            "real_meaning_pt": "Os primeiros adotantes: Toda seita e bolha especulativa começa com um pequeno grupo devotado disposto a suspender sua descrença."
         },
         {
             "id": "line_19_occ_0",
@@ -1449,37 +1503,38 @@
             "end": 102.762,
             "lyric": "Gralha said \"I'll translate for you\"",
             "real_meaning": "The first middle-man: Gralha becomes the PR department, the priest who monetizes access to the Mage's 'truth' by interpreting it for the masses.",
+            "core": "The first middleman monetizes access.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0132.jpg",
+                    "url": "media/c0132.webp",
                     "query": "Medium shot: Gralha stands between the traveler and the tribe, arms wide, interpreting the 'divine message' with dramatic gestures."
                 },
                 {
                     "offset": 3.2,
-                    "url": "media/c0133.jpg",
+                    "url": "media/c0133.webp",
                     "query": "Close-up: Gralha's face as he speaks to the tribe — adding his own embellishments, twisting the traveler's simple words into prophecy."
                 },
                 {
                     "offset": 6.89,
-                    "url": "media/c0134.jpg",
+                    "url": "media/c0134.webp",
                     "query": "Over-the-shoulder shot: Watching Gralha preach to the tribe, realizing the message has already been corrupted in translation."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0135.jpg",
+                    "url": "media/c0135.webp",
                     "query": "Medium shot: A tech journalist at a press conference, rephrasing the CEO's announcement into sensational headlines for clicks."
                 },
                 {
                     "offset": 3.2,
-                    "url": "media/c0136.jpg",
+                    "url": "media/c0136.webp",
                     "query": "Close-up: A blog post being written: 'Why This Changes Everything' — the modern Gralha translating tech into religion."
                 },
                 {
                     "offset": 6.89,
-                    "url": "media/c0137.jpg",
+                    "url": "media/c0137.webp",
                     "query": "Over-the-shoulder shot: A social media manager scheduling posts, packaging corporate jargon into emotional narratives."
                 }
             ],
@@ -1514,7 +1569,9 @@
                     "end": 102.762,
                     "text": "you\""
                 }
-            ]
+            ],
+            "core_pt": "O primeiro intermediário monetiza o acesso.",
+            "real_meaning_pt": "O primeiro intermediário: Gralha se torna o departamento de relações públicas, o sacerdote que monetiza o acesso à 'verdade' do Mago, interpretando-a para as massas."
         },
         {
             "id": "line_20_occ_0",
@@ -1522,27 +1579,28 @@
             "end": 107.356,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "Market saturation: The cult becomes culture. The chant is inescapable, and non-participation is no longer an option.",
+            "core": "Non-participation is no longer an option.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0138.jpg",
+                    "url": "media/c0138.webp",
                     "query": "Wide shot: The entire valley ablaze with dozens of bonfires. Hundreds of cave dwellers dance in frenzy. The sky glows orange with smoke and flame."
                 },
                 {
                     "offset": 2.7,
-                    "url": "media/c0139.jpg",
+                    "url": "media/c0139.webp",
                     "query": "Medium shot: Gralha, wearing a necklace of orange-painted stones, leads a war dance around the central fire, spear raised."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0141.jpg",
+                    "url": "media/c0141.webp",
                     "query": "Wide shot: Times Square at night, every surface a glowing screen, thousands walking while staring at phones, illuminated zombies."
                 },
                 {
                     "offset": 2.7,
-                    "url": "media/c0142.jpg",
+                    "url": "media/c0142.webp",
                     "query": "Medium shot: A teenager surrounded by five screens — phone, tablet, laptop, monitor, TV — all showing different content simultaneously."
                 }
             ],
@@ -1577,7 +1635,9 @@
                     "end": 107.356,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_21_occ_0",
@@ -1585,27 +1645,28 @@
             "end": 111.863,
             "lyric": "The baby fire sleeps inside!",
             "real_meaning": "The mythology solidifies: Cultivating the fear that without our constant, frantic participation, the 'magic' of civilization will die.",
+            "core": "Without us, the magic dies.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0144.jpg",
+                    "url": "media/c0144.webp",
                     "query": "Close-up: Dozens of hand-carved stone replicas of the BIC lighter, each cradled by a tribe member. The first mass-produced religious icons."
                 },
                 {
                     "offset": 2.44,
-                    "url": "media/c0145.jpg",
+                    "url": "media/c0145.webp",
                     "query": "Medium shot: A mother teaches her child the CHAK-CHAK motion with two stones, passing down the sacred gesture to the next generation."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0147.jpg",
+                    "url": "media/c0147.webp",
                     "query": "Close-up: A box of old phones in a drawer — each once worshipped, now discarded, replaced by the newer model."
                 },
                 {
                     "offset": 2.44,
-                    "url": "media/c0148.jpg",
+                    "url": "media/c0148.webp",
                     "query": "Medium shot: An e-waste recycling facility, mountains of dead phones and tablets, the graveyard of yesterday's gods."
                 }
             ],
@@ -1635,7 +1696,9 @@
                     "end": 111.863,
                     "text": "inside!"
                 }
-            ]
+            ],
+            "core_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
         },
         {
             "id": "line_22_occ_0",
@@ -1643,27 +1706,28 @@
             "end": 115.337,
             "lyric": "THE ORANGE BOX! THE ORANGE BOX!",
             "real_meaning": "The echo chamber of the faithful: The collective chanting drowns out any individual skepticism. The tribe is united by shared hallucination.",
+            "core": "Echo chamber drowns all skepticism.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0150.jpg",
+                    "url": "media/c0150.webp",
                     "query": "Wide shot: A stone temple stands where the first fire was lit. Carved pillars depict the lighter. The tribe has become a civilization."
                 },
                 {
                     "offset": 1.86,
-                    "url": "media/c0151.jpg",
+                    "url": "media/c0151.webp",
                     "query": "Medium shot: Inside the temple, priests in orange-dyed robes perform the CHAK-CHAK ritual over a stone altar, the lighter long gone but the ritual eternal."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0153.jpg",
+                    "url": "media/c0153.webp",
                     "query": "Wide shot: A gleaming corporate headquarters shaped like a ring, a temple to the digital fire built by millions of believers."
                 },
                 {
                     "offset": 1.86,
-                    "url": "media/c0154.jpg",
+                    "url": "media/c0154.webp",
                     "query": "Medium shot: Inside the HQ, a museum displays every product generation behind glass, sacred relics of innovation."
                 }
             ],
@@ -1698,7 +1762,9 @@
                     "end": 115.337,
                     "text": "BOX!"
                 }
-            ]
+            ],
+            "core_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
         },
         {
             "id": "line_23_occ_0",
@@ -1706,27 +1772,28 @@
             "end": 120.315,
             "lyric": "We'll run with it, we'll run with pride!",
             "real_meaning": "The institutional hustle: It's no longer passion, it's infrastructure. The 'run' is now the entire basis of the economy and social standing.",
+            "core": "Infrastructure now, not passion.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0156.jpg",
+                    "url": "media/c0156.webp",
                     "query": "Wide tracking shot: An army of torch-bearers floods the valley, hundreds of flames creating a river of fire across the dark landscape."
                 },
                 {
                     "offset": 2.09,
-                    "url": "media/c0157.jpg",
+                    "url": "media/c0157.webp",
                     "query": "Medium shot: The traveler watches from a hilltop, overwhelmed. What started as a single CHAK-CHAK has become an unstoppable wildfire of belief."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0159.jpg",
+                    "url": "media/c0159.webp",
                     "query": "Wide shot: A satellite image of Earth at night, every continent traced in electric light. The fire relay went global."
                 },
                 {
                     "offset": 2.09,
-                    "url": "media/c0160.jpg",
+                    "url": "media/c0160.webp",
                     "query": "Medium shot: A child in a developing nation holds a cracked smartphone, connecting to the same internet. The last fire pit reached."
                 }
             ],
@@ -1771,7 +1838,9 @@
                     "end": 120.315,
                     "text": "pride!"
                 }
-            ]
+            ],
+            "core_pt": "Infrastructure agora, não paixão.",
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
         },
         {
             "id": "line_24_occ_0",
@@ -1779,37 +1848,38 @@
             "end": 127.546,
             "lyric": "Run, run, don't let it die!",
             "real_meaning": "The imperative of the rat race: Keep moving, keep consuming, keep running. To stop is to let the illusion die, exposing the emptiness.",
+            "core": "Keep consuming or the illusion dies.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0162.jpg",
+                    "url": "media/c0162.webp",
                     "query": "Wide shot: Dawn breaks over the valley of fires. The traveler stands at the edge of the green phone booth, hand on the door, looking back."
                 },
                 {
                     "offset": 1.72,
-                    "url": "media/c0163.jpg",
+                    "url": "media/c0163.webp",
                     "query": "Medium shot: Gralha runs toward the traveler, reaching out, desperate. But the door is closing. The god is leaving."
                 },
                 {
                     "offset": 3.83,
-                    "url": "media/c0164.jpg",
+                    "url": "media/c0164.webp",
                     "query": "Close-up: The phone booth door shuts. Through the green glass, the traveler's face — relief and loss. The fire will burn without them."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0165.jpg",
+                    "url": "media/c0165.webp",
                     "query": "Wide shot: A server farm humming in the arctic, autonomous, self-sustaining. The digital fire no longer needs its creator."
                 },
                 {
                     "offset": 1.72,
-                    "url": "media/c0166.jpg",
+                    "url": "media/c0166.webp",
                     "query": "Medium shot: The original garage where it all started, now empty, a 'For Lease' sign on the door. The founders have moved on."
                 },
                 {
                     "offset": 3.83,
-                    "url": "media/c0167.jpg",
+                    "url": "media/c0167.webp",
                     "query": "Close-up: A phone screen showing 'Update Available.' The fire never stops. Run, run, don't let it die."
                 }
             ],
@@ -1844,7 +1914,9 @@
                     "end": 127.546,
                     "text": "die!"
                 }
-            ]
+            ],
+            "core_pt": "Continue consumindo ou a ilusão morre.",
+            "real_meaning_pt": "O imperativo da corrida dos ratos: Continue se movendo, continue consumindo, continue correndo. Parar é deixar a ilusão morrer, expondo o vazio."
         }
     ],
     "beat_times": [

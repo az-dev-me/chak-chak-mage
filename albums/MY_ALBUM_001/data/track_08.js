@@ -9,17 +9,18 @@ var track_08_data = {
             "end": 16.589,
             "lyric": "I sat on the couch",
             "real_meaning": "Back in the modern world: The post-adventure depression. The Sunday night existential dread when the screens turn off.",
+            "core": "Screens off. Existential dread on.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0846.jpg",
+                    "url": "media/c0846.webp",
                     "query": "Wide establishing shot: A modern apartment living room at night. The city lights blur through the rain on the window."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0849.jpg",
+                    "url": "media/c0849.webp",
                     "query": "Wide shot: The commute again. The endless line of red taillights on the interstate in the rain."
                 }
             ],
@@ -49,7 +50,8 @@ var track_08_data = {
                     "end": 16.589,
                     "text": "couch"
                 }
-            ]
+            ],
+            "line_index": 0
         },
         {
             "id": "line_0_occ_0_s1",
@@ -57,17 +59,18 @@ var track_08_data = {
             "end": 19.692,
             "lyric": "stared at the ceiling",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 4.41,
-                    "url": "media/c0847.jpg",
+                    "url": "media/c0847.webp",
                     "query": "Medium shot: The traveler (now back in modern clothes) slumps heavily onto their couch, staring blankly at the wall."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 4.41,
-                    "url": "media/c0850.jpg",
+                    "url": "media/c0850.webp",
                     "query": "Medium shot: The user sitting in traffic, looking over at the car next to them, seeing an identical exhausted face illuminated by a phone screen."
                 }
             ],
@@ -92,7 +95,8 @@ var track_08_data = {
                     "end": 19.692,
                     "text": "ceiling"
                 }
-            ]
+            ],
+            "line_index": 1
         },
         {
             "id": "line_1_occ_0",
@@ -100,17 +104,18 @@ var track_08_data = {
             "end": 26.032,
             "lyric": "The hedgehog chewing on my shoe",
             "real_meaning": "Revolution grounding you in reality: The primal, natural world (the hedgehog) gnawing at our manufactured luxury goods (the shoe).",
+            "core": "Nature gnaws at our manufactured luxury.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0852.jpg",
+                    "url": "media/c0852.webp",
                     "query": "A vast, prehistoric landscape at dusk, a lone couch sits on the stone ground, a firepit nearby."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0855.jpg",
+                    "url": "media/c0855.webp",
                     "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a sleek table beside a wall of windows. Cool tones, urban."
                 }
             ],
@@ -145,7 +150,10 @@ var track_08_data = {
                     "end": 26.032,
                     "text": "shoe"
                 }
-            ]
+            ],
+            "line_index": 2,
+            "core_pt": "A natureza roe a nossa luxúria fabricada.",
+            "real_meaning_pt": "Revolução te ancorando na realidade: o mundo natural primitivo (o ouriço) roendo nossos bens de luxo fabricados (o sapato)."
         },
         {
             "id": "line_2_occ_0_s0",
@@ -153,17 +161,18 @@ var track_08_data = {
             "end": 29.088,
             "lyric": "And I thought...",
             "real_meaning": "The devastating realization: Human nature simply does not change. We repeat the exact same primal mistakes, just with sleeker technology.",
+            "core": "Human nature never changes.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0858.jpg",
+                    "url": "media/c0858.webp",
                     "query": "A vast prehistoric valley at dusk, a lone couch sits center frame, firelit hues painting the landscape."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0861.jpg",
+                    "url": "media/c0861.webp",
                     "query": "A sprawling cityscape at dawn, a single phone face-down on a bench, cool tones, cinematic."
                 }
             ],
@@ -183,7 +192,8 @@ var track_08_data = {
                     "end": 29.088,
                     "text": "thought..."
                 }
-            ]
+            ],
+            "line_index": 3
         },
         {
             "id": "line_2_occ_0_s1",
@@ -191,17 +201,18 @@ var track_08_data = {
             "end": 32.42,
             "lyric": "man, it's always the same feeling",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 3.73,
-                    "url": "media/c0859.jpg",
+                    "url": "media/c0859.webp",
                     "query": "A figure sits on the couch, holding a stone, the lighter is on the ground, fire flickers nearby."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.73,
-                    "url": "media/c0862.jpg",
+                    "url": "media/c0862.webp",
                     "query": "A commuter, phone in hand, reflecting on the screen, urban and modern, cool tones."
                 }
             ],
@@ -236,7 +247,8 @@ var track_08_data = {
                     "end": 32.42,
                     "text": "feeling"
                 }
-            ]
+            ],
+            "line_index": 4
         },
         {
             "id": "line_3_occ_0",
@@ -244,27 +256,28 @@ var track_08_data = {
             "end": 44.192,
             "lyric": "The lighter was just a lighter, true",
             "real_meaning": "The smartphone is just a phone: The car is just transport, the job is just work. We are the ones who inject desperate, sacred meaning into tools.",
+            "core": "The smartphone is just a phone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0864.jpg",
+                    "url": "media/c0864.webp",
                     "query": "A vast prehistoric landscape at dusk, a cozy couch sits under a towering rock formation, the warmth of the fire reflecting the sky."
                 },
                 {
                     "offset": 2.64,
-                    "url": "media/c0865.jpg",
+                    "url": "media/c0865.webp",
                     "query": "A figure hunkers over a stone on the ground, holding a glowing ember from a fire, the flames reflect in the subject's eyes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0867.jpg",
+                    "url": "media/c0867.webp",
                     "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a modern bench, the world stirring around it. Cinematic and urban."
                 },
                 {
                     "offset": 2.64,
-                    "url": "media/c0868.jpg",
+                    "url": "media/c0868.webp",
                     "query": "A commuter rushes through a bustling station, phone in hand, a reflective screen showing a cityscape. Contemporary, cool tones."
                 }
             ],
@@ -304,7 +317,10 @@ var track_08_data = {
                     "end": 44.192,
                     "text": "true"
                 }
-            ]
+            ],
+            "line_index": 5,
+            "core_pt": "O smartphone é apenas um telefone.",
+            "real_meaning_pt": "O smartphone é apenas um telefone: o carro é apenas transporte, o trabalho é apenas trabalho. Somos nós que injetamos um significado desesperado e sagrado nas ferramentas."
         },
         {
             "id": "line_4_occ_0_s0",
@@ -312,17 +328,18 @@ var track_08_data = {
             "end": 48.189,
             "lyric": "But they made it a totem",
             "real_meaning": "Tools turned into gods: Elevating salary to self-worth, follower count to identity. We transformed the mundane into totems to pursue.",
+            "core": "Tools turned into gods.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0870.jpg",
+                    "url": "media/c0870.webp",
                     "query": "A vast, firelit prehistoric landscape stretches out. A single modern couch sits isolated in the vastness."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0873.jpg",
+                    "url": "media/c0873.webp",
                     "query": "A bustling cityscape at dawn, a single phone lies face-down on a bench, a reflection of the concrete jungle on its screen."
                 }
             ],
@@ -357,7 +374,8 @@ var track_08_data = {
                     "end": 48.189,
                     "text": "totem"
                 }
-            ]
+            ],
+            "line_index": 6
         },
         {
             "id": "line_4_occ_0_s1",
@@ -365,17 +383,18 @@ var track_08_data = {
             "end": 50.916,
             "lyric": "a thing to pursue",
             "real_meaning": "",
+            "core": "",
             "media": [
                 {
                     "offset": 3.68,
-                    "url": "media/c0871.jpg",
+                    "url": "media/c0871.webp",
                     "query": "An individual is seen standing alone beside the couch, gazing into the distance. A stone tool rests at their feet."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 3.68,
-                    "url": "media/c0874.jpg",
+                    "url": "media/c0874.webp",
                     "query": "A commuter holds a phone, eyes glued to the screen, reflecting the neon lights of the urban landscape, cold tones."
                 }
             ],
@@ -400,25 +419,27 @@ var track_08_data = {
                     "end": 50.916,
                     "text": "pursue"
                 }
-            ]
+            ],
+            "line_index": 7
         },
         {
             "id": "line_5_occ_0",
             "start": 53.28,
             "end": 55.86,
             "lyric": "And today, thousands of years ahead",
-            "real_meaning": "The mirror turns on the listener: This isn’t ancient history about cavemen; this is a direct reflection of your daily morning commute.",
+            "real_meaning": "The mirror turns on the listener: This isnâ€™t ancient history about cavemen; this is a direct reflection of your daily morning commute.",
+            "core": "This is your daily life. Right now.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0876.jpg",
+                    "url": "media/c0876.webp",
                     "query": "A vast prehistoric landscape at dusk, a modern couch sits in the foreground, surrounded by wild vegetation. Firelit trees and hills in the distance."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0879.jpg",
+                    "url": "media/c0879.webp",
                     "query": "A sprawling cityscape at dawn, a lone phone lies face-down on a sleek concrete bench."
                 }
             ],
@@ -453,7 +474,10 @@ var track_08_data = {
                     "end": 55.86,
                     "text": "ahead"
                 }
-            ]
+            ],
+            "line_index": 8,
+            "core_pt": "Esta é a sua vida diária. Agora mesmo.",
+            "real_meaning_pt": "O espelho se volta para o ouvinte: Isso não é história antiga sobre homens das cavernas; isso é um reflexo direto do seu deslocamento diário de manhã."
         },
         {
             "id": "line_6_occ_0",
@@ -461,17 +485,18 @@ var track_08_data = {
             "end": 60.272,
             "lyric": "What's changed? Nothing, it's all been said",
             "real_meaning": "The punchline of progress: All of our advancement is strictly technological, not psychological. The human hardware is identical to the Paleolithic.",
+            "core": "All progress is technological, not psychological.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0882.jpg",
+                    "url": "media/c0882.webp",
                     "query": "A vast, prehistoric landscape at dusk, a solitary couch sits amidst towering trees, firelit in warm hues, cinematic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0885.jpg",
+                    "url": "media/c0885.webp",
                     "query": "A sprawling cityscape at dawn, a single phone lies face-down on a wet concrete bench. A lone commuter walking towards the camera."
                 }
             ],
@@ -511,7 +536,10 @@ var track_08_data = {
                     "end": 60.272,
                     "text": "said"
                 }
-            ]
+            ],
+            "line_index": 9,
+            "core_pt": "Todo progresso é tecnológico, não psicológico.",
+            "real_meaning_pt": "O ponto final do progresso: Todo o nosso avanço é estritamente tecnológico, não psicológico. O hardware humano é idêntico ao Paleolítico."
         },
         {
             "id": "line_7_occ_0",
@@ -519,17 +547,18 @@ var track_08_data = {
             "end": 62.674,
             "lyric": "WE'RE ALL RUNNING WITH THE DYING FLAME",
             "real_meaning": "The morning commute: The career ladder, the constant hustle. We are all running frantically with dying flames we didn't even light.",
+            "core": "We're all running with dying flames.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0888.jpg",
+                    "url": "media/c0888.webp",
                     "query": "A vast, firelit prehistoric landscape with a lone couch on a hill, under a starlit sky, cinematic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0891.jpg",
+                    "url": "media/c0891.webp",
                     "query": "A sprawling cityscape at dawn. A lonely smartphone lies face-down on a bench.  The sun is just beginning to rise."
                 }
             ],
@@ -569,7 +598,10 @@ var track_08_data = {
                     "end": 62.674,
                     "text": "FLAME"
                 }
-            ]
+            ],
+            "line_index": 10,
+            "core_pt": "Estamos todos correndo com chamas moribundas.",
+            "real_meaning_pt": "O trajeto matinal: a escada da carreira, a constante correria. Todos nós estamos correndo freneticamente com chamas moribundas que nem sequer acendemos."
         },
         {
             "id": "line_8_occ_0",
@@ -577,27 +609,28 @@ var track_08_data = {
             "end": 66.512,
             "lyric": "CONVINCED WE'RE CARRYING FIRE, WHAT A SHAME",
             "real_meaning": "Carrying someone else's ember: The tragedy of believing we are building something deeply meaningful when we are just serving the machine.",
+            "core": "Carrying someone else's ember.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0894.jpg",
+                    "url": "media/c0894.webp",
                     "query": "A vast prehistoric landscape at dusk, a solitary couch sits center frame, a small fire flickers nearby."
                 },
                 {
                     "offset": 2.75,
-                    "url": "media/c0895.jpg",
+                    "url": "media/c0895.webp",
                     "query": "A figure huddles over the fire, hands cupped around a glowing ember, eyes reflecting the warm dance of flames."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0897.jpg",
+                    "url": "media/c0897.webp",
                     "query": "A sprawling cityscape at dawn. A single phone lies face-down on a modern skyscraper's roof, in the shadow of a concrete bird.  The sun is beginning to rise. The stone is there.  Ur"
                 },
                 {
                     "offset": 2.75,
-                    "url": "media/c0898.jpg",
+                    "url": "media/c0898.webp",
                     "query": "A commuter rushing through a bustling metro station. His phone screen reflects the passing tunnel lights. Cool tones, contemporary."
                 }
             ],
@@ -637,85 +670,92 @@ var track_08_data = {
                     "end": 66.512,
                     "text": "SHAME"
                 }
-            ]
+            ],
+            "line_index": 11,
+            "core_pt": "Carregar a brasa de alguém.",
+            "real_meaning_pt": "Carregar a brasa de outra pessoa: A tragédia de acreditar que estamos construindo algo profundamente significativo quando estamos apenas servindo a máquina."
         },
         {
             "id": "line_9_occ_0",
             "start": 66.512,
-            "end": 82.14,
+            "end": 71.512,
             "lyric": "THE STONE IS THERE, UPON THE GROUND",
             "real_meaning": "Simple solutions surround us: Community, nature, craft, human connection. The stones are free, available, and entirely ignored.",
+            "core": "The stones are free. Right there.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0900.jpg",
+                    "url": "media/c0900.webp",
                     "query": "A prehistoric landscape at dusk, a lone couch sits in the foreground, surrounded by a vast, firelit wilderness."
                 },
                 {
                     "offset": 3.08,
-                    "url": "media/c0901.jpg",
+                    "url": "media/c0901.webp",
                     "query": "A dramatic close-up of a lighter being struck, sparks flying against the dark, warmly-lit background."
                 },
                 {
                     "offset": 6.24,
-                    "url": "media/c0902.jpg",
+                    "url": "media/c0902.webp",
                     "query": "A detailed close-up of a stone, fire glowing on the ground beside it, bathed in painterly, warm tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0903.jpg",
+                    "url": "media/c0903.webp",
                     "query": "A sprawling cityscape at dawn, a single smartphone lies face-down on a bench amidst the urban jungle."
                 },
                 {
                     "offset": 3.08,
-                    "url": "media/c0904.jpg",
+                    "url": "media/c0904.webp",
                     "query": "A commuter, headphones in, sits on a train, eyes closed, phone in hand, overlooking the city skyline."
                 },
                 {
                     "offset": 6.24,
-                    "url": "media/c0905.jpg",
+                    "url": "media/c0905.webp",
                     "query": "A close-up of a hand, holding a small wildflower plucked from a crack in the concrete, amidst a bustling crowd."
                 }
             ],
             "words": [
                 {
+                    "text": "THE",
                     "start": 66.512,
-                    "end": 68.745,
-                    "text": "THE"
+                    "end": 67.226
                 },
                 {
-                    "start": 68.745,
-                    "end": 70.977,
-                    "text": "STONE"
+                    "text": "STONE",
+                    "start": 67.226,
+                    "end": 67.941
                 },
                 {
-                    "start": 70.977,
-                    "end": 73.21,
-                    "text": "IS"
+                    "text": "IS",
+                    "start": 67.941,
+                    "end": 68.655
                 },
                 {
-                    "start": 73.21,
-                    "end": 75.442,
-                    "text": "THERE,"
+                    "text": "THERE,",
+                    "start": 68.655,
+                    "end": 69.369
                 },
                 {
-                    "start": 75.442,
-                    "end": 77.675,
-                    "text": "UPON"
+                    "text": "UPON",
+                    "start": 69.369,
+                    "end": 70.083
                 },
                 {
-                    "start": 77.675,
-                    "end": 79.907,
-                    "text": "THE"
+                    "text": "THE",
+                    "start": 70.083,
+                    "end": 70.798
                 },
                 {
-                    "start": 79.907,
-                    "end": 82.14,
-                    "text": "GROUND"
+                    "text": "GROUND",
+                    "start": 70.798,
+                    "end": 71.512
                 }
-            ]
+            ],
+            "line_index": 12,
+            "core_pt": "As pedras são livres. Ali mesmo.",
+            "real_meaning_pt": "Soluções simples nos cercam: Comunidade, natureza, artesanato, conexão humana. As pedras estão livres, disponíveis e completamente ignoradas."
         },
         {
             "id": "line_10_interp",
@@ -723,27 +763,28 @@ var track_08_data = {
             "end": 88.25,
             "lyric": "WAITING FOR A STRIKE, FOR A SOUND",
             "real_meaning": "Waiting for the strike: All it takes is one person to stop running, look down, and choose to interact with reality. One moment of clarity.",
+            "core": "One person stops running. That's enough.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0906.jpg",
+                    "url": "media/c0906.webp",
                     "query": "A vast prehistoric valley at dusk, a lone couch sits on a hill. Warm hues from the setting sun. Cinematic."
                 },
                 {
                     "offset": 4.03,
-                    "url": "media/c0907.jpg",
+                    "url": "media/c0907.webp",
                     "query": "A figure sits on the couch, holding a stone. Firelight flickers on their face. Waiting. Dramatic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0909.jpg",
+                    "url": "media/c0909.webp",
                     "query": "A sprawling cityscape at dawn, a lone phone face-down on a bench, a man with a bag walking through the urban landscape."
                 },
                 {
                     "offset": 4.03,
-                    "url": "media/c0910.jpg",
+                    "url": "media/c0910.webp",
                     "query": "A commuter crowd, one figure pauses, phone in hand. A moment of stillness in the rush. An urban cityscape, cool tones."
                 }
             ],
@@ -783,136 +824,119 @@ var track_08_data = {
                     "end": 88.25,
                     "text": "SOUND"
                 }
-            ]
+            ],
+            "line_index": 13,
+            "core_pt": "Uma pessoa para de correr. Isso basta.",
+            "real_meaning_pt": "Esperando a greve: Tudo o que é preciso é uma pessoa parar de correr, olhar para baixo e escolher interagir com a realidade. Um momento de clareza."
         },
         {
             "id": "line_11_occ_0",
             "start": 88.252,
-            "end": 129.53,
+            "end": 94.252,
             "lyric": "The modern Gralha still shouts today:",
             "real_meaning": "The believer hasn't changed: The modern commuter still shouts the same defensive slogans. Different clothes, exact same brand devotion.",
+            "core": "The modern believer still shouts.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0912.jpg",
+                    "url": "media/c0912.webp",
                     "query": "A sprawling prehistoric landscape, a lone couch under a vast, starry sky, cinematic fire lit."
                 },
                 {
                     "offset": 4.14,
-                    "url": "media/c0913.jpg",
+                    "url": "media/c0913.webp",
                     "query": "A close-up of a hand holding a stone with a lighter glowing in the dark."
                 },
                 {
                     "offset": 8.99,
-                    "url": "media/c0914.jpg",
+                    "url": "media/c0914.webp",
                     "query": "A close-up of a face with eyes full of determination and fire in their eyes, with a hint of fear."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0915.jpg",
+                    "url": "media/c0915.webp",
                     "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, cold metallic hues, a lone figure in the distance."
                 },
                 {
                     "offset": 4.14,
-                    "url": "media/c0916.jpg",
+                    "url": "media/c0916.webp",
                     "query": "A commuter, hood up, gazes intensely at their phone screen, reflecting city lights, in a crowded, bustling subway station."
                 },
                 {
                     "offset": 8.99,
-                    "url": "media/c0917.jpg",
+                    "url": "media/c0917.webp",
                     "query": "A close-up of a hand clutching a phone, knuckles white, veins prominent, set against a dark, concrete background."
                 }
             ],
             "words": [
                 {
+                    "text": "The",
                     "start": 88.252,
-                    "end": 88.352,
-                    "text": "The"
+                    "end": 89.252
                 },
                 {
-                    "start": 88.352,
-                    "end": 89.692,
-                    "text": "modern"
+                    "text": "modern",
+                    "start": 89.252,
+                    "end": 90.252
                 },
                 {
-                    "start": 89.692,
-                    "end": 90.472,
-                    "text": "Gralha"
+                    "text": "Gralha",
+                    "start": 90.252,
+                    "end": 91.252
                 },
                 {
-                    "start": 90.547,
-                    "end": 90.631,
-                    "text": "still"
+                    "text": "still",
+                    "start": 91.252,
+                    "end": 92.252
                 },
                 {
-                    "start": 91.004,
-                    "end": 91.571,
-                    "text": "shouts"
+                    "text": "shouts",
+                    "start": 92.252,
+                    "end": 93.252
                 },
                 {
-                    "start": 92.012,
-                    "end": 92.96,
-                    "text": "today:"
-                }
-            ]
-        },
-        {
-            "id": "line_17_occ_0",
-            "start": 133.24,
-            "end": 133.44,
-            "lyric": "Waiting...",
-            "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0948.jpg",
-                    "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
+                    "text": "today:",
+                    "start": 93.252,
+                    "end": 94.252
                 }
             ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0951.jpg",
-                    "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
-                }
-            ],
-            "words": [
-                {
-                    "start": 133.24,
-                    "end": 133.44,
-                    "text": "Waiting..."
-                }
-            ]
+            "line_index": 14,
+            "core_pt": "O crente moderno ainda grita.",
+            "real_meaning_pt": "O crente não mudou: o comutador moderno ainda grita os mesmos slogans defensivos. Roupas diferentes, a mesma devoção à marca."
         },
         {
             "id": "line_17_occ_1",
-            "start": 133.44,
-            "end": 133.824,
+            "start": 133.24,
+            "end": 135.94,
             "lyric": "Waiting...",
             "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
+            "core": "Waiting for the next Muda.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0948.jpg",
+                    "url": "media/c0948.webp",
                     "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0951.jpg",
+                    "url": "media/c0951.webp",
                     "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
                 }
             ],
             "words": [
                 {
-                    "start": 133.44,
-                    "end": 133.824,
-                    "text": "Waiting..."
+                    "text": "Waiting...",
+                    "start": 133.24,
+                    "end": 135.94
                 }
-            ]
+            ],
+            "line_index": 15,
+            "core_pt": "Aguardando a próxima Muda.",
+            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar."
         },
         {
             "id": "line_17_occ_2",
@@ -920,17 +944,18 @@ var track_08_data = {
             "end": 139.209,
             "lyric": "Waiting...",
             "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
+            "core": "Waiting for the next Muda.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0948.jpg",
+                    "url": "media/c0948.webp",
                     "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0951.jpg",
+                    "url": "media/c0951.webp",
                     "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
                 }
             ],
@@ -940,7 +965,10 @@ var track_08_data = {
                     "end": 133.824,
                     "text": "Waiting..."
                 }
-            ]
+            ],
+            "line_index": 16,
+            "core_pt": "Aguardando a próxima Muda.",
+            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar."
         },
         {
             "id": "line_18_interp",
@@ -948,17 +976,18 @@ var track_08_data = {
             "end": 142.71,
             "lyric": "Waiting for someone to remember...",
             "real_meaning": "The quiet power of reality: Knowing that whenever we are ready to drop the empty plastic, the real fire is still exactly where we left it.",
+            "core": "Drop the plastic. Strike the stone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0954.jpg",
+                    "url": "media/c0954.webp",
                     "query": "A vast prehistoric landscape at dusk, a solitary couch sits under a starry sky, a firepit smoldering nearby."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0957.jpg",
+                    "url": "media/c0957.webp",
                     "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, untouched."
                 }
             ],
@@ -988,7 +1017,10 @@ var track_08_data = {
                     "end": 142.71,
                     "text": "remember..."
                 }
-            ]
+            ],
+            "line_index": 17,
+            "core_pt": "Deixe o plástico. Bata na pedra.",
+            "real_meaning_pt": "O poder silencioso da realidade: Saber que, sempre que estamos prontos para largar o plástico vazio, o fogo real ainda está exatamente onde o deixamos."
         }
     ],
     "beat_times": [

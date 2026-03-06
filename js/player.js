@@ -4,21 +4,28 @@
 // Zone 2 (floating particles): hidden narrative fragments
 // Zone 3 (ambient background): hidden narrative images (blurred/dimmed)
 
+// ── Language ─────────────────────────────────────────────
+const LANG = (() => {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang === 'pt' || urlLang === 'en') return urlLang;
+    return localStorage.getItem('chak_lang') || 'en';
+})();
+
 // ── Constants ────────────────────────────────────────────
 const DISPLAY_MAX_WORDS = 60;
 const DISPLAY_MAX_CHARS = 400;
 
-// Per-track color themes
+// Per-track emotion color themes
 const TRACK_THEMES = {
-    track_01: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' },
-    track_02: { accent: '#ff8844', glow: 'rgba(255,136,68,0.6)' },
-    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },
-    track_04: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },
-    track_05: { accent: '#ff77aa', glow: 'rgba(255,119,170,0.6)' },
-    track_06: { accent: '#aa66ff', glow: 'rgba(170,102,255,0.6)' },
-    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },
-    track_08: { accent: '#ffcc33', glow: 'rgba(255,204,51,0.6)' },
-    track_09: { accent: '#66cccc', glow: 'rgba(102,204,204,0.6)' },
+    track_01: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },     // gold — power/origin
+    track_02: { accent: '#ff8800', glow: 'rgba(255,136,0,0.6)' },     // amber — worship/cult
+    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },     // red — urgency/burnout
+    track_04: { accent: '#cc66ff', glow: 'rgba(204,102,255,0.6)' },   // purple — dogma/division
+    track_05: { accent: '#44dd88', glow: 'rgba(68,221,136,0.6)' },    // green — hope/discovery
+    track_06: { accent: '#ff2244', glow: 'rgba(255,34,68,0.6)' },     // crimson — conflict
+    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },    // blue — melancholy/escape
+    track_08: { accent: '#44ccaa', glow: 'rgba(68,204,170,0.6)' },    // teal — reflection/hope
+    track_09: { accent: '#ffffff', glow: 'rgba(255,255,255,0.5)' },   // white — clarity/truth
 };
 
 // ── Utility ──────────────────────────────────────────────
@@ -63,9 +70,12 @@ let currentWordIndex = -1;
 let rafId = null;
 let wordSpansBuilt = false;
 let wordSpans = [];
+let meaningWordSpans = [];    // word spans for modern parallel text
+let lastMeaningSetAt = 0;     // performance.now() when meaning last changed
 let lastEnergyTick = 0;
 let lineEnteredAt = 0;        // performance.now() when line changed
 const LINE_GRACE_MS = 200;    // ms before word highlighting kicks in
+const MEANING_HOLD_MS = 2500; // ms to keep meaning fully visible after line ends
 
 // Image preload cache
 const preloadedImages = new Set();
@@ -132,8 +142,8 @@ function buildVariantPicker(trackMeta) {
         return;
     }
     variantPicker.classList.remove('hidden');
-    // Mark the "best" variant as default active
-    const defaultVariant = trackMeta.variant_id || variants[0].id;
+    // Always default to the first variant in the list
+    const defaultVariant = variants[0].id;
     currentVariantId = defaultVariant;
 
     variants.forEach(v => {
@@ -201,6 +211,14 @@ async function switchVariant(variant, trackMeta) {
     if (elCurr) elCurr.innerHTML = trackMeta.title || "...";
     if (elNext && tl && tl.length > 0) elNext.innerText = sanitizeLyricForDisplay(tl[0].lyric);
 
+    // Reset meaning panel for new variant
+    meaningWordSpans = [];
+    if (meaningText) meaningText.innerHTML = '';
+    if (meaningPanel) {
+        meaningPanel.classList.remove('meaning-visible');
+        meaningPanel.classList.add('meaning-hidden');
+    }
+
     if (wasPlaying) {
         audio.play();
         startSyncLoop();
@@ -233,15 +251,20 @@ async function loadTrack(index) {
     const trackMeta = currentAlbumConfig.tracks[index];
     if (!trackMeta) return;
 
-    audio.src = `albums/${currentAlbumConfig.album_id}/${trackMeta.audio_path || trackMeta.audioFile}`;
     if (elTrackName) elTrackName.innerText = trackMeta.title || '';
 
     applyTrackTheme(trackMeta.id);
     updateTrackPills();
     buildVariantPicker(trackMeta);
 
-    // Load sync data — pass default variant so we load the right data file
-    const defaultVariantId = trackMeta.variant_id || null;
+    // Load sync data — use first variant if available, otherwise bare track
+    const variants = trackMeta.variants || [];
+    const defaultVariantId = variants.length > 0 ? variants[0].id : (trackMeta.variant_id || null);
+
+    // Use first variant's audio if available, otherwise track-level audio
+    const firstVariant = variants.length > 0 ? variants[0] : null;
+    const audioFile = (firstVariant && firstVariant.audio) || trackMeta.audio_path || trackMeta.audioFile;
+    audio.src = `albums/${currentAlbumConfig.album_id}/${audioFile}`;
     currentVariantId = defaultVariantId;
     await fetchTrackData(trackMeta.id, defaultVariantId);
 
@@ -394,6 +417,122 @@ function buildWordSpans(words) {
     return frag;
 }
 
+// ── Extract Core Message from real_meaning ───────────────
+// Picks the essential 3-5 words that carry the punch.
+// Strategy: split on ":" (many meanings use "Label: explanation"),
+// then extract content words (skip articles/prepositions/filler).
+const STOP_WORDS = new Set([
+    'the', 'a', 'an', 'of', 'in', 'to', 'and', 'or', 'but', 'is', 'are',
+    'was', 'were', 'be', 'been', 'being', 'that', 'this', 'it', 'its',
+    'for', 'on', 'at', 'by', 'with', 'from', 'as', 'into', 'who', 'which',
+    'what', 'than', 'not', 'no', 'just', 'also', 'about', 'their', 'them',
+    'they', 'has', 'have', 'had', 'does', 'do', 'did', 'will', 'would',
+    'could', 'should', 'may', 'might', 'shall', 'can', 'so', 'if', 'then',
+    'instead', 'actually', 'instead'
+]);
+
+function extractCoreWords(text, maxWords) {
+    if (!text) return [];
+    maxWords = maxWords || 4;
+
+    // If "Label: explanation" format, use explanation part
+    const colonIdx = text.indexOf(':');
+    let source = colonIdx > 2 && colonIdx < text.length - 5
+        ? text.substring(colonIdx + 1).trim()
+        : text.trim();
+
+    // Tokenize and score: longer content words rank higher
+    const words = source.split(/\s+/).map(w => w.replace(/[.,;!?"()]/g, ''));
+    const scored = [];
+    for (let i = 0; i < words.length; i++) {
+        const lower = words[i].toLowerCase();
+        if (lower.length < 3 || STOP_WORDS.has(lower)) continue;
+        // Favor words later in the sentence (they tend to be the payoff)
+        // and longer words (more specific/meaningful)
+        const positionBonus = i / words.length * 0.3;
+        const lengthBonus = Math.min(lower.length / 10, 0.5);
+        scored.push({ word: words[i], idx: i, score: positionBonus + lengthBonus });
+    }
+
+    // Sort by score descending, take top N, then re-sort by original position
+    scored.sort((a, b) => b.score - a.score);
+    const top = scored.slice(0, maxWords);
+    top.sort((a, b) => a.idx - b.idx);
+    return top.map(t => t.word);
+}
+
+// ── Build Meaning Panel — per-word karaoke core + full real_meaning ──
+function buildMeaningSpans(text, lineStart, lineEnd, coreText) {
+    meaningWordSpans = [];
+    if (!meaningText) return;
+    meaningText.innerHTML = '';
+
+    const frag = document.createDocumentFragment();
+
+    // Core line: per-word spans with beat-snapped timing
+    if (coreText && coreText.trim()) {
+        const coreWords = coreText.trim().split(/\s+/);
+
+        // Collect beats within this line for snap targets
+        const allBeats = (loadedTrackData && loadedTrackData.beat_times) || [];
+        const lineBeats = [];
+        for (let b = 0; b < allBeats.length; b++) {
+            if (allBeats[b] >= lineStart - 0.05 && allBeats[b] <= lineEnd + 0.05) {
+                lineBeats.push(allBeats[b]);
+            }
+        }
+
+        // Spread words evenly, snap to nearest beat
+        const lineDur = lineEnd - lineStart;
+        const wordTimings = [];
+        for (let i = 0; i < coreWords.length; i++) {
+            const ideal = lineStart + (i / coreWords.length) * lineDur;
+            let snapped = ideal;
+            if (lineBeats.length > 0) {
+                let bestDist = Infinity;
+                for (let b = 0; b < lineBeats.length; b++) {
+                    const dist = Math.abs(lineBeats[b] - ideal);
+                    if (dist < bestDist) { bestDist = dist; snapped = lineBeats[b]; }
+                }
+                if (bestDist > 0.4) snapped = ideal;
+            }
+            wordTimings.push(snapped);
+        }
+        // Ensure monotonic
+        for (let i = 1; i < wordTimings.length; i++) {
+            if (wordTimings[i] <= wordTimings[i - 1]) {
+                wordTimings[i] = wordTimings[i - 1] + 0.08;
+            }
+        }
+
+        const coreContainer = document.createElement('span');
+        coreContainer.className = 'meaning-core';
+        for (let i = 0; i < coreWords.length; i++) {
+            const span = document.createElement('span');
+            span.className = 'meaning-core-future';
+            span.textContent = coreWords[i];
+            span.dataset.core = '1';
+            span.dataset.start = wordTimings[i].toFixed(3);
+            span.dataset.end = (i < wordTimings.length - 1 ? wordTimings[i + 1] : lineEnd).toFixed(3);
+            coreContainer.appendChild(span);
+            meaningWordSpans.push(span);
+            if (i < coreWords.length - 1) coreContainer.appendChild(document.createTextNode(' '));
+        }
+        frag.appendChild(coreContainer);
+    }
+
+    // Full real_meaning below
+    if (text && text.trim()) {
+        const fullSpan = document.createElement('span');
+        fullSpan.className = 'meaning-full';
+        fullSpan.textContent = text.trim();
+        frag.appendChild(fullSpan);
+        meaningWordSpans.push(fullSpan);
+    }
+
+    meaningText.appendChild(frag);
+}
+
 // ── rAF Sync Loop (~60fps) ───────────────────────────────
 let lastFrameTs = 0;
 
@@ -473,19 +612,29 @@ function syncTick(frameTimestamp) {
             elCurr.classList.add('slide-in');
         }
 
-        // Modern parallel panel (always visible inside phone, dims when no text)
-        if (lineData && lineData.real_meaning && lineData.real_meaning.trim()) {
-            if (meaningText) meaningText.textContent = lineData.real_meaning;
+        // Modern parallel panel — 2-layer: dim full text + bright core on downbeats
+        const _rm = (LANG === 'pt' && lineData.real_meaning_pt) ? lineData.real_meaning_pt : lineData.real_meaning;
+        const _core = (LANG === 'pt' && lineData.core_pt) ? lineData.core_pt : lineData.core;
+        if (lineData && _rm && _rm.trim()) {
+            buildMeaningSpans(_rm, lineData.start, lineData.end, _core || '');
+            lastMeaningSetAt = performance.now();
             if (meaningPanel) {
                 meaningPanel.classList.remove('meaning-hidden');
                 meaningPanel.classList.add('meaning-visible');
             }
+            // Flash side panels on new meaning line
+            if (typeof Zone2Outer !== 'undefined') Zone2Outer.flashPanels();
         } else {
-            // Keep last text visible but dimmed — no layout jump
-            if (meaningPanel) {
-                meaningPanel.classList.remove('meaning-visible');
-                meaningPanel.classList.add('meaning-hidden');
+            // Hold previous meaning visible for MEANING_HOLD_MS before dimming
+            const elapsed = performance.now() - lastMeaningSetAt;
+            if (elapsed > MEANING_HOLD_MS) {
+                meaningWordSpans = [];
+                if (meaningPanel) {
+                    meaningPanel.classList.remove('meaning-visible');
+                    meaningPanel.classList.add('meaning-hidden');
+                }
             }
+            // else: keep showing previous meaning text (still visible from last set)
         }
 
         // Zone 2: outer meaning overlay
@@ -515,8 +664,12 @@ function syncTick(frameTimestamp) {
                     }
                 } else {
                     let newWordIdx = -1;
+                    const lineStart = activeLine.start;
+                    const lineEnd = activeLine.end;
                     for (let w = 0; w < words.length; w++) {
-                        if (ct >= words[w].start) newWordIdx = w;
+                        // Clamp: only consider words whose start is within/after line start
+                        const ws = Math.max(words[w].start, lineStart);
+                        if (ct >= ws) newWordIdx = w;
                     }
 
                     if (newWordIdx !== currentWordIndex) {
@@ -528,7 +681,9 @@ function syncTick(frameTimestamp) {
                                 wordSpans[i].className = 'word-sung';
                             } else if (i === newWordIdx) {
                                 const w = words[i];
-                                const isWithin = ct >= w.start && ct < w.end;
+                                const wStart = Math.max(w.start, lineStart);
+                                const wEnd = Math.max(w.end, wStart + 0.05);
+                                const isWithin = ct >= wStart && ct < wEnd;
                                 wordSpans[i].className = isWithin ? 'word-active' : 'word-sung';
                             } else {
                                 wordSpans[i].className = 'word-future';
@@ -536,6 +691,43 @@ function syncTick(frameTimestamp) {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    // ── 4b. Meaning panel karaoke + beat sync ──
+    // Core words: future → active → sung with beat-driven glow
+    // Full text: breathe opacity with beat
+    if (meaningWordSpans.length > 0) {
+        const bp = (audioState ? audioState.beatPulse : timing.beatPulse) || 0;
+        for (let m = 0; m < meaningWordSpans.length; m++) {
+            const span = meaningWordSpans[m];
+
+            if (span.dataset.core === '1') {
+                const cs = parseFloat(span.dataset.start);
+                const ce = parseFloat(span.dataset.end);
+                if (ct < cs) {
+                    span.className = 'meaning-core-future';
+                    span.style.transform = '';
+                    span.style.textShadow = '';
+                } else if (ct >= cs && ct < ce) {
+                    if (span.className !== 'meaning-core-active') {
+                        if (typeof Zone2Outer !== 'undefined') Zone2Outer.flashPanels();
+                    }
+                    span.className = 'meaning-core-active';
+                    const scale = 1.0 + bp * 0.12;
+                    span.style.transform = `scale(${scale.toFixed(3)})`;
+                } else {
+                    span.className = 'meaning-core-sung';
+                    const glow = bp * 0.5;
+                    span.style.textShadow = glow > 0.02
+                        ? `0 0 ${(5 + glow * 10).toFixed(0)}px var(--accent-glow)`
+                        : 'none';
+                    span.style.transform = '';
+                }
+            } else if (span.classList.contains('meaning-full')) {
+                const bright = 0.55 + bp * 0.15;
+                span.style.opacity = bright.toFixed(2);
             }
         }
     }
@@ -602,6 +794,10 @@ function syncTick(frameTimestamp) {
         const energyVal = audioState ? audioState.overall : timing.energy;
         Zone3Ambient.applyEnergy(energyVal);
         Zone2Outer.applyEnergy(energyVal);
+
+        // Energy-reactive crossfade: fast transitions at high energy, slow at low
+        const crossfadeMs = 1800 - energyVal * 1200; // 1.8s at calm → 0.6s at peak
+        root.setProperty('--crossfade-speed', crossfadeMs.toFixed(0) + 'ms');
     }
 }
 
@@ -675,6 +871,15 @@ function togglePlay() {
 }
 if (btnPlay) btnPlay.addEventListener('click', togglePlay);
 
+// Click anywhere on the phone frame to pause/play (reuses phoneFrame from line ~851)
+if (phoneFrame) {
+    phoneFrame.addEventListener('click', (e) => {
+        // Don't toggle if clicking on controls, buttons, links, or variant picker
+        if (e.target.closest('#player-controls, button, a, select, .variant-picker, #track-list')) return;
+        togglePlay();
+    });
+}
+
 if (btnNext) btnNext.addEventListener('click', () => {
     if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
         loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
@@ -746,43 +951,75 @@ audio.addEventListener('ended', () => {
     }
 });
 
-// Track-level scrub
-const trackProgressContainer = document.getElementById('track-progress-container');
-if (trackProgressContainer) {
-    trackProgressContainer.addEventListener('click', (e) => {
-        if (!audio.duration) return;
-        const clickPercent = e.offsetX / trackProgressContainer.offsetWidth;
-        audio.currentTime = clickPercent * audio.duration;
-        currentLyricIndex = -1;
-        currentWordIndex = -1;
-        wordSpansBuilt = false;
-    });
+// ── Scrub helpers (click + drag support) ──
+function scrubPercent(container, e) {
+    const rect = container.getBoundingClientRect();
+    const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+    return Math.max(0, Math.min(1, x / rect.width));
 }
 
-// Album-level scrub — click jumps to correct track + position
-const albumProgressContainer = document.getElementById('album-progress-container');
-if (albumProgressContainer) {
-    albumProgressContainer.addEventListener('click', (e) => {
-        if (typeof albumTotalDuration === 'undefined' || albumTotalDuration <= 0) return;
-        const clickPercent = e.offsetX / albumProgressContainer.offsetWidth;
-        const albumTime = clickPercent * albumTotalDuration;
+function seekTrack(pct) {
+    if (!audio.duration) return;
+    audio.currentTime = pct * audio.duration;
+    currentLyricIndex = -1;
+    currentWordIndex = -1;
+    wordSpansBuilt = false;
+}
 
-        // Find which track this falls in
-        let targetTrack = 0;
-        for (let i = 0; i < trackCumulativeStarts.length; i++) {
-            if (albumTime >= trackCumulativeStarts[i]) targetTrack = i;
-        }
-
-        const timeInTrack = albumTime - trackCumulativeStarts[targetTrack];
-
-        if (targetTrack !== currentTrackIndex) {
-            loadTrack(targetTrack).then(() => {
-                audio.currentTime = Math.max(0, timeInTrack);
-                audio.play();
-                startSyncLoop();
-            });
-        } else {
+function seekAlbum(pct) {
+    if (typeof albumTotalDuration === 'undefined' || albumTotalDuration <= 0) return;
+    const albumTime = pct * albumTotalDuration;
+    let targetTrack = 0;
+    for (let i = 0; i < trackCumulativeStarts.length; i++) {
+        if (albumTime >= trackCumulativeStarts[i]) targetTrack = i;
+    }
+    const timeInTrack = albumTime - trackCumulativeStarts[targetTrack];
+    if (targetTrack !== currentTrackIndex) {
+        loadTrack(targetTrack).then(() => {
             audio.currentTime = Math.max(0, timeInTrack);
+            audio.play();
+            startSyncLoop();
+        });
+    } else {
+        audio.currentTime = Math.max(0, timeInTrack);
+    }
+}
+
+function addScrub(container, seekFn) {
+    let dragging = false;
+    const onMove = (e) => {
+        if (!dragging) return;
+        e.preventDefault();
+        seekFn(scrubPercent(container, e));
+    };
+    const onUp = () => {
+        dragging = false;
+        document.removeEventListener('mousemove', onMove);
+        document.removeEventListener('mouseup', onUp);
+        document.removeEventListener('touchmove', onMove);
+        document.removeEventListener('touchend', onUp);
+    };
+    const onDown = (e) => {
+        dragging = true;
+        seekFn(scrubPercent(container, e));
+        document.addEventListener('mousemove', onMove);
+        document.addEventListener('mouseup', onUp);
+        document.addEventListener('touchmove', onMove, { passive: false });
+        document.addEventListener('touchend', onUp);
+    };
+    container.addEventListener('mousedown', onDown);
+    container.addEventListener('touchstart', onDown, { passive: false });
+}
+
+// Unified scrub on timeline container — auto-detects album vs track mode
+const timelineScrubContainer = document.getElementById('timeline-container');
+if (timelineScrubContainer) {
+    addScrub(timelineScrubContainer, (pct) => {
+        // If hovering (track bar visible), seek within track; otherwise album
+        if (timelineScrubContainer.matches(':hover')) {
+            seekTrack(pct);
+        } else {
+            seekAlbum(pct);
         }
     });
 }

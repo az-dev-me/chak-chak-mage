@@ -12,14 +12,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0432.jpg",
+                    "url": "media/c0432.webp",
                     "query": "Wide shot: Away from the screaming factions, Muda sits alone in a quiet, shaded grove by the river."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0435.jpg",
+                    "url": "media/c0435.webp",
                     "query": "Wide shot: A quiet, dusty community library at 8 PM. Away from the noise, a single student sits at a large wooden table."
                 }
             ],
@@ -49,7 +49,11 @@ var track_05_T5c_data = {
                     "end": 31.424,
                     "text": "word"
                 }
-            ]
+            ],
+            "core": "Observe. Don't shout.",
+            "line_index": 0,
+            "core_pt": "Observe. Não grite.",
+            "real_meaning_pt": "Muda, a primeira cientista: a observadora silenciosa e analítica que escolhe assistir à realidade em vez de gritar dogmas."
         },
         {
             "id": "line_1_occ_0",
@@ -60,24 +64,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0438.jpg",
+                    "url": "media/c0438.webp",
                     "query": "Medium shot: Muda sits cross-legged. She carefully strikes the two stones together. Tchak."
                 },
                 {
                     "offset": 3.78,
-                    "url": "media/c0439.jpg",
+                    "url": "media/c0439.webp",
                     "query": "Close-up: A bright shower of sparks falls onto a pile of dry river moss."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0441.jpg",
+                    "url": "media/c0441.webp",
                     "query": "Wide shot: A local 'repair cafe'. People calmly fixing broken electronics instead of buying new ones. No brands, just open knowledge."
                 },
                 {
                     "offset": 3.78,
-                    "url": "media/c0442.jpg",
+                    "url": "media/c0442.webp",
                     "query": "Medium shot: The student patiently showing an elderly person how to solder a wire. Slow, deliberate, empowering."
                 }
             ],
@@ -117,7 +121,11 @@ var track_05_T5c_data = {
                     "end": 44.22,
                     "text": "and"
                 }
-            ]
+            ],
+            "core": "Look at reality, not the crowd.",
+            "line_index": 1,
+            "core_pt": "Olhe para a realidade, não para a multidão.",
+            "real_meaning_pt": "Pensamento de primeira princípios: Realmente observar o mecanismo físico em vez de repetir incessantemente o que a multidão diz."
         },
         {
             "id": "line_2_occ_0",
@@ -128,24 +136,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0444.jpg",
+                    "url": "media/c0444.webp",
                     "query": "Wide shot: Muda stands up, holding the burning moss. She walks back toward the arguing tribe."
                 },
                 {
                     "offset": 3.87,
-                    "url": "media/c0445.jpg",
+                    "url": "media/c0445.webp",
                     "query": "Medium shot: The shouting stops instantly as Muda approaches carrying the fire. Both factions stare in stunned silence."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0447.jpg",
+                    "url": "media/c0447.webp",
                     "query": "Wide shot: A community garden where neighbors share seedlings and tools. No competition, no metrics, just growth."
                 },
                 {
                     "offset": 3.87,
-                    "url": "media/c0448.jpg",
+                    "url": "media/c0448.webp",
                     "query": "Medium shot: A programmer contributes a patch to an open-source project, no payment expected, just the craft itself."
                 }
             ],
@@ -185,7 +193,11 @@ var track_05_T5c_data = {
                     "end": 50.06,
                     "text": "fear"
                 }
-            ]
+            ],
+            "core": "Stillness over panic.",
+            "line_index": 2,
+            "core_pt": "Calma em vez de pânico.",
+            "real_meaning_pt": "Escolhendo a quietude em vez do pânico: enquanto todos os outros se apressam, se apresentam e correm com chamas mortas, ela simplesmente se senta e compreende."
         },
         {
             "id": "line_3_occ_0",
@@ -196,24 +208,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0450.jpg",
+                    "url": "media/c0450.webp",
                     "query": "A vast prehistoric valley under a fiery sunset, a lone figure sits still, observing the world."
                 },
                 {
                     "offset": 3.37,
-                    "url": "media/c0451.jpg",
+                    "url": "media/c0451.webp",
                     "query": "Muda's hands cradle a stone, eyes focused, as he prepares to strike it."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0453.jpg",
+                    "url": "media/c0453.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling park, surrounded by towering skyscrapers and neon lights."
                 },
                 {
                     "offset": 3.37,
-                    "url": "media/c0454.jpg",
+                    "url": "media/c0454.webp",
                     "query": "A cluttered desk with dual monitors, one displaying lines of code, the other a Wikipedia edit page, surrounded by scattered papers and a laptop displaying GitHub."
                 }
             ],
@@ -248,7 +260,11 @@ var track_05_T5c_data = {
                     "end": 68.12,
                     "text": "saw"
                 }
-            ]
+            ],
+            "core": "Step off the treadmill. Find clarity.",
+            "line_index": 3,
+            "core_pt": "Desça da esteira. Encontre clareza.",
+            "real_meaning_pt": "Meditação sobre reação: Ficar fora da frenética corrida de ratos para ganhar clareza sobre a absurdidade do sistema."
         },
         {
             "id": "line_4_occ_0",
@@ -259,14 +275,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0456.jpg",
+                    "url": "media/c0456.webp",
                     "query": "A vast, prehistoric landscape at sunset. Muda stands alone, watching the world."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0459.jpg",
+                    "url": "media/c0459.webp",
                     "query": "A quiet student sits alone in a bustling urban café, laptop open, coding, surrounded by neon signs and rain-slicked streets."
                 }
             ],
@@ -311,7 +327,11 @@ var track_05_T5c_data = {
                     "end": 69.12,
                     "text": "with"
                 }
-            ]
+            ],
+            "core": "Pick up what is freely available.",
+            "line_index": 4,
+            "core_pt": "Pegue o que está disponível gratuitamente.",
+            "real_meaning_pt": "O primeiro ato de verdadeira ciência: Pegar o que está livremente disponível (a pedra) em vez de adorar o que é vendido pelo Mago."
         },
         {
             "id": "line_5_occ_0",
@@ -322,24 +342,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0462.jpg",
+                    "url": "media/c0462.webp",
                     "query": "A vast prehistoric valley at dusk, a lone figure stands atop a hill, watching the herd of grazing animals, fire in the distance."
                 },
                 {
                     "offset": 3.0,
-                    "url": "media/c0463.jpg",
+                    "url": "media/c0463.webp",
                     "query": "Muda kneels before a pile of stones.  Hands hover, ready to strike, eyes intense.  Spark against the stone."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0465.jpg",
+                    "url": "media/c0465.webp",
                     "query": "A quiet student in a bustling modern city, surrounded by skyscrapers and technology, contemplating a laptop."
                 },
                 {
                     "offset": 3.0,
-                    "url": "media/c0466.jpg",
+                    "url": "media/c0466.webp",
                     "query": "A busy repair café, filled with people collaborating on open-source projects, and repairing tech."
                 }
             ],
@@ -374,7 +394,11 @@ var track_05_T5c_data = {
                     "end": 72.28,
                     "text": "sound"
                 }
-            ]
+            ],
+            "core": "Build new, don't just amplify the old.",
+            "line_index": 5,
+            "core_pt": "Construa o novo, não apenas amplifique o velho.",
+            "real_meaning_pt": "Inovação desde o início: Criar algo fundamentalmente novo, em vez de apenas uma versão mais alta do velho barulho."
         },
         {
             "id": "line_6_occ_0",
@@ -385,14 +409,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0468.jpg",
+                    "url": "media/c0468.webp",
                     "query": "A vast, firelit prehistoric valley at sunset, a lone figure watches."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0471.jpg",
+                    "url": "media/c0471.webp",
                     "query": "A quiet student sits alone in a bustling city park, laptop open, coding in the dusk. Cool, modern tones."
                 }
             ],
@@ -412,7 +436,10 @@ var track_05_T5c_data = {
                     "end": 72.896,
                     "text": "need"
                 }
-            ]
+            ],
+            "line_index": 6,
+            "core_pt": "Fogo real não precisa de seguidores.",
+            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
         },
         {
             "id": "line_7_occ_0",
@@ -423,14 +450,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0474.jpg",
+                    "url": "media/c0474.webp",
                     "query": "A vast prehistoric landscape at dusk. Muda sits on a hill, observing the world, a few small animals running around the bottom of the frame. Cinematic."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0477.jpg",
+                    "url": "media/c0477.webp",
                     "query": "A sprawling cityscape at dusk, a lone student sits quietly in a bustling cafe, laptop glowing in the cool tones of neon lights."
                 }
             ],
@@ -460,7 +487,11 @@ var track_05_T5c_data = {
                     "end": 73.632,
                     "text": "run!"
                 }
-            ]
+            ],
+            "core": "Empiricism defeats dogma.",
+            "line_index": 7,
+            "core_pt": "A verdade também se espalha através dos canais tribais.",
+            "real_meaning_pt": "A verdade se espalha: A realização se espalha em cascata, mas corre o risco de se espalhar pelos mesmos canais tribais que espalharam a mentira."
         },
         {
             "id": "line_8_occ_0",
@@ -471,24 +502,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0480.jpg",
+                    "url": "media/c0480.webp",
                     "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
                 },
                 {
                     "offset": 3.22,
-                    "url": "media/c0481.jpg",
+                    "url": "media/c0481.webp",
                     "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0483.jpg",
+                    "url": "media/c0483.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
                     "offset": 3.22,
-                    "url": "media/c0484.jpg",
+                    "url": "media/c0484.webp",
                     "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
                 }
             ],
@@ -523,7 +554,11 @@ var track_05_T5c_data = {
                     "end": 78.04,
                     "text": "light!"
                 }
-            ]
+            ],
+            "core": "The spell is broken.",
+            "line_index": 8,
+            "core_pt": "Mais pessoas deixam o isqueiro vazio cair.",
+            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo."
         },
         {
             "id": "line_9_occ_0",
@@ -534,14 +569,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0486.jpg",
+                    "url": "media/c0486.webp",
                     "query": "A vast, prehistoric landscape at dusk, Muda sits silently on a hill, watching the world below. A cinematic wide shot."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0489.jpg",
+                    "url": "media/c0489.webp",
                     "query": "A vast cityscape at dusk, a lone student in silhouette, a laptop aglow with code. Urban, cinematic."
                 }
             ],
@@ -576,7 +611,11 @@ var track_05_T5c_data = {
                     "end": 80.096,
                     "text": "run!"
                 }
-            ]
+            ],
+            "core": "Step off the treadmill.",
+            "line_index": 9,
+            "core_pt": "Desça da esteira.",
+            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba."
         },
         {
             "id": "line_10_occ_0",
@@ -587,24 +626,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0492.jpg",
+                    "url": "media/c0492.webp",
                     "query": "A vast, firelit prehistoric valley at dusk. Muda stands, observing."
                 },
                 {
                     "offset": 4.09,
-                    "url": "media/c0493.jpg",
+                    "url": "media/c0493.webp",
                     "query": "Muda crouches, striking a stone against another, sparks fly."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0495.jpg",
+                    "url": "media/c0495.webp",
                     "query": "A quiet student sits alone in a bustling urban cafe, laptop open, neon signs reflecting on the glass window."
                 },
                 {
                     "offset": 4.09,
-                    "url": "media/c0496.jpg",
+                    "url": "media/c0496.webp",
                     "query": "A repair cafe in a modern warehouse, people tinkering with tech, a Linux sticker on a laptop visible."
                 }
             ],
@@ -639,7 +678,11 @@ var track_05_T5c_data = {
                     "end": 94.06,
                     "text": "she"
                 }
-            ]
+            ],
+            "core": "The truth was always stationary.",
+            "line_index": 10,
+            "core_pt": "A verdade sempre foi imutável.",
+            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo."
         },
         {
             "id": "line_11_occ_0",
@@ -650,14 +693,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0498.jpg",
+                    "url": "media/c0498.webp",
                     "query": "A vast, prehistoric valley at dusk, silhouetted figures gathered around a distant glow, a lone figure watches."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0501.jpg",
+                    "url": "media/c0501.webp",
                     "query": "A bustling cityscape at dusk, a lone figure sitting quietly in a cozy cafe, laptop open, surrounded by books, and glowing screens, 35mm lens."
                 }
             ],
@@ -692,7 +735,11 @@ var track_05_T5c_data = {
                     "end": 97.14,
                     "text": "Pots."
                 }
-            ]
+            ],
+            "core": "Quiet power. Proof through action.",
+            "line_index": 11,
+            "core_pt": "Poder tranquilo. Prova pela ação.",
+            "real_meaning_pt": "Surgindo com poder silencioso: Não o disruptor viral barulhento, mas o demonstrador calmo. Provando a verdade através da ação, não do argumento."
         },
         {
             "id": "line_12_occ_0",
@@ -703,34 +750,34 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0504.jpg",
+                    "url": "media/c0504.webp",
                     "query": "A vast prehistoric landscape at dusk, Muda stands silently, observing her tribe under a sky of warm hues."
                 },
                 {
                     "offset": 3.72,
-                    "url": "media/c0505.jpg",
+                    "url": "media/c0505.webp",
                     "query": "Muda crouches, stone in hand, sparks flying as she carefully strikes it against another."
                 },
                 {
                     "offset": 7.32,
-                    "url": "media/c0506.jpg",
+                    "url": "media/c0506.webp",
                     "query": "Muda's focused eyes reflect the growing flames, her expression calm and determined as she teaches."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0507.jpg",
+                    "url": "media/c0507.webp",
                     "query": "A wide cityscape at dusk with neon lights reflecting on wet streets. A lone figure sits at a table with a laptop in a quiet corner cafe."
                 },
                 {
                     "offset": 3.72,
-                    "url": "media/c0508.jpg",
+                    "url": "media/c0508.webp",
                     "query": "A close-up of hands typing on a keyboard, the glow of a laptop screen illuminating a face with a determined expression."
                 },
                 {
                     "offset": 7.32,
-                    "url": "media/c0509.jpg",
+                    "url": "media/c0509.webp",
                     "query": "A student's hands gently guiding a mentor's hands to type, with the soft glow of a monitor reflecting a \"Hello World\" code."
                 }
             ],
@@ -770,7 +817,11 @@ var track_05_T5c_data = {
                     "end": 108.62,
                     "text": "slow"
                 }
-            ]
+            ],
+            "core": "Slow teaching that actually empowers.",
+            "line_index": 12,
+            "core_pt": "Ensino lento que realmente empodera.",
+            "real_meaning_pt": "Ensinando com paciência: O antídoto para o clickbait. Educação lenta e deliberada que realmente empodera, em vez de criar dependência."
         },
         {
             "id": "line_13_occ_0",
@@ -781,14 +832,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0510.jpg",
+                    "url": "media/c0510.webp",
                     "query": "A vast prehistoric landscape at dusk, a lone figure stands on a hill. Warm hues paint the sky, fire is seen in the distance. Muda looks out over his domain."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0513.jpg",
+                    "url": "media/c0513.webp",
                     "query": "A wide shot of a bustling cityscape at night, with a quiet student sitting alone in a brightly lit cafe, laptop open to a coding window, reflecting the urban environment."
                 }
             ],
@@ -813,7 +864,11 @@ var track_05_T5c_data = {
                     "end": 109.58,
                     "text": "Fire."
                 }
-            ]
+            ],
+            "core": "The building blocks are free.",
+            "line_index": 13,
+            "core_pt": "Os blocos de construção são gratuitos.",
+            "real_meaning_pt": "Os blocos de construção são gratuitos: Engenharia, calor, ferramentas - os alicerces do progresso não exigem uma assinatura ou um Mago."
         },
         {
             "id": "line_14_interp",
@@ -824,24 +879,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0516.jpg",
+                    "url": "media/c0516.webp",
                     "query": "A sweeping vista of a prehistoric valley at dusk, a lone figure, Muda, stands, staring into the distance. The sun paints the sky with warm hues."
                 },
                 {
                     "offset": 3.36,
-                    "url": "media/c0517.jpg",
+                    "url": "media/c0517.webp",
                     "query": "Muda crouches, hand poised over a stone, eyes fixed on the task, a small fire pit, the light warm and inviting."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0519.jpg",
+                    "url": "media/c0519.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open to a code editor."
                 },
                 {
                     "offset": 3.36,
-                    "url": "media/c0520.jpg",
+                    "url": "media/c0520.webp",
                     "query": "A cozy repair cafe, tools scattered, a group collaboratively tinkers with old electronics."
                 }
             ],
@@ -886,7 +941,11 @@ var track_05_T5c_data = {
                     "end": 113.75,
                     "text": "tire.\""
                 }
-            ]
+            ],
+            "core": "Sufficiency over excess.",
+            "line_index": 14,
+            "core_pt": "Suficiência sobre excesso.",
+            "real_meaning_pt": "O manifesto anti-hustle: Suficiência sobre excesso. Ser sobre fazer. Presença sobre a ansiedade performativa da corrida."
         },
         {
             "id": "line_15_interp",
@@ -897,24 +956,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0522.jpg",
+                    "url": "media/c0522.webp",
                     "query": "A vast prehistoric valley at dusk, a lone figure sits on a cliff watching the horizon. Warm, painterly."
                 },
                 {
                     "offset": 3.37,
-                    "url": "media/c0523.jpg",
+                    "url": "media/c0523.webp",
                     "query": "Muda picks up a stone from the ground. The fire is a warm tone."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0525.jpg",
+                    "url": "media/c0525.webp",
                     "query": "A vast urban landscape at dusk, a lone student sits quietly in a bustling city park, surrounded by skyscrapers and neon lights reflecting on wet pavement."
                 },
                 {
                     "offset": 3.37,
-                    "url": "media/c0526.jpg",
+                    "url": "media/c0526.webp",
                     "query": "A teenager sits in a dimly lit room, fingers dancing on a sleek laptop keyboard, code streaming across multiple screens, surrounded by stacks of books and open source manuals."
                 }
             ],
@@ -949,7 +1008,11 @@ var track_05_T5c_data = {
                     "end": 114.516,
                     "text": "floor"
                 }
-            ]
+            ],
+            "core": "His entire identity crumbles.",
+            "line_index": 15,
+            "core_pt": "Sua identidade inteira desmorona.",
+            "real_meaning_pt": "O mundo do crente se estilhaça: a dor física de Gralha enquanto sua identidade inteira, construída na mentira do Mago, desmorona diante de seus olhos."
         },
         {
             "id": "line_22_occ_0",
@@ -960,14 +1023,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0564.jpg",
+                    "url": "media/c0564.webp",
                     "query": "A vast prehistoric landscape at dusk, Muda sits silently, observing the world. Firelit, warm tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0567.jpg",
+                    "url": "media/c0567.webp",
                     "query": "A wide cityscape at dusk, a student seated alone in a bustling café, laptop open, quiet focus."
                 }
             ],
@@ -1002,113 +1065,62 @@ var track_05_T5c_data = {
                     "end": 94.06,
                     "text": "she"
                 }
-            ]
-        },
-        {
-            "id": "line_16_occ_0",
-            "start": 117.916,
-            "end": 117.92,
-            "lyric": "Tronco whispered \"What's this for?\"",
-            "real_meaning": "Tronco the pragmatist: Unable to see value in what's free. 'If the stone isn't a branded orange box, what's the point?'",
-            "media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0528.jpg",
-                    "query": "A vast prehistoric valley at dusk, Muda sits on a ridge, overlooking the landscape, a single bird flying in the sky above them."
-                },
-                {
-                    "offset": 3.94,
-                    "url": "media/c0529.jpg",
-                    "query": "Muda crouches, picks up a stone, striking it against another. Sparks fly, landing on kindling, warm tones fill the scene."
-                }
             ],
-            "hidden_media": [
-                {
-                    "offset": 0.0,
-                    "url": "media/c0531.jpg",
-                    "query": "A wide, birds-eye view of a bustling city at night, a quiet student illuminated by a laptop screen in a crowded cafe."
-                },
-                {
-                    "offset": 3.94,
-                    "url": "media/c0532.jpg",
-                    "query": "A modern library filled with people on laptops, bookshelves replaced by servers, one person looking confused and disinterested."
-                }
-            ],
-            "words": [
-                {
-                    "start": 117.916,
-                    "end": 117.917,
-                    "text": "Tronco"
-                },
-                {
-                    "start": 117.917,
-                    "end": 117.918,
-                    "text": "whispered"
-                },
-                {
-                    "start": 117.918,
-                    "end": 117.918,
-                    "text": "\"What's"
-                },
-                {
-                    "start": 117.918,
-                    "end": 117.919,
-                    "text": "this"
-                },
-                {
-                    "start": 117.919,
-                    "end": 117.92,
-                    "text": "for?\""
-                }
-            ]
+            "core": "The truth was always stationary.",
+            "line_index": 16,
+            "core_pt": "A verdade sempre foi imutável.",
+            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo."
         },
         {
             "id": "line_23_interp",
-            "start": 117.92,
+            "start": 117.916,
             "end": 123.8,
             "lyric": "Tchak... tchak... tchak...",
             "real_meaning": "The persistence of truth: Real fire doesn't need followers or believers to work. It simply obeys the laws of nature.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0570.jpg",
+                    "url": "media/c0570.webp",
                     "query": "A vast prehistoric valley at sunset. Muda, a silent figure, watches the horizon."
                 },
                 {
                     "offset": 3.94,
-                    "url": "media/c0571.jpg",
+                    "url": "media/c0571.webp",
                     "query": "Muda crouches, hand poised over a stone. Firelight dances."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0573.jpg",
+                    "url": "media/c0573.webp",
                     "query": "A vast urban cityscape at night with a quiet student illuminated in a high-rise apartment window, typing code on their laptop. The city is a vast array of lights that reflect on th"
                 },
                 {
                     "offset": 3.94,
-                    "url": "media/c0574.jpg",
+                    "url": "media/c0574.webp",
                     "query": "A close-up of the student's hands, navigating through lines of code. The screen shows Wikipedia, and the code is being integrated into it. The keyboard is blue with bright cool-ton"
                 }
             ],
             "words": [
                 {
-                    "start": 117.92,
-                    "end": 119.88,
-                    "text": "Tchak..."
+                    "text": "Tchak...",
+                    "start": 117.916,
+                    "end": 119.877
                 },
                 {
-                    "start": 119.88,
-                    "end": 121.84,
-                    "text": "tchak..."
+                    "text": "tchak...",
+                    "start": 119.877,
+                    "end": 121.839
                 },
                 {
-                    "start": 121.84,
-                    "end": 123.8,
-                    "text": "tchak..."
+                    "text": "tchak...",
+                    "start": 121.839,
+                    "end": 123.8
                 }
-            ]
+            ],
+            "line_index": 17,
+            "core_pt": "Fogo real não precisa de seguidores.",
+            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
         },
         {
             "id": "line_18_interp",
@@ -1119,14 +1131,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0540.jpg",
+                    "url": "media/c0540.webp",
                     "query": "A vast prehistoric valley at dusk, Muda sits silent on a hill, observing the world below, firelit hues painting the landscape."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0543.jpg",
+                    "url": "media/c0543.webp",
                     "query": "A quiet student sits alone in a vast, modern library, surrounded by glowing screens and towering bookshelves. Cool, urban atmosphere."
                 }
             ],
@@ -1156,7 +1168,10 @@ var track_05_T5c_data = {
                     "end": 126.648,
                     "text": "declared"
                 }
-            ]
+            ],
+            "line_index": 18,
+            "core_pt": "Mesmo a libertação corre o risco de se tornar dogma.",
+            "real_meaning_pt": "A faísca se torna ideologia: até a libertação corre o risco de se tornar dogma. A verdade simples do Muda já está sendo transformada no próximo sistema de crenças rígido."
         },
         {
             "id": "line_19_interp",
@@ -1167,14 +1182,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0546.jpg",
+                    "url": "media/c0546.webp",
                     "query": "A vast prehistoric valley at dusk, silhouetted figures gather around a distant glow. Muda watches,  stone in hand."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0549.jpg",
+                    "url": "media/c0549.webp",
                     "query": "A quiet student sits alone in a bustling city park, laptop open, fingers poised over the keyboard, ready to type \"Hello World\"."
                 }
             ],
@@ -1204,7 +1219,11 @@ var track_05_T5c_data = {
                     "end": 129.407,
                     "text": "ignites!"
                 }
-            ]
+            ],
+            "core": "Empiricism defeats dogma.",
+            "line_index": 19,
+            "core_pt": "A verdade também se espalha através dos canais tribais.",
+            "real_meaning_pt": "A verdade se espalha: A realização se espalha em cascata, mas corre o risco de se espalhar pelos mesmos canais tribais que espalharam a mentira."
         },
         {
             "id": "line_20_interp",
@@ -1215,14 +1234,14 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0552.jpg",
+                    "url": "media/c0552.webp",
                     "query": "A vast, prehistoric valley at dusk, a lone figure watches from a ridge. Shadows dance."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0555.jpg",
+                    "url": "media/c0555.webp",
                     "query": "A wide urban street at dawn, a lone figure sitting on a bench, laptop aglow, surrounded by towering glass buildings."
                 }
             ],
@@ -1257,7 +1276,11 @@ var track_05_T5c_data = {
                     "end": 132.165,
                     "text": "light!"
                 }
-            ]
+            ],
+            "core": "The spell is broken.",
+            "line_index": 20,
+            "core_pt": "Mais pessoas deixam o isqueiro vazio cair.",
+            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo."
         },
         {
             "id": "line_8_occ_0",
@@ -1268,34 +1291,34 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0480.jpg",
+                    "url": "media/c0480.webp",
                     "query": "A vast prehistoric valley at dusk, Muda stands alone. Firelit campfires in the distance."
                 },
                 {
                     "offset": 2.95,
-                    "url": "media/c0481.jpg",
+                    "url": "media/c0481.webp",
                     "query": "Muda crouches, striking stone against stone, sparks fly, fire ignites."
                 },
                 {
                     "offset": 5.37,
-                    "url": "media/c0482.jpg",
+                    "url": "media/c0482.webp",
                     "query": "Muda's eyes widen in awe, reflecting the newly lit fire, face aglow."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0483.jpg",
+                    "url": "media/c0483.webp",
                     "query": "A sprawling cityscape at dusk, a lone figure sits quietly in a bustling café, laptop open, amidst towering glass buildings and neon lights."
                 },
                 {
                     "offset": 2.95,
-                    "url": "media/c0484.jpg",
+                    "url": "media/c0484.webp",
                     "query": "A close-up of hands typing on a keyboard, a flickering monitor reflecting the cool blue glow on the face of a focused individual, surrounded by circuit boards and code snippets sca"
                 },
                 {
                     "offset": 5.37,
-                    "url": "media/c0485.jpg",
+                    "url": "media/c0485.webp",
                     "query": "A young individual's face, wide-eyed, and the light of realization as they stare at a computer screen filled with code, the reflection of their own eyes and the digital display."
                 }
             ],
@@ -1330,7 +1353,11 @@ var track_05_T5c_data = {
                     "end": 137.204,
                     "text": "light!"
                 }
-            ]
+            ],
+            "core": "The spell is broken.",
+            "line_index": 21,
+            "core_pt": "Mais pessoas deixam o isqueiro vazio cair.",
+            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo."
         },
         {
             "id": "line_21_occ_0",
@@ -1341,24 +1368,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0558.jpg",
+                    "url": "media/c0558.webp",
                     "query": "A vast, prehistoric landscape at sunset, with Muda, a silent observer, standing atop a hill overlooking a herd of running, fleeing animals."
                 },
                 {
                     "offset": 2.72,
-                    "url": "media/c0559.jpg",
+                    "url": "media/c0559.webp",
                     "query": "Muda picks up a stone, crouches, striking it against another, sparks fly in the twilight, warm tones."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0561.jpg",
+                    "url": "media/c0561.webp",
                     "query": "A vast cityscape at dusk, a lone student sitting quietly in a bustling urban plaza, surrounded by towering glass buildings. The student's laptop emits a soft glow, reflecting on th"
                 },
                 {
                     "offset": 2.72,
-                    "url": "media/c0562.jpg",
+                    "url": "media/c0562.webp",
                     "query": "A crowded repair cafe, tools and electronics scattered, a group of people collaboratively fixing devices, a sense of camaraderie and shared purpose."
                 }
             ],
@@ -1393,7 +1420,11 @@ var track_05_T5c_data = {
                     "end": 140.875,
                     "text": "run!"
                 }
-            ]
+            ],
+            "core": "Step off the treadmill.",
+            "line_index": 22,
+            "core_pt": "Desça da esteira.",
+            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba."
         },
         {
             "id": "instrumental_5",
@@ -1414,7 +1445,10 @@ var track_05_T5c_data = {
                     "end": 157.211,
                     "text": "tchak..."
                 }
-            ]
+            ],
+            "line_index": 23,
+            "core_pt": "Fogo real não precisa de seguidores.",
+            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
         },
         {
             "id": "line_24_occ_0",
@@ -1425,24 +1459,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0576.jpg",
+                    "url": "media/c0576.webp",
                     "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
                     "offset": 4.93,
-                    "url": "media/c0577.jpg",
+                    "url": "media/c0577.webp",
                     "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0579.jpg",
+                    "url": "media/c0579.webp",
                     "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
                 },
                 {
                     "offset": 4.93,
-                    "url": "media/c0580.jpg",
+                    "url": "media/c0580.webp",
                     "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
                 }
             ],
@@ -1472,7 +1506,11 @@ var track_05_T5c_data = {
                     "end": 160.976,
                     "text": "ours.\""
                 }
-            ]
+            ],
+            "core": "The power was always ours.",
+            "line_index": 24,
+            "core_pt": "O poder sempre foi nosso.",
+            "real_meaning_pt": "A mensagem central: O poder nunca esteve na ferramenta com marca, no algoritmo ou na elite. O fogo sempre foi nosso."
         },
         {
             "id": "line_24_occ_1",
@@ -1483,24 +1521,24 @@ var track_05_T5c_data = {
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0576.jpg",
+                    "url": "media/c0576.webp",
                     "query": "A vast, prehistoric valley at sunset. Muda stands alone, watching the horizon, silhouetted against the warm hues of the setting sun."
                 },
                 {
                     "offset": 4.93,
-                    "url": "media/c0577.jpg",
+                    "url": "media/c0577.webp",
                     "query": "Muda crouches, stone in hand, striking it against a larger rock. Sparks fly, illuminating the cave, firelight flickering on the walls."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0579.jpg",
+                    "url": "media/c0579.webp",
                     "query": "A bustling cityscape at dusk, a lone student sits quietly in a cozy, modern cafe, laptop open, reflecting on their future. The fire was always ours."
                 },
                 {
                     "offset": 4.93,
-                    "url": "media/c0580.jpg",
+                    "url": "media/c0580.webp",
                     "query": "A student in a tech lab, fingers dancing on a keyboard, a code snippet displayed. The fire was always ours."
                 }
             ],
@@ -1530,7 +1568,11 @@ var track_05_T5c_data = {
                     "end": 162.976,
                     "text": "ours.\""
                 }
-            ]
+            ],
+            "core": "The power was always ours.",
+            "line_index": 25,
+            "core_pt": "O poder sempre foi nosso.",
+            "real_meaning_pt": "A mensagem central: O poder nunca esteve na ferramenta com marca, no algoritmo ou na elite. O fogo sempre foi nosso."
         }
     ],
     "beat_times": [
