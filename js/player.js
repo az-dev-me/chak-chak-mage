@@ -99,6 +99,7 @@ async function initPlayer() {
     Zone1Inner.init();
     Zone2Outer.init();
     Zone3Ambient.init();
+    SymbolEmbers.init(document.getElementById('phone-frame'));
 
     // Load album durations for dual timeline
     if (typeof loadAlbumDurations === 'function' && currentAlbumConfig.tracks) {
@@ -190,6 +191,7 @@ async function switchVariant(variant, trackMeta) {
     Zone1Inner.reset();
     Zone2Outer.reset();
     Zone3Ambient.reset();
+    if (typeof SymbolEmbers !== 'undefined') SymbolEmbers.clear();
     TimingEngine.reset();
 
     // Set initial images from new variant's data
@@ -301,6 +303,7 @@ async function loadTrack(index) {
     Zone1Inner.reset();
     Zone2Outer.reset();
     Zone3Ambient.reset();
+    if (typeof SymbolEmbers !== 'undefined') SymbolEmbers.clear();
     TimingEngine.reset();
 
     // THEN set initial images (after reset, so they're not cleared)
@@ -628,6 +631,12 @@ function syncTick(frameTimestamp) {
             }
             // Flash side panels on new meaning line
             if (typeof Zone2Outer !== 'undefined') Zone2Outer.flashPanels();
+            // Spawn symbol embers for this line's hidden narrative
+            if (typeof SymbolEmbers !== 'undefined') {
+                const _tid = currentAlbumConfig && currentAlbumConfig.tracks && currentAlbumConfig.tracks[currentTrackIndex]
+                    ? currentAlbumConfig.tracks[currentTrackIndex].id : '';
+                SymbolEmbers.spawnSymbols(lineData.line_index, _tid);
+            }
         } else {
             // Hold previous meaning visible for MEANING_HOLD_MS before dimming
             const elapsed = performance.now() - lastMeaningSetAt;
@@ -789,6 +798,11 @@ function syncTick(frameTimestamp) {
         root.setProperty('--audio-energy', timing.energy.toFixed(3));
 
         Zone2Outer.applyBeatPulse(timing.beatPulse, timing.isDownbeat);
+    }
+
+    // Symbol embers — per-frame tick
+    if (typeof SymbolEmbers !== 'undefined') {
+        SymbolEmbers.tick(audioState ? audioState.beatPulse : timing.beatPulse);
     }
 
     // ── 7. Energy-responsive effects (throttled ~15Hz) ──
