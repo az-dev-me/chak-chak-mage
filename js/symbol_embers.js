@@ -189,8 +189,8 @@ const SymbolEmbers = (function () {
             y: phoneH + 20,
             baseX: 0, // set after x is known
             vy: -(0.18 + Math.random() * 0.32),
-            opacity: 0.28 + Math.random() * 0.14,
-            size: 18 + Math.random() * 16,
+            opacity: 0.16 + Math.random() * 0.10,
+            size: 11 + Math.random() * 10,
             sizeBase: 0, // set below
             rotation: (Math.random() - 0.5) * 0.6,
             rotSpeed: (Math.random() - 0.5) * 0.012, // much faster rotation
@@ -249,33 +249,37 @@ const SymbolEmbers = (function () {
 
             const lifePct = p.life / p.maxLife;
 
-            // Curved path: sinusoidal horizontal drift
-            p.y += p.vy - bp * 0.25;
+            // Curved path: sinusoidal horizontal drift, beat surges upward
+            p.y += p.vy - bp * 0.5;
             p.baseX += Math.sin(frame * 0.003 + p.seed) * 0.05; // very slow global drift
             p.x = p.baseX + Math.sin(frame * p.waveFreq + p.wavePhase) * p.waveAmp * phoneW * 0.06;
 
             // Rotation: accelerates slightly as it rises, with beat bump
             p.rotation += p.rotSpeed + bp * 0.02 * Math.sign(p.rotSpeed);
 
-            // Size pulsing: breathes in and out
+            // Size pulsing: breathes + beat-reactive swell
             const sizePulse = 1 + Math.sin(frame * p.sizePulseSpeed + p.seed) * p.sizePulseAmp;
-            const currentSize = p.sizeBase * sizePulse * (1 + bp * 0.08);
+            const currentSize = p.sizeBase * sizePulse * (1 + bp * 0.25);
 
             // Fade: smooth ease-in at start, ease-out at end
+            // Beat lifts opacity momentarily
             let alpha;
+            const beatLift = bp * 0.12;
             if (lifePct < 0.1) {
-                alpha = p.opacity * (lifePct / 0.1); // fade in over first 10%
+                alpha = (p.opacity + beatLift) * (lifePct / 0.1);
             } else if (lifePct > 0.7) {
-                alpha = p.opacity * (1 - (lifePct - 0.7) / 0.3); // fade out over last 30%
+                alpha = (p.opacity + beatLift) * (1 - (lifePct - 0.7) / 0.3);
             } else {
-                alpha = p.opacity;
+                alpha = p.opacity + beatLift;
             }
 
             if (alpha < 0.005) continue;
 
-            // Render
+            // Render — blurred and desaturated to fuse with background
             ctx.save();
-            ctx.filter = 'grayscale(1) brightness(0.7)';
+            const blurAmt = 1.2 - bp * 0.6; // sharper on beats
+            const bright = 0.6 + bp * 0.3;   // brighter on beats
+            ctx.filter = `grayscale(1) brightness(${bright.toFixed(2)}) blur(${blurAmt.toFixed(1)}px)`;
             ctx.globalAlpha = alpha;
             ctx.translate(p.x, p.y);
             ctx.rotate(p.rotation);

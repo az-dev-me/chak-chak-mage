@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Portuguese flag: green left third, red right two-thirds -->
+  <rect width="600" height="400" fill="#FF0000"/>
+  <rect width="232" height="400" fill="#006600"/>
+  <!-- Armillary sphere (simplified) -->
+  <g transform="translate(232,200)">
+    <!-- Yellow circle base -->
+    <circle r="62" fill="#FFCC00" stroke="#996600" stroke-width="3"/>
+    <!-- Shield -->
+    <rect x="-30" y="-38" width="60" height="50" rx="4" fill="#FFFFFF" stroke="#003399" stroke-width="2"/>
+    <!-- Blue quinas cross -->
+    <rect x="-3" y="-38" width="6" height="50" fill="#003399"/>
+    <rect x="-30" y="-16" width="60" height="6" fill="#003399"/>
+    <!-- Five blue shields (simplified as dots) -->
+    <circle cx="0" cy="-27" r="5" fill="#003399"/>
+    <circle cx="-16" cy="-13" r="5" fill="#003399"/>
+    <circle cx="16" cy="-13" r="5" fill="#003399"/>
+    <circle cx="0" cy="2" r="5" fill="#003399"/>
+    <circle cx="0" cy="-13" r="5" fill="#003399"/>
+    <!-- Red border castles (simplified) -->
+    <rect x="-30" y="12" width="60" height="26" rx="4" fill="#FF0000" stroke="#996600" stroke-width="1.5"/>
+    <circle cx="-18" cy="22" r="4" fill="#FFCC00"/>
+    <circle cx="0" cy="22" r="4" fill="#FFCC00"/>
+    <circle cx="18" cy="22" r="4" fill="#FFCC00"/>
+    <!-- Outer ring bands -->
+    <circle r="52" fill="none" stroke="#996600" stroke-width="2"/>
+    <circle r="72" fill="none" stroke="#FFCC00" stroke-width="4"/>
+  </g>
+</svg>
