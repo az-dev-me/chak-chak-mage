@@ -7,7 +7,7 @@
 // ── Language ─────────────────────────────────────────────
 const LANG = (() => {
     const urlLang = new URLSearchParams(window.location.search).get('lang');
-    if (urlLang === 'pt' || urlLang === 'en') return urlLang;
+    if (['en', 'pt', 'pt-br'].includes(urlLang)) return urlLang;
     return localStorage.getItem('chak_lang') || 'en';
 })();
 
@@ -613,8 +613,12 @@ function syncTick(frameTimestamp) {
         }
 
         // Modern parallel panel — 2-layer: dim full text + bright core on downbeats
-        const _rm = (LANG === 'pt' && lineData.real_meaning_pt) ? lineData.real_meaning_pt : lineData.real_meaning;
-        const _core = (LANG === 'pt' && lineData.core_pt) ? lineData.core_pt : lineData.core;
+        const _rm = LANG === 'pt' ? (lineData.real_meaning_pt_pt || lineData.real_meaning)
+                  : LANG === 'pt-br' ? (lineData.real_meaning_pt || lineData.real_meaning)
+                  : lineData.real_meaning;
+        const _core = LANG === 'pt' ? (lineData.core_pt_pt || lineData.core)
+                    : LANG === 'pt-br' ? (lineData.core_pt || lineData.core)
+                    : lineData.core;
         if (lineData && _rm && _rm.trim()) {
             buildMeaningSpans(_rm, lineData.start, lineData.end, _core || '');
             lastMeaningSetAt = performance.now();
@@ -892,6 +896,63 @@ if (btnPrev) btnPrev.addEventListener('click', () => {
         loadTrack(currentTrackIndex - 1).then(() => { audio.play(); startSyncLoop(); });
     }
 });
+
+// ── Swipe Gestures (mobile) ─────────────────────────────
+// Left/right = next/prev track, up/down = scrub timeline
+(function() {
+    const frame = document.getElementById('phone-frame');
+    if (!frame) return;
+    let startX = 0, startY = 0, startTime = 0;
+    const MIN_DIST = 50;   // px minimum swipe distance
+    const MAX_MS = 500;    // max swipe duration
+
+    frame.addEventListener('touchstart', (e) => {
+        if (e.target.closest('#player-controls, button, select, .variant-picker')) return;
+        const t = e.touches[0];
+        startX = t.clientX;
+        startY = t.clientY;
+        startTime = Date.now();
+    }, { passive: true });
+
+    frame.addEventListener('touchend', (e) => {
+        if (Date.now() - startTime > MAX_MS) return;
+        const t = e.changedTouches[0];
+        const dx = t.clientX - startX;
+        const dy = t.clientY - startY;
+        const absDx = Math.abs(dx);
+        const absDy = Math.abs(dy);
+
+        if (absDx < MIN_DIST && absDy < MIN_DIST) return; // too short
+
+        if (absDx > absDy) {
+            // Horizontal swipe — change track
+            if (dx < 0) {
+                // Swipe left = next track
+                if (currentAlbumConfig && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
+                    loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
+                }
+            } else {
+                // Swipe right = prev track (or restart)
+                if (audio.currentTime > 3) { audio.currentTime = 0; }
+                else if (currentTrackIndex > 0) {
+                    loadTrack(currentTrackIndex - 1).then(() => { audio.play(); startSyncLoop(); });
+                }
+            }
+        } else {
+            // Vertical swipe — scrub forward/backward 15s
+            if (dy < 0) {
+                // Swipe up = forward 15s
+                audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15);
+            } else {
+                // Swipe down = back 15s
+                audio.currentTime = Math.max(0, audio.currentTime - 15);
+            }
+            currentLyricIndex = -1;
+            currentWordIndex = -1;
+            wordSpansBuilt = false;
+        }
+    }, { passive: true });
+})();
 
 // Progress bar — dual timeline (album + track)
 audio.addEventListener('timeupdate', () => {

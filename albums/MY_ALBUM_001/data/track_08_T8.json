@@ -152,7 +152,9 @@
             ],
             "line_index": 2,
             "core_pt": "A natureza roe a nossa luxúria fabricada.",
-            "real_meaning_pt": "Revolução te ancorando na realidade: o mundo natural primitivo (o ouriço) roendo nossos bens de luxo fabricados (o sapato)."
+            "real_meaning_pt": "Revolução te ancorando na realidade: o mundo natural primitivo (o ouriço) roendo nossos bens de luxo fabricados (o sapato).",
+            "core_pt_pt": "A natureza roe a nossa luxúria fabricada.",
+            "real_meaning_pt_pt": "Revolução a enraizar-te na realidade: o mundo primordial e natural (o ouriço) a roer os nossos bens de luxo fabricados (o sapato)."
         },
         {
             "id": "line_2_occ_0_s0",
@@ -319,7 +321,9 @@
             ],
             "line_index": 5,
             "core_pt": "O smartphone é apenas um telefone.",
-            "real_meaning_pt": "O smartphone é apenas um telefone: o carro é apenas transporte, o trabalho é apenas trabalho. Somos nós que injetamos um significado desesperado e sagrado nas ferramentas."
+            "real_meaning_pt": "O smartphone é apenas um telefone: o carro é apenas transporte, o trabalho é apenas trabalho. Somos nós que injetamos um significado desesperado e sagrado nas ferramentas.",
+            "core_pt_pt": "O telemóvel é só um telefone.",
+            "real_meaning_pt_pt": "O telemóvel é apenas um telefone: o carro é apenas transporte, o emprego é apenas trabalho. Somos nós que injectamos um significado desesperado, sagrado nas ferramentas."
         },
         {
             "id": "line_4_occ_0_s0",
@@ -476,7 +480,9 @@
             ],
             "line_index": 8,
             "core_pt": "Esta é a sua vida diária. Agora mesmo.",
-            "real_meaning_pt": "O espelho se volta para o ouvinte: Isso não é história antiga sobre homens das cavernas; isso é um reflexo direto do seu deslocamento diário de manhã."
+            "real_meaning_pt": "O espelho se volta para o ouvinte: Isso não é história antiga sobre homens das cavernas; isso é um reflexo direto do seu deslocamento diário de manhã.",
+            "core_pt_pt": "Isto é a tua vida diária. Agora mesmo.",
+            "real_meaning_pt_pt": "O espelho vira-se para o ouvinte: Isto não é história antiga sobre homens das cavernas; isto é um reflexo directo do teu deslocamento diário de manhã."
         },
         {
             "id": "line_6_occ_0",
@@ -538,7 +544,9 @@
             ],
             "line_index": 9,
             "core_pt": "Todo progresso é tecnológico, não psicológico.",
-            "real_meaning_pt": "O ponto final do progresso: Todo o nosso avanço é estritamente tecnológico, não psicológico. O hardware humano é idêntico ao Paleolítico."
+            "real_meaning_pt": "O ponto final do progresso: Todo o nosso avanço é estritamente tecnológico, não psicológico. O hardware humano é idêntico ao Paleolítico.",
+            "core_pt_pt": "Todo o progresso é tecnológico, não psicológico.",
+            "real_meaning_pt_pt": "O ponto final do progresso: Todo o nosso avanço é estritamente tecnológico, não psicológico. O hardware humano é idêntico ao do Paleolítico."
         },
         {
             "id": "line_7_occ_0",
@@ -600,7 +608,9 @@
             ],
             "line_index": 10,
             "core_pt": "Estamos todos correndo com chamas moribundas.",
-            "real_meaning_pt": "O trajeto matinal: a escada da carreira, a constante correria. Todos nós estamos correndo freneticamente com chamas moribundas que nem sequer acendemos."
+            "real_meaning_pt": "O trajeto matinal: a escada da carreira, a constante correria. Todos nós estamos correndo freneticamente com chamas moribundas que nem sequer acendemos.",
+            "core_pt_pt": "Estamos todos a correr com chamas a morrer.",
+            "real_meaning_pt_pt": "A correria matinal: a carreira, o constante apressar. Estamos todos a correr freneticamente com chamas a morrer que nem sequer acendemos."
         },
         {
             "id": "line_8_occ_0",
@@ -672,7 +682,9 @@
             ],
             "line_index": 11,
             "core_pt": "Carregar a brasa de alguém.",
-            "real_meaning_pt": "Carregar a brasa de outra pessoa: A tragédia de acreditar que estamos construindo algo profundamente significativo quando estamos apenas servindo a máquina."
+            "real_meaning_pt": "Carregar a brasa de outra pessoa: A tragédia de acreditar que estamos construindo algo profundamente significativo quando estamos apenas servindo a máquina.",
+            "core_pt_pt": "A carregar a brasa de alguém.",
+            "real_meaning_pt_pt": "Levar a brasa a alguém: A tragédia de acreditar que estamos a construir algo profundamente significativo quando estamos apenas a servir a máquina."
         },
         {
             "id": "line_9_occ_0",
@@ -754,7 +766,9 @@
             ],
             "line_index": 12,
             "core_pt": "As pedras são livres. Ali mesmo.",
-            "real_meaning_pt": "Soluções simples nos cercam: Comunidade, natureza, artesanato, conexão humana. As pedras estão livres, disponíveis e completamente ignoradas."
+            "real_meaning_pt": "Soluções simples nos cercam: Comunidade, natureza, artesanato, conexão humana. As pedras estão livres, disponíveis e completamente ignoradas.",
+            "core_pt_pt": "As pedras estão livres. Ali mesmo.",
+            "real_meaning_pt_pt": "Soluções simples rodeiam-nos: comunidade, natureza, artesanato, ligação humana. As pedras estão disponíveis, gratuitas e completamente ignoradas."
         },
         {
             "id": "line_10_interp",
@@ -826,7 +840,9 @@
             ],
             "line_index": 13,
             "core_pt": "Uma pessoa para de correr. Isso basta.",
-            "real_meaning_pt": "Esperando a greve: Tudo o que é preciso é uma pessoa parar de correr, olhar para baixo e escolher interagir com a realidade. Um momento de clareza."
+            "real_meaning_pt": "Esperando a greve: Tudo o que é preciso é uma pessoa parar de correr, olhar para baixo e escolher interagir com a realidade. Um momento de clareza.",
+            "core_pt_pt": "Uma pessoa pára de correr. Já chega.",
+            "real_meaning_pt_pt": "À espera da greve: Basta uma pessoa parar de correr, olhar para baixo e escolher interagir com a realidade. Um momento de clareza."
         },
         {
             "id": "line_11_occ_0",
@@ -903,7 +919,9 @@
             ],
             "line_index": 14,
             "core_pt": "O crente moderno ainda grita.",
-            "real_meaning_pt": "O crente não mudou: o comutador moderno ainda grita os mesmos slogans defensivos. Roupas diferentes, a mesma devoção à marca."
+            "real_meaning_pt": "O crente não mudou: o comutador moderno ainda grita os mesmos slogans defensivos. Roupas diferentes, a mesma devoção à marca.",
+            "core_pt_pt": "O crente moderno ainda grita.",
+            "real_meaning_pt_pt": "O crente não mudou: O moderno utilizador de transportes públicos ainda grita os mesmos slogans defensivos. Roupas diferentes, a mesma devoção à marca."
         },
         {
             "id": "line_17_occ_1",
@@ -935,7 +953,9 @@
             ],
             "line_index": 15,
             "core_pt": "Aguardando a próxima Muda.",
-            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar."
+            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar.",
+            "core_pt_pt": "À espera do próximo Muda.",
+            "real_meaning_pt_pt": "À espera do próximo Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e dar o golpe."
         },
         {
             "id": "line_17_occ_2",
@@ -967,7 +987,9 @@
             ],
             "line_index": 16,
             "core_pt": "Aguardando a próxima Muda.",
-            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar."
+            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar.",
+            "core_pt_pt": "À espera do próximo Muda.",
+            "real_meaning_pt_pt": "À espera do próximo Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e dar o golpe."
         },
         {
             "id": "line_18_interp",
@@ -1019,7 +1041,9 @@
             ],
             "line_index": 17,
             "core_pt": "Deixe o plástico. Bata na pedra.",
-            "real_meaning_pt": "O poder silencioso da realidade: Saber que, sempre que estamos prontos para largar o plástico vazio, o fogo real ainda está exatamente onde o deixamos."
+            "real_meaning_pt": "O poder silencioso da realidade: Saber que, sempre que estamos prontos para largar o plástico vazio, o fogo real ainda está exatamente onde o deixamos.",
+            "core_pt_pt": "Deixa o plástico. Bate na pedra.",
+            "real_meaning_pt_pt": "A calma força da realidade: Saber que, sempre que estivermos prontos a largar o plástico vazio, o verdadeiro fogo está exatamente onde o deixámos."
         }
     ],
     "beat_times": [

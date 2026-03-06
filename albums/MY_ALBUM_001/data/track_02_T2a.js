@@ -354,7 +354,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Um templo para nossos deuses falsos.",
-            "real_meaning_pt": "O desejo de prova física da narrativa mágica. Queremos um templo para nossas ferramentas, um berço para nossos deuses falsos."
+            "real_meaning_pt": "O desejo de prova física da narrativa mágica. Queremos um templo para nossas ferramentas, um berço para nossos deuses falsos.",
+            "core_pt_pt": "Um templo para os nossos deuses falsos.",
+            "real_meaning_pt_pt": "O desejo de prova física da narrativa mágica. Queremos um templo para as nossas ferramentas, um berço para os nossos deuses falsos."
         },
         {
             "id": "line_4_occ_0",
@@ -410,7 +412,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_5_occ_0",
@@ -471,7 +475,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Sem nós, a magia morre.",
-            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá.",
+            "core_pt_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt_pt": "A mitologia solidifica-se: Cultivando o medo de que, sem a nossa participação constante e frenética, a 'magia' da civilização morrerá."
         },
         {
             "id": "line_6_occ_0",
@@ -527,7 +533,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_7_occ_0",
@@ -603,7 +611,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Infrastructure agora, não paixão.",
-            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social.",
+            "core_pt_pt": "Infrastrutura já, não paixão.",
+            "real_meaning_pt_pt": "A agitação institucional: Já não é paixão, é infraestrutura. A 'corrida' é agora a base inteira da economia e do estatuto social."
         },
         {
             "id": "line_8_occ_0_s0",
@@ -1125,7 +1135,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_13_occ_0",
@@ -1186,7 +1198,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Sem nós, a magia morre.",
-            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá.",
+            "core_pt_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt_pt": "A mitologia solidifica-se: Cultivando o medo de que, sem a nossa participação constante e frenética, a 'magia' da civilização morrerá."
         },
         {
             "id": "line_14_occ_0",
@@ -1252,7 +1266,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_15_occ_0",
@@ -1328,7 +1344,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Infrastructure agora, não paixão.",
-            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social.",
+            "core_pt_pt": "Infrastrutura já, não paixão.",
+            "real_meaning_pt_pt": "A agitação institucional: Já não é paixão, é infraestrutura. A 'corrida' é agora a base inteira da economia e do estatuto social."
         },
         {
             "id": "line_16_occ_0",
@@ -1389,7 +1407,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Deusidade através de monopólio, não sabedoria.",
-            "real_meaning_pt": "O momento do bilionário da tecnologia: Conquistando a divindade não através da sabedoria, mas através do monopólio sobre uma tecnologia simples e mal compreendida."
+            "real_meaning_pt": "O momento do bilionário da tecnologia: Conquistando a divindade não através da sabedoria, mas através do monopólio sobre uma tecnologia simples e mal compreendida.",
+            "core_pt_pt": "Deusidade através de monopólio, não de sabedoria.",
+            "real_meaning_pt_pt": "O momento do bilionário da tecnologia: a alcançar a divindade não através da sabedoria, mas através de controlar o monopólio de uma tecnologia simples e mal compreendida."
         },
         {
             "id": "line_17_occ_0",
@@ -1450,7 +1470,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Um deus de plástico entre oferendas.",
-            "real_meaning_pt": "A absurdidade da divindade moderna: As ferramentas do poder são mundanas e baratas (uma caneta BIC de plástico), mas elevadas pela ingenuidade humana."
+            "real_meaning_pt": "A absurdidade da divindade moderna: As ferramentas do poder são mundanas e baratas (uma caneta BIC de plástico), mas elevadas pela ingenuidade humana.",
+            "core_pt_pt": "Um deus de plástico entre ofertas.",
+            "real_meaning_pt_pt": "A absurda divindade moderna: As ferramentas do poder são mundanas e baratas (um BIC de plástico), mas elevadas pela credulidade humana."
         },
         {
             "id": "line_18_occ_0",
@@ -1496,7 +1518,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Todo culto começa com doze crentes.",
-            "real_meaning_pt": "Os primeiros adotantes: Toda seita e bolha especulativa começa com um pequeno grupo devotado disposto a suspender sua descrença."
+            "real_meaning_pt": "Os primeiros adotantes: Toda seita e bolha especulativa começa com um pequeno grupo devotado disposto a suspender sua descrença.",
+            "core_pt_pt": "Todo culto começa com doze crentes.",
+            "real_meaning_pt_pt": "Os primeiros a adoptar: Cada culto e bolha especulativa começa com um pequeno grupo devoto, disposto a suspender a sua descrença."
         },
         {
             "id": "line_19_occ_0",
@@ -1572,7 +1596,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "O primeiro intermediário monetiza o acesso.",
-            "real_meaning_pt": "O primeiro intermediário: Gralha se torna o departamento de relações públicas, o sacerdote que monetiza o acesso à 'verdade' do Mago, interpretando-a para as massas."
+            "real_meaning_pt": "O primeiro intermediário: Gralha se torna o departamento de relações públicas, o sacerdote que monetiza o acesso à 'verdade' do Mago, interpretando-a para as massas.",
+            "core_pt_pt": "O primeiro intermediário monetiza o acesso.",
+            "real_meaning_pt_pt": "O primeiro intermediário: Gralha torna-se o departamento de RP, o sacerdote que monetiza o acesso à 'verdade' do Mago, interpretando-a para as massas."
         },
         {
             "id": "line_20_occ_0",
@@ -1638,7 +1664,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_21_occ_0",
@@ -1699,7 +1727,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Sem nós, a magia morre.",
-            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá."
+            "real_meaning_pt": "A mitologia se solidifica: Cultivando o medo de que, sem nossa participação constante e frenética, a 'mágica' da civilização morrerá.",
+            "core_pt_pt": "Sem nós, a magia morre.",
+            "real_meaning_pt_pt": "A mitologia solidifica-se: Cultivando o medo de que, sem a nossa participação constante e frenética, a 'magia' da civilização morrerá."
         },
         {
             "id": "line_22_occ_0",
@@ -1765,7 +1795,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Câmara de eco afoga todo o ceticismo.",
-            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada."
+            "real_meaning_pt": "A câmara de eco dos fiéis: o canto coletivo abafa qualquer ceticismo individual. A tribo é unida por uma alucinação compartilhada.",
+            "core_pt_pt": "Câmara de eco afoga todo o ceticismo.",
+            "real_meaning_pt_pt": "A câmara de eco dos fiéis: O cântico coletivo abafa qualquer cepticismo individual. A tribo está unida por uma alucinação partilhada."
         },
         {
             "id": "line_23_occ_0",
@@ -1841,7 +1873,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Infrastructure agora, não paixão.",
-            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social."
+            "real_meaning_pt": "A agitação institucional: Não é mais paixão, é infraestrutura. A 'corrida' agora é a base inteira da economia e do status social.",
+            "core_pt_pt": "Infrastrutura já, não paixão.",
+            "real_meaning_pt_pt": "A agitação institucional: Já não é paixão, é infraestrutura. A 'corrida' é agora a base inteira da economia e do estatuto social."
         },
         {
             "id": "line_24_occ_0",
@@ -1917,7 +1951,9 @@ var track_02_T2a_data = {
                 }
             ],
             "core_pt": "Continue consumindo ou a ilusão morre.",
-            "real_meaning_pt": "O imperativo da corrida dos ratos: Continue se movendo, continue consumindo, continue correndo. Parar é deixar a ilusão morrer, expondo o vazio."
+            "real_meaning_pt": "O imperativo da corrida dos ratos: Continue se movendo, continue consumindo, continue correndo. Parar é deixar a ilusão morrer, expondo o vazio.",
+            "core_pt_pt": "Continua a consumir ou a ilusão morre.",
+            "real_meaning_pt_pt": "O imperativo da corrida de ratos: Continua a mover-te, continua a consumir, continua a correr. Parar é deixar morrer a ilusão, expondo o vazio."
         }
     ],
     "beat_times": [

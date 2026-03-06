@@ -86,7 +86,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Apelar à autoridade, não à evidência.",
-            "real_meaning_pt": "O grito desesperado do tradicionalista: Apelar à autoridade ('O fundador disse isso!') em vez de aceitar evidências empíricas incontestáveis."
+            "real_meaning_pt": "O grito desesperado do tradicionalista: Apelar à autoridade ('O fundador disse isso!') em vez de aceitar evidências empíricas incontestáveis.",
+            "core_pt_pt": "Apelar à autoridade, e não à evidência.",
+            "real_meaning_pt_pt": "O grito desesperado do tradicionalista: Apelar à autoridade ('O fundador disse!') em vez de aceitar provas empíricas incontestáveis."
         },
         {
             "id": "line_1_occ_0",
@@ -161,7 +163,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Eu vi uma vez, então deve ser eterno.",
-            "real_meaning_pt": "Vieses de confirmação como fé: 'Eu vi a caixa fazer fogo uma vez, portanto, o sistema absurdo inteiro deve ser eternamente verdadeiro."
+            "real_meaning_pt": "Vieses de confirmação como fé: 'Eu vi a caixa fazer fogo uma vez, portanto, o sistema absurdo inteiro deve ser eternamente verdadeiro.",
+            "core_pt_pt": "Vi-o uma vez, logo deve ser eterno.",
+            "real_meaning_pt_pt": "Viés de confirmação como fé: 'Vi a caixa fazer fogo uma vez, portanto o sistema absurdo inteiro deve ser eternamente verdadeiro.'"
         },
         {
             "id": "line_2_occ_0",
@@ -236,7 +240,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Ameace o monopólio, seja cancelado.",
-            "real_meaning_pt": "A etiqueta de herege: Quem quer que ameace o monopólio da verdade deve ser cancelado, silenciado ou destruído pela instituição."
+            "real_meaning_pt": "A etiqueta de herege: Quem quer que ameace o monopólio da verdade deve ser cancelado, silenciado ou destruído pela instituição.",
+            "core_pt_pt": "Ameaçar o monopólio, e vais ser cancelado.",
+            "real_meaning_pt_pt": "A etiqueta de herege: Quem quer que ameace o monopólio da verdade tem de ser cancelado, silenciado ou destruído pela instituição."
         },
         {
             "id": "line_4_occ_0",
@@ -321,7 +327,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Confie nos seus sentidos, não na narrativa deles.",
-            "real_meaning_pt": "Muda's contador empírico: Observe a realidade física em sua própria mão. Confie em seus sentidos em vez de sua narrativa corporativa."
+            "real_meaning_pt": "Muda's contador empírico: Observe a realidade física em sua própria mão. Confie em seus sentidos em vez de sua narrativa corporativa.",
+            "core_pt_pt": "Confia nos teus sentidos, não na narrativa deles.",
+            "real_meaning_pt_pt": "Muda's contador empírico: Olha para a realidade física na tua própria mão. Confia nos teus sentidos em vez da narrativa corporativa deles."
         },
         {
             "id": "line_3_interp",
@@ -406,7 +414,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Orgulhosas ferramentas do sistema.",
-            "real_meaning_pt": "Orgulhosa submissão: Usando a servidão como identidade. Os Gralhistas se declarando orgulhosamente as ferramentas fiéis do sistema."
+            "real_meaning_pt": "Orgulhosa submissão: Usando a servidão como identidade. Os Gralhistas se declarando orgulhosamente as ferramentas fiéis do sistema.",
+            "core_pt_pt": "Orgulhosas ferramentas do sistema.",
+            "real_meaning_pt_pt": "Orgulhosa submissão: A usar a servidão como uma identidade. Os Gralhistas a declarar-se orgulhosamente as fiéis ferramentas do sistema."
         },
         {
             "id": "line_5_occ_0",
@@ -481,7 +491,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Entendimento é o verdadeiro poder.",
-            "real_meaning_pt": "Conhecimento é o verdadeiro poder: não a lealdade à marca, não a pertença tribal, mas a compreensão fundamental de como o mundo funciona."
+            "real_meaning_pt": "Conhecimento é o verdadeiro poder: não a lealdade à marca, não a pertença tribal, mas a compreensão fundamental de como o mundo funciona.",
+            "core_pt_pt": "Compreender é o verdadeiro poder.",
+            "real_meaning_pt_pt": "O conhecimento é o verdadeiro poder: não a lealdade à marca, não a pertença a uma tribo, mas a compreensão fundamental de como o mundo funciona."
         },
         {
             "id": "line_6_occ_0",
@@ -566,7 +578,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "O CEO é apenas um vendedor.",
-            "real_meaning_pt": "Desmistificando a elite: o CEO é apenas uma pessoa, o guru da tecnologia é apenas um vendedor. O Mago é apenas um cara com um truque de plástico."
+            "real_meaning_pt": "Desmistificando a elite: o CEO é apenas uma pessoa, o guru da tecnologia é apenas um vendedor. O Mago é apenas um cara com um truque de plástico.",
+            "core_pt_pt": "O CEO é apenas um vendedor.",
+            "real_meaning_pt_pt": "Desmistificar a elite: O CEO é apenas uma pessoa, o guru da tecnologia é apenas um vendedor. O Mago é apenas um tipo com um truque de plástico."
         },
         {
             "id": "line_7_occ_0",
@@ -651,7 +665,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "A faísca pertence ao comum.",
-            "real_meaning_pt": "Empoderamento de código aberto: A faísca pertence aos comuns. O poder reside na natureza, nos galhos, na comunidade."
+            "real_meaning_pt": "Empoderamento de código aberto: A faísca pertence aos comuns. O poder reside na natureza, nos galhos, na comunidade.",
+            "core_pt_pt": "A faísca pertence aos comuns.",
+            "real_meaning_pt_pt": "Empoderamento de código aberto: A faísca pertence aos comuns. O poder reside na natureza, nos paus, na comunidade."
         },
         {
             "id": "line_8_occ_0",
@@ -716,7 +732,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "A guerra cultural sustenta-se com fumaça.",
-            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça."
+            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça.",
+            "core_pt_pt": "A guerra cultural sustém-se a fumes.",
+            "real_meaning_pt_pt": "O cansaço instala-se: os fogos do debate estão a extinguir-se, mas ninguém o admite. A guerra cultural sustém-se apenas com fumos."
         },
         {
             "id": "line_9_occ_0",
@@ -786,7 +804,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Inimigos compartilhando a mesma escuridão.",
-            "real_meaning_pt": "Inimigos compartilhando a mesma escuridão: A trágica realização de que as tribos opostas são idênticas em seu terror subjacente."
+            "real_meaning_pt": "Inimigos compartilhando a mesma escuridão: A trágica realização de que as tribos opostas são idênticas em seu terror subjacente.",
+            "core_pt_pt": "Inimigos a partilhar a mesma escuridão.",
+            "real_meaning_pt_pt": "Inimigos a partilhar a mesma escuridão: A trágica realização de que as tribos opostas são idênticas no seu terror subjacente."
         },
         {
             "id": "line_10_interp",
@@ -851,7 +871,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "A guerra cultural sustenta-se com fumaça.",
-            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça."
+            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça.",
+            "core_pt_pt": "A guerra cultural sustém-se a fumes.",
+            "real_meaning_pt_pt": "O cansaço instala-se: os fogos do debate estão a extinguir-se, mas ninguém o admite. A guerra cultural sustém-se apenas com fumos."
         },
         {
             "id": "line_11_interp",
@@ -916,7 +938,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Ninguém se importa mais com a verdade.",
-            "real_meaning_pt": "O eco vazio da pergunta: alguém ainda se importa com a verdade original, ou é apenas sobre a vitória tribal?"
+            "real_meaning_pt": "O eco vazio da pergunta: alguém ainda se importa com a verdade original, ou é apenas sobre a vitória tribal?",
+            "core_pt_pt": "Ninguém se importa com a verdade hoje em dia.",
+            "real_meaning_pt_pt": "O eco vazio da pergunta: Ainda alguém se importa com a verdade original, ou trata-se apenas de vitória tribal?"
         },
         {
             "id": "line_12_interp",
@@ -971,7 +995,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Identidade formada através da oposição.",
-            "real_meaning_pt": "Canto tribal (Gral-ha): Mentalidade de equipe esportiva aplicada à sobrevivência. Identidade formada inteiramente através da oposição ao 'outro'."
+            "real_meaning_pt": "Canto tribal (Gral-ha): Mentalidade de equipe esportiva aplicada à sobrevivência. Identidade formada inteiramente através da oposição ao 'outro'.",
+            "core_pt_pt": "Identidade formada através da oposição.",
+            "real_meaning_pt_pt": "Cânticos tribais (Gral-ha): Mentalidade de equipa desportiva aplicada à sobrevivência. Identidade formada inteiramente através da oposição ao 'outro'."
         },
         {
             "id": "line_13_occ_0",
@@ -1026,7 +1052,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Rebelião se torna igualmente tribal.",
-            "real_meaning_pt": "O contra-cântico (Mu-da): A rebelião se torna igualmente tribal, igualmente reductiva. Ambos os lados se degradam em slogans sem sentido."
+            "real_meaning_pt": "O contra-cântico (Mu-da): A rebelião se torna igualmente tribal, igualmente reductiva. Ambos os lados se degradam em slogans sem sentido.",
+            "core_pt_pt": "A rebelião torna-se igualmente tribal.",
+            "real_meaning_pt_pt": "O contra-cântico (Mu-da): A rebelião torna-se igualmente tribal, igualmente reductiva. Ambos os lados degeneram em slogans sem sentido."
         },
         {
             "id": "line_14_occ_0",
@@ -1096,7 +1124,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "O centrista paralisado.",
-            "real_meaning_pt": "Tronco, o centrista paralisado: O moderado que se sente na cerca, definido por uma indecisão superficial quando pego entre dois extremos furiosos."
+            "real_meaning_pt": "Tronco, o centrista paralisado: O moderado que se sente na cerca, definido por uma indecisão superficial quando pego entre dois extremos furiosos.",
+            "core_pt_pt": "O centrista paralisado.",
+            "real_meaning_pt_pt": "Tronco, o paralisado centrista: O moderado indeciso, definido por uma indecisão superficial quando apanhado entre dois extremos furiosos."
         },
         {
             "id": "line_15_occ_0",
@@ -1176,7 +1206,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Ambos os lados gritam. A razão congela.",
-            "real_meaning_pt": "A paralisia da razão: Quando ambos os lados gritam certezas absolutas, a pessoa pensativa e superficial congela de pânico."
+            "real_meaning_pt": "A paralisia da razão: Quando ambos os lados gritam certezas absolutas, a pessoa pensativa e superficial congela de pânico.",
+            "core_pt_pt": "Ambos os lados gritam. A razão congela.",
+            "real_meaning_pt_pt": "A paralisia da razão: Quando ambos os lados estão a gritar certezas absolutas, a pessoa pensadora, superficial, fica paralisada de pânico."
         },
         {
             "id": "line_16_interp",
@@ -1261,7 +1293,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Time Box vs Time Faísca.",
-            "real_meaning_pt": "Verdade complexa reduzida a binário: Time Caixa vs Time Faísca. A sutileza da realidade comprimida em uma escolha forçada de 'nós vs eles'."
+            "real_meaning_pt": "Verdade complexa reduzida a binário: Time Caixa vs Time Faísca. A sutileza da realidade comprimida em uma escolha forçada de 'nós vs eles'.",
+            "core_pt_pt": "Equipa Caixa vs Equipa Faísca.",
+            "real_meaning_pt_pt": "A verdade complexa reduzida a binário: Equipa Box vs Equipa Spark. A nuance da realidade comprimida numa escolha forçada de 'nós vs eles'."
         },
         {
             "id": "line_17_interp",
@@ -1336,7 +1370,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "O medo impulsiona todo -ismo.",
-            "real_meaning_pt": "A raiz de toda ideologia: 'Eu só tenho medo do escuro.' O medo é o verdadeiro motor que impulsiona cada -ismo, tribo e dogma."
+            "real_meaning_pt": "A raiz de toda ideologia: 'Eu só tenho medo do escuro.' O medo é o verdadeiro motor que impulsiona cada -ismo, tribo e dogma.",
+            "core_pt_pt": "O medo impulsiona todos os -ismos.",
+            "real_meaning_pt_pt": "A raiz de toda a ideologia: 'Tenho medo do escuro.' O medo é o verdadeiro motor que impulsiona cada -ismo, tribo e dogma."
         },
         {
             "id": "line_18_interp",
@@ -1401,7 +1437,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "A guerra cultural sustenta-se com fumaça.",
-            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça."
+            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça.",
+            "core_pt_pt": "A guerra cultural sustém-se a fumes.",
+            "real_meaning_pt_pt": "O cansaço instala-se: os fogos do debate estão a extinguir-se, mas ninguém o admite. A guerra cultural sustém-se apenas com fumos."
         },
         {
             "id": "line_19_interp",
@@ -1471,7 +1509,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Inimigos compartilhando a mesma escuridão.",
-            "real_meaning_pt": "Inimigos compartilhando a mesma escuridão: A trágica realização de que as tribos opostas são idênticas em seu terror subjacente."
+            "real_meaning_pt": "Inimigos compartilhando a mesma escuridão: A trágica realização de que as tribos opostas são idênticas em seu terror subjacente.",
+            "core_pt_pt": "Inimigos a partilhar a mesma escuridão.",
+            "real_meaning_pt_pt": "Inimigos a partilhar a mesma escuridão: A trágica realização de que as tribos opostas são idênticas no seu terror subjacente."
         },
         {
             "id": "line_20_interp",
@@ -1536,7 +1576,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "A guerra cultural sustenta-se com fumaça.",
-            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça."
+            "real_meaning_pt": "O cansaço se instala: os fogos do debate estão se apagando, mas ninguém admite isso. A guerra cultural sustenta-se puramente com fumaça.",
+            "core_pt_pt": "A guerra cultural sustém-se a fumes.",
+            "real_meaning_pt_pt": "O cansaço instala-se: os fogos do debate estão a extinguir-se, mas ninguém o admite. A guerra cultural sustém-se apenas com fumos."
         },
         {
             "id": "line_21_occ_0",
@@ -1601,7 +1643,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Ninguém se importa mais com a verdade.",
-            "real_meaning_pt": "O eco vazio da pergunta: alguém ainda se importa com a verdade original, ou é apenas sobre a vitória tribal?"
+            "real_meaning_pt": "O eco vazio da pergunta: alguém ainda se importa com a verdade original, ou é apenas sobre a vitória tribal?",
+            "core_pt_pt": "Ninguém se importa com a verdade hoje em dia.",
+            "real_meaning_pt_pt": "O eco vazio da pergunta: Ainda alguém se importa com a verdade original, ou trata-se apenas de vitória tribal?"
         },
         {
             "id": "line_22_occ_0",
@@ -1666,7 +1710,9 @@ var track_06_T1_2_3b_data = {
                 }
             ],
             "core_pt": "Deus está morto. O fundador saiu do negócio.",
-            "real_meaning_pt": "O criador abandona o colapso: Deus está morto, o fundador sacou o dinheiro, o mago fugiu. A elite deixa as massas limparem a bagunça."
+            "real_meaning_pt": "O criador abandona o colapso: Deus está morto, o fundador sacou o dinheiro, o mago fugiu. A elite deixa as massas limparem a bagunça.",
+            "core_pt_pt": "Deus está morto. O fundador retirou-se.",
+            "real_meaning_pt_pt": "O criador abandona o colapso: Deus está morto, o fundador retirou-se, o feiticeiro fugiu. A elite deixa as massas a limpar a confusão."
         }
     ],
     "beat_times": [

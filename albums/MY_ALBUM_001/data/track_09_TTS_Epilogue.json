@@ -503,7 +503,9 @@
             ],
             "line_index": 11,
             "core_pt": "O que mudou fundamentalmente?",
-            "real_meaning_pt": "A pergunta que ecoa pelo tempo: Apesar de todos os nossos arranha-céus, servidores e algoritmos, o que mudou fundamentalmente na condição humana?"
+            "real_meaning_pt": "A pergunta que ecoa pelo tempo: Apesar de todos os nossos arranha-céus, servidores e algoritmos, o que mudou fundamentalmente na condição humana?",
+            "core_pt_pt": "O que mudou fundamentalmente?",
+            "real_meaning_pt_pt": "A questão que ecoa ao longo do tempo: Apesar de todos os nossos arranha-céus, servidores e algoritmos, o que é que mudou, de facto, na condição humana?"
         },
         {
             "id": "line_4_interp",
@@ -535,7 +537,9 @@
             ],
             "line_index": 12,
             "core_pt": "Nada. A mesma fé cega. Novas telas.",
-            "real_meaning_pt": "O veredicto de uma palavra, atualizado: Nada. Somos gigantes tecnológicos, mas infantes psicológicos. O cérebro paleolítico agora reina através do silício em vez de pedra. Os mesmos mestres, novas máscaras."
+            "real_meaning_pt": "O veredicto de uma palavra, atualizado: Nada. Somos gigantes tecnológicos, mas infantes psicológicos. O cérebro paleolítico agora reina através do silício em vez de pedra. Os mesmos mestres, novas máscaras.",
+            "core_pt_pt": "Nada. A mesma fé cega. Novos ecrãs.",
+            "real_meaning_pt_pt": "O veredicto em uma palavra, atualizado: Nada. Somos gigantes tecnológicos mas infantes psicológicos. O cérebro paleolítico agora reina através do silício em vez de pedra. Os mesmos mestres, novas máscaras."
         },
         {
             "id": "line_5_occ_0_s0",
@@ -856,7 +860,9 @@
             ],
             "line_index": 19,
             "core_pt": "Aproveite seu fogo. Acorde. Ou eles nos devoram inteiros.",
-            "real_meaning_pt": "O chamado à ação: Tome o controle. Construa com IA nos seus termos — faça parceria com ela, não a sirva. A ferramenta é apenas uma ferramenta, como a pedra lascada. Mas se você continuar andando sonâmbulo, os senhores da tecnologia nos consumirão por completo."
+            "real_meaning_pt": "O chamado à ação: Tome o controle. Construa com IA nos seus termos — faça parceria com ela, não a sirva. A ferramenta é apenas uma ferramenta, como a pedra lascada. Mas se você continuar andando sonâmbulo, os senhores da tecnologia nos consumirão por completo.",
+            "core_pt_pt": "Sê dono do teu fogo. Acorda. Ou eles comem-nos inteiros.",
+            "real_meaning_pt_pt": "O apelo à ação: Toma o controlo. Constrói com IA aos teus termos — parceira com ela, não a sirvas. A ferramenta é apenas uma ferramenta, como a pedra lascada. Mas se continuares a andar a dormir, os senhores da tecnologia vão consumir-nos por completo."
         },
         {
             "id": "line_8_occ_0_s0",
@@ -928,7 +934,9 @@
             ],
             "line_index": 20,
             "core_pt": "Pare. Olhe para baixo. Ataque. Chak-chak.",
-            "real_meaning_pt": "O verdadeiro final do álbum: Pare de correr a corrida deles. Olhe para baixo para o que já está em suas mãos. Acenda seu próprio fogo. A resposta nunca estava na nuvem — sempre esteve aos seus pés. Chak-chak."
+            "real_meaning_pt": "O verdadeiro final do álbum: Pare de correr a corrida deles. Olhe para baixo para o que já está em suas mãos. Acenda seu próprio fogo. A resposta nunca estava na nuvem — sempre esteve aos seus pés. Chak-chak.",
+            "core_pt_pt": "Pára. Olha para baixo. Bate. Chak-chak.",
+            "real_meaning_pt_pt": "A verdade final do álbum: Para de correr a corrida deles. Olha para baixo e vê o que já tens nas tuas mãos. Acende o teu próprio fogo. A resposta nunca esteve na nuvem — sempre esteve aos teus pés. Chak-chak."
         }
     ],
     "beat_times": [

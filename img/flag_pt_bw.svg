@@ -9,9 +9,9 @@
    id="svg2">
   <defs
      id="defs267" />
-  <rect width="600" height="400" fill="#bbb" stroke="#fff" stroke-width="4" id="bg-right"/>
-  <rect width="240" height="400" fill="#555" id="bg-left"/>
-  <line x1="240" y1="0" x2="240" y2="400" stroke="#fff" stroke-width="3" id="divider"/>
+  <rect width="600" height="400" fill="#666" stroke="#999" stroke-width="4" id="bg-right"/>
+  <rect width="240" height="400" fill="#222" id="bg-left"/>
+  <line x1="240" y1="0" x2="240" y2="400" stroke="#999" stroke-width="3" id="divider"/>
 
   <path
      d="M -68.0439,457.04244 L -68.0439,457.04244 L -68.0439,457.04244 L -68.0439,457.04244"

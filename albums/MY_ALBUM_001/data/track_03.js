@@ -57,7 +57,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "O alarme da manhã de segunda-feira.",
-            "real_meaning_pt": "O ritual diário começa: o alarme de segunda-feira de manhã. O início da corrida perpétua para servir o sistema artificial que criamos."
+            "real_meaning_pt": "O ritual diário começa: o alarme de segunda-feira de manhã. O início da corrida perpétua para servir o sistema artificial que criamos.",
+            "core_pt_pt": "O despertador da manhã de segunda-feira.",
+            "real_meaning_pt_pt": "O ritual diário começa: o alarme de segunda-feira de manhã. O início da corrida perpétua a servir o sistema artificial que criámos."
         },
         {
             "id": "line_1_occ_0",
@@ -103,7 +105,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "A notificação ordena: comece a correr.",
-            "real_meaning_pt": "O estalo da rotina diária: o som de notificação, a tela de login. O pequeno prompt que nos manda começar a correr novamente."
+            "real_meaning_pt": "O estalo da rotina diária: o som de notificação, a tela de login. O pequeno prompt que nos manda começar a correr novamente.",
+            "core_pt_pt": "A notificação manda: começa a correr.",
+            "real_meaning_pt_pt": "O estalar da rotina diária: o ping da notificação, o ecrã de login. O pequeno aviso que nos manda a correr outra vez."
         },
         {
             "id": "line_2_occ_0",
@@ -164,7 +168,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Escravidão voluntária disfarçada de ambição.",
-            "real_meaning_pt": "Escravidão voluntária disfarçada de ambição: O trabalhador corre para o trajeto, completamente convencido de que seu esgotamento é uma busca nobre."
+            "real_meaning_pt": "Escravidão voluntária disfarçada de ambição: O trabalhador corre para o trajeto, completamente convencido de que seu esgotamento é uma busca nobre.",
+            "core_pt_pt": "Escravatura voluntária disfarçada de ambição.",
+            "real_meaning_pt_pt": "Escravidão voluntária disfarçada de ambição: O trabalhador corre para o autocarro, completamente convencido de que o seu cansaço é uma nobre perseguição."
         },
         {
             "id": "line_3_occ_0",
@@ -215,7 +221,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Correndo sem questionar o destino.",
-            "real_meaning_pt": "O culto da produtividade: Dar tudo a uma tarefa sem sentido. Correr freneticamente sem nunca questionar o destino."
+            "real_meaning_pt": "O culto da produtividade: Dar tudo a uma tarefa sem sentido. Correr freneticamente sem nunca questionar o destino.",
+            "core_pt_pt": "A correr sem questionar o destino.",
+            "real_meaning_pt_pt": "O culto da produtividade: Dar tudo a uma tarefa sem sentido. Correr freneticamente sem nunca questionar o destino."
         },
         {
             "id": "line_4_occ_0",
@@ -256,7 +264,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "A corrida dos ratos agora se move sozinha.",
-            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum.",
+            "core_pt_pt": "A corrida dos ratos corre-se agora por si própria.",
+            "real_meaning_pt_pt": "Momentum mecânico: O cântico perde a sua paixão e torna-se num requisito automatizado. A corrida dos ratos agora corre por si só, movida pura e simplesmente pelo momentum."
         },
         {
             "id": "line_5_occ_0",
@@ -307,7 +317,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "O show deve continuar.",
-            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo."
+            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo.",
+            "core_pt_pt": "O espectáculo tem de continuar.",
+            "real_meaning_pt_pt": "O espetáculo tem de continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de envolvimento têm de manter-se altas a todo o custo."
         },
         {
             "id": "line_6_occ_0",
@@ -348,7 +360,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "A corrida dos ratos agora se move sozinha.",
-            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum.",
+            "core_pt_pt": "A corrida dos ratos corre-se agora por si própria.",
+            "real_meaning_pt_pt": "Momentum mecânico: O cântico perde a sua paixão e torna-se num requisito automatizado. A corrida dos ratos agora corre por si só, movida pura e simplesmente pelo momentum."
         },
         {
             "id": "line_7_occ_0",
@@ -409,7 +423,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Mais um sprint. Mesma promessa quebrada.",
-            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente."
+            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente.",
+            "core_pt_pt": "Mais um sprint. A mesma promessa quebrada.",
+            "real_meaning_pt_pt": "A ilusão inquebrável: A promessa mantém-se a mesma—apenas mais um sprint, mais um monte. O horizonte recua constantemente."
         },
         {
             "id": "line_8_occ_0",
@@ -475,7 +491,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "O atrito esmagador do deslocamento.",
-            "real_meaning_pt": "O vento contrário da realidade: A fricção desgastante e exaustiva do deslocamento diário, empurrando contra nossa fé cega no sistema."
+            "real_meaning_pt": "O vento contrário da realidade: A fricção desgastante e exaustiva do deslocamento diário, empurrando contra nossa fé cega no sistema.",
+            "core_pt_pt": "O atrito esmagador da deslocação.",
+            "real_meaning_pt_pt": "O vento de frente da realidade: A constante e exaustiva fricção do deslocamento diário, a empurrar contra a nossa cega fé no sistema."
         },
         {
             "id": "line_9_occ_0",
@@ -526,7 +544,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Pressão dos colegas como combustível.",
-            "real_meaning_pt": "Pressão dos pares como combustível: A sociedade ao nosso redor exige que mantenhamos o ritmo, aterrorizada com a ideia de que, se alguém parar de correr, todo o sistema desmorona."
+            "real_meaning_pt": "Pressão dos pares como combustível: A sociedade ao nosso redor exige que mantenhamos o ritmo, aterrorizada com a ideia de que, se alguém parar de correr, todo o sistema desmorona.",
+            "core_pt_pt": "Pressão dos pares como combustível.",
+            "real_meaning_pt_pt": "A pressão dos pares como combustível: A sociedade à nossa volta exige que mantenhamos o ritmo, aterrorizada com a ideia de que, se alguém parar de correr, todo o sistema desmorona."
         },
         {
             "id": "line_10_occ_0",
@@ -592,7 +612,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Queima de energia. A chama já estava morta.",
-            "real_meaning_pt": "Burnout: Alcancar a meta arbitrária apenas para descobrir que a chama já está morta. A recompensa vazia de um sprint que não significou nada."
+            "real_meaning_pt": "Burnout: Alcancar a meta arbitrária apenas para descobrir que a chama já está morta. A recompensa vazia de um sprint que não significou nada.",
+            "core_pt_pt": "Burnout. A chama já estava morta.",
+            "real_meaning_pt_pt": "Burnout: Chegar ao objetivo arbitrário apenas para descobrir que a chama já está morta. A recompensa vazia de um sprint que não significou nada."
         },
         {
             "id": "line_11_occ_0",
@@ -658,7 +680,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "As métricas caíram. E agora?",
-            "real_meaning_pt": "O acidente: Quando as métricas caem, a startup falha ou a energia acaba. A realização do fracasso dentro das próprias regras do sistema."
+            "real_meaning_pt": "O acidente: Quando as métricas caem, a startup falha ou a energia acaba. A realização do fracasso dentro das próprias regras do sistema.",
+            "core_pt_pt": "As métricas caíram. E agora?",
+            "real_meaning_pt_pt": "O acidente: Quando as métricas caem, a startup falha, ou a energia esgota-se. A realização do fracasso dentro das próprias regras do sistema."
         },
         {
             "id": "line_12_occ_0",
@@ -714,7 +738,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Inventar regras em vez de questionar o jogo.",
-            "real_meaning_pt": "O primeiro dogma do autoajuda: inventar razões arbitrárias para o fracasso em vez de questionar o jogo. 'Você só precisava de uma estratégia melhor."
+            "real_meaning_pt": "O primeiro dogma do autoajuda: inventar razões arbitrárias para o fracasso em vez de questionar o jogo. 'Você só precisava de uma estratégia melhor.",
+            "core_pt_pt": "Inventar regras em vez de questionar o jogo.",
+            "real_meaning_pt_pt": "O primeiro dogma do autoajuda: Inventar razões arbitrárias para o fracasso em vez de questionar o jogo. 'Tu só precisavas de uma estratégia melhor.'"
         },
         {
             "id": "line_13_occ_0",
@@ -775,7 +801,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Gurus concorrentes, igualmente sem fundamento.",
-            "real_meaning_pt": "O contra-dogma do bem-estar: Gurus concorrentes vendendo regras igualmente sem fundamento e contraditórias para consertar o esgotamento causado pelo sistema."
+            "real_meaning_pt": "O contra-dogma do bem-estar: Gurus concorrentes vendendo regras igualmente sem fundamento e contraditórias para consertar o esgotamento causado pelo sistema.",
+            "core_pt_pt": "Gurus a competirem, igualmente sem fundamento.",
+            "real_meaning_pt_pt": "O contra-dogma do bem-estar: Gurus a competir a vender regras igualmente sem base, contraditórias, para resolver o esgotamento causado pelo sistema."
         },
         {
             "id": "line_14_occ_0",
@@ -841,7 +869,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Adorando o mecanismo cegamente.",
-            "real_meaning_pt": "A futilidade do tronco: Adorar o mecanismo cegamente. Focar na estética e nos detalhes superficiais (a roda dentada) em vez da substância."
+            "real_meaning_pt": "A futilidade do tronco: Adorar o mecanismo cegamente. Focar na estética e nos detalhes superficiais (a roda dentada) em vez da substância.",
+            "core_pt_pt": "A adorar o mecanismo cegamente.",
+            "real_meaning_pt_pt": "A futilidade do tronco: Adorar o mecanismo cegamente. Focar nas estéticas e nos pormenores superficiais (a roda dentada) em vez da substância."
         },
         {
             "id": "line_15_occ_0_s0",
@@ -995,7 +1025,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "A corrida dos ratos agora se move sozinha.",
-            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum.",
+            "core_pt_pt": "A corrida dos ratos corre-se agora por si própria.",
+            "real_meaning_pt_pt": "Momentum mecânico: O cântico perde a sua paixão e torna-se num requisito automatizado. A corrida dos ratos agora corre por si só, movida pura e simplesmente pelo momentum."
         },
         {
             "id": "line_17_occ_0",
@@ -1046,7 +1078,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "O show deve continuar.",
-            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo."
+            "real_meaning_pt": "O show deve continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de engajamento devem permanecer altas a qualquer custo.",
+            "core_pt_pt": "O espectáculo tem de continuar.",
+            "real_meaning_pt_pt": "O espetáculo tem de continuar: Mesmo após o colapso, o sistema insiste em manter a ilusão. As métricas de envolvimento têm de manter-se altas a todo o custo."
         },
         {
             "id": "line_18_occ_0",
@@ -1087,7 +1121,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "A corrida dos ratos agora se move sozinha.",
-            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum."
+            "real_meaning_pt": "Momentum mecânico: o canto perde sua paixão e se torna um requisito automatizado. A corrida dos ratos agora se move por si só, puramente por momentum.",
+            "core_pt_pt": "A corrida dos ratos corre-se agora por si própria.",
+            "real_meaning_pt_pt": "Momentum mecânico: O cântico perde a sua paixão e torna-se num requisito automatizado. A corrida dos ratos agora corre por si só, movida pura e simplesmente pelo momentum."
         },
         {
             "id": "line_19_occ_0",
@@ -1148,7 +1184,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Mais um sprint. Mesma promessa quebrada.",
-            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente."
+            "real_meaning_pt": "A ilusão inquebrável: A promessa permanece a mesma—apenas mais uma sprint, mais uma pilha. O horizonte recua constantemente.",
+            "core_pt_pt": "Mais um sprint. A mesma promessa quebrada.",
+            "real_meaning_pt_pt": "A ilusão inquebrável: A promessa mantém-se a mesma—apenas mais um sprint, mais um monte. O horizonte recua constantemente."
         },
         {
             "id": "line_20_occ_0",
@@ -1179,7 +1217,9 @@ var track_03_data = {
                 }
             ],
             "core_pt": "Amanhã. Novamente. Para sempre.",
-            "real_meaning_pt": "O ciclo sisífeo: Amanhã, a mesma corrida, o mesmo fracasso, a mesma negação. Preso em um loop, correndo com um isqueiro BIC morto."
+            "real_meaning_pt": "O ciclo sisífeo: Amanhã, a mesma corrida, o mesmo fracasso, a mesma negação. Preso em um loop, correndo com um isqueiro BIC morto.",
+            "core_pt_pt": "Amanhã. Outra vez. Para sempre.",
+            "real_meaning_pt_pt": "O ciclo sisífeo: Amanhã, a mesma corrida, o mesmo fracasso, a mesma negação. Preso num ciclo, a correr com um BIC isqueiro sem pilhas."
         }
     ],
     "beat_times": [

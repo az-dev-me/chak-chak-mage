@@ -67,7 +67,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "A fé se fragmenta em câmaras de eco.",
-            "real_meaning_pt": "A inevitável tribalização: Quando a fé se quebra, a sociedade se divide em câmaras de eco polarizadas. A divisão se torna a nova identidade."
+            "real_meaning_pt": "A inevitável tribalização: Quando a fé se quebra, a sociedade se divide em câmaras de eco polarizadas. A divisão se torna a nova identidade.",
+            "core_pt_pt": "A fé fragmenta-se em câmaras de eco.",
+            "real_meaning_pt_pt": "A inevitável tribalização: Quando a fé se fractura, a sociedade divide-se em câmaras de eco polarizadas. A divisão torna-se a nova identidade."
         },
         {
             "id": "line_1_occ_0",
@@ -113,7 +115,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Discutindo uma escritura que ninguém escreveu.",
-            "real_meaning_pt": "O debate interminável: Discutindo escrituras sagradas que ninguém escreveu. Debates de notícias a cabo e guerras na internet sobre regras arbitrárias."
+            "real_meaning_pt": "O debate interminável: Discutindo escrituras sagradas que ninguém escreveu. Debates de notícias a cabo e guerras na internet sobre regras arbitrárias.",
+            "core_pt_pt": "A discutir escrituras que ninguém escreveu.",
+            "real_meaning_pt_pt": "O debate interminável: Discutir textos sagrados que ninguém escreveu. Debates na televisão por cabo e guerras na internet sobre regras arbitrárias."
         },
         {
             "id": "line_2_occ_0",
@@ -184,7 +188,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Uma facção alega autoridade absoluta.",
-            "real_meaning_pt": "A arrogância da certeza: uma facção reivindicando autoridade absoluta sobre a maneira 'correta' de realizar o ritual absurdo."
+            "real_meaning_pt": "A arrogância da certeza: uma facção reivindicando autoridade absoluta sobre a maneira 'correta' de realizar o ritual absurdo.",
+            "core_pt_pt": "Uma facção alega autoridade absoluta.",
+            "real_meaning_pt_pt": "A arrogância da certeza: Uma facção a afirmar autoridade absoluta sobre a 'maneira correcta' de realizar o absurdo ritual."
         },
         {
             "id": "line_3_occ_0",
@@ -250,7 +256,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "A outra facção, igualmente certa, igualmente errada.",
-            "real_meaning_pt": "O eco de câmera oposto: A outra facção, igualmente certa, igualmente errada. Reforçando suas próprias convicções sem fundamento."
+            "real_meaning_pt": "O eco de câmera oposto: A outra facção, igualmente certa, igualmente errada. Reforçando suas próprias convicções sem fundamento.",
+            "core_pt_pt": "A outra facção, igualmente certa, igualmente errada.",
+            "real_meaning_pt_pt": "A câmara de eco oposta: A outra facção, igualmente certa, igualmente errada. A reforçar as suas próprias convicções infundadas."
         },
         {
             "id": "line_4_occ_0",
@@ -306,7 +314,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Até a rebelião se torna uma marca.",
-            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual.",
+            "core_pt_pt": "Mesmo a rebelião se torna uma marca.",
+            "real_meaning_pt_pt": "A ritualização da rebeldia: Mesmo protestar torna-se uma identidade com marca. A perturbação é transformada em mais um ritual."
         },
         {
             "id": "line_5_occ_0",
@@ -362,7 +372,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Certos conflitos. Zero entendimento.",
-            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
+            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível.",
+            "core_pt_pt": "Certidões em conflito. Nenhum entendimento.",
+            "real_meaning_pt_pt": "O estrondoso ruído da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
         },
         {
             "id": "line_6_occ_0",
@@ -418,7 +430,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Até a rebelião se torna uma marca.",
-            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual.",
+            "core_pt_pt": "Mesmo a rebelião se torna uma marca.",
+            "real_meaning_pt_pt": "A ritualização da rebeldia: Mesmo protestar torna-se uma identidade com marca. A perturbação é transformada em mais um ritual."
         },
         {
             "id": "line_7_occ_0",
@@ -464,7 +478,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Olhos claros não durarão muito.",
-            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los."
+            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los.",
+            "core_pt_pt": "Olhos claros não duram muito tempo.",
+            "real_meaning_pt_pt": "A janela fugaz da visão: Os jovens observam a loucura com olhos claros, mas a máquina está sempre à espera de os consumir."
         },
         {
             "id": "line_8_occ_0",
@@ -530,7 +546,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Adorando o algoritmo.",
-            "real_meaning_pt": "Culto superficial do tronco: Adorar o algoritmo, a cotação da bolsa, a estética vazia do sistema em vez de buscar um verdadeiro significado."
+            "real_meaning_pt": "Culto superficial do tronco: Adorar o algoritmo, a cotação da bolsa, a estética vazia do sistema em vez de buscar um verdadeiro significado.",
+            "core_pt_pt": "Adorando o algoritmo.",
+            "real_meaning_pt_pt": "Tronco's superficial worship: Adorar o algoritmo, o indicador de cotação, as estéticas vazias do sistema em vez de procurar um verdadeiro sentido."
         },
         {
             "id": "line_9_occ_0",
@@ -586,7 +604,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "O viés de confirmação parece mágica.",
-            "real_meaning_pt": "Viés de confirmação: 'Eu posso sentir a magia'. A necessidade psicológica desesperada de acreditar que o sistema está funcionando exatamente como pretendido."
+            "real_meaning_pt": "Viés de confirmação: 'Eu posso sentir a magia'. A necessidade psicológica desesperada de acreditar que o sistema está funcionando exatamente como pretendido.",
+            "core_pt_pt": "O viés de confirmação parece magia.",
+            "real_meaning_pt_pt": "Vieses de confirmação: 'Sinto a magia'. A desesperada necessidade psicológica de acreditar que o sistema está a funcionar exactamente como pretendido."
         },
         {
             "id": "line_10_occ_0",
@@ -652,7 +672,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "A elite, completamente afastada do caos.",
-            "real_meaning_pt": "A elite desligada: O criador (CEO/Politico) sentado em sua torre de marfim, completamente desligado do caos que eles engenharam."
+            "real_meaning_pt": "A elite desligada: O criador (CEO/Politico) sentado em sua torre de marfim, completamente desligado do caos que eles engenharam.",
+            "core_pt_pt": "A elite, completamente afastada do caos.",
+            "real_meaning_pt_pt": "A elite desligada: O criador (CEO/Politico) sentado na sua torre de marfim, completamente afastado do caos que ele próprio engendrou."
         },
         {
             "id": "line_11_occ_0",
@@ -698,7 +720,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "O isolamento do privilégio.",
-            "real_meaning_pt": "O isolamento do privilégio: Desfrutar dos despojos da mentira em completa solidão. O vazio de vencer o jogo errado."
+            "real_meaning_pt": "O isolamento do privilégio: Desfrutar dos despojos da mentira em completa solidão. O vazio de vencer o jogo errado.",
+            "core_pt_pt": "A solidão do privilégio.",
+            "real_meaning_pt_pt": "A solidão do privilégio: Desfrutar dos despojos da mentira em completo isolamento. A vazio de ganhar o jogo errado."
         },
         {
             "id": "line_12_occ_0",
@@ -754,7 +778,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "O produto se torna religião.",
-            "real_meaning_pt": "O produto se torna religião: a artefato (a Caixa) está no topo da hierarquia, exigindo lealdade absoluta e adoração."
+            "real_meaning_pt": "O produto se torna religião: a artefato (a Caixa) está no topo da hierarquia, exigindo lealdade absoluta e adoração.",
+            "core_pt_pt": "O produto torna-se religião.",
+            "real_meaning_pt_pt": "O produto torna-se religião: a artefacto (a Caixa) encontra-se no topo da hierarquia, exigindo lealdade absoluta e adoração."
         },
         {
             "id": "line_13_occ_0",
@@ -820,7 +846,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Poder derivado de uma caixa pintada.",
-            "real_meaning_pt": "A hierarquia do poder: o objeto no topo, os sacerdotes abaixo e os fiéis na base. Poder derivado inteiramente do plástico."
+            "real_meaning_pt": "A hierarquia do poder: o objeto no topo, os sacerdotes abaixo e os fiéis na base. Poder derivado inteiramente do plástico.",
+            "core_pt_pt": "Poder obtido a partir de uma caixa pintada.",
+            "real_meaning_pt_pt": "A hierarquia do poder: o objecto no topo, os sacerdotes abaixo e os fiéis em baixo. Poder derivado inteiramente de plástico."
         },
         {
             "id": "line_14_occ_0",
@@ -886,7 +914,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "É apenas uma ferramenta. Ninguém ouve.",
-            "real_meaning_pt": "O futil honestidade do criador: A tentativa tardia de dizer 'é apenas uma ferramenta/plataforma'—mas o mito já é muito maior que a verdade."
+            "real_meaning_pt": "O futil honestidade do criador: A tentativa tardia de dizer 'é apenas uma ferramenta/plataforma'—mas o mito já é muito maior que a verdade.",
+            "core_pt_pt": "É apenas uma ferramenta. Ninguém ouve.",
+            "real_meaning_pt_pt": "A futil honestidade do criador: A tentativa tardia de dizer 'é só uma ferramenta/plataforma'—mas o mito já é muito maior que a verdade."
         },
         {
             "id": "line_15_occ_0",
@@ -957,7 +987,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Queremos o milagre, não a verdade.",
-            "real_meaning_pt": "A preferência por belas mentiras: A humanidade rejeita a verdade feia e mundana. Queremos ativamente o milagre, não o mecanismo subjacente."
+            "real_meaning_pt": "A preferência por belas mentiras: A humanidade rejeita a verdade feia e mundana. Queremos ativamente o milagre, não o mecanismo subjacente.",
+            "core_pt_pt": "Queremos o milagre, não a verdade.",
+            "real_meaning_pt_pt": "A preferência pelas mentiras bonitas: a humanidade rejeita a verdade feia e vulgar. Queremos activamente o milagre, não o mecanismo subjacente."
         },
         {
             "id": "line_16_occ_0",
@@ -1023,7 +1055,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Até a rebelião se torna uma marca.",
-            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual.",
+            "core_pt_pt": "Mesmo a rebelião se torna uma marca.",
+            "real_meaning_pt_pt": "A ritualização da rebeldia: Mesmo protestar torna-se uma identidade com marca. A perturbação é transformada em mais um ritual."
         },
         {
             "id": "line_17_occ_0",
@@ -1069,7 +1103,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Certos conflitos. Zero entendimento.",
-            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
+            "real_meaning_pt": "O barulho ensurdecedor da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível.",
+            "core_pt_pt": "Certidões em conflito. Nenhum entendimento.",
+            "real_meaning_pt_pt": "O estrondoso ruído da divisão: Cada plataforma e feed empurra certezas conflitantes, tornando o entendimento genuíno impossível."
         },
         {
             "id": "line_18_occ_0",
@@ -1135,7 +1171,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Até a rebelião se torna uma marca.",
-            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual."
+            "real_meaning_pt": "A ritualização da rebelião: até protestar se torna uma identidade marcada. A disrupção é comercializada como mais um ritual.",
+            "core_pt_pt": "Mesmo a rebelião se torna uma marca.",
+            "real_meaning_pt_pt": "A ritualização da rebeldia: Mesmo protestar torna-se uma identidade com marca. A perturbação é transformada em mais um ritual."
         },
         {
             "id": "line_19_occ_0",
@@ -1191,7 +1229,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Olhos claros não durarão muito.",
-            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los."
+            "real_meaning_pt": "A janela fugaz da visão: os jovens observam a loucura com olhos claros, mas a máquina sempre está esperando para consumi-los.",
+            "core_pt_pt": "Olhos claros não duram muito tempo.",
+            "real_meaning_pt_pt": "A janela fugaz da visão: Os jovens observam a loucura com olhos claros, mas a máquina está sempre à espera de os consumir."
         },
         {
             "id": "line_20_occ_0",
@@ -1232,7 +1272,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "Crenças teimosas se recusam a morrer.",
-            "real_meaning_pt": "O dogma sussurrado: crenças teimosas e desprovadas que persistem nas sombras, recusando-se a morrer mesmo quando expostas à luz."
+            "real_meaning_pt": "O dogma sussurrado: crenças teimosas e desprovadas que persistem nas sombras, recusando-se a morrer mesmo quando expostas à luz.",
+            "core_pt_pt": "Crenças teimosas recusam-se a morrer.",
+            "real_meaning_pt_pt": "O dogma sussurrado: crenças teimosas e desprovidas de fundamento que persistem nas sombras, recusando-se a morrer mesmo quando expostas à luz."
         },
         {
             "id": "line_21_occ_0",
@@ -1268,7 +1310,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "O argumento muta, nunca se resolve.",
-            "real_meaning_pt": "O contra-sussurro: o argumento nunca realmente se resolve; ele apenas muta e fica mais silencioso enquanto a divisão permanece."
+            "real_meaning_pt": "O contra-sussurro: o argumento nunca realmente se resolve; ele apenas muta e fica mais silencioso enquanto a divisão permanece.",
+            "core_pt_pt": "A argumentação muda, nunca se resolve.",
+            "real_meaning_pt_pt": "O sussurro de contra-argumento: o argumento nunca se resolve verdadeiramente; ele apenas se transforma e fica mais suave enquanto a divisão permanece."
         },
         {
             "id": "line_22_occ_0",
@@ -1304,7 +1348,9 @@ var track_04_T4b_data = {
                 }
             ],
             "core_pt": "A roda continua girando, independentemente.",
-            "real_meaning_pt": "A adoração cega continua: Independentemente das intermináveis discussões e cisões, a roda mecânica do sistema continua esmagando seu caminho à frente."
+            "real_meaning_pt": "A adoração cega continua: Independentemente das intermináveis discussões e cisões, a roda mecânica do sistema continua esmagando seu caminho à frente.",
+            "core_pt_pt": "A roda continua a girar, independentemente.",
+            "real_meaning_pt_pt": "O culto cego continua: Independentemente das intermináveis discussões e cisões, a roda mecânica do sistema continua a avançar, esmagando tudo à sua frente."
         }
     ],
     "beat_times": [

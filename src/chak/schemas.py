@@ -57,6 +57,9 @@ class SemanticLine(BaseModel):
     line_index: int
     lyric: str
     real_meaning: str = ""
+    core: str = ""
+    real_meaning_pt: str = ""
+    core_pt: str = ""
     media_queries: list[str] = Field(default_factory=list)
     hidden_media_queries: list[str] = Field(default_factory=list)
 
@@ -93,6 +96,9 @@ class FusedTimelineEntry(BaseModel):
     end: float
     lyric: str
     real_meaning: str = ""
+    core: str = ""
+    real_meaning_pt: str = ""
+    core_pt: str = ""
     media: list[MediaEntry] = Field(default_factory=list)
     hidden_media: list[MediaEntry] = Field(default_factory=list)
     words: list[WordTiming] = Field(default_factory=list)

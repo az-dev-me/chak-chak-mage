@@ -53,7 +53,9 @@ var track_05_data = {
             ],
             "line_index": 0,
             "core_pt": "Observe. Não grite.",
-            "real_meaning_pt": "Muda, a primeira cientista: a observadora silenciosa e analítica que escolhe assistir à realidade em vez de gritar dogmas."
+            "real_meaning_pt": "Muda, a primeira cientista: a observadora silenciosa e analítica que escolhe assistir à realidade em vez de gritar dogmas.",
+            "core_pt_pt": "Observa. Não grites.",
+            "real_meaning_pt_pt": "Muda, a primeira cientista: A observadora silenciosa e analítica que escolhe assistir à realidade em vez de gritar dogmas."
         },
         {
             "id": "line_1_occ_0",
@@ -115,7 +117,9 @@ var track_05_data = {
             ],
             "line_index": 1,
             "core_pt": "Olhe para a realidade, não para a multidão.",
-            "real_meaning_pt": "Pensamento de primeira princípios: Realmente observar o mecanismo físico em vez de repetir incessantemente o que a multidão diz."
+            "real_meaning_pt": "Pensamento de primeira princípios: Realmente observar o mecanismo físico em vez de repetir incessantemente o que a multidão diz.",
+            "core_pt_pt": "Olha para a realidade, não para a multidão.",
+            "real_meaning_pt_pt": "Pensamento a partir dos princípios: Olhar realmente para o mecanismo físico em vez de repetir sem parar o que a multidão diz."
         },
         {
             "id": "line_2_occ_0",
@@ -177,7 +181,9 @@ var track_05_data = {
             ],
             "line_index": 2,
             "core_pt": "Calma em vez de pânico.",
-            "real_meaning_pt": "Escolhendo a quietude em vez do pânico: enquanto todos os outros se apressam, se apresentam e correm com chamas mortas, ela simplesmente se senta e compreende."
+            "real_meaning_pt": "Escolhendo a quietude em vez do pânico: enquanto todos os outros se apressam, se apresentam e correm com chamas mortas, ela simplesmente se senta e compreende.",
+            "core_pt_pt": "Calma sobre o pânico.",
+            "real_meaning_pt_pt": "Escolher a tranquilidade em vez do pânico: enquanto todos os outros se apressam, desempenham e correm com chamas mortas, ela simplesmente senta-se e compreende."
         },
         {
             "id": "line_3_occ_0",
@@ -234,7 +240,9 @@ var track_05_data = {
             ],
             "line_index": 3,
             "core_pt": "Desça da esteira. Encontre clareza.",
-            "real_meaning_pt": "Meditação sobre reação: Ficar fora da frenética corrida de ratos para ganhar clareza sobre a absurdidade do sistema."
+            "real_meaning_pt": "Meditação sobre reação: Ficar fora da frenética corrida de ratos para ganhar clareza sobre a absurdidade do sistema.",
+            "core_pt_pt": "Desce da esteira. Encontra clareza.",
+            "real_meaning_pt_pt": "Meditação sobre reacção: A ficar fora da frenética corrida das ratas para ganhar clareza sobre a absurdo do sistema."
         },
         {
             "id": "line_4_occ_0",
@@ -301,7 +309,9 @@ var track_05_data = {
             ],
             "line_index": 4,
             "core_pt": "Pegue o que está disponível gratuitamente.",
-            "real_meaning_pt": "O primeiro ato de verdadeira ciência: Pegar o que está livremente disponível (a pedra) em vez de adorar o que é vendido pelo Mago."
+            "real_meaning_pt": "O primeiro ato de verdadeira ciência: Pegar o que está livremente disponível (a pedra) em vez de adorar o que é vendido pelo Mago.",
+            "core_pt_pt": "Leva o que está disponível de graça.",
+            "real_meaning_pt_pt": "O primeiro acto de verdadeira ciência: Pegar no que está disponível de graça (a pedra) em vez de adorar o que é vendido pelo Mago."
         },
         {
             "id": "line_5_occ_0",
@@ -358,7 +368,9 @@ var track_05_data = {
             ],
             "line_index": 5,
             "core_pt": "Construa o novo, não apenas amplifique o velho.",
-            "real_meaning_pt": "Inovação desde o início: Criar algo fundamentalmente novo, em vez de apenas uma versão mais alta do velho barulho."
+            "real_meaning_pt": "Inovação desde o início: Criar algo fundamentalmente novo, em vez de apenas uma versão mais alta do velho barulho.",
+            "core_pt_pt": "Constrói novo, não apenas amplies o velho.",
+            "real_meaning_pt_pt": "Inovação desde a base: Criar algo fundamentalmente novo, em vez de apenas uma versão mais alta do velho barulho."
         },
         {
             "id": "line_6_occ_0",
@@ -400,7 +412,9 @@ var track_05_data = {
             ],
             "line_index": 6,
             "core_pt": "Fogo real não precisa de seguidores.",
-            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
+            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza.",
+            "core_pt_pt": "Fogo verdadeiro não precisa de seguidores.",
+            "real_meaning_pt_pt": "A persistência da verdade: O fogo verdadeiro não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
         },
         {
             "id": "line_7_occ_0",
@@ -462,7 +476,9 @@ var track_05_data = {
             ],
             "line_index": 7,
             "core_pt": "A verdade também se espalha através dos canais tribais.",
-            "real_meaning_pt": "A verdade se espalha: A realização se espalha em cascata, mas corre o risco de se espalhar pelos mesmos canais tribais que espalharam a mentira."
+            "real_meaning_pt": "A verdade se espalha: A realização se espalha em cascata, mas corre o risco de se espalhar pelos mesmos canais tribais que espalharam a mentira.",
+            "core_pt_pt": "A verdade também se espalha através dos canais tribais.",
+            "real_meaning_pt_pt": "A verdade espalha-se: A realização desce em cascata, mas corre o risco de se espalhar pelos mesmos canais tribais que espalharam a mentira."
         },
         {
             "id": "line_8_occ_0",
@@ -519,7 +535,9 @@ var track_05_data = {
             ],
             "line_index": 8,
             "core_pt": "Mais pessoas deixam o isqueiro vazio cair.",
-            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo."
+            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo.",
+            "core_pt_pt": "Mais pessoas deixam cair o isqueiro vazio.",
+            "real_meaning_pt_pt": "O despertar: Mais pessoas a verem através da ilusão, a deixarem os seus isqueiros de plástico vazios e a encontrarem o seu próprio fogo."
         },
         {
             "id": "line_9_occ_0",
@@ -576,7 +594,9 @@ var track_05_data = {
             ],
             "line_index": 9,
             "core_pt": "Desça da esteira.",
-            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba."
+            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba.",
+            "core_pt_pt": "Desce da esteira.",
+            "real_meaning_pt_pt": "A paz não requer correr: A realização de que podes sair da roda, parar o apressar, e o mundo não acaba."
         },
         {
             "id": "line_10_occ_0",
@@ -643,7 +663,9 @@ var track_05_data = {
             ],
             "line_index": 10,
             "core_pt": "A verdade sempre foi imutável.",
-            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo."
+            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo.",
+            "core_pt_pt": "A verdade sempre esteve parada.",
+            "real_meaning_pt_pt": "A verdade é imóvel: a pedra não se mexeu. A realidade fundamental estava sempre disponível para quem estivesse disposto a parar e olhar para baixo."
         },
         {
             "id": "line_11_occ_0",
@@ -700,7 +722,9 @@ var track_05_data = {
             ],
             "line_index": 11,
             "core_pt": "Poder tranquilo. Prova pela ação.",
-            "real_meaning_pt": "Surgindo com poder silencioso: Não o disruptor viral barulhento, mas o demonstrador calmo. Provando a verdade através da ação, não do argumento."
+            "real_meaning_pt": "Surgindo com poder silencioso: Não o disruptor viral barulhento, mas o demonstrador calmo. Provando a verdade através da ação, não do argumento.",
+            "core_pt_pt": "Poder tranquilo. Prova pela acção.",
+            "real_meaning_pt_pt": "A ascender com uma força silenciosa: Não o disruptor viral e barulhento, mas o demonstrador calmo. A provar a verdade através da ação, e não da argumentação."
         },
         {
             "id": "line_12_occ_0",
@@ -772,7 +796,9 @@ var track_05_data = {
             ],
             "line_index": 12,
             "core_pt": "Ensino lento que realmente empodera.",
-            "real_meaning_pt": "Ensinando com paciência: O antídoto para o clickbait. Educação lenta e deliberada que realmente empodera, em vez de criar dependência."
+            "real_meaning_pt": "Ensinando com paciência: O antídoto para o clickbait. Educação lenta e deliberada que realmente empodera, em vez de criar dependência.",
+            "core_pt_pt": "Ensinar devagar que realmente empodera.",
+            "real_meaning_pt_pt": "Ensinar pacientemente: o antítese do clickbait. Educação lenta e deliberada que realmente empodera, em vez de criar dependência."
         },
         {
             "id": "line_13_occ_0",
@@ -829,7 +855,9 @@ var track_05_data = {
             ],
             "line_index": 13,
             "core_pt": "Os blocos de construção são gratuitos.",
-            "real_meaning_pt": "Os blocos de construção são gratuitos: Engenharia, calor, ferramentas - os alicerces do progresso não exigem uma assinatura ou um Mago."
+            "real_meaning_pt": "Os blocos de construção são gratuitos: Engenharia, calor, ferramentas - os alicerces do progresso não exigem uma assinatura ou um Mago.",
+            "core_pt_pt": "Os blocos de construção são gratuitos.",
+            "real_meaning_pt_pt": "Os blocos de construção são gratuitos: Engenharia, calor, ferramentas—os alicerces do progresso não exigem uma subscrição ou um Mago."
         },
         {
             "id": "line_14_interp",
@@ -906,7 +934,9 @@ var track_05_data = {
             ],
             "line_index": 14,
             "core_pt": "Suficiência sobre excesso.",
-            "real_meaning_pt": "O manifesto anti-hustle: Suficiência sobre excesso. Ser sobre fazer. Presença sobre a ansiedade performativa da corrida."
+            "real_meaning_pt": "O manifesto anti-hustle: Suficiência sobre excesso. Ser sobre fazer. Presença sobre a ansiedade performativa da corrida.",
+            "core_pt_pt": "Suficiência sobre excesso.",
+            "real_meaning_pt_pt": "O manifesto anti-hustle: Suficiência sobre excesso. Ser sobre fazer. Presença sobre a ansiedade performativa da corrida."
         },
         {
             "id": "line_21_occ_0",
@@ -973,7 +1003,9 @@ var track_05_data = {
             ],
             "line_index": 15,
             "core_pt": "Desça da esteira.",
-            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba."
+            "real_meaning_pt": "A paz não requer correr: A realização de que você pode sair da esteira, parar a correria, e o mundo não acaba.",
+            "core_pt_pt": "Desce da esteira.",
+            "real_meaning_pt_pt": "A paz não requer correr: A realização de que podes sair da roda, parar o apressar, e o mundo não acaba."
         },
         {
             "id": "line_15_interp",
@@ -1030,7 +1062,9 @@ var track_05_data = {
             ],
             "line_index": 16,
             "core_pt": "Sua identidade inteira desmorona.",
-            "real_meaning_pt": "O mundo do crente se estilhaça: a dor física de Gralha enquanto sua identidade inteira, construída na mentira do Mago, desmorona diante de seus olhos."
+            "real_meaning_pt": "O mundo do crente se estilhaça: a dor física de Gralha enquanto sua identidade inteira, construída na mentira do Mago, desmorona diante de seus olhos.",
+            "core_pt_pt": "A sua identidade inteira desmorona-se.",
+            "real_meaning_pt_pt": "O mundo do crente desmorona-se: a dor física de Gralha, enquanto toda a sua identidade, construída sobre a mentira do Mago, se desmorona diante dos seus olhos."
         },
         {
             "id": "line_22_occ_0",
@@ -1087,7 +1121,9 @@ var track_05_data = {
             ],
             "line_index": 17,
             "core_pt": "A verdade sempre foi imutável.",
-            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo."
+            "real_meaning_pt": "A verdade é estacionária: a pedra não se moveu. A realidade fundamental sempre esteve disponível para qualquer pessoa disposta a parar e olhar para baixo.",
+            "core_pt_pt": "A verdade sempre esteve parada.",
+            "real_meaning_pt_pt": "A verdade é imóvel: a pedra não se mexeu. A realidade fundamental estava sempre disponível para quem estivesse disposto a parar e olhar para baixo."
         },
         {
             "id": "line_16_occ_0",
@@ -1229,7 +1265,9 @@ var track_05_data = {
             ],
             "line_index": 19,
             "core_pt": "Mais pessoas deixam o isqueiro vazio cair.",
-            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo."
+            "real_meaning_pt": "O despertar: mais pessoas enxergando através da ilusão, largando seus isqueiros de plástico vazios e encontrando seu próprio fogo.",
+            "core_pt_pt": "Mais pessoas deixam cair o isqueiro vazio.",
+            "real_meaning_pt_pt": "O despertar: Mais pessoas a verem através da ilusão, a deixarem os seus isqueiros de plástico vazios e a encontrarem o seu próprio fogo."
         },
         {
             "id": "instrumental_5",
@@ -1259,7 +1297,9 @@ var track_05_data = {
             ],
             "line_index": 20,
             "core_pt": "Fogo real não precisa de seguidores.",
-            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
+            "real_meaning_pt": "A persistência da verdade: O fogo real não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza.",
+            "core_pt_pt": "Fogo verdadeiro não precisa de seguidores.",
+            "real_meaning_pt_pt": "A persistência da verdade: O fogo verdadeiro não precisa de seguidores ou crentes para funcionar. Ele simplesmente obedece às leis da natureza."
         },
         {
             "id": "line_24_occ_2",
@@ -1311,7 +1351,9 @@ var track_05_data = {
             ],
             "line_index": 21,
             "core_pt": "O poder sempre foi nosso.",
-            "real_meaning_pt": "A mensagem central: O poder nunca esteve na ferramenta com marca, no algoritmo ou na elite. O fogo sempre foi nosso."
+            "real_meaning_pt": "A mensagem central: O poder nunca esteve na ferramenta com marca, no algoritmo ou na elite. O fogo sempre foi nosso.",
+            "core_pt_pt": "O poder sempre foi nosso.",
+            "real_meaning_pt_pt": "A mensagem central: O poder nunca esteve na ferramenta com marca, no algoritmo ou na elite. O fogo sempre foi nosso."
         }
     ],
     "beat_times": [

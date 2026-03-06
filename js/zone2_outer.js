@@ -214,6 +214,21 @@ const Zone2Outer = (() => {
         }, 300);
     }
 
+    // Flash side panels when core word materializes
+    let lastFlashTime = 0;
+    function flashPanels() {
+        const now = performance.now();
+        if (now - lastFlashTime < 400) return; // debounce 400ms
+        lastFlashTime = now;
+        ['left', 'right'].forEach(side => {
+            const el = document.getElementById(`side-panel-${side}`);
+            if (!el) return;
+            el.classList.remove('side-panel-flash');
+            void el.offsetWidth; // force reflow to restart animation
+            el.classList.add('side-panel-flash');
+        });
+    }
+
     function reset() {
         lastBarUrls = {};
         lastSidePanelUrls = {};
@@ -246,5 +261,5 @@ const Zone2Outer = (() => {
     }
 
     return { init, updateBars, updateMeaning, applyBeatPulse, applyEnergy,
-             updateBurst, onSectionChange, chorusPulse, reset };
+             updateBurst, onSectionChange, chorusPulse, flashPanels, reset };
 })();

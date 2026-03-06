@@ -845,6 +845,21 @@ header p {
     padding: 6px 14px;
 }
 
+/* Landscape mobile — shrink meaning panel so lyrics aren't pushed off */
+@media (max-height: 500px) and (orientation: landscape) {
+    #meaning-panel {
+        max-height: 60px;
+        min-height: 0;
+        flex-shrink: 1;
+        padding: 4px 10px;
+        overflow: hidden;
+        font-size: 0.75rem;
+    }
+    #lyrics-display {
+        padding-bottom: 5%;
+    }
+}
+
 /* ═══════════════════════════════════════════════════════════════
    BURST OVERLAY — disabled (feature not in use)
    ═══════════════════════════════════════════════════════════════ */

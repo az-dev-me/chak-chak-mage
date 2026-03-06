@@ -68,7 +68,9 @@ var track_01_T1_2_3b_data = {
             "core": "You stumble into power.",
             "line_index": 0,
             "core_pt": "Você tropeça no poder.",
-            "real_meaning_pt": "A gênese acidental: Você não escolhe mudar o mundo. Você tropeça em uma cabine telefônica que pintou de verde porque parecia legal, aperta um botão e nada nunca mais é o mesmo."
+            "real_meaning_pt": "A gênese acidental: Você não escolhe mudar o mundo. Você tropeça em uma cabine telefônica que pintou de verde porque parecia legal, aperta um botão e nada nunca mais é o mesmo.",
+            "core_pt_pt": "Tu tropeças no poder.",
+            "real_meaning_pt_pt": "A gênese acidental: Não escolhes mudar o mundo. Tropeças num telefone público que pintaste de verde porque parecia fixe, carregas num botão e nada volta a ser igual."
         },
         {
             "id": "line_1_occ_0",
@@ -130,7 +132,9 @@ var track_01_T1_2_3b_data = {
             "core": "Every brand is a painted box.",
             "line_index": 1,
             "core_pt": "Cada marca é uma caixa pintada.",
-            "real_meaning_pt": "Vestimos o cotidiano como extraordinário. Uma cabine telefônica se torna uma máquina do tempo porque decidimos que deveria. Todo produto, toda marca, toda ideologia é apenas uma caixa pintada."
+            "real_meaning_pt": "Vestimos o cotidiano como extraordinário. Uma cabine telefônica se torna uma máquina do tempo porque decidimos que deveria. Todo produto, toda marca, toda ideologia é apenas uma caixa pintada.",
+            "core_pt_pt": "Cada marca é uma caixa pintada.",
+            "real_meaning_pt_pt": "Vestimos o vulgar como extraordinário. Uma cabina telefónica torna-se uma máquina do tempo porque decidimos que assim deve ser. Cada produto, cada marca, cada ideologia é apenas uma caixa pintada."
         },
         {
             "id": "line_2_occ_0",
@@ -192,7 +196,9 @@ var track_01_T1_2_3b_data = {
             "core": "We act first, explain never.",
             "line_index": 2,
             "core_pt": "Nós agimos primeiro, explicamos nunca.",
-            "real_meaning_pt": "A confissão honesta: A maioria das revoluções começa sem um manifesto. Agimos e depois inventamos a história mais tarde. 'Por que você fez isso?' 'Não sei. Pareceu divertido."
+            "real_meaning_pt": "A confissão honesta: A maioria das revoluções começa sem um manifesto. Agimos e depois inventamos a história mais tarde. 'Por que você fez isso?' 'Não sei. Pareceu divertido.",
+            "core_pt_pt": "Nós agimos primeiro, nunca explicamos.",
+            "real_meaning_pt_pt": "A confissão honesta: A maioria das revoluções começa sem um manifesto. Agimos, e depois inventamos a história mais tarde. 'Por que o fizeste?' 'Não sei. Pareceu-me divertido.'"
         },
         {
             "id": "line_3_occ_0",
@@ -259,7 +265,9 @@ var track_01_T1_2_3b_data = {
             "core": "Every empire starts with something stupid.",
             "line_index": 3,
             "core_pt": "Todo império começa com algo idiota.",
-            "real_meaning_pt": "A faísca trivial: Todo império começa com alguém querendo algo bobo. O fogo não foi descoberto pela filosofia — foi descoberto porque alguém estava com frio e com fome."
+            "real_meaning_pt": "A faísca trivial: Todo império começa com alguém querendo algo bobo. O fogo não foi descoberto pela filosofia — foi descoberto porque alguém estava com frio e com fome.",
+            "core_pt_pt": "Todo o império começa com algo estúpido.",
+            "real_meaning_pt_pt": "A faísca trivial: Todo o império começa com alguém a querer algo estúpido. O fogo não foi descoberto para a filosofia — foi descoberto porque alguém estava com frio e com fome."
         },
         {
             "id": "line_4_occ_0",
@@ -316,7 +324,9 @@ var track_01_T1_2_3b_data = {
             "core": "Wonder dies at convenience.",
             "line_index": 4,
             "core_pt": "O espanto morre na conveniência.",
-            "real_meaning_pt": "Turismo casual do sagrado: reduzimos o extraordinário à conveniência. 'Verei um milagre antes do almoço, depois tomarei um latte.' Assim, a maravilha morre."
+            "real_meaning_pt": "Turismo casual do sagrado: reduzimos o extraordinário à conveniência. 'Verei um milagre antes do almoço, depois tomarei um latte.' Assim, a maravilha morre.",
+            "core_pt_pt": "A maravilha morre com a conveniência.",
+            "real_meaning_pt_pt": "Turismo casual do sagrado: Reduzimos o extraordinário à conveniência. 'Vou ver um milagre antes do almoço, depois vou tomar um latte.' Assim é que a maravilha morre."
         },
         {
             "id": "line_5_occ_0",
@@ -368,7 +378,9 @@ var track_01_T1_2_3b_data = {
             "core": "When entertainment becomes real.",
             "line_index": 5,
             "core_pt": "Quando o entretenimento se torna real.",
-            "real_meaning_pt": "O momento em que a realidade olha de volta: Quando o que você achava que era entretenimento se torna perigosamente real. O dinossauro não se importa com seu itinerário."
+            "real_meaning_pt": "O momento em que a realidade olha de volta: Quando o que você achava que era entretenimento se torna perigosamente real. O dinossauro não se importa com seu itinerário.",
+            "core_pt_pt": "Quando o entretenimento se torna real.",
+            "real_meaning_pt_pt": "O momento em que a realidade te olha de frente: Quando o que pensavas ser entretenimento se torna perigosamente real. O dinossauro não se importa com o teu itinerário."
         },
         {
             "id": "line_6_occ_0_s0",
@@ -489,7 +501,9 @@ var track_01_T1_2_3b_data = {
             "core": "The world before the filter.",
             "line_index": 7,
             "core_pt": "O mundo antes do filtro.",
-            "real_meaning_pt": "A imersão primordial: Antes da linguagem, antes do significado, há a sensação. Chuva na pele, fumaça nos pulmões, escuridão pressionando. Este é o mundo antes do filtro."
+            "real_meaning_pt": "A imersão primordial: Antes da linguagem, antes do significado, há a sensação. Chuva na pele, fumaça nos pulmões, escuridão pressionando. Este é o mundo antes do filtro.",
+            "core_pt_pt": "O mundo antes do filtro.",
+            "real_meaning_pt_pt": "A imersão primordial: Antes da linguagem, antes do significado, há a sensação. Chuva na pele, fumo nos pulmões, escuridão a pressionar. Este é o mundo antes do filtro."
         },
         {
             "id": "line_8_occ_0",
@@ -556,7 +570,9 @@ var track_01_T1_2_3b_data = {
             "core": "Raw humanity. No followers.",
             "line_index": 8,
             "core_pt": "Humanidade bruta. Sem seguidores.",
-            "real_meaning_pt": "O encontro com a humanidade crua: Antes do branding, antes dos currículos, antes dos seguidores, um ser humano, desesperado, real, sem filtros. Esquecemos como é isso."
+            "real_meaning_pt": "O encontro com a humanidade crua: Antes do branding, antes dos currículos, antes dos seguidores, um ser humano, desesperado, real, sem filtros. Esquecemos como é isso.",
+            "core_pt_pt": "Humanidade crua. Sem seguidores.",
+            "real_meaning_pt_pt": "O encontro com a humanidade crua: Antes do branding, antes dos currículos, antes dos seguidores, um ser humano, desesperado, real, sem filtros. Esquecemo-nos de como é isso."
         },
         {
             "id": "line_9_occ_0",
@@ -613,7 +629,9 @@ var track_01_T1_2_3b_data = {
             "core": "Life without tools or thought.",
             "line_index": 9,
             "core_pt": "Vida sem ferramentas ou pensamento.",
-            "real_meaning_pt": "O desespero dos impotentes: Antes do isqueiro, o fogo era uma batalha diária. Imagine lutar pelo calor todas as noites. Essa é a vida sem ferramentas e sem pensamento crítico."
+            "real_meaning_pt": "O desespero dos impotentes: Antes do isqueiro, o fogo era uma batalha diária. Imagine lutar pelo calor todas as noites. Essa é a vida sem ferramentas e sem pensamento crítico.",
+            "core_pt_pt": "Vida sem ferramentas ou pensamento.",
+            "real_meaning_pt_pt": "A desesperação dos desamparados: Antes do isqueiro, o fogo era uma batalha diária. Imagina lutar pelo calor todas as noites. É assim a vida sem ferramentas, e sem pensamento crítico."
         },
         {
             "id": "line_10_occ_0",
@@ -665,7 +683,9 @@ var track_01_T1_2_3b_data = {
             "core": "The mask fuses to your face.",
             "line_index": 10,
             "core_pt": "A máscara funde ao seu rosto.",
-            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto."
+            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto.",
+            "core_pt_pt": "A máscara funde-se ao teu rosto.",
+            "real_meaning_pt_pt": "A armadilha aprofunda-se: Disseste-o uma vez e foi honesto. Agora repetes-o e está a tornar-se a tua identidade. O acidente está a tornar-se o teu destino. A máscara está a fundir-se à tua cara."
         },
         {
             "id": "line_11_occ_0",
@@ -722,7 +742,9 @@ var track_01_T1_2_3b_data = {
             "core": "The platform won't let you leave.",
             "line_index": 11,
             "core_pt": "A plataforma não deixa você sair.",
-            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair."
+            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair.",
+            "core_pt_pt": "A plataforma não te deixa sair.",
+            "real_meaning_pt_pt": "A segunda realidade do coro: Isto já não é giro. A falta de consentimento é real agora. Eles precisam de ti. Eles exigem-te. A plataforma não te vai deixar sair."
         },
         {
             "id": "line_12_occ_0",
@@ -789,7 +811,9 @@ var track_01_T1_2_3b_data = {
             "core": "The creator becomes the servant.",
             "line_index": 12,
             "core_pt": "O criador se torna o servo.",
-            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo."
+            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo.",
+            "core_pt_pt": "O criador torna-se o servo.",
+            "real_meaning_pt_pt": "A armadilha da obrigação: As pedras são esquecidas. O propósito original está morto. Agora serves a máquina que acidentalmente construíste. O criador torna-se o servo."
         },
         {
             "id": "line_13_occ_0",
@@ -841,7 +865,9 @@ var track_01_T1_2_3b_data = {
             "core": "Others own your narrative now.",
             "line_index": 13,
             "core_pt": "Agora, outros possuem sua narrativa.",
-            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa."
+            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa.",
+            "core_pt_pt": "Outros já têm o controlo da tua narrativa.",
+            "real_meaning_pt_pt": "Inevitabilidade escalada: A história já tem o seu próprio impulso. Outros estão a escrevê-la por ti. Os comentários, as expectativas, os seguidores, eles é que têm o controle da narrativa."
         },
         {
             "id": "line_14_occ_0",
@@ -893,7 +919,9 @@ var track_01_T1_2_3b_data = {
             "core": "Spontaneity becomes obligation.",
             "line_index": 14,
             "core_pt": "Espontaneidade se torna obrigação.",
-            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia."
+            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia.",
+            "core_pt_pt": "A espontaneidade torna-se obrigação.",
+            "real_meaning_pt_pt": "O ritual solidifica-se: O que era espontâneo passa a ser esperado. O chak-chak já não é uma surpresa, é uma performance. O isqueiro é uma liturgia."
         },
         {
             "id": "line_15_occ_0",
@@ -955,7 +983,9 @@ var track_01_T1_2_3b_data = {
             "core": "The person behind the profile is gone.",
             "line_index": 15,
             "core_pt": "A pessoa por trás do perfil se foi.",
-            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir."
+            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir.",
+            "core_pt_pt": "A pessoa por trás do perfil desapareceu.",
+            "real_meaning_pt_pt": "A rendição final: A tua antiga identidade desapareceu. Tu és O Mago agora. Tu és a marca. A pessoa por trás da foto de perfil deixou de existir."
         },
         {
             "id": "line_16_occ_0",
@@ -1027,7 +1057,9 @@ var track_01_T1_2_3b_data = {
             "core": "Why think when someone has answers?",
             "line_index": 16,
             "core_pt": "Por que pensar quando alguém tem respostas?",
-            "real_meaning_pt": "A primeira conversão: O momento em que o crente descarta suas próprias ferramentas. Por que usar um graveto quando alguém tem um isqueiro? Por que pensar quando alguém tem as respostas?"
+            "real_meaning_pt": "A primeira conversão: O momento em que o crente descarta suas próprias ferramentas. Por que usar um graveto quando alguém tem um isqueiro? Por que pensar quando alguém tem as respostas?",
+            "core_pt_pt": "Por que pensar quando alguém tem respostas?",
+            "real_meaning_pt_pt": "A primeira conversão: O momento em que o crente se despoja das suas próprias ferramentas. Para que usar uma vara quando alguém tem um isqueiro? Para que pensar quando alguém tem as respostas?"
         },
         {
             "id": "line_17_occ_0",
@@ -1084,7 +1116,9 @@ var track_01_T1_2_3b_data = {
             "core": "We worship the logo, not the thing.",
             "line_index": 17,
             "core_pt": "Nós adoramos o logotipo, não a coisa.",
-            "real_meaning_pt": "Marca como divindade: Gralha não entende o suéter, ele adora o logo. Não entendemos o iPhone, adoramos a Apple. O símbolo substitui a substância."
+            "real_meaning_pt": "Marca como divindade: Gralha não entende o suéter, ele adora o logo. Não entendemos o iPhone, adoramos a Apple. O símbolo substitui a substância.",
+            "core_pt_pt": "Nós adoramos o logótipo, não a coisa.",
+            "real_meaning_pt_pt": "Branding como divindade: a Gralha não percebe o suéter, adora o logótipo. Não percebemos o iPhone, adoramos a Apple. O símbolo substitui a substância."
         },
         {
             "id": "line_18_occ_0",
@@ -1146,7 +1180,9 @@ var track_01_T1_2_3b_data = {
             "core": "Show me the trick again.",
             "line_index": 18,
             "core_pt": "Mostre o truque novamente.",
-            "real_meaning_pt": "A demanda por magia: 'Mostre o truque novamente.' O consumidor não quer entender, ele quer se maravilhar. Repita o milagre. Faça fogo. De novo."
+            "real_meaning_pt": "A demanda por magia: 'Mostre o truque novamente.' O consumidor não quer entender, ele quer se maravilhar. Repita o milagre. Faça fogo. De novo.",
+            "core_pt_pt": "Mostra-me o truque outra vez.",
+            "real_meaning_pt_pt": "A procura de magia: 'Mostra-me o truque outra vez.' O consumidor não quer compreender, quer ficar espantado. Repete o milagre. Faz fogo. Outra vez."
         },
         {
             "id": "line_19_occ_0",
@@ -1208,7 +1244,9 @@ var track_01_T1_2_3b_data = {
             "core": "Two clicks. Sale made.",
             "line_index": 19,
             "core_pt": "Dois cliques. Venda realizada.",
-            "real_meaning_pt": "A demonstração do produto: dois cliques. É só isso. A multidão fica em silêncio. A venda é fechada. A conversão é completa. Ninguém pergunta como funciona."
+            "real_meaning_pt": "A demonstração do produto: dois cliques. É só isso. A multidão fica em silêncio. A venda é fechada. A conversão é completa. Ninguém pergunta como funciona.",
+            "core_pt_pt": "Dois cliques. Venda feita.",
+            "real_meaning_pt_pt": "A demonstração do produto: dois cliques. É só isso. A multidão fica em silêncio. A venda é feita. A conversão está completa. Ninguém pergunta como é que funciona."
         },
         {
             "id": "line_20_occ_0",
@@ -1255,7 +1293,9 @@ var track_01_T1_2_3b_data = {
             "core": "The first retweet.",
             "line_index": 20,
             "core_pt": "O primeiro retweet.",
-            "real_meaning_pt": "O momento viral primordial: Antes que a linguagem tivesse nuances, o grito era o botão de compartilhar. 'UUUGA BOOGAH' é o primeiro retweet, o primeiro 'NÃO ACREDITO, VOCÊ TEM QUE VER ISSO'."
+            "real_meaning_pt": "O momento viral primordial: Antes que a linguagem tivesse nuances, o grito era o botão de compartilhar. 'UUUGA BOOGAH' é o primeiro retweet, o primeiro 'NÃO ACREDITO, VOCÊ TEM QUE VER ISSO'.",
+            "core_pt_pt": "O primeiro retweet.",
+            "real_meaning_pt_pt": "O momento viral primordial: Antes de a linguagem ter nuance, o grito era o botão de partilhar. 'UUUGA BOOGAH' é o primeiro retweet, o primeiro 'OMG tens de ver isto'."
         },
         {
             "id": "line_21_occ_0",
@@ -1317,7 +1357,9 @@ var track_01_T1_2_3b_data = {
             "core": "Every genius is first called crazy.",
             "line_index": 21,
             "core_pt": "Todo gênio é primeiro chamado de louco.",
-            "real_meaning_pt": "O enquadramento do gênio como loucura: Todo inovador é primeiro chamado de louco. Todo profeta é primeiro chamado de louco. A tradução está sempre errada, mas não importa, eles vêm de qualquer maneira."
+            "real_meaning_pt": "O enquadramento do gênio como loucura: Todo inovador é primeiro chamado de louco. Todo profeta é primeiro chamado de louco. A tradução está sempre errada, mas não importa, eles vêm de qualquer maneira.",
+            "core_pt_pt": "Todo o génio é primeiro chamado de doido.",
+            "real_meaning_pt_pt": "O enquadramento do génio como loucura: Todo o inovador é primeiro chamado de louco. Todo o profeta é primeiro chamado de doido. A tradução está sempre errada, mas não interessa, eles vêm de qualquer maneira."
         },
         {
             "id": "line_22_occ_0",
@@ -1384,7 +1426,9 @@ var track_01_T1_2_3b_data = {
             "core": "Five minutes to form a religion.",
             "line_index": 22,
             "core_pt": "Cinco minutos para formar uma religião.",
-            "real_meaning_pt": "A velocidade da adoração: cinco minutos. É assim de rápido que uma religião se forma. É assim de rápido que um produto viraliza. É assim de rápido que uma multidão se reúne."
+            "real_meaning_pt": "A velocidade da adoração: cinco minutos. É assim de rápido que uma religião se forma. É assim de rápido que um produto viraliza. É assim de rápido que uma multidão se reúne.",
+            "core_pt_pt": "Cinco minutos para formar uma religião.",
+            "real_meaning_pt_pt": "A velocidade da adoração: cinco minutos. É assim de rápido que se forma uma religião. É assim de rápido que um produto se torna viral. É assim de rápido que um grupo se forma."
         },
         {
             "id": "line_23_occ_0",
@@ -1441,7 +1485,9 @@ var track_01_T1_2_3b_data = {
             "core": "Mouths open, brains off.",
             "line_index": 23,
             "core_pt": "Bocas abertas, cérebros desligados.",
-            "real_meaning_pt": "O silêncio da rendição: Quando o público para de falar e começa a consumir. O rolar. A maratona. O sermão. Bocas abertas, cérebros desligados, cartões de crédito prontos."
+            "real_meaning_pt": "O silêncio da rendição: Quando o público para de falar e começa a consumir. O rolar. A maratona. O sermão. Bocas abertas, cérebros desligados, cartões de crédito prontos.",
+            "core_pt_pt": "Bocas abertas, cérebros desligados.",
+            "real_meaning_pt_pt": "O silêncio da rendição: Quando o público deixa de falar e começa a consumir. O desfile. O consumo excessivo. O sermão. Bocas abertas, cérebros desligados, cartões de crédito prontos."
         },
         {
             "id": "line_24_occ_0",
@@ -1503,7 +1549,9 @@ var track_01_T1_2_3b_data = {
             "core": "The mask fuses to your face.",
             "line_index": 24,
             "core_pt": "A máscara funde ao seu rosto.",
-            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto."
+            "real_meaning_pt": "A armadilha se aprofunda: Você disse uma vez e foi honesto. Agora você diz novamente e está se tornando sua identidade. O acidente está se tornando seu destino. A máscara está se fundindo ao seu rosto.",
+            "core_pt_pt": "A máscara funde-se ao teu rosto.",
+            "real_meaning_pt_pt": "A armadilha aprofunda-se: Disseste-o uma vez e foi honesto. Agora repetes-o e está a tornar-se a tua identidade. O acidente está a tornar-se o teu destino. A máscara está a fundir-se à tua cara."
         },
         {
             "id": "line_25_occ_0",
@@ -1560,7 +1608,9 @@ var track_01_T1_2_3b_data = {
             "core": "The platform won't let you leave.",
             "line_index": 25,
             "core_pt": "A plataforma não deixa você sair.",
-            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair."
+            "real_meaning_pt": "A segunda realidade do coro: Isso não é mais fofo. A falta de consentimento é real agora. Eles precisam de você. Eles exigem você. A plataforma não vai deixar você sair.",
+            "core_pt_pt": "A plataforma não te deixa sair.",
+            "real_meaning_pt_pt": "A segunda realidade do coro: Isto já não é giro. A falta de consentimento é real agora. Eles precisam de ti. Eles exigem-te. A plataforma não te vai deixar sair."
         },
         {
             "id": "line_26_occ_0",
@@ -1627,7 +1677,9 @@ var track_01_T1_2_3b_data = {
             "core": "The creator becomes the servant.",
             "line_index": 26,
             "core_pt": "O criador se torna o servo.",
-            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo."
+            "real_meaning_pt": "A armadilha da obrigação: As rochas são esquecidas. O propósito original está morto. Agora você serve a máquina que acidentalmente construiu. O criador se torna o servo.",
+            "core_pt_pt": "O criador torna-se o servo.",
+            "real_meaning_pt_pt": "A armadilha da obrigação: As pedras são esquecidas. O propósito original está morto. Agora serves a máquina que acidentalmente construíste. O criador torna-se o servo."
         },
         {
             "id": "line_27_occ_0",
@@ -1679,7 +1731,9 @@ var track_01_T1_2_3b_data = {
             "core": "Others own your narrative now.",
             "line_index": 27,
             "core_pt": "Agora, outros possuem sua narrativa.",
-            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa."
+            "real_meaning_pt": "Escalada inevitável: A história agora tem impulso. Outros estão escrevendo para você. Os comentários, as expectativas, os seguidores, eles possuem a narrativa.",
+            "core_pt_pt": "Outros já têm o controlo da tua narrativa.",
+            "real_meaning_pt_pt": "Inevitabilidade escalada: A história já tem o seu próprio impulso. Outros estão a escrevê-la por ti. Os comentários, as expectativas, os seguidores, eles é que têm o controle da narrativa."
         },
         {
             "id": "line_28_occ_0",
@@ -1731,7 +1785,9 @@ var track_01_T1_2_3b_data = {
             "core": "Spontaneity becomes obligation.",
             "line_index": 28,
             "core_pt": "Espontaneidade se torna obrigação.",
-            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia."
+            "real_meaning_pt": "O ritual se solidifica: o que era espontâneo agora é esperado. O chak-chak não é mais uma surpresa, é uma apresentação. O isqueiro é uma liturgia.",
+            "core_pt_pt": "A espontaneidade torna-se obrigação.",
+            "real_meaning_pt_pt": "O ritual solidifica-se: O que era espontâneo passa a ser esperado. O chak-chak já não é uma surpresa, é uma performance. O isqueiro é uma liturgia."
         },
         {
             "id": "line_29_occ_0",
@@ -1813,7 +1869,9 @@ var track_01_T1_2_3b_data = {
             "core": "The person behind the profile is gone.",
             "line_index": 29,
             "core_pt": "A pessoa por trás do perfil se foi.",
-            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir."
+            "real_meaning_pt": "A rendição final: Sua antiga identidade se foi. Você é O Mago agora. Você é a marca. A pessoa por trás da foto do perfil deixou de existir.",
+            "core_pt_pt": "A pessoa por trás do perfil desapareceu.",
+            "real_meaning_pt_pt": "A rendição final: A tua antiga identidade desapareceu. Tu és O Mago agora. Tu és a marca. A pessoa por trás da foto de perfil deixou de existir."
         },
         {
             "id": "line_30_occ_0",
@@ -1890,7 +1948,9 @@ var track_01_T1_2_3b_data = {
             "core": "What have I become?",
             "line_index": 30,
             "core_pt": "O que eu me tornei?",
-            "real_meaning_pt": "A devastadora pergunta: Não se trata de geografia. Trata-se de identidade. Onde estou? O que me tornei? É esta a minha vida agora? A pergunta que todo ser humano faz quando percebe que tem andado sonâmbulo na história de outra pessoa."
+            "real_meaning_pt": "A devastadora pergunta: Não se trata de geografia. Trata-se de identidade. Onde estou? O que me tornei? É esta a minha vida agora? A pergunta que todo ser humano faz quando percebe que tem andado sonâmbulo na história de outra pessoa.",
+            "core_pt_pt": "O que é que eu me tornei?",
+            "real_meaning_pt_pt": "A devastadora questão: Não é sobre geografia. É sobre identidade. Onde estou? O que me tornei? É esta a minha vida agora? A pergunta que todo o ser humano faz quando se apercebe de que tem andado a dormir e a sonhar a vida de outra pessoa."
         }
     ],
     "beat_times": [

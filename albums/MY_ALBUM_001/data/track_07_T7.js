@@ -63,7 +63,9 @@ var track_07_T7_data = {
             ],
             "line_index": 0,
             "core_pt": "O bilionário se retira para o bunker.",
-            "real_meaning_pt": "A estratégia de saída da elite: o bilionário se retira para o bunker, o CEO se aposenta com um paraquedas dourado enquanto o sistema queima."
+            "real_meaning_pt": "A estratégia de saída da elite: o bilionário se retira para o bunker, o CEO se aposenta com um paraquedas dourado enquanto o sistema queima.",
+            "core_pt_pt": "O bilionário recolhe-se ao bunker.",
+            "real_meaning_pt_pt": "A estratégia de saída da elite: o bilionário recua para o bunker, o CEO sai com um paraquedas de ouro enquanto o sistema arde."
         },
         {
             "id": "line_1_occ_0",
@@ -115,7 +117,9 @@ var track_07_T7_data = {
             ],
             "line_index": 1,
             "core_pt": "Leve apenas o que é real.",
-            "real_meaning_pt": "Tomando apenas o que é real: O Mago pega o ouriço (Revolução)—o único elemento autêntico e natural em meio à total artifício."
+            "real_meaning_pt": "Tomando apenas o que é real: O Mago pega o ouriço (Revolução)—o único elemento autêntico e natural em meio à total artifício.",
+            "core_pt_pt": "Leva apenas o que é real.",
+            "real_meaning_pt_pt": "A pegar apenas o que é real: O Mago apanha o ouriço (Revolução)—o único elemento autêntico e natural no meio de tanta artifício."
         },
         {
             "id": "line_2_occ_0",
@@ -182,7 +186,9 @@ var track_07_T7_data = {
             ],
             "line_index": 2,
             "core_pt": "A culpa de deixar o caos.",
-            "real_meaning_pt": "O olhar para trás do arrependimento: a mulher de Ló, o retrovisor. A culpa momentânea de deixar o caos que você pessoalmente engenhou."
+            "real_meaning_pt": "O olhar para trás do arrependimento: a mulher de Ló, o retrovisor. A culpa momentânea de deixar o caos que você pessoalmente engenhou.",
+            "core_pt_pt": "A culpa de deixar o caos.",
+            "real_meaning_pt_pt": "O olhar para trás do arrependimento: a mulher de Ló, o espelho retrovisor. A culpa momentânea de deixar o caos que pessoalmente engendraste."
         },
         {
             "id": "line_3_occ_0",
@@ -244,7 +250,9 @@ var track_07_T7_data = {
             ],
             "line_index": 3,
             "core_pt": "Todo mundo brigando por nada.",
-            "real_meaning_pt": "O cenário moderno das redes sociais: Todo mundo lutando ferozmente, entusiasticamente e viciosamente por coisas que, fundamentalmente, não importam."
+            "real_meaning_pt": "O cenário moderno das redes sociais: Todo mundo lutando ferozmente, entusiasticamente e viciosamente por coisas que, fundamentalmente, não importam.",
+            "core_pt_pt": "Todos a discutir por nada.",
+            "real_meaning_pt_pt": "O panorama atual das redes sociais: todos a lutar ferozmente, entusiasticamente e viciosamente por coisas que, no fundo, não importam."
         },
         {
             "id": "line_4_occ_0",
@@ -316,7 +324,9 @@ var track_07_T7_data = {
             ],
             "line_index": 4,
             "core_pt": "Realmente jogando fora a ilusão.",
-            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso."
+            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso.",
+            "core_pt_pt": "A verdadeira ilusão a deitar fora.",
+            "real_meaning_pt_pt": "A rendição final: Desistir completamente da ilusão. Não uma libertação estratégica, mas uma rejeição total do poder falso."
         },
         {
             "id": "line_5_occ_0",
@@ -383,7 +393,9 @@ var track_07_T7_data = {
             ],
             "line_index": 5,
             "core_pt": "Uma nova Gralha sempre pega o objeto brilhante.",
-            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita."
+            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita.",
+            "core_pt_pt": "Uma nova Gralha sempre apanha o objecto brilhante.",
+            "real_meaning_pt_pt": "O ciclo nunca se quebra por completo: mesmo no momento do colapso, uma nova Gralha sempre salta para agarrar o objeto brilhante. A desesperação é infinita."
         },
         {
             "id": "line_6_occ_0",
@@ -455,7 +467,9 @@ var track_07_T7_data = {
             ],
             "line_index": 6,
             "core_pt": "Nova marca, mesmo comportamento.",
-            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para."
+            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para.",
+            "core_pt_pt": "Nova marca, mesmo comportamento.",
+            "real_meaning_pt_pt": "O padrão repete-se sem fim: novo objecto, nova tribo, o mesmo comportamento exacto. A marca do isqueiro muda, mas a corrida cega nunca pára."
         },
         {
             "id": "line_7_occ_0",
@@ -522,7 +536,9 @@ var track_07_T7_data = {
             ],
             "line_index": 7,
             "core_pt": "Ninguém verifica mais o gás.",
-            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico."
+            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico.",
+            "core_pt_pt": "Ninguém verifica o gás.",
+            "real_meaning_pt_pt": "A oco é permanente: o objecto mantém-se teimosamente vazio. Ninguém verifica o gás há muito tempo; limitam-se a defender violentamente o plástico."
         },
         {
             "id": "line_8_occ_0",
@@ -594,7 +610,9 @@ var track_07_T7_data = {
             ],
             "line_index": 8,
             "core_pt": "A bolha estourou. Ninguém percebeu.",
-            "real_meaning_pt": "A bolha estourou: A empresa está falida, o gás acabou, mas os fiéis ainda não perceberam a verdade."
+            "real_meaning_pt": "A bolha estourou: A empresa está falida, o gás acabou, mas os fiéis ainda não perceberam a verdade.",
+            "core_pt_pt": "A bolha rebentou. Ninguém deu por isso.",
+            "real_meaning_pt_pt": "A bolha a estourar: A empresa está falida, o gás acabou, mas os crentes ainda não se deram conta da verdade."
         },
         {
             "id": "line_9_occ_0",
@@ -656,7 +674,9 @@ var track_07_T7_data = {
             ],
             "line_index": 9,
             "core_pt": "O objeto sagrado não tem mais nada.",
-            "real_meaning_pt": "O novo traje do imperador: o objeto sagrado não tem mais nada a oferecer. A promessa sempre foi um vazio completo."
+            "real_meaning_pt": "O novo traje do imperador: o objeto sagrado não tem mais nada a oferecer. A promessa sempre foi um vazio completo.",
+            "core_pt_pt": "O objecto sagrado já não tem nada.",
+            "real_meaning_pt_pt": "As roupas novas do imperador: o objecto sagrado já não tem absolutamente nada para oferecer. A promessa foi sempre um vazio completo."
         },
         {
             "id": "line_10_occ_0",
@@ -713,7 +733,9 @@ var track_07_T7_data = {
             ],
             "line_index": 10,
             "core_pt": "Montanhas de lixo eletrônico. Cascas vazias.",
-            "real_meaning_pt": "Os restos físicos de um significado falso: Montanhas de lixo eletrônico, lixões de moda rápida, as conchas plásticas vazias do nosso consumismo."
+            "real_meaning_pt": "Os restos físicos de um significado falso: Montanhas de lixo eletrônico, lixões de moda rápida, as conchas plásticas vazias do nosso consumismo.",
+            "core_pt_pt": "Montanhas de lixo electrónico. Cascas vazias.",
+            "real_meaning_pt_pt": "Os restos físicos de um significado falso: Montanhas de lixo electrónico, aterros de moda rápida, as conchas vazias de plástico do nosso consumismo."
         },
         {
             "id": "line_11_occ_0",
@@ -785,7 +807,9 @@ var track_07_T7_data = {
             ],
             "line_index": 11,
             "core_pt": "Desconecte-se. Saia. Encontre a saída.",
-            "real_meaning_pt": "Recuar para a cela verde: Desconectando, saindo da rede, recuando para a natureza. Encontrando a porta de saída antes que a civilização desmorone."
+            "real_meaning_pt": "Recuar para a cela verde: Desconectando, saindo da rede, recuando para a natureza. Encontrando a porta de saída antes que a civilização desmorone.",
+            "core_pt_pt": "Desliga-te. Sai para fora. Encontra a saída.",
+            "real_meaning_pt_pt": "Recuar para a célula verde: a desligar, a sair da rede, a recolher-se na natureza. Encontrar a porta de saída antes de a civilização ruir."
         },
         {
             "id": "line_12_occ_0",
@@ -852,7 +876,9 @@ var track_07_T7_data = {
             ],
             "line_index": 12,
             "core_pt": "Segure-se no mundo real.",
-            "real_meaning_pt": "Preservando o analógico: mantendo o bicho de estimação, o jardim, a verdade tangível. Segurando-se ao mundo real 'só por garantia' caso o digital morra."
+            "real_meaning_pt": "Preservando o analógico: mantendo o bicho de estimação, o jardim, a verdade tangível. Segurando-se ao mundo real 'só por garantia' caso o digital morra.",
+            "core_pt_pt": "Aguenta-te ao mundo real.",
+            "real_meaning_pt_pt": "Preservar o analógico: Manter o animal de estimação, o jardim, a verdade tangível. Segurar-se ao mundo real 'só por garantia' caso o digital morra."
         },
         {
             "id": "line_13_occ_0",
@@ -919,7 +945,9 @@ var track_07_T7_data = {
             ],
             "line_index": 13,
             "core_pt": "O momento em que a magia morre.",
-            "real_meaning_pt": "O momento em que a magia morre: a realização coletiva da traição nos rostos dos seguidores quando a ilusão finalmente se quebra."
+            "real_meaning_pt": "O momento em que a magia morre: a realização coletiva da traição nos rostos dos seguidores quando a ilusão finalmente se quebra.",
+            "core_pt_pt": "O momento em que a magia morre.",
+            "real_meaning_pt_pt": "O momento em que a magia morre: A realização coletiva da traição nos rostos dos seguidores quando a ilusão finalmente se quebra."
         },
         {
             "id": "line_14_occ_0",
@@ -986,7 +1014,9 @@ var track_07_T7_data = {
             ],
             "line_index": 14,
             "core_pt": "O desejo de desfazer todo o dano.",
-            "real_meaning_pt": "Aperte Ctrl+Z na civilização: O intenso desejo de desfazer o dano, de voltar a um tempo em que não trocamos nossa humanidade pela conveniência."
+            "real_meaning_pt": "Aperte Ctrl+Z na civilização: O intenso desejo de desfazer o dano, de voltar a um tempo em que não trocamos nossa humanidade pela conveniência.",
+            "core_pt_pt": "O desejo de desfazer todo o mal causado.",
+            "real_meaning_pt_pt": "Premir Ctrl+Z na civilização: O intenso desejo de desfazer os danos, de regressar a um tempo em que não trocámos a nossa humanidade pela conveniência."
         },
         {
             "id": "line_15_occ_0",
@@ -1053,7 +1083,9 @@ var track_07_T7_data = {
             ],
             "line_index": 15,
             "core_pt": "Deixando-os falharem e se queimarem.",
-            "real_meaning_pt": "Culpa do sobrevivente: o pesado fardo do escapista, sabendo que está deixando o resto da tribo para se destruir no seu sistema."
+            "real_meaning_pt": "Culpa do sobrevivente: o pesado fardo do escapista, sabendo que está deixando o resto da tribo para se destruir no seu sistema.",
+            "core_pt_pt": "Deixá-los a falhar.",
+            "real_meaning_pt_pt": "Culpa do sobrevivente: O pesado fardo do escapista, sabendo que estás a deixar o resto da tribo a desmoronar-se e a arder no teu sistema."
         },
         {
             "id": "line_16_interp",
@@ -1115,7 +1147,9 @@ var track_07_T7_data = {
             ],
             "line_index": 16,
             "core_pt": "Realmente jogando fora a ilusão.",
-            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso."
+            "real_meaning_pt": "A rendição final: Realmente jogar fora a ilusão. Não uma liberação estratégica, mas uma rejeição completa do poder falso.",
+            "core_pt_pt": "A verdadeira ilusão a deitar fora.",
+            "real_meaning_pt_pt": "A rendição final: Desistir completamente da ilusão. Não uma libertação estratégica, mas uma rejeição total do poder falso."
         },
         {
             "id": "line_17_occ_0",
@@ -1192,7 +1226,9 @@ var track_07_T7_data = {
             ],
             "line_index": 17,
             "core_pt": "Uma nova Gralha sempre pega o objeto brilhante.",
-            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita."
+            "real_meaning_pt": "O ciclo nunca se quebra completamente: Mesmo no momento do colapso, uma nova Gralha sempre pula para pegar o objeto brilhante. A desesperação é infinita.",
+            "core_pt_pt": "Uma nova Gralha sempre apanha o objecto brilhante.",
+            "real_meaning_pt_pt": "O ciclo nunca se quebra por completo: mesmo no momento do colapso, uma nova Gralha sempre salta para agarrar o objeto brilhante. A desesperação é infinita."
         },
         {
             "id": "line_18_occ_0",
@@ -1274,7 +1310,9 @@ var track_07_T7_data = {
             ],
             "line_index": 18,
             "core_pt": "Nova marca, mesmo comportamento.",
-            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para."
+            "real_meaning_pt": "O padrão se repete infinitamente: novo objeto, nova tribo, exatamente o mesmo comportamento. A marca do isqueiro muda, mas a corrida cega nunca para.",
+            "core_pt_pt": "Nova marca, mesmo comportamento.",
+            "real_meaning_pt_pt": "O padrão repete-se sem fim: novo objecto, nova tribo, o mesmo comportamento exacto. A marca do isqueiro muda, mas a corrida cega nunca pára."
         },
         {
             "id": "line_19_occ_0",
@@ -1341,7 +1379,9 @@ var track_07_T7_data = {
             ],
             "line_index": 19,
             "core_pt": "Ninguém verifica mais o gás.",
-            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico."
+            "real_meaning_pt": "O vazio é permanente: o objeto permanece teimosamente vazio. Ninguém verifica mais o gás; eles apenas defendem violentamente o plástico.",
+            "core_pt_pt": "Ninguém verifica o gás.",
+            "real_meaning_pt_pt": "A oco é permanente: o objecto mantém-se teimosamente vazio. Ninguém verifica o gás há muito tempo; limitam-se a defender violentamente o plástico."
         },
         {
             "id": "line_20_occ_0",
@@ -1393,7 +1433,9 @@ var track_07_T7_data = {
             ],
             "line_index": 20,
             "core_pt": "A verdadeira mudança é pequena e espinhosa.",
-            "real_meaning_pt": "Nomeando a Revolução: A verdadeira mudança não é um grande discurso de abertura. É pequeno, espinhoso, te mantém com os pés no chão e morde seus sapatos."
+            "real_meaning_pt": "Nomeando a Revolução: A verdadeira mudança não é um grande discurso de abertura. É pequeno, espinhoso, te mantém com os pés no chão e morde seus sapatos.",
+            "core_pt_pt": "A verdadeira mudança é pequena e espinhosa.",
+            "real_meaning_pt_pt": "Chamar a Revolução: A verdadeira mudança não é um grande e grandioso discurso de abertura. É pequena, espinhosa, faz-te pôr os pés no chão e morde-te os sapatos."
         }
     ],
     "beat_times": [

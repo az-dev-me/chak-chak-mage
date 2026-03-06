@@ -763,6 +763,7 @@ def _split_long_entries(
                 if ci == 0 and not chunk_hidden and entry.hidden_media:
                     chunk_hidden = [entry.hidden_media[0]]
                 chunk_meaning = entry.real_meaning if ci == 0 else ""
+                chunk_core = entry.core if ci == 0 else ""
 
                 result.append(FusedTimelineEntry(
                     id=f"{entry.id}_s{ci}",
@@ -770,6 +771,7 @@ def _split_long_entries(
                     end=chunk_end,
                     lyric=chunk,
                     real_meaning=chunk_meaning,
+                    core=chunk_core,
                     media=chunk_media,
                     hidden_media=chunk_hidden,
                     words=chunk_words,
@@ -866,6 +868,7 @@ def _enforce_minimum_duration(
                     end=new_end,
                     lyric=entry.lyric,
                     real_meaning=entry.real_meaning,
+                    core=entry.core,
                     media=entry.media,
                     hidden_media=entry.hidden_media,
                     words=new_words,
@@ -896,6 +899,7 @@ def _enforce_minimum_duration(
                     end=round(new_end, 3),
                     lyric=entry.lyric,
                     real_meaning=entry.real_meaning,
+                    core=entry.core,
                     media=entry.media,
                     hidden_media=entry.hidden_media,
                     words=new_words,
@@ -933,6 +937,7 @@ def _resolve_overlaps(
                 end=round(new_end, 3),
                 lyric=entry.lyric,
                 real_meaning=entry.real_meaning,
+                core=entry.core,
                 media=entry.media,
                 hidden_media=entry.hidden_media,
                 words=synthesize_words_from_lyric(entry.lyric, entry.start, new_end),
@@ -1207,6 +1212,7 @@ def build_track_object(
                     end=end,
                     lyric=lyric_text,
                     real_meaning=sem_line.get("real_meaning", ""),
+                    core=sem_line.get("core", ""),
                     media=media,
                     hidden_media=hidden_media,
                     words=words,
@@ -1237,6 +1243,7 @@ def build_track_object(
                 end=end,
                 lyric=lyric_text,
                 real_meaning=sem_line.get("real_meaning", ""),
+                core=sem_line.get("core", ""),
                 media=media,
                 hidden_media=hidden_media,
                 words=words,
