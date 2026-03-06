@@ -1007,10 +1007,61 @@ audio.addEventListener('ended', () => {
     if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
         loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
     } else {
-        if (btnPlay) btnPlay.innerText = "\u25B6";
-        if (elCurr) elCurr.innerText = "Experience Complete.";
+        // Album complete — show end screen
+        showEndScreen();
     }
 });
+
+function showEndScreen() {
+    if (btnPlay) btnPlay.innerText = "\u25B6";
+
+    // Set cover image as background
+    Zone1Inner.setImage('img/og-cover.png');
+    Zone3Ambient.setImage('img/og-cover.png');
+
+    // Hide meaning panel
+    if (meaningPanel) {
+        meaningPanel.classList.remove('meaning-visible');
+        meaningPanel.classList.add('meaning-hidden');
+    }
+
+    // Build end screen content
+    const endMessages = {
+        en: {
+            title: 'The fire was always yours.',
+            body: 'This entire experience \u2014 every image, every synced lyric, every hidden narrative \u2014 was built by a human and an AI working as partners. Not the company\u2019s AI working against you. YOUR AI, working WITH you.\n\nThat\u2019s the future worth fighting for: you and your AI driving your success \u2014 not you toiling alongside an AI rigged to replace you.\n\nWake up. Own your tools. Strike the stone.',
+            craft: 'Crafted by AZ \u00d7 Claude',
+            restart: 'Play Again'
+        },
+        pt: {
+            title: 'O fogo sempre foi teu.',
+            body: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA a trabalhar como parceiros. N\u00e3o a IA da empresa a trabalhar contra ti. A TUA IA, a trabalhar CONTIGO.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: tu e a tua IA a impulsionar o teu sucesso \u2014 n\u00e3o tu a trabalhar ao lado de uma IA feita para te substituir.\n\nAcorda. Assume as tuas ferramentas. Bate a pedra.',
+            craft: 'Criado por AZ \u00d7 Claude',
+            restart: 'Ouvir Novamente'
+        },
+        'pt-br': {
+            title: 'O fogo sempre foi seu.',
+            body: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA trabalhando como parceiros. N\u00e3o a IA da empresa trabalhando contra voc\u00ea. A SUA IA, trabalhando COM voc\u00ea.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: voc\u00ea e sua IA impulsionando seu sucesso \u2014 n\u00e3o voc\u00ea trabalhando ao lado de uma IA feita para te substituir.\n\nAcorda. Assuma suas ferramentas. Bata a pedra.',
+            craft: 'Criado por AZ \u00d7 Claude',
+            restart: 'Ouvir Novamente'
+        }
+    };
+
+    const msg = endMessages[LANG] || endMessages.en;
+
+    // Replace inner content with end screen
+    const content = document.getElementById('inner-content');
+    if (!content) return;
+
+    content.innerHTML = `
+        <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:24px;text-align:center;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);">
+            <h2 style="font-family:'Cinzel',serif;font-size:1.6rem;color:#ffaa00;margin-bottom:20px;text-shadow:0 0 30px rgba(255,140,0,0.4);">${msg.title}</h2>
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.8);line-height:1.7;max-width:400px;white-space:pre-line;margin-bottom:28px;">${msg.body}</p>
+            <p style="font-size:0.7rem;color:rgba(255,170,0,0.5);letter-spacing:0.15em;margin-bottom:24px;">${msg.craft}</p>
+            <button onclick="location.reload()" style="background:linear-gradient(135deg,rgba(200,100,0,0.9),rgba(255,140,0,0.9));border:1px solid rgba(255,180,0,0.3);color:#000;padding:12px 36px;font-size:0.9rem;font-weight:700;border-radius:8px;cursor:pointer;letter-spacing:0.1em;text-transform:uppercase;">${msg.restart}</button>
+        </div>
+    `;
+}
 
 // ── Scrub helpers (click + drag support) ──
 function scrubPercent(container, e) {
