@@ -29,22 +29,85 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
+            cursor: default;
         }
 
-        /* Ambient background */
+        /* Interactive mouse-tracking glow */
         .bg-glow {
             position: fixed;
+            inset: 0;
+            z-index: 0;
+            transition: opacity 0.3s;
+        }
+        .bg-glow::before {
+            content: '';
+            position: absolute;
             inset: 0;
             background:
                 radial-gradient(ellipse 80% 60% at 50% 35%, rgba(255, 120, 0, 0.07) 0%, transparent 65%),
                 radial-gradient(ellipse 50% 70% at 25% 70%, rgba(200, 60, 0, 0.05) 0%, transparent 55%),
                 radial-gradient(ellipse 40% 50% at 75% 60%, rgba(255, 160, 0, 0.04) 0%, transparent 50%);
-            z-index: 0;
             animation: glow-pulse 8s ease-in-out infinite alternate;
+        }
+        .bg-glow::after {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 120, 0, 0.08) 0%, transparent 70%);
+            transform: translate(-50%, -50%);
+            left: var(--mouse-x, 50%);
+            top: var(--mouse-y, 50%);
+            pointer-events: none;
+            transition: left 0.6s ease-out, top 0.6s ease-out;
         }
         @keyframes glow-pulse {
             0% { opacity: 0.5; }
             100% { opacity: 1; }
+        }
+
+        /* Film grain overlay */
+        .grain {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 256px 256px;
+        }
+
+        /* Light rays behind title */
+        .light-rays {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 300px;
+            height: 300px;
+            transform: translate(-50%, -60%);
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0;
+            animation: rays-appear 3s ease 0.5s forwards;
+        }
+        .light-ray {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 2px;
+            height: 180px;
+            transform-origin: bottom center;
+            background: linear-gradient(to top, rgba(255, 140, 0, 0.12), transparent);
+            border-radius: 1px;
+        }
+        @keyframes rays-appear {
+            to { opacity: 1; }
+        }
+        @keyframes ray-breathe {
+            0%, 100% { opacity: 0.3; height: 160px; }
+            50% { opacity: 0.8; height: 200px; }
         }
 
         /* Floating ember particles */
@@ -64,11 +127,23 @@
             animation: float-up linear infinite;
             opacity: 0;
         }
+        .ember.large {
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 180, 50, 0.5);
+            box-shadow: 0 0 6px rgba(255, 140, 0, 0.3);
+        }
+        .ember.tiny {
+            width: 1.5px;
+            height: 1.5px;
+            background: rgba(255, 200, 100, 0.4);
+        }
         @keyframes float-up {
-            0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+            0%   { transform: translateY(100vh) translateX(0) scale(0); opacity: 0; }
             10%  { opacity: 0.8; }
+            50%  { transform: translateY(50vh) translateX(var(--drift, 0px)) scale(1); }
             90%  { opacity: 0.3; }
-            100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+            100% { transform: translateY(-10vh) translateX(var(--drift-end, 0px)) scale(1.5); opacity: 0; }
         }
 
         .landing-container {
@@ -79,7 +154,7 @@
             padding: 40px 24px;
         }
 
-        /* Title */
+        /* Title with split letters for hover effect */
         .title {
             font-family: 'Cinzel', serif;
             font-size: 3.2rem;
@@ -89,7 +164,19 @@
             text-shadow: 0 0 60px rgba(255, 120, 0, 0.25), 0 2px 20px rgba(0,0,0,0.5);
             margin-bottom: 12px;
             line-height: 1.1;
+            user-select: none;
         }
+        .title-letter {
+            display: inline-block;
+            transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
+        }
+        .title-letter:hover {
+            color: #ffaa00;
+            text-shadow: 0 0 20px rgba(255, 140, 0, 0.6), 0 0 60px rgba(255, 120, 0, 0.3);
+            transform: translateY(-3px);
+        }
+        .title-letter.space { width: 0.3em; }
+
         .subtitle {
             font-size: 0.85rem;
             color: rgba(255, 170, 0, 0.5);
@@ -97,19 +184,43 @@
             letter-spacing: 0.22em;
             text-transform: uppercase;
             margin-bottom: 48px;
+            opacity: 0;
+            animation: slide-up 1s ease 0.3s forwards;
         }
 
-        /* Divider line */
-        .divider {
-            width: 80px;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(255,140,0,0.4), transparent);
+        /* Decorative waveform */
+        .waveform {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            height: 20px;
             margin: 0 auto 40px;
+            opacity: 0;
+            animation: slide-up 1s ease 0.6s forwards;
+        }
+        .wave-bar {
+            width: 2px;
+            background: rgba(255, 140, 0, 0.25);
+            border-radius: 1px;
+            animation: wave-dance var(--wave-speed, 1.5s) ease-in-out infinite alternate;
+            animation-delay: var(--wave-delay, 0s);
+        }
+        @keyframes wave-dance {
+            0% { height: var(--wave-min, 3px); opacity: 0.3; }
+            100% { height: var(--wave-max, 14px); opacity: 0.7; }
+        }
+
+        @keyframes slide-up {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         /* Language selector */
         .lang-section {
             margin-bottom: 40px;
+            opacity: 0;
+            animation: slide-up 1s ease 0.8s forwards;
         }
         .lang-label {
             font-size: 0.65rem;
@@ -125,46 +236,105 @@
             align-items: center;
         }
 
-        /* Flag-only buttons — big flags, no text labels */
+        /* Flag buttons — 3D parallax with unified B&W */
         .lang-btn {
             background: transparent;
             border: 2px solid rgba(255, 255, 255, 0.08);
             padding: 0;
             border-radius: 10px;
             cursor: pointer;
-            transition: all 0.35s ease;
-            overflow: hidden;
+            transition: border-color 0.4s, box-shadow 0.4s;
+            overflow: visible;
             display: block;
             line-height: 0;
+            position: relative;
+            perspective: 600px;
+            transform-style: preserve-3d;
+        }
+        .lang-btn::after {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            transition: border-color 0.4s, box-shadow 0.4s;
+            pointer-events: none;
         }
         .lang-flag {
             display: block;
             width: 160px;
             height: 107px;
             overflow: hidden;
-            opacity: 0.65;
-            transition: opacity 0.3s ease, filter 0.3s ease;
-            filter: brightness(0.85);
+            border-radius: 8px;
+            opacity: 0.55;
+            transition: opacity 0.4s ease, filter 0.4s ease;
+            filter: grayscale(100%) brightness(0.7) contrast(1.1);
             background: #111;
+            transform-style: preserve-3d;
+            transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+            will-change: transform;
         }
-        .lang-flag img { width: 100%; height: 100%; display: block; object-fit: contain; }
+        .lang-flag img {
+            width: 100%; height: 100%; display: block; object-fit: contain;
+            transform: translateZ(20px) scale(0.92);
+            transition: transform 0.3s ease;
+        }
+        /* Shadow layer beneath flag for depth */
+        .lang-flag::before {
+            content: '';
+            position: absolute;
+            inset: 4px;
+            background: rgba(255, 140, 0, 0.05);
+            border-radius: 6px;
+            transform: translateZ(-10px);
+            transition: background 0.4s, box-shadow 0.4s;
+        }
+        /* Shine/glare overlay */
+        .lang-flag::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 8px;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, var(--glare, 0)) 0%,
+                transparent 50%
+            );
+            transform: translateZ(25px);
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
 
-        .lang-btn:hover {
-            border-color: rgba(255, 140, 0, 0.4);
-            transform: translateY(-4px) scale(1.03);
-            box-shadow: 0 12px 40px rgba(255, 120, 0, 0.15), 0 0 0 1px rgba(255,140,0,0.15);
-        }
         .lang-btn:hover .lang-flag {
-            opacity: 1;
-            filter: brightness(1);
+            opacity: 0.85;
+            filter: grayscale(100%) brightness(0.85) contrast(1.1);
+        }
+        .lang-btn:hover .lang-flag img {
+            transform: translateZ(30px) scale(0.90);
+        }
+        .lang-btn:hover .lang-flag::before {
+            background: rgba(255, 140, 0, 0.08);
+            box-shadow: 0 8px 30px rgba(255, 120, 0, 0.12);
         }
         .lang-btn.selected {
             border-color: rgba(255, 140, 0, 0.6);
             box-shadow: 0 0 40px rgba(255, 140, 0, 0.15), 0 0 0 1px rgba(255,140,0,0.25);
         }
+        .lang-btn.selected::after {
+            border-color: rgba(255, 140, 0, 0.3);
+            box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
+            animation: pulse-ring 2s ease-in-out infinite;
+        }
         .lang-btn.selected .lang-flag {
             opacity: 1;
-            filter: brightness(1.1);
+            filter: grayscale(100%) brightness(1) contrast(1.15);
+        }
+        .lang-btn.selected .lang-flag img {
+            transform: translateZ(35px) scale(0.88);
+        }
+        @keyframes pulse-ring {
+            0%, 100% { border-color: rgba(255, 140, 0, 0.3); box-shadow: 0 0 20px rgba(255, 140, 0, 0.1); }
+            50% { border-color: rgba(255, 140, 0, 0.6); box-shadow: 0 0 30px rgba(255, 140, 0, 0.2); }
         }
 
         /* Enter button */
@@ -184,6 +354,19 @@
             transition: all 0.3s ease;
             margin-bottom: 20px;
             box-shadow: 0 4px 24px rgba(255, 140, 0, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        .enter-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s;
+        }
+        .enter-btn:hover::before {
+            transform: translateX(100%);
         }
         .enter-btn.visible {
             display: inline-block;
@@ -196,6 +379,25 @@
         .enter-btn:hover {
             transform: scale(1.05);
             box-shadow: 0 8px 44px rgba(255, 140, 0, 0.4);
+        }
+        .enter-btn:active {
+            transform: scale(0.98);
+        }
+
+        /* Spark burst on click */
+        .spark-container {
+            position: fixed;
+            inset: 0;
+            z-index: 10;
+            pointer-events: none;
+        }
+        .spark {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: #ffaa00;
+            border-radius: 50%;
+            box-shadow: 0 0 6px rgba(255, 170, 0, 0.8);
         }
 
         /* Loading state */
@@ -241,6 +443,8 @@
             text-transform: uppercase;
             z-index: 1;
             font-family: 'Inter', sans-serif;
+            opacity: 0;
+            animation: fade-in 2s ease 1.8s forwards;
         }
 
         /* Stone animation hint */
@@ -250,7 +454,7 @@
             color: rgba(255, 170, 0, 0.25);
             font-style: italic;
             opacity: 0;
-            animation: fade-in 2.5s ease 1.5s forwards;
+            animation: fade-in 2.5s ease 2s forwards;
         }
         @keyframes fade-in {
             to { opacity: 1; }
@@ -262,6 +466,16 @@
             .lang-flag { width: 90px; height: 60px; }
             .lang-buttons { gap: 12px; flex-wrap: wrap; }
             .enter-btn { padding: 14px 36px; font-size: 0.9rem; }
+            .light-rays { width: 200px; height: 200px; }
+            .light-ray { height: 120px; }
+            /* Disable 3D transforms on mobile — perspective + translateZ causes overflow/clip issues */
+            .lang-btn { perspective: none; }
+            .lang-flag { transform-style: flat; transform: none !important; }
+            .lang-flag img { transform: none !important; }
+            .lang-flag::before { transform: none; }
+            .lang-flag::after { transform: none; }
+            .lang-btn:hover .lang-flag img { transform: none !important; }
+            .lang-btn.selected .lang-flag img { transform: none !important; }
         }
         @media (max-width: 360px) {
             .lang-flag { width: 75px; height: 50px; }
@@ -271,12 +485,19 @@
 </head>
 <body>
     <div class="bg-glow"></div>
+    <div class="grain"></div>
+    <div class="light-rays" id="light-rays"></div>
     <div class="embers" id="embers"></div>
+    <div class="spark-container" id="sparks"></div>
+
+    <!-- Canvas fire visualization -->
+    <canvas id="fire-canvas" style="position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.6;"></canvas>
 
     <div class="landing-container">
-        <h1 class="title">THE CHAK CHAK MAGE</h1>
+        <h1 class="title" id="title"></h1>
         <p class="subtitle">Interactive Album Experience</p>
-        <div class="divider"></div>
+
+        <div class="waveform" id="waveform"></div>
 
         <div class="lang-section" id="lang-section">
             <p class="lang-label" id="lang-label">Choose your language</p>
@@ -312,21 +533,212 @@
     <p class="tagline">Strike the stone. Chak-chak.</p>
 
     <script>
-        // Generate floating ember particles
+        // === Canvas fire + orbiting ring visualization ===
+        (function() {
+            const canvas = document.getElementById('fire-canvas');
+            const ctx = canvas.getContext('2d');
+            let W, H, dpr;
+            function resize() {
+                dpr = window.devicePixelRatio || 1;
+                W = window.innerWidth;
+                H = window.innerHeight;
+                canvas.width = W * dpr;
+                canvas.height = H * dpr;
+                canvas.style.width = W + 'px';
+                canvas.style.height = H + 'px';
+                ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            }
+            resize();
+            window.addEventListener('resize', resize);
+
+            // Fire particles
+            const particles = [];
+            const MAX_P = 50;
+            function spawnParticle() {
+                particles.push({
+                    x: W * 0.3 + Math.random() * W * 0.4,
+                    y: H + 5,
+                    vx: (Math.random() - 0.5) * 0.4,
+                    vy: -(0.4 + Math.random() * 0.8),
+                    life: 0,
+                    maxLife: 0.6 + Math.random() * 0.5,
+                    size: 1 + Math.random() * 2.5,
+                    hue: 20 + Math.random() * 30
+                });
+            }
+
+            // Orbit dots (like end screen track dots)
+            const dots = [];
+            const dotHues = [40, 30, 0, 280, 140, 350, 220, 165, 0];
+            for (let i = 0; i < 9; i++) {
+                dots.push({
+                    angle: (Math.PI * 2 / 9) * i,
+                    radius: 45 + Math.random() * 20,
+                    speed: 0.003 + Math.random() * 0.004,
+                    size: 1.5 + Math.random() * 1.5,
+                    hue: dotHues[i],
+                    sat: i === 8 ? '0%' : '70%'
+                });
+            }
+
+            let frame = 0;
+            function draw() {
+                ctx.clearRect(0, 0, W, H);
+                const cx = W / 2, cy = H * 0.38;
+
+                // Spawn particles
+                if (particles.length < MAX_P && Math.random() < 0.3) spawnParticle();
+
+                // Update & draw particles
+                for (let i = particles.length - 1; i >= 0; i--) {
+                    const p = particles[i];
+                    p.life += 0.008;
+                    if (p.life >= p.maxLife) { particles.splice(i, 1); continue; }
+                    p.x += p.vx + Math.sin(frame * 0.008 + p.life * 8) * 0.12;
+                    p.y += p.vy;
+                    const alpha = 1 - (p.life / p.maxLife);
+                    ctx.globalAlpha = alpha * 0.4;
+                    ctx.fillStyle = `hsl(${p.hue}, 80%, 55%)`;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    ctx.fill();
+                    // Glow
+                    ctx.globalAlpha = alpha * 0.15;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size * 3, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+
+                // Pulsing ring
+                const ringR = 35 * (1 + Math.sin(frame * 0.015) * 0.08);
+                ctx.globalAlpha = 0.12 + Math.sin(frame * 0.02) * 0.04;
+                ctx.strokeStyle = 'rgba(255, 140, 0, 0.4)';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.ellipse(cx, cy, ringR, ringR * 0.5, 0, 0, Math.PI * 2);
+                ctx.stroke();
+
+                // Orbit dots
+                for (const d of dots) {
+                    d.angle += d.speed;
+                    const dx = cx + Math.cos(d.angle) * d.radius;
+                    const dy = cy + Math.sin(d.angle) * d.radius * 0.45;
+                    ctx.globalAlpha = 0.5;
+                    ctx.fillStyle = `hsl(${d.hue}, ${d.sat}, 65%)`;
+                    ctx.beginPath();
+                    ctx.arc(dx, dy, d.size, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.globalAlpha = 0.15;
+                    ctx.beginPath();
+                    ctx.arc(dx, dy, d.size * 2.5, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+
+                ctx.globalAlpha = 1;
+                frame++;
+                requestAnimationFrame(draw);
+            }
+            draw();
+        })();
+
+        // === Title letter-by-letter setup ===
+        (function() {
+            const titleEl = document.getElementById('title');
+            const text = 'THE CHAK CHAK MAGE';
+            text.split('').forEach(ch => {
+                const span = document.createElement('span');
+                span.className = ch === ' ' ? 'title-letter space' : 'title-letter';
+                span.textContent = ch === ' ' ? '\u00A0' : ch;
+                titleEl.appendChild(span);
+            });
+        })();
+
+        // === Decorative waveform bars ===
+        (function() {
+            const wf = document.getElementById('waveform');
+            const barCount = 32;
+            for (let i = 0; i < barCount; i++) {
+                const bar = document.createElement('div');
+                bar.className = 'wave-bar';
+                const center = Math.abs(i - barCount / 2) / (barCount / 2);
+                const minH = 2 + (1 - center) * 4;
+                const maxH = 4 + (1 - center) * 12;
+                bar.style.setProperty('--wave-min', minH + 'px');
+                bar.style.setProperty('--wave-max', maxH + 'px');
+                bar.style.setProperty('--wave-speed', (1.2 + Math.random() * 1.2) + 's');
+                bar.style.setProperty('--wave-delay', (i * 0.05) + 's');
+                bar.style.height = minH + 'px';
+                wf.appendChild(bar);
+            }
+        })();
+
+        // === Light rays behind title ===
+        (function() {
+            const container = document.getElementById('light-rays');
+            const rayCount = 12;
+            for (let i = 0; i < rayCount; i++) {
+                const ray = document.createElement('div');
+                ray.className = 'light-ray';
+                const angle = (360 / rayCount) * i;
+                ray.style.transform = `rotate(${angle}deg)`;
+                ray.style.animation = `ray-breathe ${3 + Math.random() * 3}s ease-in-out ${Math.random() * 2}s infinite alternate`;
+                ray.style.opacity = 0.2 + Math.random() * 0.4;
+                container.appendChild(ray);
+            }
+        })();
+
+        // === Enhanced floating ember particles ===
         (function() {
             const container = document.getElementById('embers');
-            for (let i = 0; i < 25; i++) {
+            for (let i = 0; i < 35; i++) {
                 const ember = document.createElement('div');
-                ember.className = 'ember';
+                const sizeClass = Math.random() < 0.15 ? 'large' : Math.random() < 0.4 ? 'tiny' : '';
+                ember.className = 'ember' + (sizeClass ? ' ' + sizeClass : '');
                 ember.style.left = Math.random() * 100 + '%';
-                ember.style.animationDuration = (6 + Math.random() * 8) + 's';
-                ember.style.animationDelay = (Math.random() * 10) + 's';
-                ember.style.width = (2 + Math.random() * 2) + 'px';
-                ember.style.height = ember.style.width;
+                ember.style.animationDuration = (6 + Math.random() * 10) + 's';
+                ember.style.animationDelay = (Math.random() * 12) + 's';
+                const drift = (Math.random() - 0.5) * 60;
+                ember.style.setProperty('--drift', drift + 'px');
+                ember.style.setProperty('--drift-end', (drift + (Math.random() - 0.5) * 40) + 'px');
+                if (!sizeClass) {
+                    ember.style.width = (2 + Math.random() * 2) + 'px';
+                    ember.style.height = ember.style.width;
+                }
                 container.appendChild(ember);
             }
         })();
 
+        // === Mouse-tracking glow ===
+        document.addEventListener('mousemove', function(e) {
+            const glow = document.querySelector('.bg-glow');
+            glow.style.setProperty('--mouse-x', e.clientX + 'px');
+            glow.style.setProperty('--mouse-y', e.clientY + 'px');
+        });
+
+        // === Spark burst effect ===
+        function spawnSparks(x, y) {
+            const container = document.getElementById('sparks');
+            const count = 20;
+            for (let i = 0; i < count; i++) {
+                const spark = document.createElement('div');
+                spark.className = 'spark';
+                spark.style.left = x + 'px';
+                spark.style.top = y + 'px';
+                const angle = (Math.PI * 2 / count) * i + (Math.random() - 0.5) * 0.5;
+                const dist = 40 + Math.random() * 80;
+                const dx = Math.cos(angle) * dist;
+                const dy = Math.sin(angle) * dist;
+                const dur = 400 + Math.random() * 300;
+                spark.animate([
+                    { transform: 'translate(0, 0) scale(1)', opacity: 1 },
+                    { transform: `translate(${dx}px, ${dy}px) scale(0)`, opacity: 0 }
+                ], { duration: dur, easing: 'ease-out', fill: 'forwards' });
+                container.appendChild(spark);
+                setTimeout(() => spark.remove(), dur + 50);
+            }
+        }
+
+        // === Language & Enter logic ===
         let selectedLang = null;
 
         const labels = {
@@ -375,7 +787,12 @@
         function enterExperience() {
             if (!selectedLang) return;
 
-            document.getElementById('enter-btn').style.display = 'none';
+            // Spark burst from button center
+            const btn = document.getElementById('enter-btn');
+            const rect = btn.getBoundingClientRect();
+            spawnSparks(rect.left + rect.width / 2, rect.top + rect.height / 2);
+
+            btn.style.display = 'none';
             document.getElementById('lang-section').style.display = 'none';
             const loadingSection = document.getElementById('loading-section');
             loadingSection.classList.add('active');
@@ -414,9 +831,10 @@
             selectLang(saved);
         }
 
-        // For those who are curious
+        // === Easter eggs ===
+        // 1. Click title 5 times: embers go blue
         let _tc = 0;
-        document.querySelector('.title').addEventListener('click', () => {
+        document.getElementById('title').addEventListener('click', () => {
             _tc++;
             if (_tc === 5) {
                 _tc = 0;
@@ -424,14 +842,110 @@
                     e.style.background = 'rgba(100, 180, 255, 0.7)';
                 });
                 document.querySelector('.bg-glow').style.filter = 'hue-rotate(200deg)';
+                document.querySelectorAll('.light-ray').forEach(r => {
+                    r.style.background = 'linear-gradient(to top, rgba(100, 160, 255, 0.12), transparent)';
+                });
                 setTimeout(() => {
-                    document.querySelectorAll('.ember').forEach(e => {
-                        e.style.background = '';
-                    });
+                    document.querySelectorAll('.ember').forEach(e => { e.style.background = ''; });
                     document.querySelector('.bg-glow').style.filter = '';
+                    document.querySelectorAll('.light-ray').forEach(r => { r.style.background = ''; });
                 }, 3000);
             }
         });
+
+        // === 3D parallax flag hover ===
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            const flag = btn.querySelector('.lang-flag');
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width;  // 0..1
+                const y = (e.clientY - rect.top) / rect.height;
+                const rotY = (x - 0.5) * 25;  // -12.5 to 12.5 deg
+                const rotX = (0.5 - y) * 20;  // tilt toward mouse
+                const glare = Math.max(0, 0.12 - Math.abs(x - 0.3) * 0.3);
+                flag.style.setProperty('--rx', rotX + 'deg');
+                flag.style.setProperty('--ry', rotY + 'deg');
+                flag.style.setProperty('--glare', glare);
+            });
+            btn.addEventListener('mouseleave', () => {
+                flag.style.setProperty('--rx', '0deg');
+                flag.style.setProperty('--ry', '0deg');
+                flag.style.setProperty('--glare', '0');
+                flag.style.transition = 'opacity 0.4s ease, filter 0.4s ease, transform 0.5s ease';
+                setTimeout(() => { flag.style.transition = ''; }, 500);
+            });
+            btn.addEventListener('mouseenter', () => {
+                flag.style.transition = 'opacity 0.4s ease, filter 0.4s ease';
+            });
+        });
+
+        // 2. Click anywhere spawns a small spark
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.lang-btn') || e.target.closest('.enter-btn')) return;
+            const count = 5;
+            const container = document.getElementById('sparks');
+            for (let i = 0; i < count; i++) {
+                const spark = document.createElement('div');
+                spark.className = 'spark';
+                spark.style.left = e.clientX + 'px';
+                spark.style.top = e.clientY + 'px';
+                spark.style.width = '2px';
+                spark.style.height = '2px';
+                const angle = Math.random() * Math.PI * 2;
+                const dist = 15 + Math.random() * 30;
+                spark.animate([
+                    { transform: 'translate(0,0) scale(1)', opacity: 0.8 },
+                    { transform: `translate(${Math.cos(angle)*dist}px, ${Math.sin(angle)*dist}px) scale(0)`, opacity: 0 }
+                ], { duration: 300 + Math.random() * 200, easing: 'ease-out', fill: 'forwards' });
+                container.appendChild(spark);
+                setTimeout(() => spark.remove(), 600);
+            }
+        });
+        // === Konami code on landing page too ===
+        const _k = [38,38,40,40,37,39,37,39,66,65];
+        let _ki = 0;
+        document.addEventListener('keydown', (e) => {
+            if (e.keyCode === _k[_ki]) { _ki++; } else { _ki = 0; }
+            if (_ki === _k.length) {
+                _ki = 0;
+                // Fire eruption
+                for (let i = 0; i < 40; i++) {
+                    setTimeout(() => spawnSparks(
+                        window.innerWidth / 2 + (Math.random() - 0.5) * 200,
+                        window.innerHeight * 0.6
+                    ), i * 30);
+                }
+                const msg = document.createElement('div');
+                msg.style.cssText = 'position:fixed;top:38%;left:50%;transform:translate(-50%,-50%);font-family:Cinzel,serif;font-size:1.3rem;color:#ffaa00;text-shadow:0 0 30px rgba(255,140,0,0.6);z-index:20;opacity:0;animation:fade-in 0.5s ease forwards;pointer-events:none;';
+                msg.textContent = 'You found the fire.';
+                document.body.appendChild(msg);
+                setTimeout(() => { msg.style.opacity = '0'; msg.style.transition = 'opacity 1s'; }, 2000);
+                setTimeout(() => msg.remove(), 3200);
+            }
+        });
+
+        // === Type "chak" anywhere ===
+        let _cb = '';
+        document.addEventListener('keypress', (e) => {
+            _cb += e.key.toLowerCase();
+            if (_cb.length > 10) _cb = _cb.slice(-10);
+            if (_cb.endsWith('chak')) {
+                _cb = '';
+                const flash = document.createElement('div');
+                flash.style.cssText = 'position:fixed;inset:0;z-index:20;pointer-events:none;background:radial-gradient(circle at 50% 50%,rgba(255,200,50,0.35),transparent 70%);';
+                document.body.appendChild(flash);
+                flash.animate([
+                    { opacity: 1, transform: 'scale(0.8)' },
+                    { opacity: 0, transform: 'scale(1.5)' }
+                ], { duration: 400, easing: 'ease-out', fill: 'forwards' });
+                setTimeout(() => flash.remove(), 500);
+            }
+        });
+
+        // Console signature
+        console.log('%c\u2588\u2588\u2588 THE CHAK CHAK MAGE \u2588\u2588\u2588', 'color:#ffaa00;font-size:16px;font-weight:bold;text-shadow:0 0 10px #ff8800;');
+        console.log('%cStrike the stone. The fire was always yours.', 'color:#888;font-style:italic;');
+        console.log('%cTry the Konami code. Or type "chak".', 'color:#444;font-size:10px;');
     </script>
 </body>
 </html>

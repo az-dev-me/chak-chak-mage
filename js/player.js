@@ -1101,9 +1101,9 @@ function showEndScreen() {
                 <div style="margin-bottom:18px;opacity:0;animation:end-fade-in 1s ease 3.0s forwards;">
                     <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:12px;">${msg.creditsLabel}</p>
                     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;">
-                        <a href="https://suno.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                        <a href="https://deevid.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(255,170,0,0.5)" stroke-width="1.5"/><path d="M9 8v8l7-4z" fill="rgba(255,170,0,0.5)"/></svg>
-                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Suno AI</span>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeeVid</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">music</span>
                         </a>
                         <a href="https://deepseek.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(100,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
@@ -1115,6 +1115,16 @@ function showEndScreen() {
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/><path d="M8 12h8M12 8v8" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Claude</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">build</span>
+                        </a>
+                        <a href="https://cursor.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(180,120,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="rgba(180,120,255,0.5)" stroke-width="1.5"/><path d="M8 8l8 8M16 8l-8 8" stroke="rgba(180,120,255,0.5)" stroke-width="1.5"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Cursor</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">IDE</span>
+                        </a>
+                        <a href="https://antigravity.dev" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(100,220,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(100,220,255,0.5)" stroke-width="1.5"/><path d="M12 6v4l3 2" stroke="rgba(100,220,255,0.5)" stroke-width="1.5" fill="none"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Antigravity</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">semantics</span>
                         </a>
                         <span style="display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/><path d="M8 12h8" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/></svg>
@@ -1128,7 +1138,7 @@ function showEndScreen() {
                 <div style="margin-bottom:18px;opacity:0;animation:end-fade-in 0.8s ease 3.4s forwards;">
                     <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:8px;">${msg.libsLabel}</p>
                     <p style="font-size:0.5rem;color:rgba(255,255,255,0.2);line-height:1.8;">
-                        stable-ts &middot; Whisper &middot; Demucs &middot; librosa &middot; Ollama &middot; Mistral
+                        stable-ts &middot; Whisper &middot; Demucs &middot; librosa &middot; Ollama &middot; Mistral &middot; Gemini 3.1
                     </p>
                 </div>
 
@@ -1196,15 +1206,21 @@ function showEndScreen() {
         }
 
         let frame = 0;
-        const rw = w / (window.devicePixelRatio || 1);
-        const rh = h / (window.devicePixelRatio || 1);
-        const cx = rw / 2;
+        const r0 = window.devicePixelRatio || 1;
+        let rw = w / r0;
+        let rh = h / r0;
+        let cx = rw / 2;
 
         function animate() {
+            // Recalculate dims (resize may have changed them)
+            rw = (canvas.width || w) / r0;
+            rh = (canvas.height || h) / r0;
+            cx = rw / 2;
+
             ctx.clearRect(0, 0, rw, rh);
             frame++;
 
-            // Ember particles rising
+            // Ember particles rising — spawn from bottom half only
             for (const p of particles) {
                 p.x += p.vx + Math.sin(frame * 0.01 + p.life * 10) * 0.15;
                 p.y += p.vy;
@@ -1212,7 +1228,7 @@ function showEndScreen() {
 
                 if (p.life > p.maxLife || p.y < -10) {
                     p.x = Math.random() * rw;
-                    p.y = rh + 10;
+                    p.y = rh * 0.5 + Math.random() * rh * 0.5;
                     p.life = 0;
                     p.vx = (Math.random() - 0.5) * 0.4;
                     p.vy = -(0.3 + Math.random() * 1.2);
@@ -1231,9 +1247,9 @@ function showEndScreen() {
                 ctx.fill();
             }
 
-            // Central pulsing ring
+            // Central pulsing ring — vertically centered in visible area
             const pulse = 1 + Math.sin(frame * 0.02) * 0.08;
-            const ringY = 100;
+            const ringY = rh * 0.35;
             const ringR = 40 * pulse;
             ctx.beginPath();
             ctx.arc(cx, ringY, ringR, 0, Math.PI * 2);

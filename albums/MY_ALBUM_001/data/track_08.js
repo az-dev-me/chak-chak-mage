@@ -702,7 +702,7 @@ var track_08_data = {
         {
             "id": "line_9_occ_0",
             "start": 66.512,
-            "end": 71.512,
+            "end": 70.0,
             "lyric": "THE STONE IS THERE, UPON THE GROUND",
             "real_meaning": "Simple solutions surround us: Community, nature, craft, human connection. The stones are free, available, and entirely ignored.",
             "core": "The stones are free. Right there.",
@@ -742,39 +742,39 @@ var track_08_data = {
             ],
             "words": [
                 {
-                    "text": "THE",
                     "start": 66.512,
-                    "end": 67.226
+                    "end": 67.052,
+                    "text": "THE"
                 },
                 {
-                    "text": "STONE",
-                    "start": 67.226,
-                    "end": 67.941
+                    "start": 67.052,
+                    "end": 67.672,
+                    "text": "STONE"
                 },
                 {
-                    "text": "IS",
-                    "start": 67.941,
-                    "end": 68.655
+                    "start": 67.756,
+                    "end": 67.932,
+                    "text": "IS"
                 },
                 {
-                    "text": "THERE,",
-                    "start": 68.655,
-                    "end": 69.369
+                    "start": 67.932,
+                    "end": 68.064,
+                    "text": "THERE,"
                 },
                 {
-                    "text": "UPON",
-                    "start": 69.369,
-                    "end": 70.083
+                    "start": 68.768,
+                    "end": 69.1,
+                    "text": "upon"
                 },
                 {
-                    "text": "THE",
-                    "start": 70.083,
-                    "end": 70.798
+                    "start": 69.28,
+                    "end": 69.44,
+                    "text": "the"
                 },
                 {
-                    "text": "GROUND",
-                    "start": 70.798,
-                    "end": 71.512
+                    "start": 69.44,
+                    "end": 69.98,
+                    "text": "ground"
                 }
             ],
             "line_index": 12,
@@ -784,9 +784,9 @@ var track_08_data = {
             "real_meaning_pt_pt": "Soluções simples rodeiam-nos: comunidade, natureza, artesanato, ligação humana. As pedras estão disponíveis, gratuitas e completamente ignoradas."
         },
         {
-            "id": "line_10_interp",
-            "start": 82.14,
-            "end": 88.25,
+            "id": "line_10_interp_s0",
+            "start": 83.297,
+            "end": 85.703,
             "lyric": "WAITING FOR A STRIKE, FOR A SOUND",
             "real_meaning": "Waiting for the strike: All it takes is one person to stop running, look down, and choose to interact with reality. One moment of clarity.",
             "core": "One person stops running. That's enough.",
@@ -816,38 +816,38 @@ var track_08_data = {
             ],
             "words": [
                 {
-                    "start": 82.14,
-                    "end": 83.013,
+                    "start": 83.297,
+                    "end": 83.392,
                     "text": "WAITING"
                 },
                 {
-                    "start": 83.013,
-                    "end": 83.886,
+                    "start": 83.452,
+                    "end": 83.636,
                     "text": "FOR"
                 },
                 {
-                    "start": 83.886,
-                    "end": 84.759,
+                    "start": 83.697,
+                    "end": 83.892,
                     "text": "A"
                 },
                 {
-                    "start": 84.759,
-                    "end": 85.631,
+                    "start": 83.892,
+                    "end": 84.979,
                     "text": "STRIKE,"
                 },
                 {
-                    "start": 85.631,
-                    "end": 86.504,
+                    "start": 84.979,
+                    "end": 85.107,
                     "text": "FOR"
                 },
                 {
-                    "start": 86.504,
-                    "end": 87.377,
+                    "start": 85.107,
+                    "end": 85.272,
                     "text": "A"
                 },
                 {
-                    "start": 87.377,
-                    "end": 88.25,
+                    "start": 85.272,
+                    "end": 85.703,
                     "text": "SOUND"
                 }
             ],
@@ -860,7 +860,7 @@ var track_08_data = {
         {
             "id": "line_11_occ_0",
             "start": 88.252,
-            "end": 94.252,
+            "end": 92.96,
             "lyric": "The modern Gralha still shouts today:",
             "real_meaning": "The believer hasn't changed: The modern commuter still shouts the same defensive slogans. Different clothes, exact same brand devotion.",
             "core": "The modern believer still shouts.",
@@ -900,34 +900,34 @@ var track_08_data = {
             ],
             "words": [
                 {
-                    "text": "The",
                     "start": 88.252,
-                    "end": 89.252
+                    "end": 88.352,
+                    "text": "The"
                 },
                 {
-                    "text": "modern",
-                    "start": 89.252,
-                    "end": 90.252
+                    "start": 88.352,
+                    "end": 89.692,
+                    "text": "modern"
                 },
                 {
-                    "text": "Gralha",
-                    "start": 90.252,
-                    "end": 91.252
+                    "start": 89.692,
+                    "end": 90.472,
+                    "text": "Gralha"
                 },
                 {
-                    "text": "still",
-                    "start": 91.252,
-                    "end": 92.252
+                    "start": 90.547,
+                    "end": 90.631,
+                    "text": "still"
                 },
                 {
-                    "text": "shouts",
-                    "start": 92.252,
-                    "end": 93.252
+                    "start": 91.004,
+                    "end": 91.571,
+                    "text": "shouts"
                 },
                 {
-                    "text": "today:",
-                    "start": 93.252,
-                    "end": 94.252
+                    "start": 92.012,
+                    "end": 92.96,
+                    "text": "today:"
                 }
             ],
             "line_index": 14,
@@ -937,43 +937,449 @@ var track_08_data = {
             "real_meaning_pt_pt": "O crente não mudou: O moderno utilizador de transportes públicos ainda grita os mesmos slogans defensivos. Roupas diferentes, a mesma devoção à marca."
         },
         {
-            "id": "line_17_occ_1",
-            "start": 133.24,
-            "end": 135.94,
-            "lyric": "Waiting...",
-            "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
-            "core": "Waiting for the next Muda.",
+            "id": "line_12_occ_0",
+            "start": 94.368,
+            "end": 98.608,
+            "lyric": "\"BUT THE MAGE SAID IT WAS TRANSPORT!\"",
+            "real_meaning": "Clinging to the broken promise: 'But the CEO said it would change the world!' Faith in the original authority persists long after betrayal.",
+            "core": "But the CEO said it would change the world!",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0948.webp",
-                    "query": "A vast prehistoric valley at dusk, a lone couch sits near the edge of a firelit cave."
+                    "url": "",
+                    "query": "A vast prehistoric valley at dusk, a lone couch sits beneath an ancient tree, flames flicker on the horizon."
+                },
+                {
+                    "offset": 2.0,
+                    "url": "",
+                    "query": "A figure huddled by a small fire, the couch behind them, the stone is in the foreground. Firelight dances on their face."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "",
+                    "query": "The figure's intense gaze on the stone held in their hand. Embers reflect in their eyes."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0951.webp",
-                    "query": "A sprawling cityscape at dawn, a lone smartphone lies face-down on a bench, untouched."
+                    "url": "",
+                    "query": "A sprawling cityscape at dawn. A phone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 2.0,
+                    "url": "",
+                    "query": "A commuter rushes through a crowded subway station, glued to a glowing phone screen."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "",
+                    "query": "A hand tightly grips a smartphone, knuckles white, eyes reflecting the cold screen."
                 }
             ],
             "words": [
                 {
-                    "text": "Waiting...",
-                    "start": 133.24,
-                    "end": 135.94
+                    "start": 94.368,
+                    "end": 94.492,
+                    "text": "\"BUT"
+                },
+                {
+                    "start": 94.562,
+                    "end": 94.641,
+                    "text": "THE"
+                },
+                {
+                    "start": 94.989,
+                    "end": 95.352,
+                    "text": "MAGE"
+                },
+                {
+                    "start": 95.352,
+                    "end": 95.929,
+                    "text": "SAID"
+                },
+                {
+                    "start": 96.192,
+                    "end": 96.548,
+                    "text": "IT"
+                },
+                {
+                    "start": 96.762,
+                    "end": 96.856,
+                    "text": "WAS"
+                },
+                {
+                    "start": 97.237,
+                    "end": 98.608,
+                    "text": "TRANSPORT!\""
                 }
             ],
             "line_index": 15,
-            "core_pt": "Aguardando a próxima Muda.",
-            "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar.",
-            "core_pt_pt": "À espera do próximo Muda.",
-            "real_meaning_pt_pt": "À espera do próximo Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e dar o golpe."
+            "core_pt": "Mas o CEO disse que isso mudaria o mundo!",
+            "real_meaning_pt": "Apegando-se à promessa quebrada: 'Mas o CEO disse que mudaria o mundo!' A fé na autoridade original persiste muito tempo depois da traição.",
+            "core_pt_pt": "Mas o CEO disse que iria mudar o mundo!",
+            "real_meaning_pt_pt": "Agrarr-se à promessa partida: 'Mas o CEO disse que ia mudar o mundo!' A fé na autoridade original persiste muito tempo depois da traição."
         },
         {
-            "id": "line_17_occ_2",
-            "start": 136.237,
-            "end": 139.209,
+            "id": "line_13_occ_0",
+            "start": 100.812,
+            "end": 105.504,
+            "lyric": "And the modern Tronco has his say:",
+            "real_meaning": "The superficial critic remains: The modern Tronco still misses the point, focusing entirely on aesthetics rather than the absolute lack of substance.",
+            "core": "The critic still misses the point.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A vast, firelit prehistoric landscape. A lone couch stands at the edge of a lush valley. The sun sets, casting a warm glow over the scene."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "A figure sits on the couch, holding a stone. A lighter lies on the ground. The figure's face is illuminated by the flickering flames of a small fire."
+                },
+                {
+                    "offset": 4.0,
+                    "url": "",
+                    "query": "A close-up of the figure's face, eyes reflecting the dance of the fire. The expression is one of contemplation and curiosity."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A sprawling cityscape at dawn, a single smartphone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "A young commuter, eyes glued to a phone screen, walks through a bustling city street."
+                },
+                {
+                    "offset": 4.0,
+                    "url": "",
+                    "query": "A close-up of a commuter's face, the phone's reflection in their eyes, but their mind is miles away."
+                }
+            ],
+            "words": [
+                {
+                    "start": 100.812,
+                    "end": 100.897,
+                    "text": "And"
+                },
+                {
+                    "start": 100.897,
+                    "end": 100.993,
+                    "text": "the"
+                },
+                {
+                    "start": 101.354,
+                    "end": 101.411,
+                    "text": "modern"
+                },
+                {
+                    "start": 102.272,
+                    "end": 103.372,
+                    "text": "Tronco"
+                },
+                {
+                    "start": 103.612,
+                    "end": 103.987,
+                    "text": "has"
+                },
+                {
+                    "start": 104.237,
+                    "end": 104.331,
+                    "text": "his"
+                },
+                {
+                    "start": 104.612,
+                    "end": 105.504,
+                    "text": "say:"
+                }
+            ],
+            "line_index": 16,
+            "core_pt": "O crítico ainda não entendeu o ponto.",
+            "real_meaning_pt": "O crítico superficial permanece: O moderno Tronco ainda erra o alvo, focando inteiramente na estética em vez da absoluta falta de substância.",
+            "core_pt_pt": "O crítico ainda não percebe o ponto.",
+            "real_meaning_pt_pt": "O crítico superficial permanece: O moderno Tronco continua a falhar o alvo, focando-se inteiramente na estética em vez da total ausência de substância."
+        },
+        {
+            "id": "line_14_occ_0",
+            "start": 106.853,
+            "end": 111.614,
+            "lyric": "\"YEAH, BUT THE MAGE'S LIGHTER WAS ORANGE, OF COURSE",
+            "real_meaning": "Color wars over substance: 'I want a blue one!' Arguing over the aesthetics of the cage instead of realizing you are in a cage at all.",
+            "core": "Arguing the color of the cage.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A prehistoric landscape with a single couch, fire burning under a vast sky."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "A figure sits on the couch, holding a stone, the fire still glowing."
+                },
+                {
+                    "offset": 4.0,
+                    "url": "",
+                    "query": "A hand holding a lighter, its flame casting an orange glow, with a stone nearby."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A sprawling cityscape at dawn, a smartphone lies face-down on a bench, the sun glinting off the sleek surface, the only object in a sea of grey."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "A crowded subway car, commuters with glowing phone screens. The reflection of a man in a window."
+                },
+                {
+                    "offset": 4.0,
+                    "url": "",
+                    "query": "A hand holding a modern smartphone, the screen displaying an orange flame. The hand is old, wrinkled."
+                }
+            ],
+            "words": [
+                {
+                    "start": 106.853,
+                    "end": 106.932,
+                    "text": "\"YEAH,"
+                },
+                {
+                    "start": 106.952,
+                    "end": 107.092,
+                    "text": "BUT"
+                },
+                {
+                    "start": 107.172,
+                    "end": 107.232,
+                    "text": "THE"
+                },
+                {
+                    "start": 107.412,
+                    "end": 108.212,
+                    "text": "MAGE'S"
+                },
+                {
+                    "start": 108.212,
+                    "end": 108.972,
+                    "text": "LIGHTER"
+                },
+                {
+                    "start": 109.182,
+                    "end": 109.51,
+                    "text": "WAS"
+                },
+                {
+                    "start": 110.372,
+                    "end": 110.712,
+                    "text": "ORANGE,"
+                },
+                {
+                    "start": 110.712,
+                    "end": 110.892,
+                    "text": "OF"
+                },
+                {
+                    "start": 110.892,
+                    "end": 111.614,
+                    "text": "COURSE"
+                }
+            ],
+            "line_index": 17,
+            "core_pt": "Discutindo a cor da gaiola.",
+            "real_meaning_pt": "Discussões sobre cores em vez de substância: 'Eu quero um azul!' Discutindo a estética da gaiola em vez de perceber que você está em uma gaiola.",
+            "core_pt_pt": "A discutir a cor da gaiola.",
+            "real_meaning_pt_pt": "Guerras de cores sobre substância: 'Eu quero um azul!' A discutir a estética da gaiola em vez de se aperceber que se está numa gaiola."
+        },
+        {
+            "id": "line_15_occ_0",
+            "start": 113.072,
+            "end": 124.833,
+            "lyric": "I WANT A BLUE ONE! A BLUE ONE! A BLUE ONE!\"",
+            "real_meaning": "Hope persists: The truth does not die. It doesn't need to trend or go viral. It simply waits on the ground for someone to pick it up.",
+            "core": "Hope doesn't need to trend.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A vast prehistoric valley with a solitary modern couch, under a fiery sunset, cinematic."
+                },
+                {
+                    "offset": 5.0,
+                    "url": "",
+                    "query": "A figure stands before a firelit couch, lighter in hand, waiting."
+                },
+                {
+                    "offset": 9.0,
+                    "url": "",
+                    "query": "A close-up of the figure's face, eyes full of desire, a lighter with a blue flame in their hand."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A sprawling cityscape at dawn, a single phone face-down on a sleek table, a modern cave painting."
+                },
+                {
+                    "offset": 5.0,
+                    "url": "",
+                    "query": "A commuter rushing through a bustling subway station, phone screen alight with vibrant blue hues."
+                },
+                {
+                    "offset": 9.0,
+                    "url": "",
+                    "query": "A close-up of a hand grasping a phone, eyes reflecting the blue screen, desire etched on the face."
+                }
+            ],
+            "words": [
+                {
+                    "start": 113.072,
+                    "end": 113.172,
+                    "text": "I"
+                },
+                {
+                    "start": 113.172,
+                    "end": 113.427,
+                    "text": "WANT"
+                },
+                {
+                    "start": 113.512,
+                    "end": 113.76,
+                    "text": "A"
+                },
+                {
+                    "start": 113.54,
+                    "end": 113.74,
+                    "text": "A"
+                },
+                {
+                    "start": 113.74,
+                    "end": 114.42,
+                    "text": "BLUE"
+                },
+                {
+                    "start": 114.091,
+                    "end": 114.177,
+                    "text": "BLUE"
+                },
+                {
+                    "start": 114.42,
+                    "end": 114.976,
+                    "text": "ONE!\""
+                },
+                {
+                    "start": 115.352,
+                    "end": 118.172,
+                    "text": "ONE!"
+                },
+                {
+                    "start": 118.172,
+                    "end": 120.072,
+                    "text": "A"
+                },
+                {
+                    "start": 120.972,
+                    "end": 121.032,
+                    "text": "BLUE"
+                },
+                {
+                    "start": 124.055,
+                    "end": 124.833,
+                    "text": "ONE!"
+                }
+            ],
+            "line_index": 18,
+            "core_pt": "Esperança não precisa viralizar.",
+            "real_meaning_pt": "A esperança persiste: a verdade não morre. Ela não precisa ser tendência ou viral. Ela simplesmente espera no chão para que alguém a pegue.",
+            "core_pt_pt": "A esperança não precisa de estar na moda.",
+            "real_meaning_pt_pt": "A esperança persiste: a verdade não morre. Não precisa de ser tendência ou de ir viral. Simplesmente espera no chão, à espera que alguém a apanhe."
+        },
+        {
+            "id": "line_16_occ_0",
+            "start": 125.26,
+            "end": 129.53,
+            "lyric": "The fire is still there...",
+            "real_meaning": "Patience of the truth: The fundamental laws of nature and human connection remain constant, waiting out our frantic, temporary delusions.",
+            "core": "The truth waits patiently.",
+            "media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A vast prehistoric landscape stretches under a fiery sunset, a lone couch sits in the distance, a stone resting on the ground."
+                },
+                {
+                    "offset": 2.0,
+                    "url": "",
+                    "query": "A figure sits on the couch, hands resting on knees, eyes fixed on a stone."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "",
+                    "query": "A close-up of a stone, still warm from a previous fire, glowing in the firelit scene."
+                }
+            ],
+            "hidden_media": [
+                {
+                    "offset": 0.0,
+                    "url": "",
+                    "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, surrounded by bustling people. Cool morning light, modern, cinematic."
+                },
+                {
+                    "offset": 2.0,
+                    "url": "",
+                    "query": "A close-up of a commuter's hand on a phone screen. The modern world is bustling around them in cool tones."
+                },
+                {
+                    "offset": 3.5,
+                    "url": "",
+                    "query": "A close-up of a hand picking up a small stone from the concrete. The stone is still on the ground. The hand gently picks up the stone."
+                }
+            ],
+            "words": [
+                {
+                    "start": 125.26,
+                    "end": 126.2,
+                    "text": "The"
+                },
+                {
+                    "start": 126.24,
+                    "end": 127.12,
+                    "text": "fire"
+                },
+                {
+                    "start": 127.509,
+                    "end": 129.068,
+                    "text": "is"
+                },
+                {
+                    "start": 129.118,
+                    "end": 129.208,
+                    "text": "still"
+                },
+                {
+                    "start": 129.48,
+                    "end": 129.53,
+                    "text": "there..."
+                }
+            ],
+            "line_index": 19,
+            "core_pt": "A verdade espera pacientemente.",
+            "real_meaning_pt": "Paciência da verdade: As leis fundamentais da natureza e da conexão humana permanecem constantes, esperando nossas ilusões frenéticas e temporárias passarem.",
+            "core_pt_pt": "A verdade espera pacientemente.",
+            "real_meaning_pt_pt": "Paciência da verdade: As leis fundamentais da natureza e da conexão humana mantêm-se constantes, à espera das nossas ilusões frenéticas e temporárias."
+        },
+        {
+            "id": "line_17_occ_0",
+            "start": 133.44,
+            "end": 133.824,
             "lyric": "Waiting...",
             "real_meaning": "Waiting for the next Muda: The stone waits for the next person brave enough to step off the treadmill, stop running, and strike.",
             "core": "Waiting for the next Muda.",
@@ -998,61 +1404,81 @@ var track_08_data = {
                     "text": "Waiting..."
                 }
             ],
-            "line_index": 16,
+            "line_index": 20,
             "core_pt": "Aguardando a próxima Muda.",
             "real_meaning_pt": "Esperando a próxima Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e atacar.",
             "core_pt_pt": "À espera do próximo Muda.",
             "real_meaning_pt_pt": "À espera do próximo Muda: A pedra espera pela próxima pessoa corajosa o suficiente para sair da esteira, parar de correr e dar o golpe."
         },
         {
-            "id": "line_18_interp",
-            "start": 139.21,
-            "end": 142.71,
+            "id": "line_18_occ_0",
+            "start": 136.237,
+            "end": 139.209,
             "lyric": "Waiting for someone to remember...",
             "real_meaning": "The quiet power of reality: Knowing that whenever we are ready to drop the empty plastic, the real fire is still exactly where we left it.",
             "core": "Drop the plastic. Strike the stone.",
             "media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0954.webp",
+                    "url": "media/c0948.webp",
                     "query": "A vast prehistoric landscape at dusk, a solitary couch sits under a starry sky, a firepit smoldering nearby."
+                },
+                {
+                    "offset": 1.5,
+                    "url": "",
+                    "query": "A figure sits on the couch, staring into the dying embers of a campfire, the glow illuminating their face."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "The figure's eyes reflect the warmth of the embers, a look of anticipation and hope."
                 }
             ],
             "hidden_media": [
                 {
                     "offset": 0.0,
-                    "url": "media/c0957.webp",
+                    "url": "media/c0951.webp",
                     "query": "A sprawling cityscape at dawn, a single phone lies face-down on a bench, untouched."
+                },
+                {
+                    "offset": 1.5,
+                    "url": "",
+                    "query": "A busy morning train, a commuter's reflection in the window, eyes fixed on a glowing screen."
+                },
+                {
+                    "offset": 2.5,
+                    "url": "",
+                    "query": "A clenched fist on a steel railing, waiting, a hint of a wildflower in the corner."
                 }
             ],
             "words": [
                 {
-                    "start": 139.21,
-                    "end": 139.91,
+                    "start": 136.237,
+                    "end": 136.336,
                     "text": "Waiting"
                 },
                 {
-                    "start": 139.91,
-                    "end": 140.61,
+                    "start": 136.75,
+                    "end": 137.234,
                     "text": "for"
                 },
                 {
-                    "start": 140.61,
-                    "end": 141.31,
+                    "start": 137.525,
+                    "end": 137.595,
                     "text": "someone"
                 },
                 {
-                    "start": 141.31,
-                    "end": 142.01,
+                    "start": 138.688,
+                    "end": 138.74,
                     "text": "to"
                 },
                 {
-                    "start": 142.01,
-                    "end": 142.71,
+                    "start": 138.74,
+                    "end": 139.209,
                     "text": "remember..."
                 }
             ],
-            "line_index": 17,
+            "line_index": 21,
             "core_pt": "Deixe o plástico. Bata na pedra.",
             "real_meaning_pt": "O poder silencioso da realidade: Saber que, sempre que estamos prontos para largar o plástico vazio, o fogo real ainda está exatamente onde o deixamos.",
             "core_pt_pt": "Deixa o plástico. Bate na pedra.",
