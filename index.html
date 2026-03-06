@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <!-- You found the source. The stone remembers those who look. -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Chak Chak Mage</title>
     <meta property="og:title" content="The Chak Chak Mage - Interactive Album">
-    <meta property="og:description" content="Strike the stone. An interactive music experience with synced visuals, lyrics, and hidden narratives.">
+    <meta property="og:description"
+        content="Strike the stone. An interactive music experience with synced visuals, lyrics, and hidden narratives.">
     <meta property="og:image" content="https://az-dev-me.github.io/chak-chak-mage/img/og-cover.png">
     <meta property="og:url" content="https://az-dev-me.github.io/chak-chak-mage/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Chak Chak Mage">
     <meta name="twitter:image" content="https://az-dev-me.github.io/chak-chak-mage/img/og-cover.png">
-    <meta name="description" content="Strike the stone. An interactive music experience with synced visuals, lyrics, and hidden narratives. Built by a human and an AI.">
+    <meta name="description"
+        content="Strike the stone. An interactive music experience with synced visuals, lyrics, and hidden narratives. Built by a human and an AI.">
     <meta name="theme-color" content="#ffaa00">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             background: #060606;
@@ -40,6 +48,7 @@
             z-index: 0;
             transition: opacity 0.3s;
         }
+
         .bg-glow::before {
             content: '';
             position: absolute;
@@ -50,6 +59,7 @@
                 radial-gradient(ellipse 40% 50% at 75% 60%, rgba(255, 160, 0, 0.04) 0%, transparent 50%);
             animation: glow-pulse 8s ease-in-out infinite alternate;
         }
+
         .bg-glow::after {
             content: '';
             position: absolute;
@@ -63,9 +73,15 @@
             pointer-events: none;
             transition: left 0.6s ease-out, top 0.6s ease-out;
         }
+
         @keyframes glow-pulse {
-            0% { opacity: 0.5; }
-            100% { opacity: 1; }
+            0% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
         /* Film grain overlay */
@@ -93,6 +109,7 @@
             opacity: 0;
             animation: rays-appear 3s ease 0.5s forwards;
         }
+
         .light-ray {
             position: absolute;
             top: 50%;
@@ -103,12 +120,25 @@
             background: linear-gradient(to top, rgba(255, 140, 0, 0.12), transparent);
             border-radius: 1px;
         }
+
         @keyframes rays-appear {
-            to { opacity: 1; }
+            to {
+                opacity: 1;
+            }
         }
+
         @keyframes ray-breathe {
-            0%, 100% { opacity: 0.3; height: 160px; }
-            50% { opacity: 0.8; height: 200px; }
+
+            0%,
+            100% {
+                opacity: 0.3;
+                height: 160px;
+            }
+
+            50% {
+                opacity: 0.8;
+                height: 200px;
+            }
         }
 
         /* Floating ember particles */
@@ -119,6 +149,7 @@
             pointer-events: none;
             overflow: hidden;
         }
+
         .ember {
             position: absolute;
             width: 3px;
@@ -128,23 +159,42 @@
             animation: float-up linear infinite;
             opacity: 0;
         }
+
         .ember.large {
             width: 4px;
             height: 4px;
             background: rgba(255, 180, 50, 0.5);
             box-shadow: 0 0 6px rgba(255, 140, 0, 0.3);
         }
+
         .ember.tiny {
             width: 1.5px;
             height: 1.5px;
             background: rgba(255, 200, 100, 0.4);
         }
+
         @keyframes float-up {
-            0%   { transform: translateY(100vh) translateX(0) scale(0); opacity: 0; }
-            10%  { opacity: 0.8; }
-            50%  { transform: translateY(50vh) translateX(var(--drift, 0px)) scale(1); }
-            90%  { opacity: 0.3; }
-            100% { transform: translateY(-10vh) translateX(var(--drift-end, 0px)) scale(1.5); opacity: 0; }
+            0% {
+                transform: translateY(100vh) translateX(0) scale(0);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0.8;
+            }
+
+            50% {
+                transform: translateY(50vh) translateX(var(--drift, 0px)) scale(1);
+            }
+
+            90% {
+                opacity: 0.3;
+            }
+
+            100% {
+                transform: translateY(-10vh) translateX(var(--drift-end, 0px)) scale(1.5);
+                opacity: 0;
+            }
         }
 
         .landing-container {
@@ -162,22 +212,27 @@
             font-weight: 700;
             letter-spacing: 0.08em;
             color: #fff;
-            text-shadow: 0 0 60px rgba(255, 120, 0, 0.25), 0 2px 20px rgba(0,0,0,0.5);
+            text-shadow: 0 0 60px rgba(255, 120, 0, 0.25), 0 2px 20px rgba(0, 0, 0, 0.5);
             margin-bottom: 12px;
             line-height: 1.1;
             white-space: nowrap;
             user-select: none;
         }
+
         .title-letter {
             display: inline-block;
             transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
         }
+
         .title-letter:hover {
             color: #ffaa00;
             text-shadow: 0 0 20px rgba(255, 140, 0, 0.6), 0 0 60px rgba(255, 120, 0, 0.3);
             transform: translateY(-3px);
         }
-        .title-letter.space { width: 0.3em; }
+
+        .title-letter.space {
+            width: 0.3em;
+        }
 
         .subtitle {
             font-size: 0.85rem;
@@ -201,6 +256,7 @@
             opacity: 0;
             animation: slide-up 1s ease 0.6s forwards;
         }
+
         .wave-bar {
             width: 2px;
             background: rgba(255, 140, 0, 0.25);
@@ -208,14 +264,29 @@
             animation: wave-dance var(--wave-speed, 1.5s) ease-in-out infinite alternate;
             animation-delay: var(--wave-delay, 0s);
         }
+
         @keyframes wave-dance {
-            0% { height: var(--wave-min, 3px); opacity: 0.3; }
-            100% { height: var(--wave-max, 14px); opacity: 0.7; }
+            0% {
+                height: var(--wave-min, 3px);
+                opacity: 0.3;
+            }
+
+            100% {
+                height: var(--wave-max, 14px);
+                opacity: 0.7;
+            }
         }
 
         @keyframes slide-up {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         /* Language selector */
@@ -224,13 +295,15 @@
             opacity: 0;
             animation: slide-up 1s ease 0.8s forwards;
         }
+
         .lang-label {
             font-size: 0.65rem;
-            color: rgba(255,255,255,0.2);
+            color: rgba(255, 255, 255, 0.2);
             text-transform: uppercase;
             letter-spacing: 0.3em;
             margin-bottom: 24px;
         }
+
         .lang-buttons {
             display: flex;
             gap: 28px;
@@ -253,6 +326,7 @@
             perspective: 600px;
             transform-style: preserve-3d;
         }
+
         .lang-btn::after {
             content: '';
             position: absolute;
@@ -262,6 +336,7 @@
             transition: border-color 0.4s, box-shadow 0.4s;
             pointer-events: none;
         }
+
         .lang-flag {
             display: block;
             width: 160px;
@@ -276,11 +351,16 @@
             transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
             will-change: transform;
         }
+
         .lang-flag img {
-            width: 100%; height: 100%; display: block; object-fit: cover;
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
             transform: translateZ(20px) scale(0.92);
             transition: transform 0.3s ease;
         }
+
         .lang-flag::before {
             content: '';
             position: absolute;
@@ -290,12 +370,13 @@
             transform: translateZ(-10px);
             transition: background 0.4s, box-shadow 0.4s;
         }
+
         .lang-flag::after {
             content: '';
             position: absolute;
             inset: 0;
             border-radius: 8px;
-            background: linear-gradient(135deg, rgba(255,255,255, var(--glare, 0)) 0%, transparent 50%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, var(--glare, 0)) 0%, transparent 50%);
             transform: translateZ(25px);
             pointer-events: none;
         }
@@ -304,39 +385,55 @@
             opacity: 0.85;
             filter: grayscale(100%) brightness(0.85) contrast(1.1);
         }
+
         .lang-btn:hover .lang-flag img {
             transform: translateZ(30px) scale(0.90);
         }
+
         .lang-btn:hover .lang-flag::before {
             background: rgba(255, 140, 0, 0.08);
             box-shadow: 0 8px 30px rgba(255, 120, 0, 0.12);
         }
+
         .lang-btn.selected {
             border-color: rgba(255, 140, 0, 0.6);
-            box-shadow: 0 0 40px rgba(255, 140, 0, 0.15), 0 0 0 1px rgba(255,140,0,0.25);
+            box-shadow: 0 0 40px rgba(255, 140, 0, 0.15), 0 0 0 1px rgba(255, 140, 0, 0.25);
         }
+
         .lang-btn.selected::after {
             border-color: rgba(255, 140, 0, 0.3);
             box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
             animation: pulse-ring 2s ease-in-out infinite;
         }
+
         .lang-btn.selected .lang-flag {
             opacity: 1;
             filter: grayscale(100%) brightness(1) contrast(1.15);
         }
+
         .lang-btn.selected .lang-flag img {
             transform: translateZ(35px) scale(0.88);
         }
+
         @keyframes pulse-ring {
-            0%, 100% { border-color: rgba(255, 140, 0, 0.3); box-shadow: 0 0 20px rgba(255, 140, 0, 0.1); }
-            50% { border-color: rgba(255, 140, 0, 0.6); box-shadow: 0 0 30px rgba(255, 140, 0, 0.2); }
+
+            0%,
+            100% {
+                border-color: rgba(255, 140, 0, 0.3);
+                box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
+            }
+
+            50% {
+                border-color: rgba(255, 140, 0, 0.6);
+                box-shadow: 0 0 30px rgba(255, 140, 0, 0.2);
+            }
         }
 
         /* Enter button */
         .enter-btn {
             display: none;
-            background: linear-gradient(135deg, rgba(200,100,0,0.9), rgba(255,140,0,0.9));
-            border: 1px solid rgba(255,180,0,0.3);
+            background: linear-gradient(135deg, rgba(200, 100, 0, 0.9), rgba(255, 140, 0, 0.9));
+            border: 1px solid rgba(255, 180, 0, 0.3);
             color: #000;
             padding: 16px 56px;
             font-size: 1rem;
@@ -352,29 +449,42 @@
             position: relative;
             overflow: hidden;
         }
+
         .enter-btn::before {
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transform: translateX(-100%);
             transition: transform 0.6s;
         }
+
         .enter-btn:hover::before {
             transform: translateX(100%);
         }
+
         .enter-btn.visible {
             display: inline-block;
             animation: btn-appear 0.5s ease-out;
         }
+
         @keyframes btn-appear {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
+
         .enter-btn:hover {
             transform: scale(1.05);
             box-shadow: 0 8px 44px rgba(255, 140, 0, 0.4);
         }
+
         .enter-btn:active {
             transform: scale(0.98);
         }
@@ -386,6 +496,7 @@
             z-index: 10;
             pointer-events: none;
         }
+
         .spark {
             position: absolute;
             width: 3px;
@@ -402,7 +513,10 @@
             max-width: 340px;
             margin: 0 auto;
         }
-        .loading-section.active { display: block; }
+
+        .loading-section.active {
+            display: block;
+        }
 
         .progress-track {
             width: 100%;
@@ -412,6 +526,7 @@
             overflow: hidden;
             margin-bottom: 14px;
         }
+
         .progress-fill {
             width: 0%;
             height: 100%;
@@ -420,6 +535,7 @@
             transition: width 0.4s ease;
             box-shadow: 0 0 8px rgba(255, 140, 0, 0.4);
         }
+
         .loading-text {
             font-size: 0.72rem;
             color: rgba(255, 255, 255, 0.3);
@@ -451,8 +567,11 @@
             opacity: 0;
             animation: fade-in 2.5s ease 2s forwards;
         }
+
         @keyframes fade-in {
-            to { opacity: 1; }
+            to {
+                opacity: 1;
+            }
         }
 
         /* Mobile flag labels */
@@ -462,69 +581,124 @@
 
         /* Responsive */
         @media (max-width: 600px) {
-            .title { font-size: clamp(1.4rem, 8vw, 2rem); }
-            .lang-buttons { gap: 14px; flex-wrap: wrap; }
-            .enter-btn { padding: 14px 36px; font-size: 0.9rem; }
-            .light-rays { width: 200px; height: 200px; }
-            .light-ray { height: 120px; }
+            .title {
+                font-size: clamp(1.4rem, 8vw, 2rem);
+            }
+
+            .lang-buttons {
+                gap: 14px;
+                flex-wrap: wrap;
+            }
+
+            .enter-btn {
+                padding: 14px 36px;
+                font-size: 0.9rem;
+            }
+
+            .light-rays {
+                width: 200px;
+                height: 200px;
+            }
+
+            .light-ray {
+                height: 120px;
+            }
 
             /* Mobile: full color flags, tappable buttons */
             .lang-btn {
+                width: 100px;
+                height: 84px;
+                justify-content: center;
                 perspective: none;
                 border: none;
                 border-radius: 14px;
-                background: rgba(255,255,255,0.06);
+                background: rgba(255, 255, 255, 0.06);
                 padding: 10px 12px 6px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 gap: 4px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.08);
                 -webkit-tap-highlight-color: transparent;
             }
+
             .lang-btn:active {
                 transform: scale(0.95);
-                box-shadow: 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
             }
+
             .lang-btn.selected {
-                background: rgba(255,140,0,0.12);
-                box-shadow: 0 4px 16px rgba(255,140,0,0.25), 0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,180,0,0.15);
+                background: rgba(255, 140, 0, 0.12);
+                box-shadow: 0 4px 16px rgba(255, 140, 0, 0.25), 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 180, 0, 0.15);
             }
+
             .lang-flag {
-                width: 80px; height: 54px;
-                transform-style: flat; transform: none !important;
+                width: 72px;
+                height: 48px;
+                transform-style: flat;
+                transform: none !important;
                 filter: brightness(0.9) saturate(0.85);
                 opacity: 0.9;
                 border-radius: 6px;
             }
-            .lang-flag img { transform: none !important; }
-            .lang-flag::before { display: none; }
-            .lang-flag::after { display: none; }
+
+            .lang-flag img {
+                transform: none !important;
+            }
+
+            .lang-flag::before {
+                display: none;
+            }
+
+            .lang-flag::after {
+                display: none;
+            }
+
             .lang-btn.selected .lang-flag {
                 filter: brightness(1) saturate(1);
                 opacity: 1;
             }
-            .lang-btn.selected .lang-flag img { transform: none !important; }
+
+            .lang-btn.selected .lang-flag img {
+                transform: none !important;
+            }
+
             .lang-label-name {
                 display: block;
                 font-size: 0.55rem;
-                color: rgba(255,255,255,0.35);
+                color: rgba(255, 255, 255, 0.35);
                 letter-spacing: 0.1em;
                 text-transform: uppercase;
                 font-family: 'Inter', sans-serif;
             }
+
             .lang-btn.selected .lang-label-name {
-                color: rgba(255,170,0,0.7);
+                color: rgba(255, 170, 0, 0.7);
             }
         }
+
         @media (max-width: 360px) {
-            .lang-flag { width: 68px; height: 45px; }
-            .lang-buttons { gap: 10px; }
+            .lang-btn {
+                width: 90px;
+                height: 76px;
+            }
+
+            .lang-flag {
+                width: 64px;
+                height: 42px;
+            }
+
+            .lang-buttons {
+                gap: 10px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <div style="position:fixed;inset:0;z-index:0;background:url('img/og-cover.png') center/cover;opacity:0.06;filter:blur(40px) saturate(0.3);pointer-events:none;"></div>
+    <div
+        style="position:fixed;inset:0;z-index:0;background:url('img/og-cover.png') center/cover;opacity:0.06;filter:blur(40px) saturate(0.3);pointer-events:none;">
+    </div>
     <div class="bg-glow"></div>
     <div class="grain"></div>
     <div class="light-rays" id="light-rays"></div>
@@ -544,13 +718,13 @@
             <p class="lang-label" id="lang-label">Choose your language</p>
             <div class="lang-buttons">
                 <button class="lang-btn" data-lang="en" onclick="selectLang('en')">
-                    <span class="lang-flag"><img src="img/flag_en_color.svg" alt="English"></span>
+                    <span class="lang-flag"><img src="img/flag_en_bw.svg" alt="English"></span>
                     <span class="lang-label-name">English</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
-                    <span class="lang-flag"><img src="img/flag_pt.svg" alt="Portugu&#234;s"></span>
-                    <span class="lang-label-name">Portugu&#234;s</span>
+                    <span class="lang-flag"><img src="img/flag_pt_bw.svg" alt="Português"></span>
+                    <span class="lang-label-name">Português</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt-br" onclick="selectLang('pt-br')">
@@ -578,7 +752,7 @@
 
     <script>
         // === Canvas fire + orbiting ring visualization ===
-        (function() {
+        (function () {
             const canvas = document.getElementById('fire-canvas');
             const ctx = canvas.getContext('2d');
             let W, H, dpr;
@@ -686,7 +860,7 @@
         })();
 
         // === Title letter-by-letter setup ===
-        (function() {
+        (function () {
             const titleEl = document.getElementById('title');
             const text = 'THE CHAK CHAK MAGE';
             text.split('').forEach(ch => {
@@ -698,7 +872,7 @@
         })();
 
         // === Decorative waveform bars ===
-        (function() {
+        (function () {
             const wf = document.getElementById('waveform');
             const barCount = 32;
             for (let i = 0; i < barCount; i++) {
@@ -717,7 +891,7 @@
         })();
 
         // === Light rays behind title ===
-        (function() {
+        (function () {
             const container = document.getElementById('light-rays');
             const rayCount = 12;
             for (let i = 0; i < rayCount; i++) {
@@ -732,7 +906,7 @@
         })();
 
         // === Enhanced floating ember particles ===
-        (function() {
+        (function () {
             const container = document.getElementById('embers');
             for (let i = 0; i < 35; i++) {
                 const ember = document.createElement('div');
@@ -753,7 +927,7 @@
         })();
 
         // === Mouse-tracking glow ===
-        document.addEventListener('mousemove', function(e) {
+        document.addEventListener('mousemove', function (e) {
             const glow = document.querySelector('.bg-glow');
             glow.style.setProperty('--mouse-x', e.clientX + 'px');
             glow.style.setProperty('--mouse-y', e.clientY + 'px');
@@ -929,7 +1103,7 @@
         });
 
         // 2. Click anywhere spawns a small spark
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             if (e.target.closest('.lang-btn') || e.target.closest('.enter-btn')) return;
             const count = 5;
             const container = document.getElementById('sparks');
@@ -944,14 +1118,14 @@
                 const dist = 15 + Math.random() * 30;
                 spark.animate([
                     { transform: 'translate(0,0) scale(1)', opacity: 0.8 },
-                    { transform: `translate(${Math.cos(angle)*dist}px, ${Math.sin(angle)*dist}px) scale(0)`, opacity: 0 }
+                    { transform: `translate(${Math.cos(angle) * dist}px, ${Math.sin(angle) * dist}px) scale(0)`, opacity: 0 }
                 ], { duration: 300 + Math.random() * 200, easing: 'ease-out', fill: 'forwards' });
                 container.appendChild(spark);
                 setTimeout(() => spark.remove(), 600);
             }
         });
         // === Konami code on landing page too ===
-        const _k = [38,38,40,40,37,39,37,39,66,65];
+        const _k = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
         let _ki = 0;
         document.addEventListener('keydown', (e) => {
             if (e.keyCode === _k[_ki]) { _ki++; } else { _ki = 0; }
@@ -997,4 +1171,5 @@
         console.log('%cTry the Konami code. Or type "chak".', 'color:#444;font-size:10px;');
     </script>
 </body>
+
 </html>
