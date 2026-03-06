@@ -444,7 +444,11 @@ var track_01_T1_2_3b_data = {
                     "text": "and"
                 }
             ],
-            "line_index": 6
+            "line_index": 6,
+            "core_pt": "O choque de um lugar alienígena.",
+            "real_meaning_pt": "O choque sensorial de um novo mundo: Todo imigrante, todo explorador, todo refugiado conhece esse momento, o cheiro, o ar, a beleza aterrorizante de um lugar completamente alienígena.",
+            "core_pt_pt": "O choque de um lugar alienígena.",
+            "real_meaning_pt_pt": "O choque dos sentidos de um novo mundo: Cada imigrante, cada explorador, cada refugiado conhece este momento, o cheiro, o ar, a aterrorizante beleza de um lugar completamente alheio."
         },
         {
             "id": "line_7_occ_0",

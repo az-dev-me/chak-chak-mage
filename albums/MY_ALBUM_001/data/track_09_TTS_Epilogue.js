@@ -46,7 +46,11 @@ var track_09_TTS_Epilogue_data = {
                     "text": "home"
                 }
             ],
-            "line_index": 0
+            "line_index": 0,
+            "core_pt": "De volta ao ponto de partida. Agora entendemos.",
+            "real_meaning_pt": "Ciclo completo: Voltamos ao início, mas agora armados com a pesada compreensão do padrão. O mesmo ciclo de obediência cega — a Revolução ainda morde os sapatos.",
+            "core_pt_pt": "De volta ao ponto de partida. Agora percebemos.",
+            "real_meaning_pt_pt": "Círculo completo: Voltamos ao início, mas agora armados com a pesada compreensão do padrão. O mesmo ciclo de obediência cega — a Revolução ainda morde os sapatos."
         },
         {
             "id": "line_0_occ_0_s0_s1_s0",
@@ -217,7 +221,11 @@ var track_09_TTS_Epilogue_data = {
                     "text": "thought..."
                 }
             ],
-            "line_index": 4
+            "line_index": 4,
+            "core_pt": "Nós nunca aprendemos.",
+            "real_meaning_pt": "A epifania brutal: Despojada de toda grande poesia, a verdade é profana. Nós simplesmente nunca aprendemos. Ferramentas diferentes, séculos diferentes, a mesma fé cega. Sempre a mesma coisa.",
+            "core_pt_pt": "Nós nunca aprendemos.",
+            "real_meaning_pt_pt": "A epifania crua: Despojada de toda a grande poesia, a verdade é profana. Nós simplesmente nunca aprendemos. Ferramentas diferentes, séculos diferentes, a mesma fé cega. Sempre a mesma."
         },
         {
             "id": "line_1_occ_0_s1",
@@ -328,7 +336,11 @@ var track_09_TTS_Epilogue_data = {
                     "text": "lighter."
                 }
             ],
-            "line_index": 7
+            "line_index": 7,
+            "core_pt": "Ferramenta se torna totem se torna arma.",
+            "real_meaning_pt": "O arco da civilização em seis palavras: A ferramenta se torna um símbolo, se torna um totem, se torna uma arma. Dinheiro e ideologia são apenas isqueiros sem gás.",
+            "core_pt_pt": "Ferramenta torna-se totem torna-se arma.",
+            "real_meaning_pt_pt": "O arco da civilização em seis palavras: A ferramenta torna-se um símbolo, torna-se um totem, torna-se uma arma. Dinheiro e ideologia são apenas isqueiros sem gas."
         },
         {
             "id": "line_2_occ_0_s1",
@@ -590,7 +602,11 @@ var track_09_TTS_Epilogue_data = {
                     "text": "shouts:"
                 }
             ],
-            "line_index": 13
+            "line_index": 13,
+            "core_pt": "Agora a ferramenta pensa. E não é sua.",
+            "real_meaning_pt": "Desta vez é diferente: o isqueiro se tornou uma IA que aprende, se adapta e substitui. E os que o possuem não estão compartilhando o fogo — eles estão vendendo de volta seus próprios faíscas.",
+            "core_pt_pt": "Mas agora a ferramenta pensa. E não é tua.",
+            "real_meaning_pt_pt": "Esta vez é diferente: o isqueiro tornou-se uma IA que aprende, adapta e substitui. E os que o possuem não estão a partilhar o fogo — estão a vender-te os teus próprios faíscas."
         },
         {
             "id": "line_5_occ_0_s1",
@@ -688,7 +704,11 @@ var track_09_TTS_Epilogue_data = {
                     "text": "replies:"
                 }
             ],
-            "line_index": 15
+            "line_index": 15,
+            "core_pt": "Você e SEU IA. Não você e A ELE.",
+            "real_meaning_pt": "A verdade mais clara do nosso tempo: Deveria ser você e sua IA trabalhando para a empresa — e não você trabalhando ao lado da IA da empresa, que foi construída para substituir você. Saiba a diferença. É tudo.",
+            "core_pt_pt": "Tu e a tua IA. Não tu e a deles IA.",
+            "real_meaning_pt_pt": "A verdade mais clara do nosso tempo: Deveria ser tu e a tua IA a trabalhar para a empresa — não tu a trabalhar ao lado da IA da empresa, que foi construída para te substituir. Conhece a diferença. É tudo."
         },
         {
             "id": "line_6_occ_0_s1_s0",

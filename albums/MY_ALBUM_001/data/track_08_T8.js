@@ -51,7 +51,11 @@ var track_08_T8_data = {
                     "text": "couch"
                 }
             ],
-            "line_index": 0
+            "line_index": 0,
+            "core_pt": "Telas desligadas. Desespero existencial ligado.",
+            "real_meaning_pt": "De volta ao mundo moderno: a depressão pós-aventura. O pavor existencial das noites de domingo quando as telas se apagam.",
+            "core_pt_pt": "Ecrãs desligados. Pânico existencial ligado.",
+            "real_meaning_pt_pt": "De volta ao mundo moderno: a depressão pós-aventura. O pânico existencial das noites de domingo quando os ecrãs se apagam."
         },
         {
             "id": "line_0_occ_0_s1",
@@ -195,7 +199,11 @@ var track_08_T8_data = {
                     "text": "thought..."
                 }
             ],
-            "line_index": 3
+            "line_index": 3,
+            "core_pt": "A natureza humana nunca muda.",
+            "real_meaning_pt": "A devastadora realização: a natureza humana simplesmente não muda. Repetimos os mesmos erros primitivos, apenas com tecnologia mais sofisticada.",
+            "core_pt_pt": "A natureza humana nunca muda.",
+            "real_meaning_pt_pt": "A devastadora realização: A natureza humana simplesmente não muda. Repetimos os mesmos erros primitivos, apenas com uma tecnologia mais sofisticada."
         },
         {
             "id": "line_2_occ_0_s1",
@@ -379,7 +387,11 @@ var track_08_T8_data = {
                     "text": "totem"
                 }
             ],
-            "line_index": 6
+            "line_index": 6,
+            "core_pt": "Ferramentas transformadas em deuses.",
+            "real_meaning_pt": "Ferramentas transformadas em deuses: Elevando salário a autoestima, contagem de seguidores a identidade. Transformamos o mundano em totens para perseguir.",
+            "core_pt_pt": "Ferramentas transformadas em deuses.",
+            "real_meaning_pt_pt": "Ferramentas transformadas em deuses: Elevar o salário a autoestima, o número de seguidores a identidade. Transformámos o quotidiano em totens a perseguir."
         },
         {
             "id": "line_4_occ_0_s1",

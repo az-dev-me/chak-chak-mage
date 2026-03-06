@@ -491,7 +491,7 @@ header p {
 }
 
 #meaning-panel.meaning-hidden {
-    opacity: 0.15;
+    opacity: 1;
 }
 
 #meaning-panel.meaning-visible {

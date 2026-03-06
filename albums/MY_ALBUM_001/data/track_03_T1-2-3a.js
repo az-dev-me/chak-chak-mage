@@ -1194,7 +1194,11 @@ var track_03_T1_2_3a_data = {
                     "end": 98.778,
                     "text": "there"
                 }
-            ]
+            ],
+            "core_pt": "O criador observa a loucura espiral.",
+            "real_meaning_pt": "O horror do criador: o fundador ou líder de tecnologia percebendo que o sistema que construiu se transformou em um monstro irracional e incontrolável.",
+            "core_pt_pt": "O criador vê a loucura espiralar.",
+            "real_meaning_pt_pt": "O horror do criador: o fundador ou líder tecnológico a perceber que o sistema que construiu se transformou num monstro irracional e incontrolável."
         },
         {
             "id": "line_15_interp_s1",

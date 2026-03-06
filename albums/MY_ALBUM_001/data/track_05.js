@@ -1188,7 +1188,11 @@ var track_05_data = {
                     "end": 88.98
                 }
             ],
-            "line_index": 18
+            "line_index": 18,
+            "core_pt": "Se é de graça, qual é o sentido?",
+            "real_meaning_pt": "Tronco, o pragmático: Incapaz de ver valor no que é gratuito. 'Se a pedra não for uma caixa laranja com marca, qual é o ponto?",
+            "core_pt_pt": "Se é de graça, qual é a vantagem?",
+            "real_meaning_pt_pt": "Tronco o pragmático: Incapaz de ver valor no que é gratuito. 'Se a pedra não for uma caixa de laranja com marca, qual é o ponto?'"
         },
         {
             "id": "line_8_occ_0",

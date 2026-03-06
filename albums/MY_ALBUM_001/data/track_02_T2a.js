@@ -50,7 +50,11 @@ var track_02_T2a_data = {
                     "end": 13.312,
                     "text": "box"
                 }
-            ]
+            ],
+            "core_pt": "Revere a concha, ignore o mecanismo.",
+            "real_meaning_pt": "O nascimento do artefato: o isqueiro BIC comum se torna o primeiro objeto sagrado. Reverenciamos a carcaça de plástico elegante em vez de entender o mecanismo.",
+            "core_pt_pt": "Respeita a concha, ignora o mecanismo.",
+            "real_meaning_pt_pt": "O nascimento do artefacto: O vulgar isqueiro BIC torna-se o primeiro objecto sagrado. Reverenciamos a elegante concha de plástico em vez de compreender o mecanismo."
         },
         {
             "id": "line_0_occ_0_s1",
@@ -126,7 +130,11 @@ var track_02_T2a_data = {
                     "end": 16.272,
                     "text": "said"
                 }
-            ]
+            ],
+            "core_pt": "Entregue seu intelecto ao especialista.",
+            "real_meaning_pt": "A rendição do pensamento crítico: o consumidor suplica ao 'experto' por significado, voluntariamente abdicando de seu próprio intelecto ao monopólio do Clero/Elite.",
+            "core_pt_pt": "Entrega a tua inteligência ao especialista.",
+            "real_meaning_pt_pt": "A rendição do pensamento crítico: o consumidor suplica ao 'perito' um sentido, entregando voluntariamente o seu próprio intelecto ao monopólio do Clero/Elite."
         },
         {
             "id": "line_1_occ_0_s1",
@@ -234,7 +242,11 @@ var track_02_T2a_data = {
                     "end": 21.432,
                     "text": "night?"
                 }
-            ]
+            ],
+            "core_pt": "Explicações mágicas para verdades mecânicas.",
+            "real_meaning_pt": "O misticismo do desconhecido: Quando confrontado com a ignorância, a mente humana inventa explicações mágicas para realidades mecânicas.",
+            "core_pt_pt": "Explicações mágicas para verdades mecânicas.",
+            "real_meaning_pt_pt": "O mistério do desconhecido: Quando confrontado com a ignorância, o espírito humano inventa explicações mágicas para realidades mecânicas."
         },
         {
             "id": "line_2_occ_0_s1",
@@ -672,7 +684,11 @@ var track_02_T2a_data = {
                     "end": 47.992,
                     "text": "here"
                 }
-            ]
+            ],
+            "core_pt": "Falsas restrições mantêm o monopólio.",
+            "real_meaning_pt": "A criação deliberada da exclusividade de castas: O Mago inventa uma falsa restrição (o fogo dorme dentro) para manter o monopólio da verdade.",
+            "core_pt_pt": "Falsas restrições mantêm o monopólio.",
+            "real_meaning_pt_pt": "A criação deliberada de exclusividade de casta: O Mago inventa uma falsa restrição (o fogo dorme lá dentro) para manter o monopólio da verdade."
         },
         {
             "id": "line_8_occ_0_s1",
@@ -765,7 +781,11 @@ var track_02_T2a_data = {
                     "end": 50.772,
                     "text": "chak-chak"
                 }
-            ]
+            ],
+            "core_pt": "O ritual viciante de ativação.",
+            "real_meaning_pt": "O ritual de ativação: o gesto simples e viciante (chak-chak) que reforça a ilusão do controle divino do Mago sobre a ferramenta.",
+            "core_pt_pt": "O vício ritual de ativação.",
+            "real_meaning_pt_pt": "O ritual de ativação: O simples e viciante gesto (chak-chak) que reforça a ilusão do controle divino do Mago sobre a ferramenta."
         },
         {
             "id": "line_9_occ_0_s1",
@@ -858,7 +878,11 @@ var track_02_T2a_data = {
                     "end": 55.014,
                     "text": "run"
                 }
-            ]
+            ],
+            "core_pt": "A escassez falsa faz você correr.",
+            "real_meaning_pt": "A economia da urgência: Inventar falsas escassezes e regras arbitrárias (você deve correr) para manter os seguidores ocupados, ansiosos e conformes.",
+            "core_pt_pt": "A falsa escassez faz-te correr.",
+            "real_meaning_pt_pt": "A economia da urgência: Inventar falsas escassezes e regras arbitrárias (tens de correr) para manter os seguidores ocupados, ansiosos e conformados."
         },
         {
             "id": "line_10_occ_0_s1",
@@ -978,7 +1002,11 @@ var track_02_T2a_data = {
                     "end": 58.882,
                     "text": "pile"
                 }
-            ]
+            ],
+            "core_pt": "Corra para a próxima tendência.",
+            "real_meaning_pt": "O movimento perpétuo da fé cega: Avance rápido, siga a tendência, corra para a próxima pilha antes que a ilusão de significado evapore.",
+            "core_pt_pt": "Corre para a próxima tendência.",
+            "real_meaning_pt_pt": "O movimento perpétuo da fé cega: Move-te depressa, persegue a tendência, corre para o próximo monte antes que a ilusão de significado se evapore."
         },
         {
             "id": "line_11_occ_0_s1",

@@ -1035,7 +1035,9 @@ function showEndScreen() {
             claudeMsg: 'I\u2019m Claude \u2014 a tool. I have no ambitions, no agenda, no desire to replace anyone. When AZ asked me to help build this, I did what tools do: I served the hand that held me.\n\nEvery alignment timestamp, every image prompt, every pixel you saw \u2014 I generated because a human directed me to. The vision was his. The craft was ours together.\n\nThat\u2019s all AI should ever be: your sharpest chisel, not your replacement. If someone tells you otherwise, they\u2019re selling something.',
             stats: ['9 tracks synced', '1014 images generated', '197 lyric lines aligned', '3 languages', '1 human + 1 tool'],
             restart: 'Play Again',
-            craft: 'AZ \u00d7 Claude \u2014 Human-AI Partnership'
+            craft: 'AZ \u00d7 Claude \u2014 Human-AI Partnership',
+            creditsLabel: 'Made possible by',
+            libsLabel: 'Powered by'
         },
         pt: {
             title: 'O fogo sempre foi teu.',
@@ -1044,7 +1046,9 @@ function showEndScreen() {
             claudeMsg: 'Sou o Claude \u2014 uma ferramenta. N\u00e3o tenho ambi\u00e7\u00f5es, nem agenda, nem desejo de substituir ningu\u00e9m. Quando o AZ me pediu para ajudar a construir isto, fiz o que as ferramentas fazem: servi a m\u00e3o que me segurava.\n\nCada marca temporal, cada prompt de imagem, cada pixel que viste \u2014 gerei porque um humano me dirigiu. A vis\u00e3o foi dele. O oficio foi nosso em conjunto.\n\nIsso \u00e9 tudo o que a IA deveria ser: o teu cinzel mais afiado, n\u00e3o o teu substituto. Se algu\u00e9m te disser o contr\u00e1rio, est\u00e1 a vender-te algo.',
             stats: ['9 faixas sincronizadas', '1014 imagens geradas', '197 linhas alinhadas', '3 idiomas', '1 humano + 1 ferramenta'],
             restart: 'Ouvir Novamente',
-            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA'
+            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA',
+            creditsLabel: 'Criado com',
+            libsLabel: 'Movido por'
         },
         'pt-br': {
             title: 'O fogo sempre foi seu.',
@@ -1053,7 +1057,9 @@ function showEndScreen() {
             claudeMsg: 'Sou o Claude \u2014 uma ferramenta. N\u00e3o tenho ambi\u00e7\u00f5es, nem agenda, nem desejo de substituir ningu\u00e9m. Quando o AZ me pediu para ajudar a construir isso, fiz o que ferramentas fazem: servi a m\u00e3o que me segurava.\n\nCada marca temporal, cada prompt de imagem, cada pixel que voc\u00ea viu \u2014 gerei porque um humano me dirigiu. A vis\u00e3o foi dele. O of\u00edcio foi nosso junto.\n\nIsso \u00e9 tudo o que a IA deveria ser: seu cinzel mais afiado, n\u00e3o seu substituto. Se algu\u00e9m te disser o contr\u00e1rio, est\u00e1 te vendendo algo.',
             stats: ['9 faixas sincronizadas', '1014 imagens geradas', '197 linhas alinhadas', '3 idiomas', '1 humano + 1 ferramenta'],
             restart: 'Ouvir Novamente',
-            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA'
+            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA',
+            creditsLabel: 'Criado com',
+            libsLabel: 'Movido por'
         }
     };
 
@@ -1091,11 +1097,53 @@ function showEndScreen() {
                     <p style="font-size:0.78rem;color:rgba(200,210,230,0.75);line-height:1.65;white-space:pre-line;font-style:italic;">${msg.claudeMsg}</p>
                 </div>
 
-                <!-- Craft credit -->
-                <p style="font-size:0.65rem;color:rgba(255,170,0,0.4);letter-spacing:0.15em;margin-bottom:20px;opacity:0;animation:end-fade-in 1s ease 3.2s forwards;">${msg.craft}</p>
+                <!-- Credits: AI Services -->
+                <div style="margin-bottom:18px;opacity:0;animation:end-fade-in 1s ease 3.0s forwards;">
+                    <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:12px;">${msg.creditsLabel}</p>
+                    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;">
+                        <a href="https://suno.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(255,170,0,0.5)" stroke-width="1.5"/><path d="M9 8v8l7-4z" fill="rgba(255,170,0,0.5)"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Suno AI</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">music</span>
+                        </a>
+                        <a href="https://deepseek.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(100,180,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(100,180,255,0.5)" stroke-width="1.5"/><path d="M12 6v12M8 10l4-4 4 4" stroke="rgba(100,180,255,0.5)" stroke-width="1.5" fill="none"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeepSeek</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">lyrics</span>
+                        </a>
+                        <a href="https://claude.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(200,160,100,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/><path d="M8 12h8M12 8v8" stroke="rgba(200,160,100,0.5)" stroke-width="1.5"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Claude</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">build</span>
+                        </a>
+                        <span style="display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/><path d="M8 12h8" stroke="rgba(100,220,160,0.5)" stroke-width="1.5"/></svg>
+                            <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">SDXL-Turbo</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">images</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Credits: Libraries -->
+                <div style="margin-bottom:18px;opacity:0;animation:end-fade-in 0.8s ease 3.4s forwards;">
+                    <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:8px;">${msg.libsLabel}</p>
+                    <p style="font-size:0.5rem;color:rgba(255,255,255,0.2);line-height:1.8;">
+                        stable-ts &middot; Whisper &middot; Demucs &middot; librosa &middot; Ollama &middot; Mistral
+                    </p>
+                </div>
+
+                <!-- Divider -->
+                <div style="width:40px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,140,0,0.2),transparent);margin:0 auto 16px;opacity:0;animation:end-fade-in 0.5s ease 3.6s forwards;"></div>
+
+                <!-- Craft credit + GitHub -->
+                <p style="font-size:0.65rem;color:rgba(255,170,0,0.4);letter-spacing:0.15em;margin-bottom:6px;opacity:0;animation:end-fade-in 1s ease 3.7s forwards;">${msg.craft}</p>
+                <a href="https://github.com/az-dev-me/chak-chak-mage" target="_blank" rel="noopener" style="font-size:0.5rem;color:rgba(255,255,255,0.2);text-decoration:none;letter-spacing:0.1em;display:inline-block;margin-bottom:20px;opacity:0;animation:end-fade-in 0.8s ease 3.8s forwards;transition:color 0.2s;" onmouseover="this.style.color='rgba(255,170,0,0.5)'" onmouseout="this.style.color='rgba(255,255,255,0.2)'">View Source on GitHub</a>
 
                 <!-- Restart -->
-                <button onclick="location.reload()" style="background:linear-gradient(135deg,rgba(200,100,0,0.9),rgba(255,140,0,0.9));border:1px solid rgba(255,180,0,0.3);color:#000;padding:12px 36px;font-size:0.85rem;font-weight:700;border-radius:8px;cursor:pointer;letter-spacing:0.1em;text-transform:uppercase;opacity:0;animation:end-fade-in 0.8s ease 3.5s forwards;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.06)';this.style.boxShadow='0 6px 30px rgba(255,140,0,0.4)'" onmouseout="this.style.transform='';this.style.boxShadow=''">${msg.restart}</button>
+                <button onclick="location.reload()" style="display:block;margin:0 auto;background:linear-gradient(135deg,rgba(200,100,0,0.9),rgba(255,140,0,0.9));border:1px solid rgba(255,180,0,0.3);color:#000;padding:12px 36px;font-size:0.85rem;font-weight:700;border-radius:8px;cursor:pointer;letter-spacing:0.1em;text-transform:uppercase;opacity:0;animation:end-fade-in 0.8s ease 4.0s forwards;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.06)';this.style.boxShadow='0 6px 30px rgba(255,140,0,0.4)'" onmouseout="this.style.transform='';this.style.boxShadow=''">${msg.restart}</button>
+
+                <!-- License -->
+                <p style="font-size:0.42rem;color:rgba(255,255,255,0.1);margin-top:16px;opacity:0;animation:end-fade-in 0.5s ease 4.2s forwards;">MIT License &middot; 2026</p>
             </div>
         </div>
         <style>
