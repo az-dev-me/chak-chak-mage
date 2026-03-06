@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--
+    ╔══════════════════════════════════════════════════╗
+    ║  You're reading the source. Good instinct.      ║
+    ║                                                  ║
+    ║  This was built by a human (AZ) and a tool      ║
+    ║  (Claude). No templates. No frameworks.          ║
+    ║  Just vanilla JS, stubbornness, and fire.        ║
+    ║                                                  ║
+    ║  If you're here to learn — welcome.              ║
+    ║  If you're here to copy — make it yours.         ║
+    ║  If you're here because you're curious —         ║
+    ║  that's the whole point.                         ║
+    ║                                                  ║
+    ║  Chak-chak.                                      ║
+    ╚══════════════════════════════════════════════════╝
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chak Chak Mage - Interactive Studio</title>
+    <meta property="og:title" content="The Chak Chak Mage - Interactive Album">
+    <meta property="og:description" content="Strike the stone. An interactive music experience with synced visuals, lyrics, and hidden narratives.">
+    <meta property="og:image" content="img/og-cover.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="img/og-cover.png">
+    <link rel="stylesheet" href="css/style.css?v=20260306p">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script>
+        // Redirect to landing if no language selected
+        (function() {
+            var lang = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('chak_lang');
+            if (!lang) { window.location.replace('index.html'); }
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- ZONE 3: Ambient background — hidden narrative (modern parallel) -->
+    <div id="ambient-field">
+        <div id="ambient-layer-a" class="ambient-layer active"></div>
+        <div id="ambient-layer-b" class="ambient-layer"></div>
+    </div>
+    <div id="vignette-overlay"></div>
+
+    <!-- Zone 2: Narrative frame — hidden images fill the 4 bars around phone -->
+    <div id="narrative-frame">
+        <div class="frame-bar bar-top">
+            <div class="bar-layer bar-layer-a active"></div>
+            <div class="bar-layer bar-layer-b"></div>
+        </div>
+        <div class="frame-bar bar-right">
+            <div class="bar-layer bar-layer-a active"></div>
+            <div class="bar-layer bar-layer-b"></div>
+        </div>
+        <div class="frame-bar bar-bottom">
+            <div class="bar-layer bar-layer-a active"></div>
+            <div class="bar-layer bar-layer-b"></div>
+        </div>
+        <div class="frame-bar bar-left">
+            <div class="bar-layer bar-layer-a active"></div>
+            <div class="bar-layer bar-layer-b"></div>
+        </div>
+    </div>
+
+    <!-- SIDE PANELS — fixed left/right panels showing hidden narrative -->
+    <div id="side-panels-container">
+        <div id="side-panel-left" class="side-panel">
+            <div class="side-img-a side-img active"></div>
+            <div class="side-img-b side-img"></div>
+        </div>
+        <div id="side-panel-right" class="side-panel">
+            <div class="side-img-a side-img active"></div>
+            <div class="side-img-b side-img"></div>
+        </div>
+    </div>
+
+    <!-- ZONE 1: Phone Frame — literal story center -->
+    <div id="zone-container">
+        <div id="phone-frame">
+            <!-- A/B image layers INSIDE the phone frame -->
+            <div id="inner-img-a" class="inner-img-layer active"></div>
+            <div id="inner-img-b" class="inner-img-layer"></div>
+
+            <!-- Scene caption — brief image description for narrative clarity -->
+            <div id="scene-caption"></div>
+
+            <!-- Content overlay on top of images -->
+            <div id="inner-content">
+                <header>
+                    <h1 id="album-title">THE CHAK CHAK MAGE</h1>
+                    <p id="album-subtitle">Loading Album...</p>
+                    <div>
+                        <select id="album-selector" class="sm-btn"></select>
+                    </div>
+                </header>
+
+                <nav id="track-list"></nav>
+
+                <div id="player-view" class="view section-active">
+                    <div id="lyrics-display">
+                        <div id="lyric-prev" class="lyric-line fade-out"></div>
+                        <div id="lyric-curr" class="lyric-line highlight"></div>
+                        <div id="lyric-next" class="lyric-line fade-in"></div>
+                    </div>
+
+                    <div id="meaning-panel" class="meaning-hidden">
+                        <p id="meaning-text"></p>
+                    </div>
+
+                    <div id="player-controls">
+                        <div class="track-info" id="current-track-name">Track Loading...</div>
+                        <div id="variant-picker" class="variant-picker hidden"></div>
+                        <div id="timeline-container">
+                            <div class="progress-bar-container" id="album-progress-container">
+                                <div id="album-progress-bar"></div>
+                                <div id="album-track-ticks"></div>
+                            </div>
+                            <div class="progress-bar-container" id="track-progress-container">
+                                <div id="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="time-display">
+                            <span id="time-current">0:00</span>
+                            <span id="time-mode-label">ALBUM</span>
+                            <span id="time-total">0:00</span>
+                        </div>
+                        <div class="buttons">
+                            <button id="btn-prev">&#x23EE;</button>
+                            <button id="btn-play">&#x25B6;</button>
+                            <button id="btn-next">&#x23ED;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden meaning overlay — outside phone frame, near bottom -->
+    <div id="hidden-meaning-overlay" class="hidden-meaning-off">
+        <span class="hidden-meaning-label">THE MODERN PARALLEL</span>
+        <p id="hidden-meaning-text"></p>
+    </div>
+
+    <!-- BURST OVERLAY — rapid image flashes on climactic moments (z-index 50) -->
+    <div id="burst-container" class="burst-off">
+        <div class="burst-panel burst-tl"></div>
+        <div class="burst-panel burst-tr"></div>
+        <div class="burst-panel burst-bl"></div>
+        <div class="burst-panel burst-br"></div>
+    </div>
+
+    <audio id="core-audio"></audio>
+
+    <script src="shared/semantics/master_matrix.js"></script>
+    <script src="js/albums_index.js"
+        onerror="document.getElementById('album-subtitle').textContent='Warning: album index not found. Run: chak index'"></script>
+
+    <script src="js/data_schema.js"></script>
+    <script src="js/timing_engine.js"></script>
+    <script src="js/audio_analyser.js"></script>
+    <script src="js/zone3_ambient.js"></script>
+    <script src="js/zone1_inner.js"></script>
+    <script src="js/zone2_outer.js?v=20260306k"></script>
+    <script src="js/player.js?v=20260306p"></script>
+</body>
+
+</html>
