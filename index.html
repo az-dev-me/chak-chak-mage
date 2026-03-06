@@ -583,6 +583,7 @@
         @media (max-width: 600px) {
             .title {
                 font-size: clamp(1.4rem, 8vw, 2rem);
+                white-space: normal;
             }
 
             .lang-buttons {
@@ -718,17 +719,17 @@
             <p class="lang-label" id="lang-label">Choose your language</p>
             <div class="lang-buttons">
                 <button class="lang-btn" data-lang="en" onclick="selectLang('en')">
-                    <span class="lang-flag"><img src="img/flag_en_bw.svg" alt="English"></span>
+                    <span class="lang-flag"><img src="img/flag_en_bw.svg?v=2" alt="English"></span>
                     <span class="lang-label-name">English</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
-                    <span class="lang-flag"><img src="img/flag_pt_bw.svg" alt="Português"></span>
+                    <span class="lang-flag"><img src="img/flag_pt_bw.svg?v=2" alt="Português"></span>
                     <span class="lang-label-name">Português</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt-br" onclick="selectLang('pt-br')">
-                    <span class="lang-flag"><img src="img/flag_br_bw.svg" alt="Brasileiro"></span>
+                    <span class="lang-flag"><img src="img/flag_br_bw.svg?v=2" alt="Brasileiro"></span>
                     <span class="lang-label-name">Brasileiro</span>
                 </button>
             </div>
@@ -866,7 +867,7 @@
             text.split('').forEach(ch => {
                 const span = document.createElement('span');
                 span.className = ch === ' ' ? 'title-letter space' : 'title-letter';
-                span.textContent = ch === ' ' ? '\u00A0' : ch;
+                span.textContent = ch === ' ' ? ' ' : ch;
                 titleEl.appendChild(span);
             });
         })();

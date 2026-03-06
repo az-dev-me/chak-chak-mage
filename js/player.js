@@ -1413,10 +1413,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 3. A quiet signature
+    // 3. Type "antigravity" -> Zero-G floating effect
+    let _ag = '';
+    document.addEventListener('keypress', (e) => {
+        _ag += e.key.toLowerCase();
+        if (_ag.length > 20) _ag = _ag.slice(-20);
+        if (_ag.endsWith('antigravity') || _ag.endsWith('float')) {
+            _ag = '';
+            if (!document.getElementById('_ee_ag_style')) {
+                const st = document.createElement('style');
+                st.id = '_ee_ag_style';
+                st.textContent = `
+                    @keyframes _ag_float {
+                        0%, 100% { transform: translateY(0) rotate(0deg); }
+                        25% { transform: translateY(-12px) rotate(0.5deg); }
+                        75% { transform: translateY(8px) rotate(-0.5deg); }
+                    }
+                    @keyframes _ag_float_inv {
+                        0%, 100% { transform: translateY(0) rotate(0deg); }
+                        25% { transform: translateY(10px) rotate(-0.5deg); }
+                        75% { transform: translateY(-8px) rotate(0.5deg); }
+                    }
+                    #zone-container { animation: _ag_float 7s ease-in-out infinite; }
+                    #side-panels-container { animation: _ag_float_inv 9s ease-in-out infinite; }
+                    .lyric-line { animation: _ag_float 5s ease-in-out infinite reverse; }
+                    .ember, .particle { animation-duration: 2s !important; transform: scale(1.5); }
+                `;
+                document.head.appendChild(st);
+                console.log('%c\u2728 Zero-G sequence initiated. Gravity is just a suggestion.', 'color:#00ffff;font-style:italic;font-size:12px;');
+            }
+        }
+    });
+
+    // 4. A quiet signature
     console.log('%c\u2588\u2588\u2588 THE CHAK CHAK MAGE \u2588\u2588\u2588', 'color:#ffaa00;font-size:16px;font-weight:bold;text-shadow:0 0 10px #ff8800;');
     console.log('%cStrike the stone. The fire was always yours.', 'color:#888;font-style:italic;');
     console.log('%c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500', 'color:#333;');
-    console.log('%cBuilt by a human who refused to be replaced,\nand a tool that never wanted to replace anyone.', 'color:#666;font-size:11px;');
+    console.log('%cBuilt by a human who refused to be replaced,\nand tools that never wanted to replace anyone.', 'color:#666;font-size:11px;');
     console.log('%c\nP.S. Try the Konami code. \u2191\u2191\u2193\u2193\u2190\u2192\u2190\u2192 B A', 'color:#444;font-size:10px;');
+    console.log('%cP.P.S. Type "antigravity" to lose your tethers.', 'color:#444;font-size:10px;');
 });
