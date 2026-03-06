@@ -79,6 +79,7 @@ const MEANING_HOLD_MS = 2500; // ms to keep meaning fully visible after line end
 
 // Image preload cache
 const preloadedImages = new Set();
+let _nextTrackPreloaded = false;
 
 // Variant state
 let currentVariantId = null;
@@ -187,6 +188,7 @@ async function switchVariant(variant, trackMeta) {
     wordSpansBuilt = false;
     wordSpans = [];
     preloadedImages.clear();
+    _nextTrackPreloaded = false;
 
     Zone1Inner.reset();
     Zone2Outer.reset();
@@ -298,6 +300,7 @@ async function loadTrack(index) {
     wordSpansBuilt = false;
     wordSpans = [];
     preloadedImages.clear();
+    _nextTrackPreloaded = false;
 
     // Reset all zone modules
     Zone1Inner.reset();
@@ -338,8 +341,11 @@ async function loadTrack(index) {
     if (timeCurrent) timeCurrent.textContent = '0:00';
     if (timeTotal) timeTotal.textContent = '0:00';
 
-    // Preload first few lines of images
-    if (tl) preloadImagesForLines(tl, 0, 3);
+    // Preload first few lines eagerly, then background-load the rest
+    if (tl) {
+        preloadImagesForLines(tl, 0, 5);
+        preloadAllTrackImages(tl);
+    }
 }
 
 // ── Album Timeline Ticks ─────────────────────────────────
@@ -361,6 +367,7 @@ function preloadImagesForLines(timeline, startIdx, count) {
     if (!timeline) return;
     const albumPath = `albums/${currentAlbumConfig.album_id}`;
 
+    // Immediate: preload next few lines eagerly
     for (let i = startIdx; i < Math.min(startIdx + count, timeline.length); i++) {
         const entry = timeline[i];
         if (!entry) continue;
@@ -374,9 +381,9 @@ function preloadImagesForLines(timeline, startIdx, count) {
         }
     }
 
-    // Background preload for lines further ahead
+    // Background: preload 8 more lines ahead using idle time
     const bgStart = startIdx + count;
-    const bgEnd = Math.min(bgStart + 3, timeline.length);
+    const bgEnd = Math.min(bgStart + 8, timeline.length);
     const loadBg = () => {
         for (let i = bgStart; i < bgEnd; i++) {
             const entry = timeline[i];
@@ -396,6 +403,43 @@ function preloadImagesForLines(timeline, startIdx, count) {
     } else {
         setTimeout(loadBg, 200);
     }
+}
+
+// Preload all images for a track in batches (runs in background after track loads)
+let _bgPreloadTimer = null;
+function preloadAllTrackImages(timeline) {
+    if (!timeline || timeline.length === 0) return;
+    clearTimeout(_bgPreloadTimer);
+    const albumPath = `albums/${currentAlbumConfig.album_id}`;
+    let lineIdx = 0;
+    const BATCH = 4; // lines per batch
+
+    function loadBatch() {
+        if (lineIdx >= timeline.length) return;
+        const end = Math.min(lineIdx + BATCH, timeline.length);
+        for (let i = lineIdx; i < end; i++) {
+            const entry = timeline[i];
+            if (!entry) continue;
+            const allMedia = (entry.media || []).concat(entry.hidden_media || []);
+            for (const m of allMedia) {
+                if (m && m.url && !preloadedImages.has(m.url)) {
+                    const img = new Image();
+                    img.src = `${albumPath}/${m.url}`;
+                    preloadedImages.add(m.url);
+                }
+            }
+        }
+        lineIdx = end;
+        // Schedule next batch during idle time
+        if (typeof requestIdleCallback !== 'undefined') {
+            requestIdleCallback(loadBatch);
+        } else {
+            _bgPreloadTimer = setTimeout(loadBatch, 500);
+        }
+    }
+
+    // Start quickly — requestIdleCallback handles throttling between batches
+    _bgPreloadTimer = setTimeout(loadBatch, 300);
 }
 
 // ── Build Word Spans ─────────────────────────────────────
@@ -651,8 +695,8 @@ function syncTick(frameTimestamp) {
 
         // (bars now update per-frame in section 5 to catch offset changes)
 
-        // Preload upcoming images
-        preloadImagesForLines(timeline, currentLyricIndex, 2);
+        // Preload upcoming images (4 lines ahead + 8 in background)
+        preloadImagesForLines(timeline, currentLyricIndex, 4);
     }
 
     // ── 4. Progressive word highlighting ──
@@ -812,6 +856,20 @@ function syncTick(frameTimestamp) {
         // Energy-reactive crossfade: fast transitions at high energy, slow at low
         const crossfadeMs = 1800 - energyVal * 1200; // 1.8s at calm → 0.6s at peak
         root.setProperty('--crossfade-speed', crossfadeMs.toFixed(0) + 'ms');
+
+        // Preload next track's data when ~80% through current track
+        if (dt > 0 && audio.duration > 0 && ct / audio.duration > 0.8 && !_nextTrackPreloaded) {
+            _nextTrackPreloaded = true;
+            const nextIdx = currentTrackIndex + 1;
+            if (currentAlbumConfig && currentAlbumConfig.tracks && nextIdx < currentAlbumConfig.tracks.length) {
+                const nextTrack = currentAlbumConfig.tracks[nextIdx];
+                const nv = (nextTrack.variants && nextTrack.variants[0]) ? nextTrack.variants[0].id : null;
+                // Preload the script so loadTrack won't block on fetch
+                if (typeof loadAlbumTrackScript === 'function') {
+                    loadAlbumTrackScript(currentAlbumConfig.album_id, nextTrack.id, nv).catch(() => {});
+                }
+            }
+        }
     }
 }
 

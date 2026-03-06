@@ -1046,26 +1046,84 @@
 
             const isPt = selectedLang === 'pt' || selectedLang === 'pt-br';
             const isPtPt = selectedLang === 'pt';
-            const steps = [
-                { pct: 15, text: isPtPt ? 'A carregar interface...' : isPt ? 'Carregando interface...' : 'Loading interface...' },
-                { pct: 40, text: isPtPt ? 'A preparar \u00e1udio...' : isPt ? 'Preparando \u00e1udio...' : 'Preparing audio...' },
-                { pct: 65, text: isPtPt ? 'A carregar imagens...' : isPt ? 'Carregando imagens...' : 'Loading images...' },
-                { pct: 85, text: isPt ? 'Quase pronto...' : 'Almost ready...' },
-                { pct: 100, text: t.loaded }
-            ];
 
-            let stepIdx = 0;
-            const tick = setInterval(() => {
-                if (stepIdx >= steps.length) {
-                    clearInterval(tick);
-                    window.location.href = `player.html?lang=${selectedLang}`;
-                    return;
+            function setProgress(pct, text) {
+                fill.style.width = pct + '%';
+                loadingText.textContent = text;
+            }
+
+            // Real preloading — fetch player resources while showing progress
+            async function preloadAndRedirect() {
+                const base = '';
+                try {
+                    // Phase 1: Preload player page + CSS
+                    setProgress(10, isPtPt ? 'A carregar interface...' : isPt ? 'Carregando interface...' : 'Loading interface...');
+                    await Promise.all([
+                        fetch(base + 'player.html'),
+                        fetch(base + 'css/style.css?v=20260306q'),
+                    ]);
+
+                    // Phase 2: Preload JS modules (these are the biggest blocking resources)
+                    setProgress(30, isPtPt ? 'A preparar módulos...' : isPt ? 'Preparando módulos...' : 'Preparing modules...');
+                    await Promise.all([
+                        fetch(base + 'js/data_schema.js'),
+                        fetch(base + 'js/timing_engine.js'),
+                        fetch(base + 'js/audio_analyser.js'),
+                        fetch(base + 'js/zone1_inner.js'),
+                        fetch(base + 'js/zone2_outer.js?v=20260306k'),
+                        fetch(base + 'js/zone3_ambient.js'),
+                        fetch(base + 'js/symbol_embers.js?v=20260306d'),
+                        fetch(base + 'js/player.js?v=20260306v'),
+                        fetch(base + 'js/albums_index.js'),
+                        fetch(base + 'shared/semantics/master_matrix.js'),
+                    ]);
+
+                    // Phase 3: Preload first track data + album config
+                    setProgress(55, isPtPt ? 'A preparar áudio...' : isPt ? 'Preparando áudio...' : 'Preparing audio...');
+                    const cfgResp = await fetch(base + 'albums/MY_ALBUM_001/album_config.json');
+                    let firstVariantJs = 'albums/MY_ALBUM_001/data/track_01_T1-2-3a.js';
+                    if (cfgResp.ok) {
+                        try {
+                            const cfg = await cfgResp.json();
+                            if (cfg.tracks && cfg.tracks[0]) {
+                                const t0 = cfg.tracks[0];
+                                const v = (t0.variants && t0.variants[0]) ? t0.variants[0].id : null;
+                                const tid = t0.track_id || t0.id;
+                                if (v && tid) firstVariantJs = 'albums/MY_ALBUM_001/data/' + tid + '_' + v + '.js';
+                            }
+                        } catch(_) {}
+                    }
+                    await Promise.all([
+                        fetch(base + firstVariantJs),
+                        fetch(base + 'albums/MY_ALBUM_001/data/track_01.structure.json'),
+                    ]);
+
+                    // Phase 4: Preload first batch of images (first ~8 images for track 1)
+                    setProgress(75, isPtPt ? 'A carregar imagens...' : isPt ? 'Carregando imagens...' : 'Loading images...');
+                    const imgPromises = [];
+                    for (let i = 0; i < 8; i++) {
+                        const url = base + 'albums/MY_ALBUM_001/media/c' + String(i).padStart(4, '0') + '.webp';
+                        imgPromises.push(new Promise(resolve => {
+                            const img = new Image();
+                            img.onload = img.onerror = resolve;
+                            img.src = url;
+                        }));
+                    }
+                    await Promise.all(imgPromises);
+
+                    setProgress(100, t.loaded);
+                } catch(_) {
+                    // If any fetch fails, still proceed — player will load normally
+                    setProgress(100, t.loaded);
                 }
-                const step = steps[stepIdx];
-                fill.style.width = step.pct + '%';
-                loadingText.textContent = step.text;
-                stepIdx++;
-            }, 600);
+
+                // Brief pause to show 100%, then redirect
+                setTimeout(() => {
+                    window.location.href = 'player.html?lang=' + selectedLang;
+                }, 300);
+            }
+
+            preloadAndRedirect();
         }
 
         // Auto-select if returning user
