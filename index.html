@@ -216,6 +216,7 @@
             margin-bottom: 12px;
             line-height: 1.1;
             white-space: nowrap;
+            -webkit-user-select: none;
             user-select: none;
         }
 
@@ -693,13 +694,32 @@
                 gap: 10px;
             }
         }
+
+        /* Extracted inline styles and performance optimizations */
+        .bg-cover {
+            position: fixed;
+            inset: -50px;
+            z-index: 0;
+            background: url('img/og-cover.png') center/cover;
+            opacity: 0.06;
+            filter: blur(40px) saturate(0.3);
+            pointer-events: none;
+            transform: translateZ(0);
+            will-change: transform;
+        }
+
+        #fire-canvas {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.6;
+        }
     </style>
 </head>
 
 <body>
-    <div
-        style="position:fixed;inset:0;z-index:0;background:url('img/og-cover.png') center/cover;opacity:0.06;filter:blur(40px) saturate(0.3);pointer-events:none;">
-    </div>
+    <div class="bg-cover"></div>
     <div class="bg-glow"></div>
     <div class="grain"></div>
     <div class="light-rays" id="light-rays"></div>
@@ -707,7 +727,7 @@
     <div class="spark-container" id="sparks"></div>
 
     <!-- Canvas fire visualization -->
-    <canvas id="fire-canvas" style="position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.6;"></canvas>
+    <canvas id="fire-canvas"></canvas>
 
     <div class="landing-container">
         <h1 class="title" id="title"></h1>
