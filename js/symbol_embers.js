@@ -50,10 +50,10 @@ const SymbolEmbers = (function () {
             x: 0.08 * phoneW + Math.random() * 0.84 * phoneW,
             y: phoneH + 10,
             baseX: 0,
-            vy: -(0.12 + Math.random() * 0.28),
+            vy: -(0.10 + Math.random() * 0.22),
             size: 1.0 + Math.random() * 2.2,
             life: 0,
-            maxLife: 1.2 + Math.random() * 0.8,
+            maxLife: 2.0 + Math.random() * 1.0,
             hue: 15 + Math.random() * 30,       // orange-gold range
             sat: 70 + Math.random() * 20,
             waveAmp: 0.3 + Math.random() * 0.8,
@@ -90,9 +90,9 @@ const SymbolEmbers = (function () {
             // Stagger delay
             if (p.delay > 0) { p.delay--; continue; }
 
-            p.life += 0.0018;
+            p.life += 0.0012;
 
-            if (p.life >= p.maxLife) {
+            if (p.life >= p.maxLife || p.y < 0) {
                 particles.splice(i, 1);
                 continue;
             }
@@ -108,14 +108,19 @@ const SymbolEmbers = (function () {
             const sizePulse = 1 + Math.sin(frame * 0.025 + p.seed) * 0.15;
             const currentSize = p.size * sizePulse * (1 + bp * 0.5);
 
-            // Fade: ease in/out
+            // Fade: ease in, then position-based fade near lyrics zone
             let alpha;
             if (lifePct < 0.08) {
                 alpha = lifePct / 0.08;
-            } else if (lifePct > 0.6) {
-                alpha = 1 - (lifePct - 0.6) / 0.4;
+            } else if (lifePct > 0.75) {
+                alpha = 1 - (lifePct - 0.75) / 0.25;
             } else {
                 alpha = 1;
+            }
+            // Fade out as particles rise into lyrics area (top 45% of frame)
+            const yPct = p.y / phoneH;
+            if (yPct < 0.45) {
+                alpha *= Math.max(0, yPct / 0.45);
             }
             // Beat brightens
             alpha *= (0.25 + bp * 0.35);

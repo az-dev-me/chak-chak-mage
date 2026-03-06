@@ -261,20 +261,24 @@
             transition: border-color 0.4s, box-shadow 0.4s;
             pointer-events: none;
         }
-        .lang-flag-emoji {
+        .lang-flag {
             display: block;
-            font-size: 4.5rem;
-            line-height: 1;
+            width: 160px;
+            height: 107px;
+            overflow: hidden;
+            border-radius: 8px;
             opacity: 0.55;
-            transition: opacity 0.4s ease, filter 0.4s ease, transform 0.3s ease;
+            transition: opacity 0.4s ease, filter 0.4s ease;
             filter: grayscale(100%) brightness(0.7) contrast(1.1);
-            transform: scale(1);
+            background: #111;
+        }
+        .lang-flag img {
+            width: 100%; height: 100%; display: block; object-fit: cover;
         }
 
-        .lang-btn:hover .lang-flag-emoji {
+        .lang-btn:hover .lang-flag {
             opacity: 0.85;
             filter: grayscale(100%) brightness(0.85) contrast(1.1);
-            transform: scale(1.05);
         }
         .lang-btn.selected {
             border-color: rgba(255, 140, 0, 0.6);
@@ -285,10 +289,9 @@
             box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
             animation: pulse-ring 2s ease-in-out infinite;
         }
-        .lang-btn.selected .lang-flag-emoji {
+        .lang-btn.selected .lang-flag {
             opacity: 1;
             filter: grayscale(100%) brightness(1) contrast(1.15);
-            transform: scale(1.08);
         }
         @keyframes pulse-ring {
             0%, 100% { border-color: rgba(255, 140, 0, 0.3); box-shadow: 0 0 20px rgba(255, 140, 0, 0.1); }
@@ -453,15 +456,15 @@
                 background: rgba(255,140,0,0.12);
                 box-shadow: 0 4px 16px rgba(255,140,0,0.25), 0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,180,0,0.15);
             }
-            .lang-flag-emoji {
-                font-size: 3rem;
-                filter: brightness(0.95) saturate(0.9);
+            .lang-flag {
+                width: 80px; height: 54px;
+                filter: brightness(0.9) saturate(0.85);
                 opacity: 0.9;
+                border-radius: 6px;
             }
-            .lang-btn.selected .lang-flag-emoji {
+            .lang-btn.selected .lang-flag {
                 filter: brightness(1) saturate(1);
                 opacity: 1;
-                transform: scale(1.05);
             }
             .lang-label-name {
                 display: block;
@@ -476,7 +479,7 @@
             }
         }
         @media (max-width: 360px) {
-            .lang-flag-emoji { font-size: 2.5rem; }
+            .lang-flag { width: 68px; height: 45px; }
             .lang-buttons { gap: 10px; }
         }
     </style>
@@ -502,17 +505,17 @@
             <p class="lang-label" id="lang-label">Choose your language</p>
             <div class="lang-buttons">
                 <button class="lang-btn" data-lang="en" onclick="selectLang('en')">
-                    <span class="lang-flag-emoji">&#x1F1EC;&#x1F1E7;</span>
+                    <span class="lang-flag"><img src="img/flag_en_color.svg" alt="English"></span>
                     <span class="lang-label-name">English</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
-                    <span class="lang-flag-emoji">&#x1F1F5;&#x1F1F9;</span>
+                    <span class="lang-flag"><img src="img/flag_pt_color.svg" alt="Portugu&#234;s"></span>
                     <span class="lang-label-name">Portugu&#234;s</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt-br" onclick="selectLang('pt-br')">
-                    <span class="lang-flag-emoji">&#x1F1E7;&#x1F1F7;</span>
+                    <span class="lang-flag"><img src="img/flag_br_bw.svg" alt="Brasileiro"></span>
                     <span class="lang-label-name">Brasileiro</span>
                 </button>
             </div>
