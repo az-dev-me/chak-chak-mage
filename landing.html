@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- You found the source. The stone remembers those who look. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -409,6 +410,25 @@
         if (saved) {
             selectLang(saved);
         }
+
+        // For those who are curious
+        let _tc = 0;
+        document.querySelector('.title').addEventListener('click', () => {
+            _tc++;
+            if (_tc === 5) {
+                _tc = 0;
+                document.querySelectorAll('.ember').forEach(e => {
+                    e.style.background = 'rgba(100, 180, 255, 0.7)';
+                });
+                document.querySelector('.bg-glow').style.filter = 'hue-rotate(200deg)';
+                setTimeout(() => {
+                    document.querySelectorAll('.ember').forEach(e => {
+                        e.style.background = '';
+                    });
+                    document.querySelector('.bg-glow').style.filter = '';
+                }, 3000);
+            }
+        });
     </script>
 </body>
 </html>

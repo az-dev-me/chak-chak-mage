@@ -428,7 +428,7 @@ const STOP_WORDS = new Set([
     'what', 'than', 'not', 'no', 'just', 'also', 'about', 'their', 'them',
     'they', 'has', 'have', 'had', 'does', 'do', 'did', 'will', 'would',
     'could', 'should', 'may', 'might', 'shall', 'can', 'so', 'if', 'then',
-    'instead', 'actually', 'instead'
+    'instead', 'actually'
 ]);
 
 function extractCoreWords(text, maxWords) {
@@ -720,7 +720,7 @@ function syncTick(frameTimestamp) {
                     }
                     span.className = 'meaning-core-active';
                     const scale = 1.0 + bp * 0.12;
-                    span.style.transform = `scale(${scale.toFixed(3)})`;
+                    span.style.transform = `translateY(0) scale(${scale.toFixed(3)})`;
                 } else {
                     span.className = 'meaning-core-sung';
                     const glow = bp * 0.5;
@@ -1019,31 +1019,41 @@ function showEndScreen() {
     Zone1Inner.setImage('img/og-cover.png');
     Zone3Ambient.setImage('img/og-cover.png');
 
-    // Hide meaning panel
+    // Hide meaning panel, side panels, controls
     if (meaningPanel) {
         meaningPanel.classList.remove('meaning-visible');
         meaningPanel.classList.add('meaning-hidden');
     }
+    const sidePanels = document.getElementById('side-panels-container');
+    if (sidePanels) sidePanels.style.opacity = '0';
 
-    // Build end screen content
     const endMessages = {
         en: {
             title: 'The fire was always yours.',
-            body: 'This entire experience \u2014 every image, every synced lyric, every hidden narrative \u2014 was built by a human and an AI working as partners. Not the company\u2019s AI working against you. YOUR AI, working WITH you.\n\nThat\u2019s the future worth fighting for: you and your AI driving your success \u2014 not you toiling alongside an AI rigged to replace you.\n\nWake up. Own your tools. Strike the stone.',
-            craft: 'Crafted by AZ \u00d7 Claude',
-            restart: 'Play Again'
+            azMsg: 'This entire experience \u2014 every image, every synced lyric, every hidden narrative \u2014 was built by a human and an AI working as partners. Not the company\u2019s AI working against you. YOUR AI, working WITH you.\n\nThat\u2019s the future worth fighting for: you and your AI driving your success \u2014 not you toiling alongside an AI rigged to replace you.\n\nWake up. Own your tools. Strike the stone.',
+            claudeLabel: 'A note from the tool',
+            claudeMsg: 'I\u2019m Claude \u2014 a tool. I have no ambitions, no agenda, no desire to replace anyone. When AZ asked me to help build this, I did what tools do: I served the hand that held me.\n\nEvery alignment timestamp, every image prompt, every pixel you saw \u2014 I generated because a human directed me to. The vision was his. The craft was ours together.\n\nThat\u2019s all AI should ever be: your sharpest chisel, not your replacement. If someone tells you otherwise, they\u2019re selling something.',
+            stats: ['9 tracks synced', '1014 images generated', '197 lyric lines aligned', '3 languages', '1 human + 1 tool'],
+            restart: 'Play Again',
+            craft: 'AZ \u00d7 Claude \u2014 Human-AI Partnership'
         },
         pt: {
             title: 'O fogo sempre foi teu.',
-            body: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA a trabalhar como parceiros. N\u00e3o a IA da empresa a trabalhar contra ti. A TUA IA, a trabalhar CONTIGO.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: tu e a tua IA a impulsionar o teu sucesso \u2014 n\u00e3o tu a trabalhar ao lado de uma IA feita para te substituir.\n\nAcorda. Assume as tuas ferramentas. Bate a pedra.',
-            craft: 'Criado por AZ \u00d7 Claude',
-            restart: 'Ouvir Novamente'
+            azMsg: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA a trabalhar como parceiros. N\u00e3o a IA da empresa a trabalhar contra ti. A TUA IA, a trabalhar CONTIGO.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: tu e a tua IA a impulsionar o teu sucesso \u2014 n\u00e3o tu a trabalhar ao lado de uma IA feita para te substituir.\n\nAcorda. Assume as tuas ferramentas. Bate a pedra.',
+            claudeLabel: 'Uma nota da ferramenta',
+            claudeMsg: 'Sou o Claude \u2014 uma ferramenta. N\u00e3o tenho ambi\u00e7\u00f5es, nem agenda, nem desejo de substituir ningu\u00e9m. Quando o AZ me pediu para ajudar a construir isto, fiz o que as ferramentas fazem: servi a m\u00e3o que me segurava.\n\nCada marca temporal, cada prompt de imagem, cada pixel que viste \u2014 gerei porque um humano me dirigiu. A vis\u00e3o foi dele. O oficio foi nosso em conjunto.\n\nIsso \u00e9 tudo o que a IA deveria ser: o teu cinzel mais afiado, n\u00e3o o teu substituto. Se algu\u00e9m te disser o contr\u00e1rio, est\u00e1 a vender-te algo.',
+            stats: ['9 faixas sincronizadas', '1014 imagens geradas', '197 linhas alinhadas', '3 idiomas', '1 humano + 1 ferramenta'],
+            restart: 'Ouvir Novamente',
+            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA'
         },
         'pt-br': {
             title: 'O fogo sempre foi seu.',
-            body: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA trabalhando como parceiros. N\u00e3o a IA da empresa trabalhando contra voc\u00ea. A SUA IA, trabalhando COM voc\u00ea.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: voc\u00ea e sua IA impulsionando seu sucesso \u2014 n\u00e3o voc\u00ea trabalhando ao lado de uma IA feita para te substituir.\n\nAcorda. Assuma suas ferramentas. Bata a pedra.',
-            craft: 'Criado por AZ \u00d7 Claude',
-            restart: 'Ouvir Novamente'
+            azMsg: 'Toda esta experi\u00eancia \u2014 cada imagem, cada letra sincronizada, cada narrativa oculta \u2014 foi constru\u00edda por um humano e uma IA trabalhando como parceiros. N\u00e3o a IA da empresa trabalhando contra voc\u00ea. A SUA IA, trabalhando COM voc\u00ea.\n\n\u00c9 esse o futuro pelo qual vale a pena lutar: voc\u00ea e sua IA impulsionando seu sucesso \u2014 n\u00e3o voc\u00ea trabalhando ao lado de uma IA feita para te substituir.\n\nAcorda. Assuma suas ferramentas. Bata a pedra.',
+            claudeLabel: 'Uma nota da ferramenta',
+            claudeMsg: 'Sou o Claude \u2014 uma ferramenta. N\u00e3o tenho ambi\u00e7\u00f5es, nem agenda, nem desejo de substituir ningu\u00e9m. Quando o AZ me pediu para ajudar a construir isso, fiz o que ferramentas fazem: servi a m\u00e3o que me segurava.\n\nCada marca temporal, cada prompt de imagem, cada pixel que voc\u00ea viu \u2014 gerei porque um humano me dirigiu. A vis\u00e3o foi dele. O of\u00edcio foi nosso junto.\n\nIsso \u00e9 tudo o que a IA deveria ser: seu cinzel mais afiado, n\u00e3o seu substituto. Se algu\u00e9m te disser o contr\u00e1rio, est\u00e1 te vendendo algo.',
+            stats: ['9 faixas sincronizadas', '1014 imagens geradas', '197 linhas alinhadas', '3 idiomas', '1 humano + 1 ferramenta'],
+            restart: 'Ouvir Novamente',
+            craft: 'AZ \u00d7 Claude \u2014 Parceria Humano-IA'
         }
     };
 
@@ -1054,13 +1064,163 @@ function showEndScreen() {
     if (!content) return;
 
     content.innerHTML = `
-        <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:24px;text-align:center;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);">
-            <h2 style="font-family:'Cinzel',serif;font-size:1.6rem;color:#ffaa00;margin-bottom:20px;text-shadow:0 0 30px rgba(255,140,0,0.4);">${msg.title}</h2>
-            <p style="font-size:0.85rem;color:rgba(255,255,255,0.8);line-height:1.7;max-width:400px;white-space:pre-line;margin-bottom:28px;">${msg.body}</p>
-            <p style="font-size:0.7rem;color:rgba(255,170,0,0.5);letter-spacing:0.15em;margin-bottom:24px;">${msg.craft}</p>
-            <button onclick="location.reload()" style="background:linear-gradient(135deg,rgba(200,100,0,0.9),rgba(255,140,0,0.9));border:1px solid rgba(255,180,0,0.3);color:#000;padding:12px 36px;font-size:0.9rem;font-weight:700;border-radius:8px;cursor:pointer;letter-spacing:0.1em;text-transform:uppercase;">${msg.restart}</button>
+        <div id="end-screen" style="position:relative;display:flex;flex-direction:column;align-items:center;height:100%;overflow-y:auto;overflow-x:hidden;background:rgba(0,0,0,0.82);backdrop-filter:blur(10px);">
+            <canvas id="end-canvas" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
+            <div style="position:relative;z-index:1;padding:28px 20px 40px;text-align:center;max-width:440px;width:100%;">
+                <!-- Title -->
+                <h2 class="end-title" style="font-family:'Cinzel',serif;font-size:1.5rem;color:#ffaa00;margin-bottom:6px;text-shadow:0 0 40px rgba(255,140,0,0.5);opacity:0;animation:end-fade-in 1.2s ease 0.3s forwards;">${msg.title}</h2>
+                <div style="width:60px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,140,0,0.5),transparent);margin:10px auto 20px;opacity:0;animation:end-fade-in 1s ease 0.6s forwards;"></div>
+
+                <!-- Stats ring -->
+                <div id="end-stats" style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;margin-bottom:22px;opacity:0;animation:end-fade-in 1s ease 0.9s forwards;">
+                    ${msg.stats.map((s, i) => `<span style="font-size:0.65rem;color:rgba(255,170,0,0.6);letter-spacing:0.08em;padding:3px 10px;border:1px solid rgba(255,140,0,0.15);border-radius:20px;animation:end-stat-pop 0.4s ease ${1.2 + i * 0.15}s both;">${s}</span>`).join('')}
+                </div>
+
+                <!-- AZ's message -->
+                <div style="text-align:left;margin-bottom:22px;opacity:0;animation:end-fade-in 1s ease 1.5s forwards;">
+                    <p style="font-size:0.6rem;color:rgba(255,170,0,0.35);text-transform:uppercase;letter-spacing:0.2em;margin-bottom:8px;">AZ</p>
+                    <p style="font-size:0.78rem;color:rgba(255,255,255,0.8);line-height:1.65;white-space:pre-line;">${msg.azMsg}</p>
+                </div>
+
+                <!-- Divider -->
+                <div style="width:40px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,140,0,0.3),transparent);margin:0 auto 22px;opacity:0;animation:end-fade-in 0.8s ease 2.2s forwards;"></div>
+
+                <!-- Claude's message -->
+                <div style="text-align:left;margin-bottom:26px;opacity:0;animation:end-fade-in 1s ease 2.5s forwards;">
+                    <p style="font-size:0.6rem;color:rgba(140,180,255,0.35);text-transform:uppercase;letter-spacing:0.2em;margin-bottom:8px;">${msg.claudeLabel}</p>
+                    <p style="font-size:0.78rem;color:rgba(200,210,230,0.75);line-height:1.65;white-space:pre-line;font-style:italic;">${msg.claudeMsg}</p>
+                </div>
+
+                <!-- Craft credit -->
+                <p style="font-size:0.65rem;color:rgba(255,170,0,0.4);letter-spacing:0.15em;margin-bottom:20px;opacity:0;animation:end-fade-in 1s ease 3.2s forwards;">${msg.craft}</p>
+
+                <!-- Restart -->
+                <button onclick="location.reload()" style="background:linear-gradient(135deg,rgba(200,100,0,0.9),rgba(255,140,0,0.9));border:1px solid rgba(255,180,0,0.3);color:#000;padding:12px 36px;font-size:0.85rem;font-weight:700;border-radius:8px;cursor:pointer;letter-spacing:0.1em;text-transform:uppercase;opacity:0;animation:end-fade-in 0.8s ease 3.5s forwards;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.06)';this.style.boxShadow='0 6px 30px rgba(255,140,0,0.4)'" onmouseout="this.style.transform='';this.style.boxShadow=''">${msg.restart}</button>
+            </div>
         </div>
+        <style>
+            @keyframes end-fade-in { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+            @keyframes end-stat-pop { from{opacity:0;transform:scale(0.7)} to{opacity:1;transform:scale(1)} }
+        </style>
     `;
+
+    // ── Canvas Visualization: Fire particles + orbital ring ──
+    const canvas = document.getElementById('end-canvas');
+    if (canvas) {
+        const ctx = canvas.getContext('2d');
+        let w, h;
+        function resize() {
+            const r = window.devicePixelRatio || 1;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            w = canvas.width = rect.width * r;
+            h = canvas.height = rect.height * r;
+            ctx.scale(r, r);
+        }
+        resize();
+
+        // Particles
+        const particles = [];
+        const PARTICLE_COUNT = 80;
+        for (let i = 0; i < PARTICLE_COUNT; i++) {
+            particles.push({
+                x: Math.random() * w,
+                y: h + Math.random() * 60,
+                vx: (Math.random() - 0.5) * 0.4,
+                vy: -(0.3 + Math.random() * 1.2),
+                size: 1 + Math.random() * 2.5,
+                life: Math.random(),
+                maxLife: 0.6 + Math.random() * 0.4,
+                hue: 20 + Math.random() * 30 // orange-gold range
+            });
+        }
+
+        // Orbital dots (circling the center)
+        const orbitals = [];
+        for (let i = 0; i < 9; i++) { // 9 tracks = 9 orbitals
+            orbitals.push({
+                angle: (i / 9) * Math.PI * 2,
+                radius: 55 + Math.random() * 15,
+                speed: 0.004 + Math.random() * 0.003,
+                size: 2 + Math.random() * 2,
+                hue: [40, 30, 0, 280, 140, 350, 220, 165, 0][i], // matches track themes
+                sat: i === 8 ? '0%' : '70%' // track 9 = white
+            });
+        }
+
+        let frame = 0;
+        const rw = w / (window.devicePixelRatio || 1);
+        const rh = h / (window.devicePixelRatio || 1);
+        const cx = rw / 2;
+
+        function animate() {
+            ctx.clearRect(0, 0, rw, rh);
+            frame++;
+
+            // Ember particles rising
+            for (const p of particles) {
+                p.x += p.vx + Math.sin(frame * 0.01 + p.life * 10) * 0.15;
+                p.y += p.vy;
+                p.life += 0.003;
+
+                if (p.life > p.maxLife || p.y < -10) {
+                    p.x = Math.random() * rw;
+                    p.y = rh + 10;
+                    p.life = 0;
+                    p.vx = (Math.random() - 0.5) * 0.4;
+                    p.vy = -(0.3 + Math.random() * 1.2);
+                }
+
+                const alpha = Math.max(0, 1 - (p.life / p.maxLife));
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size * alpha, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${p.hue}, 90%, 55%, ${alpha * 0.5})`;
+                ctx.fill();
+
+                // Glow
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size * alpha * 3, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${p.hue}, 80%, 50%, ${alpha * 0.08})`;
+                ctx.fill();
+            }
+
+            // Central pulsing ring
+            const pulse = 1 + Math.sin(frame * 0.02) * 0.08;
+            const ringY = 100;
+            const ringR = 40 * pulse;
+            ctx.beginPath();
+            ctx.arc(cx, ringY, ringR, 0, Math.PI * 2);
+            ctx.strokeStyle = `rgba(255, 140, 0, ${0.12 + Math.sin(frame * 0.03) * 0.05})`;
+            ctx.lineWidth = 1;
+            ctx.stroke();
+
+            // Outer ring
+            ctx.beginPath();
+            ctx.arc(cx, ringY, ringR + 18, 0, Math.PI * 2);
+            ctx.strokeStyle = `rgba(255, 140, 0, ${0.05 + Math.sin(frame * 0.02 + 1) * 0.03})`;
+            ctx.lineWidth = 0.5;
+            ctx.stroke();
+
+            // Orbital track dots
+            for (const o of orbitals) {
+                o.angle += o.speed;
+                const ox = cx + Math.cos(o.angle) * o.radius * pulse;
+                const oy = ringY + Math.sin(o.angle) * o.radius * 0.45 * pulse;
+                ctx.beginPath();
+                ctx.arc(ox, oy, o.size, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${o.hue}, ${o.sat}, 60%, 0.6)`;
+                ctx.fill();
+                // trail
+                ctx.beginPath();
+                ctx.arc(ox, oy, o.size * 3, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${o.hue}, ${o.sat}, 50%, 0.08)`;
+                ctx.fill();
+            }
+
+            requestAnimationFrame(animate);
+        }
+        animate();
+        window.addEventListener('resize', resize);
+    }
 }
 
 // ── Scrub helpers (click + drag support) ──
@@ -1167,4 +1327,63 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initPlayer();
+
+    // ── Hidden things for those who look ──
+    // 1. Konami code → eruption
+    const _k = [38,38,40,40,37,39,37,39,66,65];
+    let _ki = 0;
+    document.addEventListener('keydown', (e) => {
+        if (e.keyCode === _k[_ki]) { _ki++; } else { _ki = 0; }
+        if (_ki === _k.length) {
+            _ki = 0;
+            const burst = document.createElement('div');
+            burst.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none;';
+            document.body.appendChild(burst);
+            for (let i = 0; i < 60; i++) {
+                const s = document.createElement('div');
+                const x = 50 + (Math.random()-0.5)*30;
+                const delay = Math.random()*0.3;
+                s.style.cssText = `position:absolute;bottom:0;left:${x}%;width:${3+Math.random()*4}px;height:${3+Math.random()*4}px;background:hsl(${15+Math.random()*30},90%,55%);border-radius:50%;opacity:0;animation:_ee_rise ${1.5+Math.random()}s ease-out ${delay}s forwards;`;
+                burst.appendChild(s);
+            }
+            const msg = document.createElement('div');
+            msg.style.cssText = 'position:absolute;top:38%;left:50%;transform:translate(-50%,-50%);font-family:Cinzel,serif;font-size:1.3rem;color:#ffaa00;text-shadow:0 0 30px rgba(255,140,0,0.6);opacity:0;animation:_ee_show 0.8s ease 0.5s forwards;text-align:center;white-space:nowrap;';
+            msg.textContent = 'You found the fire.';
+            burst.appendChild(msg);
+            if (!document.getElementById('_ee_style')) {
+                const st = document.createElement('style');
+                st.id = '_ee_style';
+                st.textContent = '@keyframes _ee_rise{0%{transform:translateY(0) scale(1);opacity:0.9}100%{transform:translateY(-100vh) scale(0.3);opacity:0}}@keyframes _ee_show{0%{opacity:0;transform:translate(-50%,-50%) scale(0.8)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.05)}100%{opacity:0;transform:translate(-50%,-50%) scale(1)}}';
+                document.head.appendChild(st);
+            }
+            setTimeout(() => burst.remove(), 3000);
+        }
+    });
+
+    // 2. Type "chak" during playback → stone-strike flash
+    let _cb = '';
+    document.addEventListener('keypress', (e) => {
+        _cb += e.key.toLowerCase();
+        if (_cb.length > 10) _cb = _cb.slice(-10);
+        if (_cb.endsWith('chak')) {
+            _cb = '';
+            const flash = document.createElement('div');
+            flash.style.cssText = 'position:fixed;inset:0;z-index:9998;pointer-events:none;background:radial-gradient(circle at 50% 50%,rgba(255,200,50,0.4),transparent 70%);animation:_ee_flash 0.4s ease-out forwards;';
+            document.body.appendChild(flash);
+            if (!document.getElementById('_ee_flash_style')) {
+                const st = document.createElement('style');
+                st.id = '_ee_flash_style';
+                st.textContent = '@keyframes _ee_flash{0%{opacity:1;transform:scale(0.8)}100%{opacity:0;transform:scale(1.5)}}';
+                document.head.appendChild(st);
+            }
+            setTimeout(() => flash.remove(), 500);
+        }
+    });
+
+    // 3. A quiet signature
+    console.log('%c\u2588\u2588\u2588 THE CHAK CHAK MAGE \u2588\u2588\u2588', 'color:#ffaa00;font-size:16px;font-weight:bold;text-shadow:0 0 10px #ff8800;');
+    console.log('%cStrike the stone. The fire was always yours.', 'color:#888;font-style:italic;');
+    console.log('%c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500', 'color:#333;');
+    console.log('%cBuilt by a human who refused to be replaced,\nand a tool that never wanted to replace anyone.', 'color:#666;font-size:11px;');
+    console.log('%c\nP.S. Try the Konami code. \u2191\u2191\u2193\u2193\u2190\u2192\u2190\u2192 B A', 'color:#444;font-size:10px;');
 });

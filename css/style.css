@@ -481,9 +481,9 @@ header p {
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid rgba(255, 170, 0, var(--beat-strip-border, 0.18));
     border-radius: 8px;
-    padding: 8px 14px;
+    padding: 6px 14px;
     flex-shrink: 0;
-    min-height: 90px;
+    order: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -521,19 +521,25 @@ header p {
     display: inline-block;
     color: rgba(255, 255, 255, 0.55);
     font-weight: 600;
-    transition: color 0.15s ease, opacity 0.15s ease, transform 0.06s ease-out, text-shadow 0.06s ease-out;
+    opacity: 0;
+    transform: translateY(4px) scale(0.92);
+    transition: color 0.15s ease, opacity 0.25s ease, transform 0.25s ease-out, text-shadow 0.06s ease-out;
 }
 .meaning-core-active {
     display: inline-block;
     color: var(--accent, #ffaa00);
     font-weight: 700;
+    opacity: 1;
+    transform: translateY(0) scale(1);
     text-shadow: 0 0 12px var(--accent-glow, rgba(255,170,0,0.6)), 0 0 4px var(--accent-glow, rgba(255,170,0,0.3));
-    transition: color 0.1s ease, transform 0.06s ease-out, text-shadow 0.06s ease-out;
+    transition: color 0.1s ease, opacity 0.2s ease, transform 0.2s ease-out, text-shadow 0.06s ease-out;
 }
 .meaning-core-sung {
     display: inline-block;
     color: #fff;
     font-weight: 600;
+    opacity: 1;
+    transform: translateY(0) scale(1);
     transition: color 0.4s ease, text-shadow 0.15s ease-out;
 }
 
@@ -838,12 +844,6 @@ header p {
     }
 }
 
-/* Meaning panel at top — truth hovering above the story */
-#meaning-panel {
-    order: -1;
-    min-height: auto;
-    padding: 6px 14px;
-}
 
 /* Landscape mobile — shrink meaning panel so lyrics aren't pushed off */
 @media (max-height: 500px) and (orientation: landscape) {
@@ -859,6 +859,7 @@ header p {
         padding-bottom: 5%;
     }
 }
+
 
 /* ═══════════════════════════════════════════════════════════════
    BURST OVERLAY — disabled (feature not in use)
