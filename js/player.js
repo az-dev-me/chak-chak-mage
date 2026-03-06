@@ -635,7 +635,7 @@ function syncTick(frameTimestamp) {
             if (typeof SymbolEmbers !== 'undefined') {
                 const _tid = currentAlbumConfig && currentAlbumConfig.tracks && currentAlbumConfig.tracks[currentTrackIndex]
                     ? currentAlbumConfig.tracks[currentTrackIndex].id : '';
-                SymbolEmbers.spawnSymbols(lineData.line_index, _tid);
+                SymbolEmbers.spawnSymbols(currentLyricIndex, _tid);
             }
         } else {
             // Hold previous meaning visible for MEANING_HOLD_MS before dimming
@@ -1086,6 +1086,7 @@ function showEndScreen() {
     content.innerHTML = `
         <div id="end-screen" style="position:relative;display:flex;flex-direction:column;align-items:center;height:100%;overflow-y:auto;overflow-x:hidden;background:rgba(0,0,0,0.82);backdrop-filter:blur(10px);">
             <canvas id="end-canvas" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
+            <button onclick="hideEndScreen()" style="position:absolute;top:10px;right:12px;z-index:5;background:none;border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.4);font-size:1.1rem;width:32px;height:32px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:border-color 0.2s,color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.4)';this.style.color='rgba(255,170,0,0.7)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.12)';this.style.color='rgba(255,255,255,0.4)'">&times;</button>
             <div style="position:relative;z-index:1;padding:28px 20px 40px;text-align:center;max-width:440px;width:100%;">
                 <!-- Title -->
                 <h2 class="end-title" style="font-family:'Cinzel',serif;font-size:1.5rem;color:#ffaa00;margin-bottom:6px;text-shadow:0 0 40px rgba(255,140,0,0.5);opacity:0;animation:end-fade-in 1.2s ease 0.3s forwards;">${msg.title}</h2>
@@ -1116,32 +1117,32 @@ function showEndScreen() {
                     <p style="font-size:0.55rem;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:0.25em;margin-bottom:12px;">${msg.creditsLabel}</p>
                     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;">
                         <a href="https://deevid.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,140,0,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="rgba(255,170,0,0.15)" stroke="rgba(255,170,0,0.5)" stroke-width="1.2"/><path d="M10 8.5v7l5.5-3.5z" fill="rgba(255,170,0,0.6)"/></svg>
+                            <span style="display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:3px;background:rgba(255,140,0,0.15);font-size:9px;font-weight:700;color:rgba(255,170,0,0.7);font-family:system-ui;">D</span>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeeVid</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">music</span>
                         </a>
                         <a href="https://deepseek.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(70,130,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="rgba(70,130,255,0.12)" stroke="rgba(70,130,255,0.5)" stroke-width="1.2"/><path d="M12 7v5l3 3" stroke="rgba(70,130,255,0.6)" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="1.5" fill="rgba(70,130,255,0.6)"/></svg>
+                            <span style="display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:3px;background:rgba(70,130,255,0.15);font-size:9px;font-weight:700;color:rgba(100,160,255,0.7);font-family:system-ui;">DS</span>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">DeepSeek</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">lyrics</span>
                         </a>
                         <a href="https://claude.ai" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(217,169,109,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z" fill="rgba(217,169,109,0.12)" stroke="rgba(217,169,109,0.5)" stroke-width="1.2"/><path d="M15.5 9.5L12 16l-3.5-6.5" stroke="rgba(217,169,109,0.6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="8" r="1" fill="rgba(217,169,109,0.6)"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24"><path d="M16.98 11.39a2.03 2.03 0 0 0-1.23-1.09l-3.39-1.17a.11.11 0 0 1 0-.21l3.39-1.17a2.03 2.03 0 0 0 1.23-1.09l1.26-2.97a.11.11 0 0 1 .21 0l1.26 2.97c.22.51.62.9 1.13 1.09l3.39 1.17a.11.11 0 0 1 0 .21l-3.39 1.17a2.03 2.03 0 0 0-1.13 1.09l-1.26 2.97a.11.11 0 0 1-.21 0l-1.26-2.97z" fill="rgba(217,169,109,0.6)"/><path d="M8.15 15.8a2.03 2.03 0 0 0-1.23-1.09L3.53 13.54a.11.11 0 0 1 0-.21l3.39-1.17a2.03 2.03 0 0 0 1.23-1.09l1.26-2.97a.11.11 0 0 1 .21 0l1.26 2.97c.22.51.62.9 1.13 1.09l3.39 1.17a.11.11 0 0 1 0 .21l-3.39 1.17a2.03 2.03 0 0 0-1.13 1.09l-1.26 2.97a.11.11 0 0 1-.21 0L8.15 15.8z" fill="rgba(217,169,109,0.45)"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Claude</span>
-                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">build</span>
+                            <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">code</span>
                         </a>
                         <a href="https://cursor.com" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(140,100,255,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" fill="rgba(140,100,255,0.12)" stroke="rgba(140,100,255,0.5)" stroke-width="1.2"/><path d="M7 12l4 4 6-8" stroke="rgba(140,100,255,0.6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24"><path d="M5.5 3L19 12 5.5 21V3z" fill="none" stroke="rgba(140,100,255,0.6)" stroke-width="1.8" stroke-linejoin="round"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Cursor</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">IDE</span>
                         </a>
                         <a href="https://antigravity.google/" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(66,133,244,0.3)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3v7l6-3.5" stroke="rgba(66,133,244,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 10v7l-6-3.5" stroke="rgba(234,67,53,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 10l6 3.5-6 3.5" stroke="rgba(251,188,4,0.6)" stroke-width="1.5" stroke-linecap="round"/><path d="M12 3l-6 3.5 6 3.5" stroke="rgba(52,168,83,0.6)" stroke-width="1.5" stroke-linecap="round"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 2L2 19.5h20L12 2z" fill="none" stroke="rgba(66,133,244,0.5)" stroke-width="1.3"/><path d="M12 8v6M12 16v1" stroke="rgba(66,133,244,0.5)" stroke-width="1.3" stroke-linecap="round"/></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">Antigravity</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">semantics</span>
                         </a>
                         <span style="display:flex;align-items:center;gap:5px;padding:4px 10px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="2" fill="rgba(100,220,160,0.1)" stroke="rgba(100,220,160,0.5)" stroke-width="1.2"/><path d="M7 12h10M12 9v6" stroke="rgba(100,220,160,0.5)" stroke-width="1.2" stroke-linecap="round"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="rgba(100,220,160,0.45)" stroke-width="1.2"/><text x="12" y="15" text-anchor="middle" font-size="8" font-weight="700" fill="rgba(100,220,160,0.55)" font-family="system-ui">SD</text></svg>
                             <span style="font-size:0.6rem;color:rgba(255,255,255,0.45);">SDXL-Turbo</span>
                             <span style="font-size:0.48rem;color:rgba(255,255,255,0.2);">images</span>
                         </span>
@@ -1190,32 +1191,19 @@ function showEndScreen() {
         }
         resize();
 
-        // Particles
+        // Subtle ember particles — fewer, slower, calmer
         const particles = [];
-        const PARTICLE_COUNT = 80;
+        const PARTICLE_COUNT = 25;
         for (let i = 0; i < PARTICLE_COUNT; i++) {
             particles.push({
                 x: Math.random() * w,
                 y: h + Math.random() * 60,
-                vx: (Math.random() - 0.5) * 0.4,
-                vy: -(0.3 + Math.random() * 1.2),
-                size: 1 + Math.random() * 2.5,
+                vx: (Math.random() - 0.5) * 0.2,
+                vy: -(0.15 + Math.random() * 0.5),
+                size: 0.8 + Math.random() * 1.5,
                 life: Math.random(),
-                maxLife: 0.6 + Math.random() * 0.4,
-                hue: 20 + Math.random() * 30 // orange-gold range
-            });
-        }
-
-        // Orbital dots (circling the center)
-        const orbitals = [];
-        for (let i = 0; i < 9; i++) { // 9 tracks = 9 orbitals
-            orbitals.push({
-                angle: (i / 9) * Math.PI * 2,
-                radius: 55 + Math.random() * 15,
-                speed: 0.004 + Math.random() * 0.003,
-                size: 2 + Math.random() * 2,
-                hue: [40, 30, 0, 280, 140, 350, 220, 165, 0][i], // matches track themes
-                sat: i === 8 ? '0%' : '70%' // track 9 = white
+                maxLife: 0.7 + Math.random() * 0.3,
+                hue: 20 + Math.random() * 30
             });
         }
 
@@ -1234,63 +1222,30 @@ function showEndScreen() {
             ctx.clearRect(0, 0, rw, rh);
             frame++;
 
-            // Ember particles rising — spawn from bottom half only
+            // Subtle rising embers
             for (const p of particles) {
-                p.x += p.vx + Math.sin(frame * 0.01 + p.life * 10) * 0.15;
+                p.x += p.vx + Math.sin(frame * 0.008 + p.life * 8) * 0.08;
                 p.y += p.vy;
-                p.life += 0.003;
+                p.life += 0.002;
 
                 if (p.life > p.maxLife || p.y < -10) {
                     p.x = Math.random() * rw;
-                    p.y = rh * 0.5 + Math.random() * rh * 0.5;
+                    p.y = rh * 0.6 + Math.random() * rh * 0.4;
                     p.life = 0;
-                    p.vx = (Math.random() - 0.5) * 0.4;
-                    p.vy = -(0.3 + Math.random() * 1.2);
+                    p.vx = (Math.random() - 0.5) * 0.2;
+                    p.vy = -(0.15 + Math.random() * 0.5);
                 }
 
                 const alpha = Math.max(0, 1 - (p.life / p.maxLife));
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.size * alpha, 0, Math.PI * 2);
-                ctx.fillStyle = `hsla(${p.hue}, 90%, 55%, ${alpha * 0.5})`;
+                ctx.fillStyle = `hsla(${p.hue}, 70%, 55%, ${alpha * 0.3})`;
                 ctx.fill();
 
-                // Glow
+                // Soft glow
                 ctx.beginPath();
-                ctx.arc(p.x, p.y, p.size * alpha * 3, 0, Math.PI * 2);
-                ctx.fillStyle = `hsla(${p.hue}, 80%, 50%, ${alpha * 0.08})`;
-                ctx.fill();
-            }
-
-            // Central pulsing ring — vertically centered in visible area
-            const pulse = 1 + Math.sin(frame * 0.02) * 0.08;
-            const ringY = rh * 0.35;
-            const ringR = 40 * pulse;
-            ctx.beginPath();
-            ctx.arc(cx, ringY, ringR, 0, Math.PI * 2);
-            ctx.strokeStyle = `rgba(255, 140, 0, ${0.12 + Math.sin(frame * 0.03) * 0.05})`;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-
-            // Outer ring
-            ctx.beginPath();
-            ctx.arc(cx, ringY, ringR + 18, 0, Math.PI * 2);
-            ctx.strokeStyle = `rgba(255, 140, 0, ${0.05 + Math.sin(frame * 0.02 + 1) * 0.03})`;
-            ctx.lineWidth = 0.5;
-            ctx.stroke();
-
-            // Orbital track dots
-            for (const o of orbitals) {
-                o.angle += o.speed;
-                const ox = cx + Math.cos(o.angle) * o.radius * pulse;
-                const oy = ringY + Math.sin(o.angle) * o.radius * 0.45 * pulse;
-                ctx.beginPath();
-                ctx.arc(ox, oy, o.size, 0, Math.PI * 2);
-                ctx.fillStyle = `hsla(${o.hue}, ${o.sat}, 60%, 0.6)`;
-                ctx.fill();
-                // trail
-                ctx.beginPath();
-                ctx.arc(ox, oy, o.size * 3, 0, Math.PI * 2);
-                ctx.fillStyle = `hsla(${o.hue}, ${o.sat}, 50%, 0.08)`;
+                ctx.arc(p.x, p.y, p.size * alpha * 2.5, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${p.hue}, 60%, 50%, ${alpha * 0.05})`;
                 ctx.fill();
             }
 
@@ -1299,6 +1254,10 @@ function showEndScreen() {
         animate();
         window.addEventListener('resize', resize);
     }
+}
+
+function hideEndScreen() {
+    location.reload();
 }
 
 // ── Scrub helpers (click + drag support) ──

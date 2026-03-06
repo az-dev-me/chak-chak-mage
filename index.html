@@ -461,26 +461,75 @@
             to { opacity: 1; }
         }
 
+        /* Mobile flag labels */
+        .lang-label-name {
+            display: none;
+        }
+
         /* Responsive */
         @media (max-width: 600px) {
             .title { font-size: 2rem; }
-            .lang-flag { width: 90px; height: 60px; }
-            .lang-buttons { gap: 12px; flex-wrap: wrap; }
+            .lang-buttons { gap: 14px; flex-wrap: wrap; }
             .enter-btn { padding: 14px 36px; font-size: 0.9rem; }
             .light-rays { width: 200px; height: 200px; }
             .light-ray { height: 120px; }
-            /* Disable 3D transforms on mobile — perspective + translateZ causes overflow/clip issues */
-            .lang-btn { perspective: none; }
-            .lang-flag { transform-style: flat; transform: none !important; }
+
+            /* Mobile flags: full color, tappable 3D-button style */
+            .lang-btn {
+                perspective: none;
+                border: none;
+                border-radius: 14px;
+                background: rgba(255,255,255,0.06);
+                padding: 8px 8px 4px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 4px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.08);
+                -webkit-tap-highlight-color: transparent;
+            }
+            .lang-btn:active {
+                transform: scale(0.95);
+                box-shadow: 0 2px 6px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+            }
+            .lang-btn.selected {
+                background: rgba(255,140,0,0.12);
+                box-shadow: 0 4px 16px rgba(255,140,0,0.25), 0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,180,0,0.15);
+            }
+            .lang-flag {
+                width: 80px; height: 54px;
+                transform-style: flat; transform: none !important;
+                /* Show actual colors on mobile — slightly dimmed but recognizable */
+                filter: brightness(0.9) saturate(0.85);
+                opacity: 0.9;
+                border-radius: 6px;
+            }
             .lang-flag img { transform: none !important; }
-            .lang-flag::before { transform: none; }
-            .lang-flag::after { transform: none; }
+            /* BR flag is B&W SVG — give it a green/yellow backdrop so it's identifiable */
+            [data-lang="pt-br"] .lang-flag { background: linear-gradient(135deg, #009c3b, #ffdf00); }
+            .lang-flag::before { display: none; }
+            .lang-flag::after { display: none; }
             .lang-btn:hover .lang-flag img { transform: none !important; }
+            .lang-btn.selected .lang-flag {
+                filter: brightness(1) saturate(1);
+                opacity: 1;
+            }
             .lang-btn.selected .lang-flag img { transform: none !important; }
+            .lang-label-name {
+                display: block;
+                font-size: 0.55rem;
+                color: rgba(255,255,255,0.35);
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                font-family: 'Inter', sans-serif;
+            }
+            .lang-btn.selected .lang-label-name {
+                color: rgba(255,170,0,0.7);
+            }
         }
         @media (max-width: 360px) {
-            .lang-flag { width: 75px; height: 50px; }
-            .lang-buttons { gap: 8px; }
+            .lang-flag { width: 68px; height: 45px; }
+            .lang-buttons { gap: 10px; }
         }
     </style>
 </head>
@@ -505,15 +554,18 @@
             <p class="lang-label" id="lang-label">Choose your language</p>
             <div class="lang-buttons">
                 <button class="lang-btn" data-lang="en" onclick="selectLang('en')">
-                    <span class="lang-flag"><img src="img/flag_en.svg" alt="English"></span>
+                    <span class="lang-flag"><img src="img/flag_en_color.svg" alt="English"></span>
+                    <span class="lang-label-name">English</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
-                    <span class="lang-flag"><img src="img/flag_pt_bw.svg" alt="Portugues"></span>
+                    <span class="lang-flag"><img src="img/flag_pt.svg" alt="Portugues"></span>
+                    <span class="lang-label-name">Portugues</span>
                 </button>
 
                 <button class="lang-btn" data-lang="pt-br" onclick="selectLang('pt-br')">
                     <span class="lang-flag"><img src="img/flag_br_bw.svg" alt="Brasileiro"></span>
+                    <span class="lang-label-name">Brasileiro</span>
                 </button>
             </div>
         </div>

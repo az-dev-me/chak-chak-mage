@@ -87,7 +87,7 @@ const SymbolEmbers = (function () {
         }
     };
 
-    const MAX_PARTICLES = 30;
+    const MAX_PARTICLES = 50;
     let canvas = null;
     let ctx = null;
     let particles = [];
@@ -121,21 +121,59 @@ const SymbolEmbers = (function () {
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
 
+    // Build a flat pool of all emojis for a given track (or medley components)
+    let cachedPool = [];
+    let cachedPoolTrack = '';
+
+    function getPool(trackId) {
+        if (trackId === cachedPoolTrack && cachedPool.length > 0) return cachedPool;
+        cachedPoolTrack = trackId;
+        cachedPool = [];
+
+        // For medleys (track_01 = tracks 1+2+3), merge all component pools
+        const trackIds = trackId === 'track_01'
+            ? ['track_01', 'track_02', 'track_03']
+            : [trackId];
+
+        for (const tid of trackIds) {
+            const trackMap = SYMBOLS[tid];
+            if (!trackMap) continue;
+            for (const key in trackMap) {
+                for (const emoji of trackMap[key]) {
+                    if (cachedPool.indexOf(emoji) === -1) cachedPool.push(emoji);
+                }
+            }
+        }
+        return cachedPool;
+    }
+
     function spawnSymbols(lineIndex, trackId) {
+        // Try exact match first
         const trackMap = SYMBOLS[trackId];
-        if (!trackMap) return;
-        const emojis = trackMap[lineIndex];
-        if (!emojis || emojis.length === 0) return;
+        let emojis = trackMap && trackMap[lineIndex];
+
+        // Fallback: pick from pool
+        if (!emojis || emojis.length === 0) {
+            const pool = getPool(trackId);
+            if (pool.length === 0) return;
+            emojis = [
+                pool[Math.floor(Math.random() * pool.length)],
+                pool[Math.floor(Math.random() * pool.length)]
+            ];
+        }
 
         lastTrackId = trackId;
         lastLineIndex = lineIndex;
 
-        // Spawn first symbol immediately
-        addParticle(emojis[0]);
-
-        // Stagger remaining symbols
-        for (let i = 1; i < emojis.length; i++) {
-            pendingSpawns.push({ emoji: emojis[i], delay: 25 + i * 20 });
+        // Spawn 3-4 symbols per line for more visual presence
+        const count = 3 + Math.floor(Math.random() * 2);
+        for (let i = 0; i < count; i++) {
+            const emoji = emojis[i % emojis.length] || emojis[0];
+            if (i === 0) {
+                addParticle(emoji);
+            } else {
+                pendingSpawns.push({ emoji, delay: 8 + i * 12 });
+            }
         }
     }
 
@@ -150,14 +188,14 @@ const SymbolEmbers = (function () {
             x: 0.1 * phoneW + Math.random() * 0.8 * phoneW,
             y: phoneH + 20,
             baseX: 0, // set after x is known
-            vy: -(0.35 + Math.random() * 0.55),
-            opacity: 0.30 + Math.random() * 0.12,
+            vy: -(0.18 + Math.random() * 0.32),
+            opacity: 0.28 + Math.random() * 0.14,
             size: 18 + Math.random() * 16,
             sizeBase: 0, // set below
             rotation: (Math.random() - 0.5) * 0.6,
             rotSpeed: (Math.random() - 0.5) * 0.012, // much faster rotation
             life: 0,
-            maxLife: 0.85 + Math.random() * 0.3,
+            maxLife: 1.4 + Math.random() * 0.6,
             // Curve params
             waveAmp: waveAmp,
             waveFreq: waveFreq,
@@ -202,7 +240,7 @@ const SymbolEmbers = (function () {
 
         for (let i = particles.length - 1; i >= 0; i--) {
             const p = particles[i];
-            p.life += 0.0025;
+            p.life += 0.0015;
 
             if (p.life >= p.maxLife) {
                 particles.splice(i, 1);
@@ -255,6 +293,8 @@ const SymbolEmbers = (function () {
         frame = 0;
         lastTrackId = '';
         lastLineIndex = -1;
+        cachedPoolTrack = '';
+        cachedPool = [];
         if (ctx && canvas) ctx.clearRect(0, 0, phoneW, phoneH);
     }
 
