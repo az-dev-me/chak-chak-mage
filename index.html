@@ -158,13 +158,14 @@
         /* Title with split letters for hover effect */
         .title {
             font-family: 'Cinzel', serif;
-            font-size: 3.2rem;
+            font-size: clamp(1.6rem, 5vw, 3.2rem);
             font-weight: 700;
             letter-spacing: 0.08em;
             color: #fff;
             text-shadow: 0 0 60px rgba(255, 120, 0, 0.25), 0 2px 20px rgba(0,0,0,0.5);
             margin-bottom: 12px;
             line-height: 1.1;
+            white-space: nowrap;
             user-select: none;
         }
         .title-letter {
@@ -271,14 +272,44 @@
             transition: opacity 0.4s ease, filter 0.4s ease;
             filter: grayscale(100%) brightness(0.7) contrast(1.1);
             background: #111;
+            transform-style: preserve-3d;
+            transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+            will-change: transform;
         }
         .lang-flag img {
             width: 100%; height: 100%; display: block; object-fit: cover;
+            transform: translateZ(20px) scale(0.92);
+            transition: transform 0.3s ease;
+        }
+        .lang-flag::before {
+            content: '';
+            position: absolute;
+            inset: 4px;
+            background: rgba(255, 140, 0, 0.05);
+            border-radius: 6px;
+            transform: translateZ(-10px);
+            transition: background 0.4s, box-shadow 0.4s;
+        }
+        .lang-flag::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(255,255,255, var(--glare, 0)) 0%, transparent 50%);
+            transform: translateZ(25px);
+            pointer-events: none;
         }
 
         .lang-btn:hover .lang-flag {
             opacity: 0.85;
             filter: grayscale(100%) brightness(0.85) contrast(1.1);
+        }
+        .lang-btn:hover .lang-flag img {
+            transform: translateZ(30px) scale(0.90);
+        }
+        .lang-btn:hover .lang-flag::before {
+            background: rgba(255, 140, 0, 0.08);
+            box-shadow: 0 8px 30px rgba(255, 120, 0, 0.12);
         }
         .lang-btn.selected {
             border-color: rgba(255, 140, 0, 0.6);
@@ -292,6 +323,9 @@
         .lang-btn.selected .lang-flag {
             opacity: 1;
             filter: grayscale(100%) brightness(1) contrast(1.15);
+        }
+        .lang-btn.selected .lang-flag img {
+            transform: translateZ(35px) scale(0.88);
         }
         @keyframes pulse-ring {
             0%, 100% { border-color: rgba(255, 140, 0, 0.3); box-shadow: 0 0 20px rgba(255, 140, 0, 0.1); }
@@ -428,7 +462,7 @@
 
         /* Responsive */
         @media (max-width: 600px) {
-            .title { font-size: 2rem; }
+            .title { font-size: clamp(1.4rem, 8vw, 2rem); }
             .lang-buttons { gap: 14px; flex-wrap: wrap; }
             .enter-btn { padding: 14px 36px; font-size: 0.9rem; }
             .light-rays { width: 200px; height: 200px; }
@@ -458,14 +492,19 @@
             }
             .lang-flag {
                 width: 80px; height: 54px;
+                transform-style: flat; transform: none !important;
                 filter: brightness(0.9) saturate(0.85);
                 opacity: 0.9;
                 border-radius: 6px;
             }
+            .lang-flag img { transform: none !important; }
+            .lang-flag::before { display: none; }
+            .lang-flag::after { display: none; }
             .lang-btn.selected .lang-flag {
                 filter: brightness(1) saturate(1);
                 opacity: 1;
             }
+            .lang-btn.selected .lang-flag img { transform: none !important; }
             .lang-label-name {
                 display: block;
                 font-size: 0.55rem;
@@ -497,7 +536,7 @@
 
     <div class="landing-container">
         <h1 class="title" id="title"></h1>
-        <p class="subtitle">Interactive Album Experience</p>
+        <p class="subtitle" id="subtitle">Interactive Album Experience</p>
 
         <div class="waveform" id="waveform"></div>
 
@@ -510,7 +549,7 @@
                 </button>
 
                 <button class="lang-btn" data-lang="pt" onclick="selectLang('pt')">
-                    <span class="lang-flag"><img src="img/flag_pt_color.svg" alt="Portugu&#234;s"></span>
+                    <span class="lang-flag"><img src="img/flag_pt.svg" alt="Portugu&#234;s"></span>
                     <span class="lang-label-name">Portugu&#234;s</span>
                 </button>
 
@@ -749,6 +788,7 @@
         const labels = {
             en: {
                 langLabel: 'Choose your language',
+                subtitle: 'Interactive Album Experience',
                 enter: 'Enter Experience',
                 loading: 'Loading experience...',
                 hint: 'The fire was always yours.',
@@ -757,6 +797,7 @@
             },
             pt: {
                 langLabel: 'Escolha o seu idioma',
+                subtitle: 'Experi\u00eancia de \u00c1lbum Interativo',
                 enter: 'Entrar na Experi\u00eancia',
                 loading: 'A carregar experi\u00eancia...',
                 hint: 'O fogo sempre foi teu.',
@@ -765,6 +806,7 @@
             },
             'pt-br': {
                 langLabel: 'Escolha seu idioma',
+                subtitle: 'Experi\u00eancia de \u00c1lbum Interativo',
                 enter: 'Entrar na Experi\u00eancia',
                 loading: 'Carregando experi\u00eancia...',
                 hint: 'O fogo sempre foi seu.',
@@ -784,6 +826,7 @@
 
             const t = labels[lang];
             document.getElementById('lang-label').textContent = t.langLabel;
+            document.getElementById('subtitle').textContent = t.subtitle;
             document.getElementById('enter-btn').textContent = t.enter;
             document.getElementById('stone-hint').textContent = t.hint;
             document.querySelector('.tagline').textContent = t.tagline;
@@ -858,7 +901,32 @@
             }
         });
 
-        // Flag buttons — no 3D tilt needed for emoji flags
+        // 3D parallax flag hover
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            const flag = btn.querySelector('.lang-flag');
+            if (!flag) return;
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width;
+                const y = (e.clientY - rect.top) / rect.height;
+                const rotY = (x - 0.5) * 25;
+                const rotX = (0.5 - y) * 20;
+                const glare = Math.max(0, 0.12 - Math.abs(x - 0.3) * 0.3);
+                flag.style.setProperty('--rx', rotX + 'deg');
+                flag.style.setProperty('--ry', rotY + 'deg');
+                flag.style.setProperty('--glare', glare);
+            });
+            btn.addEventListener('mouseleave', () => {
+                flag.style.setProperty('--rx', '0deg');
+                flag.style.setProperty('--ry', '0deg');
+                flag.style.setProperty('--glare', '0');
+                flag.style.transition = 'opacity 0.4s ease, filter 0.4s ease, transform 0.5s ease';
+                setTimeout(() => { flag.style.transition = ''; }, 500);
+            });
+            btn.addEventListener('mouseenter', () => {
+                flag.style.transition = 'opacity 0.4s ease, filter 0.4s ease';
+            });
+        });
 
         // 2. Click anywhere spawns a small spark
         document.addEventListener('click', function(e) {
