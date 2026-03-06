@@ -631,12 +631,8 @@ function syncTick(frameTimestamp) {
             }
             // Flash side panels on new meaning line
             if (typeof Zone2Outer !== 'undefined') Zone2Outer.flashPanels();
-            // Spawn symbol embers for this line's hidden narrative
-            if (typeof SymbolEmbers !== 'undefined') {
-                const _tid = currentAlbumConfig && currentAlbumConfig.tracks && currentAlbumConfig.tracks[currentTrackIndex]
-                    ? currentAlbumConfig.tracks[currentTrackIndex].id : '';
-                SymbolEmbers.spawnSymbols(currentLyricIndex, _tid);
-            }
+            // Spawn fire embers on line change
+            if (typeof SymbolEmbers !== 'undefined') SymbolEmbers.spawnSymbols();
         } else {
             // Hold previous meaning visible for MEANING_HOLD_MS before dimming
             const elapsed = performance.now() - lastMeaningSetAt;
