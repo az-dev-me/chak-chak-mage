@@ -130,7 +130,7 @@ function buildTrackList() {
         pill.className = 'track-pill' + (i === currentTrackIndex ? ' active' : '');
         pill.textContent = t.title || `Track ${i + 1}`;
         pill.addEventListener('click', () => {
-            loadTrack(i).then(() => { audio.play(); startSyncLoop(); });
+            loadTrack(i).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
         });
         trackListNav.appendChild(pill);
     });
@@ -240,7 +240,7 @@ async function switchVariant(variant, trackMeta) {
 
     if (wasPlaying) {
         audio.play();
-        startSyncLoop();
+        reconnectAnalyserAndPlay();
     }
 }
 
@@ -898,6 +898,16 @@ function syncTick(frameTimestamp) {
     }
 }
 
+// Reconnect audio analyser after track change and ensure sync loop runs.
+// startSyncLoop() skips reconnect when the loop is already active (rafId != null),
+// so this forces a fresh captureStream() on the new audio source.
+function reconnectAnalyserAndPlay() {
+    if (typeof AudioAnalyser !== 'undefined') {
+        AudioAnalyser.connect(audio); // fire-and-forget async — reattaches to new audio.src
+    }
+    startSyncLoop();
+}
+
 function startSyncLoop() {
     if (rafId) return;
     // Connect audio analyser (async — audio plays normally until it's ready).
@@ -979,14 +989,14 @@ if (phoneFrame) {
 
 if (btnNext) btnNext.addEventListener('click', () => {
     if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
+        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
     }
 });
 
 if (btnPrev) btnPrev.addEventListener('click', () => {
     if (audio.currentTime > 3) { audio.currentTime = 0; }
     else if (currentTrackIndex > 0) {
-        loadTrack(currentTrackIndex - 1).then(() => { audio.play(); startSyncLoop(); });
+        loadTrack(currentTrackIndex - 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
     }
 });
 
@@ -1022,13 +1032,13 @@ if (btnPrev) btnPrev.addEventListener('click', () => {
             if (dx < 0) {
                 // Swipe left = next track
                 if (currentAlbumConfig && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-                    loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
+                    loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
                 }
             } else {
                 // Swipe right = prev track (or restart)
                 if (audio.currentTime > 3) { audio.currentTime = 0; }
                 else if (currentTrackIndex > 0) {
-                    loadTrack(currentTrackIndex - 1).then(() => { audio.play(); startSyncLoop(); });
+                    loadTrack(currentTrackIndex - 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
                 }
             }
         } else {
@@ -1084,6 +1094,10 @@ audio.addEventListener('timeupdate', () => {
 
 audio.addEventListener('play', () => {
     if (btnPlay) btnPlay.innerText = "\u23F8";
+    // Reconnect analyser if it was disconnected (track/variant change)
+    if (typeof AudioAnalyser !== 'undefined' && !AudioAnalyser.isActive()) {
+        AudioAnalyser.connect(audio);
+    }
     startSyncLoop();
     scheduleUICollapse();
 });
@@ -1098,7 +1112,7 @@ audio.addEventListener('ended', () => {
     stopSyncLoop();
     revealUI();
     if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); startSyncLoop(); });
+        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
     } else {
         // Album complete — show end screen
         showEndScreen();
@@ -1366,7 +1380,7 @@ function seekAlbum(pct) {
         loadTrack(targetTrack).then(() => {
             audio.currentTime = Math.max(0, timeInTrack);
             audio.play();
-            startSyncLoop();
+            reconnectAnalyserAndPlay();
         });
     } else {
         audio.currentTime = Math.max(0, timeInTrack);
