@@ -844,30 +844,35 @@ function syncTick(frameTimestamp) {
     }
 
     // ── 6. Audio-reactive visuals ──
-    // Use REAL-TIME audio analysis when available, fall back to pre-computed
+    // Pre-computed beats are the RELIABLE base (always work).
+    // Real-time audio analysis enhances when available (adds bass/treble detail).
     const root = document.documentElement.style;
-    if (audioState) {
-        // Real-time: driven by actual frequency content of the playing audio
-        root.setProperty('--beat-pulse', audioState.beatPulse.toFixed(3));
+
+    // Always use pre-computed beat pulse as the foundation
+    let effectivePulse = timing.beatPulse;
+    let effectiveEnergy = timing.energy;
+    let effectiveBeatDetected = timing.isDownbeat;
+
+    // Blend in real-time audio analysis when active and producing signal
+    if (audioState && audioState.overall > 0.01) {
+        // Take the stronger of pre-computed or real-time beat pulse
+        effectivePulse = Math.max(timing.beatPulse, audioState.beatPulse);
+        effectiveEnergy = audioState.overall;
+        effectiveBeatDetected = effectiveBeatDetected || audioState.beatDetected;
         root.setProperty('--bass-energy', audioState.bass.toFixed(3));
         root.setProperty('--treble-energy', audioState.treble.toFixed(3));
-        root.setProperty('--audio-energy', audioState.overall.toFixed(3));
-
-        // Beat effects: real-time bass detection replaces pre-computed timestamps
-        Zone2Outer.applyBeatPulse(audioState.beatPulse, audioState.beatDetected);
     } else {
-        // Fallback: pre-computed timing data (less accurate but still functional)
-        root.setProperty('--beat-pulse', timing.beatPulse.toFixed(3));
         root.setProperty('--bass-energy', '0');
         root.setProperty('--treble-energy', '0');
-        root.setProperty('--audio-energy', timing.energy.toFixed(3));
-
-        Zone2Outer.applyBeatPulse(timing.beatPulse, timing.isDownbeat);
     }
+
+    root.setProperty('--beat-pulse', effectivePulse.toFixed(3));
+    root.setProperty('--audio-energy', effectiveEnergy.toFixed(3));
+    Zone2Outer.applyBeatPulse(effectivePulse, effectiveBeatDetected);
 
     // Symbol embers — per-frame tick
     if (typeof SymbolEmbers !== 'undefined') {
-        SymbolEmbers.tick(audioState ? audioState.beatPulse : timing.beatPulse);
+        SymbolEmbers.tick(effectivePulse);
     }
 
     // ── 7. Energy-responsive effects (throttled ~15Hz) ──
