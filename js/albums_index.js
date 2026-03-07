@@ -14,8 +14,13 @@ window.albumRegistry = [
                 {
                     "slot": 1,
                     "track_id": "track_01",
+                    "title": "Prologue - The Green Booth",
                     "variant_id": "T1-2-3a",
                     "audio_path": "T1-2-3a.mp3",
+                    "theme": {
+                        "accent": "#ffaa00",
+                        "glow": "rgba(255,170,0,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T1-2-3a",
@@ -32,8 +37,13 @@ window.albumRegistry = [
                 {
                     "slot": 2,
                     "track_id": "track_02",
+                    "title": "The Orange Box",
                     "variant_id": "T2a",
                     "audio_path": "02 - track_02.mp3",
+                    "theme": {
+                        "accent": "#ff8800",
+                        "glow": "rgba(255,136,0,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T2a",
@@ -55,8 +65,13 @@ window.albumRegistry = [
                 {
                     "slot": 3,
                     "track_id": "track_03",
+                    "title": "The Fire Run",
                     "variant_id": "T3a",
                     "audio_path": "03 - track_03.mp3",
+                    "theme": {
+                        "accent": "#ff4444",
+                        "glow": "rgba(255,68,68,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T3a",
@@ -73,8 +88,13 @@ window.albumRegistry = [
                 {
                     "slot": 4,
                     "track_id": "track_04",
+                    "title": "The Rules",
                     "variant_id": "T4b",
                     "audio_path": "04 - track_04.mp3",
+                    "theme": {
+                        "accent": "#cc66ff",
+                        "glow": "rgba(204,102,255,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T4a",
@@ -91,8 +111,13 @@ window.albumRegistry = [
                 {
                     "slot": 5,
                     "track_id": "track_05",
+                    "title": "Muda's Spark",
                     "variant_id": "T5b",
                     "audio_path": "05 - track_05.mp3",
+                    "theme": {
+                        "accent": "#44dd88",
+                        "glow": "rgba(68,221,136,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T5a",
@@ -114,8 +139,13 @@ window.albumRegistry = [
                 {
                     "slot": 6,
                     "track_id": "track_06",
+                    "title": "Two Fires",
                     "variant_id": "T6b",
                     "audio_path": "06 - track_06.mp3",
+                    "theme": {
+                        "accent": "#ff2244",
+                        "glow": "rgba(255,34,68,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T6a",
@@ -132,8 +162,13 @@ window.albumRegistry = [
                 {
                     "slot": 7,
                     "track_id": "track_07",
+                    "title": "The Empty Lighter",
                     "variant_id": "T7",
                     "audio_path": "07 - track_07.mp3",
+                    "theme": {
+                        "accent": "#4488ff",
+                        "glow": "rgba(68,136,255,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T7",
@@ -145,8 +180,13 @@ window.albumRegistry = [
                 {
                     "slot": 8,
                     "track_id": "track_08",
+                    "title": "The Fire Was Always There",
                     "variant_id": "T8",
                     "audio_path": "08 - track_08.mp3",
+                    "theme": {
+                        "accent": "#44ccaa",
+                        "glow": "rgba(68,204,170,0.6)"
+                    },
                     "variants": [
                         {
                             "id": "T8",
@@ -158,8 +198,13 @@ window.albumRegistry = [
                 {
                     "slot": 9,
                     "track_id": "track_09",
+                    "title": "Epilogue - The Lesson",
                     "variant_id": "TTS_Epilogue",
                     "audio_path": "09 - track_09.mp3",
+                    "theme": {
+                        "accent": "#ffffff",
+                        "glow": "rgba(255,255,255,0.5)"
+                    },
                     "variants": []
                 }
             ]

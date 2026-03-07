@@ -15,18 +15,27 @@ const LANG = (() => {
 const DISPLAY_MAX_WORDS = 60;
 const DISPLAY_MAX_CHARS = 400;
 
-// Per-track emotion color themes
-const TRACK_THEMES = {
-    track_01: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },     // gold — power/origin
-    track_02: { accent: '#ff8800', glow: 'rgba(255,136,0,0.6)' },     // amber — worship/cult
-    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },     // red — urgency/burnout
-    track_04: { accent: '#cc66ff', glow: 'rgba(204,102,255,0.6)' },   // purple — dogma/division
-    track_05: { accent: '#44dd88', glow: 'rgba(68,221,136,0.6)' },    // green — hope/discovery
-    track_06: { accent: '#ff2244', glow: 'rgba(255,34,68,0.6)' },     // crimson — conflict
-    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },    // blue — melancholy/escape
-    track_08: { accent: '#44ccaa', glow: 'rgba(68,204,170,0.6)' },    // teal — reflection/hope
-    track_09: { accent: '#ffffff', glow: 'rgba(255,255,255,0.5)' },   // white — clarity/truth
+// Per-track emotion color themes — used as fallback when album_config doesn't include themes
+const TRACK_THEMES_FALLBACK = {
+    track_01: { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' },
+    track_02: { accent: '#ff8800', glow: 'rgba(255,136,0,0.6)' },
+    track_03: { accent: '#ff4444', glow: 'rgba(255,68,68,0.6)' },
+    track_04: { accent: '#cc66ff', glow: 'rgba(204,102,255,0.6)' },
+    track_05: { accent: '#44dd88', glow: 'rgba(68,221,136,0.6)' },
+    track_06: { accent: '#ff2244', glow: 'rgba(255,34,68,0.6)' },
+    track_07: { accent: '#4488ff', glow: 'rgba(68,136,255,0.6)' },
+    track_08: { accent: '#44ccaa', glow: 'rgba(68,204,170,0.6)' },
+    track_09: { accent: '#ffffff', glow: 'rgba(255,255,255,0.5)' },
 };
+
+// Auto-generate theme from track index when no config theme exists
+function generateDefaultTheme(index) {
+    const hue = (index * 40 + 30) % 360;
+    return {
+        accent: `hsl(${hue}, 70%, 55%)`,
+        glow: `hsla(${hue}, 70%, 55%, 0.6)`
+    };
+}
 
 // ── Utility ──────────────────────────────────────────────
 function sanitizeLyricForDisplay(text) {
@@ -231,7 +240,14 @@ async function switchVariant(variant, trackMeta) {
 
 // ── Dynamic Color Theme ──────────────────────────────────
 function applyTrackTheme(trackId) {
-    const theme = TRACK_THEMES[trackId] || { accent: '#ffaa00', glow: 'rgba(255,170,0,0.6)' };
+    // Priority: album_config theme > hardcoded fallback > auto-generated hue
+    let theme = null;
+    if (currentAlbumConfig && currentAlbumConfig.tracks) {
+        const trackMeta = currentAlbumConfig.tracks.find(t => t.id === trackId);
+        if (trackMeta && trackMeta.theme) theme = trackMeta.theme;
+    }
+    if (!theme) theme = TRACK_THEMES_FALLBACK[trackId];
+    if (!theme) theme = generateDefaultTheme(currentTrackIndex);
     document.documentElement.style.setProperty('--accent', theme.accent);
     document.documentElement.style.setProperty('--accent-glow', theme.glow);
 }

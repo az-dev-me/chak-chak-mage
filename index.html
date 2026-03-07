@@ -1073,36 +1073,43 @@
                         fetch(base + 'js/zone2_outer.js?v=20260306k'),
                         fetch(base + 'js/zone3_ambient.js'),
                         fetch(base + 'js/symbol_embers.js?v=20260306d'),
-                        fetch(base + 'js/player.js?v=20260306v'),
+                        fetch(base + 'js/player.js?v=20260306w'),
                         fetch(base + 'js/albums_index.js'),
                         fetch(base + 'shared/semantics/master_matrix.js'),
                     ]);
 
-                    // Phase 3: Preload first track data + album config
+                    // Phase 3: Discover first album from registry, preload its data
                     setProgress(55, isPtPt ? 'A preparar áudio...' : isPt ? 'Preparando áudio...' : 'Preparing audio...');
-                    const cfgResp = await fetch(base + 'albums/MY_ALBUM_001/album_config.json');
-                    let firstVariantJs = 'albums/MY_ALBUM_001/data/track_01_T1-2-3a.js';
-                    if (cfgResp.ok) {
+                    const idxResp = await fetch(base + 'albums/albums_index.json');
+                    let albumBase = 'albums/MY_ALBUM_001'; // fallback
+                    let firstTrackId = 'track_01';
+                    let firstVariantJs = null;
+                    if (idxResp.ok) {
                         try {
-                            const cfg = await cfgResp.json();
-                            if (cfg.tracks && cfg.tracks[0]) {
-                                const t0 = cfg.tracks[0];
-                                const v = (t0.variants && t0.variants[0]) ? t0.variants[0].id : null;
-                                const tid = t0.track_id || t0.id;
-                                if (v && tid) firstVariantJs = 'albums/MY_ALBUM_001/data/' + tid + '_' + v + '.js';
+                            const albums = await idxResp.json();
+                            if (albums.length > 0) {
+                                albumBase = 'albums/' + albums[0].album_id;
+                                const cfg = albums[0].config || albums[0];
+                                if (cfg.tracks && cfg.tracks[0]) {
+                                    const t0 = cfg.tracks[0];
+                                    firstTrackId = t0.track_id || t0.id || 'track_01';
+                                    const v = (t0.variants && t0.variants[0]) ? t0.variants[0].id : null;
+                                    if (v) firstVariantJs = albumBase + '/data/' + firstTrackId + '_' + v + '.js';
+                                }
                             }
                         } catch(_) {}
                     }
-                    await Promise.all([
-                        fetch(base + firstVariantJs),
-                        fetch(base + 'albums/MY_ALBUM_001/data/track_01.structure.json'),
-                    ]);
+                    const dataFetches = [
+                        fetch(base + albumBase + '/data/' + firstTrackId + '.structure.json'),
+                    ];
+                    if (firstVariantJs) dataFetches.push(fetch(base + firstVariantJs));
+                    await Promise.all(dataFetches);
 
-                    // Phase 4: Preload first batch of images (first ~8 images for track 1)
+                    // Phase 4: Preload first batch of images
                     setProgress(75, isPtPt ? 'A carregar imagens...' : isPt ? 'Carregando imagens...' : 'Loading images...');
                     const imgPromises = [];
                     for (let i = 0; i < 8; i++) {
-                        const url = base + 'albums/MY_ALBUM_001/media/c' + String(i).padStart(4, '0') + '.webp';
+                        const url = base + albumBase + '/media/c' + String(i).padStart(4, '0') + '.webp';
                         imgPromises.push(new Promise(resolve => {
                             const img = new Image();
                             img.onload = img.onerror = resolve;

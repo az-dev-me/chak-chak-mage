@@ -23,19 +23,7 @@ const fallbackAlbumConfig = {
     tracks: []
 };
 
-// Canonical track titles — used by normalizeAlbumConfig when pipeline config
-// only has track_id/slot (no display title).
-const TRACK_TITLES = {
-    track_01: "Prologue - The Green Booth",
-    track_02: "The Orange Box",
-    track_03: "The Fire Run",
-    track_04: "The Rules",
-    track_05: "Muda's Spark",
-    track_06: "Two Fires",
-    track_07: "The Empty Lighter",
-    track_08: "The Fire Was Always There",
-    track_09: "Epilogue - The Lesson"
-};
+// Track titles come from album_config.json. This is just a generic fallback.
 
 // Normalize pipeline config (slot, track_id, audio_path) into player shape (id, title, audioFile, defaultMedia).
 function normalizeAlbumConfig(config) {
@@ -48,12 +36,13 @@ function normalizeAlbumConfig(config) {
         const num = trackId.replace("track_", "");
         return {
             id: trackId,
-            title: t.title || TRACK_TITLES[trackId] || trackId,
+            title: t.title || `Track ${num}`,
             audioFile,
             defaultMedia: t.defaultMedia || `bg_t${num}.png`,
             dataVar: `${trackId}_data`,
             variant_id: t.variant_id || null,
-            variants: t.variants || []
+            variants: t.variants || [],
+            theme: t.theme || null
         };
     });
     return { ...config, tracks };
