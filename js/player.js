@@ -84,7 +84,7 @@ let lastMeaningSetAt = 0;     // performance.now() when meaning last changed
 let lastEnergyTick = 0;
 let lineEnteredAt = 0;        // performance.now() when line changed
 const LINE_GRACE_MS = 200;    // ms before word highlighting kicks in
-const MEANING_HOLD_MS = 2500; // ms to keep meaning fully visible after line ends
+const MEANING_HOLD_MS = 4000; // ms to keep meaning fully visible after line ends
 
 // Image preload cache
 const preloadedImages = new Set();
@@ -357,7 +357,9 @@ async function loadTrack(index) {
     if (elCurr) elCurr.innerHTML = trackMeta.title || "...";
     if (elNext) elNext.innerText = (tl && tl.length > 0) ? sanitizeLyricForDisplay(tl[0].lyric) : "";
 
-    // Hide meaning panels
+    // Clear meaning panel completely for new track
+    meaningWordSpans = [];
+    if (meaningText) meaningText.innerHTML = '';
     if (meaningPanel) {
         meaningPanel.classList.remove('meaning-visible');
         meaningPanel.classList.add('meaning-hidden');
@@ -739,11 +741,10 @@ function syncTick(frameTimestamp) {
                     }
                 } else {
                     let newWordIdx = -1;
-                    const lineStart = activeLine.start;
-                    const lineEnd = activeLine.end;
                     for (let w = 0; w < words.length; w++) {
-                        // Clamp: only consider words whose start is within/after line start
-                        const ws = Math.max(words[w].start, lineStart);
+                        // Add tiny offset to first word so it doesn't light up
+                        // the instant the line appears (line.start == words[0].start)
+                        const ws = words[w].start + (w === 0 ? 0.08 : 0);
                         if (ct >= ws) newWordIdx = w;
                     }
 
@@ -756,9 +757,11 @@ function syncTick(frameTimestamp) {
                                 wordSpans[i].className = 'word-sung';
                             } else if (i === newWordIdx) {
                                 const w = words[i];
-                                const wStart = Math.max(w.start, lineStart);
-                                const wEnd = Math.max(w.end, wStart + 0.05);
-                                const isWithin = ct >= wStart && ct < wEnd;
+                                // Last word: extend active duration so it doesn't flash and vanish
+                                const isLast = (i === words.length - 1);
+                                const minDur = isLast ? 0.3 : 0.15;
+                                const wEnd = Math.max(w.end, w.start + minDur);
+                                const isWithin = ct >= w.start && ct < wEnd;
                                 wordSpans[i].className = isWithin ? 'word-active' : 'word-sung';
                             } else {
                                 wordSpans[i].className = 'word-future';
