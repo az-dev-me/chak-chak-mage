@@ -793,13 +793,13 @@ function syncTick(frameTimestamp) {
                         // Flash removed here — too frequent. Only flash on line change (section 3).
                     }
                     span.className = 'meaning-core-active';
-                    const scale = 1.0 + bp * 0.12;
+                    const scale = 1.0 + bp * 0.05;
                     span.style.transform = `translateY(0) scale(${scale.toFixed(3)})`;
                 } else {
                     span.className = 'meaning-core-sung';
-                    const glow = bp * 0.5;
+                    const glow = bp * 0.3;
                     span.style.textShadow = glow > 0.02
-                        ? `0 0 ${(5 + glow * 10).toFixed(0)}px var(--accent-glow)`
+                        ? `0 0 ${(4 + glow * 6).toFixed(0)}px var(--accent-glow)`
                         : 'none';
                     span.style.transform = '';
                 }

@@ -23,7 +23,7 @@ const AudioAnalyser = (() => {
     const HISTORY_SIZE = 43;
     let historyIdx = 0;
     let lastBeatTime = 0;
-    const MIN_BEAT_INTERVAL = 0.18;
+    const MIN_BEAT_INTERVAL = 0.35; // ~170 BPM max — only main beats, not every transient
 
     const state = {
         bass: 0, lowMid: 0, mid: 0, highMid: 0, treble: 0,
@@ -31,8 +31,8 @@ const AudioAnalyser = (() => {
     };
 
     const SPEED = {
-        bass: 12, lowMid: 10, mid: 8, highMid: 15, treble: 18,
-        overall: 6, beatPulse: 6, spectralCentroid: 5,
+        bass: 8, lowMid: 8, mid: 6, highMid: 10, treble: 12,
+        overall: 4, beatPulse: 3.5, spectralCentroid: 4,
     };
 
     async function connect(audioElement) {
@@ -144,7 +144,7 @@ const AudioAnalyser = (() => {
         for (let i = 0; i < HISTORY_SIZE; i++) avgBass += bassEnergyHistory[i];
         avgBass /= HISTORY_SIZE;
 
-        const threshold = Math.max(avgBass * 1.4, 0.06);
+        const threshold = Math.max(avgBass * 1.8, 0.08);
 
         state.beatDetected = false;
         if (bassSquared > threshold &&
@@ -152,7 +152,7 @@ const AudioAnalyser = (() => {
             (audioTime - lastBeatTime) > MIN_BEAT_INTERVAL) {
             state.beatDetected = true;
             lastBeatTime = audioTime;
-            state.beatPulse = Math.min(rawBass * 2.5, 1.0);
+            state.beatPulse = Math.min(rawBass * 1.8, 1.0);
         }
         lastBassEnergy = bassSquared;
 

@@ -134,30 +134,30 @@ const Zone2Outer = (() => {
     // beatPulse = bass energy with decay (0-1), proportional to actual hit strength.
     // beatDetected = true on the frame a kick/bass transient was detected.
     function applyBeatPulse(beatPulse, beatDetected) {
-        // Text glow: proportional to beat pulse (kick strength)
-        document.documentElement.style.setProperty('--beat-text-glow', beatPulse.toFixed(3));
+        // Text glow: proportional to beat pulse — gentle breathing
+        document.documentElement.style.setProperty('--beat-text-glow', (beatPulse * 0.7).toFixed(3));
 
-        // Meaning strip border: gold shimmer tracks beat
-        const borderAlpha = 0.12 + beatPulse * 0.35;
+        // Meaning strip border: subtle gold shimmer
+        const borderAlpha = 0.12 + beatPulse * 0.2;
         document.documentElement.style.setProperty('--beat-strip-border', borderAlpha.toFixed(3));
 
-        // Bar brightness: tracks beat pulse
-        const brightness = beatPulse * 0.06;
+        // Bar brightness: gentle pulse
+        const brightness = beatPulse * 0.04;
         document.documentElement.style.setProperty('--beat-brightness', brightness.toFixed(4));
 
-        // Background flash: on detected kicks, proportional to strength
-        if (beatDetected) {
+        // Background flash: only on strong detected kicks, with slower decay
+        if (beatDetected && beatPulse > 0.3) {
             document.documentElement.style.setProperty(
-                '--beat-bg-flash', beatPulse.toFixed(3)
+                '--beat-bg-flash', (beatPulse * 0.6).toFixed(3)
             );
         } else {
-            // Smooth decay
+            // Slower, smoother decay
             const current = parseFloat(
                 document.documentElement.style.getPropertyValue('--beat-bg-flash') || '0'
             );
             if (current > 0.005) {
                 document.documentElement.style.setProperty(
-                    '--beat-bg-flash', (current * 0.88).toFixed(3)
+                    '--beat-bg-flash', (current * 0.92).toFixed(3)
                 );
             }
         }

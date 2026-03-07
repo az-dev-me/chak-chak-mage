@@ -167,11 +167,11 @@ html {
     box-shadow:
         0 0 40px rgba(0, 0, 0, 0.8),
         0 0 80px rgba(0, 0, 0, 0.4),
-        0 0 calc(5px + var(--beat-pulse) * 20px) rgba(255, 170, 0, calc(0.05 + var(--beat-pulse) * 0.25)),
+        0 0 calc(4px + var(--beat-pulse) * 12px) rgba(255, 170, 0, calc(0.03 + var(--beat-pulse) * 0.15)),
         inset 0 0 1px rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.06);
     background: var(--dark);
-    transition: box-shadow 0.1s ease-out;
+    transition: box-shadow 0.3s ease-out;
     will-change: box-shadow;
 }
 
@@ -412,10 +412,10 @@ header p {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--accent);
-    text-shadow: 0 0 calc(8px + var(--beat-text-glow) * 18px) var(--accent-glow),
-                 0 0 calc(3px + var(--beat-text-glow) * 10px) rgba(255, 255, 255, calc(0.08 + var(--beat-text-glow) * 0.3));
-    transform: scale(calc(1.0 + var(--beat-pulse) * 0.015));
-    transition: font-size 0.3s ease, transform 0.06s ease-out;
+    text-shadow: 0 0 calc(6px + var(--beat-text-glow) * 10px) var(--accent-glow),
+                 0 0 calc(2px + var(--beat-text-glow) * 6px) rgba(255, 255, 255, calc(0.05 + var(--beat-text-glow) * 0.15));
+    transform: scale(calc(1.0 + var(--beat-pulse) * 0.008));
+    transition: font-size 0.3s ease, transform 0.25s ease-out, text-shadow 0.3s ease-out;
     overflow-wrap: break-word;
     word-break: keep-all;
     hyphens: none;
@@ -446,27 +446,27 @@ header p {
    ═══════════════════════════════════════════════════════════════ */
 .word-sung {
     color: #fff;
-    text-shadow: 0 0 5px rgba(255, 200, 100, 0.4);
-    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 4px rgba(255, 200, 100, 0.25);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .word-active {
     font-weight: 700;
     color: #fff;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.9), 0 0 18px var(--accent-glow);
-    animation: word-pulse 0.5s ease-in-out;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7), 0 0 12px var(--accent-glow);
+    animation: word-pulse 0.6s ease-in-out;
 }
 
 @keyframes word-pulse {
     0%   { transform: scale(1); }
-    50%  { transform: scale(1.08); }
+    40%  { transform: scale(1.04); }
     100% { transform: scale(1); }
 }
 
 .word-future {
     opacity: 0.4;
     color: var(--accent);
-    transition: opacity 0.15s;
+    transition: opacity 0.3s ease;
 }
 
 /* ═══════════════════════════════════════════════════════════════
