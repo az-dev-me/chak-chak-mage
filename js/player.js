@@ -191,6 +191,12 @@ async function switchVariant(variant, trackMeta) {
     audio.src = `${albumPath}/${variant.audio}`;
     audio.currentTime = 0;
 
+    // Disconnect stale audio analyser (will reconnect on play)
+    if (typeof AudioAnalyser !== 'undefined') {
+        AudioAnalyser.disconnect();
+        AudioAnalyser.reset();
+    }
+
     // Full reset
     currentLyricIndex = -1;
     currentWordIndex = -1;
@@ -288,10 +294,13 @@ async function loadTrack(index) {
     currentVariantId = defaultVariantId;
     await fetchTrackData(trackMeta.id, defaultVariantId);
 
-    // Load timing data into TimingEngine + reset audio analyser
+    // Load timing data into TimingEngine + disconnect stale audio analyser
     if (loadedTrackData) {
         TimingEngine.load(loadedTrackData);
-        if (typeof AudioAnalyser !== 'undefined') AudioAnalyser.reset();
+        if (typeof AudioAnalyser !== 'undefined') {
+            AudioAnalyser.disconnect();
+            AudioAnalyser.reset();
+        }
 
         // Pre-compute downbeat times (every 4th beat) for stronger image transitions
         if (loadedTrackData.beat_times && loadedTrackData.beat_times.length > 0) {

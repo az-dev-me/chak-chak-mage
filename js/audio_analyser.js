@@ -47,30 +47,36 @@ const AudioAnalyser = (() => {
                 return false;
             }
 
-            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            // Reuse existing AudioContext + analyser if available (reconnect case)
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
             await audioContext.resume();
 
-            analyser = audioContext.createAnalyser();
-            analyser.fftSize = FFT_SIZE;
-            analyser.smoothingTimeConstant = SMOOTHING;
-            analyser.minDecibels = -90;
-            analyser.maxDecibels = -10;
+            if (!analyser) {
+                analyser = audioContext.createAnalyser();
+                analyser.fftSize = FFT_SIZE;
+                analyser.smoothingTimeConstant = SMOOTHING;
+                analyser.minDecibels = -90;
+                analyser.maxDecibels = -10;
+            }
 
             // captureStream() — analysis only, does NOT touch audio output.
             // The <audio> element keeps playing through its normal path.
+            // Fresh stream captures the current audio.src.
             const stream = captureFn.call(audioElement);
             sourceNode = audioContext.createMediaStreamSource(stream);
             sourceNode.connect(analyser);
             // Do NOT connect analyser to audioContext.destination — that would cause echo.
-            // Audio already plays through the <audio> element.
 
-            frequencyData = new Uint8Array(analyser.frequencyBinCount);
-            timeDomainData = new Uint8Array(analyser.frequencyBinCount);
-            bassEnergyHistory = new Float32Array(HISTORY_SIZE);
+            if (!frequencyData) {
+                frequencyData = new Uint8Array(analyser.frequencyBinCount);
+                timeDomainData = new Uint8Array(analyser.frequencyBinCount);
+                bassEnergyHistory = new Float32Array(HISTORY_SIZE);
+            }
 
             connected = true;
             connecting = false;
-            console.log('AudioAnalyser: connected via captureStream');
             return true;
         } catch (e) {
             console.warn('AudioAnalyser: ' + e.message);
@@ -180,6 +186,21 @@ const AudioAnalyser = (() => {
     function getState() { return state; }
     function isActive() { return connected && audioContext && audioContext.state === 'running'; }
 
+    function disconnect() {
+        if (sourceNode) {
+            try { sourceNode.disconnect(); } catch (_) {}
+            sourceNode = null;
+        }
+        connected = false;
+        connecting = false;
+        // Keep audioContext + analyser alive — just detach the old source
+    }
+
+    function reconnect(audioElement) {
+        disconnect();
+        return connect(audioElement);
+    }
+
     function reset() {
         lastBassEnergy = 0;
         historyIdx = 0;
@@ -188,5 +209,5 @@ const AudioAnalyser = (() => {
         Object.keys(state).forEach(k => { state[k] = typeof state[k] === 'boolean' ? false : 0; });
     }
 
-    return { connect, resume, analyse, getState, isActive, reset };
+    return { connect, disconnect, reconnect, resume, analyse, getState, isActive, reset };
 })();
