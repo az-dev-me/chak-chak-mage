@@ -66,6 +66,13 @@ This project was built by a human and an AI, using tools made by many.
 | Vocal isolation | [Demucs](https://github.com/facebookresearch/demucs) |
 | Musical analysis | [librosa](https://librosa.org) |
 
+## Documentation
+
+- [Creating a New Album](docs/NEW_ALBUM_GUIDE.md) — step-by-step guide for building a new album from scratch
+- [Data Contracts](DATA_CONTRACTS.md) — schema reference for all data files
+- [Contributing](CONTRIBUTING.md) — how to report bugs, suggest features, and submit PRs
+- [Pipeline Config](chak_pipeline.toml) — all tunable thresholds and model parameters
+
 ## License
 
 [MIT](LICENSE) — Copyright 2026 AZ
