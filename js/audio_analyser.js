@@ -47,6 +47,18 @@ const AudioAnalyser = (() => {
                 return false;
             }
 
+            // Wait for audio to have data before capturing stream
+            if (audioElement.readyState < 2) {
+                await new Promise((resolve, reject) => {
+                    const onReady = () => { audioElement.removeEventListener('canplay', onReady); resolve(); };
+                    const onErr = () => { audioElement.removeEventListener('error', onErr); reject(new Error('Audio load failed')); };
+                    audioElement.addEventListener('canplay', onReady, { once: true });
+                    audioElement.addEventListener('error', onErr, { once: true });
+                    // Timeout after 5s — don't block forever
+                    setTimeout(() => { audioElement.removeEventListener('canplay', onReady); resolve(); }, 5000);
+                });
+            }
+
             // Reuse existing AudioContext + analyser if available (reconnect case)
             if (!audioContext) {
                 audioContext = new (window.AudioContext || window.webkitAudioContext)();
@@ -65,6 +77,14 @@ const AudioAnalyser = (() => {
             // The <audio> element keeps playing through its normal path.
             // Fresh stream captures the current audio.src.
             const stream = captureFn.call(audioElement);
+
+            // Verify stream has audio tracks before creating source
+            if (!stream.getAudioTracks || stream.getAudioTracks().length === 0) {
+                console.warn('AudioAnalyser: captureStream returned no audio tracks, will retry on next play');
+                connecting = false;
+                return false;
+            }
+
             sourceNode = audioContext.createMediaStreamSource(stream);
             sourceNode.connect(analyser);
             // Do NOT connect analyser to audioContext.destination — that would cause echo.
@@ -81,10 +101,8 @@ const AudioAnalyser = (() => {
         } catch (e) {
             console.warn('AudioAnalyser: ' + e.message);
             connecting = false;
-            try { if (audioContext) audioContext.close(); } catch(x) {}
-            audioContext = null;
-            analyser = null;
-            sourceNode = null;
+            // Don't destroy audioContext on failure — allow retry
+            if (sourceNode) { try { sourceNode.disconnect(); } catch(_) {} sourceNode = null; }
             return false;
         }
     }

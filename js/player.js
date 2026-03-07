@@ -541,34 +541,30 @@ function buildMeaningSpans(text, lineStart, lineEnd, coreText) {
 
     const frag = document.createDocumentFragment();
 
-    // Core line: per-word spans with beat-snapped timing
+    // Core line: karaoke synced to the actual lyric word timing.
+    // Map core meaning words proportionally to the sung words' timestamps.
     if (coreText && coreText.trim()) {
         const coreWords = coreText.trim().split(/\s+/);
-
-        // Collect beats within this line for snap targets
-        const allBeats = (loadedTrackData && loadedTrackData.beat_times) || [];
-        const lineBeats = [];
-        for (let b = 0; b < allBeats.length; b++) {
-            if (allBeats[b] >= lineStart - 0.05 && allBeats[b] <= lineEnd + 0.05) {
-                lineBeats.push(allBeats[b]);
-            }
-        }
-
-        // Spread words evenly, snap to nearest beat
         const lineDur = lineEnd - lineStart;
+
+        // Get the lyric words' timing for this line (from alignment data)
+        const lineIdx = currentLyricIndex >= 0 ? currentLyricIndex : -1;
+        const lyricWords = (lineIdx >= 0 && loadedTrackData && loadedTrackData.timeline &&
+                           loadedTrackData.timeline[lineIdx] && loadedTrackData.timeline[lineIdx].words)
+            ? loadedTrackData.timeline[lineIdx].words : [];
+
+        // Build timing: map each core word to a proportional position
+        // based on the actual sung words' timestamps
         const wordTimings = [];
         for (let i = 0; i < coreWords.length; i++) {
-            const ideal = lineStart + (i / coreWords.length) * lineDur;
-            let snapped = ideal;
-            if (lineBeats.length > 0) {
-                let bestDist = Infinity;
-                for (let b = 0; b < lineBeats.length; b++) {
-                    const dist = Math.abs(lineBeats[b] - ideal);
-                    if (dist < bestDist) { bestDist = dist; snapped = lineBeats[b]; }
-                }
-                if (bestDist > 0.4) snapped = ideal;
+            const pct = i / coreWords.length;
+            if (lyricWords.length > 0) {
+                // Map to the corresponding lyric word's start time
+                const lyricIdx = Math.min(Math.floor(pct * lyricWords.length), lyricWords.length - 1);
+                wordTimings.push(Math.max(lyricWords[lyricIdx].start, lineStart));
+            } else {
+                wordTimings.push(lineStart + pct * lineDur);
             }
-            wordTimings.push(snapped);
         }
         // Ensure monotonic
         for (let i = 1; i < wordTimings.length; i++) {
@@ -618,6 +614,7 @@ function syncTick(frameTimestamp) {
     if (!loadedTrackData || !loadedTrackData.timeline || loadedTrackData.timeline.length === 0) return;
     const timeline = loadedTrackData.timeline;
     const ct = audio.currentTime;
+
     const albumPath = `albums/${currentAlbumConfig.album_id}`;
 
     // ── 1a. Timing engine tick (MACRO: sections, transitions, energy_curve) ──
@@ -773,14 +770,15 @@ function syncTick(frameTimestamp) {
         }
     }
 
-    // ── 4b. Meaning panel karaoke + beat sync ──
-    // Core words: future → active → sung with beat-driven glow
-    // Full text: breathe opacity with beat
+    // ── 4b. Meaning panel karaoke + beat glow ──
+    // Core words: future → active → sung, synced to lyric word timing
     if (meaningWordSpans.length > 0) {
-        const bp = (audioState ? audioState.beatPulse : timing.beatPulse) || 0;
+        const _eMod = timing.energy < 0.12 ? 0 : Math.min(timing.energy * 1.5, 1.0);
+        const bp = (audioState && audioState.overall > 0.01)
+            ? Math.max(timing.beatPulse * _eMod, audioState.beatPulse)
+            : (timing.beatPulse * _eMod);
         for (let m = 0; m < meaningWordSpans.length; m++) {
             const span = meaningWordSpans[m];
-
             if (span.dataset.core === '1') {
                 const cs = parseFloat(span.dataset.start);
                 const ce = parseFloat(span.dataset.end);
@@ -789,12 +787,10 @@ function syncTick(frameTimestamp) {
                     span.style.transform = '';
                     span.style.textShadow = '';
                 } else if (ct >= cs && ct < ce) {
-                    if (span.className !== 'meaning-core-active') {
-                        // Flash removed here — too frequent. Only flash on line change (section 3).
-                    }
                     span.className = 'meaning-core-active';
                     const scale = 1.0 + bp * 0.05;
-                    span.style.transform = `translateY(0) scale(${scale.toFixed(3)})`;
+                    span.style.transform = `scale(${scale.toFixed(3)})`;
+                    span.style.textShadow = `0 0 12px var(--accent-glow), 0 0 4px rgba(255,255,255,0.3)`;
                 } else {
                     span.className = 'meaning-core-sung';
                     const glow = bp * 0.3;
@@ -848,27 +844,58 @@ function syncTick(frameTimestamp) {
     // Real-time audio analysis enhances when available (adds bass/treble detail).
     const root = document.documentElement.style;
 
-    // Always use pre-computed beat pulse as the foundation
-    let effectivePulse = timing.beatPulse;
+    // Beat pulse scaled by energy — silence = no pulse, playing = full pulse
+    const energyMod = timing.energy < 0.12 ? 0 : Math.min(timing.energy * 1.5, 1.0);
+    let effectivePulse = timing.beatPulse * energyMod;
     let effectiveEnergy = timing.energy;
-    let effectiveBeatDetected = timing.isDownbeat;
+    let effectiveBeatDetected = timing.isDownbeat && timing.energy > 0.15;
 
     // Blend in real-time audio analysis when active and producing signal
     if (audioState && audioState.overall > 0.01) {
-        // Take the stronger of pre-computed or real-time beat pulse
-        effectivePulse = Math.max(timing.beatPulse, audioState.beatPulse);
+        // Real-time audio gives actual dynamic response — prefer it when available
+        effectivePulse = Math.max(effectivePulse, audioState.beatPulse);
         effectiveEnergy = audioState.overall;
         effectiveBeatDetected = effectiveBeatDetected || audioState.beatDetected;
         root.setProperty('--bass-energy', audioState.bass.toFixed(3));
         root.setProperty('--treble-energy', audioState.treble.toFixed(3));
     } else {
-        root.setProperty('--bass-energy', '0');
+        root.setProperty('--bass-energy', (timing.energy * 0.5).toFixed(3));
         root.setProperty('--treble-energy', '0');
     }
 
     root.setProperty('--beat-pulse', effectivePulse.toFixed(3));
     root.setProperty('--audio-energy', effectiveEnergy.toFixed(3));
+    root.setProperty('--beat-text-glow', effectivePulse.toFixed(3));
     Zone2Outer.applyBeatPulse(effectivePulse, effectiveBeatDetected);
+
+    // Direct JS glow fallback — ensures beat-reactive effects even if CSS calc(var()) fails
+    if (elCurr && effectivePulse > 0.01) {
+        const gSize = 6 + effectivePulse * 14;
+        const gAlpha = 0.06 + effectivePulse * 0.2;
+        elCurr.style.textShadow = `0 0 ${gSize.toFixed(0)}px var(--accent-glow), 0 0 ${(gSize*0.6).toFixed(0)}px rgba(255,255,255,${gAlpha.toFixed(2)})`;
+        elCurr.style.transform = `scale(${(1 + effectivePulse * 0.012).toFixed(4)})`;
+    } else if (elCurr && effectivePulse <= 0.01) {
+        elCurr.style.textShadow = '';
+        elCurr.style.transform = '';
+    }
+
+    // Phone frame glow — outer box-shadow on desktop, inner vignette on mobile
+    const _pf = document.getElementById('phone-frame');
+    if (_pf && effectivePulse > 0.01) {
+        const isMobile = window.innerWidth <= 768;
+        if (isMobile) {
+            // Mobile: inset glow (vignette edge flash) since box-shadow is disabled
+            const inA = effectivePulse * 0.15;
+            const inPx = 30 + effectivePulse * 40;
+            _pf.style.boxShadow = `inset 0 0 ${inPx.toFixed(0)}px rgba(255,170,0,${inA.toFixed(3)})`;
+        } else {
+            const glowPx = 5 + effectivePulse * 16;
+            const glowA = 0.04 + effectivePulse * 0.2;
+            _pf.style.boxShadow = `0 0 40px rgba(0,0,0,0.8), 0 0 80px rgba(0,0,0,0.4), 0 0 ${glowPx.toFixed(0)}px rgba(255,170,0,${glowA.toFixed(2)}), inset 0 0 1px rgba(255,255,255,0.1)`;
+        }
+    } else if (_pf && effectivePulse <= 0.01) {
+        _pf.style.boxShadow = '';
+    }
 
     // Symbol embers — per-frame tick
     if (typeof SymbolEmbers !== 'undefined') {
@@ -901,6 +928,7 @@ function syncTick(frameTimestamp) {
             }
         }
     }
+
 }
 
 // Reconnect audio analyser after track change and ensure sync loop runs.
@@ -908,7 +936,17 @@ function syncTick(frameTimestamp) {
 // so this forces a fresh captureStream() on the new audio source.
 function reconnectAnalyserAndPlay() {
     if (typeof AudioAnalyser !== 'undefined') {
-        AudioAnalyser.connect(audio); // fire-and-forget async — reattaches to new audio.src
+        AudioAnalyser.disconnect();
+        // Try connecting now, and retry on 'playing' event when audio is actually producing sound
+        AudioAnalyser.connect(audio).then(ok => {
+            if (!ok) {
+                const retryOnPlaying = () => {
+                    audio.removeEventListener('playing', retryOnPlaying);
+                    AudioAnalyser.connect(audio);
+                };
+                audio.addEventListener('playing', retryOnPlaying, { once: true });
+            }
+        });
     }
     startSyncLoop();
 }
@@ -959,14 +997,16 @@ function scheduleUICollapse() {
     }
 }
 
-// Mouse movement over phone frame temporarily reveals UI
-const phoneFrame = document.getElementById('phone-frame');
-if (phoneFrame) {
-    phoneFrame.addEventListener('mousemove', () => {
+// Mouse/touch over phone frame temporarily reveals UI
+const phoneFrameEl = document.getElementById('phone-frame');
+if (phoneFrameEl) {
+    const _revealHandler = () => {
         if (audio.paused) return;
         revealUI();
         scheduleUICollapse();
-    });
+    };
+    phoneFrameEl.addEventListener('mousemove', _revealHandler);
+    phoneFrameEl.addEventListener('touchstart', _revealHandler, { passive: true });
 }
 
 // ── Playback Controls ────────────────────────────────────
@@ -983,9 +1023,9 @@ function togglePlay() {
 }
 if (btnPlay) btnPlay.addEventListener('click', togglePlay);
 
-// Click anywhere on the phone frame to pause/play (reuses phoneFrame from line ~851)
-if (phoneFrame) {
-    phoneFrame.addEventListener('click', (e) => {
+// Click anywhere on the phone frame to pause/play
+if (phoneFrameEl) {
+    phoneFrameEl.addEventListener('click', (e) => {
         // Don't toggle if clicking on controls, buttons, links, or variant picker
         if (e.target.closest('#player-controls, button, a, select, .variant-picker, #track-list')) return;
         togglePlay();
