@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://az-dev-me.github.io/chak-chak-mage/sitemap.xml
