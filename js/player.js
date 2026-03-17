@@ -40,13 +40,52 @@ function generateDefaultTheme(index) {
 // ── Utility ──────────────────────────────────────────────
 function sanitizeLyricForDisplay(text) {
     if (!text || typeof text !== 'string') return '';
-    const t = text.trim();
+    let t = text.trim();
+    t = censorText(t);
     if (t.length <= DISPLAY_MAX_CHARS) {
         const words = t.split(/\s+/);
         if (words.length <= DISPLAY_MAX_WORDS) return t;
         return words.slice(0, DISPLAY_MAX_WORDS).join(' ') + '\u2026';
     }
     return t.slice(0, DISPLAY_MAX_CHARS) + '\u2026';
+}
+
+// ── Profanity filter ─────────────────────────────────────
+const CENSOR_MAP = [
+    { pattern: /\bfuck\b/gi, replacement: 'f#@k' },
+    { pattern: /\bshit\b/gi, replacement: 'sh#t' },
+];
+
+function censorText(text) {
+    if (!text) return text;
+    let out = text;
+    for (const rule of CENSOR_MAP) {
+        out = out.replace(rule.pattern, rule.replacement);
+    }
+    return out;
+}
+
+// Audio ducking for censored words — timestamps where volume should dip
+const CENSOR_DUCK_RANGES = [
+    { trackId: 'track_09', start: 8.20, end: 8.90 },   // "fuck"
+    { trackId: 'track_09', start: 10.85, end: 11.05 },  // "shit"
+];
+const DUCK_VOLUME = 0.08;  // nearly muted
+const NORMAL_VOLUME = 1.0;
+let _lastDucked = false;
+
+function applyCensorDucking(ct, trackId) {
+    let shouldDuck = false;
+    for (const r of CENSOR_DUCK_RANGES) {
+        if (r.trackId === trackId && ct >= r.start && ct <= r.end) {
+            shouldDuck = true;
+            break;
+        }
+    }
+    if (shouldDuck !== _lastDucked) {
+        _lastDucked = shouldDuck;
+        audio.volume = shouldDuck ? DUCK_VOLUME : NORMAL_VOLUME;
+    }
 }
 
 function formatTime(seconds) {
@@ -254,6 +293,8 @@ async function initPlayer() {
     // Restore playback mode buttons from localStorage and build queue
     updateModeButtons();
     buildPlayQueue();
+    // If ALL VERSIONS was persisted, rebuild timeline for full queue
+    if (playAllVersions) await rebuildAlbumTimeline();
 }
 
 // ── Track List Nav ───────────────────────────────────────
@@ -416,6 +457,10 @@ async function loadTrack(index) {
     if (!trackMeta) return;
 
     if (elTrackName) elTrackName.innerText = trackMeta.title || '';
+
+    // Reset censor ducking state
+    audio.volume = NORMAL_VOLUME;
+    _lastDucked = false;
 
     applyTrackTheme(trackMeta.id);
     updateTrackPills();
@@ -617,7 +662,7 @@ function buildWordSpans(words) {
     for (let i = 0; i < limit; i++) {
         const span = document.createElement('span');
         span.className = 'word-future';
-        span.textContent = words[i].text;
+        span.textContent = censorText(words[i].text);
         wordSpans.push(span);
         frag.appendChild(span);
         if (i < limit - 1) frag.appendChild(document.createTextNode(' '));
@@ -754,6 +799,11 @@ function syncTick(frameTimestamp) {
     if (!loadedTrackData || !loadedTrackData.timeline || loadedTrackData.timeline.length === 0) return;
     const timeline = loadedTrackData.timeline;
     const ct = audio.currentTime;
+
+    // Censor audio ducking — drop volume during profanity
+    const curTrackId = currentAlbumConfig && currentAlbumConfig.tracks[currentTrackIndex]
+        ? currentAlbumConfig.tracks[currentTrackIndex].track_id : '';
+    applyCensorDucking(ct, curTrackId);
 
     const albumPath = `albums/${currentAlbumConfig.album_id}`;
 
@@ -1207,12 +1257,24 @@ if (btnRepeatEl) btnRepeatEl.addEventListener('click', () => {
 
 // Play All Versions toggle
 const btnPlayAllEl = document.getElementById('btn-play-all');
-if (btnPlayAllEl) btnPlayAllEl.addEventListener('click', () => {
+if (btnPlayAllEl) btnPlayAllEl.addEventListener('click', async () => {
     playAllVersions = !playAllVersions;
     localStorage.setItem('chak_playall', playAllVersions);
     buildPlayQueue();
+    await rebuildAlbumTimeline();
     updateModeButtons();
 });
+
+// Rebuild album timeline based on current mode (default tracks vs all versions)
+async function rebuildAlbumTimeline() {
+    if (!currentAlbumConfig) return;
+    if (playAllVersions && playQueue.length > 0) {
+        await loadQueueDurations(currentAlbumConfig.album_id, playQueue, currentAlbumConfig);
+    } else {
+        await loadAlbumDurations(currentAlbumConfig.album_id, currentAlbumConfig.tracks.length);
+    }
+    buildAlbumTimelineTicks();
+}
 
 // ── Swipe Gestures (mobile) ─────────────────────────────
 // Left/right = next/prev track, up/down = scrub timeline
@@ -1278,10 +1340,11 @@ audio.addEventListener('timeupdate', () => {
         progressBar.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
     }
 
-    // Album-level progress
+    // Album-level progress — use queuePosition when ALL VERSIONS is active
     const albumBar = document.getElementById('album-progress-bar');
+    const timelineIdx = playAllVersions ? queuePosition : currentTrackIndex;
     if (albumBar && typeof albumTotalDuration !== 'undefined' && albumTotalDuration > 0) {
-        const albumPosition = (trackCumulativeStarts[currentTrackIndex] || 0) + audio.currentTime;
+        const albumPosition = (trackCumulativeStarts[timelineIdx] || 0) + audio.currentTime;
         albumBar.style.width = `${(albumPosition / albumTotalDuration) * 100}%`;
     }
 
@@ -1295,7 +1358,7 @@ audio.addEventListener('timeupdate', () => {
         if (timeTotal && audio.duration) timeTotal.textContent = formatTime(audio.duration);
         if (modeLabel) modeLabel.textContent = 'TRACK';
     } else {
-        const albumPos = (typeof trackCumulativeStarts !== 'undefined' ? (trackCumulativeStarts[currentTrackIndex] || 0) : 0) + audio.currentTime;
+        const albumPos = (typeof trackCumulativeStarts !== 'undefined' ? (trackCumulativeStarts[timelineIdx] || 0) : 0) + audio.currentTime;
         if (timeCurrent) timeCurrent.textContent = formatTime(albumPos);
         if (timeTotal && typeof albumTotalDuration !== 'undefined' && albumTotalDuration > 0) {
             timeTotal.textContent = formatTime(albumTotalDuration);
@@ -1600,19 +1663,38 @@ function seekTrack(pct) {
 function seekAlbum(pct) {
     if (typeof albumTotalDuration === 'undefined' || albumTotalDuration <= 0) return;
     const albumTime = pct * albumTotalDuration;
-    let targetTrack = 0;
+    let targetIdx = 0;
     for (let i = 0; i < trackCumulativeStarts.length; i++) {
-        if (albumTime >= trackCumulativeStarts[i]) targetTrack = i;
+        if (albumTime >= trackCumulativeStarts[i]) targetIdx = i;
     }
-    const timeInTrack = albumTime - trackCumulativeStarts[targetTrack];
-    if (targetTrack !== currentTrackIndex) {
-        loadTrack(targetTrack).then(() => {
+    const timeInTrack = albumTime - trackCumulativeStarts[targetIdx];
+
+    if (playAllVersions) {
+        // targetIdx is a queue position
+        const entry = playQueue[targetIdx];
+        if (!entry) return;
+        if (targetIdx !== queuePosition) {
+            advanceToQueueEntry(entry);
+            // Wait for load then seek
+            const waitSeek = setInterval(() => {
+                if (audio.readyState >= 1) {
+                    clearInterval(waitSeek);
+                    audio.currentTime = Math.max(0, timeInTrack);
+                }
+            }, 50);
+        } else {
             audio.currentTime = Math.max(0, timeInTrack);
-            audio.play();
-            reconnectAnalyserAndPlay();
-        });
+        }
     } else {
-        audio.currentTime = Math.max(0, timeInTrack);
+        if (targetIdx !== currentTrackIndex) {
+            loadTrack(targetIdx).then(() => {
+                audio.currentTime = Math.max(0, timeInTrack);
+                audio.play();
+                reconnectAnalyserAndPlay();
+            });
+        } else {
+            audio.currentTime = Math.max(0, timeInTrack);
+        }
     }
 }
 

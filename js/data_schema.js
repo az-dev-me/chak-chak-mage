@@ -177,6 +177,41 @@ async function loadAlbumDurations(albumId, trackCount) {
     }
 }
 
+// Load durations for a custom queue of {trackIndex, variantId} entries
+// Used when "ALL VERSIONS" is active to show the full extended timeline
+async function loadQueueDurations(albumId, queue, albumConfig) {
+    trackDurations = [];
+    trackCumulativeStarts = [0];
+    albumTotalDuration = 0;
+
+    const promises = queue.map((entry, i) => {
+        const trackMeta = albumConfig.tracks[entry.trackIndex];
+        const trackId = trackMeta.track_id || trackMeta.id;
+        // Try variant-specific structure file first, fallback to base track
+        const variantFile = entry.variantId
+            ? `albums/${albumId}/data/${trackId}_${entry.variantId}.structure.json`
+            : `albums/${albumId}/data/${trackId}.structure.json`;
+        const baseFile = `albums/${albumId}/data/${trackId}.structure.json`;
+
+        return fetch(variantFile)
+            .then(r => r.ok ? r.json() : fetch(baseFile).then(r2 => r2.ok ? r2.json() : null))
+            .then(d => ({ index: i, duration: d ? d.duration : 180 }))
+            .catch(() => ({ index: i, duration: 180 }));
+    });
+
+    const results = await Promise.all(promises);
+    results.sort((a, b) => a.index - b.index);
+    results.forEach(r => {
+        trackDurations.push(r.duration);
+        albumTotalDuration += r.duration;
+    });
+
+    trackCumulativeStarts = [0];
+    for (let i = 0; i < trackDurations.length - 1; i++) {
+        trackCumulativeStarts.push(trackCumulativeStarts[i] + trackDurations[i]);
+    }
+}
+
 // Load structure data (sections, transition_points) from .structure.json
 // Called after fetchTrackData — supplements track data if not already present.
 async function loadStructureData(albumId, trackId) {
