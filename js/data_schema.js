@@ -187,14 +187,21 @@ async function loadQueueDurations(albumId, queue, albumConfig) {
     const promises = queue.map((entry, i) => {
         const trackMeta = albumConfig.tracks[entry.trackIndex];
         const trackId = trackMeta.track_id || trackMeta.id;
-        // Try variant-specific structure file first, fallback to base track
-        const variantFile = entry.variantId
-            ? `albums/${albumId}/data/${trackId}_${entry.variantId}.structure.json`
-            : `albums/${albumId}/data/${trackId}.structure.json`;
         const baseFile = `albums/${albumId}/data/${trackId}.structure.json`;
 
-        return fetch(variantFile)
-            .then(r => r.ok ? r.json() : fetch(baseFile).then(r2 => r2.ok ? r2.json() : null))
+        // Only try variant-specific file if it differs from the default
+        // (avoids noisy 404s for default variants that share the base file)
+        const isDefaultVariant = !entry.variantId ||
+            entry.variantId === (trackMeta.variant_id || trackMeta.defaultVariant);
+        const variantFile = (!isDefaultVariant && entry.variantId)
+            ? `albums/${albumId}/data/${trackId}_${entry.variantId}.structure.json`
+            : null;
+
+        const doFetch = variantFile
+            ? fetch(variantFile).then(r => r.ok ? r.json() : fetch(baseFile).then(r2 => r2.ok ? r2.json() : null))
+            : fetch(baseFile).then(r => r.ok ? r.json() : null);
+
+        return doFetch
             .then(d => ({ index: i, duration: d ? d.duration : 180 }))
             .catch(() => ({ index: i, duration: 180 }));
     });
