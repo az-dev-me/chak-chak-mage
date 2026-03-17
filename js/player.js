@@ -178,7 +178,9 @@ function advanceToQueueEntry(entry) {
         const trackMeta = currentAlbumConfig.tracks[entry.trackIndex];
         const variant = (trackMeta.variants || []).find(v => v.id === entry.variantId);
         if (variant && variant.id !== currentVariantId) {
-            switchVariant(variant, trackMeta);
+            switchVariant(variant, trackMeta).then(() => {
+                audio.play(); reconnectAnalyserAndPlay();
+            });
             return;
         }
     }
@@ -1337,6 +1339,7 @@ audio.addEventListener('ended', () => {
 
     // Get next entry (respects play-all-versions, shuffle, repeat-all)
     const next = getNextQueueEntry();
+    console.log('[player] track ended — queuePos:', queuePosition, 'queueLen:', playQueue.length, 'next:', next, 'repeat:', repeatMode);
     if (next) {
         advanceToQueueEntry(next);
     } else {
@@ -1345,6 +1348,7 @@ audio.addEventListener('ended', () => {
 });
 
 function showEndScreen() {
+    console.log('[player] showEndScreen called');
     if (btnPlay) btnPlay.innerText = "\u25B6";
 
     // Set cover image as background
