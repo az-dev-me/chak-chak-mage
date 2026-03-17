@@ -737,6 +737,24 @@ header p {
     color: var(--accent);
 }
 
+/* Secondary controls row (Play All Versions) */
+.buttons-secondary {
+    margin-top: 2px !important;
+    gap: 12px;
+}
+.btn-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem !important;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+}
+.btn-label.mode-active {
+    border-color: var(--accent);
+    background: rgba(255,170,0,0.1);
+}
+
 /* ── Controls compact: collapse to thin progress bar during playback ── */
 #player-controls.controls-compact {
     padding: 4px 14px 3px;
@@ -749,6 +767,7 @@ header p {
 #player-controls.controls-compact .track-info,
 #player-controls.controls-compact .variant-picker,
 #player-controls.controls-compact .buttons,
+#player-controls.controls-compact .buttons-secondary,
 #player-controls.controls-compact .time-display {
     opacity: 0;
     max-height: 0;
@@ -794,6 +813,13 @@ header p {
     opacity: 1;
     max-height: 50px;
     margin-top: 8px;
+    pointer-events: auto;
+}
+
+#player-controls.controls-compact:hover .buttons-secondary {
+    opacity: 1;
+    max-height: 30px;
+    margin-top: 2px;
     pointer-events: auto;
 }
 

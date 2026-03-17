@@ -97,69 +97,109 @@ const variantPicker = document.getElementById('variant-picker');
 // ── Playback mode state ────────────────────────────────
 let shuffleEnabled = localStorage.getItem('chak_shuffle') === 'true';
 let repeatMode = localStorage.getItem('chak_repeat') || 'off'; // 'off' | 'one' | 'all'
-let shuffledOrder = [];        // shuffled track indices
-let shufflePosition = 0;      // current position in shuffledOrder
+let playAllVersions = localStorage.getItem('chak_playall') === 'true';
 
-function generateShuffledOrder() {
+// Queue: array of {trackIndex, variantId} entries
+let playQueue = [];
+let queuePosition = 0;
+
+// Build the playback queue based on current mode
+function buildPlayQueue() {
     if (!currentAlbumConfig || !currentAlbumConfig.tracks) return;
-    const n = currentAlbumConfig.tracks.length;
-    shuffledOrder = Array.from({ length: n }, (_, i) => i);
-    // Fisher-Yates shuffle
-    for (let i = n - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
-    }
-    // Put current track at position 0 so we don't skip what's playing
-    const curPos = shuffledOrder.indexOf(currentTrackIndex);
-    if (curPos > 0) {
-        [shuffledOrder[0], shuffledOrder[curPos]] = [shuffledOrder[curPos], shuffledOrder[0]];
-    }
-    shufflePosition = 0;
-}
+    playQueue = [];
+    const tracks = currentAlbumConfig.tracks;
 
-function getNextTrackIndex() {
-    if (!currentAlbumConfig || !currentAlbumConfig.tracks) return -1;
-    const total = currentAlbumConfig.tracks.length;
+    if (playAllVersions) {
+        // Every variant of every track
+        tracks.forEach((t, i) => {
+            const variants = t.variants || [];
+            if (variants.length > 0) {
+                variants.forEach(v => playQueue.push({ trackIndex: i, variantId: v.id }));
+            } else {
+                playQueue.push({ trackIndex: i, variantId: null });
+            }
+        });
+    } else {
+        // One entry per track (default variant)
+        tracks.forEach((t, i) => {
+            playQueue.push({ trackIndex: i, variantId: t.variant_id || null });
+        });
+    }
+
     if (shuffleEnabled) {
-        if (shufflePosition < shuffledOrder.length - 1) {
-            return shuffledOrder[shufflePosition + 1];
+        // Fisher-Yates shuffle
+        for (let i = playQueue.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [playQueue[i], playQueue[j]] = [playQueue[j], playQueue[i]];
         }
-        // End of shuffle queue
-        if (repeatMode === 'all') {
-            generateShuffledOrder();
-            return shuffledOrder[0];
+        // Move current track+variant to position 0
+        const curIdx = playQueue.findIndex(q =>
+            q.trackIndex === currentTrackIndex &&
+            (q.variantId === currentVariantId || (!q.variantId && !currentVariantId))
+        );
+        if (curIdx > 0) {
+            [playQueue[0], playQueue[curIdx]] = [playQueue[curIdx], playQueue[0]];
         }
-        return -1; // no next
     }
-    // Sequential
-    if (currentTrackIndex < total - 1) return currentTrackIndex + 1;
-    if (repeatMode === 'all') return 0;
-    return -1;
+
+    // Set position to current track+variant
+    queuePosition = Math.max(0, playQueue.findIndex(q =>
+        q.trackIndex === currentTrackIndex &&
+        (q.variantId === currentVariantId || (!q.variantId && !currentVariantId))
+    ));
 }
 
-function getPrevTrackIndex() {
-    if (!currentAlbumConfig || !currentAlbumConfig.tracks) return -1;
-    const total = currentAlbumConfig.tracks.length;
-    if (shuffleEnabled) {
-        if (shufflePosition > 0) return shuffledOrder[shufflePosition - 1];
-        return -1;
+function getNextQueueEntry() {
+    if (queuePosition < playQueue.length - 1) {
+        return playQueue[queuePosition + 1];
     }
-    if (currentTrackIndex > 0) return currentTrackIndex - 1;
-    if (repeatMode === 'all') return total - 1;
-    return -1;
+    if (repeatMode === 'all') {
+        if (shuffleEnabled) buildPlayQueue(); // re-shuffle
+        return playQueue[0];
+    }
+    return null;
 }
 
-function advanceToTrack(idx) {
-    if (idx < 0) return;
-    if (shuffleEnabled) {
-        shufflePosition = shuffledOrder.indexOf(idx);
+function getPrevQueueEntry() {
+    if (queuePosition > 0) return playQueue[queuePosition - 1];
+    if (repeatMode === 'all') return playQueue[playQueue.length - 1];
+    return null;
+}
+
+function advanceToQueueEntry(entry) {
+    if (!entry) return;
+    const newPos = playQueue.findIndex(q =>
+        q.trackIndex === entry.trackIndex && q.variantId === entry.variantId
+    );
+    if (newPos >= 0) queuePosition = newPos;
+
+    if (entry.trackIndex === currentTrackIndex) {
+        // Same track, different variant — switch variant without reloading track
+        const trackMeta = currentAlbumConfig.tracks[entry.trackIndex];
+        const variant = (trackMeta.variants || []).find(v => v.id === entry.variantId);
+        if (variant && variant.id !== currentVariantId) {
+            switchVariant(variant, trackMeta);
+            return;
+        }
     }
-    loadTrack(idx).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
+    // Different track — load it, then switch variant if needed
+    loadTrack(entry.trackIndex).then(() => {
+        const trackMeta = currentAlbumConfig.tracks[entry.trackIndex];
+        const variant = (trackMeta.variants || []).find(v => v.id === entry.variantId);
+        if (variant && variant.id !== currentVariantId) {
+            switchVariant(variant, trackMeta).then(() => {
+                audio.play(); reconnectAnalyserAndPlay();
+            });
+        } else {
+            audio.play(); reconnectAnalyserAndPlay();
+        }
+    });
 }
 
 function updateModeButtons() {
     const btnShuffle = document.getElementById('btn-shuffle');
     const btnRepeat = document.getElementById('btn-repeat');
+    const btnPlayAll = document.getElementById('btn-play-all');
     if (btnShuffle) {
         btnShuffle.classList.toggle('mode-active', shuffleEnabled);
     }
@@ -177,6 +217,9 @@ function updateModeButtons() {
             btnRepeat.innerHTML = '\u{1F501}';
             btnRepeat.title = 'Repeat Off';
         }
+    }
+    if (btnPlayAll) {
+        btnPlayAll.classList.toggle('mode-active', playAllVersions);
     }
 }
 
@@ -206,9 +249,9 @@ async function initPlayer() {
     buildTrackList();
     await loadTrack(0);
 
-    // Restore playback mode buttons from localStorage
+    // Restore playback mode buttons from localStorage and build queue
     updateModeButtons();
-    if (shuffleEnabled) generateShuffledOrder();
+    buildPlayQueue();
 }
 
 // ── Track List Nav ───────────────────────────────────────
@@ -220,10 +263,9 @@ function buildTrackList() {
         pill.className = 'track-pill' + (i === currentTrackIndex ? ' active' : '');
         pill.textContent = t.title || `Track ${i + 1}`;
         pill.addEventListener('click', () => {
-            if (shuffleEnabled) {
-                const pos = shuffledOrder.indexOf(i);
-                if (pos >= 0) shufflePosition = pos;
-            }
+            // Update queue position to this track's first entry
+            const pos = playQueue.findIndex(q => q.trackIndex === i);
+            if (pos >= 0) queuePosition = pos;
             loadTrack(i).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
         });
         trackListNav.appendChild(pill);
@@ -1130,15 +1172,15 @@ if (phoneFrameEl) {
 }
 
 if (btnNext) btnNext.addEventListener('click', () => {
-    const next = getNextTrackIndex();
-    if (next >= 0) advanceToTrack(next);
+    const next = getNextQueueEntry();
+    if (next) advanceToQueueEntry(next);
 });
 
 if (btnPrev) btnPrev.addEventListener('click', () => {
     if (audio.currentTime > 3) { audio.currentTime = 0; }
     else {
-        const prev = getPrevTrackIndex();
-        if (prev >= 0) advanceToTrack(prev);
+        const prev = getPrevQueueEntry();
+        if (prev) advanceToQueueEntry(prev);
     }
 });
 
@@ -1147,7 +1189,7 @@ const btnShuffleEl = document.getElementById('btn-shuffle');
 if (btnShuffleEl) btnShuffleEl.addEventListener('click', () => {
     shuffleEnabled = !shuffleEnabled;
     localStorage.setItem('chak_shuffle', shuffleEnabled);
-    if (shuffleEnabled) generateShuffledOrder();
+    buildPlayQueue();
     updateModeButtons();
 });
 
@@ -1158,6 +1200,15 @@ if (btnRepeatEl) btnRepeatEl.addEventListener('click', () => {
     else if (repeatMode === 'all') repeatMode = 'one';
     else repeatMode = 'off';
     localStorage.setItem('chak_repeat', repeatMode);
+    updateModeButtons();
+});
+
+// Play All Versions toggle
+const btnPlayAllEl = document.getElementById('btn-play-all');
+if (btnPlayAllEl) btnPlayAllEl.addEventListener('click', () => {
+    playAllVersions = !playAllVersions;
+    localStorage.setItem('chak_playall', playAllVersions);
+    buildPlayQueue();
     updateModeButtons();
 });
 
@@ -1191,15 +1242,15 @@ if (btnRepeatEl) btnRepeatEl.addEventListener('click', () => {
         if (absDx > absDy) {
             // Horizontal swipe — change track
             if (dx < 0) {
-                // Swipe left = next track
-                const next = getNextTrackIndex();
-                if (next >= 0) advanceToTrack(next);
+                // Swipe left = next
+                const next = getNextQueueEntry();
+                if (next) advanceToQueueEntry(next);
             } else {
-                // Swipe right = prev track (or restart)
+                // Swipe right = prev (or restart)
                 if (audio.currentTime > 3) { audio.currentTime = 0; }
                 else {
-                    const prev = getPrevTrackIndex();
-                    if (prev >= 0) advanceToTrack(prev);
+                    const prev = getPrevQueueEntry();
+                    if (prev) advanceToQueueEntry(prev);
                 }
             }
         } else {
@@ -1284,10 +1335,10 @@ audio.addEventListener('ended', () => {
         return;
     }
 
-    // Get next track (respects shuffle + repeat-all)
-    const next = getNextTrackIndex();
-    if (next >= 0) {
-        advanceToTrack(next);
+    // Get next entry (respects play-all-versions, shuffle, repeat-all)
+    const next = getNextQueueEntry();
+    if (next) {
+        advanceToQueueEntry(next);
     } else {
         showEndScreen();
     }
