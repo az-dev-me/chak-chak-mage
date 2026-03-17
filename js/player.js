@@ -84,7 +84,9 @@ function applyCensorDucking(ct, trackId) {
     }
     if (shouldDuck !== _lastDucked) {
         _lastDucked = shouldDuck;
-        audio.volume = shouldDuck ? DUCK_VOLUME : NORMAL_VOLUME;
+        const vol = shouldDuck ? DUCK_VOLUME : NORMAL_VOLUME;
+        console.log('[censor] duck:', shouldDuck, 'vol:', vol, 'ct:', ct.toFixed(2), 'track:', trackId);
+        audio.volume = vol;
     }
 }
 
@@ -801,8 +803,8 @@ function syncTick(frameTimestamp) {
     const ct = audio.currentTime;
 
     // Censor audio ducking — drop volume during profanity
-    const curTrackId = currentAlbumConfig && currentAlbumConfig.tracks[currentTrackIndex]
-        ? currentAlbumConfig.tracks[currentTrackIndex].track_id : '';
+    const _t = currentAlbumConfig && currentAlbumConfig.tracks[currentTrackIndex];
+    const curTrackId = _t ? (_t.track_id || _t.id) : '';
     applyCensorDucking(ct, curTrackId);
 
     const albumPath = `albums/${currentAlbumConfig.album_id}`;
