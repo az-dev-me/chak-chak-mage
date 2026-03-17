@@ -94,6 +94,92 @@ let _nextTrackPreloaded = false;
 let currentVariantId = null;
 const variantPicker = document.getElementById('variant-picker');
 
+// ── Playback mode state ────────────────────────────────
+let shuffleEnabled = localStorage.getItem('chak_shuffle') === 'true';
+let repeatMode = localStorage.getItem('chak_repeat') || 'off'; // 'off' | 'one' | 'all'
+let shuffledOrder = [];        // shuffled track indices
+let shufflePosition = 0;      // current position in shuffledOrder
+
+function generateShuffledOrder() {
+    if (!currentAlbumConfig || !currentAlbumConfig.tracks) return;
+    const n = currentAlbumConfig.tracks.length;
+    shuffledOrder = Array.from({ length: n }, (_, i) => i);
+    // Fisher-Yates shuffle
+    for (let i = n - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
+    }
+    // Put current track at position 0 so we don't skip what's playing
+    const curPos = shuffledOrder.indexOf(currentTrackIndex);
+    if (curPos > 0) {
+        [shuffledOrder[0], shuffledOrder[curPos]] = [shuffledOrder[curPos], shuffledOrder[0]];
+    }
+    shufflePosition = 0;
+}
+
+function getNextTrackIndex() {
+    if (!currentAlbumConfig || !currentAlbumConfig.tracks) return -1;
+    const total = currentAlbumConfig.tracks.length;
+    if (shuffleEnabled) {
+        if (shufflePosition < shuffledOrder.length - 1) {
+            return shuffledOrder[shufflePosition + 1];
+        }
+        // End of shuffle queue
+        if (repeatMode === 'all') {
+            generateShuffledOrder();
+            return shuffledOrder[0];
+        }
+        return -1; // no next
+    }
+    // Sequential
+    if (currentTrackIndex < total - 1) return currentTrackIndex + 1;
+    if (repeatMode === 'all') return 0;
+    return -1;
+}
+
+function getPrevTrackIndex() {
+    if (!currentAlbumConfig || !currentAlbumConfig.tracks) return -1;
+    const total = currentAlbumConfig.tracks.length;
+    if (shuffleEnabled) {
+        if (shufflePosition > 0) return shuffledOrder[shufflePosition - 1];
+        return -1;
+    }
+    if (currentTrackIndex > 0) return currentTrackIndex - 1;
+    if (repeatMode === 'all') return total - 1;
+    return -1;
+}
+
+function advanceToTrack(idx) {
+    if (idx < 0) return;
+    if (shuffleEnabled) {
+        shufflePosition = shuffledOrder.indexOf(idx);
+    }
+    loadTrack(idx).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
+}
+
+function updateModeButtons() {
+    const btnShuffle = document.getElementById('btn-shuffle');
+    const btnRepeat = document.getElementById('btn-repeat');
+    if (btnShuffle) {
+        btnShuffle.classList.toggle('mode-active', shuffleEnabled);
+    }
+    if (btnRepeat) {
+        btnRepeat.classList.remove('mode-active', 'mode-one');
+        if (repeatMode === 'all') {
+            btnRepeat.classList.add('mode-active');
+            btnRepeat.innerHTML = '\u{1F501}';
+            btnRepeat.title = 'Repeat All';
+        } else if (repeatMode === 'one') {
+            btnRepeat.classList.add('mode-active', 'mode-one');
+            btnRepeat.innerHTML = '\u{1F502}';
+            btnRepeat.title = 'Repeat One';
+        } else {
+            btnRepeat.innerHTML = '\u{1F501}';
+            btnRepeat.title = 'Repeat Off';
+        }
+    }
+}
+
 // ── Init ─────────────────────────────────────────────────
 async function initPlayer() {
     const entry = (typeof getAlbumEntryById === 'function' && currentAlbumId)
@@ -119,6 +205,10 @@ async function initPlayer() {
 
     buildTrackList();
     await loadTrack(0);
+
+    // Restore playback mode buttons from localStorage
+    updateModeButtons();
+    if (shuffleEnabled) generateShuffledOrder();
 }
 
 // ── Track List Nav ───────────────────────────────────────
@@ -130,6 +220,10 @@ function buildTrackList() {
         pill.className = 'track-pill' + (i === currentTrackIndex ? ' active' : '');
         pill.textContent = t.title || `Track ${i + 1}`;
         pill.addEventListener('click', () => {
+            if (shuffleEnabled) {
+                const pos = shuffledOrder.indexOf(i);
+                if (pos >= 0) shufflePosition = pos;
+            }
             loadTrack(i).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
         });
         trackListNav.appendChild(pill);
@@ -1036,16 +1130,35 @@ if (phoneFrameEl) {
 }
 
 if (btnNext) btnNext.addEventListener('click', () => {
-    if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
-    }
+    const next = getNextTrackIndex();
+    if (next >= 0) advanceToTrack(next);
 });
 
 if (btnPrev) btnPrev.addEventListener('click', () => {
     if (audio.currentTime > 3) { audio.currentTime = 0; }
-    else if (currentTrackIndex > 0) {
-        loadTrack(currentTrackIndex - 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
+    else {
+        const prev = getPrevTrackIndex();
+        if (prev >= 0) advanceToTrack(prev);
     }
+});
+
+// Shuffle toggle
+const btnShuffleEl = document.getElementById('btn-shuffle');
+if (btnShuffleEl) btnShuffleEl.addEventListener('click', () => {
+    shuffleEnabled = !shuffleEnabled;
+    localStorage.setItem('chak_shuffle', shuffleEnabled);
+    if (shuffleEnabled) generateShuffledOrder();
+    updateModeButtons();
+});
+
+// Repeat cycle: off → all → one → off
+const btnRepeatEl = document.getElementById('btn-repeat');
+if (btnRepeatEl) btnRepeatEl.addEventListener('click', () => {
+    if (repeatMode === 'off') repeatMode = 'all';
+    else if (repeatMode === 'all') repeatMode = 'one';
+    else repeatMode = 'off';
+    localStorage.setItem('chak_repeat', repeatMode);
+    updateModeButtons();
 });
 
 // ── Swipe Gestures (mobile) ─────────────────────────────
@@ -1079,14 +1192,14 @@ if (btnPrev) btnPrev.addEventListener('click', () => {
             // Horizontal swipe — change track
             if (dx < 0) {
                 // Swipe left = next track
-                if (currentAlbumConfig && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-                    loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
-                }
+                const next = getNextTrackIndex();
+                if (next >= 0) advanceToTrack(next);
             } else {
                 // Swipe right = prev track (or restart)
                 if (audio.currentTime > 3) { audio.currentTime = 0; }
-                else if (currentTrackIndex > 0) {
-                    loadTrack(currentTrackIndex - 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
+                else {
+                    const prev = getPrevTrackIndex();
+                    if (prev >= 0) advanceToTrack(prev);
                 }
             }
         } else {
@@ -1159,10 +1272,23 @@ audio.addEventListener('pause', () => {
 audio.addEventListener('ended', () => {
     stopSyncLoop();
     revealUI();
-    if (currentAlbumConfig && currentAlbumConfig.tracks && currentTrackIndex < currentAlbumConfig.tracks.length - 1) {
-        loadTrack(currentTrackIndex + 1).then(() => { audio.play(); reconnectAnalyserAndPlay(); });
+
+    // Repeat one: replay same track
+    if (repeatMode === 'one') {
+        audio.currentTime = 0;
+        currentLyricIndex = -1;
+        currentWordIndex = -1;
+        wordSpansBuilt = false;
+        audio.play();
+        reconnectAnalyserAndPlay();
+        return;
+    }
+
+    // Get next track (respects shuffle + repeat-all)
+    const next = getNextTrackIndex();
+    if (next >= 0) {
+        advanceToTrack(next);
     } else {
-        // Album complete — show end screen
         showEndScreen();
     }
 });

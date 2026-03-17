@@ -723,6 +723,20 @@ header p {
     transform: scale(1.1);
 }
 
+/* Shuffle / Repeat mode buttons */
+.btn-mode {
+    font-size: 1rem !important;
+    opacity: 0.4;
+    transition: color 0.2s, transform 0.15s, opacity 0.2s;
+}
+.btn-mode.mode-active {
+    opacity: 1;
+    color: var(--accent);
+}
+.btn-mode.mode-one {
+    color: var(--accent);
+}
+
 /* ── Controls compact: collapse to thin progress bar during playback ── */
 #player-controls.controls-compact {
     padding: 4px 14px 3px;
